@@ -1,0 +1,106 @@
+# ---------------------------------------------------------------------------
+# SECURITY-CRITICAL IGNORES — read before editing.
+# Everything in this first block can contain live taxpayer PII or secrets.
+# ---------------------------------------------------------------------------
+
+# Secrets
+.env
+*.env
+# ...and any spin-off of one. `*.env` does not match `.env.bak`, `.env.local`
+# or `.env.2024-05-old`: a real key sat untracked-but-unignored in the tree
+# because of that gap, one `git add -A` away from being published.
+.env.*
+*.env.*
+!.env.example
+!backend/.env.example
+*.key
+*.pem
+*.pfx
+
+# Storage zones: encrypted originals, masked artifacts, rehydrated outputs.
+data/
+!data/.gitkeep
+
+# Client sample corpus — real workpapers and prepared returns.
+Files/
+TaxFiles/
+# ...and any archive of one. `Files/` does not match `Files.zip`: a 218MB zip of
+# the whole corpus sat untracked-but-unignored in the tree and was one
+# `git add -A` away from being pushed. Ignore the archives by name and by shape.
+Files.zip
+taxfiles.zip
+*.zip
+
+# Legacy scratch output. NOTE: generated_output/tax_return_data.json contains a
+# real taxpayer name, SSN and address in plaintext. It is ignored here so it can
+# never be committed, but it should be deleted from disk.
+generated_output/
+*_extracted.txt
+*_redacted.pdf
+input.pdf
+output.pdf
+
+# Databases (contain PII rows)
+*.db
+*.sqlite
+*.sqlite3
+
+# Vector index (may embed firm knowledge)
+data/vector/
+
+# ---------------------------------------------------------------------------
+# Ordinary build/tooling ignores
+# ---------------------------------------------------------------------------
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+coverage.xml
+dist/
+build/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Vendored Tesseract binaries (~238 MB) — install per host, not via the repo
+Tesseract-OCR/
+
+# Console redirect from a local pytest run, not a build product.
+pytest-run-output.txt
+
+# Eval cases built from the real client corpus, and everything scored from them.
+evals/cases/
+evals/REPORT.md
+evals/.baseline.json
+evals/.last.json
+evals/assistant/REPORT.md
+evals/assistant/last_run.json
+
+# Playwright output
+frontend/test-results/
+frontend/playwright-report/
+
+# Assistant eval runs (answers and timings; regenerate with run_eval --label)
+evals/assistant/runs/

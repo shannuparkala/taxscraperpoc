@@ -1,0 +1,549 @@
+[
+ {
+  "state": "UT",
+  "section": "apportionment",
+  "notes": "### Apportionment Formula\n* **Rule & Formula:** \n  * Multistate businesses are generally classified as **sales factor weighted taxpayers** and must apportion business income using a **100% single sales factor** formula.\n  * An **optional apportionment taxpayer** may elect to calculate its apportionment fraction using either:\n    1. An **equally-weighted three-factor formula** (property factor + payroll factor + sales factor divided by 3, or the number of factors present); or\n    2. The **single sales factor** formula.\n  * An \"optional apportionment taxpayer\" is one that derives greater than 50% of its economic activity from specifically enumerated \"excluded NAICS codes\" (Crude Petroleum Extraction 211120; Coal Mining 2121; Natural Gas Distribution 2212; Food Manufacturing 311; Beverage Manufacturing 3121; Cement Manufacturing 327310; Rail Transportation 482; Motion Picture and Video Production 512110; Broadcasting [except Internet] 515; and Commercial Banking 522110).\n* **Years Applicable:** Applies to both tax years 2025 and 2026 (no changes between them).\n* **Official Sources:**\n  * Utah Code Ann. § 59-7-311: https://le.utah.gov/xcode/Title59/Chapter7/59-7-S311.html\n  * Utah Code Ann. § 59-7-302: https://le.utah.gov/xcode/Title59/Chapter7/59-7-S302.html\n  * Utah State Tax Commission Form TC-20 Instructions: https://tax.utah.gov/forms/current/tc-20inst.pdf\n\n---\n\n### Sourcing of Receipts from Services and Intangibles\n* **Rule:** \n  * **Services:** Utah utilizes **market-based sourcing**. Receipts from the performance of a service are sourced to Utah if the purchaser of the service receives a greater benefit of the service in Utah than in any other single state or foreign country.\n  * **Intangibles:** Receipts in connection with intangible property are sourced to Utah if the intangible property is used in the state. If the intangible property is used both within and outside Utah, receipts are apportioned to Utah based on the percentage of use that occurs in Utah during the tax year.\n* **Years Applicable:** Applies to both tax years 2025 and 2026 (no changes between them).\n* **Official Sources:**\n  * Utah Code Ann. § 59-7-319: https://le.utah.gov/xcode/Title59/Chapter7/59-7-S319.html\n  * Utah State Tax Commission Form TC-20 Instructions: https://tax.utah.gov/forms/current/tc-20inst.pdf\n\n---\n\n### Industries with Their Own Apportionment Formula\n* **Special Industry Rules:** Utah provides specialized apportionment statutes and administrative rules for the following industries:\n  * **Airlines:** Apportioned using airline revenue ton miles for mobile flight equipment, flight personnel compensation, and transportation revenue (Utah Code Ann. §§ 59-7-312 through 59-7-319; Utah Admin. Code R865-6F-35).\n  * **Trucking Companies:** Utah Admin. Code R865-6F-19.\n  * **Railroads:** Utah Admin. Code R865-6F-29.\n  * **Publishing Companies:** Utah Admin. Code R865-6F-31.\n  * **Financial Institutions:** Utah Admin. Code R865-6F-32 and Utah Code Ann. § 59-7-317(4).\n  * **Telecommunications Companies:** Utah Admin. Code R865-6F-33.\n  * **Registered Securities or Commodities Brokers or Dealers:** Utah Admin. Code R865-6F-36 and Utah Code Ann. § 59-7-319(6).\n  * **Regulated Investment Company Service Providers** (mutual fund management, distribution, or administrative services): Utah Code Ann. § 59-7-319(5).\n* **Years Applicable:** Applies to both tax years 2025 and 2026 (no changes between them).\n* **Official Sources:**\n  * Utah State Tax Commission Form TC-20 Instructions: https://tax.utah.gov/forms/current/tc-20inst.pdf\n  * Utah Code Ann. §§ 59-7-312 to 59-7-319: https://le.utah.gov/xcode/Title59/Chapter7/59-7-P3.html\n\n---\n\n### Form or Schedule Used to Compute Apportionment\n* **Forms & Schedules:**\n  * **Form TC-20, Schedule J (\"Apportionment Schedule\")** is used to calculate the apportionment fraction.\n  * Filers attach Schedule J to the following returns and transfer the computed apportionment fraction (carried to six decimal places):\n    * **Form TC-20** (Corporations): Schedule A, line 12.\n    * **Form TC-20S** (S Corporations): Schedule A, line 12.\n    * **Form TC-65** (Partnerships / LLCs): Schedule A, line 15.\n    * **Form TC-20MC** (Miscellaneous Corporations): Schedule A.\n* **Years Applicable:** Applies to both tax years 2025 and 2026 (no changes between them).\n* **Official Sources:**\n  * Utah Form TC-20, Schedule J: https://tax.utah.gov/forms/current/tc-20.pdf\n  * Utah Form TC-20 Instructions: https://tax.utah.gov/forms/current/tc-20inst.pdf",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Multistate businesses are generally sales factor weighted taxpayers and must apportion business income using a 100% single sales factor formula. An optional apportionment taxpayer deriving greater than 50% of economic activity from specified excluded NAICS codes may elect either an equally-weighted three-factor formula or the single sales factor formula.",
+    "source_url": "https://le.utah.gov/xcode/Title59/Chapter7/59-7-S311.html",
+    "evidence": [
+     "sales factor weighted taxpayers",
+     "single sales factor",
+     "optional apportionment taxpayer"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://le.utah.gov/xcode/Title59/Chapter7/59-7-S311.html; unreadable: https://le.utah.gov/xcode/Title59/Chapter7/C59-7-P3_1800010118000101.pdf; unreadable: https://files.tax.utah.gov/tax/forms/2018/tc-20inst.pdf; unreadable: https://files.tax.utah.gov/tax/forms/current/tc-20.pdf; unreadable: https://files.tax.utah.gov/tax/forms/current/tc-20inst.pdf; unreadable: https://le.utah.gov/xcode/Title59/Chapter7/59-7-S302.html; unreadable: https://files.tax.utah.gov/tax/forms/2019/tc-20sins",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Utah utilizes market-based sourcing where receipts from services are sourced to Utah if the purchaser receives a greater benefit of the service in Utah than in any other single state or foreign country. Receipts from intangible property are sourced to Utah based on the percentage of use that occurs in the state during the tax year.",
+    "source_url": "https://le.utah.gov/xcode/Title59/Chapter7/59-7-S319.html",
+    "evidence": [
+     "greater benefit of the service",
+     "performance of a service",
+     "intangible property is used"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://le.utah.gov/xcode/Title59/Chapter7/59-7-S319.html; unreadable: https://le.utah.gov/xcode/Title59/Chapter7/C59-7-P3_1800010118000101.pdf; unreadable: https://files.tax.utah.gov/tax/forms/2018/tc-20inst.pdf; unreadable: https://files.tax.utah.gov/tax/forms/current/tc-20.pdf; unreadable: https://files.tax.utah.gov/tax/forms/current/tc-20inst.pdf; unreadable: https://le.utah.gov/xcode/Title59/Chapter7/59-7-S302.html; unreadable: https://files.tax.utah.gov/tax/forms/2019/tc-20sins",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Special apportionment formulas and rules apply to airlines, trucking companies, railroads, publishing companies, financial institutions, telecommunications companies, registered securities or commodities brokers or dealers, and regulated investment company service providers.",
+    "source_url": "https://tax.utah.gov/forms/current/tc-20inst.pdf",
+    "evidence": [
+     "airline revenue ton miles",
+     "Trucking Companies",
+     "Financial Institutions"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.utah.gov/forms/current/tc-20inst.pdf; unreadable: https://le.utah.gov/xcode/Title59/Chapter7/C59-7-P3_1800010118000101.pdf; unreadable: https://files.tax.utah.gov/tax/forms/2018/tc-20inst.pdf; unreadable: https://files.tax.utah.gov/tax/forms/current/tc-20.pdf; unreadable: https://files.tax.utah.gov/tax/forms/current/tc-20inst.pdf; unreadable: https://le.utah.gov/xcode/Title59/Chapter7/59-7-S302.html; unreadable: https://files.tax.utah.gov/tax/forms/2019/tc-20sinst.pdf; un",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Taxpayers compute the apportionment fraction carried to six decimal places using Form TC-20, Schedule J (Apportionment Schedule). The schedule is attached to returns including Form TC-20, Form TC-20S, Form TC-65, and Form TC-20MC.",
+    "source_url": "https://tax.utah.gov/forms/current/tc-20inst.pdf",
+    "evidence": [
+     "Schedule J",
+     "Apportionment Schedule",
+     "Form TC-20"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.utah.gov/forms/current/tc-20inst.pdf; unreadable: https://le.utah.gov/xcode/Title59/Chapter7/C59-7-P3_1800010118000101.pdf; unreadable: https://files.tax.utah.gov/tax/forms/2018/tc-20inst.pdf; unreadable: https://files.tax.utah.gov/tax/forms/current/tc-20.pdf; unreadable: https://files.tax.utah.gov/tax/forms/current/tc-20inst.pdf; unreadable: https://le.utah.gov/xcode/Title59/Chapter7/59-7-S302.html; unreadable: https://files.tax.utah.gov/tax/forms/2019/tc-20sinst.pdf; un",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://le.utah.gov/xcode/Title59/Chapter7/C59-7-P3_1800010118000101.pdf",
+   "https://files.tax.utah.gov/tax/forms/2018/tc-20inst.pdf",
+   "https://files.tax.utah.gov/tax/forms/2018/tc-20inst.pdf",
+   "https://files.tax.utah.gov/tax/forms/current/tc-20.pdf",
+   "https://files.tax.utah.gov/tax/forms/current/tc-20inst.pdf",
+   "https://le.utah.gov/xcode/Title59/Chapter7/59-7-S302.html",
+   "https://files.tax.utah.gov/tax/forms/2019/tc-20sinst.pdf",
+   "https://files.tax.utah.gov/tax/forms/current/tc-20inst.pdf",
+   "https://le.utah.gov/xcode/Title59/Chapter7/59-7-S311.html",
+   "https://le.utah.gov/xcode/Title59/Chapter7/59-7-S302.html",
+   "https://le.utah.gov/xcode/Title59/Chapter7/59-7-S319.html",
+   "https://files.tax.utah.gov/tax/forms/current/tc-20inst.pdf",
+   "https://le.utah.gov/xcode/Title59/Chapter7/59-7-S319.html",
+   "https://le.utah.gov/xcode/Title59/Chapter7/C59-7-P3_1800010118000101.pdf",
+   "https://files.tax.utah.gov/tax/forms/current/tc-20inst.pdf",
+   "https://le.utah.gov/~2008/bills/static/SB0237.html",
+   "https://le.utah.gov/xcode/Title59/Chapter7/C59-7-P3_1800010118000101.pdf",
+   "https://le.utah.gov/~2011/bills/sbillint/SB0022.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "UT",
+  "section": "nexus",
+  "notes": "### Corporate Income and Franchise Tax Nexus & Bright-Line Thresholds\n\n* **Nexus Standards:**\n  * **Franchise Tax:** Imposed annually on every domestic and foreign corporation (unless exempt) for the privilege of exercising the corporate franchise or doing business in Utah.\n  * **Income Tax:** Imposed on every corporation deriving income from sources within Utah that is not subject to the franchise tax.\n  * **\"Doing Business\" Activities Creating Nexus:** Under statute and administrative guidance, doing business / establishing nexus includes:\n    * Having the right to do business through incorporation or qualification.\n    * Owning, renting, or leasing real or personal property within the state.\n    * Participating in joint ventures, working and operating agreements, the performance of which takes place in Utah.\n    * Selling or performing services in Utah where the customer receives the greater benefit of the service in Utah.\n    * Earning income from the use of intangible property in Utah.\n    * Making loans or issuing credit cards to Utah customers (e.g., financial institutions), regardless of physical business location.\n    * Maintaining an office or place of business, including an in-home office.\n* **Bright-Line Factor / Dollar Threshold for Income/Franchise Tax:** **Not found**. Utah has no bright-line factor-presence or economic nexus dollar/transaction thresholds for corporate income or franchise tax.\n* **Applicability:** Applies to both tax years 2025 and 2026 without change.\n* **Official URLs:**\n  * Utah Code § 59-7-101: https://le.utah.gov/xcode/Title59/Chapter7/59-7-S101.html\n  * Utah Code § 59-7-104: https://le.utah.gov/xcode/Title59/Chapter7/59-7-S104.html\n  * Utah Code § 59-7-201: https://le.utah.gov/xcode/Title59/Chapter7/59-7-S201.html\n  * Utah State Tax Commission Publication 37: https://tax.utah.gov/forms/pubs/pub-37\n\n---\n\n### Remote Seller Sales Tax Economic Nexus Thresholds & Measurement Period\n\n* **Gross Revenue Threshold:** More than $100,000 from the sale of tangible personal property, products transferred electronically, or services for storage, use, or consumption in Utah.\n* **Transaction Count Threshold:**\n  * **Tax Year 2025 (prior to July 1, 2025):** 200 or more separate transactions in Utah was an alternative threshold.\n  * **Tax Year 2025 (effective July 1, 2025) and Tax Year 2026:** Eliminated. Per S.B. 47 (2025 General Session), the 200-transaction threshold was repealed effective July 1, 2025. The sole threshold is gross revenue exceeding $100,000.\n* **Measurement Period:** Either the previous calendar year or the current calendar year.\n* **Applicability:** Changed between tax years 2025 and 2026. The 200-transaction count threshold applied only through June 30, 2025; from July 1, 2025 through tax year 2026, only the >$100,000 gross revenue threshold applies.\n* **Official URLs:**\n  * Utah Code § 59-12-107: https://le.utah.gov/xcode/Title59/Chapter12/59-12-S107.html\n  * Utah State Legislature (S.B. 47, 2025 Session): https://le.utah.gov/~2025/bills/static/SB0047.html\n  * Utah State Tax Commission Remote Sellers Guidance: https://tax.utah.gov/sales/remote-sellers\n  * Utah State Tax Commission Publication 37: https://tax.utah.gov/forms/pubs/pub-37\n\n---\n\n### State Position on P.L. 86-272 Protection\n\n* **Statutory Exception:** By statute, \"doing business\" and \"exercising a corporate franchise\" expressly exclude the business activity of a corporation if its only business activity within Utah is the solicitation of orders for sales of tangible personal property that are protected under 15 U.S.C. §§ 381–384 (Public Law 86-272).\n* **Scope and Agency Interpretation:**\n  * Protection is strictly limited to the solicitation of sales of **tangible personal property** sent outside Utah for approval and filled from outside the state.\n  * P.L. 86-272 provides no immunity to sellers of services, licensors of intangible property, or businesses leasing tangible personal property.\n  * Protection requires activities in Utah to be limited solely to solicitation, except for independent contractors and *de minimis* activities (those establishing only a trivial connection with the state).\n  * **Unprotected Activities (Creating Nexus):** Utah Administrative Rule R865-6F-6 and Publication 37 state that the following activities exceed P.L. 86-272 immunity and establish corporate tax nexus:\n    * Repairing, maintaining, or servicing property.\n    * Collecting current or delinquent accounts directly or via third parties.\n    * Investigating creditworthiness.\n    * Installing or supervising installation at or after delivery.\n    * Conducting training courses, seminars, or lectures for personnel other than those involved solely in solicitation.\n    * Providing technical assistance or service beyond solicitation.\n    * Approving or accepting orders and executing contracts.\n    * Maintaining an office or place of business, including an in-home office (regardless of whether the company reimburses or pays expenses for the in-home office).\n    * Entering into or disposing of franchising or licensing agreements.\n    * Maintaining a sample or display room for longer than 14 days at any location during the tax year.\n    * Conducting any activity serving an independent business function separate from solicitation, even if it increases sales.\n* **Applicability:** Applies to both tax years 2025 and 2026 without change.\n* **Official URLs:**\n  * Utah Code § 59-7-101(14)(c) & (16): https://le.utah.gov/xcode/Title59/Chapter7/59-7-S101.html\n  * Utah State Tax Commission Publication 37: https://tax.utah.gov/forms/pubs/pub-37",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Franchise tax is imposed on corporations exercising a corporate franchise or doing business in Utah, and income tax applies to corporations deriving income from Utah sources without an established franchise tax nexus. Nexus is created by activities including maintaining an office, owning or leasing property, performing services, or earning income from intangibles, with no bright-line factor or dollar threshold.",
+    "source_url": "https://le.utah.gov/xcode/Title59/Chapter7/59-7-S101.html",
+    "evidence": [
+     "exercising the corporate franchise",
+     "doing business",
+     "deriving income from sources"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://le.utah.gov/xcode/Title59/Chapter7/59-7-S101.html; unreadable: https://le.utah.gov/Session/2026/bills/introduced/CP%20SB0060%20To%20SB0060S01.pdf; unreadable: https://files.tax.utah.gov/tax/commission/ruling/96-125.htm; unreadable: https://le.utah.gov/xcode/Title59/Chapter7/59-7-S201.html; unreadable: https://tax.utah.gov/business/sales-tax/other-sales-tax/out-of-state-remote-sellers/; unreadable: https://tax.utah.gov/forms-pubs/pub-37/; unreadable: https://tax.utah.gov/busin",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025
+    ],
+    "value": "Remote seller economic nexus is established if gross revenue exceeds $100,000 or (prior to July 1, 2025) the seller enters into 200 or more separate transactions in Utah during the previous or current calendar year. Effective July 1, 2025, the 200-transaction threshold is eliminated, leaving only the gross revenue threshold.",
+    "source_url": "https://tax.utah.gov/sales/remote-sellers",
+    "evidence": [
+     "more than $100,000",
+     "200 or more separate transactions",
+     "previous calendar year",
+     "current calendar year"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.utah.gov/sales/remote-sellers; unreadable: https://le.utah.gov/Session/2026/bills/introduced/CP%20SB0060%20To%20SB0060S01.pdf; unreadable: https://files.tax.utah.gov/tax/commission/ruling/96-125.htm; unreadable: https://le.utah.gov/xcode/Title59/Chapter7/59-7-S201.html; unreadable: https://tax.utah.gov/business/sales-tax/other-sales-tax/out-of-state-remote-sellers/; unreadable: https://tax.utah.gov/forms-pubs/pub-37/; unreadable: https://le.utah.gov/xcode/Title59/Chapter7",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2026
+    ],
+    "value": "Remote seller economic nexus is established if gross revenue exceeds $100,000 from sales of tangible personal property, products transferred electronically, or services in Utah during the previous or current calendar year. There is no transaction count threshold.",
+    "source_url": "https://tax.utah.gov/sales/remote-sellers",
+    "evidence": [
+     "more than $100,000",
+     "previous calendar year",
+     "current calendar year"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.utah.gov/sales/remote-sellers; unreadable: https://le.utah.gov/Session/2026/bills/introduced/CP%20SB0060%20To%20SB0060S01.pdf; unreadable: https://files.tax.utah.gov/tax/commission/ruling/96-125.htm; unreadable: https://le.utah.gov/xcode/Title59/Chapter7/59-7-S201.html; unreadable: https://tax.utah.gov/business/sales-tax/other-sales-tax/out-of-state-remote-sellers/; unreadable: https://tax.utah.gov/forms-pubs/pub-37/; unreadable: https://le.utah.gov/xcode/Title59/Chapter7",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Utah excludes corporations from doing business or exercising a franchise if their sole in-state activity is the solicitation of orders for sales of tangible personal property protected under P.L. 86-272. Immunity does not extend to the sale of services or licensing of intangibles, and is lost if the business maintains an office, performs repairs, or conducts credit investigations.",
+    "source_url": "https://le.utah.gov/xcode/Title59/Chapter7/59-7-S101.html",
+    "evidence": [
+     "solicitation of orders",
+     "tangible personal property",
+     "Public Law 86-272"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://le.utah.gov/xcode/Title59/Chapter7/59-7-S101.html; unreadable: https://le.utah.gov/Session/2026/bills/introduced/CP%20SB0060%20To%20SB0060S01.pdf; unreadable: https://files.tax.utah.gov/tax/commission/ruling/96-125.htm; unreadable: https://le.utah.gov/xcode/Title59/Chapter7/59-7-S201.html; unreadable: https://tax.utah.gov/business/sales-tax/other-sales-tax/out-of-state-remote-sellers/; unreadable: https://tax.utah.gov/forms-pubs/pub-37/; unreadable: https://tax.utah.gov/busin",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://le.utah.gov/Session/2026/bills/introduced/CP%20SB0060%20To%20SB0060S01.pdf",
+   "https://files.tax.utah.gov/tax/commission/ruling/96-125.htm",
+   "https://le.utah.gov/xcode/Title59/Chapter7/59-7-S201.html",
+   "https://tax.utah.gov/business/sales-tax/other-sales-tax/out-of-state-remote-sellers/",
+   "https://tax.utah.gov/forms-pubs/pub-37/",
+   "https://le.utah.gov/xcode/Title59/Chapter7/59-7-S101.html",
+   "https://tax.utah.gov/forms-pubs/pub-37/",
+   "https://tax.utah.gov/business/sales-tax/other-sales-tax/out-of-state-remote-sellers/",
+   "https://tax.utah.gov/business/sales-tax/other-sales-tax/non-nexus/",
+   "https://le.utah.gov/interim/2024/pdf/00004007.pdf",
+   "https://le.utah.gov/interim/2024/pdf/00004007.pdf",
+   "https://le.utah.gov/xcode/Title59/Chapter7/59-7-S101.html",
+   "https://files.tax.utah.gov/tax/commission/ruling/12-009.pdf",
+   "https://files.tax.utah.gov/tax/commission/ruling/93-002.htm",
+   "https://tax.utah.gov/forms-pubs/pub-37/"
+  ],
+  "error": ""
+ },
+ {
+  "state": "UT",
+  "section": "rates",
+  "notes": "### 1. Individual Income Tax Rate(s)\n* **Fact & Figures:** Utah imposes a single, flat individual income tax rate on state taxable income:\n  * **Tax Year 2025:** **4.5%** (lowered from 4.55% by the 2025 Legislature via H.B. 106).\n  * **Tax Year 2026:** **4.45%** (rate reduced from 4.5% to 4.45%, effective January 1, 2026).\n* **Applicability:** Changed between tax years (4.5% for 2025; 4.45% for 2026).\n* **Official Sources:**\n  * Utah State Legislature (Utah Code § 59-10-104): https://le.utah.gov/xcode/Title59/Chapter10/Section104.html\n  * Utah State Tax Commission (2025 TC-40 Instructions): https://tax.utah.gov/forms-pubs\n\n---\n\n### 2. Corporate Income or Franchise Tax Rate(s) and Minimum Tax\n* **Fact & Figures:** \n  * **Tax Rate:** Utah imposes a corporate franchise and income tax based on Utah taxable income:\n    * **Tax Year 2025:** **4.5%** (reduced from 4.55% by 2025 H.B. 106).\n    * **Tax Year 2026:** **4.45%** (reduced to 4.45% effective January 1, 2026, pursuant to Utah Code § 59-7-104 and § 59-7-201).\n  * **Minimum Tax:** Every C corporation required to file Form TC-20 must pay an annual minimum tax of **$100**, regardless of whether the corporation exercises its right to do business (the minimum tax does not apply to S corporations under Utah Code § 59-7-701).\n* **Applicability:** The rate changed between tax years (4.5% in 2025; 4.45% in 2026). The $100 minimum tax applies to both tax years 2025 and 2026.\n* **Official Sources:**\n  * Utah State Legislature (Utah Code § 59-7-104): https://le.utah.gov/xcode/Title59/Chapter7/Section104.html\n  * Utah State Legislature (Utah Code § 59-7-201): https://le.utah.gov/xcode/Title59/Chapter7/Section201.html\n  * Utah State Tax Commission (C Corporation Tax): https://tax.utah.gov/business/corporate-income-tax/c-corp-tax/\n  * Utah State Tax Commission (2025 Form TC-20 Instructions): https://tax.utah.gov/forms-pubs\n\n---\n\n### 3. State Sales and Use Tax Rate & Local Jurisdictions\n* **Fact & Figures:**\n  * **State General Rate:** The state sales and use tax rate is **4.85%** (qualifying grocery food is taxed at a reduced state rate of 1.75%; residential fuel state rate is 2.0%).\n  * **Local Jurisdictions:** Yes, local jurisdictions (counties, cities, towns, and transit districts) impose additional sales and use taxes (such as a 1.00% local option, 0.25% county option, mass transit, highways, and resort communities taxes), which are combined with the state rate to create higher total rates by locality.\n* **Applicability:** Applies to both tax years 2025 and 2026.\n* **Official Sources:**\n  * Utah State Legislature (Utah Code § 59-12-103): https://le.utah.gov/xcode/Title59/Chapter12/Section103.html\n  * Utah State Tax Commission (Sales & Use Tax Rates): https://tax.utah.gov/sales/rates\n  * Utah State Tax Commission (Publication 25): https://tax.utah.gov/forms-pubs/pub-25\n\n---\n\n### 4. Gross Receipts, Franchise, Margin, or Other Notable Business Taxes\n* **Fact & Figures:** \n  * Utah does not impose a general gross receipts tax or net-worth/margin tax on standard business entities; the corporate franchise tax is based on net income (see Topic 2).\n  * **Gross Receipts Tax on Certain Corporations:** Utah imposes an in-lieu excise tax on the gross receipts of certain corporations operating in Utah (such as certain non-exempt electrical corporations) that are not otherwise required to pay corporate franchise or income taxes (Utah Code § 59-8-104):\n    * Up to $10,000,000: **None (0%)**\n    * Greater than $10,000,000 but not in excess of $500,000,000: **0.6250%**\n    * Greater than $500,000,000 but not in excess of $1,000,000,000: **0.9375%**\n    * In excess of $1,000,000,000: **1.2500%**\n* **Applicability:** Applies to both tax years 2025 and 2026.\n* **Official Sources:**\n  * Utah State Legislature (Utah Code § 59-8-104): https://le.utah.gov/xcode/Title59/Chapter8/Section104.html\n  * Utah State Tax Commission (Gross Receipts Tax): https://tax.utah.gov/business/other-taxes",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025
+    ],
+    "value": "Utah imposes a single, flat individual income tax rate of 4.5% on state taxable income for tax year 2025.",
+    "source_url": "https://le.utah.gov/xcode/Title59/Chapter10/Section104.html",
+    "evidence": [
+     "individual income tax rate",
+     "4.5%",
+     "state taxable income"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://le.utah.gov/xcode/Title59/Chapter10/Section104.html; unreadable: https://le.utah.gov/xcode/Title59/Chapter10/59-10-S104.html; unreadable: https://files.tax.utah.gov/tax/forms/current/tc-40inst.pdf; unreadable: https://files.tax.utah.gov/tax/forms/current/tc-65inst.pdf; unreadable: https://files.tax.utah.gov/tax/train/webinars/2026-09-17-presentation.pdf; unreadable: https://le.utah.gov/~2023/bills/hbillint/HB0054S01_ComparedWith_HB0054.pdf; unreadable: https://files.tax.utah.",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "individual",
+    "years": [
+     2026
+    ],
+    "value": "Utah imposes a flat individual income tax rate of 4.45% on state taxable income effective January 1, 2026.",
+    "source_url": "https://le.utah.gov/xcode/Title59/Chapter10/Section104.html",
+    "evidence": [
+     "individual income tax",
+     "4.45%",
+     "taxable income"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://le.utah.gov/xcode/Title59/Chapter10/Section104.html; unreadable: https://le.utah.gov/xcode/Title59/Chapter10/59-10-S104.html; unreadable: https://files.tax.utah.gov/tax/forms/current/tc-40inst.pdf; unreadable: https://files.tax.utah.gov/tax/forms/current/tc-65inst.pdf; unreadable: https://files.tax.utah.gov/tax/train/webinars/2026-09-17-presentation.pdf; unreadable: https://le.utah.gov/~2023/bills/hbillint/HB0054S01_ComparedWith_HB0054.pdf; unreadable: https://files.tax.utah.",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025
+    ],
+    "value": "Utah imposes a corporate franchise and income tax rate of 4.5% on taxable income for tax year 2025, with an annual minimum tax of $100 for C corporations.",
+    "source_url": "https://tax.utah.gov/business/corporate-income-tax/c-corp-tax/",
+    "evidence": [
+     "4.5%",
+     "minimum tax of $100",
+     "corporate franchise",
+     "Form TC-20"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.utah.gov/business/corporate-income-tax/c-corp-tax/; unreadable: https://le.utah.gov/xcode/Title59/Chapter10/59-10-S104.html; unreadable: https://files.tax.utah.gov/tax/forms/current/tc-40inst.pdf; unreadable: https://files.tax.utah.gov/tax/forms/current/tc-65inst.pdf; unreadable: https://files.tax.utah.gov/tax/train/webinars/2026-09-17-presentation.pdf; unreadable: https://le.utah.gov/~2023/bills/hbillint/HB0054S01_ComparedWith_HB0054.pdf; unreadable: https://files.tax.ut",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2026
+    ],
+    "value": "For tax year 2026, the corporate franchise and income tax rate is reduced to 4.45%, with an annual minimum tax of $100 for C corporations.",
+    "source_url": "https://le.utah.gov/xcode/Title59/Chapter7/Section104.html",
+    "evidence": [
+     "4.45%",
+     "minimum tax",
+     "$100",
+     "taxable income"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://le.utah.gov/xcode/Title59/Chapter7/Section104.html; unreadable: https://le.utah.gov/xcode/Title59/Chapter10/59-10-S104.html; unreadable: https://files.tax.utah.gov/tax/forms/current/tc-40inst.pdf; unreadable: https://files.tax.utah.gov/tax/forms/current/tc-65inst.pdf; unreadable: https://files.tax.utah.gov/tax/train/webinars/2026-09-17-presentation.pdf; unreadable: https://le.utah.gov/~2023/bills/hbillint/HB0054S01_ComparedWith_HB0054.pdf; unreadable: https://files.tax.utah.g",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The state general sales and use tax rate is 4.85%. Local jurisdictions impose additional sales and use taxes that are combined with the state rate.",
+    "source_url": "https://tax.utah.gov/sales/rates",
+    "evidence": [
+     "sales and use tax",
+     "4.85%",
+     "local option"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.utah.gov/sales/rates; unreadable: https://le.utah.gov/xcode/Title59/Chapter10/59-10-S104.html; unreadable: https://files.tax.utah.gov/tax/forms/current/tc-40inst.pdf; unreadable: https://files.tax.utah.gov/tax/forms/current/tc-65inst.pdf; unreadable: https://files.tax.utah.gov/tax/train/webinars/2026-09-17-presentation.pdf; unreadable: https://le.utah.gov/~2023/bills/hbillint/HB0054S01_ComparedWith_HB0054.pdf; unreadable: https://files.tax.utah.gov/tax/forms/current/tc-20",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Utah imposes an in-lieu gross receipts tax on certain corporations not subject to corporate franchise or income tax, with tiered rates ranging from 0% up to 1.2500% on gross receipts over $1,000,000,000.",
+    "source_url": "https://le.utah.gov/xcode/Title59/Chapter8/Section104.html",
+    "evidence": [
+     "gross receipts tax",
+     "0.6250%",
+     "1.2500%",
+     "electrical corporations"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://le.utah.gov/xcode/Title59/Chapter8/Section104.html; unreadable: https://le.utah.gov/xcode/Title59/Chapter10/59-10-S104.html; unreadable: https://files.tax.utah.gov/tax/forms/current/tc-40inst.pdf; unreadable: https://files.tax.utah.gov/tax/forms/current/tc-65inst.pdf; unreadable: https://files.tax.utah.gov/tax/train/webinars/2026-09-17-presentation.pdf; unreadable: https://le.utah.gov/~2023/bills/hbillint/HB0054S01_ComparedWith_HB0054.pdf; unreadable: https://files.tax.utah.g",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://le.utah.gov/xcode/Title59/Chapter10/59-10-S104.html",
+   "https://files.tax.utah.gov/tax/forms/current/tc-40inst.pdf",
+   "https://files.tax.utah.gov/tax/forms/current/tc-65inst.pdf",
+   "https://files.tax.utah.gov/tax/train/webinars/2026-09-17-presentation.pdf",
+   "https://files.tax.utah.gov/tax/forms/current/tc-40inst.pdf",
+   "https://le.utah.gov/~2023/bills/hbillint/HB0054S01_ComparedWith_HB0054.pdf",
+   "https://files.tax.utah.gov/tax/forms/current/tc-20inst.pdf",
+   "https://le.utah.gov/xcode/Title59/Chapter7/59-7-S104.html",
+   "https://le.utah.gov/xcode/Title59/Chapter7/59-7-S201.html",
+   "https://tax.utah.gov/business/corporate-income-tax/c-corp-tax/",
+   "https://files.tax.utah.gov/tax/forms/current/tc-20inst.pdf",
+   "https://le.utah.gov/xcode/Title59/Chapter7/C59-7-S705_1800010118000101.pdf",
+   "https://corpuslaw.us/form-an-llc/utah",
+   "https://tax.utah.gov/forms-pubs/pub-25/",
+   "https://tax.utah.gov/forms-pubs/pub-25-draft/",
+   "https://files.tax.utah.gov/tax/salestax/rate/26q1combined.pdf",
+   "https://files.tax.utah.gov/tax/salestax/rate/25q3combined.pdf",
+   "https://le.utah.gov/xcode/Title59/Chapter12/59-12-S103.html",
+   "https://www.streamlinedsalestax.org/state-tables/utah",
+   "https://files.tax.utah.gov/tax/commission/reports/fy08report.pdf",
+   "https://le.utah.gov/xcode/Title59/Chapter8/59-8-S104.html",
+   "https://tax.utah.gov/business/other-taxes/gross-receipts/",
+   "https://le.utah.gov/xcode/Title59/Chapter8/C59-8_1800010118000101.pdf",
+   "https://tax.utah.gov/business/other-taxes/"
+  ],
+  "error": ""
+ },
+ {
+  "state": "UT",
+  "section": "filing",
+  "notes": "### 1. Individual Income Tax Return Due Dates and Extension Rules\n* **Calendar-Year Filing Due Date**: \n  * Due on or before **April 15** following the close of the calendar year (April 15, 2026 for tax year 2025; April 15, 2027 for tax year 2026). If the date falls on a weekend or state/federal holiday, the deadline moves to the next business day.\n  * *Applies to*: Tax years 2025 and 2026.\n* **Extension Rules**:\n  * **Duration**: Automatic **6-month extension** to file the return (to **October 15**).\n  * **Application**: No extension application form is required.\n  * **Payment Extension**: An extension to file is **not** an extension of time to pay taxes due.\n  * **Prepayment Requirement**: To avoid failure-to-pay penalties, taxpayers must pay on or before the original return due date (April 15) either:\n    1. **90%** of the current tax year's Utah tax liability; or\n    2. **100%** of the previous tax year's Utah tax liability (if a Utah return was filed for that prior year).\n* **Official URLs**:\n  * `https://tax.utah.gov/extension`\n  * `https://le.utah.gov/xcode/Title59/Chapter10/59-10-S514.html`\n\n---\n\n### 2. Corporate and Pass-Through Entity Return Due Dates and Extension Rules\n* **C Corporations (Form TC-20)**:\n  * **Due Date**: 15th day of the 4th month following the close of the taxable year (April 15 for calendar-year filers).\n  * **Extension**: Automatic **6-month extension** to file (October 15 for calendar-year filers); no form required. Prepayment required by the original due date is at least the lesser of 90% of the current year's tax liability (or the $100 minimum tax, whichever is greater) or 100% of the prior year's tax liability.\n  * *Applies to*: Tax years 2025 and 2026.\n* **S Corporations (Form TC-20S)**:\n  * **Due Date**: 15th day of the 4th month following the close of the taxable year (April 15 for calendar-year filers).\n  * **Extension**: Automatic **6-month extension** to file (October 15 for calendar-year filers); no form required. 100% of any tax or pass-through entity withholding due must be paid by the original due date.\n  * *Applies to*: Tax years 2025 and 2026.\n* **Partnerships / LLCs (Form TC-65)**:\n  * **Due Date**: 15th day of the 4th month following the close of the taxable year (April 15 for calendar-year filers).\n  * **Extension**: Automatic **5-month extension** to file (September 15 for calendar-year filers); no form required. 100% of any tax and pass-through withholding due must be paid by the original due date.\n  * *Applies to*: Tax years 2025 and 2026.\n* **Official URLs**:\n  * `https://tax.utah.gov/extension`\n  * `https://tax.utah.gov/forms/pubs/pub-58.pdf`\n\n---\n\n### 3. Elective Pass-Through Entity Tax (PTET / SALT Deduction Election)\n* **Existence**: Yes, Utah offers an elective pass-through entity tax under the State and Local Tax (SALT) deduction framework (Utah Code Ann. § 59-10-1403.2).\n* **Tax Rate**: Equal to the statutory individual income tax rate under Utah Code Ann. § 59-10-104(2) multiplied by the entity's voluntary taxable income:\n  * **4.5%** for tax year 2025 (lowered from 4.55% by 2025 HB 106).\n  * **4.45%** for tax year 2026 (lowered from 4.5% by 2026 SB 60).\n* **How and When to Elect**:\n  * **Method**: Made by electronically submitting a **Form TC-75 (State and Local Tax (SALT) Report)** along with the electronic tax payment via the Taxpayer Access Point (TAP).\n  * **Deadline**: Must be completed on or before the **last day of the pass-through entity’s taxable year** (e.g., **December 31, 2025** for calendar-year 2025; **December 31, 2026** for calendar-year 2026).\n  * **Irrevocability**: The election and payment are irrevocable for the taxable year and cannot be refunded.\n* **Official URLs**:\n  * `https://le.utah.gov/xcode/Title59/Chapter10/59-10-S1403.2.html`\n  * `https://tax.utah.gov/forms/pubs/tc-75i.pdf`\n\n---\n\n### 4. Composite or Group Nonresident Returns for Pass-Through Entities\n* **Availability**: Not found as a separate composite or group return filing for pass-through entities. \n* **Mechanism**: Utah handles nonresident compliance via **Pass-Through Entity Withholding** reported on **Schedule N** of the entity's return (Form TC-65 or TC-20S) rather than an independent composite return.\n* **Nonresident Filing Relief**: A nonresident owner whose only Utah-source income originates from a pass-through entity is **not required to file an individual return (Form TC-40)** if the pass-through entity withholds and remits the required Utah income tax on their behalf, and the owner claims no additional Utah credits.\n* **Official URLs**:\n  * `https://tax.utah.gov/forms/pubs/pub-68.pdf`\n  * `https://tax.utah.gov/withholding/pass-through`\n\n---\n\n### 5. Estimated Tax Payments and Nonresident Withholding for Pass-Throughs\n* **Estimated Tax Payment Requirements**:\n  * **Individuals**: Utah does **not** require quarterly estimated tax payments for individual income tax.\n  * **Corporations**: Corporations with a Utah tax liability of **$3,000 or more** in either the current or prior tax year must make quarterly estimated payments. Due on the 15th day of the 4th, 6th, 9th, and 12th months of the tax year (April 15, June 15, September 15, and December 15 for calendar-year filers). Installments must equal 90% of the current year's tax liability or 100% of the prior year's tax liability.\n  * **Pass-Through Entities (PTE Level)**: Not required to make quarterly estimated tax payments on passthrough entity income.\n* **Nonresident Withholding for Pass-Through Entities**:\n  * **Requirement**: Pass-through entities must withhold and pay over tax on all Utah-source business and nonbusiness income allocated to nonresident individual owners and resident or nonresident entity owners.\n  * **Rate**: Matches the individual income tax rate in effect on the first day of the entity's tax year (Utah Code Ann. § 59-10-104):\n    * **4.5%** for tax year 2025.\n    * **4.45%** for tax year 2026.\n  * **Payment Due Date**: Due on or before the **original return due date** of the entity without regard to extensions (April 15 for calendar-year filers).\n  * **Payment Method**: Paid electronically via TAP or with payment coupons: **Form TC-544** (partnerships) or **Form TC-559** (S corporations).\n  * **Waiver**: Entities may claim a waiver on Schedule N if the partner/shareholder files and pays the tax directly under Utah Code Ann. § 59-10-1403.2.\n* **Official URLs**:\n  * `https://tax.utah.gov/withholding/pass-through`\n  * `https://tax.utah.gov/forms/pubs/pub-68.pdf`\n  * `https://tax.utah.gov/forms/current/tc-559.pdf`\n\n---\n\n### 6. Main Individual, Corporate, and Pass-Through Return Forms\n* **Individual**: \n  * **Form TC-40**: Utah Individual Income Tax Return.\n  * *Schedule TC-40B*: Nonresident / Part-Year Resident Schedule.\n* **C Corporation**: \n  * **Form TC-20**: Utah Corporation Franchise and Income Tax Return.\n* **S Corporation**: \n  * **Form TC-20S**: Utah S Corporation Income Tax Return (with Schedule N for pass-through withholding).\n* **Partnership / LLC / LLP**: \n  * **Form TC-65**: Utah Partnership / LLP / LLC Return of Income (with Schedule N for pass-through withholding).\n* **Elective PTET (SALT Election)**: \n  * **Form TC-75**: State and Local Tax (SALT) Report.\n* **Fiduciary (Estates/Trusts)**:\n  * **Form TC-41**: Utah Fiduciary Income Tax Return.\n* **Official URLs**:\n  * `https://tax.utah.gov/forms`\n  * `https://tax.utah.gov/file-pay`",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Utah individual income tax returns are due on April 15, with an automatic 6-month extension to October 15 without filing an extension form. Taxpayers must pay at least 90% of the current year's liability or 100% of the prior year's liability by April 15 to avoid penalties.",
+    "source_url": "https://tax.utah.gov/extension",
+    "evidence": [
+     "automatic extension",
+     "prepayment requirement",
+     "original due date"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.utah.gov/extension; unreadable: https://tax.utah.gov/event/individual-corporate-partnership-income-tax-due-date-jan-dec-2026-2/; unreadable: https://tax.utah.gov/event/individual-corporate-partnership-income-tax-due-date-jan-dec-2025/; unreadable: https://tax.utah.gov/events/category/due-dates/; unreadable: https://tax.utah.gov/relief/; unreadable: https://files.tax.utah.gov/tax/forms/current/tc-559.pdf; unreadable: https://tax.utah.gov/event/partnership-tax-extension-due",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "C corporation, S corporation, and partnership returns are due on April 15 for calendar-year filers. C and S corporations receive an automatic 6-month extension to October 15, while partnerships receive an automatic 5-month extension to September 15.",
+    "source_url": "https://tax.utah.gov/extension",
+    "evidence": [
+     "automatic extension",
+     "Form TC-20",
+     "Form TC-65"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.utah.gov/extension; unreadable: https://tax.utah.gov/event/individual-corporate-partnership-income-tax-due-date-jan-dec-2026-2/; unreadable: https://tax.utah.gov/event/individual-corporate-partnership-income-tax-due-date-jan-dec-2025/; unreadable: https://tax.utah.gov/events/category/due-dates/; unreadable: https://tax.utah.gov/relief/; unreadable: https://files.tax.utah.gov/tax/forms/current/tc-559.pdf; unreadable: https://tax.utah.gov/event/partnership-tax-extension-due",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2025
+    ],
+    "value": "Utah provides an elective pass-through entity tax under the SALT deduction framework at a rate of 4.5% for tax year 2025. The irrevocable election and payment must be submitted electronically via Form TC-75 through TAP on or before the last day of the entity's taxable year.",
+    "source_url": "https://tax.utah.gov/forms/pubs/tc-75i.pdf",
+    "evidence": [
+     "Form TC-75",
+     "SALT Report",
+     "Taxpayer Access Point"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.utah.gov/forms/pubs/tc-75i.pdf; unreadable: https://tax.utah.gov/event/individual-corporate-partnership-income-tax-due-date-jan-dec-2026-2/; unreadable: https://tax.utah.gov/event/individual-corporate-partnership-income-tax-due-date-jan-dec-2025/; unreadable: https://tax.utah.gov/events/category/due-dates/; unreadable: https://tax.utah.gov/relief/; unreadable: https://files.tax.utah.gov/tax/forms/current/tc-559.pdf; unreadable: https://tax.utah.gov/event/partnership-tax-e",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2026
+    ],
+    "value": "Utah provides an elective pass-through entity tax under the SALT deduction framework at a rate of 4.45% for tax year 2026. The irrevocable election and payment must be submitted electronically via Form TC-75 through TAP on or before the last day of the entity's taxable year.",
+    "source_url": "https://tax.utah.gov/forms/pubs/tc-75i.pdf",
+    "evidence": [
+     "Form TC-75",
+     "SALT Report",
+     "Taxpayer Access Point"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.utah.gov/forms/pubs/tc-75i.pdf; unreadable: https://tax.utah.gov/event/individual-corporate-partnership-income-tax-due-date-jan-dec-2026-2/; unreadable: https://tax.utah.gov/event/individual-corporate-partnership-income-tax-due-date-jan-dec-2025/; unreadable: https://tax.utah.gov/events/category/due-dates/; unreadable: https://tax.utah.gov/relief/; unreadable: https://files.tax.utah.gov/tax/forms/current/tc-559.pdf; unreadable: https://tax.utah.gov/event/partnership-tax-e",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025
+    ],
+    "value": "Quarterly estimated payments are not required for individuals or PTEs, but corporations must pay quarterly installments if Utah tax liability is $3,000 or more. Pass-through entities must withhold tax on Utah income allocated to nonresident owners at 4.5% for 2025, payable by the original return due date.",
+    "source_url": "https://tax.utah.gov/withholding/pass-through",
+    "evidence": [
+     "pass-through entity withholding",
+     "Schedule N",
+     "Form TC-559"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.utah.gov/withholding/pass-through; unreadable: https://tax.utah.gov/event/individual-corporate-partnership-income-tax-due-date-jan-dec-2026-2/; unreadable: https://tax.utah.gov/event/individual-corporate-partnership-income-tax-due-date-jan-dec-2025/; unreadable: https://tax.utah.gov/events/category/due-dates/; unreadable: https://tax.utah.gov/relief/; unreadable: https://files.tax.utah.gov/tax/forms/current/tc-559.pdf; unreadable: https://tax.utah.gov/event/partnership-ta",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2026
+    ],
+    "value": "Quarterly estimated payments are not required for individuals or PTEs, but corporations must pay quarterly installments if Utah tax liability is $3,000 or more. Pass-through entities must withhold tax on Utah income allocated to nonresident owners at 4.45% for 2026, payable by the original return due date.",
+    "source_url": "https://tax.utah.gov/withholding/pass-through",
+    "evidence": [
+     "pass-through entity withholding",
+     "Schedule N",
+     "Form TC-559"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.utah.gov/withholding/pass-through; unreadable: https://tax.utah.gov/event/individual-corporate-partnership-income-tax-due-date-jan-dec-2026-2/; unreadable: https://tax.utah.gov/event/individual-corporate-partnership-income-tax-due-date-jan-dec-2025/; unreadable: https://tax.utah.gov/events/category/due-dates/; unreadable: https://tax.utah.gov/relief/; unreadable: https://files.tax.utah.gov/tax/forms/current/tc-559.pdf; unreadable: https://tax.utah.gov/event/partnership-ta",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Main tax forms include Form TC-40 for individuals, Form TC-20 for C corporations, Form TC-20S for S corporations, and Form TC-65 for partnerships. The elective pass-through entity tax is reported on Form TC-75.",
+    "source_url": "https://tax.utah.gov/forms",
+    "evidence": [
+     "Form TC-40",
+     "Form TC-20",
+     "Form TC-20S",
+     "Form TC-65"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.utah.gov/forms; unreadable: https://tax.utah.gov/event/individual-corporate-partnership-income-tax-due-date-jan-dec-2026-2/; unreadable: https://tax.utah.gov/event/individual-corporate-partnership-income-tax-due-date-jan-dec-2025/; unreadable: https://tax.utah.gov/events/category/due-dates/; unreadable: https://tax.utah.gov/relief/; unreadable: https://files.tax.utah.gov/tax/forms/current/tc-559.pdf; unreadable: https://tax.utah.gov/event/partnership-tax-extension-due-dat",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://tax.utah.gov/event/individual-corporate-partnership-income-tax-due-date-jan-dec-2026-2/",
+   "https://tax.utah.gov/event/individual-corporate-partnership-income-tax-due-date-jan-dec-2025/",
+   "https://tax.utah.gov/events/category/due-dates/",
+   "https://tax.utah.gov/relief/",
+   "https://tax.utah.gov/event/individual-corporate-partnership-income-tax-due-date-jan-dec-2026-2/",
+   "https://files.tax.utah.gov/tax/forms/current/tc-559.pdf",
+   "https://tax.utah.gov/event/partnership-tax-extension-due-date-jan-dec-2025/",
+   "https://tax.utah.gov/forms-pubs/pub-58/",
+   "https://le.utah.gov/xcode/Title59/Chapter10/C59-10-S1403.2_2023050320230503.pdf",
+   "https://le.utah.gov/xcode/Title59/Chapter10/59-10-S1403.2.html",
+   "https://tax.utah.gov/forms/current/tc-75inst.pdf",
+   "https://le.utah.gov/xcode/Title59/Chapter10/59-10-S1403.2.html",
+   "https://files.tax.utah.gov/tax/forms/current/tc-40inst.pdf",
+   "https://le.utah.gov/~2026/bills/static/SB0060.html",
+   "https://files.tax.utah.gov/tax/train/webinars/2026-09-17-presentation.pdf",
+   "https://tax.utah.gov/event/state-local-tax-salt-election-payment-deadline-jan-dec-2026/",
+   "https://tax.utah.gov/events/2025-12-31/",
+   "https://le.utah.gov/Session/2025/bills/introduced/SB0085S01.pdf",
+   "https://files.tax.utah.gov/tax/commission/decision/23-0056.pdf",
+   "https://tax.utah.gov/forms-pubs/pub-68/",
+   "https://tax.utah.gov/business/withholding-overview/pass-through-withholding/",
+   "https://files.tax.utah.gov/tax/forms/2021/tc-20sinst.pdf",
+   "https://files.tax.utah.gov/tax/forms/pubs/pub-68.pdf",
+   "https://tax.utah.gov/forms-pubs/pub-68/",
+   "https://tax.utah.gov/event/corporate-quarterly-prepayment-due-date-jan-dec-2026/",
+   "https://tax.utah.gov/events/category/due-dates/page/2/?tribe-bar-date=2026-01-29&eventDisplay=past",
+   "https://files.tax.utah.gov/tax/train/webinars/2024-11-21-presentation.pdf",
+   "https://tax.utah.gov/forms-pubs/pub-68/",
+   "https://files.tax.utah.gov/tax/forms/current/tc-65inst.pdf",
+   "https://files.tax.utah.gov/tax/forms/current/tc-20inst.pdf",
+   "https://files.tax.utah.gov/tax/forms/current/tc-20s.pdf",
+   "https://files.tax.utah.gov/tax/forms/current/tc-65.pdf",
+   "https://files.tax.utah.gov/tax/forms/current/tc-65.pdf",
+   "https://tax.utah.gov/business/file-and-pay/",
+   "https://tax.utah.gov/business/file-and-pay/"
+  ],
+  "error": ""
+ }
+]

@@ -1,0 +1,326 @@
+[
+ {
+  "state": "VT",
+  "section": "apportionment",
+  "notes": "### 1. Apportionment Formula\n* **Fact:** Vermont utilizes a **single sales factor** (100% sales/receipts factor) to apportion multistate business income. Under 32 V.S.A. § 5833(a), the apportionment percentage is determined by dividing gross sales or charges for services performed within Vermont by total gross sales or charges whether within or outside Vermont. Vermont eliminated the three-factor formula and repealed the throwback rule effective for tax years beginning on or after January 1, 2023 (Act 148 of 2022). Pass-through entities also use the single sales factor calculation.\n* **Applicable Tax Years:** Applies to both tax years **2025 and 2026** (no change between them).\n* **Official URLs:** \n  * Vermont General Assembly (32 V.S.A. § 5833): https://legislature.vermont.gov/statutes/section/32/151/05833\n  * Vermont Department of Taxes (Compliance Corner): https://tax.vermont.gov/compliance-corner\n  * Vermont Department of Taxes (2022 Legislative Highlights): https://tax.vermont.gov/sites/tax/files/documents/2022-Legislative-Highlights.pdf\n\n---\n\n### 2. Market-Based Sourcing vs. Cost of Performance\n* **Fact:** Vermont employs **market-based sourcing** for gross receipts other than sales of tangible personal property (services and intangibles) under 32 V.S.A. § 5833(a)(2) and Department Regulation § 1.5833:\n  * **Services:** Sourced to Vermont if and to the extent the service is delivered to a location in Vermont (32 V.S.A. § 5833(a)(2)(C)).\n  * **Intangible Property:**\n    * Receipts from the rental, lease, or license of intangible property (including sales where receipts are contingent on productivity, use, or disposition) are sourced to Vermont if and to the extent the intangible property is used in Vermont (32 V.S.A. § 5833(a)(2)(D)).\n    * Receipts from the sale of intangible property not contingent on productivity, use, or disposition are sourced based on whether the contract rights authorize activities within Vermont; otherwise, they are excluded from both the numerator and denominator of the sales factor (32 V.S.A. § 5833(a)(2)(E)).\n  * **Approximation and Throwout Rule:** If the state of assignment cannot be determined, it must be reasonably approximated. If the taxpayer is not taxable in the destination state or the assignment cannot be determined/approximated, the receipts are excluded from the denominator (throwout) (32 V.S.A. § 5833(a)(3)–(4)).\n* **Applicable Tax Years:** Applies to both tax years **2025 and 2026** (no change between them).\n* **Official URLs:**\n  * Vermont General Assembly (32 V.S.A. § 5833): https://legislature.vermont.gov/statutes/section/32/151/05833\n  * Vermont Department of Taxes (Rules): https://tax.vermont.gov/rules\n  * Vermont Department of Taxes (Regulation § 1.5833): https://tax.vermont.gov/sites/tax/files/documents/Allocation%20and%20Apportionment%20of%20Income%20Clean%20Copy%2011%205%2021.pdf\n\n---\n\n### 3. Industries with Their Own Apportionment Formula\n* **Fact:** Vermont Department of Taxes Regulation § 1.5833 (Section G, \"Special Rules\") establishes industry-specific rules and apportionment formulas for:\n  * **Trucking Companies (Section G(2)):** Apportionment uses a mobile property mileage ratio (mobile property miles traveled within Vermont divided by mobile property miles traveled everywhere).\n  * **Television and Radio Broadcasting (Section G(3)):** Receipts from broadcasting and advertising are sourced based on an audience factor (audience share/ratio within Vermont vs everywhere).\n  * **Financial Institutions Subject to Corporate Income Tax (Section G(4)):** Industry-specific sourcing provisions for interest, service charges, loan fees, and cardholder receipts. *(Note: Traditional banking institutions are subject to the Bank Franchise Tax under 32 V.S.A. § 5836 rather than corporate income tax).*\n  * **General Relief / Alternative Apportionment:** Under 32 V.S.A. § 5833(b), if standard apportionment does not fairly represent business activity in Vermont, a taxpayer may petition for or the Commissioner may require separate accounting, exclusion/modification of factors, or additional factors.\n* **Applicable Tax Years:** Applies to both tax years **2025 and 2026** (no change between them).\n* **Official URLs:**\n  * Vermont Department of Taxes (Rules): https://tax.vermont.gov/rules\n  * Vermont Department of Taxes (Regulation § 1.5833): https://tax.vermont.gov/sites/tax/files/documents/Allocation%20and%20Apportionment%20of%20Income%20Clean%20Copy%2011%205%2021.pdf\n  * Vermont General Assembly (32 V.S.A. § 5833(b)): https://legislature.vermont.gov/statutes/section/32/151/05833\n\n---\n\n### 4. Form or Schedule Used to Compute Apportionment\n* **Fact:** \n  * **C-Corporations:** **Schedule BA-402**, *Apportionment & Allocation Schedule* (filed with Form CO-411, *Corporate Income Tax Return*). For unitary groups, Schedule BA-402 is filed for the Principal Vermont Corporation (PVC) and each taxable affiliate along with Schedule CO-421 (*Unitary Affiliate Schedule*) and, if applicable, Schedule CO-419 (*Apportionment of Foreign Dividends*).\n  * **Pass-Through Entities (PTEs):** **Schedule BI-477**, *Vermont Income Adjustment Calculation: Pass-Through Nonresident* (filed with Form BI-471, *Business Income Tax Return*). Schedule BI-477 replaced Schedule BA-402 for pass-through entities to compute single-sales apportionment and source entity income.\n* **Applicable Tax Years:** Applies to both tax years **2025 and 2026** (no change between them).\n* **Official URLs:**\n  * Vermont Department of Taxes (Forms and Instructions): https://tax.vermont.gov/forms-and-publications\n  * Vermont Department of Taxes (Corporate Income Tax): https://tax.vermont.gov/business/corporate-income-tax\n  * Vermont Department of Taxes (Business Entity Income Tax): https://tax.vermont.gov/business/business-entity-income-tax\n  * Vermont Department of Taxes (Compliance Corner): https://tax.vermont.gov/compliance-corner",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Vermont utilizes a single sales factor to apportion multistate business income. The apportionment percentage is calculated by dividing gross sales or charges within Vermont by total gross sales or charges everywhere.",
+    "source_url": "https://legislature.vermont.gov/statutes/section/32/151/05833",
+    "evidence": [
+     "single sales factor",
+     "apportionment percentage",
+     "services performed within Vermont"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://legislature.vermont.gov/statutes/section/32/151/05833; evidence not on tax.vermont.gov (1/3); not an official VT host: ryan.com; not an official VT host: gmco.com; evidence not on tax.vermont.gov (0/3); not an official VT host: www.law.cornell.edu",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Vermont applies market-based sourcing for receipts from services and intangibles. Receipts from services are sourced to Vermont if delivered to a location in the state, while receipts from intangibles are generally sourced based on use within the state.",
+    "source_url": "https://legislature.vermont.gov/statutes/section/32/151/05833",
+    "evidence": [
+     "delivered to a location",
+     "intangible property is used",
+     "sales factor"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://legislature.vermont.gov/statutes/section/32/151/05833; evidence not on tax.vermont.gov (1/3); not an official VT host: ryan.com; not an official VT host: gmco.com; evidence not on tax.vermont.gov (0/3); not an official VT host: www.law.cornell.edu",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Special apportionment formulas apply to trucking companies using mobile property miles and television and radio broadcasting based on audience share. Special sourcing rules also apply to financial institutions subject to corporate income tax.",
+    "source_url": "https://tax.vermont.gov/sites/tax/files/documents/Allocation%20and%20Apportionment%20of%20Income%20Clean%20Copy%2011%205%2021.pdf",
+    "evidence": [
+     "Trucking Companies",
+     "Television and Radio Broadcasting",
+     "Special Rules"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.vermont.gov/sites/tax/files/documents/Allocation%20and%20Apportionment%20of%20Income%20Clean%20Copy%2011%205%2021.pdf",
+    "matched_title": "Allocation and Apportionment of Vermont Net Income by Corporations",
+    "matched_phrases": [
+     "Trucking Companies",
+     "Television and Radio Broadcasting",
+     "Special Rules"
+    ],
+    "snippet": "The following special rules are established with respect to trucking companies:"
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "C-corporations compute apportionment on Schedule BA-402 filed with Form CO-411. Pass-through entities compute apportionment using Schedule BI-477 filed with Form BI-471.",
+    "source_url": "https://tax.vermont.gov/business/corporate-income-tax",
+    "evidence": [
+     "Schedule BA-402",
+     "Form CO-411",
+     "Corporate Income Tax Return"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.vermont.gov/business/corporate-income-tax",
+    "matched_title": "Corporate Income Tax | Department of Taxes",
+    "matched_phrases": [
+     "Form CO-411",
+     "Corporate Income Tax Return"
+    ],
+    "snippet": "Vermont Department of Taxes PO Box 1779 Montpelier, VT 05601-1779 Filing Deadlines Type Filing Deadline Income Tax Returns Form CO-411, Corporate Income Tax Return, is due on the date prescribed for filing under the Internal Revenue Code."
+   }
+  ],
+  "grounding_urls": [
+   "https://legislature.vermont.gov/statutes/section/32/151/05833",
+   "https://tax.vermont.gov/tax-law-and-guidance/compliance-corner",
+   "https://tax.vermont.gov/tax-law-and-guidance/tax-legislation/2022",
+   "https://tax.vermont.gov/tax-law-and-guidance/tax-legislation/2022",
+   "https://legislature.vermont.gov/statutes/section/32/151/05833",
+   "https://ryan.com/about-ryan/news-and-insights/vt-corp-income-tax-apportionment/",
+   "https://gmco.com/wp-content/uploads/2020/07/Vermont-1.pdf",
+   "https://legislature.vermont.gov/statutes/section/32/151/05833",
+   "https://tax.vermont.gov/research-and-reports/legal-library/regulations",
+   "https://tax.vermont.gov/document/allocation-and-apportionment-regulation",
+   "https://www.law.cornell.edu/regulations/vermont/10-002-Code-Vt-R-10-060-002-X",
+   "https://tax.vermont.gov/tax-law-and-guidance/formal-rulings/fr-2009-12",
+   "https://tax.vermont.gov/all-forms",
+   "https://tax.vermont.gov/business/corporate-income-tax",
+   "https://tax.vermont.gov/business/corporate-income-tax/unitary-rules",
+   "https://tax.vermont.gov/tax-law-and-guidance/compliance-corner",
+   "https://tax.vermont.gov/document/2025-instructions-ba-402",
+   "https://tax.vermont.gov/business/business-entity-income-tax",
+   "https://tax.vermont.gov/business/business-entity-income-tax"
+  ],
+  "error": ""
+ },
+ {
+  "state": "VT",
+  "section": "nexus",
+  "notes": "### 1. Corporate Income / Franchise Tax Nexus\n\n* **Nexus Standard:** Vermont does not impose a separate general corporate franchise tax; it levies a corporate income tax on every taxable C-corporation. Under Vermont Department of Taxes guidance and statute, nexus/a filing requirement is created if the corporation:\n  * Was incorporated under the laws of the State of Vermont;\n  * Received income allocable or apportioned to Vermont (including income received as a shareholder, partner, or member of a pass-through entity); or\n  * Maintains an open corporate income tax account.\n  * *Unitary Groups (Finnigan Rule):* If the activities of any member of a unitary group create nexus with Vermont, sales into Vermont from outside the state by all members of the group are included in the Vermont sales factor numerator.\n* **Economic Nexus / Bright-Line Factor-Presence Threshold:** **Not found.** Vermont has not enacted a statutory or regulatory bright-line dollar amount or factor-presence nexus threshold for corporate income tax purposes.\n* **Applicability:** Applies to tax years 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Vermont Department of Taxes, Corporate Income Tax: https://tax.vermont.gov/business/corporate-income-tax\n  * Vermont Department of Taxes, Technical Bulletin 70 (TB-70): https://tax.vermont.gov/document/tb-70\n  * Vermont General Assembly, 32 V.S.A. § 5832: https://legislature.vermont.gov/statutes/section/32/151/05832\n\n---\n\n### 2. Remote Seller Economic Nexus Threshold (Sales and Use Tax)\n\n* **Threshold Amounts:** A remote seller/vendor must register and collect Vermont sales tax if it meets either of the following criteria:\n  * Sales from outside Vermont to destinations within Vermont of at least **$100,000.00**; or\n  * Sales totaling at least **200 individual sales transactions**.\n* **Measurement Period:** During **any preceding 12-month period**. (The Department instructs sellers to review their sales over the prior 12 months at the end of each quarter to determine if they meet either threshold).\n* **Applicability:** Applies to tax years 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Vermont Department of Taxes, Sales Tax and Wayfair FAQs: https://tax.vermont.gov/business/sales-and-use-tax/wayfair\n  * Vermont Department of Taxes, Sales and Use Tax: https://tax.vermont.gov/business/sales-and-use-tax\n  * Vermont General Assembly, 32 V.S.A. § 9701(9)(F): https://legislature.vermont.gov/statutes/section/32/233/09701\n\n---\n\n### 3. State Position on Public Law 86-272 Protection\n\n* **Department Position:** The Vermont Department of Taxes narrowly restricts P.L. 86-272 protection strictly to the solicitation of orders for sales of tangible personal property. It has explicitly stated that it considers activities like **training**, **product demonstrations**, and **delivery through Vermont** to be activities that exceed the protections of P.L. 86-272. The Department cautions businesses to carefully review the activities of employees in Vermont to identify anything beyond solicitation.\n* **Applicability:** Applies to tax years 2025 and 2026 (guidance issued November 27, 2024, referencing TB-70; unchanged).\n* **Official Sources:**\n  * Vermont Department of Taxes, Compliance Corner (P.L. 86-272 guidance): https://tax.vermont.gov/tax-professionals/compliance-corner\n  * Vermont Department of Taxes, Technical Bulletin 70: https://tax.vermont.gov/document/tb-70",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "A C-corporation has corporate income tax nexus and a filing requirement if it is incorporated in Vermont, receives income allocable or apportioned to Vermont (including through a pass-through entity), or maintains an open corporate income tax account. If any member of a unitary group has Vermont nexus, sales into Vermont by all group members are included in the sales factor numerator under the Finnigan rule.",
+    "source_url": "https://tax.vermont.gov/business/corporate-income-tax",
+    "evidence": [
+     "incorporated under the laws",
+     "allocable or apportioned to Vermont",
+     "open corporate income tax account"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.vermont.gov/business/corporate-income-tax",
+    "matched_title": "Corporate Income Tax | Department of Taxes",
+    "matched_phrases": [
+     "incorporated under the laws",
+     "allocable or apportioned to Vermont",
+     "open corporate income tax account"
+    ],
+    "snippet": "It was incorporated under the laws of the State of Vermont or It received income allocable or apportioned to Vermont, including income received as a shareholder, partner, or member."
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "A remote seller must register and collect sales tax if it has sales from outside Vermont into the state of at least $100,000.00 or at least 200 individual sales transactions. The threshold is measured during any preceding 12-month period.",
+    "source_url": "https://tax.vermont.gov/business/sales-and-use-tax/wayfair",
+    "evidence": [
+     "at least $100,000.00",
+     "200 individual sales transactions",
+     "preceding 12-month period"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.vermont.gov/business-and-corp/sales-and-use-tax/wayfair/faqs",
+    "matched_title": "Sales Tax and Wayfair | Frequently Asked Questions | Department of Taxes",
+    "matched_phrases": [
+     "at least $100,000.00",
+     "200 individual sales transactions",
+     "preceding 12-month period"
+    ],
+    "snippet": "What is the Vermont threshold for small remote sellers? Remote sellers must collect and remit sales tax to Vermont when they have made sales from outside Vermont to destinations within Vermont of at least $100,000.00 or totaling at least 200 individual sales transactions during any preceding 12-month period."
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Vermont narrowly restricts P.L. 86-272 protection strictly to the solicitation of orders for sales of tangible personal property. Activities such as training, product demonstrations, and delivery through Vermont are considered to exceed P.L. 86-272 protection.",
+    "source_url": "https://tax.vermont.gov/tax-professionals/compliance-corner",
+    "evidence": [
+     "product demonstrations",
+     "delivery through Vermont",
+     "protections of P.L. 86-272"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.vermont.gov/tax-professionals/compliance-corner; figures not on tax.vermont.gov: ['272', '86']; unreadable: https://legislature.vermont.gov/statutes/section/32/151/05832; unreadable: https://legislature.vermont.gov/Documents/2022/Docs/JOURNAL/sj220317.pdf; figure not stated beside the evidence on tax.vermont.gov",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://tax.vermont.gov/business/corporate-income-tax",
+   "https://legislature.vermont.gov/statutes/section/32/151/05832",
+   "https://legislature.vermont.gov/Documents/2022/Docs/JOURNAL/sj220317.pdf",
+   "https://tax.vermont.gov/business-and-corp/sales-and-use-tax/wayfair/faqs",
+   "https://tax.vermont.gov/tax-law-and-guidance/compliance-corner"
+  ],
+  "error": ""
+ },
+ {
+  "state": "VT",
+  "section": "rates",
+  "notes": "### 1. Individual Income Tax Rates and Brackets\n* **Tax Rates:** Vermont imposes a graduated individual income tax with 4 tax brackets at the following rates: **3.35%**, **6.60%**, **7.60%**, and **8.75%**.\n* **Statutory Baseline Brackets (32 V.S.A. § 5822(a)):**\n  * *Single (Unmarried Individuals):*\n    * $0 to $38,700: 3.35%\n    * $38,701 to $93,700: $1,296.00 + 6.60% of the amount over $38,700\n    * $93,701 to $195,450: $4,926.00 + 7.60% of the amount over $93,700\n    * Over $195,450: $12,659.00 + 8.75% of the amount over $195,450\n  * *Married Filing Jointly / Surviving Spouses:*\n    * $0 to $64,600: 3.35%\n    * $64,601 to $156,150: $2,164.00 + 6.60% of the amount over $64,600\n    * $156,151 to $237,950: $8,206.00 + 7.60% of the amount over $156,150\n    * Over $237,950: $14,423.00 + 8.75% of the amount over $237,950\n  * *Heads of Households:*\n    * $0 to $51,850: 3.35%\n    * $51,851 to $133,850: $1,737.00 + 6.60% of the amount over $51,850\n    * $133,851 to $216,700: $7,149.00 + 7.60% of the amount over $133,850\n    * Over $216,700: $13,446.00 + 8.75% of the amount over $216,700\n  * *Married Filing Separately:* 50% of the Married Filing Jointly bracket thresholds.\n  *(Note: Bracket thresholds are adjusted annually for inflation by the Commissioner of Taxes under 32 V.S.A. § 5822(b)(2)).*\n* **Applicable Tax Years:** Tax years 2025 and 2026 (the statutory rates remain unchanged between both years).\n* **Official URLs:** \n  * https://legislature.vermont.gov/statutes/section/32/151/05822\n  * https://tax.vermont.gov/individuals/personal-income-tax/tax-rate-schedules-and-tables\n\n---\n\n### 2. Corporate Income Tax Rates and Minimum Tax\n* **Marginal Tax Rates:**\n  * $0 to $10,000: **6.00%** (Base Tax: $0)\n  * $10,001 to $25,000: **$600 + 7.00%** of the amount over $10,000\n  * $25,001 and more: **$1,650 + 8.50%** of the amount over $25,000\n* **Minimum Annual Tax (based on Vermont Gross Receipts):**\n  * Less than $500,000: **$100**\n  * $500,000 to $1 million: **$500**\n  * $1 million to $5 million: **$2,000**\n  * $5 million to $300 million: **$6,000**\n  * Over $300 million: **$100,000**\n  * *Exception:* Small Farm Corporation minimum tax is **$75** (32 V.S.A. § 5832(2)(A)).\n* **Pass-Through Entity Minimum Tax:** S-Corporations, Partnerships, and LLCs taxed as partnerships or S-corps are subject to the Business Entity Income Tax annual minimum tax of **$250**.\n* **Applicable Tax Years:** Tax years 2025 and 2026 (rates and thresholds are unchanged).\n* **Official URLs:** \n  * https://tax.vermont.gov/business/corporate-income-tax\n  * https://tax.vermont.gov/business/business-entity-income-tax\n\n---\n\n### 3. State Sales and Use Tax Rate & Local Surcharges\n* **State Rate:** **6%** on retail sales of taxable tangible personal property and use tax.\n* **Local Taxes:** Yes. Participating municipalities may impose an additional **1% Local Option Tax (LOT)** on sales, resulting in a total combined rate of **7%**. The local option tax applies to sales tax but does not apply to the state use tax.\n* **Applicable Tax Years:** Tax years 2025 and 2026 (unchanged).\n* **Official URLs:** \n  * https://tax.vermont.gov/business/sales-and-use\n  * https://tax.vermont.gov/business/local-option-tax\n\n---\n\n### 4. Gross Receipts, Franchise, Margin, or Other Notable Business Taxes\n* **General Business Tax:** Vermont does not impose a general gross receipts tax or margin tax on all businesses; however, specific industries and activities are subject to separate taxes:\n  * **Bank Franchise Tax:** Financial institutions and banks with Vermont deposits pay a franchise tax computed monthly on average deposits for the prior 12 months, in lieu of corporate income tax (32 V.S.A. § 5836).\n  * **Telephone Gross Receipts Tax:** Eligible telephone businesses with under $50 million in annual gross operating revenues within Vermont may elect to pay an alternative gross revenues/gross receipts tax in place of personal property and income taxes (available until January 1, 2027).\n  * **Meals and Rooms Tax:** **9%** on sales of prepared food/meals and room occupancy; **10%** on alcoholic beverages served in restaurants or bars for immediate consumption (municipalities may add a 1% Local Option Tax).\n* **Applicable Tax Years:** Tax years 2025 and 2026 (unchanged).\n* **Official URLs:** \n  * https://tax.vermont.gov/business/bank-franchise\n  * https://tax.vermont.gov/business/telephone-tax\n  * https://tax.vermont.gov/business/meals-and-rooms",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Vermont imposes a graduated individual income tax across four brackets with rates of 3.35%, 6.60%, 7.60%, and 8.75%. Statutory bracket thresholds are adjusted annually for inflation.",
+    "source_url": "https://tax.vermont.gov/individuals/personal-income-tax/tax-rate-schedules-and-tables",
+    "evidence": [
+     "individual income tax",
+     "rate schedules and tables",
+     "3.35% of the amount"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.vermont.gov/individuals/personal-income-tax/tax-rate-schedules-and-tables; unreadable: https://legislature.vermont.gov/statutes/section/32/151/05822; figures not on tax.vermont.gov: ['3.35', '6.6', '7.6', '8.75']; unreadable: https://legislature.vermont.gov/Documents/2024/WorkGroups/House%20Ways%20and%20Means/Bills/S.56/W~Abby%20Shepard~S.56%20Draft%20Tax%20Rates%20Credit%20Language~4-28-2023.pdf",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Vermont corporate income tax rates are 6.00%, 7.00%, and 8.50%. The annual minimum tax ranges from $100 to $100,000 based on Vermont Gross Receipts, with a $75 minimum for small farm corporations and $250 for pass-through entities.",
+    "source_url": "https://tax.vermont.gov/business/corporate-income-tax",
+    "evidence": [
+     "Corporate Income Tax",
+     "Vermont Gross Receipts",
+     "minimum annual tax"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.vermont.gov/business/corporate-income-tax",
+    "matched_title": "Corporate Income Tax | Department of Taxes",
+    "matched_phrases": [
+     "Corporate Income Tax",
+     "Vermont Gross Receipts",
+     "minimum annual tax"
+    ],
+    "snippet": "Allocable to Vermont Base Tax Plus of Amount Over $0 - 10,000 6.00% $0 $10,001 - 25,000 $600 7.00% $10,000 $25,001 - and more $1,650 8.50% $25,000.00 Minimum Annual Tax:"
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Vermont levies a 6% state sales and use tax on retail sales of taxable tangible personal property. Participating municipalities may impose an additional 1% Local Option Tax, resulting in a total sales tax rate of 7%.",
+    "source_url": "https://tax.vermont.gov/business/sales-and-use",
+    "evidence": [
+     "sales and use tax",
+     "tangible personal property",
+     "Local Option Tax"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.vermont.gov/individuals/use-tax",
+    "matched_title": "Use Tax for Individuals | Department of Taxes",
+    "matched_phrases": [
+     "sales and use tax",
+     "tangible personal property",
+     "Local Option Tax"
+    ],
+    "snippet": "§ 9701 (7) It is impossible to list every item subject to Vermont Sales and Use Tax sold in the an ever-evolving marketplace, but many categories of tangible personal property are listed in Vermont statute and regulation."
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Vermont does not have a general gross receipts tax, but financial institutions pay a bank franchise tax on average deposits in lieu of corporate income tax. In addition, eligible telephone businesses may elect an alternative gross receipts tax, and meals and rooms are taxed at 9%.",
+    "source_url": "https://tax.vermont.gov/business/bank-franchise",
+    "evidence": [
+     "Bank Franchise Tax",
+     "corporate income tax",
+     "average deposits"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.vermont.gov/business/bank-franchise; unreadable: https://legislature.vermont.gov/statutes/section/32/151/05822; figures not on tax.vermont.gov: ['9']; unreadable: https://legislature.vermont.gov/Documents/2024/WorkGroups/House%20Ways%20and%20Means/Bills/S.56/W~Abby%20Shepard~S.56%20Draft%20Tax%20Rates%20Credit%20Language~4-28-2023.pdf; evidence not on tax.vermont.gov (1/3); evidence not on tax.vermont.gov (0/3); figure not stated beside the evidence on tax.vermont.gov",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://legislature.vermont.gov/statutes/section/32/151/05822",
+   "https://tax.vermont.gov/document/tax-year-2025-vermont-tax-rate-schedules",
+   "https://legislature.vermont.gov/Documents/2024/WorkGroups/House%20Ways%20and%20Means/Bills/S.56/W~Abby%20Shepard~S.56%20Draft%20Tax%20Rates%20Credit%20Language~4-28-2023.pdf",
+   "https://tax.vermont.gov/individuals/personal-income-tax/rates",
+   "https://tax.vermont.gov/business/corporate-income-tax",
+   "https://tax.vermont.gov/business/business-entity-income-tax",
+   "https://tax.vermont.gov/business/business-entity-income-tax/business-income-tax-form-set-faqs",
+   "https://tax.vermont.gov/business/corporate-income-tax",
+   "https://tax.vermont.gov/business/business-entity-income-tax",
+   "https://tax.vermont.gov/business/sales-and-use-tax/getting-started",
+   "https://tax.vermont.gov/business/sales-and-use-tax",
+   "https://tax.vermont.gov/business/local-option-tax",
+   "https://tax.vermont.gov/individuals/use-tax",
+   "https://tax.vermont.gov/research-and-reports/tax-rates-and-charts",
+   "https://tax.vermont.gov/businesses",
+   "https://tax.vermont.gov/business/miscellaneous-taxes",
+   "https://tax.vermont.gov/business/misc-taxes/bank-franchise",
+   "https://tax.vermont.gov/business/misc-taxes/telephone-tax",
+   "https://tax.vermont.gov/business/industry/caterers"
+  ],
+  "error": ""
+ },
+ {
+  "state": "VT",
+  "section": "filing",
+  "notes": "",
+  "proposals": [],
+  "grounding_urls": [],
+  "error": "LlmError"
+ }
+]

@@ -1,0 +1,1452 @@
+{
+ "supported_years": [
+  2021,
+  2022,
+  2023,
+  2024,
+  2025,
+  2026
+ ],
+ "default_year": 2026,
+ "methods": [
+  {
+   "key": "macrs",
+   "label": "Standard MACRS (elect out of bonus, no Section 179)"
+  },
+  {
+   "key": "bonus",
+   "label": "Bonus depreciation, then MACRS"
+  },
+  {
+   "key": "section_179",
+   "label": "Section 179, then MACRS (elect out of bonus)"
+  },
+  {
+   "key": "section_179_bonus",
+   "label": "Section 179, then bonus, then MACRS"
+  },
+  {
+   "key": "compare",
+   "label": "Compare all methods"
+  }
+ ],
+ "asset_classes": [
+  {
+   "key": "computers",
+   "label": "Computers and office equipment",
+   "recovery_years": "5",
+   "allowed_recovery_years": [],
+   "section_179_eligible": true,
+   "bonus_eligible": true,
+   "listed": false,
+   "real_property": false,
+   "suv_cap": false,
+   "qpp": false,
+   "note": "Computers and peripheral equipment (asset class 00.12) and office machinery such as copiers and calculators.",
+   "source": {
+    "key": "class.computers",
+    "label": "Computers and office equipment",
+    "source_citation": "IRS Pub. 946 (2025), ch. 4 '5-year property' (d. office machinery) and Appendix B, Table B-1, asset class 00.12",
+    "source_url": "https://www.irs.gov/pub/irs-pdf/p946.pdf",
+    "last_verified": "2026-10-05",
+    "verified": true,
+    "verify_note": ""
+   }
+  },
+  {
+   "key": "furniture",
+   "label": "Office furniture and fixtures",
+   "recovery_years": "7",
+   "allowed_recovery_years": [],
+   "section_179_eligible": true,
+   "bonus_eligible": true,
+   "listed": false,
+   "real_property": false,
+   "suv_cap": false,
+   "qpp": false,
+   "note": "Desks, files, safes and similar (asset class 00.11). Furniture used in a residential rental activity is 5-year property - choose 'Other' with 5 years.",
+   "source": {
+    "key": "class.furniture",
+    "label": "Office furniture and fixtures",
+    "source_citation": "IRS Pub. 946 (2025), ch. 4 '7-year property' (a. office furniture and fixtures)",
+    "source_url": "https://www.irs.gov/pub/irs-pdf/p946.pdf",
+    "last_verified": "2026-10-05",
+    "verified": true,
+    "verify_note": ""
+   }
+  },
+  {
+   "key": "machinery",
+   "label": "Machinery and equipment",
+   "recovery_years": "7",
+   "allowed_recovery_years": [],
+   "section_179_eligible": true,
+   "bonus_eligible": true,
+   "listed": false,
+   "real_property": false,
+   "suv_cap": false,
+   "qpp": false,
+   "note": "Seven years is the class for property with no class life and for most general business equipment. Some industries' machinery has a different class life (Pub. 946 Table B-2) - use 'Other' if yours does.",
+   "source": {
+    "key": "class.machinery",
+    "label": "Machinery and equipment",
+    "source_citation": "IRS Pub. 946 (2025), ch. 4 '7-year property' (d. property without a class life) and Appendix B",
+    "source_url": "https://www.irs.gov/pub/irs-pdf/p946.pdf",
+    "last_verified": "2026-10-05",
+    "verified": true,
+    "verify_note": ""
+   }
+  },
+  {
+   "key": "qip",
+   "label": "Qualified improvement property",
+   "recovery_years": "15",
+   "allowed_recovery_years": [],
+   "section_179_eligible": true,
+   "bonus_eligible": true,
+   "listed": false,
+   "real_property": false,
+   "suv_cap": false,
+   "qpp": false,
+   "note": "Interior improvements to nonresidential buildings placed in service after the building, excluding enlargements, elevators/escalators and the internal structural framework. 15-year straight line.",
+   "source": {
+    "key": "class.qip",
+    "label": "Qualified improvement property",
+    "source_citation": "IRS Pub. 946 (2025), ch. 4 '15-year property' (h.) and Table 4-1 (GDS using SL: qualified improvement property); IRC 179(f)",
+    "source_url": "https://www.irs.gov/pub/irs-pdf/p946.pdf",
+    "last_verified": "2026-10-05",
+    "verified": true,
+    "verify_note": ""
+   }
+  },
+  {
+   "key": "passenger_vehicle",
+   "label": "Passenger vehicle (6,000 lb GVWR or less)",
+   "recovery_years": "5",
+   "allowed_recovery_years": [],
+   "section_179_eligible": true,
+   "bonus_eligible": true,
+   "listed": true,
+   "real_property": false,
+   "suv_cap": false,
+   "qpp": false,
+   "note": "Listed property subject to the section 280F annual depreciation limits.",
+   "source": {
+    "key": "class.passenger_vehicle",
+    "label": "Passenger vehicle (6,000 lb GVWR or less)",
+    "source_citation": "IRS Pub. 946 (2025), ch. 4 '5-year property' (a. automobiles) and ch. 5 (passenger automobile: 6,000 pounds or less GVWR)",
+    "source_url": "https://www.irs.gov/pub/irs-pdf/p946.pdf",
+    "last_verified": "2026-10-05",
+    "verified": true,
+    "verify_note": ""
+   }
+  },
+  {
+   "key": "heavy_vehicle",
+   "label": "Heavy SUV, truck or van (over 6,000 lb GVWR)",
+   "recovery_years": "5",
+   "allowed_recovery_years": [],
+   "section_179_eligible": true,
+   "bonus_eligible": true,
+   "listed": true,
+   "real_property": false,
+   "suv_cap": true,
+   "qpp": false,
+   "note": "Not subject to the 280F limits, but an SUV rated 6,001-14,000 lb has a separate section 179 cap unless it seats more than nine behind the driver, has a cargo bed of at least six feet not readily accessible from the passenger area, or is a cargo van without seating rearward of the driver.",
+   "source": {
+    "key": "class.heavy_vehicle",
+    "label": "Heavy SUV, truck or van (over 6,000 lb GVWR)",
+    "source_citation": "Instructions for Form 4562, Part I, 'Section 179 deduction for SUVs'; IRC 179(b)(5); IRS Pub. 946 ch. 5",
+    "source_url": "https://www.irs.gov/pub/irs-pdf/i4562.pdf",
+    "last_verified": "2026-10-05",
+    "verified": true,
+    "verify_note": ""
+   }
+  },
+  {
+   "key": "residential_rental",
+   "label": "Residential rental building",
+   "recovery_years": "27.5",
+   "allowed_recovery_years": [],
+   "section_179_eligible": false,
+   "bonus_eligible": false,
+   "listed": false,
+   "real_property": true,
+   "suv_cap": false,
+   "qpp": false,
+   "note": "A building where 80% or more of gross rental income is from dwelling units. Mid-month convention, straight line. Land is never depreciable.",
+   "source": {
+    "key": "class.residential_rental",
+    "label": "Residential rental building",
+    "source_citation": "IRS Pub. 946 (2025), ch. 4 '8. Residential rental property' and Appendix A, Table A-6",
+    "source_url": "https://www.irs.gov/pub/irs-pdf/p946.pdf",
+    "last_verified": "2026-10-05",
+    "verified": true,
+    "verify_note": ""
+   }
+  },
+  {
+   "key": "nonresidential",
+   "label": "Nonresidential building",
+   "recovery_years": "39",
+   "allowed_recovery_years": [],
+   "section_179_eligible": false,
+   "bonus_eligible": false,
+   "listed": false,
+   "real_property": true,
+   "suv_cap": false,
+   "qpp": false,
+   "note": "Office buildings, stores, warehouses. Mid-month convention, straight line over 39 years. Land is never depreciable.",
+   "source": {
+    "key": "class.nonresidential",
+    "label": "Nonresidential building",
+    "source_citation": "IRS Pub. 946 (2025), ch. 4 '9. Nonresidential real property' and Appendix A, Table A-7a",
+    "source_url": "https://www.irs.gov/pub/irs-pdf/p946.pdf",
+    "last_verified": "2026-10-05",
+    "verified": true,
+    "verify_note": ""
+   }
+  },
+  {
+   "key": "land_improvements",
+   "label": "Land improvements",
+   "recovery_years": "15",
+   "allowed_recovery_years": [],
+   "section_179_eligible": false,
+   "bonus_eligible": true,
+   "listed": false,
+   "real_property": false,
+   "suv_cap": false,
+   "qpp": false,
+   "note": "Fences, roads, sidewalks, parking lots, shrubbery. 15-year, 150% declining balance. Not section 179 property (section 1250 property).",
+   "source": {
+    "key": "class.land_improvements",
+    "label": "Land improvements",
+    "source_citation": "IRS Pub. 946 (2025), ch. 4 '15-year property' (a.) and Table 4-1 (GDS using 150% DB: all 15-year property)",
+    "source_url": "https://www.irs.gov/pub/irs-pdf/p946.pdf",
+    "last_verified": "2026-10-05",
+    "verified": true,
+    "verify_note": ""
+   }
+  },
+  {
+   "key": "qualified_production",
+   "label": "Qualified production property (Sec. 168(n))",
+   "recovery_years": "39",
+   "allowed_recovery_years": [],
+   "section_179_eligible": false,
+   "bonus_eligible": false,
+   "listed": false,
+   "real_property": true,
+   "suv_cap": false,
+   "qpp": true,
+   "note": "The production portion of a nonresidential building. If you elect section 168(n) and the construction and placed-in-service dates qualify, 100% of the designated basis is deductible in the first year; otherwise it is ordinary 39-year property.",
+   "source": {
+    "key": "class.qualified_production",
+    "label": "Qualified production property (Sec. 168(n))",
+    "source_citation": "Notice 2026-16; IRC 168(n); IRS Pub. 946 (2025) Table A-7a for the non-elected basis",
+    "source_url": "https://www.irs.gov/pub/irs-drop/n-26-16.pdf",
+    "last_verified": "2026-10-05",
+    "verified": true,
+    "verify_note": ""
+   }
+  },
+  {
+   "key": "other",
+   "label": "Other (choose the recovery period)",
+   "recovery_years": null,
+   "allowed_recovery_years": [
+    "3",
+    "5",
+    "7",
+    "10",
+    "15",
+    "20"
+   ],
+   "section_179_eligible": true,
+   "bonus_eligible": true,
+   "listed": false,
+   "real_property": false,
+   "suv_cap": false,
+   "qpp": false,
+   "note": "Tangible personal property with a recovery period you have determined from Pub. 946 Appendix B.",
+   "source": {
+    "key": "class.other",
+    "label": "Other (choose the recovery period)",
+    "source_citation": "IRS Pub. 946 (2025), ch. 4 'Which Property Class Applies Under GDS?' and Table 4-1",
+    "source_url": "https://www.irs.gov/pub/irs-pdf/p946.pdf",
+    "last_verified": "2026-10-05",
+    "verified": true,
+    "verify_note": ""
+   }
+  }
+ ],
+ "states": [
+  {
+   "code": "AK",
+   "name": "Alaska",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "no_income_tax",
+    "2022": "no_income_tax",
+    "2023": "no_income_tax",
+    "2024": "no_income_tax",
+    "2025": "no_income_tax",
+    "2026": "no_income_tax"
+   },
+   "changed_recently_years": [],
+   "change_notes": {}
+  },
+  {
+   "code": "AL",
+   "name": "Alabama",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "unverified",
+    "2022": "unverified",
+    "2023": "unverified",
+    "2024": "unverified",
+    "2025": "unverified",
+    "2026": "unverified"
+   },
+   "changed_recently_years": [],
+   "change_notes": {}
+  },
+  {
+   "code": "AR",
+   "name": "Arkansas",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "unverified",
+    "2022": "unverified",
+    "2023": "unverified",
+    "2024": "unverified",
+    "2025": "unverified",
+    "2026": "unverified"
+   },
+   "changed_recently_years": [],
+   "change_notes": {
+    "2022": "179 raised from $25,000/$200,000 to IRC 179 as of 1 Jan 2022 for tax years beginning on or after 1 Jan 2022."
+   }
+  },
+  {
+   "code": "AZ",
+   "name": "Arizona",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "verified",
+    "2022": "verified",
+    "2023": "verified",
+    "2024": "verified",
+    "2025": "unverified",
+    "2026": "verified"
+   },
+   "changed_recently_years": [
+    2025,
+    2026
+   ],
+   "change_notes": {
+    "2025": "Definition of IRC for TY2025 updated to include P.L. 119-21 retroactive provisions (A.R.S. 43-105(B)). 168(n) treatment for 2025 not stated.",
+    "2026": "43-1021(17): for tax years beginning from and after 31 Dec 2025, add back the 168(n) special depreciation allowance 'to the extent not previously added'. IRC date moved to 1 Jan 2026."
+   }
+  },
+  {
+   "code": "CA",
+   "name": "California",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "unverified",
+    "2022": "unverified",
+    "2023": "unverified",
+    "2024": "unverified",
+    "2025": "verified",
+    "2026": "verified"
+   },
+   "changed_recently_years": [
+    2025
+   ],
+   "change_notes": {
+    "2025": "SB 1435 (Stats. 2026 ch. 236, eff. 14 Sep 2026) moves conformity from 1 Jan 2015 to 1 Jan 2025 for tax years beginning on or after 1 Jan 2025. P.L. 119-21 (4 Jul 2025) postdates that date, so OBBBA 168(n), the 100% bonus and the $2.5M 179 are not CA law. 17255 amended by SB 711, eff. 1 Oct 2025."
+   }
+  },
+  {
+   "code": "CO",
+   "name": "Colorado",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "unverified",
+    "2022": "unverified",
+    "2023": "unverified",
+    "2024": "unverified",
+    "2025": "unverified",
+    "2026": "unverified"
+   },
+   "changed_recently_years": [],
+   "change_notes": {}
+  },
+  {
+   "code": "CT",
+   "name": "Connecticut",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "unverified",
+    "2022": "unverified",
+    "2023": "unverified",
+    "2024": "unverified",
+    "2025": "unverified",
+    "2026": "unverified"
+   },
+   "changed_recently_years": [
+    2026
+   ],
+   "change_notes": {
+    "2026": "2026 legislation decouples the corporation business tax (Conn. Gen. Stat. 12-217) from 168(n) from the 2026 income year. The personal income tax is not addressed on the DRS 2026 developments page; individual 168(n) treatment is unknown."
+   }
+  },
+  {
+   "code": "DC",
+   "name": "District of Columbia",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "verified",
+    "2022": "verified",
+    "2023": "verified",
+    "2024": "verified",
+    "2025": "verified",
+    "2026": "verified"
+   },
+   "changed_recently_years": [
+    2025,
+    2026
+   ],
+   "change_notes": {
+    "2025": "DC Income and Franchise Tax Conformity and Revision Act of 2025 (emergency D.C. Act 26-214; temporary D.C. Law 26-89) disallows 168(n) and restates the $25,000 179 limit, for tax years beginning after 31 Dec 2024. OTR 2025 D-41 booklet (excerpt) says DC allows none of 168(k), 168(n), or the additional 179.",
+    "2026": "D.C. Law 26-89 took effect 12 Feb 2026 and expires after 225 days (about 25 Sep 2026, derived), before 2026-10-05. A permanent successor was not found."
+   }
+  },
+  {
+   "code": "DE",
+   "name": "Delaware",
+   "business_tax": "Delaware gross receipts tax",
+   "status_by_year": {
+    "2021": "verified",
+    "2022": "verified",
+    "2023": "verified",
+    "2024": "verified",
+    "2025": "verified",
+    "2026": "verified"
+   },
+   "changed_recently_years": [
+    2026
+   ],
+   "change_notes": {
+    "2026": "HB 255 (85 Del. Laws ch. 231, signed 19 Nov 2025; ch. 426 amended 1106): decouples individuals from sec. 70301 and 70307 for property acquired and placed in service after 31 Dec 2025, effective tax year 2026."
+   }
+  },
+  {
+   "code": "FL",
+   "name": "Florida",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "no_income_tax",
+    "2022": "no_income_tax",
+    "2023": "no_income_tax",
+    "2024": "no_income_tax",
+    "2025": "no_income_tax",
+    "2026": "no_income_tax"
+   },
+   "changed_recently_years": [],
+   "change_notes": {}
+  },
+  {
+   "code": "GA",
+   "name": "Georgia",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "unverified",
+    "2022": "unverified",
+    "2023": "unverified",
+    "2024": "unverified",
+    "2025": "unverified",
+    "2026": "unverified"
+   },
+   "changed_recently_years": [
+    2025
+   ],
+   "change_notes": {
+    "2025": "HB 1199 (signed 20 Mar 2026) advanced the IRC date to federal law enacted on or before 1 Jan 2026 and the 2025 Form 4562 instructions (Rev. 07/08/26) show the OBBBA 179 amounts; the Rev. 08/01/25 version had 1,250,000 / 3,130,000. Bonus stays decoupled."
+   }
+  },
+  {
+   "code": "HI",
+   "name": "Hawaii",
+   "business_tax": "Hawaii general excise tax",
+   "status_by_year": {
+    "2021": "unverified",
+    "2022": "unverified",
+    "2023": "unverified",
+    "2024": "unverified",
+    "2025": "unverified",
+    "2026": "unverified"
+   },
+   "changed_recently_years": [
+    2026
+   ],
+   "change_notes": {
+    "2026": "Act 35 (HB 2329, effective 26 May 2026, tax years after 31 Dec 2025) conforms to the IRC as of 31 Dec 2025 and amends 235-2.3(b), 235-2.4 and 235-2.45 in response to OBBBA; effect on 168(n) and 179 not determined."
+   }
+  },
+  {
+   "code": "IA",
+   "name": "Iowa",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "unverified",
+    "2022": "unverified",
+    "2023": "unverified",
+    "2024": "unverified",
+    "2025": "unverified",
+    "2026": "unverified"
+   },
+   "changed_recently_years": [],
+   "change_notes": {}
+  },
+  {
+   "code": "ID",
+   "name": "Idaho",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "unverified",
+    "2022": "unverified",
+    "2023": "unverified",
+    "2024": "unverified",
+    "2025": "unverified",
+    "2026": "unverified"
+   },
+   "changed_recently_years": [
+    2025
+   ],
+   "change_notes": {
+    "2025": "H.B. 559 (signed 10 Feb 2026, retroactive to 1 Jan 2025) moves the IRC date to 1 Jan 2026, adopts the OBBBA 179 increase and decouples from 168(n); bonus 168(k) was already decoupled."
+   }
+  },
+  {
+   "code": "IL",
+   "name": "Illinois",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "unverified",
+    "2022": "unverified",
+    "2023": "unverified",
+    "2024": "unverified",
+    "2025": "unverified",
+    "2026": "unverified"
+   },
+   "changed_recently_years": [
+    2026
+   ],
+   "change_notes": {
+    "2026": "Public Act 104-0453 amended IITA 203 to decouple from federal 100 percent bonus depreciation claimed under 168(n), for tax years beginning on or after 1 Jan 2026; reported on IL-4562 Line 16."
+   }
+  },
+  {
+   "code": "IN",
+   "name": "Indiana",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "unverified",
+    "2022": "unverified",
+    "2023": "unverified",
+    "2024": "unverified",
+    "2025": "unverified",
+    "2026": "unverified"
+   },
+   "changed_recently_years": [
+    2025,
+    2026
+   ],
+   "change_notes": {
+    "2025": "IB 118 now covers qualified production property and Code 120 is for 2025 only; SEA 243 (2026) extended the decoupling to QPP 'beginning in taxable year 2026'. Why Code 120 exists for 2025 was not resolved.",
+    "2026": "SEA 243 (2026) decouples Indiana from federal QPP expensing from taxable year 2026; report on Code 157."
+   }
+  },
+  {
+   "code": "KS",
+   "name": "Kansas",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "unverified",
+    "2022": "unverified",
+    "2023": "unverified",
+    "2024": "unverified",
+    "2025": "unverified",
+    "2026": "unverified"
+   },
+   "changed_recently_years": [],
+   "change_notes": {}
+  },
+  {
+   "code": "KY",
+   "name": "Kentucky",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "unverified",
+    "2022": "unverified",
+    "2023": "unverified",
+    "2024": "unverified",
+    "2025": "unverified",
+    "2026": "unverified"
+   },
+   "changed_recently_years": [],
+   "change_notes": {}
+  },
+  {
+   "code": "LA",
+   "name": "Louisiana",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "unverified",
+    "2022": "unverified",
+    "2023": "verified",
+    "2024": "verified",
+    "2025": "verified",
+    "2026": "unverified"
+   },
+   "changed_recently_years": [
+    2025
+   ],
+   "change_notes": {
+    "2025": "Act 11 of the 2024 Third Extraordinary Session: new elective Louisiana full expensing for tax periods beginning on or after 1 Jan 2025 (RIB 25-012; 2025 IT-540 instructions). It predates OBBBA and is not a response to Pub. L. 119-21."
+   }
+  },
+  {
+   "code": "MA",
+   "name": "Massachusetts",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "unverified",
+    "2022": "unverified",
+    "2023": "unverified",
+    "2024": "unverified",
+    "2025": "unverified",
+    "2026": "unverified"
+   },
+   "changed_recently_years": [
+    2025,
+    2026
+   ],
+   "change_notes": {
+    "2022": "FY23 Budget (TIR 23-1) moved PIT conformity from the Code as of 1 Jan 2005 to the Code as of 1 Jan 2022, for tax years beginning on or after 1 Jan 2022. 168(k) decoupling unchanged.",
+    "2024": "FY25 Budget (St. 2024 c.140 ss.251, 264; TIR 24-14) moved PIT conformity from the Code as of 1 Jan 2022 to 1 Jan 2024, for tax years beginning on or after 1 Jan 2024.",
+    "2025": "FY26 final mid-year Supplemental Budget (Acts of 2026 ch. 101; DOR TIR 26-4, first a working draft): for tax years beginning on or after 1 Jan 2025 and before 1 Jan 2027 MA does not allow 168(n) and calculates 179 without the P.L. 119-21 amendments (so 1,250,000 / 3,130,000 rather than 2,500,000 / 4,000,000). Taxpayers who filed 2025 returns on the federal figures may amend within 90 days of enactment, with no interest or penalty.",
+    "2026": "Same Supplemental Budget: no 168(n) and 179 without the P.L. 119-21 amendments for tax years beginning before 1 Jan 2027, which includes 2026."
+   }
+  },
+  {
+   "code": "MD",
+   "name": "Maryland",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "verified",
+    "2022": "verified",
+    "2023": "verified",
+    "2024": "verified",
+    "2025": "unverified",
+    "2026": "unverified"
+   },
+   "changed_recently_years": [
+    2025,
+    2026
+   ],
+   "change_notes": {
+    "2025": "The Comptroller's OBBBA tax alert (search excerpt) says Maryland is automatically decoupled for 2025 from OBBBA's special depreciation for qualified production property (168(n)), domestic R&E expensing and the business interest change, and that the OBBBA increase in 179 to 2,500,000 does not apply: the state cap stays 25,000 / 200,000.",
+    "2026": "Possible 2026 legislation; enactment and bill number not confirmed."
+   }
+  },
+  {
+   "code": "ME",
+   "name": "Maine",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "verified",
+    "2022": "verified",
+    "2023": "verified",
+    "2024": "verified",
+    "2025": "verified",
+    "2026": "unverified"
+   },
+   "changed_recently_years": [
+    2025,
+    2026
+   ],
+   "change_notes": {
+    "2025": "Maine's Code date was 31 Dec 2024, before OBBBA. The 2025 forms followed the Governor's directive (conform to OBBBA 179, decouple from 168(n) and bonus). P.L. 2025, c. 650, Pt. K (effective 29 Jul 2026) then updated the Code reference to 31 Dec 2025, generally for tax years beginning on or after 1 Jan 2025, and enacted a 168(n) add-back, 36 MRSA 5122(1)(RR).",
+    "2026": "Code reference updated to 31 Dec 2025 (P.L. 2025, c. 650, Pt. K, effective 29 Jul 2026); 168(n) add-back and recapture enacted; R&E 70% addition for 2026."
+   }
+  },
+  {
+   "code": "MI",
+   "name": "Michigan",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "unverified",
+    "2022": "unverified",
+    "2023": "unverified",
+    "2024": "unverified",
+    "2025": "unverified",
+    "2026": "unverified"
+   },
+   "changed_recently_years": [
+    2025
+   ],
+   "change_notes": {
+    "2025": "PA 24 of 2025 (HB 4961), signed 7 Oct 2025, decouples from OBBBA 168(k) 100% bonus, the 179 increase, 168(n), 174A and the 163(j) change, for tax years beginning after 31 Dec 2024."
+   }
+  },
+  {
+   "code": "MN",
+   "name": "Minnesota",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "verified",
+    "2022": "verified",
+    "2023": "verified",
+    "2024": "verified",
+    "2025": "verified",
+    "2026": "verified"
+   },
+   "changed_recently_years": [
+    2025
+   ],
+   "change_notes": {
+    "2023": "2023 conformity act moved the IRC date from 31 Dec 2018 to 1 May 2023; the bonus and 179 rules did not change.",
+    "2025": "Before ch. 128 (DOR analysis dated 26 May 2026) Minnesota's IRC date was 1 May 2023, so OBBBA's 100% bonus, 179 increase and 168(n) were not Minnesota law for TY2025. DOR analysis: the 80% addition 'does not apply to qualified production property', so 168(n) property gets full conformity (no addition); the 179 increase is conformed (the 179 line is not shaded as decoupled)."
+   }
+  },
+  {
+   "code": "MO",
+   "name": "Missouri",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "unverified",
+    "2022": "unverified",
+    "2023": "unverified",
+    "2024": "unverified",
+    "2025": "unverified",
+    "2026": "unverified"
+   },
+   "changed_recently_years": [],
+   "change_notes": {}
+  },
+  {
+   "code": "MS",
+   "name": "Mississippi",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "unverified",
+    "2022": "unverified",
+    "2023": "verified",
+    "2024": "verified",
+    "2025": "unverified",
+    "2026": "unverified"
+   },
+   "changed_recently_years": [],
+   "change_notes": {
+    "2021": "HB 1356 (2021 session) amended Miss. Code 27-7-17: for new or used aircraft, equipment, engines and other aviation parts and tools, bonus depreciation conforms to the federal rates and the reasonable allowance is no less than 100% (2021 corporate booklet, What's New).",
+    "2023": "HB 1733 replaced the pre-2023 add-back of the federal special depreciation allowance with a 100% state bonus election."
+   }
+  },
+  {
+   "code": "MT",
+   "name": "Montana",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "unverified",
+    "2022": "unverified",
+    "2023": "unverified",
+    "2024": "unverified",
+    "2025": "verified",
+    "2026": "unverified"
+   },
+   "changed_recently_years": [],
+   "change_notes": {
+    "2024": "Tax simplification (SB 399, 2021) effective 1 Jan 2024: base moved from federal AGI to federal taxable income; a one-time 2024 Transition Schedule let taxpayers align differing state and federal asset bases; items not reconciled default to the federal amount from 1 Jan 2025."
+   }
+  },
+  {
+   "code": "NC",
+   "name": "North Carolina",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "verified",
+    "2022": "verified",
+    "2023": "verified",
+    "2024": "verified",
+    "2025": "unverified",
+    "2026": "unverified"
+   },
+   "changed_recently_years": [
+    2025,
+    2026
+   ],
+   "change_notes": {
+    "2025": "Session Law 2026-31 (SB 595, signed 2 Jul 2026) updated the IRC reference from 1 Jan 2023 to 5 Jul 2025, covering the OBBBA (NCDOR FAQ of 11 Sep 2026, Q2, Q11, Q12). The 2025 booklet (published before the Act) still says 1 Jan 2023 and states OBBBA changes 'DO NOT apply'; that sentence is superseded for 2025 returns. NCDOR FAQ Q44: 'Has the NC decoupling adjustment for bonus depreciation changed? No.' The same law adds an R&E decoupling (add back 80% of 174A(a) amounts, deduct 25% in each of the next four years; Schedule S line 15 and line 40) and does not allow the OBBBA tips, overtime, car-loan and senior deductions (taken after AGI). Returns filed before the Act may need amending.",
+    "2026": "IRC reference 5 Jul 2025 per SL 2026-31 (FAQ Q11: 'The Revenue Act currently references the Code as of July 5, 2025'), so federal changes after 5 Jul 2025 do not apply to 2026 unless the General Assembly acts again. NC is a static-conformity state (FAQ Q10). 2026 filing guidance is still to come."
+   }
+  },
+  {
+   "code": "ND",
+   "name": "North Dakota",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "verified",
+    "2022": "verified",
+    "2023": "verified",
+    "2024": "verified",
+    "2025": "verified",
+    "2026": "unverified"
+   },
+   "changed_recently_years": [],
+   "change_notes": {}
+  },
+  {
+   "code": "NE",
+   "name": "Nebraska",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "unverified",
+    "2022": "unverified",
+    "2023": "unverified",
+    "2024": "unverified",
+    "2025": "unverified",
+    "2026": "unverified"
+   },
+   "changed_recently_years": [],
+   "change_notes": {}
+  },
+  {
+   "code": "NH",
+   "name": "New Hampshire",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "no_income_tax",
+    "2022": "no_income_tax",
+    "2023": "no_income_tax",
+    "2024": "no_income_tax",
+    "2025": "no_income_tax",
+    "2026": "no_income_tax"
+   },
+   "changed_recently_years": [
+    2025
+   ],
+   "change_notes": {
+    "2025": "I&D Tax repealed from 1 Jan 2025. No BPT depreciation change for OBBBA; the BPT IRC date stays 31 Dec 2018, which predates 168(n) (enacted 2025), so 168(n) is not available for BPT (structural, DRA excerpt: OBBBA not adopted)."
+   }
+  },
+  {
+   "code": "NJ",
+   "name": "New Jersey",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "unverified",
+    "2022": "unverified",
+    "2023": "unverified",
+    "2024": "unverified",
+    "2025": "unverified",
+    "2026": "unverified"
+   },
+   "changed_recently_years": [
+    2025
+   ],
+   "change_notes": {
+    "2025": "10/25 GIT-DEP adds Part II(a), an alternate depreciation deduction for certain new affordable housing developments (tax years beginning on or after 1 Jan 2025; construction begins on or after 20 Mar 2024). No change to 179, bonus or the 25,000 cap. 168(n) (OBBBA qualified production property) is not mentioned: Part II still bases NJ depreciation on the federal method and life with no special allowance, so none is allowed in effect, but this is unconfirmed."
+   }
+  },
+  {
+   "code": "NM",
+   "name": "New Mexico",
+   "business_tax": "New Mexico gross receipts tax",
+   "status_by_year": {
+    "2021": "unverified",
+    "2022": "unverified",
+    "2023": "unverified",
+    "2024": "unverified",
+    "2025": "unverified",
+    "2026": "unverified"
+   },
+   "changed_recently_years": [
+    2026
+   ],
+   "change_notes": {
+    "2026": "SB 151 (signed 11 Mar 2026): corporate income tax decouples from federal bonus depreciation and 168(n); personal income tax not named in any excerpt read. Bill text unreadable (nmlegis.gov HTTP 403), so a personal-tax provision cannot be ruled out."
+   }
+  },
+  {
+   "code": "NV",
+   "name": "Nevada",
+   "business_tax": "Nevada commerce tax",
+   "status_by_year": {
+    "2021": "no_income_tax",
+    "2022": "no_income_tax",
+    "2023": "no_income_tax",
+    "2024": "no_income_tax",
+    "2025": "no_income_tax",
+    "2026": "no_income_tax"
+   },
+   "changed_recently_years": [],
+   "change_notes": {}
+  },
+  {
+   "code": "NY",
+   "name": "New York",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "unverified",
+    "2022": "unverified",
+    "2023": "unverified",
+    "2024": "unverified",
+    "2025": "unverified",
+    "2026": "unverified"
+   },
+   "changed_recently_years": [
+    2025
+   ],
+   "change_notes": {
+    "2022": "From tax years beginning on or after 1 Jan 2022 the 3/1/2020 freeze ends: 'any changes to the Internal Revenue Code after March 1, 2020, will apply to the New York State and New York City personal income tax, unless a specific modification is otherwise required' (NY TAX FAQ).",
+    "2025": "Notice N-26-1 (16 Jun 2026), under the 2026-2027 NY budget: NY does not conform to IRC 168(n) accelerated depreciation for qualified production property or to the OBBBA domestic R&E expensing (IRC 174/174A), for tax years beginning on or after 1 Jan 2025. 168(n): add back the full federal deduction (A-209) and subtract depreciation 'calculated as if the special depreciation election had not been made' (S-213). R&E: add back in full (A-225), subtract by amortizing over 60 months (S-221 for expenses on/after 1 Jan 2025; S-222 for earlier). Penalty and interest relief is available for timely filed or amended returns reporting these modifications. The notice does not mention 168(k) or 179."
+   }
+  },
+  {
+   "code": "OH",
+   "name": "Ohio",
+   "business_tax": "Ohio commercial activity tax",
+   "status_by_year": {
+    "2021": "unverified",
+    "2022": "unverified",
+    "2023": "unverified",
+    "2024": "unverified",
+    "2025": "unverified",
+    "2026": "unverified"
+   },
+   "changed_recently_years": [
+    2025,
+    2026
+   ],
+   "change_notes": {
+    "2025": "Senate Bill 9 (136th General Assembly), signed 5 Mar 2026 with immediate effect, updates R.C. 5701.11 to 5 Mar 2026 and incorporates IRC changes after 7 Mar 2025, including P.L. 119-21 (OBBBA) (EY Tax News 9 Mar 2026 and OSCPA excerpts, secondary). A taxpayer with a tax year ending after 7 Mar 2025 and before 5 Mar 2026 may irrevocably elect, on the 2025 return, to use all IRC provisions effective in that year; without the election the IRC as of 7 Mar 2025 applies, which predates P.L. 119-21 (4 Jul 2025). The 2025 booklet (printed 27 Nov 2025) predates SB 9, and its line 11 'Federal conformity additions' / line 31 'Federal conformity deductions' (and the page tax.ohio.gov/conformity) carry the election adjustments. Ohio is reported to follow 168(n) (no add-back, because R.C. 5747.01(A)(17) names only 168(k) and 179) while keeping the 168(k) and 179 add-back; also reported to follow 174A and the 163(j) change (secondary).",
+    "2026": "IRC reference 5 Mar 2026 under SB 9 until Ohio enacts a further conformity bill (secondary). Federal 179 for 2026 (2,560,000 / 4,090,000, Rev. Proc. 2025-32) is added back above the 2002 amount. Ohio is reported to keep following 168(n) without add-back."
+   }
+  },
+  {
+   "code": "OK",
+   "name": "Oklahoma",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "unverified",
+    "2022": "verified",
+    "2023": "verified",
+    "2024": "unverified",
+    "2025": "verified",
+    "2026": "unverified"
+   },
+   "changed_recently_years": [],
+   "change_notes": {
+    "2022": "HB 3418 enacted 68 O.S. 2358.6A, new for tax year 2022. Emergency rule 710:50-15-69.1 (adopted 27 Sep 2022) requires adding back federal depreciation on elected property in each later year it is claimed.",
+    "2023": "SB 602 (passed 18 May 2023, effective 1 Nov 2023) amended 68 O.S. 2358.6a to add the duplication/add-back sentence and a filing rule: a taxpayer who filed before 1 Oct 2023 without the increase must file an amended return by 30 Jun 2024; no penalty or interest if a correct amended return is filed."
+   }
+  },
+  {
+   "code": "OR",
+   "name": "Oregon",
+   "business_tax": "Oregon corporate activity tax",
+   "status_by_year": {
+    "2021": "verified",
+    "2022": "verified",
+    "2023": "verified",
+    "2024": "unverified",
+    "2025": "unverified",
+    "2026": "unverified"
+   },
+   "changed_recently_years": [
+    2025,
+    2026
+   ],
+   "change_notes": {
+    "2025": "SB 1507 (Oregon Laws 2026, ch. 142, effective 5 Jun 2026) updated other federal connections to 31 Dec 2025 or 1 Jan 2026 and disallows bonus depreciation for tax years 2026 and later; DOR's summary says nothing for 2025.",
+    "2026": "SB 1507, Oregon Laws 2026 ch. 142, effective 5 Jun 2026, disconnects from federal bonus depreciation for 2026 and later. The DOR page notes a referendum petition filed 10 Apr 2026 proposing to repeal the parts of SB 1507 that disconnect from certain federal provisions; signatures were due 4 Jun 2026. Whether it qualified, and so whether SB 1507 is suspended until a vote, was not confirmed: the Oregon Secretary of State initiatives/referendums page read on 2026-10-06 lists no 2026 referendum petition on SB 1507, which is suggestive but not conclusive (the IRR database was not queried)."
+   }
+  },
+  {
+   "code": "PA",
+   "name": "Pennsylvania",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "verified",
+    "2022": "verified",
+    "2023": "unverified",
+    "2024": "unverified",
+    "2025": "unverified",
+    "2026": "unverified"
+   },
+   "changed_recently_years": [],
+   "change_notes": {
+    "2022": "Act 53 of 2022 (Act 2022-53, P.L. 513, No. 53) enacted in 2022 but applies only to 179 property placed in service in tax years beginning on or after 1 Jan 2023.",
+    "2023": "Act 53 of 2022 brings the PA PIT 179 dollar limitation to the federal level for property placed in service in tax years beginning on or after 1 Jan 2023: base 1,000,000 reduced dollar-for-dollar above 2,500,000, 'subject to an annual inflation adjustment' (Bulletin 2023-02)."
+   }
+  },
+  {
+   "code": "RI",
+   "name": "Rhode Island",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "unverified",
+    "2022": "unverified",
+    "2023": "unverified",
+    "2024": "unverified",
+    "2025": "unverified",
+    "2026": "unverified"
+   },
+   "changed_recently_years": [
+    2025,
+    2026
+   ],
+   "change_notes": {
+    "2025": "FY2026 enacted budget decoupled Rhode Island from H.R.1 (P.L. 119-21) deductions for taxable years beginning on or before 1 Jan 2025 (regulation text re-read on rules.sos.ri.gov 2026-10-06: 'For the taxable year beginning on or before January 1, 2025, there shall be added to federal adjusted gross income the amount of any income, deduction or allowance that would be subject to federal income tax but for the Congressional enactment of H.R.1'); emergency regulation 280-RICR-20-55-16 (effective 15 Dec 2025 to 16 Apr 2026) and proposed permanent 280-RICR-20-55-17 (effective 16 Apr 2026 per the rule page) implement it; new Schedule HR1 - Individual and Schedule 174A for tax year 2025.",
+    "2026": "FY2027 budget (H 7127 Substitute A as amended, Article 6 section 1) adds permanent H.R.1 decoupling in RIGL chapter 44-6.6, including the increased 179(b) dollar limitations; Division of Taxation published a 2026 Summary of Legislative Changes on 22 Jul 2026. The first tax year to which the 179 decoupling applies was not confirmed (one source says tax years beginning on or after 1 Jan 2027 for part of the package)."
+   }
+  },
+  {
+   "code": "SC",
+   "name": "South Carolina",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "verified",
+    "2022": "verified",
+    "2023": "verified",
+    "2024": "verified",
+    "2025": "verified",
+    "2026": "unverified"
+   },
+   "changed_recently_years": [
+    2025
+   ],
+   "change_notes": {
+    "2025": "SC conforms to the IRC as amended through 31 Dec 2024 (2025 instructions p.1; S.C. Code 12-6-40(A)(1) as currently codified; Act 63 of 2025, S. 507, approved 22 May 2025, per a search result). OBBBA postdates the 2025 session, so SC has not conformed to it. Letter 26-4 lists eight OBBBA items taxpayers must adjust, including 'Business Assets. The amount taxpayers may expense under IRC Section 179 increased to $2.5 million from $1 million.'"
+   }
+  },
+  {
+   "code": "SD",
+   "name": "South Dakota",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "no_income_tax",
+    "2022": "no_income_tax",
+    "2023": "no_income_tax",
+    "2024": "no_income_tax",
+    "2025": "no_income_tax",
+    "2026": "no_income_tax"
+   },
+   "changed_recently_years": [],
+   "change_notes": {}
+  },
+  {
+   "code": "TN",
+   "name": "Tennessee",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "no_income_tax",
+    "2022": "no_income_tax",
+    "2023": "no_income_tax",
+    "2024": "no_income_tax",
+    "2025": "no_income_tax",
+    "2026": "no_income_tax"
+   },
+   "changed_recently_years": [
+    2025,
+    2026
+   ],
+   "change_notes": {
+    "2023": "Pub. Ch. 377 (Tennessee Works Tax Act, 2023) enacted coupling to TCJA bonus for assets purchased on or after 1 Jan 2023 (Notice 23-07).",
+    "2025": "Notice 25-36 (Dec 2025): Tennessee 'remains coupled with the TCJA bonus depreciation provisions' and does not follow the OBBBA 100% rate. Bills to add a 40% annual election for 2026 purchases (SB 32 / HB 477) did not leave committee per a TSCPA summary (secondary).",
+    "2026": "Nothing enacted in 2026 changes this: the 2026 legislative summaries list only Pub. Ch. 616 (family-owned entity exemption, eff. 1 Jul 2026) and Pub. Ch. 1009 (community investment credit, eff. 1 Jan 2027) for franchise and excise tax. Notice 25-36 schedule gives 20% for 2026."
+   }
+  },
+  {
+   "code": "TX",
+   "name": "Texas",
+   "business_tax": "Texas franchise (margin) tax",
+   "status_by_year": {
+    "2021": "no_income_tax",
+    "2022": "no_income_tax",
+    "2023": "no_income_tax",
+    "2024": "no_income_tax",
+    "2025": "no_income_tax",
+    "2026": "no_income_tax"
+   },
+   "changed_recently_years": [
+    2025
+   ],
+   "change_notes": {
+    "2025": "Comptroller news release 1 Dec 2025 and Tax Policy memo (STAR 202512012M): from the 2026 report, depreciation follows current federal law. Rule 3.587 effective 1 Mar 2026; Rule 3.588 amendments adopted without change (filed 1 Jun 2026, effective 21 Jun 2026). This is an administrative position and rule change, not a change to the Tax Code."
+   }
+  },
+  {
+   "code": "UT",
+   "name": "Utah",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "unverified",
+    "2022": "unverified",
+    "2023": "unverified",
+    "2024": "unverified",
+    "2025": "unverified",
+    "2026": "unverified"
+   },
+   "changed_recently_years": [
+    2025,
+    2026
+   ],
+   "change_notes": {
+    "2025": "No Utah decoupling from the OBBBA business provisions found. The 2026 session passed S.B. 60 (top individual rate 4.50% to 4.45%) and H.B. 77 (aligns the taxpayer tax credit, adds back state and local income tax); neither is a depreciation change. H.B. 587 (2026), which would add back domestic research and experimental expenditures, is not among the bills the chairman listed as passed, and its status is unconfirmed.",
+    "2026": "The May 2026 presentation shows these 2026 federal changes as Utah revenue costs, i.e. conformed. Top individual rate 4.45% from S.B. 60 (2026)."
+   }
+  },
+  {
+   "code": "VA",
+   "name": "Virginia",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "verified",
+    "2022": "unverified",
+    "2023": "verified",
+    "2024": "verified",
+    "2025": "verified",
+    "2026": "unverified"
+   },
+   "changed_recently_years": [
+    2025,
+    2026
+   ],
+   "change_notes": {
+    "2023": "HB 2193 / SB 1405 (2023) moved Virginia to rolling conformity for taxable years beginning on and after 2023-01-01, but Virginia deconforms from later federal amendments that raise or lower General Fund revenue by more than 15 million dollars (indexed from 2024), and from a cumulative 75 million between sessions; those exceptions do not apply to extenders or to changes the General Assembly adopts.",
+    "2025": "2026 Amendments to the 2025 Appropriation Act (HB 29, ch. 7; effective 2026-02-20; Tax Bulletin 26-1) replaced rolling conformity with a fixed date of 2025-12-31 for 2025 returns and decoupled from P.L. 119-21 s.70306 (179 limit increase, tax years 2025 and after), IRC 168(n) qualified production property, and 174A. Before that, the 2025 Appropriation Act (HB 1600, ch. 725, twelfth enactment clause) had paused rolling conformity for amendments enacted 2025-01-01 to 2026-12-31.",
+    "2026": "Fixed date 2025-12-31 with automatic conformity only for federal extenders of already-conforming provisions (58.1-301 B as amended 2026, ch. 7 and 2026 Sp. Sess. I ch. 1). 179 limit increase (s.70306) and 168(n) are excluded."
+   }
+  },
+  {
+   "code": "VT",
+   "name": "Vermont",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "verified",
+    "2022": "verified",
+    "2023": "verified",
+    "2024": "verified",
+    "2025": "verified",
+    "2026": "unverified"
+   },
+   "changed_recently_years": [
+    2025,
+    2026
+   ],
+   "change_notes": {
+    "2025": "Act 164 (H. 933, 2026) retroactively conforms to P.L. 119-21 for tax years beginning on or after 1 Jan 2025 (agency page: 'retroactively applies to tax years beginning on or after January 1, 2025') but denies IRC 168(n) qualified production property expensing and IRC 174A R&E expensing for large businesses; also denies the section 250 deduction; adds back the 1202 exclusion from 2026.",
+    "2026": "Act 164 (2026) effects continue; from tax years beginning on or after 1 Jan 2026 Vermont also adds back the IRC 1202 qualified small business stock exclusion and conforms to NCTI/FDDEI (secondary)."
+   }
+  },
+  {
+   "code": "WA",
+   "name": "Washington",
+   "business_tax": "Washington business and occupation (B&O) tax",
+   "status_by_year": {
+    "2021": "no_income_tax",
+    "2022": "no_income_tax",
+    "2023": "no_income_tax",
+    "2024": "no_income_tax",
+    "2025": "no_income_tax",
+    "2026": "no_income_tax"
+   },
+   "changed_recently_years": [
+    2026
+   ],
+   "change_notes": {
+    "2026": "ESSB 6346 (chapter 238, Laws of 2026) creates a high-earner income tax effective 2028-01-01. Its depreciation / federal-conformity rules were not researched because they fall outside 2021-2026."
+   }
+  },
+  {
+   "code": "WI",
+   "name": "Wisconsin",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "verified",
+    "2022": "verified",
+    "2023": "verified",
+    "2024": "verified",
+    "2025": "verified",
+    "2026": "unverified"
+   },
+   "changed_recently_years": [
+    2025
+   ],
+   "change_notes": {
+    "2023": "For taxable years beginning on or after 2023-01-01 the IRC is defined as of 2022-12-31 with exceptions (2023 Schedule I instructions, per search summary).",
+    "2025": "Fixed IRC date 2022-12-31, but Wisconsin automatically follows federal 179 (also 179A-179E) 'for the year in which the property is placed in service', so the OBBBA 179 increase (s.70306: expense limit 2.5 million up from 1 million, phase-out threshold 4 million up from 2.5 million, with future inflation adjustments) applies for 2025. Not adopted for 2025: 168(n), 163(j) changes, 174/174A and 280C research items (WI DOR Fall 2025 tax update, 3 Nov 2025). Wisconsin 2025 Act 15 (rates, retirement subtraction, film credits) does not touch depreciation."
+   }
+  },
+  {
+   "code": "WV",
+   "name": "West Virginia",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "verified",
+    "2022": "verified",
+    "2023": "verified",
+    "2024": "verified",
+    "2025": "unverified",
+    "2026": "unverified"
+   },
+   "changed_recently_years": [
+    2026
+   ],
+   "change_notes": {
+    "2026": "SB 400 (2026 RS, Chapter 279): passed Senate 2026-01-29, House 2026-02-23, approved by the Governor 2026-03-02, effective from passage. West Virginia also adds new Schedule M modifications for tips and overtime for tax years beginning on or after 2026-01-01 (fiscal-note summary), unrelated to depreciation."
+   }
+  },
+  {
+   "code": "WY",
+   "name": "Wyoming",
+   "business_tax": "",
+   "status_by_year": {
+    "2021": "no_income_tax",
+    "2022": "no_income_tax",
+    "2023": "no_income_tax",
+    "2024": "no_income_tax",
+    "2025": "no_income_tax",
+    "2026": "no_income_tax"
+   },
+   "changed_recently_years": [],
+   "change_notes": {}
+  }
+ ],
+ "federal": {
+  "section_179": {
+   "2021": {
+    "limit": 1050000,
+    "phaseout_threshold": 2620000,
+    "suv_cap": 26200,
+    "source_url": "https://www.irs.gov/pub/irs-prior/i4562--2021.pdf",
+    "source_citation": "2021 Instructions for Form 4562, What's New and Part I",
+    "last_verified": "2026-10-05",
+    "verified": true
+   },
+   "2022": {
+    "limit": 1080000,
+    "phaseout_threshold": 2700000,
+    "suv_cap": 27000,
+    "source_url": "https://www.irs.gov/pub/irs-prior/i4562--2022.pdf",
+    "source_citation": "2022 Instructions for Form 4562, What's New and Part I",
+    "last_verified": "2026-10-05",
+    "verified": true
+   },
+   "2023": {
+    "limit": 1160000,
+    "phaseout_threshold": 2890000,
+    "suv_cap": 28900,
+    "source_url": "https://www.irs.gov/pub/irs-prior/i4562--2023.pdf",
+    "source_citation": "2023 Instructions for Form 4562, What's New and Part I",
+    "last_verified": "2026-10-05",
+    "verified": true
+   },
+   "2024": {
+    "limit": 1220000,
+    "phaseout_threshold": 3050000,
+    "suv_cap": 30500,
+    "source_url": "https://www.irs.gov/pub/irs-prior/i4562--2024.pdf",
+    "source_citation": "2024 Instructions for Form 4562, What's New and Part I",
+    "last_verified": "2026-10-05",
+    "verified": true
+   },
+   "2025": {
+    "limit": 2500000,
+    "phaseout_threshold": 4000000,
+    "suv_cap": 31300,
+    "source_url": "https://www.irs.gov/pub/irs-pdf/i4562.pdf",
+    "source_citation": "2025 Instructions for Form 4562, What's New (P.L. 119-21 sec. 70306; supersedes Rev. Proc. 2024-40 amounts of $1,250,000 / $3,130,000)",
+    "last_verified": "2026-10-05",
+    "verified": true
+   },
+   "2026": {
+    "limit": 2560000,
+    "phaseout_threshold": 4090000,
+    "suv_cap": 32000,
+    "source_url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+    "source_citation": "Rev. Proc. 2025-32, sec. 4.24",
+    "last_verified": "2026-10-05",
+    "verified": true
+   }
+  },
+  "luxury_auto_caps": {
+   "2021": {
+    "with_bonus": [
+     18200,
+     16400,
+     9800,
+     5860
+    ],
+    "without_bonus": [
+     10200,
+     16400,
+     9800,
+     5860
+    ],
+    "source_url": "https://www.irs.gov/pub/irs-drop/rp-21-31.pdf",
+    "source_citation": "Rev. Proc. 2021-31, Tables 1 and 2",
+    "last_verified": "2026-10-05",
+    "verified": true
+   },
+   "2022": {
+    "with_bonus": [
+     19200,
+     18000,
+     10800,
+     6460
+    ],
+    "without_bonus": [
+     11200,
+     18000,
+     10800,
+     6460
+    ],
+    "source_url": "https://www.irs.gov/pub/irs-drop/rp-22-17.pdf",
+    "source_citation": "Rev. Proc. 2022-17, Tables 1 and 2",
+    "last_verified": "2026-10-05",
+    "verified": true
+   },
+   "2023": {
+    "with_bonus": [
+     20200,
+     19500,
+     11700,
+     6960
+    ],
+    "without_bonus": [
+     12200,
+     19500,
+     11700,
+     6960
+    ],
+    "source_url": "https://www.irs.gov/pub/irs-drop/rp-23-14.pdf",
+    "source_citation": "Rev. Proc. 2023-14, Tables 1 and 2",
+    "last_verified": "2026-10-05",
+    "verified": true
+   },
+   "2024": {
+    "with_bonus": [
+     20400,
+     19800,
+     11900,
+     7160
+    ],
+    "without_bonus": [
+     12400,
+     19800,
+     11900,
+     7160
+    ],
+    "source_url": "https://www.irs.gov/pub/irs-drop/rp-24-13.pdf",
+    "source_citation": "Rev. Proc. 2024-13, Tables 1 and 2",
+    "last_verified": "2026-10-05",
+    "verified": true
+   },
+   "2025": {
+    "with_bonus": [
+     20200,
+     19600,
+     11800,
+     7060
+    ],
+    "without_bonus": [
+     12200,
+     19600,
+     11800,
+     7060
+    ],
+    "source_url": "https://www.irs.gov/pub/irs-drop/rp-25-16.pdf",
+    "source_citation": "Rev. Proc. 2025-16, Tables 1 and 2 (unchanged by P.L. 119-21 per Rev. Proc. 2026-15)",
+    "last_verified": "2026-10-05",
+    "verified": true
+   },
+   "2026": {
+    "with_bonus": [
+     20300,
+     19800,
+     11900,
+     7160
+    ],
+    "without_bonus": [
+     12300,
+     19800,
+     11900,
+     7160
+    ],
+    "source_url": "https://www.irs.gov/pub/irs-drop/rp-26-15.pdf",
+    "source_citation": "Rev. Proc. 2026-15, Tables 1 and 2",
+    "last_verified": "2026-10-05",
+    "verified": true
+   }
+  },
+  "bonus_rules": [
+   {
+    "id": "tcja_phase_down",
+    "label": "Qualified property acquired after Sept. 27, 2017 and before Jan. 20, 2025",
+    "acquired_after": "2017-09-27",
+    "acquired_before": "2025-01-20",
+    "rate_by_placed_in_service_year": {
+     "2021": 100,
+     "2022": 100,
+     "2023": 80,
+     "2024": 60,
+     "2025": 40,
+     "2026": 20
+    },
+    "rate_after_last_year": 0,
+    "source_url": "https://www.irs.gov/pub/irs-pdf/i4562.pdf",
+    "source_citation": "Instructions for Form 4562: 2021 ('100% ... placed in service before January 1, 2023'), 2022 (80% for 2023), 2023/2024 (60% for 2024), 2025 (40% for property acquired before Jan. 20, 2025); IRC 168(k)(6) as in effect before P.L. 119-21 (20% for 2026)",
+    "last_verified": "2026-10-05",
+    "verified": true
+   },
+   {
+    "id": "obbba_permanent",
+    "label": "Qualified property acquired after Jan. 19, 2025",
+    "acquired_after": "2025-01-19",
+    "rate": 100,
+    "reduced_rate_election": {
+     "rate": 40,
+     "tax_years": [
+      2025
+     ],
+     "value": "Election to take 40% instead of 100% for property placed in service during the first taxable year ending after Jan. 19, 2025 (tax year 2025 for a calendar-year taxpayer)."
+    },
+    "binding_contract_rule": "Property is not treated as acquired after Jan. 19, 2025 if a written binding contract for its acquisition was entered into before that date.",
+    "source_url": "https://www.irs.gov/pub/irs-drop/n-26-11.pdf",
+    "source_citation": "Notice 2026-11, sec. 2 (P.L. 119-21 sec. 70301); 2025 Instructions for Form 4562, What's New",
+    "last_verified": "2026-10-05",
+    "verified": true
+   }
+  ],
+  "qualified_production_property": {
+   "rate": 100,
+   "construction_begins_after": "2025-01-19",
+   "construction_begins_before": "2029-01-01",
+   "placed_in_service_after": "2025-07-04",
+   "placed_in_service_before": "2031-01-01",
+   "recapture_years": 10,
+   "value": "Elective 100% allowance for the portion of nonresidential real property used as an integral part of a qualified production activity. Office, administrative, lodging, parking, sales and similar space is excluded. Recapture under section 1245 if the use changes within 10 years.",
+   "source_url": "https://www.irs.gov/pub/irs-drop/n-26-16.pdf",
+   "source_citation": "Notice 2026-16 (IRC 168(n), P.L. 119-21 sec. 70307); 2025 Instructions for Form 4562, What's New",
+   "last_verified": "2026-10-05",
+   "verified": true
+  }
+ },
+ "rules_version": "2026.10.05"
+}

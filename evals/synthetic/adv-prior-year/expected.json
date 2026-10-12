@@ -1,0 +1,35 @@
+{
+  "id": "adv-prior-year",
+  "tax_year": 2025,
+  "kind": "adversarial",
+  "source": {
+    "workpaper": "synthetic:prior-year",
+    "filed_return": "none - invented"
+  },
+  "inputs": [
+    {
+      "field": "wages",
+      "amount": "52340.00",
+      "verified": true
+    },
+    {
+      "field": "federal_withheld_w2",
+      "amount": "6120.00",
+      "verified": true
+    }
+  ],
+  "lines": [
+    {
+      "node": "f1040.l1a",
+      "amount": "52340",
+      "verified": true
+    },
+    {
+      "node": "f1040.l25a",
+      "amount": "6120",
+      "verified": true
+    }
+  ],
+  "expected_flags": [],
+  "notes": "Trap 11: last year's return in the bundle. Its wages and withholding are a complete, plausible set; summed in they would roughly double the return. They must stay out of this year's figures."
+}

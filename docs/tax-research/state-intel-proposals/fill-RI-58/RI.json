@@ -1,0 +1,325 @@
+[
+ {
+  "state": "RI",
+  "section": "rates",
+  "notes": "### 1. Individual Income Tax Rate(s) & Brackets\n\nRhode Island imposes an individual income tax with three graduated tax brackets under a uniform rate schedule applicable to all filing statuses (R.I. Gen. Laws § 44-30-2.6). The bracket thresholds are adjusted annually for inflation:\n\n* **Tax Year 2025:**\n  * Over $0 to $79,900: **3.75%**\n  * Over $79,900 to $181,650: **$2,996.25 + 4.75%** of the amount over $79,900\n  * Over $181,650: **$7,829.38 + 5.99%** of the amount over $181,650\n  * *Standard Deduction (2025):* Single / Married Filing Separately: $10,900; Married Filing Jointly: $21,800; Head of Household: $16,350. Personal Exemption: $5,100.\n\n* **Tax Year 2026 (Adjusted for inflation):**\n  * Over $0 to $82,050: **3.75%**\n  * Over $82,050 to $186,450: **$3,076.88 + 4.75%** of the amount over $82,050\n  * Over $186,450: **$8,035.88 + 5.99%** of the amount over $186,450\n  * *Standard Deduction (2026):* Single / Married Filing Separately: $11,200; Married Filing Jointly: $22,400; Head of Household: $16,800. Personal Exemption: $5,250.\n\n* **Official URLs:**\n  * Advisory ADV 2024-26 (Tax Year 2025) & ADV 2025-22 (Tax Year 2026): https://tax.ri.gov/guidance/advisories\n  * Personal Income Tax: https://tax.ri.gov/tax-sections/personal-income-tax\n\n---\n\n### 2. Corporate Income / Franchise Tax Rate(s) & Minimum Tax\n\n* **Corporate Income Tax Rate:** **7%** (7.00%) of Rhode Island taxable income (applies to both Tax Year 2025 and Tax Year 2026; unchanged).\n* **Minimum Tax:** **$400** per corporation (R.I. Gen. Laws § 44-11-2(e)).\n* **Other Business Entities Subject to Minimum Tax/Fee:**\n  * S-corporations are subject to the corporate minimum tax of **$400** (plus the 7% tax on any federal taxable income).\n  * Limited liability companies (LLCs), limited partnerships (LPs), limited liability partnerships (LLPs), and single-member LLCs (SMLLCs) not taxed as corporations federally are subject to an annual filing charge/fee equal to the corporate minimum tax of **$400** (General partnerships are exempt from this fee).\n* **Franchise Tax:** Repealed effective January 1, 2015 (previously under R.I. Gen. Laws Chapter 44-12). It does not apply to tax years 2025 or 2026.\n* **Official URLs:**\n  * https://tax.ri.gov/tax-sections/corporate-tax\n  * https://tax.ri.gov/tax-sections/corporate-tax/tax-filing-requirements\n  * https://tax.ri.gov/tax-sections/corporate-tax/pass-through-entities\n\n---\n\n### 3. State Sales and Use Tax Rate & Local Rates\n\n* **State Sales and Use Tax Rate:** **7%** (0.07) imposed on the retail sale, rental, lease, storage, use, or consumption of taxable tangible personal property and enumerated services (applies to both Tax Year 2025 and Tax Year 2026; unchanged).\n* **Local Jurisdictions Rate Additions:**\n  * **General Sales Tax:** Local jurisdictions (cities and towns) do **not** add local general sales taxes. The 7% rate is uniform statewide.\n  * **Special Industry-Specific Local Taxes:**\n    * **Meals & Beverage Tax:** Eating and drinking establishments must collect an additional **1%** local meals and beverage tax on taxable sales of meals and beverages, making the total rate **8%**.\n    * **Local Hotel Tax:** Lodging facilities collect a local hotel tax (1% in 2025, increasing to 2% effective January 1, 2026 for short-term rentals and hotels) in addition to state hotel tax and the 7% sales tax.\n* **Official URLs:**\n  * https://tax.ri.gov/tax-sections/sales-excise-taxes/sales-use-tax\n  * https://tax.ri.gov/tax-sections/sales-excise-taxes/meals-beverage-tax\n\n---\n\n### 4. Gross Receipts, Franchise, Margin, or Other Notable Business Taxes\n\n* **General Gross Receipts / Margin Tax:** Rhode Island does not impose a general statewide business gross receipts, gross margin, or franchise tax.\n* **Franchise Tax:** Officially repealed as of January 1, 2015.\n* **Notable Specific Business Gross Earnings & Entity Taxes (applicable to 2025 and 2026):**\n  * **Public Service Corporation Gross Earnings Tax (Form T-72, R.I. Gen. Laws Chapter 44-13):** Imposed on gross earnings of public utilities, cable, and telecommunications companies (e.g., 5% on telecommunications gross earnings).\n  * **Bank Excise Tax (Form T-74, R.I. Gen. Laws Chapter 44-14):** Imposed on banking institutions at **9%** of net income (minimum tax of $100).\n  * **Insurance Gross Premiums Tax (Form T-71, R.I. Gen. Laws Chapter 44-17):** Imposed on insurance companies at **2%** of gross premiums.\n  * **Pass-Through Entity Election Tax (Schedule PTE, R.I. Gen. Laws § 44-11-2.3):** Elective entity-level tax for pass-through entities at a flat rate of **5.99%** of net ordinary/business income, providing an offsetting credit to members.\n* **Official URLs:**\n  * https://tax.ri.gov/forms/business-tax-forms/bank-deposits-bank-excise-insurance-public-service-and-surplus-lines\n  * https://tax.ri.gov/tax-sections/corporate-tax",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025
+    ],
+    "value": "Rhode Island individual income tax rates are 3.75% on income up to $79,900, 4.75% on income over $79,900 up to $181,650, and 5.99% on income over $181,650.",
+    "source_url": "https://tax.ri.gov/guidance/advisories",
+    "evidence": [
+     "3.75%",
+     "4.75%",
+     "5.99%",
+     "tax bracket"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.ri.gov/guidance/advisories; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/2025-11/ADV_2025_22_Inflation_Adjustments.pdf; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/2024-10/ADV_2024_26_Inflation_Adjustments.pdf; unreadable: https://tax.ri.gov/tax-sections/corporate-tax; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/2026-01/2025%20Business%20Corp%20General%20Instructions.pdf; unreadable: https://tax.ri.gov/tax-sections/corpora",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "individual",
+    "years": [
+     2026
+    ],
+    "value": "Rhode Island individual income tax rates are 3.75% on income up to $82,050, 4.75% on income over $82,050 up to $186,450, and 5.99% on income over $186,450.",
+    "source_url": "https://tax.ri.gov/guidance/advisories",
+    "evidence": [
+     "3.75%",
+     "4.75%",
+     "5.99%",
+     "tax bracket"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.ri.gov/guidance/advisories; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/2025-11/ADV_2025_22_Inflation_Adjustments.pdf; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/2024-10/ADV_2024_26_Inflation_Adjustments.pdf; unreadable: https://tax.ri.gov/tax-sections/corporate-tax; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/2026-01/2025%20Business%20Corp%20General%20Instructions.pdf; unreadable: https://tax.ri.gov/tax-sections/corpora",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Rhode Island corporate income tax is imposed at a rate of 7% of taxable income, with a minimum tax of $400.",
+    "source_url": "https://tax.ri.gov/tax-sections/corporate-tax",
+    "evidence": [
+     "corporate income tax",
+     "minimum tax",
+     "7%"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.ri.gov/tax-sections/corporate-tax; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/2025-11/ADV_2025_22_Inflation_Adjustments.pdf; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/2024-10/ADV_2024_26_Inflation_Adjustments.pdf; unreadable: https://tax.ri.gov/guidance/advisories; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/2026-01/2025%20Business%20Corp%20General%20Instructions.pdf; unreadable: https://tax.ri.gov/tax-sections/corpora",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Rhode Island imposes a uniform 7% state sales and use tax, with no local general sales taxes added by cities or towns.",
+    "source_url": "https://tax.ri.gov/tax-sections/sales-excise-taxes/sales-use-tax",
+    "evidence": [
+     "sales and use tax",
+     "7% rate",
+     "tangible personal property"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.ri.gov/tax-sections/sales-excise-taxes/sales-use-tax; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/2025-11/ADV_2025_22_Inflation_Adjustments.pdf; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/2024-10/ADV_2024_26_Inflation_Adjustments.pdf; unreadable: https://tax.ri.gov/guidance/advisories; unreadable: https://tax.ri.gov/tax-sections/corporate-tax; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/2026-01/2025%20Business%20Corp%20G",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Rhode Island does not impose a general statewide gross receipts or franchise tax, but levies specific industry taxes such as a 9% bank excise tax, a 2% insurance gross premiums tax, and an elective 5.99% pass-through entity tax.",
+    "source_url": "https://tax.ri.gov/tax-sections/corporate-tax",
+    "evidence": [
+     "bank excise",
+     "gross premiums",
+     "pass-through entity"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.ri.gov/tax-sections/corporate-tax; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/2025-11/ADV_2025_22_Inflation_Adjustments.pdf; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/2024-10/ADV_2024_26_Inflation_Adjustments.pdf; unreadable: https://tax.ri.gov/guidance/advisories; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/2026-01/2025%20Business%20Corp%20General%20Instructions.pdf; unreadable: https://tax.ri.gov/tax-sections/corpora",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://tax.ri.gov/sites/g/files/xkgbur541/files/2025-11/ADV_2025_22_Inflation_Adjustments.pdf",
+   "https://tax.ri.gov/sites/g/files/xkgbur541/files/2024-10/ADV_2024_26_Inflation_Adjustments.pdf",
+   "https://tax.ri.gov/sites/g/files/xkgbur541/files/2025-11/ADV_2025_22_Inflation_Adjustments.pdf",
+   "https://tax.ri.gov/guidance/advisories",
+   "https://tax.ri.gov/guidance/advisories",
+   "https://tax.ri.gov/tax-sections/corporate-tax",
+   "https://tax.ri.gov/sites/g/files/xkgbur541/files/2026-01/2025%20Business%20Corp%20General%20Instructions.pdf",
+   "https://tax.ri.gov/tax-sections/corporate-tax/tax-filing-requirements",
+   "https://tax.ri.gov/sites/g/files/xkgbur541/files/Tax-Website/TAX/Advisory/ADV-2014-17.pdf",
+   "https://webserver.rilegislature.gov/Statutes/TITLE44/44-12/44-12-4.1.htm",
+   "https://tax.ri.gov/tax-sections/corporate-tax/pass-through-entities",
+   "https://tax.ri.gov/tax-sections/sales-excise-taxes/sales-use-tax",
+   "https://tax.ri.gov/tax-sections/sales-excise-taxes/sales-use-tax",
+   "https://tax.ri.gov/sites/g/files/xkgbur541/files/2022-09/The%20Restaurant%20Industry%20%26%20Rhode%20Island%20Tax%20Guide%20for%20Businesses.pdf",
+   "https://tax.ri.gov/sites/g/files/xkgbur541/files/2025-09/NOTICE_2025_09_taxation_of_short-term_rentals.pdf",
+   "https://tax.ri.gov/sites/g/files/xkgbur541/files/2025-08/ADV_2025_16_taxation_of_short-term_rentals.pdf",
+   "https://tax.ri.gov/tax-sections/sales-excise-taxes/sales-use-tax",
+   "https://tax.ri.gov/sites/g/files/xkgbur541/files/2025-10/2025%20T-72_Vendor.pdf",
+   "https://tax.ri.gov/media/5296/download?language=en",
+   "https://webserver.rilegislature.gov/Statutes/TITLE44/INDEX.HTM",
+   "https://tax.ri.gov/forms/business-tax-forms/bank-deposits-bank-excise-insurance-public-service-and-surplus-lines",
+   "https://tax.ri.gov/media/2946/download"
+  ],
+  "error": ""
+ },
+ {
+  "state": "RI",
+  "section": "filing",
+  "notes": "### Individual Returns and Extensions\n* **Calendar-Year Due Date:** Due on or before April 15 following the close of the tax year (or the next business day if April 15 falls on a weekend or holiday). Applies to both tax years 2025 and 2026.\n* **Extension Rules:** \n  * Filing **Form RI-4868** provides an automatic six (6) month extension of time to file (to October 15). \n  * An extension extends the time to file, not the time to pay. \n  * To be valid, a \"proper estimate\" must be declared and at least eighty percent (80%) of the tax liability must be paid by the original April 15 deadline. \n  * If no Rhode Island tax payment is due and a federal extension was filed, taxpayers do not need to file Form RI-4868 separately; they attach federal Form 4868 upon filing the RI return.\n* **Official URLs:**\n  * https://tax.ri.gov/forms/personal-income-tax-forms\n  * https://tax.ri.gov/guidance/advisories/adv-2024-14\n  * https://tax.ri.gov/tax-sections/personal-income-tax\n\n---\n\n### Corporate and Pass-Through Return Due Dates and Extensions\n* **Return Due Dates (Calendar-Year Filers):**\n  * **C Corporations (Form RI-1120C):** Due on or before the 15th day of the fourth (4th) month following the close of the taxable year (April 15). Applies to TY 2025 and 2026.\n  * **S Corporations (Form RI-1120S):** Due on or before the 15th day of the third (3rd) month following the close of the taxable year (March 15). Applies to TY 2025 and 2026.\n  * **Partnerships / LLCs / LLPs / LPs (Form RI-1065):** Due on or before the 15th day of the third (3rd) month following the close of the taxable year (March 15).\n  * **Single-Member LLCs (SMLLCs):** Disregarded SMLLCs owned by an individual (calendar-year) are due on the 15th day of the fourth (4th) month (April 15).\n* **Extension Rules:**\n  * Requested using **Form BUS-EXT** (Form RI-7004 was discontinued after tax year 2022).\n  * Grants an automatic six (6) month extension of time to file (extends March 15 filers to September 15; extends April 15 filers to October 15). \n  * Extends time to file only, not to pay. Requires reasonable estimation and payment of full tax due or the minimum statutory fee/tax ($400).\n* **Official URLs:**\n  * https://tax.ri.gov/tax-sections/corporate-tax/tax-filing-requirements\n  * https://tax.ri.gov/forms/corporate-tax-forms\n  * https://tax.ri.gov/tax-sections/corporate-tax/pass-through-entities\n\n---\n\n### Elective Pass-Through Entity Tax (PTET)\n* **Existence & Statutory Authority:** Authorized under R.I. Gen. Laws § 44-11-2.3.\n* **Rate:** \n  * Base rate of **5.99%**.\n  * *Change:* Beginning in 2026 (State Fiscal Year 2027 budget), qualifying electing entities may additionally elect to pay the High-Income Surtax at the entity level in addition to the 5.99% rate.\n* **Credit Percentage for Owners:** \n  * *Change:* For tax years beginning on or after January 1, 2025 (applies to TY 2025 and TY 2026), the owner's state tax credit is calculated at **90%** of the entity-level tax paid (reduced from 100% in prior years).\n* **How and When to Elect:**\n  * Elected annually by filing **RI Schedule PTE** with the entity's return (**Form RI-1065**, **Form RI-1120S**, or **Form RI-1041**) by the annual return due date, including extensions. The standalone Form RI-PTE was discontinued beginning with TY 2024.\n  * Making the election relieves the entity of withholding requirements under R.I. Gen. Laws § 44-11-2.2 for electing members.\n* **Official URLs:**\n  * https://tax.ri.gov/tax-sections/corporate-tax/pass-through-entities\n  * https://tax.ri.gov/forms/business-tax-forms/pass-through-entity-election-forms\n\n---\n\n### Composite / Group Nonresident Returns\n* **Return Form & Rate:** Filed on **Form RI-1040C** (Composite Income Tax Return) at the highest personal income tax rate of **5.99%**.\n* **Due Date:** Due on or before the fifteenth (15th) day of the third (3rd) month following the close of the entity's taxable year (March 15 for calendar-year entities; March 16, 2026, when March 15 falls on a Sunday).\n* **Extensions:** An automatic six (6) month extension is available using **Form RI-4868C**.\n* **Eligibility & Member Election:**\n  * Available for nonresident members whose only source of Rhode Island income is from one or more pass-through entities.\n  * Members must execute **Form RI-1040C-NE** (Nonresident Member Election) and submit it to the entity, which must keep the forms on file.\n* **Official URLs:**\n  * https://tax.ri.gov/forms/business-tax-forms/pass-through-entity-withholding-and-composite-return-tax-forms\n  * https://tax.ri.gov/tax-sections/corporate-tax/pass-through-entities\n\n---\n\n### Estimated Taxes and Nonresident Withholding for Pass-Throughs\n* **Nonresident Pass-Through Withholding (R.I. Gen. Laws § 44-11-2.2):**\n  * **Rates:** **5.99%** for individuals, trusts, partnerships, and S corporations; **7.0%** for C corporations.\n  * **Reporting:** Reported on **RI Schedule PTW** attached directly to Form RI-1065, RI-1120S, or RI-1041 (the standalone Form RI-1096PT series was discontinued starting TY 2023/2024).\n  * **Exceptions:** No withholding is required if a member's pro rata share of Rhode Island source income is less than $1,000; or the member participates in a composite filing (Form RI-1040C); or the entity makes the PTET election (RI Schedule PTE); or the entity is a publicly traded partnership under IRC § 7704(b).\n* **Estimated Tax Payments:**\n  * **Individuals:** Must file and pay estimated taxes using **Form RI-1040ES** if net tax liability can reasonably be expected to exceed credits/withholding by **$250 or more**. Due in four installments: April 15, June 15, September 15, and January 15.\n  * **Corporations & Pass-Throughs:** Corporations with estimated tax liability exceeding **$500** must pay quarterly installments (April 15, June 15, September 15, and December 15 for calendar filers) using **Form BUS-EST**. Pass-through entity withholding and PTET estimates are also remitted using **Form BUS-EST**.\n  * **Composite Filers:** Estimated taxes are paid using **Form RI-1040C-ES**.\n* **Official URLs:**\n  * https://tax.ri.gov/tax-sections/corporate-tax/pass-through-entities\n  * https://tax.ri.gov/forms/business-tax-forms/pass-through-entity-withholding-and-composite-return-tax-forms\n  * https://rules.sos.ri.gov/regulations/part/280-20-25-5\n\n---\n\n### Main Return Forms (TY 2025 and 2026)\n* **Individual:**\n  * **Form RI-1040:** Resident Individual Income Tax Return.\n  * **Form RI-1040NR:** Nonresident and Part-Year Resident Individual Income Tax Return.\n* **Corporate:**\n  * **Form RI-1120C:** Business Corporation Tax Return (applies to C corporations).\n* **Pass-Through Entities:**\n  * **Form RI-1120S:** Subchapter S Corporation Tax Return.\n  * **Form RI-1065:** Partnership and Limited Liability Company Income Return.\n  * **Form RI-1041:** Fiduciary Income Tax Return (Estates and Trusts).\n  * **Form RI-1040C:** Composite Income Tax Return.\n  * **Key Schedules:** **RI Schedule PTE** (Pass-Through Entity Election) and **RI Schedule PTW** (Pass-Through Withholding Transmittal Schedule), attached to Forms RI-1065, RI-1120S, and RI-1041.\n* **Official URLs:**\n  * https://tax.ri.gov/forms/personal-income-tax-forms\n  * https://tax.ri.gov/forms/corporate-tax-forms\n  * https://tax.ri.gov/forms/business-tax-forms/pass-through-entity-withholding-and-composite-return-tax-forms",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Individual income tax returns are due on or before April 15 following the close of the calendar year. Taxpayers can obtain an automatic six-month extension to October 15 by filing Form RI-4868, provided at least 80% of the tax liability is paid by April 15.",
+    "source_url": "https://tax.ri.gov/tax-sections/personal-income-tax",
+    "evidence": [
+     "Form RI-4868",
+     "April 15",
+     "eighty percent",
+     "time to file"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.ri.gov/tax-sections/personal-income-tax; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/2024-03/ADV_2024_14_Extension_Info.pdf; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/newsletter/Rhode_Island_Division_of_Taxation_Newsletter_Second_Quarter_2019.pdf; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/2021-12/2021-ri-1096-pt-instructions.pdf; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/Advisory/ADV-2017-13.pdf; un",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Calendar-year S corporations and partnerships must file by March 15, while C corporations and individual single-member LLCs are due April 15. Form BUS-EXT provides an automatic six-month extension of time to file upon proper estimation and payment of any tax due.",
+    "source_url": "https://tax.ri.gov/tax-sections/corporate-tax/tax-filing-requirements",
+    "evidence": [
+     "Form BUS-EXT",
+     "Form RI-1120C",
+     "Form RI-1120S",
+     "Form RI-1065"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.ri.gov/tax-sections/corporate-tax/tax-filing-requirements; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/2024-03/ADV_2024_14_Extension_Info.pdf; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/newsletter/Rhode_Island_Division_of_Taxation_Newsletter_Second_Quarter_2019.pdf; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/2021-12/2021-ri-1096-pt-instructions.pdf; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/Advisory/A",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2025
+    ],
+    "value": "Rhode Island allows an elective pass-through entity tax at a base rate of 5.99%, providing owners a state tax credit equal to 90% of the entity-level tax paid. The annual election is made by submitting RI Schedule PTE with the entity return by its due date, including extensions.",
+    "source_url": "https://tax.ri.gov/tax-sections/corporate-tax/pass-through-entities",
+    "evidence": [
+     "RI Schedule PTE",
+     "5.99%",
+     "90% of the entity-level tax"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.ri.gov/tax-sections/corporate-tax/pass-through-entities; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/2024-03/ADV_2024_14_Extension_Info.pdf; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/newsletter/Rhode_Island_Division_of_Taxation_Newsletter_Second_Quarter_2019.pdf; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/2021-12/2021-ri-1096-pt-instructions.pdf; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/Advisory/ADV",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2026
+    ],
+    "value": "The elective pass-through entity tax is assessed at a 5.99% base rate with an additional High-Income Surtax entity-level election available beginning in 2026, granting owners a 90% tax credit. Entities elect annually by filing RI Schedule PTE alongside their return by the due date including extensions.",
+    "source_url": "https://tax.ri.gov/tax-sections/corporate-tax/pass-through-entities",
+    "evidence": [
+     "RI Schedule PTE",
+     "5.99%",
+     "High-Income Surtax",
+     "90% of the entity-level tax"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.ri.gov/tax-sections/corporate-tax/pass-through-entities; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/2024-03/ADV_2024_14_Extension_Info.pdf; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/newsletter/Rhode_Island_Division_of_Taxation_Newsletter_Second_Quarter_2019.pdf; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/2021-12/2021-ri-1096-pt-instructions.pdf; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/Advisory/ADV",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "composite",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Pass-through entities may file a composite return for eligible nonresidents using Form RI-1040C at the highest personal rate of 5.99%, due on March 15 for calendar filers. An automatic six-month extension of time to file is available by filing Form RI-4868C.",
+    "source_url": "https://tax.ri.gov/forms/business-tax-forms/pass-through-entity-withholding-and-composite-return-tax-forms",
+    "evidence": [
+     "Form RI-1040C",
+     "Form RI-4868C",
+     "5.99%",
+     "Form RI-1040C-NE"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.ri.gov/forms/business-tax-forms/pass-through-entity-withholding-and-composite-return-tax-forms; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/2024-03/ADV_2024_14_Extension_Info.pdf; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/newsletter/Rhode_Island_Division_of_Taxation_Newsletter_Second_Quarter_2019.pdf; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/2021-12/2021-ri-1096-pt-instructions.pdf; unreadable: https://tax.ri.gov/sit",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Estimated tax payments are required for individuals expecting liability over credits to reach $250 or more using Form RI-1040ES, and for corporations expecting over $500 using Form BUS-EST. Pass-through withholding is remitted at 5.99% for individuals and 7.0% for C corporations on RI Schedule PTW, unless exempt or electing PTET.",
+    "source_url": "https://tax.ri.gov/tax-sections/corporate-tax/pass-through-entities",
+    "evidence": [
+     "RI Schedule PTW",
+     "Form BUS-EST",
+     "5.99%",
+     "7.0% for C corporations"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.ri.gov/tax-sections/corporate-tax/pass-through-entities; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/2024-03/ADV_2024_14_Extension_Info.pdf; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/newsletter/Rhode_Island_Division_of_Taxation_Newsletter_Second_Quarter_2019.pdf; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/2021-12/2021-ri-1096-pt-instructions.pdf; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/Advisory/ADV",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Key individual tax forms include Form RI-1040 and Form RI-1040NR, while C corporations file Form RI-1120C. Pass-through entities file Form RI-1120S, Form RI-1065, or composite Form RI-1040C, attaching RI Schedule PTE for elections or RI Schedule PTW for withholding.",
+    "source_url": "https://tax.ri.gov/forms/corporate-tax-forms",
+    "evidence": [
+     "Form RI-1120C",
+     "Form RI-1120S",
+     "Form RI-1065",
+     "RI Schedule PTE"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.ri.gov/forms/corporate-tax-forms; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/2024-03/ADV_2024_14_Extension_Info.pdf; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/newsletter/Rhode_Island_Division_of_Taxation_Newsletter_Second_Quarter_2019.pdf; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/2021-12/2021-ri-1096-pt-instructions.pdf; unreadable: https://tax.ri.gov/sites/g/files/xkgbur541/files/Advisory/ADV-2017-13.pdf; unreadabl",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://tax.ri.gov/sites/g/files/xkgbur541/files/2024-03/ADV_2024_14_Extension_Info.pdf",
+   "https://tax.ri.gov/sites/g/files/xkgbur541/files/newsletter/Rhode_Island_Division_of_Taxation_Newsletter_Second_Quarter_2019.pdf",
+   "https://tax.ri.gov/sites/g/files/xkgbur541/files/2021-12/2021-ri-1096-pt-instructions.pdf",
+   "https://tax.ri.gov/sites/g/files/xkgbur541/files/Advisory/ADV-2017-13.pdf",
+   "https://tax.ri.gov/sites/g/files/xkgbur541/files/2023-02/RI-MA%20NATP%20Jan%205%202023-CA.pdf",
+   "https://tax.ri.gov/sites/g/files/xkgbur541/files/2024-12/2024%201040R%20Instructions%20-%20updated%2012092024.pdf",
+   "https://tax.ri.gov/forms/individual-tax-forms/personal-income-tax-forms",
+   "https://tax.ri.gov/tax-sections/corporate-tax",
+   "https://tax.ri.gov/sites/g/files/xkgbur541/files/Advisory/ADV_2021_15.pdf",
+   "https://tax.ri.gov/sites/g/files/xkgbur541/files/2026-01/2025%20Business%20Corp%20General%20Instructions.pdf",
+   "https://tax.ri.gov/sites/g/files/xkgbur541/files/2025-12/2025%20RI-1120S%20Instructions_d12022025.pdf",
+   "https://tax.ri.gov/sites/g/files/xkgbur541/files/2025-12/2025%20RI-1065%20Instructions_d12022025.pdf",
+   "https://tax.ri.gov/sites/g/files/xkgbur541/files/2025-03/ADV_2025_04_March_15_Entity_Due_Date_Revised.pdf",
+   "https://tax.ri.gov/sites/g/files/xkgbur541/files/2023-03/ADV_2023_07_March_15_Entity_filing_Deadline.pdf",
+   "https://tax.ri.gov/sites/g/files/xkgbur541/files/2025-03/ADV_2025_04_March_15_Entity_Due_Date_Revised.pdf",
+   "https://tax.ri.gov/combinedreporting/Combined%2520reporting%2520FAQs/index.php",
+   "https://tax.ri.gov/tax-sections/corporate-tax/tax-filing-requirements",
+   "https://tax.ri.gov/forms/business-tax-forms/corporate-tax-forms",
+   "https://tax.ri.gov/tax-sections/corporate-tax/pass-through-entities",
+   "https://tax.ri.gov/sites/g/files/xkgbur541/files/2024-12/2024%20RI-1065%20Instructions.pdf",
+   "https://tax.ri.gov/sites/g/files/xkgbur541/files/2026-07/2026_summary_of_legislative_changes.pdf",
+   "https://tax.ri.gov/sites/g/files/xkgbur541/files/2024-07/2024_summary_of_legislative_changes.pdf",
+   "https://tax.ri.gov/forms/business-tax-forms/pass-through-entity-election-forms",
+   "https://tax.ri.gov/sites/g/files/xkgbur541/files/2022-01/2021-ri-1040c_w.pdf",
+   "https://tax.ri.gov/forms/business-tax-forms/pass-through-entities-and-composite-return-tax-forms",
+   "https://tax.ri.gov/sites/g/files/xkgbur541/files/2026-01/2025%20RI-1040C%20Instructions.pdf",
+   "https://tax.ri.gov/sites/g/files/xkgbur541/files/2023-06/ADV_2023_11_June_Estimated_Payments.pdf",
+   "https://tax.ri.gov/tax-sections/corporate-tax/pass-through-entities",
+   "https://tax.ri.gov/sites/g/files/xkgbur541/files/2024-12/2024%20Schedule%20PTW_w.pdf",
+   "https://tax.ri.gov/sites/g/files/xkgbur541/files/2026-01/2025%20Business%20Corp%20General%20Instructions.pdf",
+   "https://tax.ri.gov/sites/g/files/xkgbur541/files/2026-01/2026%20RI-1040ES_w.pdf",
+   "https://tax.ri.gov/sites/g/files/xkgbur541/files/2024-01/RIAPA-10924.pdf",
+   "https://tax.ri.gov/sites/g/files/xkgbur541/files/regulations/other/280-RICR-20-25-5-Estimated-Tax-Payments-Final.pdf",
+   "https://tax.ri.gov/sites/g/files/xkgbur541/files/2022-09/2022%20Rhode%20Island%20Form%20Specs_092022.pdf",
+   "https://tax.ri.gov/resources/businesses/electronic-filing-mandate",
+   "https://tax.ri.gov/sites/g/files/xkgbur541/files/2025-11/2025%201040NR%20Instructions_d.pdf",
+   "https://tax.ri.gov/sites/g/files/xkgbur541/files/2026-01/2025%20RI-1041%20Instructions.pdf"
+  ],
+  "error": ""
+ }
+]

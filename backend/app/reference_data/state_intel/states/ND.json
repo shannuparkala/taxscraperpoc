@@ -1,0 +1,188 @@
+{
+  "code": "ND",
+  "name": "North Dakota",
+  "sections": {
+    "apportionment": {
+      "fields": [
+        {
+          "key": "method",
+          "label": "Apportionment method",
+          "value": "North Dakota uses a standard equally weighted three-factor formula consisting of property, payroll, and sales factors. Multistate C corporations may elect to use an alternative single sales factor formula binding for five consecutive taxable years, while passthrough entities must use the three-factor formula.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://ndlegis.gov/cencode/t57c38-1.pdf",
+          "source_citation": "North Dakota Century Code t57c38.1",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "The election is binding for five consecutive taxable years after making the election, at which time the election lapses."
+        },
+        {
+          "key": "sourcing",
+          "label": "Sales sourcing (services and intangibles)",
+          "value": "North Dakota applies cost of performance sourcing for gross receipts from services and intangibles. Receipts are sourced to the state if the income-producing activity is performed entirely within North Dakota or if a greater proportion is performed in North Dakota than in any other state based on costs of performance.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://ndlegis.gov/cencode/t57c38-1.pdf",
+          "source_citation": "North Dakota Century Code t57c38.1",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "The income-producing activity is performed both in and outside this state and a greater proportion of the income -producing activity is performed in this state than in any other state, based on costs of performance."
+        },
+        {
+          "key": "special_industries",
+          "label": "Special industry rules",
+          "value": "Special apportionment formulas apply to financial institutions, railroads, airlines, trucking companies, television and radio broadcasting, publishing, and public utilities.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://ndlegis.gov/assembly/61-2009/docs/pdf/ta091510appendixe.pdf",
+          "source_citation": "https://ndlegis.gov/assembly/61-2009/docs/pdf/ta091510appendixe.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Admin Code § 81-03-09-36 • Trucking Companies - N.D."
+        },
+        {
+          "key": "forms",
+          "label": "Forms",
+          "value": "Apportionment is computed on Schedule FACT for separate entities filing Form 40, Form 58, and Form 60. Consolidated corporate filers compute apportionment on Schedule CR.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.tax.nd.gov/sites/www/files/documents/forms/business/s-corp-partner/2025-s-partner/28703-2025-partnership-income-tax-booklet.pdf",
+          "source_citation": "2025 Partnership Income Tax Booklet",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Form 58 Partnership return Schedule FACT Calculation of North Dakota apportionment factor Schedule K Total North Dakota adjustments, credits, and other items distributable to partners Schedule KP Partner information Schedule K-1 Partner’s share of North Dakota income (loss), deductions, adjustments, credits, and other items The following forms may be needed:"
+        }
+      ]
+    },
+    "nexus": {
+      "fields": [
+        {
+          "key": "income_nexus",
+          "label": "Income/franchise tax nexus",
+          "value": "North Dakota imposes corporate income tax on corporations that do business in North Dakota, have sources of income in the state, or have federal unrelated business taxable income. The state conforms to the Multistate Tax Commission's comprehensive statement regarding nexus, and has no bright-line factor-presence dollar threshold.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.tax.nd.gov/corporate-income-tax",
+          "source_citation": "Corporate Income Tax | North Dakota Office of State Tax Commissioner",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Every corporation that does business in North Dakota, has sources of income in North Dakota, and/or has federal unrelated business taxable income (UBTI) must file a Form 40 – Corporation Income Tax Return."
+        },
+        {
+          "key": "sales_economic_nexus",
+          "label": "Sales/use tax: economic nexus",
+          "value": "Remote sellers establish economic nexus if taxable sales delivered into North Dakota exceed $100,000 in the current or previous calendar year. There is no transaction count threshold.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.tax.nd.gov/sales-and-use-tax",
+          "source_citation": "Sales and Use Tax | North Dakota Office of State Tax Commissioner",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "North Dakota law includes an exception for small sellers that requires sales tax collection by remote sellers ONLY IF their taxable sales into the state exceed $100,000 in the current or previous calendar year. Once the taxable sales exceed $100,000, a remote seller must obtain a permit and begin collecting tax on sales delivered during the following calendar year or beginning 60 days after the threshold is met, whichever is earlier."
+        },
+        {
+          "key": "pl_86_272",
+          "label": "P.L. 86-272",
+          "value": "North Dakota conforms to federal Public Law 86-272 and adheres to the Multistate Tax Commission's comprehensive statement regarding nexus. Protection is limited to solicitation of orders for sales of tangible personal property, while activities like installing or repairing equipment eliminate protection.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://ndlegis.gov/assembly/62-2011/docs/pdf/ta080211appendixc.pdf",
+          "source_citation": "https://ndlegis.gov/assembly/62-2011/docs/pdf/ta080211appendixc.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Establishing nexus when there are only sales into North Dakota-Federal law (Public Law 86-272) prohibits a state from imposing an income tax on an entity whose only in-state activity consists of soliciting orders for the sales oftangible personal property, when the orders are sent outside the state for approval and are filled by shipment or delivery from outside the state."
+        }
+      ]
+    },
+    "rates": {
+      "fields": [
+        {
+          "key": "individual",
+          "label": "Individual income tax",
+          "value": "For 2025, individual income tax rates are graduated at 0.00% (up to $48,475 for single; $80,975 for married filing jointly), 1.95% ($48,475 to $244,825 single; $80,975 to $298,075 joint), and 2.50% on taxable income exceeding $244,825 ($298,075 joint). Separate rate brackets apply to married filing separately and head of household filers.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.tax.nd.gov/individual-income-tax",
+          "source_citation": "Individual Income Tax | North Dakota Office of State Tax Commissioner",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Over But not over Tax Rate $0 $48,475 0.00% $48,475 $244,825 1.95% $244,825 2.50% Married filing jointly and qualifying widow(er)- If North Dakota taxable income is:"
+        },
+        {
+          "key": "corporate",
+          "label": "Corporate income/franchise tax",
+          "value": "North Dakota corporate income tax rates are 1.41% on the first $25,000 of taxable income, 3.55% on income from $25,000 to $50,000, and 4.31% on income over $50,000, with no minimum corporate income tax. Corporations electing the water's edge method pay an additional 3.5% tax on state taxable income.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.tax.nd.gov/corporate-income-tax",
+          "source_citation": "Corporate Income Tax | North Dakota Office of State Tax Commissioner",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Tax Rate North Dakota Corporate Income Tax Rate Over But Not Over The Tax Is $0 $25,000 1.41% of North Dakota Taxable Income $25,000 $50,000 $352.50 Plus 3.55% of Amount Over $25,000 $50,000 -- $1,240 Plus 4.31% of Amount Over $50,000 If a corporation elects to use the water's edge method to apportion its income, the corporation will be subject to an additional 3.5% surtax on its North Dakota taxable income."
+        },
+        {
+          "key": "sales",
+          "label": "Sales and use tax",
+          "value": "North Dakota imposes a 5.0% state sales and use tax rate on taxable sales of tangible personal property and accommodations (3.0% on new mobile and manufactured homes). Local jurisdictions, including cities and counties, are authorized to levy additional local sales, use, and gross receipts taxes.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.tax.nd.gov/sites/www/files/documents/guidelines/business/sales-use/local-taxes-by-location.pdf",
+          "source_citation": "Local Taxes by Location Guideline",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "• 5% on the total receipts from all other taxable retail sales of tangible personal property and services except where alcohol or farm machinery gross receipts taxes apply."
+        }
+      ]
+    },
+    "filing": {
+      "fields": [
+        {
+          "key": "composite",
+          "label": "Composite returns",
+          "value": "Partnerships and S corporations may file a composite return on Form 58 or Form 60 on behalf of eligible nonresident individuals or trusts whose only North Dakota source income is from pass-through entities. The composite tax is calculated at the rate of 2.50% on each electing nonresident member's distributive share of North Dakota income.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.tax.nd.gov/sites/www/files/documents/forms/business/fiduciary/2023-fiduciary/form-pwa-2023.pdf",
+          "source_citation": "Form PWA - Passthrough Entity Withholding - Nonresident Member Adjustment (2023)",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Purpose of form Under North Dakota Century Code (N.D.C.C.) § 57-38-31.1, a passthrough entity is required to withhold North Dakota income tax at the rate of 2.50% from a nonresident member’s North Dakota distributive share of income if (1) it is $1,000 or more and (2) it is not included in a composite return."
+        },
+        {
+          "key": "key_forms",
+          "label": "Key forms",
+          "value": "The main income tax forms are Form ND-1 for individuals, Form 40 for C corporations, Form 58 for partnerships, and Form 60 for S corporations.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.tax.nd.gov/filing-extension",
+          "source_citation": "Filing an Extension | North Dakota Office of State Tax Commissioner",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "S Corporation and Partnership Taxes Partnership and S corporation complete Form 58-EXT (Partnership Extension Payment Voucher) or Form 60-EXT (S Corporation Extension Payment Voucher) ."
+        }
+      ]
+    }
+  }
+}

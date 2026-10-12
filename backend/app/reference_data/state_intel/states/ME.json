@@ -1,0 +1,203 @@
+{
+  "code": "ME",
+  "name": "Maine",
+  "sections": {
+    "apportionment": {
+      "fields": [
+        {
+          "key": "method",
+          "label": "Apportionment method",
+          "value": "Multistate corporate business income is apportioned to Maine using a single sales factor formula. The sales factor is total sales in Maine divided by total sales everywhere.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://legislature.maine.gov/statutes/36/title36sec5211.html",
+          "source_citation": "Title 36, §5211: General",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "The sales factor is a fraction, the numerator of which is the total sales of the taxpayer in this State during the tax period, and the denominator of which is the total sales of the taxpayer everywhere during the tax period."
+        },
+        {
+          "key": "sourcing",
+          "label": "Sales sourcing (services and intangibles)",
+          "value": "Receipts from services and intangibles are sourced using market-based sourcing based on where services are received or intangibles are used. If the customer or licensee is the federal government, receipts are sourced under the cost of performance method.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://legislature.maine.gov/statutes/36/title36sec5211.html",
+          "source_citation": "Title 36, §5211: General",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Except as otherwise provided by this subsection, receipts from the performance of services must be attributed to the state where the services are received."
+        },
+        {
+          "key": "special_industries",
+          "label": "Special industry rules",
+          "value": "Financial institutions are subject to the Maine Franchise Tax and use a four-part apportionment formula based on property, payroll, and double-weighted receipts factors. There are no other industry-specific statutory formulas for general corporate income tax.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://legislature.maine.gov/statutes/36/title36sec5206-E.html",
+          "source_citation": "Title 36, §5206-E: Apportionment",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "All of a financial institution's net income and end-of-year assets are apportioned to this State by multiplying the income and the assets by a fraction, the numerator of which is the property factor plus the payroll factor plus 2 times the receipts factor and the denominator of which is 4."
+        },
+        {
+          "key": "forms",
+          "label": "Forms",
+          "value": "Form 1120ME, Schedule A is used to compute the corporate income tax apportionment factor, while unitary combined groups also file Form CR. Financial institutions report apportionment on Form 1120B-ME, Schedule A.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/24_1120me_all_instructions.pdf",
+          "source_citation": "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/24_1120me_all_instructions.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "For all amended returns, Form 1120ME, Schedule A, Schedule 1S, Schedule 1A, and Schedule C, must be attached, if applicable, even if the amounts have not changed from the original return."
+        }
+      ]
+    },
+    "nexus": {
+      "fields": [
+        {
+          "key": "sales_economic_nexus",
+          "label": "Sales/use tax: economic nexus",
+          "value": "A remote seller establishes economic nexus if its gross sales from the delivery of tangible personal property, products transferred electronically, or taxable services into Maine exceed $100,000 in the previous or current calendar year. There is no transaction count threshold.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://legislature.maine.gov/statutes/36/title36sec1754-B.html",
+          "source_citation": "Title 36, §1754-B: Registration of sellers",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Every person that makes sales of tangible personal property or taxable services in this State if the person's gross sales from delivery of tangible personal property or taxable services into this State in the previous calendar year or current calendar year exceeds $100,000;"
+        },
+        {
+          "key": "pl_86_272",
+          "label": "P.L. 86-272",
+          "value": "Maine statute expressly provides that a corporation protected under P.L. 86-272 does not establish nexus simply by exceeding the state's factor-presence nexus thresholds. Protection applies if the corporation's in-state activities are limited to the solicitation of orders for sales of tangible personal property sent outside Maine for approval and filled from outside the state.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/24_1120me_all_instructions.pdf",
+          "source_citation": "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/24_1120me_all_instructions.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "86-272 restricts a state’s tax jurisdiction with respect to sales solicitation activities only if the taxpayer’s activity is limited to solicitation of orders for the sale of tangible personal property."
+        }
+      ]
+    },
+    "rates": {
+      "fields": [
+        {
+          "key": "corporate",
+          "label": "Corporate income/franchise tax",
+          "value": "Maine levies a graduated corporate income tax on Maine net income with rates of 3.5%, 7.93%, 8.33%, and 8.93%. The state imposes no minimum corporate tax.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://legislature.maine.gov/doc/12723",
+          "source_citation": "https://legislature.maine.gov/doc/12723",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Corporate tax rates are progressive from 3.5% to 8.93% (see table below)."
+        },
+        {
+          "key": "sales",
+          "label": "Sales and use tax",
+          "value": "Maine imposes a general state sales and use tax rate of 5.5%. Local jurisdictions do not add local sales or use taxes.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://legislature.maine.gov/doc/12723",
+          "source_citation": "https://legislature.maine.gov/doc/12723",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "368, Part M increased the tax on sales of prepared food, lodging and liquor sold in bars and restaurants and similar licensed establishments to 8% and the general sales tax to 5.5% from October 1, 2013, to June 30, 2015."
+        },
+        {
+          "key": "other_business",
+          "label": "Other notable business taxes",
+          "value": "Maine does not impose a general gross receipts or margin tax, but levies a franchise tax on financial institutions. Institutions pay either 1% of Maine net income plus 0.008% of Maine assets, or alternatively 0.039% of Maine assets.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.maine.gov/revenue/taxes/income-estate-tax/franchise-tax-1120b-me",
+          "source_citation": "Franchise Tax (1120B-ME) | Maine Revenue Services",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Option 1 is a two-part tax consisting of 1% of Maine income and 0.008% of Maine assets."
+        }
+      ]
+    },
+    "filing": {
+      "fields": [
+        {
+          "key": "individual_due",
+          "label": "Individual due date and extension",
+          "value": "Individual returns for calendar-year filers are due on April 15. Maine grants an automatic six-month extension to file without requiring an application form, but tax payments must be paid by April 15 using Form 1040EXT-ME or online.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.maine.gov/revenue/tax-return-forms/due-dates",
+          "source_citation": "List of Forms and Due Dates | Maine Revenue Services",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "…ue date is the next business day. * These due dates are based on calendar year filers. Income/Estate Tax Individual Income Tax Form Due Date 1040ME, 1040EXT-ME April 15* 1040ES-ME April 15*, June 15*, September 15*, January 15* Amended 1040ME Within 180 days of final federal determination or filing of federal Form 1040-X Income Tax Withholding for Nonresident Seller…"
+        },
+        {
+          "key": "ptet",
+          "label": "Pass-through entity tax (PTET)",
+          "value": "Effective for tax years beginning on or after January 1, 2026, an elective PTET is available at a 7.15% rate on qualified members' distributive share. The annual election is made directly on the PTET return due March 15, yielding a 90% refundable credit for members.",
+          "years": [
+            2026
+          ],
+          "source_url": "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/25_941p_instructions.pdf",
+          "source_citation": "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/25_941p_instructions.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Interest and penalties Beginning January 1, 2026, the interest rate is 9% per annum, compounded monthly."
+        },
+        {
+          "key": "composite",
+          "label": "Composite returns",
+          "value": "A pass-through entity may file a composite return on Form 1040C-ME for two or more qualifying nonresident individuals with signed Form 941CF-ME authorizations. Form 1040C-ME is due on April 15, with an automatic 6-month filing extension available.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/25_1040c_me_instructions.pdf",
+          "source_citation": "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/25_1040c_me_instructions.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Who may be included in a composite return? A partnership/S corporation may file a composite return on behalf of its partners or shareholders who are eligible persons that have obtained a Nonresident Member Affidavit and Agreement to Participate in a Composite Filing of Maine Income Tax (Form 941CF-ME.) An “eligible person” is:"
+        },
+        {
+          "key": "key_forms",
+          "label": "Key forms",
+          "value": "Main forms include Form 1040ME for individuals, Form 1120ME for corporate income tax, and Form 941P-ME for pass-through entity withholding. Composite filers use Form 1040C-ME.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/25_941p_instructions.pdf",
+          "source_citation": "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/25_941p_instructions.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Also, a financial institution organized as a partnership, LLC, or S corporation is not required to file Form 941P-ME (see instructions for Form 1120B-ME available at maine.gov/revenue/ tax-return-forms)."
+        }
+      ]
+    }
+  }
+}

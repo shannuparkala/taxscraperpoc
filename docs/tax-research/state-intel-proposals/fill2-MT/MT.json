@@ -1,0 +1,113 @@
+[
+ {
+  "state": "MT",
+  "section": "apportionment",
+  "notes": "### 1. Multistate Apportionment Formula\n* **Fact / Formula:** Montana uses a **single sales factor (receipts factor)** apportionment formula. Apportionable income is apportioned to Montana by multiplying it by a fraction, the numerator of which is total receipts in Montana during the tax period and the denominator of which is total receipts everywhere during the tax period. Property and payroll factors are not included.\n* **Applicability:** Applies to **both tax years 2025 and 2026**. (Senate Bill 124, enacted during the 2023 legislative session, eliminated the property and payroll factors and shifted Montana from a 3-factor double-weighted receipts formula to the single sales factor method effective for tax years beginning after December 31, 2024 / January 1, 2025.)\n* **Official URLs:** \n  * Montana Department of Revenue Corporate Income Tax: https://mtrevenue.gov/taxes/corporate-income-tax/\n  * Montana Legislature (SB 124 Overview): https://leg.mt.gov/content/Committees/Administration/Speaker/2023/sb-124-fact-sheet.pdf\n  * Montana Code Annotated (MCA) 15-31-305: https://leg.mt.gov/bills/mca/title_0150/chapter_0310/part_0030/index.html\n\n---\n\n### 2. Sourcing of Receipts from Services and Intangibles\n* **Fact:** Montana uses **market-based sourcing** (market assignment); the former \"cost of performance\" method does not apply:\n  * **Services:** Gross receipts from services are assigned to Montana to the extent the service is delivered to a location in Montana.\n  * **Intangibles:** Gross receipts from intangible property are assigned to Montana to the extent the intangible property is used in Montana.\n* **Applicability:** Applies to **both tax years 2025 and 2026** (no change between 2025 and 2026).\n* **Official URLs:**\n  * Montana Department of Revenue Form CIT Instructions: https://mtrevenue.gov/publications/montana-form-cit-instructions/\n  * MCA 15-31-311: https://leg.mt.gov/bills/mca/title_0150/chapter_0310/part_0030/index.html\n\n---\n\n### 3. Special Industry Apportionment Rules\n* **Fact:** Under MCA 15-31-312(2) and Administrative Rules of Montana (ARM) Title 42, Chapter 26 (also adopted for pass-through entities in ARM 42.9.112), specific industries have special apportionment and allocation rules:\n  * Railroads (ARM Title 42, Chapter 26, Subchapter 6)\n  * Trucking / Motor carriers (ARM Title 42, Chapter 26, Subchapter 7)\n  * Airlines (ARM Title 42, Chapter 26, Subchapter 8)\n  * Construction contractors / contracts (ARM Title 42, Chapter 26, Subchapter 9)\n  * Publishing companies (ARM Title 42, Chapter 26, Subchapter 10)\n  * Television and radio broadcasting (ARM Title 42, Chapter 26, Subchapter 11)\n  * Telecommunication services (ARM Title 42, Chapter 26, Subchapter 12)\n  * Financial institutions (ARM Title 42, Chapter 26, Subchapter 13)\n* **Applicability:** Applies to **both tax years 2025 and 2026**.\n* **Official URLs:**\n  * MCA 15-31-312: https://leg.mt.gov/bills/mca/title_0150/chapter_0310/part_0030/section_0120/0150-0310-0030-0120.html\n  * Montana Department of Revenue Form CIT Instructions: https://mtrevenue.gov/publications/montana-form-cit-instructions/\n\n---\n\n### 4. Forms and Schedules Used to Compute Apportionment\n* **Fact:** \n  * **Corporations (Form CIT):** Apportionment is calculated on **Schedule K** of Form CIT. If more than one member of a combined unitary group has activity in Montana, **Schedule K-Combined** must also be completed and attached in support of Schedule K.\n  * **Pass-Through Entities (Form PTE):** Multistate pass-through entities compute Montana apportionment on **Schedule K** of Form PTE.\n* **Applicability:** Applies to **both tax years 2025 and 2026**.\n* **Official URLs:**\n  * Montana Corporate Income Tax Forms & Instructions: https://mtrevenue.gov/publications/montana-form-cit-instructions/\n  * Montana Pass-Through Entities Return Forms: https://mtrevenue.gov/taxes/pass-through-entities/",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Montana uses a single sales factor (receipts factor) apportionment formula to apportion business income. Property and payroll factors are excluded.",
+    "source_url": "https://mtrevenue.gov/taxes/corporate-income-tax/",
+    "evidence": [
+     "single sales factor",
+     "receipts factor",
+     "total receipts in Montana"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://revenue.mt.gov/files/Forms/Montana-Form-CIT-Instructions/2025_Montana_Form_CIT_Instructions.pdf",
+    "matched_title": "2025 Montana Form CIT Corporate Income Tax Instructions",
+    "matched_phrases": [
+     "single sales factor",
+     "receipts factor",
+     "total receipts in Montana"
+    ],
+    "snippet": "Senate Bill 124 from the 2023 Montana Legislative session changed the apportionment of income from the three-factor, double-weighed sales method to the single-sales factor method."
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Montana uses market-based sourcing for receipts from services and intangibles. Gross receipts are assigned to Montana to the extent services are delivered to or intangibles are used in the state.",
+    "source_url": "https://mtrevenue.gov/publications/montana-form-cit-instructions/",
+    "evidence": [
+     "market-based sourcing",
+     "delivered to a location",
+     "intangible property is used"
+    ],
+    "accepted": false,
+    "reason": "evidence not on mtrevenue.gov (0/3); evidence not on revenue.mt.gov (1/3); not an official MT host: tax.thomsonreuters.com; unreadable: https://leg.mt.gov/bills/2023/Minutes/House/Exhibits/230222TAHa8.pdf; not an official MT host: mca.legmt.gov; not an official MT host: www.law.cornell.edu",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Special industry apportionment rules apply to railroads, trucking, airlines, construction contractors, publishing, television and radio broadcasting, telecommunication services, and financial institutions.",
+    "source_url": "https://mtrevenue.gov/publications/montana-form-cit-instructions/",
+    "evidence": [
+     "Financial institutions",
+     "Construction contractors",
+     "Television and radio broadcasting"
+    ],
+    "accepted": false,
+    "reason": "evidence not on mtrevenue.gov (0/3); evidence not on revenue.mt.gov (1/3); not an official MT host: tax.thomsonreuters.com; unreadable: https://leg.mt.gov/bills/2023/Minutes/House/Exhibits/230222TAHa8.pdf; not an official MT host: mca.legmt.gov; not an official MT host: www.law.cornell.edu",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Corporations calculate apportionment on Schedule K of Form CIT, attaching Schedule K-Combined if more than one unitary group member has Montana activity. Pass-through entities compute apportionment on Schedule K of Form PTE.",
+    "source_url": "https://mtrevenue.gov/publications/montana-form-cit-instructions/",
+    "evidence": [
+     "Schedule K",
+     "Schedule K-Combined",
+     "Form CIT"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://revenue.mt.gov/files/Forms/Montana-Form-CIT-Instructions/2025_Montana_Form_CIT_Instructions.pdf",
+    "matched_title": "2025 Montana Form CIT Corporate Income Tax Instructions",
+    "matched_phrases": [
+     "Schedule K",
+     "Schedule K-Combined",
+     "Form CIT"
+    ],
+    "snippet": "For combined filers with more than one company with Montana activity, enter the total of line 18 from Schedule K-Combined on page 11 of Form CIT."
+   }
+  ],
+  "grounding_urls": [
+   "https://revenue.mt.gov/files/Forms/Montana-Form-CIT-Instructions/2025_Montana_Form_CIT_Instructions.pdf",
+   "https://tax.thomsonreuters.com/news/montana-adopts-single-sales-factor-apportionment-formula-for-2025/",
+   "https://mtrevenue.gov/taxes/corporate-income-tax",
+   "https://leg.mt.gov/bills/2023/Minutes/House/Exhibits/230222TAHa8.pdf",
+   "https://mca.legmt.gov/bills/mca/title_0150/chapter_0310/part_0030/sections_index.html",
+   "https://revenue.mt.gov/files/Forms/Montana-Form-CIT-Instructions/2024_Montana_Form_CIT_Instructions.pdf",
+   "https://mtrevenue.gov/publications/montana-form-cit-instructions/",
+   "https://mca.legmt.gov/bills/mca/title_0150/chapter_0310/part_0030/section_0120/0150-0310-0030-0120.html",
+   "https://www.law.cornell.edu/regulations/montana/Mont-Admin-r-42.9.112",
+   "https://mca.legmt.gov/bills/mca/title_0150/chapter_0310/part_0030/section_0120/0150-0310-0030-0120.html",
+   "https://revenue.mt.gov/files/Forms/Montana-Form-CIT-Instructions/2025_Montana_Form_CIT_Instructions.pdf",
+   "https://mtrevenue.gov/forms/",
+   "https://mtrevenue.gov/taxes/pass-through-entities/"
+  ],
+  "error": ""
+ }
+]

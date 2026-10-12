@@ -1,0 +1,141 @@
+[
+ {
+  "state": "MT",
+  "section": "rates",
+  "notes": "### 1. Individual Income Tax Rate(s) and Brackets\n\nMontana restructured its personal income tax into a two-bracket system starting in tax year 2024, with rates that change between tax years 2025 and 2026:\n\n#### Tax Year 2025\n* **Single and Married Filing Separately**:\n  * First $21,100 of taxable ordinary income: **4.7%**\n  * Taxable ordinary income exceeding $21,100: **5.9%**\n* **Married Filing Jointly and Qualifying Surviving Spouse**:\n  * First $42,200 of taxable ordinary income: **4.7%**\n  * Taxable ordinary income exceeding $42,200: **5.9%**\n* **Head of Household**:\n  * First $31,700 of taxable ordinary income: **4.7%**\n  * Taxable ordinary income exceeding $31,700: **5.9%**\n* *Net Long-Term Capital Gains Rates (2025)*: Taxed separately at preferential rates of **3.0%** and **4.1%**, based on applicable bracket thresholds.\n* **Official URL**: https://revenue.mt.gov/taxes/individual-income-tax/tax-tables-and-deductions\n\n#### Tax Year 2026 (Changed under House Bill 337)\nHouse Bill 337 (69th Legislature) broadens the lower tax bracket and cuts the top rate from 5.9% to 5.65%:\n* **Single and Married Filing Separately**:\n  * $0.00 to $47,500: **4.7%**\n  * Over $47,500: **5.65%**\n* **Married Filing Jointly and Qualifying Surviving Spouse**:\n  * $0.00 to $95,000: **4.7%**\n  * Over $95,000: **5.65%**\n* **Head of Household**:\n  * $0.00 to $71,250: **4.7%**\n  * Over $71,250: **5.65%**\n* *Net Long-Term Capital Gains Rates (2026)*: Rates remain **3.0%** and **4.1%**, with the bracket thresholds adjusted to align with the new ordinary income tiers.\n* **Official URL**: https://revenue.mt.gov/news/2025/11/14/hb337-2026-2027-montana-individual-income-tax-changes\n\n---\n\n### 2. Corporate Income Tax Rate(s) and Minimum Tax\n\n* **Applicability**: Applies to both **Tax Year 2025** and **Tax Year 2026** (no statutory changes).\n* **Standard Rate**: **6.75%** of Montana taxable income.\n* **Water’s Edge Election Rate**: **7%**.\n* **Alternative Gross Sales Tax Rate**: **0.5%** (available to corporations whose sole activity in Montana consists of sales, that do not own or rent real estate or tangible personal property in Montana, and whose Montana annual gross sales do not exceed $100,000; § 15-31-122, MCA).\n* **Minimum Tax**: **$50**.\n* **Official URL**: https://revenue.mt.gov/taxes/business-taxes/corporate-income-tax\n\n---\n\n### 3. State Sales and Use Tax Rate & Local Rates\n\n* **Applicability**: Applies to both **Tax Year 2025** and **Tax Year 2026**.\n* **State General Sales and Use Tax Rate**: Montana has **no general statewide sales and use tax (0%)**.\n* **Local Option Sales Taxes**: Local jurisdictions generally cannot impose local sales taxes. However, qualifying designated resort areas and communities are authorized to levy a **Local Resort Tax** of up to **3%** on accommodations, food establishments, alcohol establishments, and luxury goods/services (§ 7-6-1503, MCA). In addition, counties may impose a local-option marijuana excise tax of up to **3%**.\n* **Official URLs**:\n  * https://revenue.mt.gov/taxes/sales-tax-guidance-for-montana-business-and-residents\n  * https://revenue.mt.gov/taxes/business-taxes/miscellaneous-taxes-and-fees/local-resort-tax\n\n---\n\n### 4. Gross Receipts, Franchise, Margin, or Other Notable Business Taxes\n\n* **Applicability**: Applies to both **Tax Year 2025** and **Tax Year 2026**.\n* **General Margin / Franchise Tax**: Not found (Montana does not levy an entity-level margin tax or separate general corporate franchise tax).\n* **Public Contractor’s Gross Receipts Tax (CGR)**: \n  * A **1%** license tax withheld on gross receipts from public construction contracts awarded by the state, counties, cities, or public schools where the total contract value exceeds **$80,000** (§ 15-50-205, MCA). \n  * Contractors can claim this 1% payment as a dollar-for-dollar credit against Montana corporate or individual income tax liability or obtain a refund against business personal property taxes and motor vehicle registration fees.\n  * **Official URL**: https://revenue.mt.gov/taxes/business-taxes/miscellaneous-taxes-and-fees/contractors-gross-receipts-tax\n* **Lodging Facility Sales and Use Tax**: \n  * Montana levies a combined **8%** tax on accommodations: a **4%** Lodging Facility Use Tax plus a **4%** Lodging Facility Sales Tax.\n  * **Official URL**: https://revenue.mt.gov/taxes/business-taxes/miscellaneous-taxes-and-fees/lodging-facility-sales-and-use-tax\n* **Rental Vehicle Sales and Use Tax**:\n  * Imposes a **4%** tax on sales/charges for vehicle rentals.\n  * **Official URL**: https://revenue.mt.gov/forms-repository (Form RVT)",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025
+    ],
+    "value": "For 2025, Montana taxes ordinary income at 4.7% and 5.9%, with the top bracket starting at $21,100 for single filers and $42,200 for married couples filing jointly. Net long-term capital gains are taxed at preferential rates of 3.0% and 4.1%.",
+    "source_url": "https://revenue.mt.gov/taxes/individual-income-tax/tax-tables-and-deductions",
+    "evidence": [
+     "taxable ordinary income",
+     "4.7%",
+     "5.9%",
+     "capital gains rates"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://revenue.mt.gov/taxes/tax-tables-and-deductions/2025",
+    "matched_title": "2025 Montana Tax Tables and Deductions",
+    "matched_phrases": [
+     "4.7%",
+     "5.9%"
+    ],
+    "snippet": "Ordinary Income Tax Rate First $21,100 of Montana Ordinary Income 4.7% Montana Ordinary Income exceeding $21,100 5.9% 2025 Net Long-Term Capital Gains Tax Rates — Single and Married Filing Separately."
+   },
+   {
+    "key": "individual",
+    "years": [
+     2026
+    ],
+    "value": "For 2026, Montana applies ordinary income rates of 4.7% and 5.65%, with the higher rate kicking in over $47,500 for single filers and $95,000 for married joint filers. Net long-term capital gains continue to be taxed at rates of 3.0% and 4.1%.",
+    "source_url": "https://revenue.mt.gov/news/2025/11/14/hb337-2026-2027-montana-individual-income-tax-changes",
+    "evidence": [
+     "House Bill 337",
+     "4.7%",
+     "5.65%",
+     "capital gains"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://revenue.mt.gov/news/2025/11/14/hb337-2026-2027-montana-individual-income-tax-changes; figures not on mtrevenue.gov: ['3', '4.1', '4.7', '47500', '5.65', '95000']; figure not stated beside the evidence on revenue.mt.gov; figures not on revenue.mt.gov: ['47500', '5.65', '95000']; figures not on mtrevenue.gov: ['4.1', '4.7', '47500', '5.65', '95000']; not an official MT host: mca.legmt.gov; figures not on revenue.mt.gov: ['4.1', '4.7', '47500', '5.65', '95000']; figures not on r",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Montana imposes a corporate income tax of 6.75% of taxable income, or 7% for corporations making a water's edge election, subject to a $50 minimum tax. Corporations meeting specific small gross sales criteria may elect an alternative 0.5% gross sales tax rate.",
+    "source_url": "https://revenue.mt.gov/taxes/business-taxes/corporate-income-tax",
+    "evidence": [
+     "6.75%",
+     "Water's Edge Election",
+     "Minimum Tax",
+     "gross sales tax rate"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://revenue.mt.gov/taxes/corporate-income-tax",
+    "matched_title": "Montana Corporate Income Tax",
+    "matched_phrases": [
+     "6.75%",
+     "Water's Edge Election",
+     "Minimum Tax",
+     "gross sales tax rate"
+    ],
+    "snippet": "Tax Rates Tax Rates by Category Tax Rates by Category Category Rate Standard Rate 6.75% Water's Edge Election 7% Alternative Gross Sales 0.5% Minimum Tax $50 Additional Notes To qualify for the Alternative Gross Sales tax rate, your corporation must:"
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Montana has no general statewide sales and use tax (0%), and local general sales taxes are not permitted. However, designated resort communities are authorized to levy a local resort tax of up to 3% on accommodations, food, alcohol, and luxury goods.",
+    "source_url": "https://revenue.mt.gov/taxes/sales-tax-guidance-for-montana-business-and-residents",
+    "evidence": [
+     "sales and use tax",
+     "Local Resort Tax",
+     "3%"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://revenue.mt.gov/taxes/sales-tax-guidance-for-montana-business-and-residents; figures not on mtrevenue.gov: ['0', '3']; evidence not on revenue.mt.gov (0/3); figures not on revenue.mt.gov: ['0']; figures not on mtrevenue.gov: ['0']; not an official MT host: mca.legmt.gov; figures not on revenue.mt.gov: ['0', '3']; redirected off MT: https://mca.legmt.gov/bills/mca/title_0150/chapter_0500/part_0020/section_0050/0150-0500-0020-0050.html; evidence not on mtrevenue.gov (0/3)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Montana levies a 1% Public Contractor's Gross Receipts Tax on public construction contracts exceeding $80,000, which can be credited against state income tax liability. Additionally, the state imposes an 8% combined lodging facility sales and use tax and a 4% rental vehicle sales and use tax.",
+    "source_url": "https://revenue.mt.gov/taxes/business-taxes/miscellaneous-taxes-and-fees/contractors-gross-receipts-tax",
+    "evidence": [
+     "1% license tax",
+     "gross receipts",
+     "public construction contracts",
+     "dollar-for-dollar credit"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://revenue.mt.gov/taxes/business-taxes/miscellaneous-taxes-and-fees/contractors-gross-receipts-tax; figures not on mtrevenue.gov: ['4', '8', '80000']; figures not on revenue.mt.gov: ['1', '4', '8', '80000']; figures not on mtrevenue.gov: ['1', '4', '8', '80000']; figures not on mtrevenue.gov: ['8', '80000']; not an official MT host: mca.legmt.gov; figures not on revenue.mt.gov: ['8', '80000']; figures not on revenue.mt.gov: ['80000']; figures not on revenue.mt.gov: ['1', '8', '8",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://mtrevenue.gov/montana-tax-simplification-resource-hub",
+   "https://revenue.mt.gov/news/recent-news/HB-337",
+   "https://revenue.mt.gov/taxes/tax-tables-and-deductions/2025",
+   "https://mtrevenue.gov/taxes/montana-tax-tables-and-deductions/",
+   "https://revenue.mt.gov/news/recent-news/HB-337",
+   "https://mtrevenue.gov/taxes/corporate-income-tax",
+   "https://mca.legmt.gov/bills/MCA/title_0150/chapter_0310/part_0010/section_0220/0150-0310-0010-0220.html",
+   "https://revenue.mt.gov/taxes/corporate-income-tax",
+   "https://revenue.mt.gov/taxes/general-sales-tax",
+   "https://revenue.mt.gov/taxes/miscellaneous/local-resort-tax",
+   "https://revenue.mt.gov/taxes/general-sales-tax",
+   "https://revenue.mt.gov/card/cannabis/sales-reports/",
+   "https://revenue.mt.gov/taxes/",
+   "https://leg.mt.gov/bills/mca/title_0150/chapter_0500/part_0020/section_0050/0150-0500-0020-0050.html",
+   "https://revenue.mt.gov/taxes/miscellaneous/cgr",
+   "https://revenue.mt.gov/taxes/tax-credits/contractors-gross-receipt-credit",
+   "https://revenue.mt.gov/taxes/miscellaneous/lodging-facility",
+   "https://mtrevenue.gov/dor-publications/revenue-monitoring-reports",
+   "https://mtrevenue.gov/forms/"
+  ],
+  "error": ""
+ }
+]

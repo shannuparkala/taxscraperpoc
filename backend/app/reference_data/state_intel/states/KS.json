@@ -1,0 +1,76 @@
+{
+  "code": "KS",
+  "name": "Kansas",
+  "sections": {
+    "apportionment": {
+      "fields": [
+        {
+          "key": "method",
+          "label": "Apportionment method",
+          "value": "Kansas applies a standard equally weighted three-factor formula consisting of property, payroll, and sales factors divided by 3. A qualifying taxpayer whose payroll factor exceeds 200% of the average of the property and sales factors may elect a two-factor formula.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.ksrevisor.gov/statutes/chapters/ch79/079_032_0079.html",
+          "source_citation": "79-3279",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "(A) For purposes of this subsection (b)(2), a qualifying taxpayer is any taxpayer whose payroll factor for a taxable year exceeds 200% of the average of the property factor and the sales factor."
+        },
+        {
+          "key": "sourcing",
+          "label": "Sales sourcing (services and intangibles)",
+          "value": "Receipts other than sales of tangible personal property are sourced using cost of performance. Sourcing is assigned to Kansas if the income-producing activity is performed in Kansas, or if a greater proportion is performed in Kansas than in any other state based on costs of performance.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.ksrevisor.gov/statutes/chapters/ch79/079_032_0087.html",
+          "source_citation": "79-3287",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "or (2) the income-producing activity is performed both in and outside this state and a greater proportion of the income-producing activity is performed in this state than in any other state, based on costs of performance;"
+        },
+        {
+          "key": "special_industries",
+          "label": "Special industry rules",
+          "value": "Railroads and interstate motor carriers apportion income using mileage-based formulas. Additionally, investment funds service corporations apportion based on shareholder domicile, qualifying telecommunications companies may elect a two-factor formula, and manufacturers of alcoholic liquor selling to distributors must use the three-factor formula.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.ksrevisor.gov/statutes/chapters/ch79/079_032_0079.html",
+          "source_citation": "79-3279",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "(a) For tax years commencing before January 1, 2027, all business income of railroads and interstate motor carriers of persons or property for hire shall be apportioned to this state by multiplying the business income by a fraction, in the case of railroads, the numerator of which is the freight car miles in this state and the denominator of which is the freight car miles everywhere, and, in the case of interstate motor carriers, the numerator of which is the total number of miles operated in th"
+        }
+      ]
+    },
+    "nexus": {
+      "fields": [
+        {
+          "key": "sales_economic_nexus",
+          "label": "Sales/use tax: economic nexus",
+          "value": "A remote seller establishes economic nexus if cumulative gross receipts from sales to customers in Kansas exceed $100,000 in the current or preceding calendar year, with no transaction count threshold. Tax collection obligations begin with the next transaction immediately after exceeding the $100,000 threshold.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://ksrevisor.gov/statutes/chapters/ch79/079_037_0002.html",
+          "source_citation": "K.S.A. 79-3702",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "or (b) during the current or immediately preceding calendar year, the retailer had in excess of $100,000 of cumulative gross receipts from sales by the retailer to customers in this state."
+        }
+      ]
+    },
+    "rates": {
+      "fields": []
+    },
+    "filing": {
+      "fields": []
+    }
+  }
+}

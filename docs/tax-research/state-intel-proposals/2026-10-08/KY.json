@@ -1,0 +1,611 @@
+[
+ {
+  "state": "KY",
+  "section": "apportionment",
+  "notes": "### 1. Apportionment Formula for Multistate Business Income\n* **Fact / Formula:** Multistate apportionable business income is apportioned to Kentucky using a single sales/receipts factor formula. Apportionable income is multiplied by a fraction, the numerator of which is the total receipts of the taxpayer in Kentucky during the taxable year and the denominator of which is the total receipts of the taxpayer everywhere during the taxable year (KRS 141.120(9)).\n* **Applicable Tax Years:** Applies to both tax years 2025 and 2026 (unchanged; effective for taxable years beginning on or after January 1, 2018).\n* **Official URLs:** \n  * https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=47472\n  * https://revenue.ky.gov/Business/Corporation-Income-and-Limited-Liability-Entity-Tax/Pages/default.aspx\n\n---\n\n### 2. Sourcing of Receipts from Services and Intangibles\n* **Fact / Standard:** Kentucky uses **market-based sourcing** for gross receipts from both services and intangibles (KRS 141.120(11); 103 KAR 16:270):\n  * **Services:** Receipts are sourced to Kentucky if and to the extent the service is delivered to a location in Kentucky (KRS 141.120(11)(a)3.; 103 KAR 16:270 Section 4).\n  * **Intangibles:** Receipts from the license, lease, rental, or sale of intangible property are sourced to Kentucky if and to the extent the intangible property is used in Kentucky (KRS 141.120(11)(a)4.).\n  * **Throw-Out Rule:** If the taxpayer is not taxable in the state to which the receipt is assigned, or if the state of assignment cannot be determined or reasonably approximated, the receipt is excluded from the denominator of the receipts factor (KRS 141.120(11)(c)).\n* **Applicable Tax Years:** Applies to both tax years 2025 and 2026 (unchanged).\n* **Official URLs:** \n  * https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=47472\n  * https://apps.legislature.ky.gov/law/kar/titles/103/016/270/\n\n---\n\n### 3. Industries with Their Own Apportionment Formula\n* **Fact / Industry Rules:**\n  * **Providers (Communications, Cable, and Internet):** Corporations engaged in providing communications services (KRS 136.602), cable services (KRS 136.602), or internet access (47 U.S.C. sec. 151) retain a statutory **three-factor formula** (property, payroll, and double-weighted sales/receipts factor) under KRS 141.121(1)(e), KRS 141.121(3), and KRS 141.901.\n  * **Passenger Airlines:** Apportionment uses a single receipts factor where transportation revenues are sourced to Kentucky based on the ratio of Kentucky revenue passenger miles to total revenue passenger miles (KRS 141.121(2)(b)1.; 103 KAR 16:270 Section 6(4)).\n  * **Qualified Air Freight Forwarders:** Sourced based on miles operated in Kentucky by the affiliated airline over total miles operated by the affiliated airline (KRS 141.121(2)(b)2.; 103 KAR 16:270 Section 6(7)).\n  * **Bargelines:** Sourced based on miles operated in Kentucky over total miles operated (Kentucky miles include inland waterways plus 50% of miles operated on the Ohio River, Big Sandy River, and Mississippi River adjacent to Kentucky's shoreline) (103 KAR 16:270 Section 6(1)).\n  * **Pipeline Companies:** Sourced based on barrel miles transported in Kentucky over total barrel miles everywhere (103 KAR 16:270 Section 6(5)).\n  * **Trucklines:** Sourced based on miles operated in Kentucky over total miles operated everywhere (103 KAR 16:270 Section 6(8)).\n  * **Financial Institutions / Financial Organizations:** Sourced under specific receipts factor rules (allocating loan interest, cardholder fees, servicing fees, ATM fees, and merchant discounts to Kentucky based on customer billing address, property location, or branch location) pursuant to KRS 141.121(5) and 103 KAR 16:270 Section 6(2).\n  * **Public Service Companies:** Apportioned under KRS 141.121(5) and 103 KAR 16:270 Section 6(6).\n  * **Securities Brokerage Services (Enterprise Zones):** Apportioned based on customer domicile (commissions and margin interest paid by customers domiciled in Kentucky divided by total customers) (KRS 141.121(4)(c)).\n* **Applicable Tax Years:** Applies to both tax years 2025 and 2026 (unchanged).\n* **Official URLs:** \n  * https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=47473\n  * https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=47477\n  * https://apps.legislature.ky.gov/law/kar/titles/103/016/270/\n\n---\n\n### 4. Form or Schedule Used to Compute Apportionment\n* **Fact / Forms:**\n  * **Schedule A (Form 41A720A):** *Apportionment and Allocation* is used to calculate the Kentucky apportionment factor and apportionable income. It is filed with the entity’s income tax return (Form 720, Form 720S, Form 725, or Form 765).\n  * **Schedule A-C (Form 41A720A-C):** *Apportionment and Allocation – Continuation Sheet* is used by corporations or pass-through entities that own interests in lower-tier pass-through entities or general partnerships doing business in Kentucky, or members of an elective consolidated group.\n  * **Schedule A-N (Form 41A720A-N):** *Apportionment Factor Schedule (For a Nexus Consolidated Tax Return)*, completed if filing a nexus consolidated return under KRS 141.200(11).\n* **Applicable Tax Years:** Applies to both tax years 2025 and 2026 (unchanged).\n* **Official URLs:** \n  * https://revenue.ky.gov/Get-Help/Pages/Search-Forms.aspx\n  * https://revenue.ky.gov/Forms/2023_41A720A_P.pdf",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Multistate apportionable business income is apportioned to Kentucky using a single sales or receipts factor formula. Apportionable income is multiplied by a fraction of total receipts in Kentucky over total receipts everywhere.",
+    "source_url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=47472",
+    "evidence": [
+     "total receipts of the taxpayer",
+     "apportionable income",
+     "fraction, the numerator"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=47368",
+    "matched_title": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=47368",
+    "matched_phrases": [
+     "total receipts of the taxpayer",
+     "apportionable income",
+     "fraction, the numerator"
+    ],
+    "snippet": "(9) All apportionable income shall be apportioned to this state by multiplying the income by a fraction the numerator of which is the total receip ts of the taxpayer in this state during the taxable year and the denominator of which is the total receipts of the taxpayer everywhere during the taxable year."
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Kentucky uses market-based sourcing for gross receipts from services and intangibles. Receipts from services are sourced to Kentucky if delivered to a location in the state, and intangible property receipts are sourced if and to the extent the intangible property is used in Kentucky.",
+    "source_url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=47472",
+    "evidence": [
+     "service is delivered",
+     "intangible property is used",
+     "receipts factor"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=47368",
+    "matched_title": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=47368",
+    "matched_phrases": [
+     "service is delivered",
+     "receipts factor"
+    ],
+    "snippet": "In the case of sale of a service, if and to the extent the service is delivered to a location in this state;"
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Providers of communications, cable, and internet access services retain a statutory three-factor formula with property, payroll, and double-weighted sales factors. Specific apportionment and sourcing rules also apply to passenger airlines, air freight forwarders, bargelines, pipelines, trucklines, and financial institutions.",
+    "source_url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=47473",
+    "evidence": [
+     "communications services",
+     "cable services",
+     "revenue passenger miles"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=49914",
+    "matched_title": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=49914",
+    "matched_phrases": [
+     "communications services",
+     "revenue passenger miles"
+    ],
+    "snippet": "(c) \"Kentucky revenue passenger miles\" means the total revenue passenger miles within the borders of Kentucky for all flight stages that either originate or terminate in this state;"
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Apportionment is computed on Schedule A (Form 41A720A), Apportionment and Allocation, filed with the entity's return. Related schedules include Schedule A-C for pass-through ownership or elective consolidated group members and Schedule A-N for nexus consolidated returns.",
+    "source_url": "https://revenue.ky.gov/Forms/2023_41A720A_P.pdf",
+    "evidence": [
+     "Apportionment and Allocation",
+     "Schedule A",
+     "41A720A"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://revenue.ky.gov/Forms/Schedule%20A%202022.pdf",
+    "matched_title": "https://revenue.ky.gov/Forms/Schedule%20A%202022.pdf",
+    "matched_phrases": [
+     "Apportionment and Allocation",
+     "Schedule A",
+     "41A720A"
+    ],
+    "snippet": "Instructions for Schedule A—Apportionment and AllocationSCHEDULE A (2022) 41A720A (10-22) Page 6 of 7Instructions for Schedule A—Apportionment and AllocationSCHEDULE A (2022) D."
+   }
+  ],
+  "grounding_urls": [
+   "https://revenue.ky.gov/Business/Corporation-Income-and-Limited-Liability-Entity-Tax/Pages/default.aspx",
+   "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=47368",
+   "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=47368",
+   "https://apps.legislature.ky.gov/law/kar/titles/103/016/270/",
+   "https://apps.legislature.ky.gov/law/kar/titles/103/016/270/",
+   "https://revenue.ky.gov/Forms/Schedule%20A%202022.pdf",
+   "https://revenue.ky.gov/TaxProfessionals/PublishingImages/Pages/Training-Manuals/TEI%202018%20Presentation%20(Final%20Draft)%205-1-18.pdf",
+   "https://apps.legislature.ky.gov/law/kar/titles/103/016/270/",
+   "https://apps.legislature.ky.gov/law/kar/titles/103/016/270/",
+   "https://revenue.ky.gov/Forms/Instructions%20720.pdf",
+   "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=49914",
+   "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=49914",
+   "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=49914",
+   "https://apps.legislature.ky.gov/law/acts/20RS/documents/0091.pdf",
+   "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=47367",
+   "https://revenue.ky.gov/Forms/Schedule%20A.pdf",
+   "https://revenue.ky.gov/Forms/13_41A720A0001.pdf",
+   "https://revenue.ky.gov/Forms/14_41A720AC0003.pdf",
+   "https://revenue.ky.gov/Forms/13_41A720AN0001.pdf",
+   "https://revenue.ky.gov/Forms/Schedule%20A.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "KY",
+  "section": "nexus",
+  "notes": "### 1. Income / Franchise Tax Nexus & Bright-Line Thresholds\n\n* **Nexus Standard**: Kentucky imposes corporation income tax (KRS 141.040) and the Limited Liability Entity Tax (LLET, KRS 141.0401) on entities \"doing business in this state\". Under KRS 141.010(13) and 103 KAR 16:240, \"doing business in this state\" includes, but is not limited to:\n  * Being organized under the laws of Kentucky;\n  * Having a commercial domicile in Kentucky;\n  * Owning or leasing property in Kentucky;\n  * Having one (1) or more individuals performing services in Kentucky;\n  * Maintaining an interest in a pass-through entity doing business in Kentucky;\n  * Deriving income directly or indirectly from a trust or a single-member LLC doing business in Kentucky that is disregarded for federal income tax purposes; or\n  * Directing activities at Kentucky customers for the purpose of selling them goods or services.\n* **Bright-Line / Factor-Presence Economic Nexus Threshold**: **Not found**. Kentucky statute and administrative regulations do not establish a bright-line factor-presence dollar threshold (e.g., specific dollar thresholds for receipts, property, or payroll) for corporate income tax or LLET nexus. Nexus is established under the broad \"doing business\" standard to the extent permitted by the U.S. Constitution.\n* **Applicable Tax Years**: Applies to both tax years 2025 and 2026 without change.\n* **Official Sources**:\n  * Kentucky Revised Statutes, KRS 141.010: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=51662\n  * Kentucky Administrative Regulations, 103 KAR 16:240: https://apps.legislature.ky.gov/law/kar/titles/103/016/240/\n  * Kentucky Department of Revenue, Corporation Income and LLET Overview: https://revenue.ky.gov/Business/Corporation-Income-and-Limited-Liability-Entity-Tax/Pages/default.aspx\n\n---\n\n### 2. Remote Seller Sales & Use Tax Economic Nexus Threshold\n\n* **Threshold Amounts & Measurement Period**:\n  * **Tax Year 2025 through July 31, 2026**: Under KRS 139.340(2)(g), remote sellers and marketplace providers meet economic nexus if, in the **previous calendar year or the current calendar year**, they meet either:\n    * Gross receipts derived from sales of tangible personal property or digital property delivered or transferred electronically to a purchaser in Kentucky exceeding **$100,000**; **or**\n    * **200 or more** separate transactions delivered or transferred electronically into Kentucky.\n  * **Effective August 1, 2026 (Tax Year 2026 Change)**: Enacted under House Bill 757 (2026 General Assembly), KRS 139.340 and KRS 139.450 are amended to **eliminate the 200 separate transaction threshold**. Beginning August 1, 2026, economic nexus is established solely by exceeding **$100,000 in gross receipts** in the previous calendar year or current calendar year.\n* **Applicable Tax Years**: Changed during tax year 2026 (the 200-transaction count threshold applies to 2025 and through July 31, 2026; only the $100,000 gross receipts threshold applies on and after August 1, 2026).\n* **Official Sources**:\n  * Kentucky Department of Revenue, *Sales Tax Facts* (Summer 2026): https://revenue.ky.gov/News/Publications/Sales%20Tax%20Newsletters/Sales%20Tax%20Facts%20Newsletter%202026%20-%20July.pdf\n  * Kentucky Department of Revenue, 2026 SSUTA Compliance Recertification: https://revenue.ky.gov/News/Publications/Streamline%20Documents/2026%20KY%20Recertification%20Letter.pdf\n  * Kentucky Department of Revenue Tax Registration Application Instructions (Form 10A100): https://revenue.ky.gov/Forms/10A100(P)(4-25).pdf\n\n---\n\n### 3. Kentucky's Stated Position on P.L. 86-272 Protection\n\n* **Narrow Interpretation**: Under 103 KAR 16:240, Section 3(1), the Kentucky Department of Revenue explicitly \"adopts a narrow interpretation of the immunity afforded by Pub. L. 86-272\" (15 U.S.C. §§ 381–384). Immunity is limited strictly to solicitation of orders for sales of tangible personal property sent outside Kentucky for approval and filled from points outside Kentucky.\n* **Disqualification & Burden of Proof**: If a taxpayer engages in both protected solicitation and any activity outside of protected solicitation, it loses immunity under P.L. 86-272 entirely (103 KAR 16:240, Section 3(2)). The taxpayer carries the affirmative burden of substantiating any claim of P.L. 86-272 immunity (103 KAR 16:240, Section 3(4)).\n* **Inapplicability to LLET**: P.L. 86-272 applies solely to net income taxes; it **does not afford immunity from Kentucky's Limited Liability Entity Tax (LLET)** under KRS 141.0401 (103 KAR 16:240, Section 2(5); Form 720 / Form PTE Instructions). A corporation or pass-through entity exempt from Kentucky corporate income tax under P.L. 86-272 must still register, file a Kentucky return, and pay the LLET.\n* **Applicable Tax Years**: Applies to both tax years 2025 and 2026 without change.\n* **Official Sources**:\n  * Kentucky Administrative Regulations, 103 KAR 16:240: https://apps.legislature.ky.gov/law/kar/titles/103/016/240/\n  * Kentucky Department of Revenue, Form 720 Instructions: https://revenue.ky.gov/Forms/2024_720_P1P2_Instructions.pdf\n  * Kentucky Department of Revenue, Form PTE Instructions: https://revenue.ky.gov/Forms/2025_PTE_P1P2_Instructions.pdf",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Kentucky imposes corporation income tax and the Limited Liability Entity Tax (LLET) on entities doing business in the state, including directing activities at Kentucky customers to sell goods or services. The state does not have a bright-line factor-presence dollar threshold for economic nexus.",
+    "source_url": "https://apps.legislature.ky.gov/law/kar/titles/103/016/240/",
+    "evidence": [
+     "doing business in this state",
+     "commercial domicile",
+     "performing services",
+     "Limited Liability Entity Tax"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://apps.legislature.ky.gov/law/kar/titles/103/016/240/",
+    "matched_title": "Title 103 Chapter 16 Regulation 240 • Kentucky Administrative Regulations • Legislative Research Commission",
+    "matched_phrases": [
+     "doing business in this state",
+     "commercial domicile",
+     "performing services",
+     "Limited Liability Entity Tax"
+    ],
+    "snippet": "(a) The corporation's or pass-through entity's commercial domicile;"
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025
+    ],
+    "value": "Remote sellers establish economic nexus if gross receipts exceed $100,000 or if they engage in 200 or more separate transactions delivered into Kentucky in the previous or current calendar year.",
+    "source_url": "https://revenue.ky.gov/Forms/10A100(P)(4-25).pdf",
+    "evidence": [
+     "$100,000",
+     "200 or more separate transactions",
+     "previous calendar year",
+     "gross receipts"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://revenue.ky.gov/Forms/10A100(P)(4-25)_FINAL_locked%20Fill-in.pdf",
+    "matched_title": "https://revenue.ky.gov/Forms/10A100(P)(4-25)_FINAL_locked%20Fill-in.pdf",
+    "matched_phrases": [
+     "$100,000",
+     "200 or more separate transactions",
+     "previous calendar year",
+     "gross receipts"
+    ],
+    "snippet": "or the remote retailer’s gross receipts derived from the sale of tangible personal property or digital property delivered or transferred electronically to a purchaser in this state in the previous calendar year or current calendar year exceeds one hundred thousand dollars ($100,000) (KRS 139.340(g))."
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2026
+    ],
+    "value": "Remote sellers establish economic nexus with gross receipts exceeding $100,000 or 200 or more separate transactions in the previous or current calendar year, but effective August 1, 2026, the 200 separate transaction threshold is eliminated.",
+    "source_url": "https://revenue.ky.gov/News/Publications/Sales%20Tax%20Newsletters/Sales%20Tax%20Facts%20Newsletter%202026%20-%20July.pdf",
+    "evidence": [
+     "$100,000",
+     "200 separate transaction threshold",
+     "August 1, 2026",
+     "gross receipts"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://revenue.ky.gov/News/Publications/Sales%20Tax%20Newsletters/Sales%20Tax%20Facts%20-%20Summer%202026.pdf",
+    "matched_title": "Sales Tax Facts Newsletter 2026",
+    "matched_phrases": [
+     "$100,000",
+     "August 1, 2026",
+     "gross receipts"
+    ],
+    "snippet": "However, effective August 1, 2026, charges for furnishing pay phone services are part of communications services subject to sales tax (KRS 139.200) and the utility gross receipts license tax (KRS 160.6131)."
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Kentucky explicitly adopts a narrow interpretation of P.L. 86-272 immunity, restricting it strictly to solicitation of orders for sales of tangible personal property. Additionally, P.L. 86-272 does not afford immunity from Kentucky's Limited Liability Entity Tax (LLET).",
+    "source_url": "https://apps.legislature.ky.gov/law/kar/titles/103/016/240/",
+    "evidence": [
+     "narrow interpretation",
+     "Pub. L. 86-272",
+     "Limited Liability Entity Tax",
+     "tangible personal property"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://revenue.ky.gov/Forms/10A100(P)(4-25)_FINAL_locked%20Fill-in.pdf",
+    "matched_title": "https://revenue.ky.gov/Forms/10A100(P)(4-25)_FINAL_locked%20Fill-in.pdf",
+    "matched_phrases": [
+     "Limited Liability Entity Tax",
+     "tangible personal property"
+    ],
+    "snippet": "If an out-of-state entity, is your Kentucky activity limited to the mere solicitation of the sale of tangible personal property and exempt from Corporation Income tax due to Public Law 86-272?  Yes  No 87."
+   }
+  ],
+  "grounding_urls": [
+   "https://revenue.ky.gov/DOR%20Training%20Materials/103%20KAR%2016.240.%20Nexus%20standard%20for%20corporations%20and%20pass-through%20entities.pdf",
+   "https://revenue.ky.gov/Business/Corporation-Income-and-Limited-Liability-Entity-Tax/Pages/default.aspx",
+   "https://apps.legislature.ky.gov/law/Statutes/statute.aspx?id=57913",
+   "https://apps.legislature.ky.gov/law/Statutes/statute.aspx?id=57913",
+   "https://revenue.ky.gov/Forms/10A100(P)(4-25)_FINAL_locked%20Fill-in.pdf",
+   "https://revenue.ky.gov/News/Publications/Sales%20Tax%20Newsletters/Sales%20Tax%20Facts%20-%20Summer%202026.pdf",
+   "https://revenue.ky.gov/Business/Sales-Use-Tax/Documents/KY%20SSUTA%20Recertification%20-%207-29-26.pdf",
+   "https://apps.legislature.ky.gov/law/kar/titles/103/016/240/",
+   "https://revenue.ky.gov/DOR%20Training%20Materials/103%20KAR%2016.240.%20Nexus%20standard%20for%20corporations%20and%20pass-through%20entities.pdf",
+   "https://apps.legislature.ky.gov/law/kar/titles/103/016/240/",
+   "https://revenue.ky.gov/Forms/Form%20720%20Instructions.pdf",
+   "https://revenue.ky.gov/Forms/INSTR-41APTE(I)%20(2025).pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "KY",
+  "section": "rates",
+  "notes": "### 1. Individual Income Tax Rate\n* **Tax Year 2025**: Flat rate of 4% (four percent). \n* **Tax Year 2026**: Flat rate of 3.5% (three and one-half percent).\n  * *Change*: Under Kentucky House Bill 1, the individual income tax rate decreases from 4% in 2025 to 3.5% for taxable years beginning on or after January 1, 2026 (codified at KRS 141.020).\n* **Official Sources**:\n  * Kentucky Department of Revenue – Individual Income Tax: https://revenue.ky.gov/Individual/Individual-Income-Tax/Pages/default.aspx\n  * Kentucky General Assembly / Kentucky Revised Statutes – KRS 141.020: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=54413\n\n---\n\n### 2. Corporate Income Tax Rate and Minimum Tax\n* **Rate**: Flat rate of 5% (5.0%) on taxable net income.\n* **Minimum Tax**: Kentucky does not impose a separate minimum corporate income tax; however, all corporations subject to tax in Kentucky must pay the Limited Liability Entity Tax (LLET), which carries a statutory minimum of $175.\n* **Applicability**: Applies to both tax years 2025 and 2026 (no rate change).\n* **Official Source**:\n  * Kentucky Department of Revenue – Corporation Income and Limited Liability Entity Tax: https://revenue.ky.gov/Business/Corporation-Income-and-Limited-Liability-Entity-Tax/Pages/default.aspx\n\n---\n\n### 3. State Sales and Use Tax Rate & Local Rates\n* **State Rate**: 6% (six percent) statewide rate on gross receipts or purchase price.\n* **Local Rates**: None. Local jurisdictions do not impose sales and use taxes (\"There are no local sales and use taxes in Kentucky\" / \"no local option sales tax in Kentucky\").\n* **Applicability**: Applies to both tax years 2025 and 2026.\n* **Official Source**:\n  * Kentucky Department of Revenue – Sales & Use Tax: https://revenue.ky.gov/Business/Sales-Use-Tax/Pages/default.aspx\n\n---\n\n### 4. Gross Receipts, Franchise, or Other Notable Business Taxes\n* **Limited Liability Entity Tax (LLET)** (KRS 141.0401):\n  * **Tax Base and Rates**: Imposed on all C corporations and limited liability pass-through entities doing business in Kentucky. Taxpayers compute liability using both methods and pay the lesser of:\n    * 0.095% ($0.00095 per $1) of Kentucky gross receipts, or\n    * 0.75% ($0.0075 per $1) of Kentucky gross profits.\n  * **Small Business Relief / Minimum Tax**:\n    * Minimum tax is $175.\n    * If total gross receipts or gross profits from all sources are $3,000,000 or less, the entity pays only the $175 minimum.\n    * A sliding-scale phase-in applies if total gross receipts or gross profits are between $3,000,000 and $6,000,000.\n  * **Income Tax Credit**: C corporations receive a nonrefundable credit against their Kentucky corporate income tax liability for LLET paid in excess of the $175 minimum.\n  * **Applicability**: Applies to both tax years 2025 and 2026.\n* **Official Source**:\n  * Kentucky Department of Revenue – Corporation Income and Limited Liability Entity Tax: https://revenue.ky.gov/Business/Corporation-Income-and-Limited-Liability-Entity-Tax/Pages/default.aspx",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025
+    ],
+    "value": "Kentucky imposes a flat individual income tax rate of 4%.",
+    "source_url": "https://revenue.ky.gov/Individual/Individual-Income-Tax/Pages/default.aspx",
+    "evidence": [
+     "individual income tax",
+     "flat rate",
+     "4%"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://revenue.ky.gov/Forms/740-NP%20Packet%20Instructions%20(2025).pdf",
+    "matched_title": "740-NP Packet Instructions",
+    "matched_phrases": [
+     "individual income tax",
+     "4%"
+    ],
+    "snippet": "INDIVIDUAL INCOME TAX RATE— For 2025, the tax rate for individual income tax is 4%."
+   },
+   {
+    "key": "individual",
+    "years": [
+     2026
+    ],
+    "value": "The individual income tax rate decreases to a flat rate of 3.5% for taxable years beginning on or after January 1, 2026.",
+    "source_url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=54413",
+    "evidence": [
+     "January 1, 2026",
+     "3.5%",
+     "KRS 141.020"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://revenue.ky.gov/Forms/INSTR-41APTE(I)%20(2025).pdf",
+    "matched_title": "https://revenue.ky.gov/Forms/INSTR-41APTE(I)%20(2025).pdf",
+    "matched_phrases": [
+     "January 1, 2026",
+     "3.5%",
+     "KRS 141.020"
+    ],
+    "snippet": "KENTUCKY TAX LAW CHANGES Enacted by the 2025 Regular Session of the Kentucky General Assembly Reduction of Individual Income Tax Rate - House Bill (HB) 1 established the individual income tax rate at 3.5% for taxable years beginning on or after January 1, 2026."
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Kentucky imposes a flat corporate income tax rate of 5% on taxable net income. There is no separate minimum corporate income tax, but entities are subject to the Limited Liability Entity Tax which carries a statutory minimum of $175.",
+    "source_url": "https://revenue.ky.gov/Business/Corporation-Income-and-Limited-Liability-Entity-Tax/Pages/default.aspx",
+    "evidence": [
+     "taxable net income",
+     "rate of 5%",
+     "minimum of $175"
+    ],
+    "accepted": false,
+    "reason": "evidence not on revenue.ky.gov (1/3); figures not on revenue.ky.gov: ['175']; evidence not on revenue.ky.gov (0/3); figures not on apps.legislature.ky.gov: ['175']; evidence not on apps.legislature.ky.gov (0/3)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Kentucky imposes a 6% statewide sales and use tax rate. Local jurisdictions do not impose local sales and use taxes.",
+    "source_url": "https://revenue.ky.gov/Business/Sales-Use-Tax/Pages/default.aspx",
+    "evidence": [
+     "sales and use tax",
+     "rate of 6%",
+     "no local sales and use taxes"
+    ],
+    "accepted": false,
+    "reason": "figure not stated beside the evidence on revenue.ky.gov; evidence not on revenue.ky.gov (0/3); evidence not on revenue.ky.gov (1/3); evidence not on apps.legislature.ky.gov (0/3)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The Limited Liability Entity Tax (LLET) is imposed at the lesser of 0.095% of Kentucky gross receipts or 0.75% of Kentucky gross profits. The minimum tax is $175, with relief provided if total gross receipts or profits are $3,000,000 or less.",
+    "source_url": "https://revenue.ky.gov/Business/Corporation-Income-and-Limited-Liability-Entity-Tax/Pages/default.aspx",
+    "evidence": [
+     "Limited Liability Entity Tax",
+     "Kentucky gross receipts",
+     "Kentucky gross profits",
+     "minimum tax is $175"
+    ],
+    "accepted": false,
+    "reason": "figures not on revenue.ky.gov: ['3000000']; figures not on revenue.ky.gov: ['0.095', '0.75', '175', '3000000']; figures not on revenue.ky.gov: ['0.095', '0.75']; figures not on apps.legislature.ky.gov: ['0.095', '0.75', '175', '3000000']; figures not on revenue.ky.gov: ['0.095', '0.75', '3000000']; figure not stated beside the evidence on apps.legislature.ky.gov",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://revenue.ky.gov/Individual/Individual-Income-Tax/Pages/default.aspx",
+   "https://revenue.ky.gov/Forms/740-NP%20Packet%20Instructions%20(2025).pdf",
+   "https://revenue.ky.gov/Forms/INSTR-41APTE(I)%20(2025).pdf",
+   "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=56339",
+   "https://revenue.ky.gov/Business/Corporation-Income-and-Limited-Liability-Entity-Tax/Pages/default.aspx",
+   "https://revenue.ky.gov/News/PublishingImages/Pages/DOR-Outreach-and-Education/2018%20KY%20Income%20Tax%20Changes-13NOV18.pdf",
+   "https://revenue.ky.gov/DOR%20Training%20Materials/KYTaxAlertNov07.pdf",
+   "https://revenue.ky.gov/Business/Corporation-Income-and-Limited-Liability-Entity-Tax/Pages/default.aspx",
+   "https://revenue.ky.gov/Business/Sales-Use-Tax/pages/default.aspx",
+   "https://revenue.ky.gov/documents/faqsalesandusetax61515.pdf",
+   "https://revenue.ky.gov/Forms/Schedule%20L-ECON%20(10-25).pdf",
+   "https://apps.legislature.ky.gov/law/Statutes/statute.aspx?id=57941"
+  ],
+  "error": ""
+ },
+ {
+  "state": "KY",
+  "section": "filing",
+  "notes": "### 1. Individual Return Due Dates and Extensions\n\n* **Calendar-Year Due Date:** April 15 following the close of the taxable year (or the next business day if April 15 falls on a weekend or state holiday). Applies to both tax years 2025 and 2026.  \n  * *Official Source:* [KRS 141.160](https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=44445); [103 KAR 15:050](https://apps.legislature.ky.gov/law/kar/titles/103/015/050/); [Kentucky DOR Tax Calendar](https://revenue.ky.gov/News/Pages/April-2026.aspx).\n* **Extension Rules:** A six-month extension of time to file (to October 15) is available.\n  * If a federal extension (federal Form 4868) is granted, Kentucky grants the same extension automatically—no separate Kentucky extension form is required, provided federal Form 4868 is attached to the Kentucky return when filed, unless tax is due.\n  * If tax is due with the extension or no federal extension is filed, taxpayers must submit Kentucky Form 740EXT (Application for Extension of Time to File Individual, General Partnership, and Fiduciary Income Tax Returns) with payment on or before April 15.\n  * An extension of time to file does not grant an extension of time to pay; full payment must accompany the request/voucher by the original due date to avoid interest and late payment penalties. Applies to tax years 2025 and 2026.  \n  * *Official Source:* [Form 740EXT Instructions](https://revenue.ky.gov/Forms/40A1020003_2024.pdf); [103 KAR 15:050](https://apps.legislature.ky.gov/law/kar/titles/103/015/050/).\n\n---\n\n### 2. Corporate and Pass-Through Due Dates and Extensions\n\n* **Original Due Dates:**\n  * **Corporations (Form 720 / Form 720U):** The 15th day of the fourth month following the close of the taxable year (April 15 for calendar-year filers).\n  * **Pass-Through Entities (Form PTE, Form 725, Form 740-PTET):** The 15th day of the fourth month following the close of the taxable year (April 15 for calendar-year filers).\n  * Applies to tax years 2025 and 2026.\n  * *Official Source:* [KRS 141.160](https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=44445); [KRS 141.206(1)](https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=53973); [File a Corporation Income Tax Extension](https://revenue.ky.gov/Business/Corporation-Income-and-Limited-Liability-Entity-Tax/Pages/File-a-Corporation-Income-Tax-Extension.aspx).\n* **Extension Rules:**\n  * **C Corporations:** Granted a **seven-month extension** (to November 15 for calendar-year filers).\n  * **Pass-Through Entities:** Granted a **six-month extension** (to October 15 for calendar-year filers).\n  * **Filing the Extension:** An entity granted a federal extension (Form 7004) receives the same extension period for Kentucky, provided a copy of federal Form 7004 is attached to the return when filed. If making a payment with the extension, Kentucky Form 720EXT must be used. Alternatively, the extension can be requested before the original due date by filing Kentucky Form 720EXT, or Form 740-PTET-EXT (for PTET filers).\n  * An extension of time to file is not an extension of time to pay. Applies to tax years 2025 and 2026.\n  * *Official Source:* [File a Corporation Income Tax Extension](https://revenue.ky.gov/Business/Corporation-Income-and-Limited-Liability-Entity-Tax/Pages/File-a-Corporation-Income-Tax-Extension.aspx); [103 KAR 15:050](https://apps.legislature.ky.gov/law/kar/titles/103/015/050/).\n\n---\n\n### 3. Elective Pass-Through Entity Tax (PTET)\n\n* **Existence:** Yes. Enacted under KRS 141.209.\n* **Tax Rate:**\n  * Imposed under KRS 141.020 on the entity’s Kentucky distributive share income.\n  * **Tax Year 2025:** **4.0%**.\n  * **Tax Year 2026:** **3.5%** (rate reduced pursuant to HB 1 / KRS 141.020).\n* **How and When to Elect:**\n  * **How:** An authorized person makes the annual election on behalf of the entity either by filing Form 740-PTET-ELECT or by checking the entity-level tax election box on Form 740-PTET.\n  * **When:** May be made at any time during the taxable year or after the end of the taxable year, but no later than:\n    1. The 15th day of the fourth month after the close of the taxable year (April 15 for calendar filers), or\n    2. The 15th day of the tenth month after the close of the taxable year (October 15 for calendar filers) if a valid extension is filed.\n  * **Binding Nature & Credit:** Once made, the election is irrevocable for the tax year and binding on all owners. Owners claim a refundable pass-through entity tax credit on their individual returns via Form PTET-CR. Applies to tax years 2025 and 2026.\n  * *Official Source:* [KRS 141.209](https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=53974); [Form 740-PTET Instructions](https://revenue.ky.gov/Forms/42A740-PTET%28I%29%2810-24%29.pdf); [2025 Form PTE Instructions](https://revenue.ky.gov/Forms/41A720-PTE%28I%29%2810-25%29.pdf).\n\n---\n\n### 4. Composite or Group Nonresident Returns for Pass-Through Entities\n\n* **Status:** **Not permitted.**\n  * Effective for tax years beginning on or after January 1, 2022, composite return language was stricken from KRS 141.206. Pass-through entities can no longer file a composite return.\n  * Instead, pass-through entities must either comply with nonresident withholding requirements using Form 740NP-WH or elect to pay the PTET under KRS 141.209. Filing Form 740NP-WH on behalf of a nonresident individual satisfies their Kentucky nonresident filing obligation if their only Kentucky-source income comes from the PTE. Applies to tax years 2025 and 2026.\n  * *Official Source:* [Corporation, LLC, and Pass-Through Tax FAQs](https://revenue.ky.gov/Business/Corporation-Income-and-Limited-Liability-Entity-Tax/Pages/Corporation-LLC-and-Pass-Through-Tax-Frequently-Asked-Questions.aspx); [KRS 141.206](https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=53973).\n\n---\n\n### 5. Estimated Tax Payments and Pass-Through Nonresident Withholding\n\n* **Pass-Through Nonresident Withholding:**\n  * **Requirement:** Every pass-through entity doing business in Kentucky (except publicly traded partnerships) must withhold Kentucky income tax on the Kentucky distributive share income (distributed or undistributed) of each nonresident individual partner, member, or shareholder (KRS 141.206(4)).\n  * **Rate:** Imposed at the maximum rate under KRS 141.020: **4.0% for 2025**; **3.5% for 2026**.\n  * **Exemptions:** Withholding is not required if the nonresident owner filed an appropriate Kentucky tax return for the prior year, or if distributive share income is not subject to Kentucky income tax. Nonresident C corporations are not subject to pass-through withholding (effective 2022).\n  * **Annual Report Form:** Form 740NP-WH (with Form PTE-WH Copy A attached for each owner), due on or before the 15th day of the fourth month after the close of the tax year.\n  * *Official Source:* [Nonresident Withholding Tax](https://revenue.ky.gov/Business/Pages/Nonresident-Withholding-Tax.aspx); [KRS 141.206(4)](https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=53973).\n* **PTE Nonresident Withholding Estimated Tax Payments:**\n  * **Threshold:** Estimated payments are required if a nonresident individual owner’s estimated tax liability can reasonably be expected to exceed **$500**.\n  * **Installments & Due Dates:** Form 740NP-WH-ES; four equal installments of 25% due on the 15th day of the 4th, 6th, and 9th months of the taxable year and the 1st month following the close of the taxable year (for calendar-year filers: **April 15, June 15, September 15, January 15**).\n  * *Official Source:* [Form 740NP-WH-ES Instructions](https://revenue.ky.gov/Forms/40A201-ES%2810-24%29.pdf); [Corporation, LLC, and Pass-Through Tax FAQs](https://revenue.ky.gov/Business/Corporation-Income-and-Limited-Liability-Entity-Tax/Pages/Corporation-LLC-and-Pass-Through-Tax-Frequently-Asked-Questions.aspx).\n* **PTET Estimated Tax Payments:**\n  * Electing PTET entities remit estimated payments on **Form 740-PTET-ES** in four equal installments due on **April 15, June 15, September 15, and January 15** for calendar-year filers.\n  * *Official Source:* [Form 740-PTET Instructions](https://revenue.ky.gov/Forms/42A740-PTET%28I%29%2810-24%29.pdf); [Form 740-PTET-ES](https://revenue.ky.gov/Forms/42A740-PTET-ES%2810-24%29.pdf).\n* **Individual Estimated Tax:**\n  * Required if gross income from non-withheld sources exceeds $5,000 and Kentucky tax liability exceeds **$500**. Safe harbor: 90% of current year tax or 100% of prior year tax.\n  * Due dates (Form 740-ES): **April 15, June 15, September 15, and January 15**.\n  * *Official Source:* [Form 740-NP Instructions](https://revenue.ky.gov/Forms/42A740-NP%28P%29%2810-25%29.pdf).\n* **Corporate Estimated Tax:**\n  * Required if combined income tax and Limited Liability Entity Tax (LLET) liability is reasonably expected to exceed **$5,000**.\n  * Due dates (Form 720ES): Four equal installments of 25% due on **April 15, June 15, September 15, and December 15** for calendar-year filers.\n  * *Official Source:* [Corporation Income and Limited Liability Entity Tax](https://revenue.ky.gov/Business/Corporation-Income-and-Limited-Liability-Entity-Tax/Pages/default.aspx); [Form 720 Instructions](https://revenue.ky.gov/Forms/41A720%28I%29%2810-23%29.pdf).\n\n---\n\n### 6. Main Return Forms\n\n* **Individual Return Forms:**\n  * **Form 740:** Kentucky Individual Income Tax Return (Full-Year Residents).\n  * **Form 740-NP:** Kentucky Individual Income Tax Return (Nonresidents and Part-Year Residents).\n  * **Form 740-NP-R:** Kentucky Individual Income Tax Return (Nonresident Reciprocal States).\n* **Corporate Return Forms:**\n  * **Form 720:** Kentucky Corporation Income Tax and LLET Return.\n  * **Form 720U:** Kentucky Unitary Combined Corporation Income Tax and LLET Return.\n* **Pass-Through Return Forms:**\n  * **Form PTE:** Kentucky Pass-Through Entity Income and LLET Return (partnerships, S corporations, LLCs).\n  * **Form 725:** Kentucky Single Member LLC Individually Owned Income and LLET Return.\n  * **Form 740-PTET:** Kentucky Pass-Through Entity Tax Return (electing entities).\n  * **Form 740NP-WH:** Kentucky Nonresident Income Tax Withholding on Distributive Share Income Report.\n* Applies to tax years 2025 and 2026.  \n* *Official Source:* [Handbook for Electronic Filers of Income Tax Returns](https://revenue.ky.gov/Forms/Handbook%20100%20Tax%20Year%202023.pdf); [Kentucky Income Tax Forms Requisition (Form 40A727)](https://revenue.ky.gov/Forms/40A727%2810-21%29.pdf); [Pass-Through Entities](https://revenue.ky.gov/Business/Pages/Pass-Through-Entities.aspx).",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Calendar-year individual returns are due on April 15, with an automatic six-month extension to October 15 granted if federal Form 4868 is attached. If tax is due or no federal extension is filed, taxpayers must file Kentucky Form 740EXT with payment by April 15.",
+    "source_url": "https://revenue.ky.gov/Forms/40A1020003_2024.pdf",
+    "evidence": [
+     "Form 740EXT",
+     "extension of time to file",
+     "six-month extension",
+     "Form 4868"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://revenue.ky.gov/Forms/40A1020003_2024.pdf; figures not on revenue.ky.gov: ['4868', '740']; figures not on apps.legislature.ky.gov: ['4868', '740']; figures not on apps.legislature.ky.gov: ['4868']; dates not on revenue.ky.gov: ['October 15']; figures not on revenue.ky.gov: ['4868']; figures not on apps.legislature.ky.gov: ['15', '4868', '740']; figures not on revenue.ky.gov: ['15', '4868']; figures not on revenue.ky.gov: ['15', '4868', '740']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Corporate and pass-through returns are due April 15 for calendar-year filers. Kentucky grants a seven-month extension for C corporations and a six-month extension for pass-through entities via federal Form 7004 or Kentucky Form 720EXT.",
+    "source_url": "https://revenue.ky.gov/Business/Corporation-Income-and-Limited-Liability-Entity-Tax/Pages/File-a-Corporation-Income-Tax-Extension.aspx",
+    "evidence": [
+     "seven-month extension",
+     "six-month extension",
+     "Form 720EXT",
+     "Form 7004"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://revenue.ky.gov/Forms/19_41A720(I)_FINAL_rev%202-10-2020.pdf",
+    "matched_title": "https://revenue.ky.gov/Forms/19_41A720(I)_FINAL_rev%202-10-2020.pdf",
+    "matched_phrases": [
+     "seven-month extension",
+     "Form 720EXT",
+     "Form 7004"
+    ],
+    "snippet": "KRS 446.030(1)(a) Extensions—A seven-month extension of time to file a Kentucky Corporation Income Tax and LLET Return may be obtained by filing Form 720EXT or attaching a copy of the federal extension to the return when filed."
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2025
+    ],
+    "value": "Kentucky imposes an elective pass-through entity tax under KRS 141.209 at a 4.0% rate for tax year 2025. The annual election is made on Form 740-PTET-ELECT or Form 740-PTET by the due date of the return including extensions.",
+    "source_url": "https://revenue.ky.gov/Forms/42A740-PTET%28I%29%2810-24%29.pdf",
+    "evidence": [
+     "Form 740-PTET",
+     "distributive share income",
+     "Form 740-PTET-ELECT",
+     "annual election"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://revenue.ky.gov/Forms/PKG%20INSTR%20PTET%202024.pdf",
+    "matched_title": "https://revenue.ky.gov/Forms/PKG%20INSTR%20PTET%202024.pdf",
+    "matched_phrases": [
+     "Form 740-PTET",
+     "distributive share income",
+     "Form 740-PTET-ELECT",
+     "annual election"
+    ],
+    "snippet": "Page 1 of 4 Instructions for Kentucky Pass-through Entity Tax 42A740-PTET(I) (10-24) COMMONWEALTH OF KENTUCKY DEPARTMENT OF REVENUE FRANKFORT 2024 t Form 740-PTET t Form 740-PTET-ELECT t Form PTET-CR t Form KPTET-V t Form PTET-ES t Form 740-PTET-EXT Page 2 of 4INSTRUCTIONS Item A— Enter the pass-through entity’s Federal Employer Identification Number."
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2026
+    ],
+    "value": "Kentucky imposes an elective pass-through entity tax under KRS 141.209 at a 3.5% rate for tax year 2026. The annual election is made on Form 740-PTET-ELECT or Form 740-PTET by the due date of the return including extensions.",
+    "source_url": "https://revenue.ky.gov/Forms/42A740-PTET%28I%29%2810-24%29.pdf",
+    "evidence": [
+     "Form 740-PTET",
+     "distributive share income",
+     "Form 740-PTET-ELECT",
+     "annual election"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://revenue.ky.gov/Forms/42A740-PTET%28I%29%2810-24%29.pdf; figures not on revenue.ky.gov: ['141.209', '2026', '3.5', '740']; figures not on revenue.ky.gov: ['141.209', '3.5', '740']; figures not on apps.legislature.ky.gov: ['141.209', '2026', '3.5', '740']; figures not on apps.legislature.ky.gov: ['141.209', '3.5']; figures not on revenue.ky.gov: ['141.209', '2026', '3.5']; figures not on apps.legislature.ky.gov: ['3.5', '740']; figures not on revenue.ky.gov: ['2026', '3.5']; fi",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "composite",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Pass-through entities are not permitted to file composite returns in Kentucky. Entities must instead comply with nonresident withholding requirements using Form 740NP-WH or elect to pay the elective pass-through entity tax.",
+    "source_url": "https://revenue.ky.gov/Business/Corporation-Income-and-Limited-Liability-Entity-Tax/Pages/Corporation-LLC-and-Pass-Through-Tax-Frequently-Asked-Questions.aspx",
+    "evidence": [
+     "composite return",
+     "Form 740NP-WH",
+     "pass-through entities",
+     "nonresident individual"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://revenue.ky.gov/Business/Nonresident-Withholding-Tax/Pages/default.aspx",
+    "matched_title": "Nonresident Withholding Tax - \r\n        \r\n    Department of Revenue",
+    "matched_phrases": [
+     "Form 740NP-WH",
+     "pass-through entities",
+     "nonresident individual"
+    ],
+    "snippet": "A Nonresident withholding and Composite Income Tax Return is filed on form 740NP-WH (with copy A of PTE-WH completed for each partner, member, or shareholder) by the 15th day of the fourth month following the close of the tax year.  The withholding rate is at the maximum rate provided in KRS 141.020​."
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025
+    ],
+    "value": "Pass-through entities must withhold tax on nonresident individual owners at a 4.0% rate for 2025, remitting quarterly estimates on Form 740NP-WH-ES if expected liability exceeds $500. Individual estimated payments are required via Form 740-ES if liability exceeds $500, and corporations file Form 720ES if liability exceeds $5,000.",
+    "source_url": "https://revenue.ky.gov/Business/Pages/Nonresident-Withholding-Tax.aspx",
+    "evidence": [
+     "distributive share income",
+     "Form 740NP-WH",
+     "Form PTE-WH",
+     "nonresident individual"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://revenue.ky.gov/Forms/INSTR-41APTE(I)%20(2025).pdf",
+    "matched_title": "https://revenue.ky.gov/Forms/INSTR-41APTE(I)%20(2025).pdf",
+    "matched_phrases": [
+     "distributive share income",
+     "Form 740NP-WH",
+     "Form PTE-WH",
+     "nonresident individual"
+    ],
+    "snippet": "The reporting of a nonresident individual’s net distributive share income and withholding on Form 740NP–WH at the rate of 4.0% (.04) will satisfy the filing requirements of KRS 141.180 for a nonresident individual partner, member, or shareholder whose only Kentucky source income is net distributive share income."
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2026
+    ],
+    "value": "Pass-through entities must withhold tax on nonresident individual owners at a 3.5% rate for 2026, remitting quarterly estimates on Form 740NP-WH-ES if expected liability exceeds $500. Individual estimated payments are required via Form 740-ES if liability exceeds $500, and corporations file Form 720ES if liability exceeds $5,000.",
+    "source_url": "https://revenue.ky.gov/Business/Pages/Nonresident-Withholding-Tax.aspx",
+    "evidence": [
+     "distributive share income",
+     "Form 740NP-WH",
+     "Form PTE-WH",
+     "nonresident individual"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://revenue.ky.gov/Forms/INSTR-41APTE(I)%20(2025).pdf",
+    "matched_title": "https://revenue.ky.gov/Forms/INSTR-41APTE(I)%20(2025).pdf",
+    "matched_phrases": [
+     "distributive share income",
+     "Form 740NP-WH",
+     "Form PTE-WH",
+     "nonresident individual"
+    ],
+    "snippet": "The reporting of a nonresident individual’s net distributive share income and withholding on Form 740NP–WH at the rate of 4.0% (.04) will satisfy the filing requirements of KRS 141.180 for a nonresident individual partner, member, or shareholder whose only Kentucky source income is net distributive share income."
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Individual returns are filed on Form 740 and Form 740-NP, while corporations file Form 720 or Form 720U. Pass-through entities file Form PTE, Form 725, Form 740-PTET, and Form 740NP-WH.",
+    "source_url": "https://revenue.ky.gov/Business/Pages/Pass-Through-Entities.aspx",
+    "evidence": [
+     "Form PTE",
+     "Form 725",
+     "pass-through entity",
+     "Form 740-PTET"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://revenue.ky.gov/Business/Corporation-Income-and-Limited-Liability-Entity-Tax/pages/corporation-llc-pass-through-tax-faqs.aspx",
+    "matched_title": "Corporation, LLC, and Pass-Through Tax Frequently Asked Questions - \r\n        \r\n    Department of Revenue",
+    "matched_phrases": [
+     "Form PTE",
+     "pass-through entity"
+    ],
+    "snippet": "If a Kentucky Form PTE, Kentucky Pass-Through Entity Income and LLET Return, is passing a loss to its partners, is a Kentucky Form 740NP-WH necessary to be filed? ​The Kentucky Form 740NP-WH would not have to be filed."
+   }
+  ],
+  "grounding_urls": [
+   "https://revenue.ky.gov/News/Pages/Kentucky-Individual-Income-Tax-Filing-Deadline-is-April-18.aspx",
+   "https://revenue.ky.gov/News/Pages/April.aspx",
+   "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=29084",
+   "https://apps.legislature.ky.gov/law/kar/titles/103/015/050/",
+   "https://revenue.ky.gov/Forms/740EXT.pdf",
+   "https://revenue.ky.gov/Forms/740-EXT%20(2025).pdf",
+   "https://revenue.ky.gov/News/Pages/Kentucky-Income-Tax-Return-Filing-Deadline-Extended-to-May-17.aspx",
+   "https://revenue.ky.gov/Business/Nonresident-Withholding-Tax/Pages/default.aspx",
+   "https://revenue.ky.gov/Business/Corporation-Income-and-Limited-Liability-Entity-Tax/Pages/File-a-Corporation-Income-Tax-Extension.aspx",
+   "https://revenue.ky.gov/Forms/19_41A720(I)_FINAL_rev%202-10-2020.pdf",
+   "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=57942",
+   "https://revenue.ky.gov/Business/Corporation-Income-and-Limited-Liability-Entity-Tax/pages/corporation-llc-pass-through-tax-faqs.aspx",
+   "https://revenue.ky.gov/Forms/Form%20PTET%20Instructions.pdf",
+   "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=53597",
+   "https://revenue.ky.gov/Forms/PKG%20INSTR%20PTET%202024.pdf",
+   "https://revenue.ky.gov/Forms/740-NP%20Packet%20Instructions%20(2025).pdf",
+   "https://revenue.ky.gov/Forms/INSTR-41APTE(I)%20(2025).pdf",
+   "https://revenue.ky.gov/Forms/Form%20PTET%20Instructions.pdf",
+   "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=57934",
+   "https://revenue.ky.gov/Business/Corporation-Income-and-Limited-Liability-Entity-Tax/pages/corporation-llc-pass-through-tax-faqs.aspx",
+   "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=57942",
+   "https://revenue.ky.gov/Forms/Instructions%20NRWH%202018.pdf",
+   "https://revenue.ky.gov/Forms/NRWH%20Instructions%20(2017).pdf",
+   "https://revenue.ky.gov/Business/Nonresident-Withholding-Tax/Pages/default.aspx",
+   "https://revenue.ky.gov/Forms/740NP-WH-ES.pdf",
+   "https://revenue.ky.gov/Software-Developer/Corporation%20Income%20Tax%20Forms/16_40A201ES_740NP-WH-ES%20(0001).pdf",
+   "https://revenue.ky.gov/Business/Corporation-Income-and-Limited-Liability-Entity-Tax/pages/corporation-llc-pass-through-tax-faqs.aspx",
+   "https://revenue.ky.gov/Forms/Form%20740-PTET-ES.pdf",
+   "https://revenue.ky.gov/Forms/740%20Packet%20Instructions%202023.pdf",
+   "https://revenue.ky.gov/News/Pages/January.aspx",
+   "https://revenue.ky.gov/Business/Corporation-Income-and-Limited-Liability-Entity-Tax/Pages/default.aspx",
+   "https://revenue.ky.gov/Forms/PKG%20720U%20-%20TY2019_FINAL_rev%202-10-2020.pdf",
+   "https://revenue.ky.gov/Documents/TY2024%20E-File%20HandBook%20Publication%201345_v1.0.pdf",
+   "https://revenue.ky.gov/Forms/Form%20725%20Instructions.pdf",
+   "https://revenue.ky.gov/Forms/40A727-2021.pdf",
+   "https://revenue.ky.gov/Business/Pass-Through-Entities/Pages/default.aspx"
+  ],
+  "error": ""
+ }
+]

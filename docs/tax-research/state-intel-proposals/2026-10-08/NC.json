@@ -1,0 +1,567 @@
+[
+ {
+  "state": "NC",
+  "section": "apportionment",
+  "notes": "### 1. Apportionment Formula\n* **Fact:** North Carolina uses a **single sales factor** (100% receipts/sales factor) to apportion multistate business income. Apportionable income of a corporation is apportioned by multiplying income by the sales factor determined under subsection (l).\n* **Applicable Tax Years:** 2025 and 2026 (no changes between them).\n* **Official URL:** https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-130.4.html (N.C. Gen. Stat. § 105-130.4(i))\n\n---\n\n### 2. Sourcing of Receipts from Services and Intangibles\n* **Fact:** \n  * **Market-based sourcing** applies to both services and intangibles.\n  * *Services:* Receipts from services are sourced to North Carolina if the taxpayer’s market for the receipts is in North Carolina.\n  * *Intangibles:* Receipts from the rental, lease, licensing, or sale of intangible property are sourced to North Carolina if and to the extent the intangible property is used in the state.\n  * *Exception/Alternative:* Under N.C. Gen. Stat. § 105-130.4(t3), taxpayers with an existing State net loss balance as of the end of the 2019 tax year that made a binding election on their 2020 return may continue to apportion receipts from services based on the percentage of **income-producing activities** performed in North Carolina (cost of performance) until that pre-2020 loss balance is fully utilized or expired.\n* **Applicable Tax Years:** 2025 and 2026 (no changes between them).\n* **Official URLs:** \n  * https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-130.4.html (N.C. Gen. Stat. § 105-130.4(l), (t3))\n  * https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/market-based-sourcing\n\n---\n\n### 3. Industries with Special Apportionment Formulas\nNorth Carolina prescribes specific statutory apportionment formulas or industry-specific sourcing rules for the following industries:\n\n* **Railroad Companies:** Apportioned using a single railway operating revenue factor: railway operating revenue from business done within North Carolina divided by total railway operating revenue everywhere (N.C. Gen. Stat. § 105-130.4(m)).\n* **Motor Carriers (Property or Passengers):** Apportioned using a vehicle mileage fraction: vehicle miles in North Carolina divided by total vehicle miles everywhere (N.C. Gen. Stat. § 105-130.4(o)).\n* **Air and Water Transportation Corporations:** Apportioned using a revenue ton mile fraction: revenue ton miles in North Carolina divided by revenue ton miles everywhere (N.C. Gen. Stat. § 105-130.4(s)). A qualified air freight forwarder uses the factor of its affiliated air carrier.\n* **Pipeline Companies (Petroleum-based liquids or natural gas subject to FERC regulation):** Apportioned using a traffic unit fraction: traffic units in North Carolina divided by total traffic units everywhere (N.C. Gen. Stat. § 105-130.4(s2)).\n* **Wholesale Content Distributors:** Apportioned using industry-specific market-based customer/billing sourcing rules; income apportioned to North Carolina cannot be less than 2% of total domestic gross receipts from advertising and licensing activities (N.C. Gen. Stat. §§ 105-130.4(l1), 105-130.4A).\n* **Banks:** Apportioned using industry-specific market-based sourcing rules for interest, service fees, and financial receipts (N.C. Gen. Stat. §§ 105-130.4(l2), 105-130.4B).\n* **Applicable Tax Years:** 2025 and 2026 (no changes between them).\n* **Official URLs:** \n  * https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-130.4.html\n  * https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-130.4A.html\n  * https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-130.4B.html\n\n---\n\n### 4. Form / Schedule Used to Compute Apportionment\n* **Fact:** \n  * **Schedule O** (*Computation of Apportionment Factor*) of **Form CD-405** (C-Corporation Tax Return) or **Form CD-401S** (S-Corporation Tax Return).\n  * *(For partnerships: Form D-403, Part 2)*.\n* **Applicable Tax Years:** 2025 and 2026 (no changes between them).\n* **Official URL:** https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-tax-forms-and-instructions",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "North Carolina uses a single sales factor to apportion multistate business income. Income of a corporation is apportioned by multiplying income by the sales factor.",
+    "source_url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-130.4.html",
+    "evidence": [
+     "single sales factor",
+     "sales factor determined under subsection",
+     "multiplying income by the sales factor"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-130.4.html; evidence not on www.ncdor.gov (1/3); evidence not on www.ncdor.gov (0/3); unreadable: https://www.ncleg.gov/enactedlegislation/statutes/html/bysection/chapter_105/gs_105-130.4.html; unreadable: https://www.ncleg.gov/EnactedLegislation/Statutes/PDF/BySection/Chapter_105/GS_105-130.4.pdf; unreadable: https://www.ncleg.gov/Sessions/2019/Bills/Senate/PDF/S557v2.pdf; unreadable: https://www3.nc",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "North Carolina uses market-based sourcing for receipts from both services and intangibles. Taxpayers with an existing State net loss balance as of the end of the 2019 tax year who made a binding election may continue to apportion service receipts based on income-producing activities.",
+    "source_url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-130.4.html",
+    "evidence": [
+     "market for the receipts",
+     "intangible property is used",
+     "income-producing activities"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.ncdor.gov/documents/bulletins/2025-corporate-income-franchise-and-insurance-tax-bulletin/open",
+    "matched_title": "2025 Corporate Income, Franchise, and Insurance Tax Bulletin",
+    "matched_phrases": [
+     "market for the receipts",
+     "intangible property is used",
+     "income-producing activities"
+    ],
+    "snippet": "§ 105-130.4(t3)) Corporate taxpayers that have a “State net loss balance” as of the end of the 2019 tax year may elect to apportion receipts from services based on the percentage of its income-producing activities performed in this State on their 2020 tax return."
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Special apportionment formulas or rules apply to railroad companies, motor carriers, air and water transportation corporations, pipeline companies, wholesale content distributors, and banks.",
+    "source_url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-130.4.html",
+    "evidence": [
+     "railway operating revenue",
+     "vehicle miles",
+     "revenue ton miles",
+     "traffic units"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.ncdor.gov/documents/bulletins/2025-corporate-income-franchise-and-insurance-tax-bulletin/open",
+    "matched_title": "2025 Corporate Income, Franchise, and Insurance Tax Bulletin",
+    "matched_phrases": [
+     "railway operating revenue",
+     "vehicle miles",
+     "revenue ton miles",
+     "traffic units"
+    ],
+    "snippet": "Railroad Companies All apportionable income of a railroad company must be apportioned to North Carolina by multiplying the income by a fraction, the numerator of which is the railway operating revenue from business done within North Carolina and the denominator of which is the total railway operating revenue everywhere."
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Apportionment is computed on Schedule O of Form CD-405 for C-corporations or Form CD-401S for S-corporations. Partnerships report apportionment on Form D-403, Part 2.",
+    "source_url": "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-tax-forms-and-instructions",
+    "evidence": [
+     "Schedule O",
+     "Computation of Apportionment Factor",
+     "Form CD-405",
+     "Form CD-401S"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.ncdor.gov/documents/bulletins/2025-corporate-income-franchise-and-insurance-tax-bulletin/open",
+    "matched_title": "2025 Corporate Income, Franchise, and Insurance Tax Bulletin",
+    "matched_phrases": [
+     "Schedule O",
+     "Form CD-405",
+     "Form CD-401S"
+    ],
+    "snippet": "Forms to be used for Filing The franchise tax is filed on Form CD -405 for C corporations and Form CD -401S for S corporations."
+   }
+  ],
+  "grounding_urls": [
+   "https://www.ncdor.gov/documents/files/2016-cd-401s-s-corporation-tax-return-0/open",
+   "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/frequently-asked-questions-and-important-notices/important-notice-impact-market-based-sourcing-private-letter-rulings-issued-prior-january-1-2020",
+   "https://www.ncleg.gov/enactedlegislation/statutes/html/bysection/chapter_105/gs_105-130.4.html",
+   "https://www.ncdor.gov/documents/bulletins/2025-corporate-income-franchise-and-insurance-tax-bulletin/open",
+   "https://www.ncdor.gov/documents/bulletins/2025-corporate-income-franchise-and-insurance-tax-bulletin",
+   "https://www.ncdor.gov/documents/files/market-based-sourcing-rules/open",
+   "https://www.ncleg.gov/EnactedLegislation/Statutes/PDF/BySection/Chapter_105/GS_105-130.4.pdf",
+   "https://www.ncleg.gov/Sessions/2019/Bills/Senate/PDF/S557v2.pdf",
+   "https://www.ncleg.gov/enactedlegislation/statutes/html/bysection/chapter_105/gs_105-130.4.html",
+   "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/market-based-sourcing",
+   "https://www.ncleg.gov/enactedlegislation/statutes/html/bysection/chapter_105/gs_105-130.4.html",
+   "https://www3.ncleg.gov/Sessions/2017/Bills/Senate/PDF/S628v1.pdf",
+   "https://ncleg.gov/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_105/Article_4.html",
+   "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-130.4A.html",
+   "https://ncleg.gov/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_105/Article_4.html",
+   "https://www.ncleg.gov/EnactedLegislation/Statutes/PDF/BySection/Chapter_105/GS_105-130.4B.pdf",
+   "https://www.ncdor.gov/tax-forms/2024-cd-405-c-corporation-tax-return-instructions/open",
+   "https://www.ncdor.gov/documents/forms/2021-cd-401s-s-corporation-tax-return-instructions/open",
+   "https://www.ncdor.gov/documents/files/2016-d-403-partnership-income-tax-return-0/open",
+   "https://www.ncdor.gov/documents/files/2016-d-403a-instructions-partnership-income-tax-return/open",
+   "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-income-franchise-and-insurance-tax-bulletins"
+  ],
+  "error": ""
+ },
+ {
+  "state": "NC",
+  "section": "nexus",
+  "notes": "### 1. Corporate Income and Franchise Tax Nexus\n\n* **Nexus Standard (\"Doing Business\"):** \n  * North Carolina imposes corporate income tax on corporations \"doing business in this State\" (N.C. Gen. Stat. § 105-130.3) and franchise tax on corporations incorporated in NC, holding a certificate of authority, or \"doing business in this State\" (N.C. Gen. Stat. § 105-122).\n  * \"Doing business\" is defined by statute as \"[e]ach and every act, power, or privilege exercised or enjoyed in this State, as an incident to, or by virtue of the powers and privileges granted by the laws of this State\" (N.C. Gen. Stat. § 105-114(b)(3)).\n  * Administrative rule 17 NCAC 05C .0102 provides that \"doing business\" includes the operation of any enterprise or activity in North Carolina for economic gain, including:\n    * Maintaining an office or place of business.\n    * Maintaining an inventory of goods/merchandise.\n    * Selling or distributing merchandise via employees or agents.\n    * Rendering services to clients or customers in NC through employees or agents.\n    * Owending, renting, or operating business or income-producing property (realty, tangible personal property, trademarks, trade names, franchise rights, computer programs, copyrights, patented processes, and licenses).\n* **Bright-Line / Factor-Presence Economic Nexus Threshold:**\n  * **General corporate income/franchise tax:** **Not found.** North Carolina has not enacted a general bright-line factor-presence dollar threshold (e.g., standard MTC factor-presence dollar thresholds for sales, property, or payroll) for corporate income or franchise tax.\n  * **Mortgage lenders (specific rule):** Under Directive CD-99-1, an out-of-state mortgage lender without a physical place of business is doing business if it makes more than **$5,000,000** of loans secured by NC real property *and* uses employees, agents, or contractors to perform services/activities in the state.\n* **Applicability:** Applies to both tax years 2025 and 2026.\n* **Official Sources:**\n  * NCDOR FAQ on Nexus (\"Physical Presence\" vs. \"Economic Presence\"): https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/frequently-asked-questions-and-important-notices/frequently-asked-questions-about-nc-franchise-corporate-income-and-insurance-tax\n  * NCDOR 2025 Corporate Income, Franchise, and Insurance Tax Bulletin: https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-income-franchise-and-insurance-tax-bulletins\n  * NCDOR Directive CD-99-1: https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-taxes-directives-technical-advice-memoranda/directive-cd-99-1\n  * N.C. Gen. Stat. § 105-114: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-114.html\n\n---\n\n### 2. Remote Seller Economic Nexus Threshold (Sales and Use Tax)\n\n* **Sales Threshold:** Gross sales in excess of **$100,000** sourced to North Carolina, including remote sales and sales made as or facilitated through a marketplace seller/facilitator (N.C. Gen. Stat. § 105-164.8(b)(9)).\n* **Transaction Count:** **None.** Effective July 1, 2024, Session Law 2024-28 repealed the 200-transaction threshold. For tax years 2025 and 2026, there is no transaction threshold.\n* **Measurement Period:** The previous or current calendar year.\n* **Registration & Collection Timing:**\n  * *Tax Year 2025 through July 1, 2026:* Sellers must register and collect sales tax effective 60 days after meeting the threshold.\n  * *Effective July 2, 2026:* A remote retailer meeting the threshold as the sole basis of nexus becomes engaged in business on the first day of the first calendar month occurring at least 60 days after exceeding the threshold.\n* **Applicability:** Applies to tax years 2025 and 2026 (with the administrative compliance timing adjustment effective July 2, 2026).\n* **Official Sources:**\n  * NCDOR Remote Sales Guidance: https://www.ncdor.gov/taxes-forms/sales-and-use-tax/remote-sales\n  * NCDOR Directive SD-24-1 (Repeal of Transaction Threshold): https://www.ncdor.gov/taxes-forms/sales-and-use-tax/sales-and-use-tax-directives/sales-and-use-tax-directive-sd-24-1\n  * NCDOR Notice on Extended Compliance Period: https://www.ncdor.gov/taxes-forms/sales-and-use-tax/important-notices-issued-sales-and-use-tax-division/important-notice-extended-compliance-period-certain-remote-sellers\n  * N.C. Gen. Stat. § 105-164.8: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-164.8.html\n\n---\n\n### 3. North Carolina's Stated Position on P.L. 86-272 Protection\n\n* **Corporate Income Tax:** North Carolina recognizes Public Law 86-272 (15 U.S.C. § 381) as limiting its jurisdiction to impose corporate net income tax when a corporation's only activity within the state is the solicitation of orders for sales of tangible personal property, provided orders are sent outside North Carolina for approval and filled from an out-of-state location.\n* **Corporate Franchise Tax:** The Department explicitly maintains that **P.L. 86-272 does not apply to the North Carolina franchise tax**. Because the franchise tax is a privilege/excise tax rather than an income tax, a corporation protected from corporate income tax under P.L. 86-272 remains subject to the franchise tax and must file Form CD-405/CD-401S to pay franchise tax if it is doing business in North Carolina.\n* **MTC Revised Interpretation (Internet Activities):** **Not found.** The North Carolina Department of Revenue has not published administrative guidance, directives, or rules addressing or adopting the Multistate Tax Commission’s (MTC) revised interpretation regarding internet/website activities under P.L. 86-272.\n* **Applicability:** Applies to both tax years 2025 and 2026 without change.\n* **Official Sources:**\n  * NCDOR Directive CD-98-4 (Doing Business / P.L. 86-272 and Franchise Tax): https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-taxes-directives-technical-advice-memoranda/directive-cd-98-4\n  * NCDOR Form CD-405 Instructions (C-Corporation Tax Return): https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-tax-forms-and-instructions/cd-405-c-corporation-tax-return-instructions\n  * NCDOR 2025 Corporate Income, Franchise, and Insurance Tax Bulletin: https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-income-franchise-and-insurance-tax-bulletins",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Corporate income and franchise tax nexus is established by doing business in North Carolina, defined broadly as exercising any act, power, or privilege for economic gain. The state does not have a general factor-presence bright-line threshold, but out-of-state mortgage lenders establish nexus if they make more than $5,000,000 of loans secured by in-state real property while performing local activities.",
+    "source_url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-114.html",
+    "evidence": [
+     "doing business",
+     "act, power, or privilege",
+     "exercised or enjoyed in this State"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-114.html; figures not on www.ncdor.gov: ['5000000']; evidence not on www.ncdor.gov (1/3); unreadable: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-164.8.html",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Remote seller economic nexus is triggered by having gross sales sourced to North Carolina in excess of $100,000 during the previous or current calendar year. There is no transaction count threshold.",
+    "source_url": "https://www.ncdor.gov/taxes-forms/sales-and-use-tax/remote-sales",
+    "evidence": [
+     "gross sales",
+     "in excess of $100,000",
+     "previous or current calendar year",
+     "remote sales"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.ncdor.gov/taxes-forms/sales-and-use-tax/other-sales-and-use-tax-resources/remote-sales",
+    "matched_title": "Remote Sales | NCDOR",
+    "matched_phrases": [
+     "gross sales",
+     "previous or current calendar year",
+     "remote sales"
+    ],
+    "snippet": "This includes when the remote seller has gross sales in excess of one hundred thousand dollars ($100,000) sourced to North Carolina in the previous or current calendar year (“Threshold”), including sales as a marketplace seller and marketplace-facilitated sales."
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "North Carolina recognizes Public Law 86-272 protection against corporate income tax for businesses whose in-state activities are restricted to soliciting sales of tangible personal property. However, the Department takes the position that P.L. 86-272 does not apply to the corporate franchise tax, meaning protected corporations doing business in the state remain liable for franchise tax.",
+    "source_url": "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-taxes-directives-technical-advice-memoranda/directive-cd-98-4",
+    "evidence": [
+     "Public Law 86-272",
+     "franchise tax",
+     "tangible personal property",
+     "doing business in North Carolina"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-taxes-directives-technical-advice-memoranda/directive-cd-98-4",
+    "matched_title": "Directive CD-98-4 | NCDOR",
+    "matched_phrases": [
+     "Public Law 86-272",
+     "franchise tax"
+    ],
+    "snippet": "That subdivision defines doing business as \"[e]ach and every act, power, or privilege exercised or enjoyed in this state, as an incident to, or by virtue of the powers and privileges granted by the laws of this state.\" Public Law 86-272 does not apply to the franchise tax."
+   }
+  ],
+  "grounding_urls": [
+   "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-taxes-directives-technical-advice-memoranda/corporate-income-and-franchise-directive-cd-98-2",
+   "https://www.ncdor.gov/documents/written-determinations/corporate-tax-private-letter-ruling-cplr-2010-07/open",
+   "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-taxes-directives-technical-advice-memoranda/directive-cd-98-4",
+   "https://www.ncdor.gov/documents/files/2019-corporate-income-franchise-and-insurance-tax-bulletins/open",
+   "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/frequently-asked-questions-and-important-notices/frequently-asked-questions-about-nc-franchise-corporate-income-and-insurance-tax",
+   "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-taxes-directives-technical-advice-memoranda/directive-cd-99-1",
+   "https://www.ncdor.gov/documents/bulletins/2025-corporate-income-franchise-and-insurance-tax-bulletin/open",
+   "https://www.ncdor.gov/taxes-forms/sales-and-use-tax/other-sales-and-use-tax-resources/sales-and-use-tax-division-directives/sales-and-use-tax-directive-24-1",
+   "https://www.ncdor.gov/documents/files/sd-18-6-0/download",
+   "https://www.ncdor.gov/taxes-forms/sales-and-use-tax/other-sales-and-use-tax-resources/remote-sales",
+   "https://www.ncdor.gov/taxes-forms/sales-and-use-tax/other-sales-and-use-tax-resources/important-notices-issued-sales-and-use-tax-division/important-notice-extended-compliance-period-certain-remote-sellers",
+   "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-164.8.html",
+   "https://www.ncdor.gov/documents/files/suplr-2012-0028-engaged-business/open",
+   "https://www.ncdor.gov/tax-forms/2024-cd-401s-s-corporation-tax-return-instructions/open",
+   "https://www.ncdor.gov/tax-forms/2025-cd-405-c-corporation-tax-return-instructions/open"
+  ],
+  "error": ""
+ },
+ {
+  "state": "NC",
+  "section": "rates",
+  "notes": "### 1. Individual Income Tax Rate\n* **Tax Year 2025:** Flat rate of **4.25%** (0.0425) on North Carolina taxable income.\n* **Tax Year 2026:** Flat rate of **3.99%** (0.0399) on North Carolina taxable income.\n* **Official URL:** https://www.ncdor.gov/taxes-forms/individual-income-tax/tax-rate-schedules\n\n---\n\n### 2. Corporate Income Tax Rate and Minimum Tax\n* **Tax Year 2025:** Flat rate of **2.25%** on net taxable income.\n* **Tax Year 2026:** Flat rate of **2.00%** on net taxable income.\n* **Minimum Tax:** **None** (North Carolina does not impose a minimum corporate income tax; minimum tax applies under the franchise tax).\n* **Official URL:** https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-income-and-franchise-tax-rates\n\n---\n\n### 3. State Sales and Use Tax Rate & Local Rates\n* **State Rate (2025 & 2026):** **4.75%** general State sales and use tax rate.\n* **Local Jurisdictions:** Yes, local jurisdictions add rates. Counties levy local sales and use taxes of **2.00%** or **2.25%**, plus an optional transit rate of **0.50%**, making combined rates typically 6.75% to 7.50%. Effective July 1, 2026, Mecklenburg County levied an additional **1.00%** local sales and use tax, bringing its total rate to **8.25%**.\n* **Official URLs:** \n  * https://www.ncdor.gov/taxes-forms/sales-and-use-tax/sales-and-use-tax-rates\n  * https://www.ncdor.gov/taxes-forms/sales-and-use-tax/sales-and-use-tax-rates/current-sales-and-use-tax-rates\n\n---\n\n### 4. Gross Receipts, Franchise, Margin, or Other Notable Business Taxes\n* **Franchise Tax (Applies to both 2025 and 2026):**\n  * Imposed on corporations chartered in or doing business in North Carolina based on their apportioned net worth base.\n  * **C-Corporations:** **$1.50 per $1,000** of the tax base, with a maximum of **$500** for the first **$1,000,000** of the tax base.\n  * **S-Corporations:** **$200** for the first **$1,000,000** of the tax base, and **$1.50 per $1,000** of the tax base exceeding **$1,000,000**.\n  * **Holding Companies:** Maximum of **$500** for the first **$1,000,000** of base and **$1.50 per $1,000** on the excess, subject to a total maximum tax of **$150,000**.\n  * **Minimum Franchise Tax:** **$200** annually for both active and inactive corporations.\n* **Gross Receipts / Privilege Taxes (2025 & 2026):**\n  * North Carolina does not levy a general gross receipts or margin tax.\n  * State Privilege License taxes (under G.S. Chapter 105, Article 2) apply to specific select businesses (such as loan agencies, check cashers, and pawnbrokers; general professional privilege licenses were repealed effective July 1, 2024).\n  * A **7.00%** combined general rate applies to gross receipts/sales price from utilities and select services (telecommunications, electricity, piped natural gas, video programming).\n* **Official URLs:**\n  * https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-income-and-franchise-tax-rates\n  * https://www.ncdor.gov/taxes-forms/privilege-license-tax",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025
+    ],
+    "value": "For tax year 2025, North Carolina imposes a flat individual income tax rate of 4.25% on North Carolina taxable income.",
+    "source_url": "https://www.ncdor.gov/taxes-forms/individual-income-tax/tax-rate-schedules",
+    "evidence": [
+     "individual income tax",
+     "4.25%",
+     "taxable income"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.ncdor.gov/taxes-forms/individual-income-tax/tax-rate-schedules",
+    "matched_title": "Tax Rate Schedules | NCDOR",
+    "matched_phrases": [
+     "individual income tax",
+     "4.25%"
+    ],
+    "snippet": "For Taxable Years beginning in 2025, the North Carolina individual income tax rate is 4.25% (0.0425)."
+   },
+   {
+    "key": "individual",
+    "years": [
+     2026
+    ],
+    "value": "For tax year 2026, North Carolina imposes a flat individual income tax rate of 3.99% on North Carolina taxable income.",
+    "source_url": "https://www.ncdor.gov/taxes-forms/individual-income-tax/tax-rate-schedules",
+    "evidence": [
+     "individual income tax",
+     "3.99%",
+     "taxable income"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.ncdor.gov/taxes-forms/individual-income-tax/tax-rate-schedules",
+    "matched_title": "Tax Rate Schedules | NCDOR",
+    "matched_phrases": [
+     "individual income tax",
+     "3.99%"
+    ],
+    "snippet": "For Taxable Years after 2025, the North Carolina individual income tax rate is 3.99% (0.0399)."
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025
+    ],
+    "value": "The corporate income tax rate is a flat 2.25% on net taxable income, with no minimum corporate income tax.",
+    "source_url": "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-income-and-franchise-tax-rates",
+    "evidence": [
+     "corporate income",
+     "2.25%",
+     "net taxable income"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-income-and-franchise-tax-rates",
+    "matched_title": "Corporate Income and Franchise Tax Rates | NCDOR",
+    "matched_phrases": [
+     "corporate income",
+     "2.25%",
+     "net taxable income"
+    ],
+    "snippet": "Tax Year Tax Rate 2026 2.00% 2025 2.25% 2019 through 2024 2.50% 2017 and 2018 3.00% 2016 4.00% Franchise Tax Rates Franchise Tax Rate for General Business Corporations C Corporations:"
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2026
+    ],
+    "value": "The corporate income tax rate is a flat 2.00% on net taxable income, with no minimum corporate income tax.",
+    "source_url": "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-income-and-franchise-tax-rates",
+    "evidence": [
+     "corporate income",
+     "2.00%",
+     "net taxable income"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-income-and-franchise-tax-rates",
+    "matched_title": "Corporate Income and Franchise Tax Rates | NCDOR",
+    "matched_phrases": [
+     "corporate income",
+     "2.00%",
+     "net taxable income"
+    ],
+    "snippet": "Tax Year Tax Rate 2026 2.00% 2025 2.25% 2019 through 2024 2.50% 2017 and 2018 3.00% 2016 4.00% Franchise Tax Rates Franchise Tax Rate for General Business Corporations C Corporations:"
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The general State sales and use tax rate is 4.75%, and local jurisdictions levy additional rates typically ranging from 2.00% to 2.25% plus an optional 0.50% transit rate.",
+    "source_url": "https://www.ncdor.gov/taxes-forms/sales-and-use-tax/sales-and-use-tax-rates",
+    "evidence": [
+     "State sales and use",
+     "4.75%",
+     "local sales and use"
+    ],
+    "accepted": false,
+    "reason": "figures not on www.ncdor.gov: ['0.5', '2', '2.25']; figures not on www.ncdor.gov: ['0.5', '4.75']; figures not on www.ncdor.gov: ['0.5', '2.25', '4.75']; figures not on www.ncdor.gov: ['2.25']; figures not on www.ncdor.gov: ['4.75']; unreadable: https://www.ncleg.gov/EnactedLegislation/Statutes/PDF/BySection/Chapter_105/GS_105-122.pdf; figures not on www.ncdor.gov: ['0.5']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "North Carolina levies a corporate franchise tax based on apportioned net worth, including a $1.50 per $1,000 rate for C-corporations and an annual minimum tax of $200. There is no general gross receipts or margin tax.",
+    "source_url": "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-income-and-franchise-tax-rates",
+    "evidence": [
+     "franchise tax",
+     "net worth base",
+     "minimum franchise tax"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-income-and-franchise-tax-rates",
+    "matched_title": "Corporate Income and Franchise Tax Rates | NCDOR",
+    "matched_phrases": [
+     "franchise tax",
+     "minimum franchise tax"
+    ],
+    "snippet": "Effective for tax years beginning on or after January 1, 2019, and applicable to the calculation of franchise tax reported on the 2018 and later corporate tax return, the franchise tax rate for S corporations is $200 for the first $1,000,000 of the corporation’s tax base and $1.50 per $1,000 of its tax base that exceeds $1,000,000 and is applied as set forth in the law."
+   }
+  ],
+  "grounding_urls": [
+   "https://www.ncdor.gov/taxes-forms/individual-income-tax/tax-rate-schedules",
+   "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-income-and-franchise-tax-rates",
+   "https://www.ncdor.gov/tax-forms/2025-cd-401s-s-corporation-tax-return-instructions/open",
+   "https://www.ncdor.gov/taxes-forms/sales-and-use-tax/sales-and-use-tax-rates",
+   "https://www.ncdor.gov/taxes-forms/sales-and-use-tax/other-sales-and-use-tax-resources/important-notices-issued-sales-and-use-tax-division/important-notice-mecklenburg-county-sales-and-use-tax-increase",
+   "https://www.ncdor.gov/taxes-forms/sales-and-use-tax/sales-and-use-tax-rates/current-sales-and-use-tax-rates",
+   "https://www.ncdor.gov/county-levy-dates-7-1-24pdf/open",
+   "https://www.ncleg.gov/EnactedLegislation/Statutes/PDF/BySection/Chapter_105/GS_105-122.pdf",
+   "https://www.ncdor.gov/taxes-forms/information-tax-professionals/revenue-laws/2024-tax-law-changes/2024-corporate-taxes-law-changes",
+   "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/frequently-asked-questions-and-important-notices/frequently-asked-questions-about-nc-franchise-corporate-income-and-insurance-tax",
+   "https://www.ncdor.gov/taxes-forms/privilege-license-tax",
+   "https://www.ncdor.gov/documents/bulletins/2025-privilege-license-tax-technical-bulletin/open",
+   "https://www.ncdor.gov/taxes-forms/sales-and-use-tax/other-sales-and-use-tax-resources/legislative-changes-taxes-or-other-items-administered-sales-and-use-tax-division/2022-sales-tax-legislative-changes"
+  ],
+  "error": ""
+ },
+ {
+  "state": "NC",
+  "section": "filing",
+  "notes": "### 1. Individual Return Due Dates & Extension Rules\n* **Calendar-Year Due Date:** April 15 (or the next business day if April 15 falls on a weekend or legal holiday).\n* **Extension Duration:** 6 months (to October 15).\n* **How Extensions Work:**\n  * **Automatic State Extension:** A taxpayer granted an automatic federal extension (Form 4868) is granted an automatic North Carolina extension by checking the \"Federal Extension\" circle on Form D-400.\n  * **Form D-410:** Taxpayers not granted a federal extension must file Form D-410 (*Application for Extension for Filing Individual Income Tax Return*) by the original statutory due date.\n  * **Payment Requirement:** An extension of time to file is not an extension to pay. The late-payment penalty will not apply if the taxpayer pays at least 90% of the tax liability through withholding, estimated payments, or with Form D-410 by the original due date, and pays the balance with the return; statutory interest accrues daily on any unpaid tax from the original due date.\n* **Applicability:** Applies to both Tax Year 2025 and Tax Year 2026.\n* **Official Sources:**\n  * [NCDOR: Individual Income Tax Extensions](https://www.ncdor.gov/taxes/individual-income-tax/extensions)\n  * [NCDOR: FAQs About Filing an Application for Extension to File Your NC Individual Income Tax Return](https://www.ncdor.gov/taxes-forms/individual-income-tax/extensions/frequently-asked-questions-about-filing-application-extension-file-your-nc-individual-income-tax-return)\n\n---\n\n### 2. Corporate & Pass-Through Return Due Dates & Extensions\n* **C-Corporations (Form CD-405) & S-Corporations (Form CD-401S):**\n  * **Statutory Due Date:** 15th day of the 4th month following the close of the income year (April 15 for calendar-year filers).\n  * **Extension Rule & Duration Change:** \n    * *Prior to 2025:* 6-month extension.\n    * *Tax Years 2025 & 2026:* Effective for taxable years beginning on or after January 1, 2025, the extension period is **7 months** from the original due date (November 15 for calendar-year filers).\n  * **How to Obtain:** Automatic state extension if granted a federal extension (by checking the \"Federal Extension\" circle on the return), or by filing Form CD-419 (*Application for Extension for Franchise and Corporate Tax*) by the statutory due date. Does not extend the time to pay tax.\n* **Partnerships (Form D-403):**\n  * **Statutory Due Date:** 15th day of the 4th month following the close of the tax year (April 15 for calendar-year filers).\n  * **Extension Duration:** 6-month extension (to October 15 for calendar-year filers).\n  * **How to Obtain:** Automatic state extension if granted an automatic federal extension (by checking the \"Federal Extension\" circle on Form D-403); otherwise, file Form D-410P (*Application for Extension for Filing Partnership, Estate, or Trust Tax Return*) by the original due date. Does not extend the time to pay.\n* **Applicability:** Applies to Tax Years 2025 and 2026 (note corporate extension length changed from 6 to 7 months beginning TY 2025).\n* **Official Sources:**\n  * [NCDOR: Corporate Income & Franchise Tax Extensions](https://www.ncdor.gov/taxes/corporate-income-franchise-tax/extensions)\n  * [NCDOR: Notice - Extension of Time To File Franchise and Corporate Income Tax Return](https://www.ncdor.gov/news/important-notices/important-notice-extension-time-file-franchise-and-corporate-income-tax-return)\n  * [NCDOR: Corporate Filing Requirements](https://www.ncdor.gov/taxes/corporate-income-franchise-tax/filing-requirements)\n\n---\n\n### 3. Elective Pass-Through Entity Tax (PTET)\n* **Existence:** Yes. North Carolina enacted an entity-level elective tax under N.C. Gen. Stat. § 105-154.1 (Taxed Partnerships) and § 105-131.1A (Taxed S Corporations).\n* **Tax Rate:** Imposed at the individual income tax rate pursuant to G.S. § 105-153.7:\n  * **Tax Year 2025:** **4.25%**\n  * **Tax Year 2026:** **3.99%** (rate reduced for taxable years beginning after 2025 per S.L. 2023-134 / G.S. § 105-153.7(a)).\n* **How and When to Elect:**\n  * Made annually on the timely filed North Carolina annual return (Form D-403 for partnerships; Form CD-401S for S Corporations) by answering \"Yes\" to the Taxed PTE question on page 1.\n  * Must be elected on or before the due date of the return, including extensions.\n  * Under G.S. § 105-154.1(a) and G.S. § 105-131.1A, the election **cannot be made or revoked after the return is filed**.\n* **Official Sources:**\n  * [N.C. Gen. Stat. § 105-154.1](https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-154.1.html)\n  * [N.C. Gen. Stat. § 105-153.7](https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-153.7.html)\n  * [NCDOR: Notice Regarding Pass-Through Entity Tax](https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/important-notices-and-faqs/important-notice-regarding-north-carolinas-recently-enacted-pass-through-entity-tax)\n  * [NCDOR: 2025 Personal Taxes Law Changes](https://www.ncdor.gov/taxes-forms/individual-income-tax/2025-personal-taxes-law-changes)\n\n---\n\n### 4. Composite / Group Nonresident Returns\n* **S-Corporations:** Permitted under G.S. § 105-131.7(b) to file a composite return and make composite payments of tax on behalf of qualifying nonresident shareholders directly on Form CD-401S. \n  * Nonresident shareholders who choose not to be included in a composite return or PTET election must provide a signed Form NC-NA (*Nonresident Shareholder Agreement*) agreeing to NC tax jurisdiction and individual filing; absent this, the corporation must pay the tax on their behalf.\n* **Partnerships:** North Carolina does not use a separate composite return form for partnerships; instead, under G.S. § 105-154(d), partnerships report and pay tax directly on Form D-403 (Part 4) on behalf of nonresident partners (unless an exemption applies).\n* **Applicability:** Applies to both Tax Year 2025 and Tax Year 2026.\n* **Official Sources:**\n  * [N.C. Gen. Stat. § 105-131.7](https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-131.7.html)\n  * [NCDOR: 2025 CD-401S S-Corporation Tax Return Instructions](https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-tax-forms-and-instructions/cd-401s-instructions-s-corporation-tax-return-2025)\n\n---\n\n### 5. Estimated Tax & Nonresident Withholding for Pass-Throughs\n* **Nonresident Withholding / Entity Payment Rules:**\n  * Under G.S. § 105-154(d), a partnership doing business in NC must pay tax on behalf of each nonresident partner on the partner's distributive share of net income at the statutory rate (4.25% for 2025; 3.99% for 2026).\n  * **Form NC-NPA Exemption:** If a nonresident partner is an entity (e.g., corporation, partnership, non-grantor trust, or estate) and timely submits Form NC-NPA (*Nonresident Partner Affirmation*) affirming that it will timely file and pay its own NC return, the partnership is not required to pay tax on that partner's behalf.\n* **Pass-Through Estimated Tax Requirements:**\n  * **Standard (Non-Electing) Entities:** A partnership is not required to make estimated income tax payments; estimated tax payments are also not required on behalf of nonresident shareholders participating in an S Corporation composite return.\n  * **Taxed Pass-Through Entities (PTET):** An electing Taxed Partnership or Taxed S Corporation that reasonably expects to have an NC income tax liability of **$500 or more** must pay estimated tax.\n  * **Installment Due Dates (Calendar-Year Filers):** Four equal installments due on or before the 15th day of the 4th, 6th, 9th, and 12th months (April 15, June 15, September 15, and December 15).\n  * **Payment Forms:** \n    * Form NC-40 PTE for Taxed Partnerships.\n    * Form CD-429 PTE for Taxed S Corporations.\n    * Form NC-429B PTE to compute any underpayment interest.\n* **Individual Estimated Tax Rule (for reference):** Individuals must pay estimated tax via Form NC-40 if expected tax due (net of withholding and credits) is **$1,000 or more**; calendar-year installments are due April 15, June 15, September 15, and January 15 of the following year.\n* **Applicability:** Applies to Tax Years 2025 and 2026.\n* **Official Sources:**\n  * [NCDOR: Form NC-40 PTE Instructions](https://www.ncdor.gov/taxes-forms/partnership-tax/partnership-tax-forms-and-instructions/nc-40-pte-taxed-partnership-estimated-income-tax)\n  * [N.C. Gen. Stat. § 105-154](https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-154.html)\n  * [NCDOR: Form NC-NPA Nonresident Partner Affirmation](https://www.ncdor.gov/taxes-forms/partnership-tax/partnership-tax-forms-and-instructions/nc-npa-nonresident-partner-affirmation)\n\n---\n\n### 6. Main Tax Return Forms\n* **Individual:**\n  * **Form D-400:** North Carolina Individual Income Tax Return\n  * **Form D-410:** Application for Extension for Filing Individual Income Tax Return\n  * **Form NC-40:** Individual Estimated Income Tax\n* **C-Corporation:**\n  * **Form CD-405:** C-Corporation Tax Return (Franchise and Corporate Income)\n  * **Form CD-419:** Application for Extension for Franchise and Corporate Tax\n  * **Form CD-429:** Corporate Estimated Income Tax\n* **S-Corporation:**\n  * **Form CD-401S:** S-Corporation Tax Return (Franchise and Corporate Income)\n  * **Form CD-429 PTE:** Taxed S Corporation Estimated Income Tax\n  * **Form NC-NA:** Nonresident Shareholder Agreement\n* **Partnership:**\n  * **Form D-403:** North Carolina Partnership Income Tax Return\n  * **Form D-410P:** Application for Extension for Filing Partnership, Estate, or Trust Tax Return\n  * **Form NC-40 PTE:** Taxed Partnership Estimated Income Tax\n  * **Form NC-NPA:** Nonresident Partner Affirmation\n  * **Form NC-429B PTE:** Underpayment of Estimated Tax by Taxed Pass-Through Entities\n* **Pass-Through Entity Supplemental Schedules:**\n  * **Form NC-PE:** NC Additions and Deductions for Pass-Through Entities, Estates, and Trusts\n  * **Schedule NC K-1:** Partner's / Shareholder's Share of North Carolina Income, Adjustments, and Credits\n* **Applicability:** Applies to Tax Years 2025 and 2026.\n* **Official Sources:**\n  * [NCDOR: Individual Income Tax Forms Instructions](https://www.ncdor.gov/taxes-forms/individual-income-tax/individual-income-tax-forms-instructions)\n  * [NCDOR: Corporate Tax Forms and Instructions](https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-tax-forms-and-instructions)\n  * [NCDOR: Partnership Tax Forms and Instructions](https://www.ncdor.gov/taxes-forms/partnership-tax/partnership-tax-forms-and-instructions)",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Individual returns are due April 15 for calendar-year filers. An automatic 6-month extension to October 15 is granted by noting an approved federal extension or filing Form D-410, provided at least 90% of the tax is paid by the original due date.",
+    "source_url": "https://www.ncdor.gov/taxes/individual-income-tax/extensions",
+    "evidence": [
+     "Form D-410",
+     "automatic extension",
+     "Application for Extension"
+    ],
+    "accepted": false,
+    "reason": "figures not on www.ncdor.gov: ['6']; figures not on www.ncdor.gov: ['6', '90']; figures not on www.ncdor.gov: ['410', '6', '90']; dates not on www.ncdor.gov: ['October 15']; figures not on www.ncdor.gov: ['410', '90']; figures not on www.ncdor.gov: ['15', '410', '90']; evidence not on www.ncdor.gov (1/3); unreadable: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-154.1.html; figures not on www.ncdor.gov: ['410']; figures not on www.ncdor.gov: ['15', '410', '6",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Corporate and partnership calendar-year returns are due April 15. Effective for taxable years beginning on or after January 1, 2025, corporate returns receive a 7-month extension to November 15, while partnerships receive a 6-month extension to October 15.",
+    "source_url": "https://www.ncdor.gov/taxes/corporate-income-franchise-tax/extensions",
+    "evidence": [
+     "7 months",
+     "Form CD-419",
+     "close of the income year"
+    ],
+    "accepted": false,
+    "reason": "figures not on www.ncdor.gov: ['15']; figures not on www.ncdor.gov: ['6', '7']; figures not on www.ncdor.gov: ['6']; figures not on www.ncdor.gov: ['7']; dates not on www.ncdor.gov: ['April 15', 'November 15', 'October 15']; evidence not on www.ncdor.gov (0/3); figures not on www.ncdor.gov: ['2025']; unreadable: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-154.1.html; dates not on www.ncdor.gov: ['November 15']; figures not on www.ncdor.gov: ['15', '6', '7'",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2025
+    ],
+    "value": "North Carolina permits eligible partnerships and S corporations to elect an entity-level pass-through entity tax at the 4.25% individual income tax rate for 2025. The election must be made on a timely filed return and cannot be made or revoked after filing.",
+    "source_url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-154.1.html",
+    "evidence": [
+     "Taxed Partnership",
+     "timely filed return",
+     "cannot be revoked"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-154.1.html; figures not on www.ncdor.gov: ['4.25']; evidence not on www.ncdor.gov (0/3); figures not on www.ncdor.gov: ['2025', '4.25']; evidence not on www.ncdor.gov (1/3); unreadable: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-153.7.html; unreadable: https://www.ncleg.gov/EnactedLegislation/Statutes/PDF/ByChapter/Chapter_105.pdf; unreadable: https://www.ncleg",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2026
+    ],
+    "value": "North Carolina permits eligible partnerships and S corporations to elect an entity-level tax at the reduced individual income tax rate of 3.99% for 2026. The election is made annually on a timely filed return and cannot be made or revoked once the return is filed.",
+    "source_url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-153.7.html",
+    "evidence": [
+     "taxable years beginning",
+     "individual income tax",
+     "taxable income"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.ncdor.gov/taxes-forms/information-tax-professionals/revenue-laws/2025-tax-law-changes/2025-personal-taxes-law-changes",
+    "matched_title": "2025 Personal Taxes Law Changes | NCDOR",
+    "matched_phrases": [
+     "taxable years beginning",
+     "individual income tax",
+     "taxable income"
+    ],
+    "snippet": "The 2023 General Assembly amended this subsection to accelerate the reduction in the individual income tax rate imposed on North Carolina taxable income for tax years 2024, 2025, and 2026."
+   },
+   {
+    "key": "composite",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "S corporations may file a composite return and remit tax for qualifying nonresident shareholders on Form CD-401S unless a shareholder provides a signed Form NC-NA agreement. Partnerships do not file a separate composite return form but instead pay tax on behalf of nonresident partners directly on Form D-403.",
+    "source_url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-131.7.html",
+    "evidence": [
+     "composite return",
+     "Form NC-NA",
+     "nonresident shareholders"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-131.7.html; figures not on www.ncdor.gov: ['401', '403']; figure not stated beside the evidence on www.ncdor.gov; figures not on www.ncdor.gov: ['401']; evidence not on www.ncdor.gov (0/3); unreadable: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-154.1.html; unreadable: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-153.7.html",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Electing taxed pass-through entities with an expected tax liability of $500 or more must make four equal estimated payments on April 15, June 15, September 15, and December 15. Partnerships must pay tax on behalf of nonresident partners unless an entity partner submits Form NC-NPA.",
+    "source_url": "https://www.ncdor.gov/taxes-forms/partnership-tax/partnership-tax-forms-and-instructions/nc-40-pte-taxed-partnership-estimated-income-tax",
+    "evidence": [
+     "Form NC-40 PTE",
+     "Taxed Partnership",
+     "500 or more"
+    ],
+    "accepted": false,
+    "reason": "figures not on www.ncdor.gov: ['15']; evidence not on www.ncdor.gov (0/3); figure not stated beside the evidence on www.ncdor.gov; dates not on www.ncdor.gov: ['June 15', 'September 15']; unreadable: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-154.1.html; unreadable: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-153.7.html; unreadable: https://www.ncleg.gov/EnactedLegislation/Statutes/PDF/ByChapter/Chapter_105.pdf; unr",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Key North Carolina return forms include Form D-400 for individuals, Form CD-405 for C-corporations, Form CD-401S for S-corporations, and Form D-403 for partnerships. Extension and estimated tax forms include Forms D-410, CD-419, D-410P, NC-40 PTE, and CD-429 PTE.",
+    "source_url": "https://www.ncdor.gov/taxes-forms/partnership-tax/partnership-tax-forms-and-instructions",
+    "evidence": [
+     "Form D-403",
+     "Partnership Income Tax",
+     "Form NC-40 PTE"
+    ],
+    "accepted": false,
+    "reason": "figures not on www.ncdor.gov: ['400', '401', '405', '419']; figures not on www.ncdor.gov: ['40', '401', '403', '405', '419', '429']; figures not on www.ncdor.gov: ['40', '400', '401', '403', '405', '410']; figures not on www.ncdor.gov: ['40', '400', '401', '403', '405', '419']; figures not on www.ncdor.gov: ['40', '400', '401', '403', '410', '419']; figures not on www.ncdor.gov: ['40', '410']; figures not on www.ncdor.gov: ['400', '401', '405', '410', '419']; figures not on www.ncdor.gov: ['400'",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://www.ncdor.gov/frequently-asked-questions-about-filing-application-extension-file-your-nc-individual-income-tax",
+   "https://www.ncdor.gov/news/press-releases/2026/04/07/ncdor-urges-taxpayers-file-april-15-deadline",
+   "https://www.ncdor.gov/news/press-releases/2025/10/08/individual-income-tax-returns-extensions-are-due-oct-15",
+   "https://www.ncdor.gov/taxes-forms/individual-income-tax/extensions",
+   "https://www.ncdor.gov/news/press-releases/2024/04/02/individual-income-tax-returns-are-due-monday-april-15",
+   "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/filing-requirements",
+   "https://www.ncdor.gov/tax-forms/2025-cd-401s-s-corporation-tax-return-instructions/open",
+   "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/extensions",
+   "https://www.ncdor.gov/important-notice-extension-time-file-franchise-and-corporate-income-tax-return",
+   "https://www.ncdor.gov/taxes-forms/information-tax-professionals/tax-bulletins-directives-and-other-important-notices/important-notices-and-frequently-asked-questions-personal-taxes/important-notice-regarding-north-carolinas-recently-enacted-pass-through-entity-tax",
+   "https://www.ncdor.gov/documents/files/2017-d-403a-instructions-partnership-income-tax-return/open",
+   "https://www.ncdor.gov/documents/files/2020-d-403a-instructions-partnership-income-tax-return/open",
+   "https://www.ncdor.gov/tax-forms/2025-d-403a-partnership-tax-return-instructions/open",
+   "https://www.ncdor.gov/2024-d-403a-partnership-tax-return-instructions/open",
+   "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-154.1.html",
+   "https://www.ncdor.gov/documents/bulletins/2025-corporate-income-franchise-and-insurance-tax-bulletin/open",
+   "https://www.ncdor.gov/taxes-forms/individual-income-tax/tax-rate-schedules",
+   "https://www.ncdor.gov/taxes-forms/information-tax-professionals/revenue-laws/2025-tax-law-changes/2025-personal-taxes-law-changes",
+   "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-153.7.html",
+   "https://www.ncdor.gov/tax-forms/2025-d-403a-partnership-tax-return-instructions/open",
+   "https://www.ncleg.gov/EnactedLegislation/Statutes/PDF/ByChapter/Chapter_105.pdf",
+   "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-131.7.html",
+   "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-tax-forms-and-instructions",
+   "https://www.ncdor.gov/2024-d-403-nc-npa-nonresident-partner-affirmation/open",
+   "https://www.ncdor.gov/2021-d-403-partnership-income-tax-return-web-fill/open",
+   "https://www.ncleg.gov/Sessions/2023/Bills/Senate/PDF/S174v5.pdf",
+   "https://www.ncdor.gov/2024-d-403a-partnership-tax-return-instructions/open",
+   "https://www.ncdor.gov/documents/files/2017-d-403a-instructions-partnership-income-tax-return/open",
+   "https://www.ncdor.gov/2025-nc-40-pte-taxed-partnership-estimated-income-tax-handwritten-version/open",
+   "https://www.ncdor.gov/nc-429b-pte/open",
+   "https://www.ncdor.gov/taxes-forms/partnership-tax/partnership-tax-forms-and-instructions",
+   "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-tax-forms-and-instructions/cd-429-pte-taxed-s-corporation-estimated-income-tax",
+   "https://www.ncdor.gov/taxes-forms/individual-income-tax/estimated-income-tax",
+   "https://www.ncleg.gov/enactedlegislation/statutes/html/bysection/chapter_105/gs_105-154.html",
+   "https://www.ncdor.gov/taxes-forms/partnership-tax/partnership-tax-forms-and-instructions/nc-npa-nonresident-partner-affirmation",
+   "https://www.ncdor.gov/tax-forms/2025-cd-405-c-corporation-tax-return-instructions/open",
+   "https://www.ncdor.gov/taxes-forms/individual-income-tax/individual-income-tax-bulletins/2025-personal-taxes-bulletin"
+  ],
+  "error": ""
+ }
+]

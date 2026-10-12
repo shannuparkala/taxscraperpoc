@@ -1,0 +1,62 @@
+{
+  "code": "HI",
+  "name": "Hawaii",
+  "sections": {
+    "apportionment": {
+      "fields": [
+        {
+          "key": "method",
+          "label": "Apportionment method",
+          "value": "Hawaii utilizes an equally weighted three-factor apportionment formula consisting of the property factor, payroll factor, and sales factor. If the denominator of any factor is zero, the denominator is reduced accordingly.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://data.capitol.hawaii.gov/sessions/session2017/HRS-Chapter-PDF's/HRS_0235.pdf",
+          "source_citation": "https://data.capitol.hawaii.gov/sessions/session2017/HRS-Chapter-PDF's/HRS_0235.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "All business income shall be apportioned to this State by multiplying the income by a fraction, the numerator of which is the property factor plus the payroll factor plus the sales factor, and the denominator of which is three."
+        },
+        {
+          "key": "sourcing",
+          "label": "Sales sourcing (services and intangibles)",
+          "value": "Gross receipts from services and intangibles are sourced using the cost-of-performance method. Receipts are sourced to Hawaii if the income-producing activity is performed wholly within the state, or if a greater proportion is performed in Hawaii than in any other state based on costs of performance.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://data.capitol.hawaii.gov/sessions/session2017/HRS-Chapter-PDF's/HRS_0235.pdf",
+          "source_citation": "https://data.capitol.hawaii.gov/sessions/session2017/HRS-Chapter-PDF's/HRS_0235.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "or (2) The income-producing activity is performed both in and outside this State and a greater proportion of the income-producing activity is performed in this State than in any other state, based on costs of performance."
+        }
+      ]
+    },
+    "nexus": {
+      "fields": []
+    },
+    "rates": {
+      "fields": [
+        {
+          "key": "corporate",
+          "label": "Corporate income/franchise tax",
+          "value": "Hawaii corporate income tax is levied at 4.4% on taxable income up to $25,000, 5.4% on income over $25,000 up to $100,000, and 6.4% on taxable income over $100,000. Hawaii does not impose a corporate minimum tax.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://data.capitol.hawaii.gov/sessions/session2017/HRS-Chapter-PDF's/HRS_0235.pdf",
+          "source_citation": "https://data.capitol.hawaii.gov/sessions/session2017/HRS-Chapter-PDF's/HRS_0235.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "The tax on all taxable income shall be at the rate of 4.4 per cent if the taxable income is not over $25,000, 5.4 per cent if over $25,000 but not over $100,000, and on all over $100,000, 6.4 per cent."
+        }
+      ]
+    },
+    "filing": {
+      "fields": []
+    }
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "code": "MS",
+  "name": "Mississippi",
+  "sections": {
+    "apportionment": {
+      "fields": [
+        {
+          "key": "special_industries",
+          "label": "Special industry rules",
+          "value": "Construction contractors and natural resource producers are required to use direct or separate accounting rather than formula apportionment. Specific apportionment formulas are prescribed for financial institutions, pipelines, wholesale manufacturers, airlines, motor carriers, and medical laboratory services.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.dor.ms.gov/sites/default/files/tax-forms/business/2025%20CIT%20INSTRUCTIONS%2083-100%20-%20Final%20%2001.14.2026.pdf",
+          "source_citation": "Microsoft Word - CIT 2016 CIT INSTRUCTIONS.docx",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Other taxpayers may not employ a direct accounting or separate accounting method unless they have obtained written authority from the Commissioner to do so."
+        },
+        {
+          "key": "forms",
+          "label": "Forms",
+          "value": "Multistate corporations compute apportionment using Form 83-125 (Mississippi Business Income Apportionment Schedule) attached to Form 83-105, while pass-through entities file Form 84-125. Taxpayers using direct accounting file Form 83-124 or Form 84-124.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.dor.ms.gov/sites/default/files/tax-forms/business/2025%20CIT%20INSTRUCTIONS%2083-100%20-%20Final%20%2001.14.2026.pdf",
+          "source_citation": "Microsoft Word - CIT 2016 CIT INSTRUCTIONS.docx",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Examples of the required general information are complete name, current address, FEIN, officer information and signature and other information relating to the filing entity as requested on page 2 of Form 83-105."
+        }
+      ]
+    },
+    "nexus": {
+      "fields": [
+        {
+          "key": "income_nexus",
+          "label": "Income/franchise tax nexus",
+          "value": "Mississippi establishes income tax nexus through doing business, defined as the operation of any enterprise or activity in the state for financial profit or economic gain. Franchise tax nexus is established by doing business, being incorporated, or being domesticated or qualified to do business in the state.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.dor.ms.gov/business/business-tax-frequently-asked-questions",
+          "source_citation": "BUSINESS TAX FREQUENTLY ASKED QUESTIONS | Mississippi Department of Revenue",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Every corporation, domesticated or qualified to do business in Mississippi must file a return even if the corporation is inactive or not engaged in business. ​ Back to Top What is franchise tax? A franchise tax is imposed on corporations for the privilege of doing business in the State of Mississippi."
+        }
+      ]
+    },
+    "rates": {
+      "fields": [
+        {
+          "key": "individual",
+          "label": "Individual income tax",
+          "value": "Individual income tax is 0% on the first $10,000 of taxable income and 4.4% on taxable income in excess of $10,000.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.dor.ms.gov/general-information",
+          "source_citation": "GENERAL INFORMATION | Mississippi Department of Revenue",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "0% on the first $10,000 of taxable income.​ 4.4% on the remaining taxable income in excess of $10,000."
+        },
+        {
+          "key": "individual",
+          "label": "Individual income tax",
+          "value": "Individual income tax is 0% on the first $10,000 of taxable income and 4.0% on taxable income in excess of $10,000.",
+          "years": [
+            2026
+          ],
+          "source_url": "https://www.dor.ms.gov/general-information",
+          "source_citation": "GENERAL INFORMATION | Mississippi Department of Revenue",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "0% on the first $10,000 of taxable income.​ 4.4% on the remaining taxable income in excess of $10,000."
+        },
+        {
+          "key": "corporate",
+          "label": "Corporate income/franchise tax",
+          "value": "Corporate income tax rates are 0% on the first $5,000, 4% on the next $5,000, and 5% on taxable income over $10,000, with no minimum income tax. The franchise tax rate is $0.75 per $1,000 of taxable capital exceeding $100,000, with a $25 minimum tax.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.dor.ms.gov/sites/default/files/tax-forms/business/2025%20CIT%20INSTRUCTIONS%2083-100%20-%20Final%20%2001.14.2026.pdf",
+          "source_citation": "Microsoft Word - CIT 2016 CIT INSTRUCTIONS.docx",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "For tax year 2025, the franchise tax rate is $0.75 per $1,000 of capital in excess of $100,000 (minimum tax of $25)."
+        },
+        {
+          "key": "corporate",
+          "label": "Corporate income/franchise tax",
+          "value": "Corporate income tax rates are 0% on the first $5,000, 4% on the next $5,000, and 5% on taxable income over $10,000, with no minimum income tax. The franchise tax rate is $0.50 per $1,000 of taxable capital exceeding $100,000, with a $25 minimum tax.",
+          "years": [
+            2026
+          ],
+          "source_url": "https://www.dor.ms.gov/sites/default/files/tax-forms/business/2025%20CIT%20INSTRUCTIONS%2083-100%20-%20Final%20%2001.14.2026.pdf",
+          "source_citation": "Microsoft Word - CIT 2016 CIT INSTRUCTIONS.docx",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "0% on the first $5,000 of taxable income and 4% on the next $5,000 of taxable income and 5% on all taxable income in excess of $10,000."
+        },
+        {
+          "key": "sales",
+          "label": "Sales and use tax",
+          "value": "The state general sales and use tax rate is 7.0%. Local jurisdictions do not impose general county taxes, but Jackson adds a 1.0% tax, Tupelo adds a 0.25% tax, and certain areas levy special tourism taxes.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.dor.ms.gov/business/business-tax-frequently-asked-questions",
+          "source_citation": "BUSINESS TAX FREQUENTLY ASKED QUESTIONS | Mississippi Department of Revenue",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Sales or transfers between siblings, cousins, aunts, uncles or in-laws are taxable.​ Effective July 1, 2019, sales of motor vehicles between siblings are not subject to the casual sales tax."
+        },
+        {
+          "key": "other_business",
+          "label": "Other notable business taxes",
+          "value": "A 3.5% contractor's tax applies to gross receipts from non-residential construction projects exceeding $10,000.00.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.dor.ms.gov/business/sales-use-tax/guide-construction-contractors",
+          "source_citation": "Guide for Construction Contractors | Mississippi Department of Revenue",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "The Sales Tax Law levies a 3.5% contractor's tax on all non-residential construction activities when the total contract price or compensation received exceeds $10,000.00."
+        }
+      ]
+    },
+    "filing": {
+      "fields": [
+        {
+          "key": "individual_due",
+          "label": "Individual due date and extension",
+          "value": "Individual returns for calendar-year filers are due on or before April 15. Mississippi allows an extension until October 15, which is granted automatically if no tax is owed, but taxpayers owing additional tax must remit payment with Form 80-106 by April 15.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.dor.ms.gov/sites/default/files/tax-forms/individual/80100251%202.pdf",
+          "source_citation": "https://www.dor.ms.gov/sites/default/files/tax-forms/individual/80100251%202.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "However, if you owe additional taxes, you must remit the tax due with Form 80-106, on or before the due date of the return."
+        },
+        {
+          "key": "ptet",
+          "label": "Pass-through entity tax (PTET)",
+          "value": "Eligible pass-through entities can elect to pay entity-level tax at rates of 0% on the first $5,000, 4% on the next $5,000, and 5% on taxable income over $10,000. The election is made by submitting Form 84-381 during the tax year, by the return due date, or by the date the return is filed, whichever is latest.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.dor.ms.gov/sites/default/files/tax-forms/business/2025%20PTE%20INSTRUCTIONS%2084-100%20-%20Final%20%2001.14.2026.pdf",
+          "source_citation": "Microsoft Word - Pass Through Entity 2015 Instructions.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Both the election to become an electing pass -through entity (“electing PTE”) and the revocation of that election is made by submitting the Pass-Through Entity Election Form, form 84- 381, to the Department of Revenue at any time during the tax year for which the entity elects to be taxed as an electing PTE, or for which the entity elects to no longer be taxed as an electing PTE, or by the due date or the extended due date of the Pass-Through Entity Tax Return for that year, or by the date such "
+        },
+        {
+          "key": "estimates",
+          "label": "Withholding and estimated payments",
+          "value": "Quarterly estimated tax payments using Form 84-300 are required if composite or electing pass-through liability exceeds $200, requiring at least 90% prepayment. If nonresident owners fail to pay, entities may face liability unless 5% tax is withheld or agreements are secured.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.dor.ms.gov/sites/default/files/tax-forms/business/2025%20PTE%20INSTRUCTIONS%2084-100%20-%20Final%20%2001.14.2026.pdf",
+          "source_citation": "Microsoft Word - Pass Through Entity 2015 Instructions.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "To pay by check or money order, complete the payment voucher (Form 84-300), make the check or money order payable to the Department of Revenue and mail both to P.O."
+        }
+      ]
+    }
+  }
+}

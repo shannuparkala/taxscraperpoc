@@ -1,0 +1,282 @@
+[
+ {
+  "state": "AZ",
+  "section": "rates",
+  "notes": "### 1. Individual Income Tax Rate(s)\n* **Tax Rate:** Arizona imposes a single flat individual income tax rate of **2.5%** on taxable income for all filing statuses.\n* **Applicability:** Applies to both **tax year 2025** and **tax year 2026** (unchanged; flat rate in effect since TY 2023).\n* **Official Sources:**\n  * Arizona Department of Revenue (ADOR) – Individual Income Tax Highlights: `https://azdor.gov/forms/individual-income-tax-highlights`\n  * Arizona State Legislature – A.R.S. § 43-1011 (*Taxes and tax rates*): `https://www.azleg.gov/ars/43/01011.htm`\n\n---\n\n### 2. Corporate Income and Franchise Tax\n* **Corporate Income Tax Rate:** **4.9%** of Arizona taxable net income.\n* **Minimum Tax:** The minimum corporate income tax is **$50** (the tax is the greater of $50 or 4.9% of net income).\n* **Franchise Tax:** Arizona does not impose a corporate franchise tax.\n* **Applicability:** Applies to both **tax year 2025** and **tax year 2026** (unchanged).\n* **Official Sources:**\n  * Arizona Department of Revenue (ADOR) – Corporate Income Tax: `https://azdor.gov/business/corporate-income-tax`\n  * Arizona State Legislature – A.R.S. § 43-1111 (*Tax rates for corporations*): `https://www.azleg.gov/ars/43/01111.htm`\n\n---\n\n### 3. State Sales and Use Tax Rates & Local Jurisdictions\n* **State Transaction Privilege Tax (TPT) / Sales Tax Rate:** Arizona imposes the Transaction Privilege Tax (TPT) on the business for the privilege of doing business in the state. For retail and most standard classifications, the total state rate is **5.6%**. This comprises:\n  * Base statutory rate of **5.0%** (A.R.S. § 42-5010(A)), plus\n  * An additional rate increment of **0.6%** (A.R.S. § 42-5010.01, effective through June 30, 2041).\n* **State Use Tax Rate:** **5.6%** on the purchase price of tangible personal property stored, used, or consumed in Arizona (A.R.S. § 42-5155).\n* **Local Jurisdictions:** Yes, local jurisdictions add rates on top of the state rate:\n  * Arizona counties levy county excise and transportation taxes (e.g., A.R.S. § 42-6103, § 42-6105).\n  * Cities and towns levy municipal privilege taxes under the Model City Tax Code (collected by ADOR).\n  * Combined state, county, and city rates typically range between **5.6% and 11.2%**.\n* **Applicability:** Applies to both **tax year 2025** and **tax year 2026** (unchanged).\n* **Official Sources:**\n  * Arizona Department of Revenue (ADOR) – Tax Rate Table: `https://azdor.gov/transaction-privilege-tax/tax-rate-table`\n  * Arizona State Legislature – A.R.S. § 42-5010 (*Rates; distribution base*): `https://www.azleg.gov/ars/42/05010.htm`\n  * Arizona State Legislature – A.R.S. § 42-5010.01 (*Transaction privilege tax; additional rate increment*): `https://www.azleg.gov/ars/42/05010-01.htm`\n  * Arizona State Legislature – A.R.S. § 42-5155 (*Levy of tax; tax rate; purchaser's liability*): `https://www.azleg.gov/ars/42/05155.htm`\n\n---\n\n### 4. Gross Receipts, Franchise, Margin, or Other Notable Business Taxes\n* **Gross Receipts Tax:** Arizona does not levy a separate standalone general gross receipts tax; however, the **Transaction Privilege Tax (TPT)** is by statutory structure a gross receipts tax levied on the gross proceeds of sales or gross income across specific classifications (retail, restaurants, commercial lease, contracting, utilities, etc.).\n* **Franchise / Margin / Capital Stock Tax:** Arizona does not levy a franchise tax, gross margin tax, or capital stock tax.\n* **Pass-Through Entity (PTE) Tax:** Eligible partnerships and S corporations can elect an entity-level income tax at a rate of **2.5%** (matching the individual income tax rate) under A.R.S. § 43-1014.\n* **Applicability:** Applies to both **tax year 2025** and **tax year 2026** (unchanged).\n* **Official Sources:**\n  * Arizona Department of Revenue (ADOR) – TPT Information: `https://azdor.gov/transaction-privilege-tax`\n  * Arizona State Legislature – A.R.S. § 42-5008 (*Levy of tax; purposes; distribution*): `https://www.azleg.gov/ars/42/05008.htm`\n  * Arizona State Legislature – A.R.S. § 43-1014 (*Entity-level tax election; partnerships; S corporations*): `https://www.azleg.gov/ars/43/01014.htm`",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Arizona imposes a single flat individual income tax rate of 2.5% on taxable income for all filing statuses.",
+    "source_url": "https://azdor.gov/forms/individual-income-tax-highlights",
+    "evidence": [
+     "flat individual income tax",
+     "2.5%",
+     "taxable income"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://azdor.gov/forms/individual-income-tax-highlights; not an official AZ host: www.matpc.com; evidence not on www.azleg.gov (1/3); not an official AZ host: taxmath.org; not an official AZ host: remotelaws.com; not an official AZ host: www.quora.com; figures not on www.azleg.gov: ['2.5']; not an official AZ host: www.vanderburghhouse.com; not an official AZ host: www.facebook.com; not an official AZ host: llcstates.us; not an official AZ host: venturesmarter.com; not an official A",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Arizona imposes a corporate income tax rate of 4.9% of net income with a minimum tax of $50. The state does not levy a corporate franchise tax.",
+    "source_url": "https://azdor.gov/business/corporate-income-tax",
+    "evidence": [
+     "4.9%",
+     "minimum corporate income tax",
+     "net income"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://azdor.gov/business/corporate-income-tax; not an official AZ host: www.matpc.com; evidence not on www.azleg.gov (0/3); figures not on www.azleg.gov: ['4.9', '50']; not an official AZ host: taxmath.org; not an official AZ host: remotelaws.com; not an official AZ host: www.quora.com; figures not on www.azleg.gov: ['50']; not an official AZ host: www.vanderburghhouse.com; not an official AZ host: www.facebook.com; not an official AZ host: llcstates.us; not an official AZ host: ve",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The state transaction privilege tax (TPT) and use tax rate is 5.6%. Local jurisdictions levy additional county and municipal taxes that increase the combined rate.",
+    "source_url": "https://azdor.gov/transaction-privilege-tax/tax-rate-table",
+    "evidence": [
+     "5.6%",
+     "Transaction Privilege Tax",
+     "use tax"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://azdor.gov/transaction-privilege-tax/tax-rate-table; not an official AZ host: www.matpc.com; figures not on www.azleg.gov: ['5.6']; not an official AZ host: taxmath.org; not an official AZ host: remotelaws.com; not an official AZ host: www.quora.com; not an official AZ host: www.vanderburghhouse.com; not an official AZ host: www.facebook.com; not an official AZ host: llcstates.us; not an official AZ host: venturesmarter.com; not an official AZ host: www.getsphere.com; not an o",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Arizona does not levy a franchise tax or separate general gross receipts tax, though its Transaction Privilege Tax functions on gross receipts. Eligible pass-through entities may elect an entity-level tax rate of 2.5%.",
+    "source_url": "https://www.azleg.gov/ars/43/01014.htm",
+    "evidence": [
+     "Entity-level tax election",
+     "partnerships",
+     "S corporations",
+     "2.5%"
+    ],
+    "accepted": false,
+    "reason": "figures not on www.azleg.gov: ['2.5']; not an official AZ host: www.matpc.com; evidence not on www.azleg.gov (0/4); evidence not on www.azleg.gov (1/4); not an official AZ host: taxmath.org; not an official AZ host: remotelaws.com; not an official AZ host: www.quora.com; not an official AZ host: www.vanderburghhouse.com; not an official AZ host: www.facebook.com; not an official AZ host: llcstates.us; not an official AZ host: venturesmarter.com; not an official AZ host: www.getsphere.com; not an",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://www.matpc.com/article/arizona",
+   "https://www.azleg.gov/legtext/56leg/1R/summary/S.1559FIN.DOCX.htm",
+   "https://www.azleg.gov/legtext/57leg/1R/summary/H.HB2918_022525_HOUSEENGROSSED.DOCX.htm",
+   "https://taxmath.org/tax-tables/2026/us/az/",
+   "https://remotelaws.com/state-income-tax/us-states/arizona/",
+   "https://www.quora.com/How-are-taxes-calculated-for-individuals-who-work-in-a-state-with-high-taxes-but-live-in-a-low-tax-area",
+   "https://www.azleg.gov/ars/43/01111.htm",
+   "https://www.azleg.gov/ars/43/01011.htm",
+   "https://www.vanderburghhouse.com/how-to-form-a-legal-entity-for-a-sober-living-business-in-arizona/",
+   "https://www.vanderburghhouse.com/how-to-form-a-legal-entity-for-a-sober-living-business-in-arizona/",
+   "https://www.facebook.com/CityofPeoriaAz/posts/business-owners-strengthen-your-tax-knowledge-with-the-arizona-department-of-rev/1458130486361131/",
+   "https://llcstates.us/llc/arizona/",
+   "https://venturesmarter.com/file-llc-taxes/arizona/",
+   "https://www.getsphere.com/blog/arizona-sales-tax",
+   "https://finance.arizona.edu/sites/default/files/2024-05/sales_and_use_tax_2024-05-20.pdf",
+   "https://www.azcommerce.com/media/tjphm50c/mg-mh-salt-tpt-wayfair-presentation-for-0622.pdf",
+   "https://www.azleg.gov/ars/42/05010.htm",
+   "https://www.azleg.gov/ars/42/05010-01.htm",
+   "https://www.azleg.gov/ars/42/05155.htm",
+   "https://www.yondatax.com/state-sales-tax-rates/arizona",
+   "https://www.azleg.gov/ars/42/06105.htm",
+   "https://www.azleg.gov/ars/42/06103.htm",
+   "https://www.scottsdaleaz.gov/taxes/resources",
+   "https://taxcloud.com/sales-tax/arizona/",
+   "https://www.getsphere.com/blog/arizona-sales-tax",
+   "https://finance.arizona.edu/sites/default/files/2024-05/sales_and_use_tax_2024-05-20.pdf",
+   "https://www.azleg.gov/ars/42/05008.htm",
+   "https://www.pinetoplakesideaz.gov/351/Transaction-Privilege-Tax-for-Contractor",
+   "https://www.azleg.gov/ars/43/01014.htm",
+   "https://salestaxcomplianceusa.com/sales-tax-permit-arizona/"
+  ],
+  "error": ""
+ },
+ {
+  "state": "AZ",
+  "section": "filing",
+  "notes": "### 1. Individual Return Due Dates and Extension Rules\n* **Due Date (Calendar-Year Filers):** Calendar-year individual income tax returns are due on or before April 15 following the close of the calendar year.\n* **Extension Rules:** \n  * Under A.R.S. § 42-1107, Arizona grants an automatic 6-month extension to file (to October 15). \n  * If a federal extension (Form 4868) is granted, the taxpayer is deemed granted the same 6-month Arizona extension without submitting a separate state form (check the extension box on the return). Taxpayers not filing a federal extension, or needing to make an extension payment by paper, file Arizona Form 204 by April 15.\n  * An extension extends the time to file, not to pay. At least 90% of the tax liability must be paid by the original due date to avoid the extension underpayment penalty of 0.5% per 30-day period (capped at 25%).\n* **Applicability:** Applies to tax years 2025 and 2026 (unchanged).\n* **Official URLs:** \n  * https://www.azleg.gov/ars/43/00325.htm\n  * https://www.azleg.gov/ars/42/01107.htm\n  * https://azdor.gov/\n\n---\n\n### 2. Corporate and Pass-Through Return Due Dates and Extension Rules\n* **C-Corporations (Form 120):**\n  * **Due Date:** Calendar-year returns are due on or before April 15 (the 15th day of the 4th month following the close of the taxable year).\n  * **Extension:** 6-month extension (to October 15) using Arizona Form 120/165EXT or an approved federal Form 7004. At least 90% of the tax liability must be paid by the original due date.\n* **Partnerships (Form 165):**\n  * **Due Date:** Calendar-year returns are due on or before March 15 (the 15th day of the 3rd month following the close of the taxable year) per A.R.S. § 43-325(3).\n  * **Extension:** 6-month extension (to September 15) using Arizona Form 120/165EXT or an approved federal Form 7004.\n* **S-Corporations (Form 120S):**\n  * **Due Date:** Calendar-year returns are due on or before March 15 (the 15th day of the 3rd month following the close of the taxable year), conforming with federal S-corporation deadlines.\n  * **Extension:** 6-month extension (to September 15) using Arizona Form 120/165EXT or an approved federal Form 7004.\n* **Applicability:** Applies to tax years 2025 and 2026 (unchanged).\n* **Official URLs:** \n  * https://www.azleg.gov/ars/43/00325.htm\n  * https://www.azleg.gov/ars/42/01107.htm\n  * https://azdor.gov/\n\n---\n\n### 3. Elective Pass-Through Entity (PTE) Tax\n* **Existence:** Yes, codified at A.R.S. § 43-1014.\n* **Tax Rate:** The tax rate is equal to the individual income tax rate prescribed in A.R.S. § 43-1011, which is a flat 2.5%.\n* **How and When to Elect:**\n  * The partners or shareholders of a partnership or S corporation consent to be taxed at the entity level.\n  * The election must be made annually on or before the due date or extended due date of the entity's return.\n  * The election is made by checking the PTE election box on the timely filed return (Form 165 for partnerships or Form 120S for S corporations).\n* **Applicability:** Applies to tax years 2025 and 2026 (the rate remains 2.5%).\n* **Official URLs:** \n  * https://www.azleg.gov/ars/43/01014.htm\n  * https://www.azleg.gov/ars/43/01011.htm\n  * https://azdor.gov/\n\n---\n\n### 4. Composite / Group Nonresident Returns for Pass-Through Entities\n* **Availability & Rules:** \n  * Arizona permits partnerships and S corporations to file a composite return on behalf of qualifying nonresident individual owners under ADOR Individual Income Tax Ruling ITR 16-2.\n  * **Participation Requirement:** A minimum of 10 participating eligible nonresident individuals is required.\n  * **Return Used:** Arizona Form 140NR (Nonresident Personal Income Tax Return), designated as a composite return.\n  * **Restrictions:** Participating members cannot claim itemized deductions (only standard deductions are allowed), tax credits, or net operating loss carryovers.\n  * **Estimated Payments:** If voluntary composite estimated payments are made, the entity files Form 140ES using the entity's EIN (not Form 120/165ES).\n* **Applicability:** Applies to tax years 2025 and 2026.\n* **Official URLs:** \n  * https://azdor.gov/\n  * https://www.azleg.gov/ars/43/01091.htm\n\n---\n\n### 5. Estimated Tax Payment Requirements and Nonresident Withholding\n* **Estimated Tax Requirements:**\n  * **Individuals (A.R.S. § 43-581):** Required if Arizona gross income for the taxable year exceeds $75,000 ($150,000 for married filing joint) and was greater than $75,000 ($150,000 joint) in the preceding year. Combined estimated payments and withholding must equal at least 90% of current year tax or 100% of preceding year tax. Due in four installments: April 15, June 15, September 15, and January 15.\n  * **Corporations (A.R.S. § 43-582):** Required if Arizona corporate tax liability is $1,000 or more. (Mandatory electronic payments via EFT apply if liability is $500 or more).\n  * **Electing PTEs (A.R.S. § 43-1014(B)(3)):** Must pay estimated tax pursuant to A.R.S. § 43-581 as necessary. Paid electronically via AZTaxes.gov or using voucher Form 120/165ES.\n* **Pass-Through Nonresident Withholding:**\n  * **Rule:** Not found in Arizona statutes. Arizona does not impose a mandatory withholding requirement on pass-through entities with respect to distributive share/income allocations to nonresident partners or shareholders. Nonresident compliance is handled via individual Form 140NR, a composite return, or entity-level taxation under A.R.S. § 43-1014.\n* **Applicability:** Applies to tax years 2025 and 2026 (unchanged).\n* **Official URLs:** \n  * https://www.azleg.gov/ars/43/00581.htm\n  * https://www.azleg.gov/ars/43/00582.htm\n  * https://www.azleg.gov/ars/43/01014.htm\n\n---\n\n### 6. Main Return Forms\n* **Individual Forms:**\n  * **Form 140:** Resident Personal Income Tax Return\n  * **Form 140PY:** Part-Year Resident Personal Income Tax Return\n  * **Form 140NR:** Nonresident Personal Income Tax Return (also used for composite returns)\n  * **Form 140-SBI / 140PY-SBI / 140NR-SBI:** Small Business Income tax returns (if electing to report small business income separately)\n  * **Form 204:** Application for Filing Extension (Individuals)\n  * **Form 140ES:** Individual Estimated Tax Payment Voucher\n* **Corporate Forms:**\n  * **Form 120:** Corporation Income Tax Return\n  * **Form 120A:** Corporation Income Tax Return - Short Form\n  * **Form 120/165EXT:** Application for Extension of Time to File Corporate or Partnership Returns\n  * **Form 120ES / 120/165ES:** Corporation Estimated Tax Payment Voucher\n* **Pass-Through Entity Forms:**\n  * **Form 165:** Partnership Income Tax Return (includes Schedule K-1 and Schedule K-1(NR))\n  * **Form 120S:** S Corporation Income Tax Return (includes Schedule K-1 and Schedule K-1(NR))\n  * **Form 120/165EXT:** Application for Extension of Time to File\n  * **Form 120/165ES:** Estimated Tax Payment Voucher for Partnerships and S Corporations (used for PTET)\n* **Applicability:** Applies to tax years 2025 and 2026.\n* **Official URL:** \n  * https://azdor.gov/",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Calendar-year individual returns are due on or before April 15. Arizona allows an automatic 6-month extension to October 15, provided at least 90% of the tax liability is paid by the original due date.",
+    "source_url": "https://www.azleg.gov/ars/43/00325.htm",
+    "evidence": [
+     "fifteenth day of April",
+     "calendar year",
+     "close of the calendar year"
+    ],
+    "accepted": false,
+    "reason": "figures not on www.azleg.gov: ['15', '6', '90']; figures not on www.azleg.gov: ['15', '90']; not an official AZ host: www.freetaxusa.com; not an official AZ host: ftp.zillionforms.com; figures not on www.azleg.gov: ['90']; not an official AZ host: www.thomsonreuters.com; not an official AZ host: www.zillionforms.com; not an official AZ host: bradfordtaxinstitute.com; evidence not on www.azleg.gov (0/3); not an official AZ host: edzollarscpa.com; not an official AZ host: scholarship.law.wm.edu; n",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "C-corporation calendar-year returns are due April 15, while partnership and S-corporation returns are due March 15. Each entity type may obtain a 6-month extension using Arizona Form 120/165EXT or federal Form 7004.",
+    "source_url": "https://www.azleg.gov/ars/43/00325.htm",
+    "evidence": [
+     "fifteenth day of March",
+     "fifteenth day of April",
+     "returns of partnerships"
+    ],
+    "accepted": false,
+    "reason": "figures not on www.azleg.gov: ['120', '15', '165', '6', '7004']; figures not on www.azleg.gov: ['120', '15', '165', '7004']; not an official AZ host: www.freetaxusa.com; not an official AZ host: ftp.zillionforms.com; figures not on www.azleg.gov: ['120', '165', '7004']; not an official AZ host: www.thomsonreuters.com; not an official AZ host: www.zillionforms.com; not an official AZ host: bradfordtaxinstitute.com; evidence not on www.azleg.gov (0/3); not an official AZ host: edzollarscpa.com; no",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Arizona allows an elective pass-through entity tax at a flat rate of 2.5%. The election is made annually on or before the due date or extended due date by checking the PTE election box on the return.",
+    "source_url": "https://www.azleg.gov/ars/43/01014.htm",
+    "evidence": [
+     "pass-through entity",
+     "consent of the partners",
+     "taxable year"
+    ],
+    "accepted": false,
+    "reason": "figures not on www.azleg.gov: ['2.5']; not an official AZ host: www.freetaxusa.com; not an official AZ host: ftp.zillionforms.com; not an official AZ host: www.thomsonreuters.com; evidence not on www.azleg.gov (0/3); not an official AZ host: www.zillionforms.com; not an official AZ host: bradfordtaxinstitute.com; not an official AZ host: edzollarscpa.com; not an official AZ host: scholarship.law.wm.edu; not an official AZ host: law.justia.com; not an official AZ host: www.instead.com; not an off",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "composite",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Partnerships and S corporations may file a composite Form 140NR on behalf of a minimum of 10 participating eligible nonresident individuals. Participating members are not permitted to claim itemized deductions, tax credits, or net operating loss carryovers.",
+    "source_url": "https://azdor.gov/",
+    "evidence": [
+     "composite return",
+     "Form 140NR",
+     "nonresident individual"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://azdor.gov/; figures not on www.azleg.gov: ['10']; figures not on www.azleg.gov: ['10', '140']; not an official AZ host: www.freetaxusa.com; not an official AZ host: ftp.zillionforms.com; figures not on www.azleg.gov: ['140']; not an official AZ host: www.thomsonreuters.com; not an official AZ host: www.zillionforms.com; not an official AZ host: bradfordtaxinstitute.com; evidence not on www.azleg.gov (0/3); not an official AZ host: edzollarscpa.com; not an official AZ host: sc",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Individuals must pay estimated taxes if Arizona gross income exceeds $75,000 ($150,000 for married filing joint) for both the current and preceding years, while corporate estimates apply if liability is $1,000 or more. Electing pass-through entities must pay estimated taxes, but Arizona imposes no mandatory withholding on nonresident pass-through owners.",
+    "source_url": "https://www.azleg.gov/ars/43/00581.htm",
+    "evidence": [
+     "payment of estimated tax",
+     "seventy-five thousand dollars",
+     "one hundred fifty thousand"
+    ],
+    "accepted": false,
+    "reason": "evidence not on www.azleg.gov (1/3); figures not on www.azleg.gov: ['1000', '150000', '75000']; not an official AZ host: www.freetaxusa.com; not an official AZ host: ftp.zillionforms.com; not an official AZ host: www.thomsonreuters.com; figures not on www.azleg.gov: ['1000', '75000']; not an official AZ host: www.zillionforms.com; not an official AZ host: bradfordtaxinstitute.com; figures not on www.azleg.gov: ['150000', '75000']; not an official AZ host: edzollarscpa.com; not an official AZ hos",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Key individual tax forms include Form 140, Form 140PY, and Form 140NR. Corporate and pass-through returns include Form 120, Form 120S, and Form 165, with extension Form 120/165EXT.",
+    "source_url": "https://azdor.gov/",
+    "evidence": [
+     "Form 140",
+     "Form 120",
+     "Form 165",
+     "Form 120S"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://azdor.gov/; figures not on www.azleg.gov: ['120', '165']; figures not on www.azleg.gov: ['120', '140', '165']; not an official AZ host: www.freetaxusa.com; not an official AZ host: ftp.zillionforms.com; not an official AZ host: www.thomsonreuters.com; not an official AZ host: www.zillionforms.com; not an official AZ host: bradfordtaxinstitute.com; evidence not on www.azleg.gov (0/4); not an official AZ host: edzollarscpa.com; not an official AZ host: scholarship.law.wm.edu; n",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://www.azleg.gov/legtext/52leg/2r/laws/0155.htm",
+   "https://www.azleg.gov/ars/42/01107.htm",
+   "https://www.freetaxusa.com/states/arizona/",
+   "https://ftp.zillionforms.com/2025/I2531206042.PDF?cfu=TAA&cpid=WKUS-TAA-AC",
+   "https://www.azleg.gov/arsDetail/?title=43",
+   "https://www.azleg.gov/arsDetail/?title=42",
+   "https://www.thomsonreuters.com/content/dam/helpandsupp/en-us/Topics/ONESOURCE-family/e-file/files/1065-state-efile-mr.pdf",
+   "https://www.azleg.gov/ars/43/01014.htm",
+   "https://www.azleg.gov/ars/43/01014.htm",
+   "https://www.azleg.gov/legtext/57leg/1R/summary/H.HB2918_022525_HOUSEENGROSSED.DOCX.htm",
+   "https://www.azleg.gov/legtext/56leg/1r/bills/sb1734p.htm",
+   "https://www.azleg.gov/ars/43/01011.htm",
+   "https://www.zillionforms.com/2021/F2131204411.PDF",
+   "https://www.thomsonreuters.com/en-us/help/gosystem-tax-rs/1120/states/arizona/form-140nr-print-requirements.html",
+   "https://bradfordtaxinstitute.com/Endnotes/Arizona_Pub_713.pdf",
+   "https://www.azleg.gov/alisPDFs/council/2019_Internal_Reference_Manual.pdf",
+   "https://www.azleg.gov/ars/43/00581.htm",
+   "https://edzollarscpa.com/page/2/",
+   "https://scholarship.law.wm.edu/cgi/viewcontent.cgi?article=1085&context=tax",
+   "https://law.justia.com/codes/arizona/title-43/",
+   "https://www.instead.com/state-tax-deadlines/2026-arizona-state-tax-deadlines",
+   "https://www.e-file.com/states/arizona.php",
+   "https://www.taxformfinder.org/forms/2017/2017-arizona-form-140es.pdf",
+   "https://www.taxreminder.com/forms/Arizona/120s-s-corporation-income-tax-return/",
+   "https://www.zillionforms.com/2020/I2042000090.PDF",
+   "https://care-cdn.prodsupportsite.a.intuit.com/forms-availability/turbotaxbusiness_az_windows_scorp.html",
+   "https://www.taxformfinder.org/forms/2013/2013-arizona-form-120es.pdf",
+   "https://ftp.zillionforms.com/2024/F2431508157.PDF?cfu=TAA&cpid=WKUS-TAA-AC"
+  ],
+  "error": ""
+ }
+]

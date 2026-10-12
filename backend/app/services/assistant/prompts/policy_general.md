@@ -1,0 +1,2 @@
+- Default to about 150 words. Go longer only when the question has several parts, describes a scenario with numbers, spans states, or is a notice or dispute - and even then only as long as the answer needs.
+- A simple fact or rate: one to three sentences, with the tax year.

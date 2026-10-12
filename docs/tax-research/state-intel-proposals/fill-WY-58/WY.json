@@ -1,0 +1,117 @@
+[
+ {
+  "state": "WY",
+  "section": "apportionment",
+  "notes": "### Overview: Wyoming Corporate Income Tax Status\n\nThe State of Wyoming does not levy a corporate income tax or individual income tax. Under Wyoming Statutes Title 39, Chapter 12, the state preempts the field of income taxation, but no corporate income tax is imposed. Additionally, Article 15, Section 18 of the Wyoming Constitution provides that no tax shall be imposed upon income without allowing full credit for all sales, use, and ad valorem taxes paid in the taxable year. \n\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Wyoming Legislature (Title 39 – Taxation and Revenue): https://wyoleg.gov/statutes/compress/title39.pdf\n  * Wyoming Legislature (Constitution, Title 97): https://wyoleg.gov/statutes/compress/title97.pdf\n  * Wyoming Department of Revenue: https://revenue.wyo.gov/\n\n---\n\n### Topics\n\n#### 1. Multistate Business Income Apportionment Formula\n* **Fact:** Not found (not applicable). Wyoming does not impose a corporate income tax or a gross receipts tax on business income; therefore, no apportionment formula (e.g., single sales factor, three-factor, or double-weighted sales) exists in Wyoming statute or administrative rules.\n* **Tax Years:** 2025 and 2026 (unchanged).\n* **Official URL:** https://wyoleg.gov/statutes/compress/title39.pdf\n\n#### 2. Sourcing Method for Receipts from Services and Intangibles (Market-Based vs. Cost of Performance)\n* **Fact:** Not found (not applicable). Because Wyoming does not impose a corporate income tax, there are no statutory provisions or Department of Revenue rules establishing market-based sourcing or cost-of-performance sourcing for corporate receipts.\n* **Tax Years:** 2025 and 2026 (unchanged).\n* **Official URL:** https://wyoleg.gov/statutes/compress/title39.pdf\n\n#### 3. Special Industry Apportionment Formulas\n* **Fact:** Not found (not applicable). Wyoming maintains no special industry-specific income tax apportionment formulas.\n* **Tax Years:** 2025 and 2026 (unchanged).\n* **Official URL:** https://wyoleg.gov/statutes/compress/title39.pdf\n\n#### 4. Form or Schedule Used to Compute Apportionment\n* **Fact:** Not found (not applicable). The Wyoming Department of Revenue does not have or administer a corporate income tax return, apportionment schedule, or apportionment computation form.\n* **Tax Years:** 2025 and 2026 (unchanged).\n* **Official URL:** https://revenue.wyo.gov/",
+  "proposals": [],
+  "grounding_urls": [
+   "https://wyoleg.gov/InterimCommittee/2025/03-202506032-01WyomingtaxstructureratesandcollectionsJune32025.pdf",
+   "https://www.energy.gov/sites/default/files/2024-05/final-ea-2217-tff-05-16-2024.pdf",
+   "https://wyoleg.gov/statutes/compress/title39.pdf",
+   "https://wyoleg.gov/statutes/compress/title97.pdf",
+   "https://revenue.wyo.gov/",
+   "https://settledestate.com/wyoming/probate-accounting/",
+   "https://wyoleg.gov/statutes/compress/title97.pdf",
+   "https://revenue.wyo.gov/rules-and-regulations",
+   "https://revenue.wyo.gov/our-mission"
+  ],
+  "error": ""
+ },
+ {
+  "state": "WY",
+  "section": "nexus",
+  "notes": "### Income or Franchise Tax Nexus\n* **Fact / Amounts:** Wyoming does not impose an individual income tax, corporate income tax, or corporate franchise tax. Consequently, there are no statutory income or franchise tax nexus rules, bright-line standards, or economic nexus thresholds.\n* **Applicable Tax Years:** Tax years 2025 and 2026 (unchanged).\n* **Official URLs:** \n  * Wyoming Legislature, Title 39 (Taxation and Revenue): https://wyoleg.gov/statutes/compress/title39.pdf\n  * Wyoming Department of Revenue (Divisions & Taxes Administered): https://revenue.wyo.gov/divisions\n\n---\n\n### Remote Seller Economic Nexus Threshold and Measurement Period\n* **Fact / Amounts:** Under W.S. § 39-15-501(a), a remote seller without a physical presence in Wyoming is required to collect and remit sales tax if:\n  * **Sales Amount:** The seller’s gross revenue from the sale of tangible personal property, admissions, or services delivered into Wyoming exceeds **$100,000.00**.\n  * **Transaction Count:** **None**. The former threshold of 200 or more separate transactions under W.S. § 39-15-501(a)(ii) was repealed effective July 1, 2024, by Laws 2024, ch. 67, § 2 (HB 0197).\n  * **Measurement Period:** The **current calendar year** or the **immediately preceding calendar year**.\n* **Applicable Tax Years:** Applies to both tax years 2025 and 2026 (the repeal of the 200-transaction count took effect July 1, 2024, and remains in effect without changes between 2025 and 2026).\n* **Official URLs:** \n  * Wyoming Legislature, Title 39, Chapter 15, Article 5 (W.S. § 39-15-501): https://wyoleg.gov/statutes/compress/title39.pdf\n  * Wyoming Legislature, 2024 HB 0197 / Chapter 67 Session Laws: https://wyoleg.gov/Legislation/2024/HB0197\n\n---\n\n### State's Stated Position on Public Law 86-272 Protection\n* **Fact:** **Not found** (Wyoming does not impose a net income tax; therefore, P.L. 86-272 is inapplicable and no official position or guidance exists on the Wyoming Department of Revenue or Wyoming Legislature websites).",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Wyoming does not impose an individual income tax, corporate income tax, or corporate franchise tax. Therefore, there are no statutory income or franchise tax nexus rules, bright-line standards, or economic nexus thresholds.",
+    "source_url": "https://revenue.wyo.gov/divisions",
+    "evidence": [
+     "Department of Revenue",
+     "Taxes Administered"
+    ],
+    "accepted": false,
+    "reason": "evidence not on revenue.wyo.gov (0/2); evidence not on www.wyoleg.gov (0/2); evidence not on wyoleg.gov (1/2)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Remote sellers must collect and remit sales tax if gross revenue from sales delivered into Wyoming exceeds $100,000.00 in the current calendar year or the immediately preceding calendar year. There is no transaction count threshold following the repeal of the 200-transaction requirement.",
+    "source_url": "https://wyoleg.gov/statutes/compress/title39.pdf",
+    "evidence": [
+     "gross revenue",
+     "delivered into Wyoming",
+     "exceeds $100,000.00",
+     "immediately preceding calendar year"
+    ],
+    "accepted": false,
+    "reason": "figures not on wyoleg.gov: ['100000', '200']; figures not on www.wyoleg.gov: ['100000', '200']; figures not on revenue.wyo.gov: ['100000', '200']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://www.wyoleg.gov/InterimCommittee/2019/03-20190708TaxFoundation-WyomingNRFA.pdf",
+   "https://wyoleg.gov/InterimCommittee/2025/03-202506032-01WyomingtaxstructureratesandcollectionsJune32025.pdf",
+   "https://wyoleg.gov/statutes/compress/title39.pdf",
+   "https://revenue.wyo.gov/divisions",
+   "https://wyoleg.gov/statutes/compress/title39.pdf",
+   "https://www.wyoleg.gov/Legislation/2024/HB0197"
+  ],
+  "error": ""
+ },
+ {
+  "state": "WY",
+  "section": "filing",
+  "notes": "### State Income Tax Overview (Tax Years 2025 and 2026)\nWyoming does not impose an individual income tax, corporate income tax, or pass-through entity income tax. Under Wyoming Statutes Title 39, Chapter 12 (§ 39-12-101), the state preempts the field of income taxation, and no general income tax statutes, individual/corporate income tax return requirements, or pass-through withholding rules exist under Wyoming law. The Wyoming Department of Revenue only administers excise (sales and use) taxes, mineral severance taxes, property taxes, and liquor control. \n\n---\n\n### Topics\n\n#### 1. Individual Returns: Due Dates and Extensions\n* **Fact:** Not found / Not applicable. Wyoming does not levy an individual income tax; consequently, no individual income tax returns, due dates, or extension mechanisms exist.\n* **Applicable Tax Years:** 2025 and 2026 (no changes).\n* **Official URL:** https://wyoleg.gov/statutes/compress/title39.pdf and https://revenue.wyo.gov/\n\n---\n\n#### 2. Corporate and Pass-Through Return Due Dates and Extension Rules\n* **Fact:** \n  * **Income Tax:** Not found / Not applicable. Wyoming does not impose a corporate or pass-through entity income tax, so no corporate or pass-through income tax returns, return due dates, or income tax extension rules exist.\n  * **Entity Annual Report License Tax (Secretary of State):** All domestic and foreign profit corporations, LLCs, limited partnerships, and registered LLPs registered in Wyoming must file an annual report and pay an annual license tax administered by the Wyoming Secretary of State (not the Department of Revenue). \n    * **Due Date:** Due annually on or before the first day of the entity's anniversary month of formation or qualification (statutory trusts are due January 2). An annual report may be filed up to 120 days before its due date.\n    * **Extensions:** No filing extension is provided. An entity becomes delinquent if the report and fee are not paid within 30 days after the due date, and dissolution/revocation proceedings begin if not filed by the statutory deadline.\n    * **Rate:** The annual license tax is $60 or two-tenths of one mill on the dollar ($0.0002), whichever is greater, based on company assets located and employed in Wyoming (an entity with $300,000 or less in assets pays the minimum $60).\n* **Applicable Tax Years:** 2025 and 2026 (no changes).\n* **Official URL:** https://sos.wyo.gov/Business/BusinessEntities.aspx and https://wyoleg.gov/statutes/compress/title17.pdf\n\n---\n\n#### 3. Elective Pass-Through Entity Tax (PTET)\n* **Fact:** Not found / Does not exist. Wyoming does not impose a state income tax and has not enacted an elective pass-through entity tax.\n* **Applicable Tax Years:** 2025 and 2026 (no changes).\n* **Official URL:** https://revenue.wyo.gov/ and https://wyoleg.gov/statutes/compress/title39.pdf\n\n---\n\n#### 4. Composite or Group Nonresident Returns for Pass-Through Entities\n* **Fact:** Not found / Not applicable. Because Wyoming imposes no personal or entity income taxes, composite or group nonresident return filings do not exist.\n* **Applicable Tax Years:** 2025 and 2026 (no changes).\n* **Official URL:** https://revenue.wyo.gov/ and https://wyoleg.gov/statutes/compress/title39.pdf\n\n---\n\n#### 5. Estimated Tax Payments and Nonresident Withholding for Pass-Throughs\n* **Fact:** Not found / Not applicable. Wyoming law does not impose income taxes, and therefore requires no estimated income tax payments and no nonresident owner withholding on pass-through income.\n* **Applicable Tax Years:** 2025 and 2026 (no changes).\n* **Official URL:** https://revenue.wyo.gov/ and https://wyoleg.gov/statutes/compress/title39.pdf\n\n---\n\n#### 6. Main Return Forms (Individual, Corporate, Pass-Through)\n* **Fact:** Not found / None. The Wyoming Department of Revenue does not publish or accept individual income tax, corporate income tax, or pass-through entity income tax forms.\n  * *Note on Non-Income Filings:* For registered corporate and pass-through entities, the required annual report and accompanying balance sheet worksheet are filed directly with the Wyoming Secretary of State (online through WyoBiz or via the Secretary of State's paper Annual Report form).\n* **Applicable Tax Years:** 2025 and 2026 (no changes).\n* **Official URL:** https://revenue.wyo.gov/ and https://sos.wyo.gov/Forms/default.aspx",
+  "proposals": [
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Wyoming entity annual reports and license taxes are due annually on or before the first day of the entity's anniversary month of formation or qualification, with no filing extensions provided. Entities become delinquent if the report and license tax of $60 or two-tenths of one mill on the dollar are not paid within 30 days after the due date.",
+    "source_url": "https://sos.wyo.gov/Business/BusinessEntities.aspx",
+    "evidence": [
+     "anniversary month of formation",
+     "two-tenths of one mill",
+     "first day of the"
+    ],
+    "accepted": false,
+    "reason": "not an official WY host: sos.wyo.gov; figures not on wyoleg.gov: ['30']; evidence not on wyoleg.gov (1/3); figures not on revenue.wyo.gov: ['30', '60']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://wyoleg.gov/InterimCommittee/2025/03-202506032-01WyomingtaxstructureratesandcollectionsJune32025.pdf",
+   "https://wyoleg.gov/statutes/compress/title39.pdf",
+   "https://revenue.wyo.gov/our-mission",
+   "https://revenue.wyo.gov/divisions",
+   "https://sos.wyo.gov/faqs.aspx?root=BUS",
+   "https://sos.wyo.gov/Forms/Business/FST/FST-CertificateAuthority.pdf",
+   "https://sos.wyo.gov/business/docs/businessfees.pdf",
+   "https://sos.wyo.gov/Forms/WyoBiz/WBCA.pdf",
+   "https://sos.wyo.gov/Forms/Business/General/ARWorksheet.pdf",
+   "https://sos.wyo.gov/business/default.aspx",
+   "https://sos.wyo.gov/forms/default.aspx?root=Business"
+  ],
+  "error": ""
+ }
+]

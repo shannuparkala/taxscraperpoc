@@ -1,0 +1,162 @@
+[
+ {
+  "state": "VT",
+  "section": "filing",
+  "notes": "### 1. Individual Income Tax Return Due Dates and Extension Rules\n* **Due Date:** Calendar-year individual returns are due on **April 15** following the close of the tax year (or the next business day if April 15 falls on a weekend or legal holiday; e.g., April 15, 2026, for tax year 2025 and April 15, 2027, for tax year 2026).\n* **Extension Rules:** \n  * Vermont allows an extension of **6 months** (to **October 15**) to file Form IN-111.\n  * An extension granted by the IRS automatically extends the Vermont filing deadline. \n  * Taxpayers not using a federal extension, or wishing to apply directly, can submit **Form IN-151** (*Application for Extension of Time to File Form IN-111*) or apply online through **myVTax** on or before the April due date.\n  * An extension grants additional time to file, **not** time to pay. Any tax owed must be paid by the April due date to avoid interest and late payment penalties (assessed at 1% per month up to a maximum of 25%).\n* **Applicability:** Applies to both tax years 2025 and 2026 (unchanged).\n* **Official URLs:** \n  * https://tax.vermont.gov/file-an-extension\n  * https://tax.vermont.gov/individuals/who-should-file\n\n---\n\n### 2. Corporate and Pass-Through Return Due Dates and Extension Rules\n* **Corporate Income Tax (C-Corporations):**\n  * **Due Date:** Due on the date prescribed under the Internal Revenue Code (for calendar-year filers, the **15th day of the 4th month** following the end of the tax year, i.e., **April 15**).\n  * **Extension Rules:** An extension of time to file a federal corporate return automatically extends the Vermont filing deadline to **30 days beyond the federal extension date** (giving corporations 7 months, until **November 15** for calendar-year filers). Taxpayers may also request an extension online via myVTax or by filing **Form BA-403** (*Application for Extension of Time to File Vermont Corporate/Business Income Tax Returns*). An extension does not extend time to pay tax.\n* **Pass-Through Entities (S-Corporations, Partnerships, LLCs):**\n  * **Due Date:** Due on the date established for filing under the Internal Revenue Code (for calendar-year filers, the **15th day of the 3rd month**, i.e., **March 15**). An annual minimum tax of **$250** is due with the return.\n  * **Extension Rules:** An extension of time to file the federal pass-through return automatically extends the Vermont filing deadline to **30 days beyond the federal extension date** (giving entities 7 months, until **October 15** for calendar-year filers). Taxpayers can also request an extension using **Form BA-403** or online through myVTax. Taxes due (including the $250 entity minimum tax) must still be paid by the original due date.\n* **Applicability:** Applies to both tax years 2025 and 2026 (unchanged).\n* **Official URLs:**\n  * https://tax.vermont.gov/business/corporate-income-tax\n  * https://tax.vermont.gov/business/business-entity-income-tax\n  * https://tax.vermont.gov/file-an-extension\n\n---\n\n### 3. Elective Pass-Through Entity Tax (PTET)\n* **Status:** **Does not exist.** Vermont has not enacted an elective pass-through entity tax (PTET). Legislative proposals to create an elective PTET (such as Senate Bill S.45 under proposed 32 V.S.A. Chapter 151, Subchapter 10C) failed passage and were not enacted into law.\n* **Rate / Election Process:** Not applicable / not found in enacted Vermont law.\n* **Applicability:** Tax years 2025 and 2026.\n* **Official URLs:**\n  * https://tax.vermont.gov/business/business-entity-income-tax\n  * https://legislature.vermont.gov/bill/status/2024/S.45\n\n---\n\n### 4. Composite or Group Nonresident Returns for Pass-Through Entities\n* **Elective Composite Filing:** A pass-through entity may elect to file a composite return and pay income tax at the entity level on behalf of all owners who are nonresidents of Vermont.\n* **Mandatory Composite Filing:** Composite filing is **mandatory** for pass-through entities with **more than 50 nonresident** shareholders, partners, or members (32 V.S.A. §§ 5914(b), 5920(b)).\n* **Composite Tax Rate:** Under 32 V.S.A. §§ 5914(b) and 5920(b), composite tax payments are made at the **second-highest marginal tax rate** under 32 V.S.A. § 5822 (which is **7.6%**).\n* **Forms:** Calculated and reported on **Schedule BI-473** (*Composite Schedule*), attached to Form BI-471. Non-electing entities with nonresidents file **Schedule BI-472** (*Non-Composite Schedule*).\n* **Applicability:** Applies to both tax years 2025 and 2026 (unchanged).\n* **Official URLs:**\n  * https://tax.vermont.gov/business/business-entity-income-tax\n  * https://legislature.vermont.gov/statutes/section/32/151/05920\n  * https://legislature.vermont.gov/statutes/section/32/151/05914\n\n---\n\n### 5. Estimated Tax Payments and Nonresident Withholding for Pass-Throughs\n* **Nonresident Withholding Requirement:** \n  * Pass-through entities must make estimated income tax payments on behalf of their nonresident shareholders, partners, or members on income attributable to Vermont. \n  * Payments are remitted quarterly using **Form WH-435** (*Estimated Income Tax Payments for Nonresident Shareholders, Partners, or Members*).\n  * If composite filing is elected or mandated, Form WH-435 payments are applied directly toward the entity's composite return.\n* **Quarterly Due Dates:** \n  * Payments are due on the **15th day of the 4th, 6th, and 9th months** of the tax year and the **1st month of the subsequent year**.\n  * For calendar-year entities, these dates are **April 15, June 15, September 15, and January 15**.\n* **Withholding Rate:** Under 32 V.S.A. §§ 5914(c) and 5920(c), estimated tax withholding is calculated at the **next-to-lowest marginal tax rate** under 32 V.S.A. § 5822 (which is **6.6%**) multiplied by the nonresident owner’s pro rata share of Vermont-source income.\n* **Safe Harbor / Payment Thresholds:** Under 32 V.S.A. §§ 5914(c) and 5920(c), an entity with a single nonresident owner whose prior-year liability was **$250 or less**, or two or more nonresident owners whose prior-year liability was **$500 or less**, may remit the entire estimated amount on or before the fourth payment date (**January 15**).\n* **Corporate Estimated Tax Requirement:** Any C-corporation anticipating a Vermont tax liability over **$500** must make estimated payments on the 15th day of the 4th, 6th, 9th, and 12th months of the tax year using **Form CO-414**.\n* **Applicability:** Applies to both tax years 2025 and 2026 (unchanged).\n* **Official URLs:**\n  * https://tax.vermont.gov/business/business-entity-income-tax\n  * https://legislature.vermont.gov/statutes/section/32/151/05920\n  * https://legislature.vermont.gov/statutes/section/32/151/05914\n  * https://tax.vermont.gov/business/corporate-income-tax\n\n---\n\n### 6. Main Return Forms\n* **Individual:**\n  * **Form IN-111:** *Vermont Individual Income Tax Return*\n  * **Form IN-151:** *Application for Extension of Time to File Form IN-111*\n  * **Form IN-114:** *Individual Income Estimated Tax Payment Voucher*\n* **Corporate:**\n  * **Form CO-411:** *Vermont Corporate Income Tax Return*\n  * **Form CO-414:** *Corporate Estimated Tax Payment Voucher*\n  * **Form BA-403:** *Application for Extension of Time to File Vermont Corporate/Business Income Tax Returns*\n* **Pass-Through Entity:**\n  * **Form BI-471:** *Business Income Tax Return* (standard return for partnerships, S-corporations, and LLCs)\n  * **Form BI-476:** *Business Income Tax Return (For Resident Only)* (simplified return for entities owned exclusively by VT residents with VT-only income/loss)\n  * **Schedule BI-472:** *Non-Composite Schedule* (reporting nonresident withholding)\n  * **Schedule BI-473:** *Composite Schedule* (reporting composite tax)\n  * **Schedule BI-477:** *Vermont Income Adjustment Calculation: Pass-Through Nonresident* (sourcing and apportionment)\n  * **Schedule K-1VT:** *Shareholder, Partner, or Member Information*\n  * **Form WH-435:** *Estimated Income Tax Payments for Nonresident Shareholders, Partners, or Members*\n* **Applicability:** Applies to both tax years 2025 and 2026.\n* **Official URLs:**\n  * https://tax.vermont.gov/tax-forms-and-publications/individuals\n  * https://tax.vermont.gov/tax-forms-and-publications/businesses\n  * https://tax.vermont.gov/business/business-entity-income-tax\n  * https://tax.vermont.gov/business/corporate-income-tax",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Calendar-year individual income tax returns are due on April 15. Vermont grants a six-month filing extension to October 15 automatically if a federal extension is filed or via Form IN-151, though any tax owed must still be paid by the April due date.",
+    "source_url": "https://tax.vermont.gov/file-an-extension",
+    "evidence": [
+     "Form IN-151",
+     "Form IN-111",
+     "October 15",
+     "extension of time to file"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.vermont.gov/file-an-extension; figures not on tax.vermont.gov: ['151']; figures not on tax.vermont.gov: ['15']; figures not on tax.vermont.gov: ['15', '151']; unreadable: https://legislature.vermont.gov/statutes/section/32/151/05914; unreadable: https://legislature.vermont.gov/statutes/section/32/151/05920; unreadable: https://legislature.vermont.gov/statutes/section/32/151/05915; unreadable: https://legislature.vermont.gov/statutes/section/32/151/05921; unreadable: https",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Corporate returns are due on April 15 for calendar-year filers, while pass-through returns and the $250 annual minimum tax are due March 15. Vermont automatically extends the filing deadline to 30 days beyond the federal extension date, or entities may file Form BA-403.",
+    "source_url": "https://tax.vermont.gov/file-an-extension",
+    "evidence": [
+     "Form BA-403",
+     "30 days beyond",
+     "federal extension",
+     "extension of time to file"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.vermont.gov/file-an-extension; figures not on tax.vermont.gov: ['250', '403']; figures not on tax.vermont.gov: ['15', '250', '403']; figures not on tax.vermont.gov: ['15', '250']; dates not on tax.vermont.gov: ['April 15', 'March 15']; dates not on tax.vermont.gov: ['March 15']; unreadable: https://legislature.vermont.gov/statutes/section/32/151/05914; unreadable: https://legislature.vermont.gov/statutes/section/32/151/05920; unreadable: https://legislature.vermont.gov/st",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Vermont has not enacted an elective pass-through entity tax. Proposed legislation to create an elective PTET, such as Senate Bill S.45, failed passage.",
+    "source_url": "https://legislature.vermont.gov/bill/status/2024/S.45",
+    "evidence": [
+     "S.45",
+     "pass-through entity tax"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://legislature.vermont.gov/bill/status/2024/S.45; evidence not on tax.vermont.gov (0/2); unreadable: https://legislature.vermont.gov/statutes/section/32/151/05914; unreadable: https://legislature.vermont.gov/statutes/section/32/151/05920; unreadable: https://legislature.vermont.gov/statutes/section/32/151/05915; unreadable: https://legislature.vermont.gov/statutes/section/32/151/05921; unreadable: https://legislature.vermont.gov/Documents/2024/Docs/BILLS/S-0045/S-0045%20As%20Int",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "composite",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Pass-through entities may elect to file a composite return on Schedule BI-473 on behalf of nonresident owners, and composite filing is mandatory for entities with more than 50 nonresident owners. Composite tax payments are calculated at the second-highest marginal tax rate of 7.6%.",
+    "source_url": "https://legislature.vermont.gov/statutes/section/32/151/05920",
+    "evidence": [
+     "composite return",
+     "more than 50",
+     "second-highest marginal tax rate"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://legislature.vermont.gov/statutes/section/32/151/05920; figures not on tax.vermont.gov: ['473', '50', '7.6']; figures not on tax.vermont.gov: ['50', '7.6']; figures not on tax.vermont.gov: ['7.6']; unreadable: https://legislature.vermont.gov/statutes/section/32/151/05914; unreadable: https://legislature.vermont.gov/statutes/section/32/151/05915; unreadable: https://legislature.vermont.gov/statutes/section/32/151/05921; unreadable: https://legislature.vermont.gov/Documents/2024",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Pass-through entities must remit estimated withholding payments for nonresident owners quarterly on April 15, June 15, September 15, and January 15 using Form WH-435 at a rate of 6.6%. C-corporations expecting a Vermont liability over $500 must make quarterly estimated payments using Form CO-414.",
+    "source_url": "https://tax.vermont.gov/business/business-entity-income-tax",
+    "evidence": [
+     "Form WH-435",
+     "estimated payments",
+     "nonresident shareholders"
+    ],
+    "accepted": false,
+    "reason": "figures not on tax.vermont.gov: ['500', '6.6']; figures not on tax.vermont.gov: ['414', '435', '500', '6.6']; figures not on tax.vermont.gov: ['15', '414', '435', '500', '6.6']; figures not on tax.vermont.gov: ['6.6']; unreadable: https://legislature.vermont.gov/statutes/section/32/151/05914; unreadable: https://legislature.vermont.gov/statutes/section/32/151/05920; unreadable: https://legislature.vermont.gov/statutes/section/32/151/05915; unreadable: https://legislature.vermont.gov/statutes/sec",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Key forms include Form IN-111 for individuals, Form CO-411 for corporations, and Form BI-471 or Form BI-476 for pass-through entities. Associated pass-through schedules include Schedule K-1VT, Schedule BI-472, Schedule BI-473, and Form WH-435.",
+    "source_url": "https://tax.vermont.gov/tax-forms-and-publications/businesses",
+    "evidence": [
+     "Form BI-471",
+     "Form CO-411",
+     "Schedule K-1VT",
+     "Form WH-435"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.vermont.gov/tax-forms-and-publications/businesses; figures not on tax.vermont.gov: ['111', '411', '435', '471', '472', '473']; figures not on tax.vermont.gov: ['411', '435', '471', '472', '473', '476']; figures not on tax.vermont.gov: ['111']; unreadable: https://legislature.vermont.gov/statutes/section/32/151/05914; unreadable: https://legislature.vermont.gov/statutes/section/32/151/05920; unreadable: https://legislature.vermont.gov/statutes/section/32/151/05915; unreada",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://tax.vermont.gov/filing-season-faqs",
+   "https://tax.vermont.gov/individuals/who-should-file",
+   "https://tax.vermont.gov/individuals/request-extension",
+   "https://tax.vermont.gov/press-release/april-15-vermont-income-tax-and-homestead-declaration-filing-due-date",
+   "https://tax.vermont.gov/business/request-extension",
+   "https://tax.vermont.gov/tax-bill",
+   "https://tax.vermont.gov/business/corporate-income-tax",
+   "https://tax.vermont.gov/business/business-entity-income-tax",
+   "https://legislature.vermont.gov/statutes/section/32/151/05914",
+   "https://legislature.vermont.gov/statutes/section/32/151/05920",
+   "https://legislature.vermont.gov/statutes/section/32/151/05915",
+   "https://legislature.vermont.gov/statutes/section/32/151/05921",
+   "https://legislature.vermont.gov/Documents/2024/Docs/BILLS/S-0045/S-0045%20As%20Introduced.pdf",
+   "https://legislature.vermont.gov/bill/status/2024/S.45",
+   "https://legislature.vermont.gov/statutes/section/32/151/05914",
+   "https://legislature.vermont.gov/statutes/section/32/151/05920",
+   "https://tax.vermont.gov/all-forms",
+   "https://tax.vermont.gov/business/business-entity-income-tax/business-income-tax-form-set-faqs",
+   "https://legislature.vermont.gov/statutes/section/32/151/05914",
+   "https://tax.vermont.gov/individuals/estimated-income-tax/business-entity",
+   "https://tax.vermont.gov/business/business-entity-income-tax",
+   "https://legislature.vermont.gov/statutes/section/32/151/05920",
+   "https://tax.vermont.gov/personal-income-tax",
+   "https://tax.vermont.gov/documents?tid=174&order=title&sort=desc&page=19",
+   "https://tax.vermont.gov/business/business-entity-income-tax/business-income-tax-form-set-faqs",
+   "https://tax.vermont.gov/tax-law-and-guidance/compliance-corner",
+   "https://tax.vermont.gov/business/corporate-income-tax",
+   "https://tax.vermont.gov/individuals/personal-income-tax/rates"
+  ],
+  "error": ""
+ }
+]

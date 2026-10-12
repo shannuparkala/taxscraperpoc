@@ -1,0 +1,221 @@
+[
+ {
+  "state": "DE",
+  "section": "apportionment",
+  "notes": "",
+  "proposals": [],
+  "grounding_urls": [],
+  "error": "LlmError"
+ },
+ {
+  "state": "DE",
+  "section": "nexus",
+  "notes": "### Income and Franchise Tax Nexus\n\n* **Corporate Income Tax Nexus:**\n  * **Standard:** Imposed under 30 Del. C. § 1902(a) on every domestic or foreign corporation doing business in Delaware (and not specifically exempt under § 1902(b)) on net income derived from business activities carried on and property located within the state. \n  * **Filing Requirement:** Every corporation doing business in Delaware must file Form CIT-TAX and pay the 8.7% corporate income tax, regardless of the amount of gross income or taxable income. Domestic corporations incorporated in Delaware that do *not* conduct business in the state are not required to file a corporate income tax return.\n  * **Economic / Bright-Line Factor Nexus:** Not found. Delaware has not enacted an economic nexus dollar or transaction count bright-line factor-presence threshold for corporate income tax. Presence is evaluated based on activities and physical presence using the Division of Revenue’s Nexus Questionnaire.\n  * **Applicable Tax Years:** 2025 and 2026 (unchanged).\n  * **Official Sources:**\n    * Delaware Code Online (Title 30, Chapter 19): https://delcode.delaware.gov/title30/c019/index.html\n    * Delaware Division of Revenue – Corporate Income Tax FAQs: https://revenue.delaware.gov/frequently-asked-questions/corporate-tax-faqs/\n    * Delaware Division of Revenue – Filing Corporate Income Tax: https://revenue.delaware.gov/filing-corporate-income-tax/\n    * Delaware Division of Revenue – Nexus Questionnaire: https://revenue.delaware.gov/nexus-questionnaire/\n\n* **Franchise Tax Nexus:**\n  * **Standard:** Administered by the Delaware Department of State, Division of Corporations (pursuant to 8 Del. C. § 501 et seq.). Nexus is established purely by domestic incorporation under Delaware law; no business activities or physical presence in the state are required.\n  * **Foreign Entities:** Foreign corporations doing business in Delaware do not pay franchise tax, but must file an annual report and pay an annual filing fee of $250 under 8 Del. C. § 391(a)(8). Limited Liability Companies, Limited Partnerships, and General Partnerships formed or registered in Delaware pay an annual alternative entity tax of $400.\n  * **Corporation Franchise Tax Rates:** Minimum of $175 (Authorized Shares Method) or $400 (Assumed Par Value Capital Method); maximum of $200,000 (or $250,000 for Large Corporate Filers).\n  * **Applicable Tax Years:** 2025 and 2026 (unchanged).\n  * **Official Sources:**\n    * Delaware Code Online (Title 8, Chapter 5): https://delcode.delaware.gov/title08/c005/index.html\n    * Delaware Division of Corporations – Annual Report and Tax Instructions: https://corp.delaware.gov/annual-report-and-tax-instructions/\n    * Delaware Division of Corporations – LLC/LP/GP Tax Instructions: https://corp.delaware.gov/llclpgp-franchise-tax-instructions/\n\n---\n\n### Remote Seller Economic Nexus Threshold & Measurement Period\n\n* **Sales and Use Tax:** Delaware does not impose a state or local general sales tax. Consequently, there is no remote seller economic nexus threshold (e.g., dollar volume or transaction count) or measurement period.\n* **Gross Receipts Tax (GRT):** Remote sellers without a physical presence/nexus in the state are not required to register or pay Delaware gross receipts tax on sales into the state (\"Internet retail dealers with no nexus in Delaware are not required to report and remit taxes on internet sales\"). Delaware has no bright-line remote seller economic nexus threshold for gross receipts tax.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Delaware Division of Revenue – Doing Business in Delaware: https://revenue.delaware.gov/doing-business-in-delaware/\n  * Delaware Division of Revenue – Vapor Products / Internet Sales FAQs: https://revenue.delaware.gov/frequently-asked-questions/vapor-products-faqs/\n\n---\n\n### Public Law 86-272 Position\n\n* **Stated Position:** Not found [5.1, 10.1]. \n* **Details:** The Delaware Division of Revenue has not published official administrative regulations, Technical Information Memorandums (TIMs), or formal guidance adopting or addressing P.L. 86-272 or the Multistate Tax Commission’s (MTC) revised guidance on internet activities. Nexus determinations for out-of-state entities soliciting sales are evaluated individually based on statutory \"doing business\" provisions through the Division of Revenue’s Nexus Questionnaire.\n* **Applicable Tax Years:** 2025 and 2026.\n* **Official Sources:**\n  * Delaware Division of Revenue – Technical Information Memorandums: https://revenue.delaware.gov/technical-information-memorandums-tims/\n  * Delaware Division of Revenue – Nexus Questionnaire: https://revenue.delaware.gov/nexus-questionnaire/",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Every corporation doing business in Delaware must file Form CIT-TAX and pay the 8.7% corporate income tax on net income derived from business activities and property within the state. Domestic corporations incorporated in Delaware that do not conduct business in the state are not required to file a corporate income tax return.",
+    "source_url": "https://revenue.delaware.gov/frequently-asked-questions/corporate-tax-faqs/",
+    "evidence": [
+     "doing business in Delaware",
+     "Form CIT-TAX",
+     "8.7% corporate income tax"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://revenue.delaware.gov/frequently-asked-questions/corporate-income-tax-faqs/",
+    "matched_title": "Corporate Income Tax FAQs - Division of Revenue - State of Delaware",
+    "matched_phrases": [
+     "doing business in Delaware",
+     "Form CIT-TAX"
+    ],
+    "snippet": "Every domestic or foreign corporation doing business in Delaware, not specifically exempt under Section 1902(b), Title 30, Delaware Code, is required to file a corporate income tax return (Form CIT-TAX) and pay a tax of 8.7% on its federal taxable income allocated and apportioned to Delaware."
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Delaware does not impose a state or local general sales tax and has no remote seller economic nexus threshold or measurement period. Internet retail dealers with no nexus in Delaware are not required to report and remit taxes on internet sales.",
+    "source_url": "https://revenue.delaware.gov/frequently-asked-questions/vapor-products-faqs/",
+    "evidence": [
+     "no nexus in Delaware",
+     "remit taxes on internet sales",
+     "Internet retail dealers"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://revenue.delaware.gov/frequently-asked-questions/vapor-products-faqs/",
+    "matched_title": "Vapor Products FAQs - Division of Revenue - State of Delaware",
+    "matched_phrases": [
+     "no nexus in Delaware",
+     "remit taxes on internet sales",
+     "Internet retail dealers"
+    ],
+    "snippet": "Internet retail dealers with no nexus in Delaware are not required to report and remit taxes on internet sales."
+   }
+  ],
+  "grounding_urls": [
+   "https://revenue.delaware.gov/frequently-asked-questions/corporate-income-tax-faqs/",
+   "https://delcode.delaware.gov/title30/c019/index.html",
+   "https://revenue.delaware.gov/business-tax-forms/filing-corporate-income-tax/",
+   "https://revenue.delaware.gov/frequently-asked-questions/corporate-income-tax-faqs/",
+   "https://revenue.delaware.gov/business-tax-forms/doing-business-in-delaware/",
+   "https://revenue.delaware.gov/business-tax-forms/lookback-period/",
+   "https://revenue.delaware.gov/frequently-asked-questions/cigarette-and-tobacco-tax-faqs/",
+   "https://revenue.delaware.gov/nexus-questionnaire/",
+   "https://revenue.delaware.gov/frequently-asked-questions/business-licenses-faqs/",
+   "https://revenue.delaware.gov/business-tax-forms/",
+   "https://revenue.delaware.gov/services-for-the-business-taxpayer/",
+   "https://revenue.delaware.gov/business-tax-forms/filing-corporate-income-tax/",
+   "https://revenue.delaware.gov/nexus-questionnaire/",
+   "https://corp.delaware.gov/taxfaq/",
+   "https://corp.delaware.gov/frtaxcalc/",
+   "https://delcode.delaware.gov/title8/c001/sc18/index.html",
+   "https://corp.delaware.gov/alt-entitytaxinstructions/",
+   "https://corp.delaware.gov/frtax/",
+   "https://corp.delaware.gov/paytaxes/",
+   "https://delcode.delaware.gov/title8/c005/index.html",
+   "https://delcode.delaware.gov/title8/c005/index.html",
+   "https://revenue.delaware.gov/frequently-asked-questions/vapor-products-faqs/",
+   "https://revenue.delaware.gov/info/tims/"
+  ],
+  "error": ""
+ },
+ {
+  "state": "DE",
+  "section": "rates",
+  "notes": "### 1. Individual Income Tax Rate(s) and Brackets\n\n* **Tax Rates and Brackets:**  \n  Delaware imposes a graduated personal income tax with seven brackets (including the 0% base bracket) under 30 Del. C. § 1102(a)(14):\n  * **$0 to $2,000:** 0.0% ($0 tax)\n  * **$2,000 to $5,000:** 2.2% on taxable income over $2,000\n  * **$5,000 to $10,000:** $66.00 + 3.9% on taxable income over $5,000\n  * **$10,000 to $20,000:** $261.00 + 4.8% on taxable income over $10,000\n  * **$20,000 to $25,000:** $741.00 + 5.2% on taxable income over $20,000\n  * **$25,000 to $60,000:** $1,001.00 + 5.55% on taxable income over $25,000\n  * **Over $60,000:** $2,943.50 + 6.6% on taxable income over $60,000\n* **Applicable Tax Years:** 2025 and 2026 (rates and brackets are unchanged between 2025 and 2026).\n* **Official URLs:**  \n  * Delaware Division of Revenue (Tax Rate Changes): https://revenue.delaware.gov/tax-rate-changes/\n  * Delaware Code Online (30 Del. C. § 1102): https://delcode.delaware.gov/title30/c011/index.html\n\n---\n\n### 2. Corporate Income Tax, Corporate Franchise Tax, and Minimum Tax\n\n* **Corporate Income Tax (CIT):**\n  * **Rate:** 8.7% of federal taxable income allocated and apportioned to Delaware (30 Del. C. § 1902).\n  * **Minimum Tax:** None ($0). Corporations doing business in Delaware must file regardless of income, but pay tax only on apportioned taxable income. Corporations not conducting business in Delaware are exempt from corporate income tax.\n  * **Applicable Tax Years:** 2025 and 2026 (unchanged).\n  * **Official URLs:**  \n    * https://revenue.delaware.gov/frequently-asked-questions/corporate-income-tax-faqs/\n    * https://revenue.delaware.gov/filing-corporate-income-tax/\n\n* **Corporate Franchise Tax (administered through the Delaware Secretary of State / Division of Corporations):**\n  * Imposed on all domestic corporations for the privilege of incorporation, computed using the method that results in the lesser tax:\n    * **Authorized Shares Method:** Minimum tax is $175.00 (up to 5,000 shares); $250.00 for 5,001–10,000 shares; plus $85.00 for each additional 10,000 shares or portion thereof. Maximum tax is $200,000.00 ($250,000.00 for Large Corporate Filers).\n    * **Assumed Par Value Capital Method:** Minimum tax is $400.00 ($400.00 per $1,000,000 or fraction of assumed par value capital). Maximum tax is $200,000.00 ($250,000.00 for Large Corporate Filers).\n  * **Annual Report Filing Fee:** $50.00 for domestic non-exempt corporations ($25.00 for exempt domestic corporations).\n  * **Alternative Entity Tax:** Limited Partnerships (LPs), Limited Liability Companies (LLCs), and General Partnerships (GPs) pay a flat annual tax of $300.00.\n  * **Applicable Tax Years:** 2025 and 2026 (unchanged).\n  * **Official URLs:**  \n    * Delaware Division of Revenue (Franchise Taxes): https://revenue.delaware.gov/franchise-taxes/\n    * Delaware Division of Corporations: https://corp.delaware.gov/calculate-tax/\n    * Delaware Division of Corporations: https://corp.delaware.gov/annual-reports/\n\n---\n\n### 3. State Sales and Use Tax Rate & Local Rates\n\n* **State Sales and Use Tax Rate:** 0.0%. Delaware does not impose a state sales or use tax.\n* **Local Sales Tax Rates:** 0.0%. Delaware does not permit or have local sales taxes.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official URLs:**  \n  * https://revenue.delaware.gov/steps-to-open-a-business/step-4/\n  * https://revenue.delaware.gov/doing-business-in-delaware/\n  * https://revenue.delaware.gov/frequently-asked-questions/business-licenses-faqs/\n\n---\n\n### 4. Gross Receipts and Other Notable Business Taxes\n\n* **Gross Receipts Tax (GRT):**\n  * Delaware imposes a gross receipts tax on the total gross revenues of sellers of goods or providers of services within the state. Deductions are not allowed for costs of goods, labor, or other business expenses.\n  * **Tax Rates:** Rates range from 0.0945% to 1.9914% depending on business category. Petroleum products are subject to an additional/variable tax rate up to 2.4218%.\n  * **Exclusions:** Monthly/quarterly exclusions generally start at $100,000 per month and can reach up to $1,250,000 depending on the specific activity.\n  * **Hazardous Substance Cleanup Act (HSCA) Surtax Adjustment:** For taxable petroleum and chemical gross receipts, the rate increased from 1.120% (2025) to 1.1902% effective January 1, 2026.\n  * **Applicable Tax Years:** 2025 and 2026 (general GRT rates remain unchanged; HSCA rate updated for 2026).\n* **Official URLs:**  \n  * https://revenue.delaware.gov/frequently-asked-questions/gross-receipts-tax-faqs/\n  * https://revenue.delaware.gov/steps-to-open-a-business/step-4/\n  * https://revenue.delaware.gov/press-and-media/",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Delaware personal income tax rates range from 0.0% on taxable income up to $2,000 to a top rate of 6.6% on taxable income over $60,000 across seven graduated brackets. Intermediate bracket rates are 2.2%, 3.9%, 4.8%, 5.2%, and 5.55%.",
+    "source_url": "https://revenue.delaware.gov/tax-rate-changes/",
+    "evidence": [
+     "personal income tax",
+     "taxable income over",
+     "6.6% on taxable income"
+    ],
+    "accepted": false,
+    "reason": "figures not on revenue.delaware.gov: ['2.2', '3.9', '4.8', '5.2', '5.55', '6.6']; figures not on delcode.delaware.gov: ['0']; figures not on revenue.delaware.gov: ['0', '2.2', '2000', '3.9', '4.8', '5.2']; figures not on corp.delaware.gov: ['0', '2.2', '2000', '3.9', '4.8', '5.2']; unreadable: https://revenue.delaware.gov/business-tax-forms/doing-business-in-delaware/",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Delaware imposes a corporate income tax rate of 8.7% on federal taxable income allocated and apportioned to the state. There is no minimum corporate income tax, and corporations that do not conduct business in Delaware are exempt.",
+    "source_url": "https://revenue.delaware.gov/frequently-asked-questions/corporate-income-tax-faqs/",
+    "evidence": [
+     "8.7% of federal taxable income",
+     "allocated and apportioned to Delaware",
+     "corporate income tax"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://revenue.delaware.gov/frequently-asked-questions/corporate-income-tax-faqs/",
+    "matched_title": "Corporate Income Tax FAQs - Division of Revenue - State of Delaware",
+    "matched_phrases": [
+     "allocated and apportioned to Delaware",
+     "corporate income tax"
+    ],
+    "snippet": "Every domestic or foreign corporation doing business in Delaware, not specifically exempt under Section 1902(b), Title 30, Delaware Code, is required to file a corporate income tax return (Form CIT-TAX) and pay a tax of 8.7% on its federal taxable income allocated and apportioned to Delaware."
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Delaware does not impose a state sales and use tax, and local jurisdictions do not levy local sales taxes, resulting in a 0.0% rate.",
+    "source_url": "https://revenue.delaware.gov/steps-to-open-a-business/step-4/",
+    "evidence": [
+     "state sales or use tax",
+     "gross receipts tax",
+     "open a business"
+    ],
+    "accepted": false,
+    "reason": "figures not on revenue.delaware.gov: ['0']; evidence not on revenue.delaware.gov (1/3); figures not on delcode.delaware.gov: ['0']; figures not on corp.delaware.gov: ['0']; unreadable: https://revenue.delaware.gov/business-tax-forms/doing-business-in-delaware/",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025
+    ],
+    "value": "Delaware levies a gross receipts tax ranging from 0.0945% to 1.9914% depending on business category, with no deductions for labor or production costs. In addition, petroleum and chemical gross receipts are subject to a 1.120% Hazardous Substance Cleanup Act surtax.",
+    "source_url": "https://revenue.delaware.gov/frequently-asked-questions/gross-receipts-tax-faqs/",
+    "evidence": [
+     "gross receipts tax",
+     "total gross revenues",
+     "Hazardous Substance Cleanup Act"
+    ],
+    "accepted": false,
+    "reason": "figures not on revenue.delaware.gov: ['0.0945', '1.12']; figures not on revenue.delaware.gov: ['0.0945', '1.12', '1.9914']; figures not on delcode.delaware.gov: ['0.0945', '1.12', '1.9914']; figures not on corp.delaware.gov: ['0.0945', '1.12', '1.9914']; unreadable: https://revenue.delaware.gov/business-tax-forms/doing-business-in-delaware/",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2026
+    ],
+    "value": "Delaware levies a gross receipts tax ranging from 0.0945% to 1.9914% depending on business category, with no deductions for business expenses. Effective January 1, 2026, the Hazardous Substance Cleanup Act surtax on taxable petroleum and chemical gross receipts increases to 1.1902%.",
+    "source_url": "https://revenue.delaware.gov/frequently-asked-questions/gross-receipts-tax-faqs/",
+    "evidence": [
+     "gross receipts tax",
+     "total gross revenues",
+     "Hazardous Substance Cleanup Act"
+    ],
+    "accepted": false,
+    "reason": "figures not on revenue.delaware.gov: ['0.0945', '1.1902', '2026']; figures not on revenue.delaware.gov: ['0.0945', '1', '1.1902', '1.9914', '2026']; figures not on delcode.delaware.gov: ['0.0945', '1.1902', '1.9914', '2026']; figures not on revenue.delaware.gov: ['0.0945', '1.1902', '1.9914', '2026']; figures not on revenue.delaware.gov: ['0.0945', '1.1902', '1.9914']; figures not on corp.delaware.gov: ['0.0945', '1.1902', '1.9914', '2026']; unreadable: https://revenue.delaware.gov/business-tax-",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://revenue.delaware.gov/software-developer/tax-rate-changes/",
+   "https://delcode.delaware.gov/title30/c011/sc01/index.html",
+   "https://revenue.delaware.gov/frequently-asked-questions/corporate-income-tax-faqs/",
+   "https://revenue.delaware.gov/business-tax-forms/franchise-taxes/",
+   "https://revenue.delaware.gov/business-tax-forms/",
+   "https://corp.delaware.gov/frtaxcalc/",
+   "https://corp.delaware.gov/paytaxes/",
+   "https://revenue.delaware.gov/business-tax-forms/franchise-taxes/",
+   "https://revenue.delaware.gov/business-tax-forms/doing-business-in-delaware/",
+   "https://revenue.delaware.gov/business-tax-forms/doing-business-in-delaware/step-4-gross-receipts-taxes/",
+   "https://revenue.delaware.gov/frequently-asked-questions/gross-receipts-tax-faqs/",
+   "https://revenue.delaware.gov/press-and-media/"
+  ],
+  "error": ""
+ },
+ {
+  "state": "DE",
+  "section": "filing",
+  "notes": "",
+  "proposals": [],
+  "grounding_urls": [],
+  "error": ""
+ }
+]

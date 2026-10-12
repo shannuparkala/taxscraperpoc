@@ -1,0 +1,217 @@
+{
+ "_comment": "Hand-reviewed mechanics layered over the research rows when build_depreciation_rules.py generates state_conformity.json. Use only for structure the research row states in prose but the generic mapping cannot express. Every override carries _why naming the research note it rests on. Never use this file to supply a figure without a source.",
+ "CT": {
+  "2021": {
+   "section_179": {
+    "mode": "addback",
+    "addback_pct": 80,
+    "recovery_years": 4
+   },
+   "_why": "batch1 note: CT adds back 80% of the federal 179 deduction and subtracts 25% a year over four years (Conn. Gen. Stat. 12-701(a)(20); DRS excerpts)."
+  },
+  "2022": {
+   "section_179": {
+    "mode": "addback",
+    "addback_pct": 80,
+    "recovery_years": 4
+   },
+   "_why": "batch1 note: as 2021."
+  },
+  "2023": {
+   "section_179": {
+    "mode": "addback",
+    "addback_pct": 80,
+    "recovery_years": 4
+   },
+   "_why": "batch1 note: as 2021."
+  },
+  "2024": {
+   "section_179": {
+    "mode": "addback",
+    "addback_pct": 80,
+    "recovery_years": 4
+   },
+   "_why": "batch1 note: as 2021."
+  },
+  "2025": {
+   "section_179": {
+    "mode": "addback",
+    "addback_pct": 80,
+    "recovery_years": 4
+   },
+   "_why": "batch1 note: as 2021."
+  },
+  "2026": {
+   "section_179": {
+    "mode": "addback",
+    "addback_pct": 80,
+    "recovery_years": 4
+   },
+   "_why": "batch1 note: as 2021."
+  }
+ },
+ "DE": {
+  "2026": {
+   "bonus": {
+    "mode": "percent",
+    "allowed_pct": 20,
+    "applies_if_acquired_after": "2025-12-31"
+   },
+   "_why": "batch1 note: 30 Del. C. 1106(d)(1) - property acquired and placed in service after Dec. 31, 2025 continues under pre-OBBBA 168(k) (20% for 2026); property acquired earlier follows the federal rule."
+  }
+ },
+ "OH": {
+  "2021": {
+   "bonus": {
+    "mode": "addback",
+    "addback_pct": "83.33333333333333",
+    "recovery_years": 5
+   },
+   "section_179": {
+    "mode": "addback",
+    "addback_pct": "83.33333333333333",
+    "recovery_years": 5,
+    "limit": 25000,
+    "phaseout_threshold": 200000
+   },
+   "_why": "batch6 note: Ohio adds back 5/6 of federal 168(k) and of Section 179 above the amount allowed under the Dec. 31, 2002 law ($25,000 / $200,000), then deducts 1/5 a year for five years (2025 IT 1040 booklet lines 9 and 27). The 2/3 variant (withholding increase) and 6/6 (NOL year) are not modelled. The $200,000 phase-out is the 2002 federal figure, not stated by Ohio."
+  },
+  "2022": {
+   "bonus": {
+    "mode": "addback",
+    "addback_pct": "83.33333333333333",
+    "recovery_years": 5
+   },
+   "section_179": {
+    "mode": "addback",
+    "addback_pct": "83.33333333333333",
+    "recovery_years": 5,
+    "limit": 25000,
+    "phaseout_threshold": 200000
+   },
+   "_why": "batch6 note: Ohio adds back 5/6 of federal 168(k) and of Section 179 above the amount allowed under the Dec. 31, 2002 law ($25,000 / $200,000), then deducts 1/5 a year for five years (2025 IT 1040 booklet lines 9 and 27). The 2/3 variant (withholding increase) and 6/6 (NOL year) are not modelled. The $200,000 phase-out is the 2002 federal figure, not stated by Ohio."
+  },
+  "2023": {
+   "bonus": {
+    "mode": "addback",
+    "addback_pct": "83.33333333333333",
+    "recovery_years": 5
+   },
+   "section_179": {
+    "mode": "addback",
+    "addback_pct": "83.33333333333333",
+    "recovery_years": 5,
+    "limit": 25000,
+    "phaseout_threshold": 200000
+   },
+   "_why": "batch6 note: Ohio adds back 5/6 of federal 168(k) and of Section 179 above the amount allowed under the Dec. 31, 2002 law ($25,000 / $200,000), then deducts 1/5 a year for five years (2025 IT 1040 booklet lines 9 and 27). The 2/3 variant (withholding increase) and 6/6 (NOL year) are not modelled. The $200,000 phase-out is the 2002 federal figure, not stated by Ohio."
+  },
+  "2024": {
+   "bonus": {
+    "mode": "addback",
+    "addback_pct": "83.33333333333333",
+    "recovery_years": 5
+   },
+   "section_179": {
+    "mode": "addback",
+    "addback_pct": "83.33333333333333",
+    "recovery_years": 5,
+    "limit": 25000,
+    "phaseout_threshold": 200000
+   },
+   "_why": "batch6 note: Ohio adds back 5/6 of federal 168(k) and of Section 179 above the amount allowed under the Dec. 31, 2002 law ($25,000 / $200,000), then deducts 1/5 a year for five years (2025 IT 1040 booklet lines 9 and 27). The 2/3 variant (withholding increase) and 6/6 (NOL year) are not modelled. The $200,000 phase-out is the 2002 federal figure, not stated by Ohio."
+  },
+  "2025": {
+   "bonus": {
+    "mode": "addback",
+    "addback_pct": "83.33333333333333",
+    "recovery_years": 5
+   },
+   "section_179": {
+    "mode": "addback",
+    "addback_pct": "83.33333333333333",
+    "recovery_years": 5,
+    "limit": 25000,
+    "phaseout_threshold": 200000
+   },
+   "_why": "batch6 note: Ohio adds back 5/6 of federal 168(k) and of Section 179 above the amount allowed under the Dec. 31, 2002 law ($25,000 / $200,000), then deducts 1/5 a year for five years (2025 IT 1040 booklet lines 9 and 27). The 2/3 variant (withholding increase) and 6/6 (NOL year) are not modelled. The $200,000 phase-out is the 2002 federal figure, not stated by Ohio."
+  },
+  "2026": {
+   "bonus": {
+    "mode": "addback",
+    "addback_pct": "83.33333333333333",
+    "recovery_years": 5
+   },
+   "section_179": {
+    "mode": "addback",
+    "addback_pct": "83.33333333333333",
+    "recovery_years": 5,
+    "limit": 25000,
+    "phaseout_threshold": 200000
+   },
+   "_why": "batch6 note: Ohio adds back 5/6 of federal 168(k) and of Section 179 above the amount allowed under the Dec. 31, 2002 law ($25,000 / $200,000), then deducts 1/5 a year for five years (2025 IT 1040 booklet lines 9 and 27). The 2/3 variant (withholding increase) and 6/6 (NOL year) are not modelled. The $200,000 phase-out is the 2002 federal figure, not stated by Ohio."
+  }
+ },
+ "NC": {
+  "2021": {
+   "section_179": {
+    "mode": "addback",
+    "addback_pct": 85,
+    "recovery_years": 5,
+    "limit": 25000,
+    "phaseout_threshold": 200000
+   },
+   "_why": "batch6 note: NC keeps Section 179 at $25,000 / $200,000; add back 85% of (federal 179 minus 179 at the NC limits) and deduct 20% a year for the next five years (Schedule S; 2025 booklet line 4)."
+  },
+  "2022": {
+   "section_179": {
+    "mode": "addback",
+    "addback_pct": 85,
+    "recovery_years": 5,
+    "limit": 25000,
+    "phaseout_threshold": 200000
+   },
+   "_why": "batch6 note: NC keeps Section 179 at $25,000 / $200,000; add back 85% of (federal 179 minus 179 at the NC limits) and deduct 20% a year for the next five years (Schedule S; 2025 booklet line 4)."
+  },
+  "2023": {
+   "section_179": {
+    "mode": "addback",
+    "addback_pct": 85,
+    "recovery_years": 5,
+    "limit": 25000,
+    "phaseout_threshold": 200000
+   },
+   "_why": "batch6 note: NC keeps Section 179 at $25,000 / $200,000; add back 85% of (federal 179 minus 179 at the NC limits) and deduct 20% a year for the next five years (Schedule S; 2025 booklet line 4)."
+  },
+  "2024": {
+   "section_179": {
+    "mode": "addback",
+    "addback_pct": 85,
+    "recovery_years": 5,
+    "limit": 25000,
+    "phaseout_threshold": 200000
+   },
+   "_why": "batch6 note: NC keeps Section 179 at $25,000 / $200,000; add back 85% of (federal 179 minus 179 at the NC limits) and deduct 20% a year for the next five years (Schedule S; 2025 booklet line 4)."
+  },
+  "2025": {
+   "section_179": {
+    "mode": "addback",
+    "addback_pct": 85,
+    "recovery_years": 5,
+    "limit": 25000,
+    "phaseout_threshold": 200000
+   },
+   "_why": "batch6 note: NC keeps Section 179 at $25,000 / $200,000; add back 85% of (federal 179 minus 179 at the NC limits) and deduct 20% a year for the next five years (Schedule S; 2025 booklet line 4)."
+  },
+  "2026": {
+   "section_179": {
+    "mode": "addback",
+    "addback_pct": 85,
+    "recovery_years": 5,
+    "limit": 25000,
+    "phaseout_threshold": 200000
+   },
+   "_why": "batch6 note: NC keeps Section 179 at $25,000 / $200,000; add back 85% of (federal 179 minus 179 at the NC limits) and deduct 20% a year for the next five years (Schedule S; 2025 booklet line 4)."
+  }
+ }
+}

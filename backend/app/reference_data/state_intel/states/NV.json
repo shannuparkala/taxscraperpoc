@@ -1,0 +1,117 @@
+{
+  "code": "NV",
+  "name": "Nevada",
+  "sections": {
+    "apportionment": {
+      "fields": [
+        {
+          "key": "forms",
+          "label": "Forms",
+          "value": "Taxable business entities report Nevada gross revenue on Form EXC-F025 (Nevada Commerce Tax Return). Entities operating within the Las Vegas Sports and Entertainment Improvement District must also file Schedule A (Form EXC-F025A).",
+          "years": [
+            2025
+          ],
+          "source_url": "https://tax.nv.gov/wp-content/uploads/2025/07/EXC-F025A-COM-Tax-Schedule-A-SEID.pdf",
+          "source_citation": "EXC-F025A COM Tax Schedule A",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Please attach Schedule A to Form EXC-F025 Nevada Commerce Tax Return."
+        }
+      ]
+    },
+    "nexus": {
+      "fields": [
+        {
+          "key": "income_nexus",
+          "label": "Income/franchise tax nexus",
+          "value": "Nevada does not impose a corporate income or franchise tax, but levies an entity-level Commerce Tax on business entities engaging in business in the state. Out-of-state entities with nexus are subject to the tax and required to file a return only if Nevada gross revenue exceeds $4,000,000 during the taxable year.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://tax.nv.gov/faqs/commerce-tax-faqs/",
+          "source_citation": "Commerce Tax FAQs – State of Nevada",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Who can file the Exempt Status Entity Form? Exempt entities that have been registered for Commerce Tax and whose Nevada gross revenue exceeds $4,000,000 during the tax year can file the Exempt Status Entity Form :"
+        },
+        {
+          "key": "sales_economic_nexus",
+          "label": "Sales/use tax: economic nexus",
+          "value": "Remote sellers establish economic nexus if they have more than $100,000 of retail sales into Nevada or 200 or more separate retail transactions for delivery into the state. This threshold is measured during the previous or current calendar year.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://tax.nv.gov/faqs/marketplace-facilitator-seller-faqs/remote-sellers-wayfair-decision/",
+          "source_citation": "Remote Sellers – Wayfair Decision – State of Nevada",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "More than $100,000 of retail sales into Nevada, or 200 or more separate retail transactions for delivery into the state However, these small sellers may still volunteer to register and collect tax in this state as a benefit to their Nevada customers."
+        }
+      ]
+    },
+    "rates": {
+      "fields": [
+        {
+          "key": "corporate",
+          "label": "Corporate income/franchise tax",
+          "value": "Nevada does not impose a corporate income tax or a corporate franchise tax based on net income, and has no corporate minimum tax.",
+          "years": [
+            2026
+          ],
+          "source_url": "https://tax.nv.gov/wp-content/uploads/2026/03/Nevada-Tax-Notes-March-2026.pdf",
+          "source_citation": "Nevada Tax Notes March 2026",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "The State of Nevada does not impose an individual or corporate income tax."
+        },
+        {
+          "key": "sales",
+          "label": "Sales and use tax",
+          "value": "The statewide base sales and use tax rate is 6.85%. Local jurisdictions add optional local sales and use taxes, bringing total rates up to 8.265% in Washoe County and 8.375% in Clark County.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://tax.nv.gov/tax-types/sales-tax-use-tax/",
+          "source_citation": "Sales Tax & Use Tax – State of Nevada",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "The base State Sales Tax rate in Nevada is 6.85%."
+        }
+      ]
+    },
+    "filing": {
+      "fields": [
+        {
+          "key": "business_due",
+          "label": "Business due dates and extensions",
+          "value": "Nevada has no corporate or pass-through income tax, but entities with Nevada gross revenue exceeding $4,000,000 must file a Commerce Tax return by August 14 following the June 30 fiscal year end. Taxpayers may request a 30-day extension to file and pay, with interest accruing at 0.75 percent per month from the original due date.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://tax.nv.gov/wp-content/uploads/2025/07/EXC-F025-COM-Tax-Return.pdf",
+          "source_citation": "https://tax.nv.gov/wp-content/uploads/2025/07/EXC-F025-COM-Tax-Return.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "if Nevada gross revenue of your business exceeds $4,000,000 during the tax year, you are REQUIRED to file this return."
+        },
+        {
+          "key": "estimates",
+          "label": "Withholding and estimated payments",
+          "value": "Nevada imposes no income tax or pass-through entity nonresident withholding. Business entities are not required to make estimated Commerce Tax payments during the year.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://tax.nv.gov/faqs/commerce-tax-faqs/",
+          "source_citation": "Commerce Tax FAQs – State of Nevada",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Do I have estimated payments for Commerce Tax during the year? Estimated payments are not required."
+        }
+      ]
+    }
+  }
+}

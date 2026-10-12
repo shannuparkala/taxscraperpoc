@@ -1,0 +1,120 @@
+[
+ {
+  "state": "GA",
+  "section": "apportionment",
+  "notes": "### 1. Apportionment Formula (Multistate Business Income)\n* **Rule:** Georgia uses a single-factor apportionment formula consisting exclusively of the **gross receipts factor** (100% sales factor). The factor is computed as the ratio of gross receipts from business done within Georgia to total gross receipts from business done everywhere.\n* **Applicability:** Applies to both tax years 2025 and 2026 (effective since January 1, 2008, with no change).\n* **Official Source:** \n  * Georgia Department of Revenue, *2025 IT-611 Corporate Income Tax Booklet*: https://dor.georgia.gov/document/document/2025-it-611-corporate-income-tax-booklet/download\n  * Georgia Department of Revenue, *2024 Corporation Income Tax General Instructions*: https://dor.georgia.gov/document/document/2024-corporation-income-tax-general-instructions/download\n  * O.C.G.A. § 48-7-31(d)(2); Ga. Comp. R. & Regs. r. 560-7-7-.03\n\n---\n\n### 2. Sourcing of Receipts from Services and Intangibles\n* **Rule:** Georgia uses **market-based sourcing**. When gross receipts are derived from business other than the sale of tangible personal property (services and intangibles), receipts are sourced to Georgia \"if received from customers within this State, or if the receipts are otherwise attributable to this State's marketplace.\"\n  * *Allocation exception:* Net investment income from intangible property held purely for investment (and not used in regular business operations) is allocated rather than apportioned (allocated to Georgia if the corporation’s commercial/business situs is in Georgia or if acquired from property held or business done in Georgia).\n* **Applicability:** Applies to both tax years 2025 and 2026 (no changes).\n* **Official Source:** \n  * Georgia Department of Revenue, *2025 IT-611 Corporate Income Tax Booklet*: https://dor.georgia.gov/document/document/2025-it-611-corporate-income-tax-booklet/download\n  * Georgia Department of Revenue, *2025 IT-711 Partnership Income Tax Booklet*: https://dor.georgia.gov/document/document/2025-it-711-partnership-income-tax-booklet/download\n  * O.C.G.A. § 48-7-31(d)(2)(A)(i)\n\n---\n\n### 3. Special Apportionment Formulas by Industry\n* **Air Carriers (Airlines):** Corporations whose net business income is derived principally from transporting passengers or cargo in revenue flight apportion income using an equally weighted **three-factor formula**:\n  1. *Revenue air miles factor* (flight stages originating or terminating in Georgia divided by total everywhere);\n  2. *Tons handled factor* (revenue passenger and cargo tons handled in Georgia divided by total everywhere);\n  3. *Originating revenue factor* (originating passenger and cargo revenue attributable to Georgia divided by total everywhere).\n  * *Statutory authority:* O.C.G.A. § 48-7-31(d)(1)(B)\n* **Railroad and Public Service Corporations:** Sourced and apportioned based on specific statutory allocation or separate accounting under Georgia law.\n  * *Statutory authority:* O.C.G.A. § 48-7-32\n* **Financial Institutions:** Financial institutions doing business within and outside the state apportion gross receipts for the Financial Institutions Business Occupation Tax using the single gross receipts factor.\n  * *Statutory authority:* O.C.G.A. § 48-6-95(b)(1); O.C.G.A. § 48-7-31(d)(2)(A)\n* **Applicability:** Applies to both tax years 2025 and 2026 (no changes).\n* **Official Source:** \n  * Georgia Department of Revenue, *Georgia Financial Institutions Business Occupation Tax Return (Form 900)*: https://dor.georgia.gov/document/document/form-900-financial-institutions-business-occupation-tax-return/download\n  * O.C.G.A. § 48-7-31(d)(1)(B); O.C.G.A. § 48-7-32\n\n---\n\n### 4. Form and Schedule Used to Compute Apportionment\n* **C Corporations (Form 600):**\n  * **Schedule 6** (*Apportionment of Income*): Computes the gross receipts factor (Within Georgia / Everywhere) to determine the Georgia Ratio.\n  * **Schedule 7** (*Computation of Georgia Net Income*): Applies the Georgia Ratio from Schedule 6 to apportion net business income.\n* **S Corporations (Form 600S):**\n  * **Schedule 8** / **Schedule 9**: Computes gross receipts apportionment ratio and Georgia net apportioned income for flow-through/shareholder purposes.\n* **Partnerships (Form 700):**\n  * **Schedule 7** (*Apportionment of Income*): Computes the gross receipts apportionment factor and ratio.\n* **Financial Institutions (Form 900):**\n  * **Schedule 8** (*Apportionment of Gross Receipts*): Computes the gross receipts factor.\n* **Applicability:** Applies to both tax years 2025 and 2026 (no changes).\n* **Official Source:** \n  * Georgia Department of Revenue, *Georgia Form 600 (Corporation Tax Return)*: https://dor.georgia.gov/document/document/form-600-corporation-tax-return/download\n  * Georgia Department of Revenue, *2025 IT-611 Corporate Income Tax Booklet*: https://dor.georgia.gov/document/document/2025-it-611-corporate-income-tax-booklet/download\n  * Georgia Department of Revenue, *Form 700 Partnership Tax Return*: https://dor.georgia.gov/document/document/form-700-partnership-tax-return/download\n  * Georgia Department of Revenue, *Georgia Financial Institutions Business Occupation Tax Return (Form 900)*: https://dor.georgia.gov/document/document/form-900-financial-institutions-business-occupation-tax-return/download",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Georgia uses a single-factor apportionment formula consisting exclusively of the gross receipts factor (100% sales factor). The factor is computed as the ratio of gross receipts from business done within Georgia to total gross receipts from business done everywhere.",
+    "source_url": "https://dor.georgia.gov/document/document/2025-it-611-corporate-income-tax-booklet/download",
+    "evidence": [
+     "gross receipts factor",
+     "100% sales factor",
+     "single-factor apportionment formula"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://dor.georgia.gov/document/document/2025-it-611-corporate-income-tax-booklet/download; evidence not on dor.georgia.gov (1/3); not an official GA host: www.law.cornell.edu; not an official GA host: law.justia.com; not an official GA host: www.cpajournal.com; figures not on dor.georgia.gov: ['100']; not an official GA host: digitalcommons.law.uga.edu; evidence not on dor.georgia.gov (0/3)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Georgia uses market-based sourcing for gross receipts derived from business other than the sale of tangible personal property. Receipts are sourced to Georgia if received from customers within the state or otherwise attributable to the state's marketplace.",
+    "source_url": "https://dor.georgia.gov/document/document/2025-it-611-corporate-income-tax-booklet/download",
+    "evidence": [
+     "market-based sourcing",
+     "customers within this State",
+     "State's marketplace"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://dor.georgia.gov/document/document/2024-it611-corporate-income-tax-instruction-booklet/download",
+    "matched_title": "2024 Corporation Income Tax General Instructions",
+    "matched_phrases": [
+     "customers within this State",
+     "State's marketplace"
+    ],
+    "snippet": "When receipts are derived from business other than the sale of tangible personal property, receipts shall be deemed to have been derived from business done in this State if re- ceived from customers within this State, or if the receipts are otherwise attributable to this State’s marketplace."
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Financial institutions doing business within and outside the state apportion gross receipts for the Financial Institutions Business Occupation Tax using the single gross receipts factor.",
+    "source_url": "https://dor.georgia.gov/document/document/form-900-financial-institutions-business-occupation-tax-return/download",
+    "evidence": [
+     "Financial Institutions",
+     "Business Occupation Tax",
+     "gross receipts factor"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://dor.georgia.gov/document/document/2024-it611-corporate-income-tax-instruction-booklet/download",
+    "matched_title": "2024 Corporation Income Tax General Instructions",
+    "matched_phrases": [
+     "Financial Institutions",
+     "Business Occupation Tax",
+     "gross receipts factor"
+    ],
+    "snippet": "All financial institutions that conduct business or own property in Georgia are required to file a Georgia Financial Institutions Business Occupation Tax Return, Form 900."
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "C corporations compute apportionment on Schedule 6 and determine net income on Schedule 7 of Form 600. Partnerships compute the gross receipts apportionment factor on Schedule 7 of Form 700.",
+    "source_url": "https://dor.georgia.gov/document/document/form-600-corporation-tax-return/download",
+    "evidence": [
+     "Schedule 6",
+     "Apportionment of Income",
+     "Georgia Ratio"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://dor.georgia.gov/document/document/form-600-corporation-tax-return/download; figures not on dor.georgia.gov: ['700']; figure not stated beside the evidence on dor.georgia.gov; not an official GA host: www.law.cornell.edu; not an official GA host: law.justia.com; not an official GA host: www.cpajournal.com; not an official GA host: digitalcommons.law.uga.edu",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://dor.georgia.gov/document/document/2024-it611-corporate-income-tax-instruction-booklet/download",
+   "https://dor.georgia.gov/document/form/it-consol-instructions-prior-tax-year-2023pdf/download",
+   "https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download",
+   "https://dor.georgia.gov/document/document/2025-it-711-partnership-income-tax-booklet/download",
+   "https://www.law.cornell.edu/regulations/georgia/Ga-Comp-R-Regs-R-560-7-7-.03",
+   "https://law.justia.com/codes/georgia/title-48/chapter-7/article-2/section-48-7-31/",
+   "https://www.cpajournal.com/2016/10/01/apportioning-income-from-sales-of-services/",
+   "https://dor.georgia.gov/document/form/900georgiafinancialinstitutionsbusinessoccupationtaxreturnpdf/download",
+   "https://dor.georgia.gov/document/document/2024-it611-corporate-income-tax-instruction-booklet/download",
+   "https://dor.georgia.gov/document/document/2025-it-711-partnership-income-tax-booklet/download",
+   "https://digitalcommons.law.uga.edu/cgi/viewcontent.cgi?article=2532&context=fac_artchop",
+   "https://law.justia.com/codes/georgia/title-48/chapter-7/article-2/section-48-7-31/",
+   "https://law.justia.com/codes/georgia/title-48/chapter-7/article-2/",
+   "https://dor.georgia.gov/document/form/900georgiafinancialinstitutionsbusinessoccupationtaxreturnpdf/download",
+   "https://dor.georgia.gov/document/document/2022-600-corporation-income-tax-return-blank-form-printing/download",
+   "https://dor.georgia.gov/document/document/2022-600-corporation-income-tax-return-blank-form-printing/download",
+   "https://dor.georgia.gov/document/document/2023-it611-corporate-income-tax-instruction-booklet/download",
+   "https://dor.georgia.gov/document/document/2025-it-611s-s-corporation-income-tax-booklet/download",
+   "https://dor.georgia.gov/document/document/2024-700-partnership-tax-return-blank-form-printing/download",
+   "https://dor.georgia.gov/document/document/2024-700-partnership-tax-return-blank-form-printing/download",
+   "https://dor.georgia.gov/document/document/2022-600-corporation-income-tax-return-blank-form-printing/download"
+  ],
+  "error": ""
+ }
+]

@@ -1,0 +1,572 @@
+[
+ {
+  "state": "IL",
+  "section": "apportionment",
+  "notes": "### 1. Apportionment Formula for Multistate Business Income\n* **Fact:** General multistate business income is apportioned using a **single sales factor** formula (100% sales factor: total sales inside Illinois divided by total sales everywhere). \n  * *Unitary Business Group Rule Change:* Effective for tax years ending on or after December 31, 2025 (P.A. 104-0006), Illinois adopted the **\"Finnigan\"** method of apportionment (replacing the previous \"Joyce\" method) for unitary groups when computing the sales factor numerator and applying throwback/throw-out rules.\n* **Applicability:** Applies to both tax years 2025 and 2026 (the Finnigan method change took effect for tax years ending on or after December 31, 2025, and continues for 2026).\n* **Official URLs:** \n  * https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=003500050K304\n  * https://tax.illinois.gov/forms/incometax/corporate/il-1120.html\n\n---\n\n### 2. Sourcing of Receipts from Services and Intangibles\n* **Fact:** Illinois uses **market-based sourcing**:\n  * **Services:** Under 35 ILCS 5/304(a)(3)(C-5)(iv), receipts from sales of services are sourced to Illinois if the services are \"received in this State\". If services are rendered to a corporation, partnership, or trust, they are attributed to a state where the customer has a fixed place of business; if not determinable, to the customer location from which the services were ordered.\n  * **Intangibles:** Under 35 ILCS 5/304(a)(3)(B-1) & (B-2), gross receipts from the licensing, sale, or disposition of patents, copyrights, trademarks, or similar items are sourced to Illinois to the extent the intangible property is \"utilized in this State\". If the state of utilization cannot be determined from records, it is sourced to the licensee’s/purchaser’s commercial domicile.\n* **Applicability:** Applies to both tax years 2025 and 2026 (no statutory changes between these years).\n* **Official URL:** \n  * https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=003500050K304\n\n---\n\n### 3. Industries with Their Own Apportionment Formula\n* **Fact:** Specific statutory apportionment formulas apply to the following industries:\n  * **Insurance companies:** Apportioned based on direct premiums written for insurance upon property or risks in Illinois compared to total direct premiums written everywhere (35 ILCS 5/304(b)).\n  * **Financial organizations:** Apportioned based on a specialized gross receipts factor including interest, dividends, loan fees, and trading income sourced under statutory rules (35 ILCS 5/304(c)).\n  * **Federally regulated exchanges:** At the exchange's election, apportioned using a fraction of business income from Illinois sources over total business income from all sources (35 ILCS 5/304(c-1)).\n  * **Transportation companies:** Apportioned based on revenue miles (or passenger/ton miles and gross receipts depending on the transportation mode) within Illinois relative to total everywhere (35 ILCS 5/304(d)).\n* **Applicability:** Applies to both tax years 2025 and 2026.\n* **Official URLs:** \n  * https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=003500050K304\n  * https://tax.illinois.gov/forms/incometax/corporate/il-1120.html\n\n---\n\n### 4. Form or Schedule Used to Compute Apportionment\n* **Fact:** \n  * **C Corporations:** Computed directly on **Form IL-1120**, **Step 4** (\"Figure your income allocable to Illinois\", Lines 28–30).\n  * **Unitary Business Groups:** Computed on **Schedule UB** (*Combined Apportionment for Unitary Business Group*), **Step 4**, and the **Subgroup Schedule** (for subgroups operating under special single-factor formulas).\n  * **S Corporations:** Computed on **Form IL-1120-ST**, **Step 6**.\n  * **Partnerships:** Computed on **Form IL-1065**, **Step 6**.\n* **Applicability:** Applies to both tax years 2025 and 2026.\n* **Official URLs:** \n  * https://tax.illinois.gov/forms/incometax/corporate/il-1120.html\n  * https://tax.illinois.gov/forms/incometax/corporate/schedule-ub.html",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Multistate business income is apportioned using a single sales factor formula. Unitary business groups use the Finnigan method of apportionment for tax years ending on or after December 31, 2025.",
+    "source_url": "https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=003500050K304",
+    "evidence": [
+     "sales factor",
+     "total sales inside Illinois"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/business/miscellaneous/schedule-ub-instr.pdf",
+    "matched_title": "2025 Schedule UB Instructions",
+    "matched_phrases": [
+     "sales factor",
+     "total sales inside Illinois"
+    ],
+    "snippet": "Schedule UB Instructions (R-03/26) Page 1 of 16 Illinois Department of Revenue 2025 Schedule UB Instructions What’s New? • Effective for tax years ending on or after December 31, 2025, Illinois adopts the “Finnigan” method of apportionment when com- puting the sales factor numerator and applying the throwback and throw-out rules."
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Illinois uses market-based sourcing for services and intangibles. Service receipts are sourced to Illinois if received in the state, and intangible gross receipts are sourced based on utilization in the state.",
+    "source_url": "https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=003500050K304",
+    "evidence": [
+     "received in this State",
+     "utilized in this State"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=003500050K304; unreadable: https://ilga.gov/documents/legislation/ilcs/documents/003500050K304.htm; evidence not on tax.illinois.gov (0/2); unreadable: https://www.ilga.gov/legislation/ilcs/fulltext?DocName=003500050K304; unreadable: https://www.ilga.gov/documents/legislation/101/HB/PDF/10100HB5061.pdf; unreadable: https://ilga.gov/documents/legislation/94/HB/PDF/09400HB0310eng.pdf",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Special statutory apportionment formulas apply to insurance companies, financial organizations, federally regulated exchanges, and transportation companies.",
+    "source_url": "https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=003500050K304",
+    "evidence": [
+     "Insurance companies",
+     "Financial organizations",
+     "Transportation companies"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/business/miscellaneous/schedule-ub-instr.pdf",
+    "matched_title": "2025 Schedule UB Instructions",
+    "matched_phrases": [
+     "Insurance companies",
+     "Financial organizations",
+     "Transportation companies"
+    ],
+    "snippet": "• Insurance Company Subgroup – An insurance company subgroup consists of one or more members that are insurance companies required to apportion business income using the direct premiums formula under IITA Section 304(b)."
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Apportionment is computed on Form IL-1120 for C corporations and Schedule UB for unitary business groups. Pass-through entities compute apportionment on Form IL-1120-ST or Form IL-1065.",
+    "source_url": "https://tax.illinois.gov/forms/incometax/corporate/il-1120.html",
+    "evidence": [
+     "Form IL-1120",
+     "income allocable to Illinois",
+     "Schedule UB"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/business/miscellaneous/schedule-ub-instr.pdf",
+    "matched_title": "2025 Schedule UB Instructions",
+    "matched_phrases": [
+     "Form IL-1120",
+     "Schedule UB"
+    ],
+    "snippet": "Specific instructions for completing Form IL-1120 The amounts to be transferred to Form IL-1120 should be taken from Illinois Schedule UB, Step 3, Column E, and Step 4, Column D."
+   }
+  ],
+  "grounding_urls": [
+   "https://ilga.gov/documents/legislation/ilcs/documents/003500050K304.htm",
+   "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/business/miscellaneous/schedule-ub-instr.pdf",
+   "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/business/corporate/il-1120-instr.pdf",
+   "https://www.ilga.gov/legislation/ilcs/fulltext?DocName=003500050K304",
+   "https://www.ilga.gov/documents/legislation/101/HB/PDF/10100HB5061.pdf",
+   "https://ilga.gov/documents/legislation/94/HB/PDF/09400HB0310eng.pdf",
+   "https://ilga.gov/documents/legislation/ilcs/documents/003500050K304.htm",
+   "https://www.ilga.gov/legislation/ilcs/fulltext?DocName=003500050K304",
+   "https://ilga.gov/documents/legislation/ilcs/documents/003500050K304.htm",
+   "https://tax.illinois.gov/content/dam/soi/en/web/tax/research/legalinformation/proposedrules/86-100-iac-2430.pdf",
+   "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/business/corporate/il-1120.pdf",
+   "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/business/corporate/il-1120.pdf",
+   "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/business/miscellaneous/schedule-ub-instr.pdf",
+   "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/business/miscellaneous/schedule-ub.pdf",
+   "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/business/smallbusiness/il-1120-st-instr.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "IL",
+  "section": "nexus",
+  "notes": "### 1. Income or Franchise Tax Nexus & Bright-Line / Economic Nexus Thresholds\n\n* **Income Tax Nexus Standards:**\n  * Imposition of the Illinois Income Tax (IITA Section 201(a)) and Personal Property Tax Replacement Income Tax (IITA Section 201(c)) applies to corporations, partnerships, trusts, estates, and individuals earning or receiving income in Illinois or as a resident.\n  * Nonresident nexus is governed by United States constitutional principles (Commerce Clause and Due Process Clause) and federal statutory limitations. \n  * **Bright-line / Factor-presence economic nexus dollar threshold:** **Not found**. Illinois statutes and administrative rules do not specify a bright-line dollar or factor-presence economic threshold for corporate income tax nexus.\n  * **Unitary Group Apportionment Rule Change:** Effective for tax years ending on or after December 31, 2025, Illinois enacted the \"Finnigan\" method (P.A. 104-0006; 35 ILCS 5/304(e); 86 Ill. Adm. Code 100.3200 / 100.9720). Under this rule, if any member of a unitary business group has nexus in Illinois, all Illinois sales of the group are included in the numerator of the combined sales apportionment factor.\n* **Franchise Tax Nexus Standards:**\n  * The Illinois corporate franchise tax is imposed under the Business Corporation Act of 1983 (805 ILCS 5/15.35 *et seq.*) administered by the Secretary of State (not IDOR) on corporations transacting business or exercising their franchise in Illinois. It does not establish a bright-line dollar threshold.\n* **Applicable Tax Years:** Both tax years 2025 and 2026 (the Finnigan apportionment rule took effect for tax years ending on or after December 31, 2025).\n* **Official Sources:**\n  * [Illinois Compiled Statutes: 35 ILCS 5/201](https://www.ilga.gov/legislation/ilcs/ilcs4.asp?DocName=003500050HArt.+2&ActID=577&ChapterID=8&SeqStart=700000&SeqEnd=2600000)\n  * [Illinois Administrative Code: Title 86, Section 100.9720](https://www.ilga.gov/commission/jcar/admincode/086/086001000EE97200R.html)\n  * [IDOR Informational Bulletin FY 2025-29](https://tax.illinois.gov/research/publications/bulletins/fy-2025-29.html)\n\n---\n\n### 2. Remote Seller Economic Nexus Threshold & Measurement Period\n\n* **Statutory Threshold Amounts:**\n  * **Tax Year 2025 (through December 31, 2025):** A remote retailer is subject to destination-based Retailers' Occupation Tax (ROT) if either threshold is met:\n    * **$100,000** or more in cumulative gross receipts from sales of tangible personal property to purchasers in Illinois; **or**\n    * **200** or more separate transactions for the sale of tangible personal property to purchasers in Illinois.\n  * **Tax Year 2026 (effective January 1, 2026):**\n    * **$100,000** or more in cumulative gross receipts from sales of tangible personal property to purchasers in Illinois.\n    * *Change:* Pursuant to Public Act 104-0006 (amending 35 ILCS 120/2(b) and adding subsection (b-1)), the **200-transaction threshold was eliminated** effective January 1, 2026.\n* **Measurement Period:**\n  * Evaluated on a quarterly basis ending on the last day of March, June, September, and December, looking back across the preceding 12-month period (the 4 preceding calendar quarters).\n  * If the threshold is met, the retailer is required to collect/remit tax and file returns for the subsequent one-year (12-month) period.\n* **Official Sources:**\n  * [Illinois Compiled Statutes: 35 ILCS 120/2](https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=003501200K2)\n  * [IDOR Informational Bulletin FY 2026-12](https://tax.illinois.gov/research/publications/bulletins/fy-2026-12.html)\n  * [IDOR Publication 113-D](https://tax.illinois.gov/research/publications/pubs/pub-113-d.html)\n  * [IDOR Informational Bulletin FY 2026-28](https://tax.illinois.gov/research/publications/bulletins/fy-2026-28.html)\n\n---\n\n### 3. State's Stated Position on P.L. 86-272 Protection\n\n* **Position and Interpretation (86 Ill. Adm. Code 100.9720(c)):**\n  * Illinois applies the protections of Public Law 86-272 (15 U.S.C. §§ 381–384) to exempt out-of-state entities from net income taxes if their in-state activities are limited strictly to the solicitation of orders for sales of tangible personal property, where orders are approved and filled from outside Illinois.\n  * **Scope & Restrictions:**\n    * Protects *only* sales of tangible personal property; it expressly does *not* protect solicitation for sales of services, intangibles, or the licensing, leasing, or renting of property.\n    * Activities are considered ancillary to solicitation only if they serve no independent business function apart from solicitation.\n    * If business activities exceed \"mere solicitation,\" immunity is lost for the entire taxable year. Unprotected activities that establish a non-trivial connection (more than *de minimis*, measured qualitatively and quantitatively) eliminate protection. Specific protected vs. unprotected activities are listed under subsections 100.9720(c)(4) and (c)(5).\n  * **Unitary Business Group Treatment:** For tax years ending on or after December 31, 2025, under the Finnigan apportionment rules, while a member protected by P.L. 86-272 does not separately incur Illinois income tax, its Illinois sales are included in the unitary group's Illinois sales factor numerator if any member of the group has Illinois nexus.\n* **Applicable Tax Years:** Applies to both tax years 2025 and 2026.\n* **Official Sources:**\n  * [Illinois Administrative Code: Title 86, Section 100.9720](https://www.ilga.gov/commission/jcar/admincode/086/086001000EE97200R.html)\n  * [IDOR 2025 Form IL-1120 Instructions](https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/corporate/il-1120-instr.pdf)\n  * [IDOR 2025 Schedule UB Instructions](https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/corporate/schedule-ub-instr.pdf)",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Illinois income tax applies to entities earning or receiving income in the state, with nonresident nexus governed by U.S. constitutional standards without a bright-line factor-presence threshold. Effective for tax years ending on or after December 31, 2025, Illinois applies the Finnigan rule, bringing all Illinois sales into the combined sales factor numerator if any unitary group member has nexus.",
+    "source_url": "https://www.ilga.gov/legislation/ilcs/ilcs4.asp?DocName=003500050HArt.+2&ActID=577&ChapterID=8&SeqStart=700000&SeqEnd=2600000",
+    "evidence": [
+     "privilege of earning or receiving",
+     "earning or receiving income",
+     "net income"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.ilga.gov/legislation/ilcs/ilcs4.asp?DocName=003500050HArt.+2&ActID=577&ChapterID=8&SeqStart=700000&SeqEnd=2600000; unreadable: https://www.ilga.gov/legislation/ILCS/details?MajorTopic=&Chapter=&ActName=Illinois%20Income%20Tax%20Act.&ActID=577&ChapterID=8&ChapAct=35+ILCS+5%2F&SeqStart=24700000&SeqEnd=25000000&Print=True; unreadable: https://www.ilga.gov/ftp/JCAR/AdminCode/086/08600100EE97200R.html; evidence not on tax.illinois.gov (1/3); not an official IL host: static1.sq",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025
+    ],
+    "value": "A remote retailer establishes economic nexus if cumulative gross receipts from sales of tangible personal property to Illinois purchasers are $100,000 or more, or if sales reach 200 or more separate transactions. The threshold is measured on a quarterly basis looking back across the preceding 12-month period.",
+    "source_url": "https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=003501200K2",
+    "evidence": [
+     "$100,000",
+     "200 or more separate transactions",
+     "tangible personal property",
+     "preceding 12-month period"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.illinois.gov/content/dam/soi/en/web/tax/research/legalinformation/proposedrules/86-100p-w.pdf",
+    "matched_title": "Proposed Rule Concerning Income Tax",
+    "matched_phrases": [
+     "$100,000",
+     "tangible personal property"
+    ],
+    "snippet": "A corporation, with inventory in State A, sold $100,000 of its products to a purchaser having branch stores in several states including this State."
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2026
+    ],
+    "value": "Effective January 1, 2026, remote seller economic nexus is met when cumulative gross receipts from sales of tangible personal property to Illinois purchasers are $100,000 or more, with the 200-transaction threshold eliminated. Compliance is determined quarterly based on sales during the preceding 12-month period.",
+    "source_url": "https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=003501200K2",
+    "evidence": [
+     "$100,000",
+     "cumulative gross receipts",
+     "tangible personal property",
+     "preceding 12-month period"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.illinois.gov/research/publications/bulletins/fy-2026-12.html",
+    "matched_title": "FY 2026-12, Destination-Based Retailers' Occupation Tax Changes",
+    "matched_phrases": [
+     "$100,000",
+     "cumulative gross receipts",
+     "tangible personal property"
+    ],
+    "snippet": "On or after January 1, 2026 , the only threshold used to determine if a remote retailer or marketplace facilitator is engaged in the occupation of selling TPP at retail in Illinois and is subject to State and local ROT is whether the retailer makes $100,000 or more in cumulative gross receipts of sales of TPP to purchasers in Illinois during the lookback period."
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Illinois restricts P.L. 86-272 protection strictly to out-of-state entities whose Illinois activities do not exceed the solicitation of orders for sales of tangible personal property filled from outside the state. Any unprotected activity exceeding mere solicitation that is more than de minimis eliminates statutory immunity for the entire taxable year.",
+    "source_url": "https://www.ilga.gov/commission/jcar/admincode/086/086001000EE97200R.html",
+    "evidence": [
+     "tangible personal property",
+     "mere solicitation",
+     "solicitation of orders",
+     "de minimis"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.illinois.gov/content/dam/soi/en/web/tax/research/legalinformation/proposedrules/86-100p-w.pdf",
+    "matched_title": "Proposed Rule Concerning Income Tax",
+    "matched_phrases": [
+     "tangible personal property",
+     "mere solicitation",
+     "solicitation of orders"
+    ],
+    "snippet": "The following activities (assuming they are not de minimus) do not constitute \"mere solicitation\" of orders, nor are they ancillary, nor otherwise protected under PL 86-272."
+   }
+  ],
+  "grounding_urls": [
+   "https://www.ilga.gov/legislation/ILCS/details?MajorTopic=&Chapter=&ActName=Illinois%20Income%20Tax%20Act.&ActID=577&ChapterID=8&ChapAct=35+ILCS+5%2F&SeqStart=24700000&SeqEnd=25000000&Print=True",
+   "https://www.ilga.gov/ftp/JCAR/AdminCode/086/08600100EE97200R.html",
+   "https://tax.illinois.gov/content/dam/soi/en/web/tax/research/legalinformation/proposedrules/86-100-iac-2430.pdf",
+   "https://static1.squarespace.com/static/5c6b12e294d71a0fec5f5915/t/5dc04256f7d5800488eb1adc/1572880983378/CCH-+H%26S+-+Income+Tax+-+Has+the+State+Defined+De+Minimus+Activities+-Oct-2019.pdf",
+   "https://tax.illinois.gov/research/publications/bulletins/fy-2025-29.html",
+   "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/business/miscellaneous/schedule-ub-instr.pdf",
+   "https://tax.illinois.gov/content/dam/soi/en/web/tax/research/legalinformation/proposedrules/86-100p-w.pdf",
+   "https://tax.illinois.gov/content/dam/soi/en/web/tax/research/legalinformation/proposedrules/86-100-iac-2ndnotice.pdf",
+   "https://www.ilga.gov/ftp/JCAR/AdminCode/086/08600100EE97200R.html",
+   "https://tax.illinois.gov/research/publications/bulletins/fy-2026-12.html",
+   "https://tax.illinois.gov/research/taxinformation/sales/rot.html",
+   "https://www.ilga.gov/legislation/ilcs/fulltext?DocName=003501200K2",
+   "https://tax.illinois.gov/businesses/retailer-resources.html",
+   "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=582&ChapterID=8&Chapter=REVENUE&MajorTopic=GOVERNMENT",
+   "https://www.ilga.gov/legislation/ilcs/fulltext?DocName=003501200K2-13",
+   "https://www.ilga.gov/legislation/ilcs/fulltext?DocName=003501200K2",
+   "https://tax.illinois.gov/research/news/fy-2026-12-destination-based-tax-changes.html",
+   "https://tax.illinois.gov/research/publications/pubs/overview-of-destination-based-sales-tax.html",
+   "https://tax.illinois.gov/research/publications/pubs/overview-of-destination-based-sales-tax.html",
+   "https://tax.illinois.gov/research/publications/bulletins/fy-2026-28.html",
+   "https://www.ilga.gov/ftp/JCAR/AdminCode/086/08600100EE97200R.html",
+   "https://tax.illinois.gov/businesses/commonerrors.html",
+   "https://tax.illinois.gov/businesses/commonerrors.html",
+   "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/business/corporate/il-1120-instr.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "IL",
+  "section": "rates",
+  "notes": "### Individual Income Tax Rate\n* **Rate:** Flat rate of 4.95% (0.0495) of net income.\n* **Applicability:** Applies to both tax year 2025 and tax year 2026 (unchanged).\n* **Official URL:** \n  * https://tax.illinois.gov/research/taxrates/incometaxrate.html\n  * https://tax.illinois.gov/research/publications/bulletins/2026/fy-2026-15.html\n\n---\n\n### Corporate Income & Franchise Tax\n* **Corporate Income Tax Rate:**\n  * State Corporate Income Tax: 7.0% of net income.\n  * Personal Property Replacement Tax (PPRT): 2.5% of net income for C corporations.\n  * Total combined corporate rate: 9.5% of net income.\n  * S corporations do not pay state corporate income tax, but are subject to a 1.5% PPRT on net income.\n* **Corporate Income Tax Minimum Tax:** Not found (Illinois does not impose a minimum corporate income tax on Form IL-1120).\n* **Corporate Franchise Tax Rate & Minimum:**\n  * Administered by the Illinois Secretary of State under the Business Corporation Act of 1983 (805 ILCS 5/15.35, 15.65, 15.75).\n  * General annual franchise tax rate: 1/10 of 1% (0.10%) of paid-in capital allocated to Illinois. Initial/additional franchise tax rate: 15/100 of 1% (0.15%).\n  * Statutory minimum annual tax: $25.\n  * Exemption: Under 805 ILCS 5/15.35 and 15.65 (as amended by P.A. 103-592), on and after January 1, 2025, the first $10,000 in franchise tax liability is exempt.\n* **Applicability:** Rates and exemption apply to both tax year 2025 and tax year 2026 (the $10,000 exemption took effect January 1, 2025).\n* **Official URLs:**\n  * https://tax.illinois.gov/research/taxrates/incometaxrate.html\n  * https://tax.illinois.gov/businesses/taxinformation/income/corporation.html\n  * https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=080500050K15.35\n  * https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=080500050K15.65\n\n---\n\n### State Sales & Use Tax Rate & Local Surcharges\n* **State Rates:**\n  * General merchandise: 6.25% (6.25 percent).\n  * Qualifying drugs and medical appliances: 1% (1 percent).\n  * Qualifying food/grocery: 1% through December 31, 2025; eliminated by the State effective January 1, 2026 (counties and municipalities are authorized to levy a local 1% grocery tax).\n* **Local Add-On Rates:** Yes. Local jurisdictions (counties, municipalities, mass transit districts, and business districts) impose local occupation taxes administered by IDOR, increasing the aggregate rate depending on location.\n* **Applicability:** Applies to tax years 2025 and 2026 (state grocery rate changes effective January 1, 2026; general merchandise rate remains 6.25%).\n* **Official URLs:**\n  * https://tax.illinois.gov/questionsandanswers/answer.260.html\n  * https://tax.illinois.gov/localgovernments/salesandrelated/usetax.html\n  * https://tax.illinois.gov/research/publications/pio-101.html\n\n---\n\n### Gross Receipts, Franchise, Margin, or Other Notable Business Taxes\n* **Personal Property Replacement Tax (PPRT):** \n  * Net income tax replacing abolished local personal property taxes (30 ILCS 115/12; 35 ILCS 5/201(c), (d)).\n  * Rate: 2.5% for regular C corporations; 1.5% for partnerships, S corporations, and trusts; 0.8% on invested capital for public utilities. Applies to 2025 and 2026.\n* **Pass-Through Entity (PTE) Tax:** \n  * Elective entity-level income tax on partnerships and S corporations at a rate of 4.95% of net income (35 ILCS 5/201(p)). Applies to 2025 and 2026.\n* **General Statewide Gross Receipts or Margin Tax:** Not found (Illinois does not impose a general gross receipts or margin tax across all commercial entities, but levies specific utility gross receipts excise taxes).\n* **Official URLs:**\n  * https://tax.illinois.gov/localgovernments/replacementtax.html\n  * https://tax.illinois.gov/businesses/taxinformation/income/corporation.html\n  * https://tax.illinois.gov/businesses/taxinformation/income/s-corp.html",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Illinois imposes a flat individual income tax rate of 4.95% of net income.",
+    "source_url": "https://tax.illinois.gov/research/taxrates/incometaxrate.html",
+    "evidence": [
+     "4.95%",
+     "net income",
+     "tax rate"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.illinois.gov/research/taxrates/income.html",
+    "matched_title": "Income Tax Rates",
+    "matched_phrases": [
+     "net income",
+     "tax rate"
+    ],
+    "snippet": "Corporations – 7 percent of net income Trusts and estates – 4.95 percent of net income BIT prior year rates Individual Income Tax Effective July 1, 2017:"
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The corporate income tax rate is 7.0% plus a 2.5% Personal Property Replacement Tax, resulting in a total combined rate of 9.5% for C corporations. An annual franchise tax of 0.10% of paid-in capital applies, with a $25 minimum and an exemption for the first $10,000 in liability.",
+    "source_url": "https://tax.illinois.gov/businesses/taxinformation/income/corporation.html",
+    "evidence": [
+     "7.0%",
+     "Personal Property Replacement Tax",
+     "combined corporate rate"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.illinois.gov/businesses/taxinformation/income/corporation.html; figures not on tax.illinois.gov: ['0.1', '10000', '2.5', '25', '7', '9.5']; figures not on tax.illinois.gov: ['0.1', '10000', '25', '9.5']; figures not on tax.illinois.gov: ['0.1', '10000', '2.5', '7', '9.5']; unreadable: https://www.ilga.gov/legislation/ilcs/fulltext?DocName=080500050K15.35; unreadable: https://www.ilga.gov/legislation/ILCS/details?ActID=2273&ChapAct=805+ILCS+5%2F&Print=True; unreadable: htt",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025
+    ],
+    "value": "The state sales and use tax rate is 6.25% on general merchandise and 1% on qualifying food, drugs, and medical appliances. Local jurisdictions impose additional occupation taxes administered by the state.",
+    "source_url": "https://tax.illinois.gov/questionsandanswers/answer.260.html",
+    "evidence": [
+     "6.25 percent",
+     "General merchandise",
+     "qualifying food"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.illinois.gov/questionsandanswers/answer.139.html",
+    "matched_title": "Answer",
+    "matched_phrases": [
+     "6.25 percent",
+     "General merchandise"
+    ],
+    "snippet": "6.25 percent on general merchandise, including items required to be titled or registered by an agency of Illinois state government;"
+   },
+   {
+    "key": "sales",
+    "years": [
+     2026
+    ],
+    "value": "The state sales and use tax rate is 6.25% on general merchandise and 1% on qualifying drugs and medical appliances, with the state rate on qualifying food eliminated. Local jurisdictions impose additional local occupation taxes.",
+    "source_url": "https://tax.illinois.gov/questionsandanswers/answer.260.html",
+    "evidence": [
+     "6.25 percent",
+     "General merchandise",
+     "medical appliances"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.illinois.gov/questionsandanswers/answer.139.html",
+    "matched_title": "Answer",
+    "matched_phrases": [
+     "6.25 percent",
+     "General merchandise",
+     "medical appliances"
+    ],
+    "snippet": "6.25 percent on general merchandise, including items required to be titled or registered by an agency of Illinois state government;"
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Illinois levies a Personal Property Replacement Tax of 2.5% on C corporation net income, 1.5% on partnership and S corporation net income, and 0.8% on public utility invested capital. Qualifying pass-through entities may also elect to pay an entity-level tax of 4.95% of net income.",
+    "source_url": "https://tax.illinois.gov/localgovernments/replacementtax.html",
+    "evidence": [
+     "Personal Property Replacement Tax",
+     "invested capital",
+     "2.5%",
+     "1.5%"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.illinois.gov/localgovernments/replacementtax.html; figures not on tax.illinois.gov: ['0.8', '1.5', '2.5']; figures not on tax.illinois.gov: ['0.8']; figures not on tax.illinois.gov: ['0.8', '1.5', '2.5', '4.95']; unreadable: https://www.ilga.gov/legislation/ilcs/fulltext?DocName=080500050K15.35; unreadable: https://www.ilga.gov/legislation/ILCS/details?ActID=2273&ChapAct=805+ILCS+5%2F&Print=True; unreadable: https://ilga.gov/legislation/ILCS/details?MajorTopic=BUSINESS%20",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://tax.illinois.gov/forms/incometax/currentyear/individual/il-1040-instr/what-is-new.html",
+   "https://tax.illinois.gov/research/taxrates/income.html",
+   "https://tax.illinois.gov/research/publications/bulletins/fy-2026-15.html",
+   "https://tax.illinois.gov/questionsandanswers/answer.83.html",
+   "https://tax.illinois.gov/research/taxinformation/income/subchapters.html",
+   "https://tax.illinois.gov/research/taxinformation/income/corporate.html",
+   "https://www.ilga.gov/legislation/ilcs/fulltext?DocName=080500050K15.35",
+   "https://www.ilga.gov/legislation/ILCS/details?ActID=2273&ChapAct=805+ILCS+5%2F&Print=True",
+   "https://ilga.gov/legislation/ILCS/details?MajorTopic=BUSINESS%20AND%20EMPLOYMENT&Chapter=BUSINESS%20ORGANIZATIONS&ActName=Business%20Corporation%20Act%20of%201983.&ActID=2273&ChapterID=65&ChapAct=805+ILCS+5%2F&SeqStart=19200000&SeqEnd=21400000&Print=True",
+   "https://www.ilga.gov/Documents/legislation/ilcs/documents/080500050k15.35.htm",
+   "https://www.ilga.gov/legislation/ILCS/details?ActID=2273&ChapAct=805+ILCS+5%2F",
+   "https://tax.illinois.gov/questionsandanswers/answer.139.html",
+   "https://tax.illinois.gov/content/dam/soi/en/web/tax/research/taxinformation/sales/documents/pio-101-illinois-tax-matrix.pdf",
+   "https://tax.illinois.gov/research/publications/bulletins/fy-2026-26.html",
+   "https://tax.illinois.gov/localgovernments/usetax.html",
+   "https://tax.illinois.gov/localgovernments/personal-property-replacement-tax.html",
+   "https://tax.illinois.gov/questionsandanswers/answer.82.html",
+   "https://tax.illinois.gov/research/publications/bulletins/fy-2027-01.html"
+  ],
+  "error": ""
+ },
+ {
+  "state": "IL",
+  "section": "filing",
+  "notes": "### 1. Individual Return Due Dates and Extension Rules\n* **Calendar-Year Return Due Date:** Form IL-1040 is due on or before April 15 of the year following the tax year (e.g., April 15, 2026, for tax year 2025; April 15, 2027, for tax year 2026). If April 15 falls on a weekend or holiday, the due date is the next business day.\n* **Automatic Extension:** An automatic six-month extension of time to file is granted (to October 15 for calendar-year filers) without filing a separate application form. If the IRS grants an extension of more than six months, Illinois automatically honors that longer period.\n* **Payment Rules:** An extension of time to file does *not* extend the time to pay tax. Tentative tax owed must be paid by the original April 15 deadline using Form IL-505-I (or electronically via MyTax Illinois) to avoid late-payment penalties and interest.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official URLs:** \n  * https://tax.illinois.gov/questionsandanswers/answer.204.html\n  * https://tax.illinois.gov/questionsandanswers/answer.260.html\n  * https://tax.illinois.gov/forms/incometax/il-505-i.html\n\n---\n\n### 2. Corporate and Pass-Through Return Due Dates and Extension Rules\n* **C Corporations (Form IL-1120):**\n  * *Due Date:* Same as federal due date. For calendar-year filers (and fiscal years ending on any date other than June 30), it is due on or before the 15th day of the 4th month following the close of the tax year (April 15 for calendar filers). For tax years ending June 30, it is due on or before the 15th day of the 3rd month (September 15). For cooperatives, it is due on the 15th day of the 9th month.\n  * *Filing Extension:* Automatic seven-month extension for tax years ending on a date other than June 30 (extended to November 15 for calendar-year filers); automatic eight-month extension for fiscal years ending June 30. Additional extensions are allowed if granted by the IRS (federal extension plus one month).\n* **S Corporations (Form IL-1120-ST):**\n  * *Due Date:* Due on or before the 15th day of the 3rd month following the close of the tax year (March 15 for calendar filers).\n  * *Filing Extension:* Automatic seven-month extension of time to file (extended to October 15 for calendar-year filers).\n* **Partnerships (Form IL-1065):**\n  * *Due Date:* Due on or before the 15th day of the 4th month following the close of the tax year (April 15 for calendar filers).\n  * *Filing Extension:* Automatic six-month extension of time to file (extended to October 15 for calendar-year filers).\n* **Extension Payment Rules for Business Entities:** No application form is required to obtain an automatic extension; however, all tentative taxes owed must be paid by the original return due date using the entity's payment voucher (IL-1120-V, IL-1120-ST-V, or IL-1065-V) or electronically.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official URLs:**\n  * https://tax.illinois.gov/questionsandanswers/answer.213.html\n  * https://tax.illinois.gov/questionsandanswers/answer.212.html\n  * https://tax.illinois.gov/questionsandanswers/answer.211.html\n  * https://tax.illinois.gov/questionsandanswers/answer.203.html\n\n---\n\n### 3. Elective Pass-Through Entity Tax (PTET)\n* **Existence:** Yes; partnerships (other than publicly traded partnerships under IRC § 7704) and Subchapter S corporations may elect to pay the PTE tax at the entity level.\n* **Rate:** 4.95 percent (.0495) of the taxpayer's net income for the taxable year.\n* **How and When to Elect:**\n  * The election is made annually on Form IL-1065 or Form IL-1120-ST.\n  * The election is made on or before the extended due date of the return and is irrevocable once made.\n* **Applicable Tax Years:** Applies to tax years 2025 and 2026. The statutory sunset provision (\"beginning prior to January 1, 2026\") was repealed in the Illinois Income Tax Act (35 ILCS 5/201(p)(1)), keeping the election effective for taxable years ending on or after December 31, 2021.\n* **Official URLs:**\n  * https://tax.illinois.gov/questionsandanswers/answer.576.html\n  * https://tax.illinois.gov/research/publications/pubs/pub-129.html\n  * https://www.ilga.gov/legislation/ilcs/documents/003500050K201.htm\n\n---\n\n### 4. Composite or Group Nonresident Returns for Pass-Through Entities\n* **Status:** Not available / eliminated. Form IL-1023-C (Composite Income and Replacement Tax Return) was discontinued and eliminated for tax years ending on or after December 31, 2014.\n* **Current Mechanism:** Illinois does not permit composite return filing for tax years 2025 and 2026. Instead, pass-through entities satisfy nonresident member obligations by either:\n  1. Reporting and remitting mandatory pass-through withholding on Schedule B of Form IL-1065 or Form IL-1120-ST; or\n  2. Electing to pay the Pass-through Entity (PTE) tax.\n  * A nonresident individual member is not required to file Form IL-1040 if their only Illinois income is from pass-through entities and their tax liability is satisfied in full by PTE tax credits or pass-through withholding.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official URLs:**\n  * https://tax.illinois.gov/research/publications/pubs/pub-129.html\n  * https://tax.illinois.gov/questionsandanswers/answer.575.html\n  * https://tax.illinois.gov/businesses/partnerships.html\n\n---\n\n### 5. Estimated Tax Requirements and Nonresident Withholding for Pass-Throughs\n* **Pass-Through Estimated Tax Requirements:**\n  * *Entities NOT electing PTET:* Partnerships and S corporations pay replacement tax annually with their return; no estimated payments are required.\n  * *Entities ELECTING PTET:* Must make quarterly estimated payments if the expected combined liability for replacement tax and PTE tax exceeds $500 (after withholding and credits).\n  * *Payment Schedule:* Due in four installments on the 15th day of the 4th, 6th, 9th, and 12th months of the tax year (April 15, June 15, September 15, and December 15 for calendar filers).\n  * *Payment Method:* Paid electronically via MyTax Illinois / ACH Credit, or by mail using Form IL-1065-V / Form IL-1120-ST-V. Electronic payment is mandatory if annual tax liability meets or exceeds $20,000.\n* **Pass-Through Nonresident Withholding:**\n  * Required for entities that do *not* elect to pay PTE tax (an entity pays pass-through withholding or PTE tax, not both).\n  * Imposed on distributive shares of business and nonbusiness income apportioned/allocated to Illinois for nonresident partners, shareholders, and beneficiaries.\n  * *Exemptions:* Nonresident non-individual entities (corporations, S corporations, partnerships, trusts) may claim exemption from withholding by completing and providing Form IL-1000-E to the pass-through entity. Individuals are *not* permitted to file Form IL-1000-E.\n  * *Investment Partnerships:* Required to withhold on nonresident partners for income from lower-tier partnerships apportionable or allocable to Illinois (calculated on Schedule K-1-P(4)).\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official URLs:**\n  * https://tax.illinois.gov/questionsandanswers/answer.568.html\n  * https://tax.illinois.gov/questionsandanswers/answer.575.html\n  * https://tax.illinois.gov/forms/incometax/il-1000-e.html\n\n---\n\n### 6. Main Return Forms\n* **Individual:**\n  * Form IL-1040: Individual Income Tax Return\n  * Form IL-1040-ES: Estimated Income Tax Payments for Individuals\n  * Form IL-505-I: Automatic Extension Payment for Individuals Filing Form IL-1040\n  * Form IL-1040-X: Amended Individual Income Tax Return\n  * Schedule NR: Nonresident and Part-Year Resident Computation of Illinois Tax\n  * Schedule CR: Credit for Tax Paid to Other States\n* **Corporate:**\n  * Form IL-1120: Corporation Income and Replacement Tax Return\n  * Form IL-1120-V: Payment Voucher for Corporation Income and Replacement Tax\n  * Form IL-1120-X: Amended Corporation Income and Replacement Tax Return\n  * Form IL-2220: Computation of Penalties for Businesses\n  * Schedule UB: Combined Apportionment for Unitary Business Group\n* **Pass-Through Entities:**\n  * Form IL-1065: Partnership Replacement Tax Return\n  * Form IL-1065-V: Payment Voucher for Partnership Replacement Tax\n  * Form IL-1065-X: Amended Partnership Replacement Tax Return\n  * Form IL-1120-ST: Small Business Corporation Replacement Tax Return\n  * Form IL-1120-ST-V: Payment Voucher for Small Business Corporation Replacement Tax\n  * Form IL-1120-ST-X: Amended Small Business Corporation Replacement Tax Return\n  * Schedule B: Partners' or Shareholders' Information\n  * Schedule K-1-P: Partner's or Shareholder's Share of Income, Deductions, Credits, and Recapture\n  * Schedule K-1-P(3): Pass-through Withholding Calculation for Nonresident Members\n  * Schedule K-1-P(4): Investment Partnership Withholding Calculation for Nonresident Partners\n  * Form IL-1000-E: Certificate of Exemption for Pass-through Withholding payments\n* **Applicable Tax Years:** 2025 and 2026.\n* **Official URLs:**\n  * https://tax.illinois.gov/forms/incometax/il-1040.html\n  * https://tax.illinois.gov/forms/incometax/il-1120.html\n  * https://tax.illinois.gov/forms/incometax/il-1120-st.html\n  * https://tax.illinois.gov/forms/incometax/il-1065.html",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Form IL-1040 is due on or before April 15 of the year following the tax year, with an automatic six-month extension to October 15 granted without a separate application. Tentative tax owed must be paid by the original April 15 deadline using Form IL-505-I or electronically.",
+    "source_url": "https://tax.illinois.gov/questionsandanswers/answer.204.html",
+    "evidence": [
+     "automatic six-month extension",
+     "Form IL-1040",
+     "Form IL-505-I",
+     "October 15"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.illinois.gov/forms/incometax/currentyear/individual/il-1040-instr/general-information.html",
+    "matched_title": "General Information",
+    "matched_phrases": [
+     "automatic six-month extension",
+     "Form IL-1040",
+     "Form IL-505-I",
+     "October 15"
+    ],
+    "snippet": "If you determine that you will owe tax, you must use Form IL-505-I, Automatic Extension Payment for Individuals , to pay any tax you owe to avoid penalty and interest on tax not paid by April 15, 2026."
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Calendar-year C corporations on Form IL-1120 and partnerships on Form IL-1065 are due April 15, receiving automatic seven-month and six-month extensions, while S corporations on Form IL-1120-ST are due March 15 with an automatic seven-month extension. All tentative taxes owed must be paid by the original return due date using the entity's payment voucher or electronically.",
+    "source_url": "https://tax.illinois.gov/questionsandanswers/answer.203.html",
+    "evidence": [
+     "automatic seven-month extension",
+     "Form IL-1120",
+     "Form IL-1120-ST",
+     "Form IL-1065"
+    ],
+    "accepted": false,
+    "reason": "figures not on tax.illinois.gov: ['1065', '1120', '15']; figures not on tax.illinois.gov: ['1065', '1120']; dates not on tax.illinois.gov: ['March 15']; figures not on tax.illinois.gov: ['1065']; figures not on tax.illinois.gov: ['1120']; figures not on tax.illinois.gov: ['15']; dates not on tax.illinois.gov: ['April 15', 'March 15']; unreadable: https://www.ilga.gov/documents/legislation/ilcs/documents/003500050K201.htm; evidence not on tax.illinois.gov (0/4); unreadable: https://tax.illinois.g",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Partnerships and S corporations may elect to pay the elective pass-through entity tax at a rate of 4.95 percent of net income. The election is made annually on Form IL-1065 or Form IL-1120-ST on or before the extended due date of the return and is irrevocable once made.",
+    "source_url": "https://tax.illinois.gov/questionsandanswers/answer.576.html",
+    "evidence": [
+     "4.95 percent",
+     "Form IL-1065",
+     "Form IL-1120-ST",
+     "irrevocable once made"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/business/corporate/il-1120-instr.pdf",
+    "matched_title": "2025 IL-1120 Instructions",
+    "matched_phrases": [
+     "4.95 percent",
+     "Form IL-1065",
+     "Form IL-1120-ST"
+    ],
+    "snippet": "Small business corporations — If you are an S corporation, as defined by IITA Section 1501(a)(28), you are subject only to Illinois Replace- ment Tax and must file Form IL-1120-ST, Small Business Corporation Replacement Tax Return."
+   },
+   {
+    "key": "composite",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Illinois does not permit composite return filing because Form IL-1023-C was eliminated for tax years ending on or after December 31, 2014. Instead, pass-through entities satisfy nonresident member obligations through mandatory pass-through withholding or by electing to pay the pass-through entity tax.",
+    "source_url": "https://tax.illinois.gov/research/publications/pubs/pub-129.html",
+    "evidence": [
+     "pass-through withholding",
+     "Form IL-1023-C",
+     "PTE tax credits",
+     "December 31, 2014"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.illinois.gov/research/legalinformation/abusivetaxshelter/disclosure.html",
+    "matched_title": "Illinois Disclosure Requirements for Reportable Transactions",
+    "matched_phrases": [
+     "Form IL-1023-C",
+     "December 31, 2014"
+    ],
+    "snippet": "If you are required to make a disclosure with respect to a reportable transaction engaged in during the taxable year by a partnership or Subchapter S corporation in which you are a partner or shareholder, the partnership or S corporation is permitted to make the disclosure on your behalf by submitting the disclosure statement with a timely filed Illinois income tax return (for tax years ending on or after December 31, 2014);"
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Pass-through entities electing PTET must make quarterly estimated payments if combined replacement tax and PTE tax liability exceeds $500, due on the 15th day of the 4th, 6th, 9th, and 12th months. Entities not electing PTE tax must pay pass-through withholding on nonresident members unless an exempt non-individual member provides Form IL-1000-E.",
+    "source_url": "https://tax.illinois.gov/questionsandanswers/answer.575.html",
+    "evidence": [
+     "quarterly estimated payments",
+     "pass-through withholding",
+     "Form IL-1000-E",
+     "combined liability"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/business/corporate/il-1120-instr.pdf",
+    "matched_title": "2025 IL-1120 Instructions",
+    "matched_phrases": [
+     "pass-through withholding",
+     "Form IL-1000-E"
+    ],
+    "snippet": "Pass-through withholding is the amount required to be reported and paid by the pass-through entity on behalf of its nonresident partners, shareholders, and beneficiaries • who have not submitted Form IL-1000-E, Certificate of Exemption for Pass-through Withholding, to the pass-through entity, and • who receive business and nonbusiness income allocable to Illinois from the pass-through entity."
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Primary income tax returns include Form IL-1040 for individuals, Form IL-1120 for C corporations, Form IL-1120-ST for S corporations, and Form IL-1065 for partnerships. Associated individual filing forms include Form IL-1040-ES and extension payment Form IL-505-I.",
+    "source_url": "https://tax.illinois.gov/forms/incometax/il-1040.html",
+    "evidence": [
+     "Form IL-1040",
+     "Individual Income Tax Return",
+     "Form IL-1040-ES",
+     "Form IL-505-I"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.illinois.gov/forms/incometax/il-1040.html; figures not on tax.illinois.gov: ['1065', '1120']; figures not on tax.illinois.gov: ['1040']; figures not on tax.illinois.gov: ['1040', '1065', '505']; figures not on tax.illinois.gov: ['1120', '505']; figures not on tax.illinois.gov: ['1040', '1120', '505']; figures not on tax.illinois.gov: ['1040', '505']; unreadable: https://www.ilga.gov/documents/legislation/ilcs/documents/003500050K201.htm; figures not on tax.illinois.gov: [",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://tax.illinois.gov/individuals/filingrequirements/extension.html",
+   "https://tax.illinois.gov/questionsandanswers/answer.4.html",
+   "https://tax.illinois.gov/forms/incometax/currentyear/individual/il-1040-instr/general-information.html",
+   "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/individual/il-505-i.pdf",
+   "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/business/corporate/il-1120-instr.pdf",
+   "https://tax.illinois.gov/questionsandanswers/answer.69.html",
+   "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/business/corporate/il-1120-instr.pdf",
+   "https://tax.illinois.gov/research/taxinformation/income/subchapters.html",
+   "https://tax.illinois.gov/questionsandanswers/answer.93.html",
+   "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/business/smallbusiness/il-1120-st-instr.pdf",
+   "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/business/partnership/il-1065-instr.pdf",
+   "https://tax.illinois.gov/questionsandanswers/answer.74.html",
+   "https://tax.illinois.gov/questionsandanswers/answer.2.html?ref=skyvern.com",
+   "https://tax.illinois.gov/questionsandanswers/answer.2.html?ref=skyvern.com",
+   "https://tax.illinois.gov/questionsandanswers/answer.689.html",
+   "https://www.ilga.gov/documents/legislation/ilcs/documents/003500050K201.htm",
+   "https://tax.illinois.gov/research/publications/pubs/pass-through-information.html",
+   "https://tax.illinois.gov/content/dam/soi/en/web/tax/research/publications/pubs/documents/pub-129.pdf",
+   "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/business/miscellaneous/schedule-nld-instr.pdf",
+   "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/individual/il-1040-es.pdf",
+   "https://tax.illinois.gov/research/legalinformation/abusivetaxshelter/disclosure.html",
+   "https://tax.illinois.gov/content/dam/soi/en/web/tax/research/publications/auditmanual/documents/idorauditmanual-it-chapterscomb-r0717.pdf",
+   "https://tax.illinois.gov/questionsandanswers/answer.80.html",
+   "https://tax.illinois.gov/content/dam/soi/en/web/tax/research/publications/pubs/documents/pub-129.pdf",
+   "https://tax.illinois.gov/research/taxinformation/income/partnership.html",
+   "https://tax.illinois.gov/questionsandanswers/answer.82.html",
+   "https://tax.illinois.gov/businesses/business-income-tax-estimated-payments.html",
+   "https://tax.illinois.gov/businesses/business-income-tax-estimated-payments.html",
+   "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/business/miscellaneous/il-1000-e.pdf",
+   "https://tax.illinois.gov/research/taxinformation/income/partnership.html",
+   "https://tax.illinois.gov/research/publications/bulletins/fy-2026-15.html",
+   "https://tax.illinois.gov/research/taxinformation/income/individual.html",
+   "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/individual/il-1040-instr.pdf",
+   "https://tax.illinois.gov/research/taxinformation/income/fiduciary.html",
+   "https://tax.illinois.gov/forms/incometax/currentyear/individual/il-1040-schedule-cr-instr.html",
+   "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/business/smallbusiness/il-1120-st-instr.pdf",
+   "https://tax.illinois.gov/research/taxinformation/income/corporate.html",
+   "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/business/partnership/il-1065.pdf",
+   "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/business/smallbusiness/il-1120-st.pdf",
+   "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/business/smallbusiness/il-1120-st-x-instr.pdf",
+   "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/business/miscellaneous/schedule-k-1-p-1-instr.pdf",
+   "https://tax.illinois.gov/questionsandanswers.html",
+   "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/business/smallbusiness/il-1120-st-instr.pdf"
+  ],
+  "error": ""
+ }
+]

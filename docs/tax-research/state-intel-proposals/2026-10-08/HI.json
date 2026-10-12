@@ -1,0 +1,463 @@
+[
+ {
+  "state": "HI",
+  "section": "apportionment",
+  "notes": "### 1. Apportionment Formula\n* **Fact:** Hawaii uses a standard, equally weighted **three-factor apportionment formula** consisting of the property factor, payroll factor, and sales factor. All business income is apportioned to Hawaii by multiplying the income by a fraction, the numerator of which is the property factor plus the payroll factor plus the sales factor, and the denominator of which is 3. If the denominator of any factor is zero, the denominator of the apportionment fraction is reduced by the number of factors with a zero denominator.\n* **Applicability:** Applies to both tax years **2025 and 2026** (no statutory change).\n* **Official Source:** \n  * Hawaii Revised Statutes (HRS) § 235-29: https://files.hawaii.gov/tax/legal/hrs/hrs_235.pdf\n  * Hawaii Department of Taxation, Instructions for Schedules O and P (Form N-30): https://tax.hawaii.gov/forms/corporate-income-tax-forms/\n\n---\n\n### 2. Sourcing for Receipts from Services and Intangibles\n* **Fact:** Hawaii applies **cost of performance** (income-producing activity) sourcing for receipts other than sales of tangible personal property. Under HRS § 235-37, sales other than sales of tangible personal property are in Hawaii if:\n  1. The income-producing activity is performed in Hawaii; or\n  2. The income-producing activity is performed both in and outside Hawaii and a greater proportion of the income-producing activity is performed in Hawaii than in any other state, based on costs of performance.\n* **Applicability:** Applies to both tax years **2025 and 2026** (no change).\n* **Official Source:** \n  * HRS § 235-37: https://files.hawaii.gov/tax/legal/hrs/hrs_235.pdf\n  * Hawaii Department of Taxation, Instructions for Schedules O and P (Form N-30): https://tax.hawaii.gov/forms/corporate-income-tax-forms/\n\n---\n\n### 3. Industries with Their Own Apportionment Formula\n* **Fact:** Under Hawaii Administrative Rules (HAR) § 18-235-38-06 and the Instructions for Form N-30 Schedules O and P, special factor modification and apportionment rules apply to taxpayers in the following lines of business:\n  * **Air or sea transportation service**\n  * **Construction contracting**\n  * **Publishing**\n  * **Radio or television broadcasting**\n  *(Note: Banks and financial corporations are subject to the alternative Franchise Tax under HRS Chapter 241 rather than corporate income tax).*\n* **Applicability:** Applies to both tax years **2025 and 2026** (no change).\n* **Official Source:** \n  * Hawaii Administrative Rules § 18-235-38-06 / Instructions for Schedules O and P (Form N-30): https://tax.hawaii.gov/forms/corporate-income-tax-forms/\n  * Hawaii Department of Taxation Rules: https://tax.hawaii.gov/legal/tax-law-and-rules/\n\n---\n\n### 4. Form or Schedule Used to Compute Apportionment\n* **Fact:** Apportionment is computed on **Schedule P (Form N-30), *Apportionment Formula***, and reported along with **Schedule O (Form N-30), *Allocation and Apportionment of Income***, attached to Form N-30 (*Corporation Income Tax Return*).\n* **Applicability:** Applies to both tax years **2025 and 2026**.\n* **Official Source:** \n  * Hawaii Department of Taxation, Corporate Income Tax Forms: https://tax.hawaii.gov/forms/corporate-income-tax-forms/",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Hawaii uses an equally weighted three-factor apportionment formula consisting of the property factor, payroll factor, and sales factor.",
+    "source_url": "https://files.hawaii.gov/tax/legal/hrs/hrs_235.pdf",
+    "evidence": [
+     "property factor",
+     "payroll factor",
+     "sales factor"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://data.capitol.hawaii.gov/sessions/session2017/HRS-Chapter-PDF's/HRS_0235.pdf",
+    "matched_title": "https://data.capitol.hawaii.gov/sessions/session2017/HRS-Chapter-PDF's/HRS_0235.pdf",
+    "matched_phrases": [
+     "property factor",
+     "payroll factor",
+     "sales factor"
+    ],
+    "snippet": "All business income shall be apportioned to this State by multiplying the income by a fraction, the numerator of which is the property factor plus the payroll factor plus the sales factor, and the denominator of which is three."
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Hawaii applies cost of performance sourcing for receipts other than sales of tangible personal property based on the location of income-producing activity.",
+    "source_url": "https://files.hawaii.gov/tax/legal/hrs/hrs_235.pdf",
+    "evidence": [
+     "income-producing activity",
+     "costs of performance",
+     "tangible personal property"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://data.capitol.hawaii.gov/sessions/session2017/HRS-Chapter-PDF's/HRS_0235.pdf",
+    "matched_title": "https://data.capitol.hawaii.gov/sessions/session2017/HRS-Chapter-PDF's/HRS_0235.pdf",
+    "matched_phrases": [
+     "income-producing activity",
+     "costs of performance",
+     "tangible personal property"
+    ],
+    "snippet": "or (2) The income-producing activity is performed both in and outside this State and a greater proportion of the income-producing activity is performed in this State than in any other state, based on costs of performance."
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Special apportionment formulas apply to air or sea transportation service, construction contracting, publishing, and radio or television broadcasting.",
+    "source_url": "https://tax.hawaii.gov/forms/corporate-income-tax-forms/",
+    "evidence": [
+     "transportation service",
+     "construction contracting",
+     "television broadcasting"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.hawaii.gov/forms/corporate-income-tax-forms/; evidence not on data.capitol.hawaii.gov (0/3); unreadable: https://files.hawaii.gov/tax/forms/2024/n30opins.pdf; unreadable: https://files.hawaii.gov/tax/legal/hrs/hrs_235.pdf; unreadable: https://tax.hawaii.gov/forms/a1_b1_3corp/; unreadable: https://tax.hawaii.gov/legal/taxlawandrules/",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Apportionment is computed on Schedule P (Form N-30) and reported on Schedule O (Form N-30), which is filed with Form N-30.",
+    "source_url": "https://tax.hawaii.gov/forms/corporate-income-tax-forms/",
+    "evidence": [
+     "Schedule P",
+     "Apportionment Formula",
+     "Schedule O",
+     "Form N-30"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.hawaii.gov/forms/corporate-income-tax-forms/; evidence not on data.capitol.hawaii.gov (0/4); unreadable: https://files.hawaii.gov/tax/forms/2024/n30opins.pdf; unreadable: https://files.hawaii.gov/tax/legal/hrs/hrs_235.pdf; unreadable: https://tax.hawaii.gov/forms/a1_b1_3corp/; unreadable: https://tax.hawaii.gov/legal/taxlawandrules/",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://data.capitol.hawaii.gov/sessions/session2017/HRS-Chapter-PDF's/HRS_0235.pdf",
+   "https://files.hawaii.gov/tax/forms/2024/n30opins.pdf",
+   "https://data.capitol.hawaii.gov/sessions/session2017/HRS-Chapter-PDF's/HRS_0235.pdf",
+   "https://files.hawaii.gov/tax/legal/hrs/hrs_235.pdf",
+   "https://tax.hawaii.gov/forms/a1_b1_3corp/",
+   "https://data.capitol.hawaii.gov/sessions/session2017/HRS-Chapter-PDF's/HRS_0235.pdf",
+   "https://tax.hawaii.gov/legal/taxlawandrules/"
+  ],
+  "error": ""
+ },
+ {
+  "state": "HI",
+  "section": "nexus",
+  "notes": "### 1. Corporate Income and Franchise Tax Nexus\n\n* **Physical Presence Nexus:** Under HRS Chapter 235, nexus is established if an entity derives income from property owned, trade or business carried on, or any other source in Hawaii, or maintains a physical presence (e.g., offices, resident employees/representatives, inventory/property, or in-state services such as installation, repair, or maintenance).\n* **Bright-Line Economic Nexus Standard:** Under HRS § 235-4.2(a) and Tax Information Release (TIR) No. 2020-05, a person lacking physical presence in Hawaii is presumed to be systematically and regularly engaging in business in the State and taxable under Chapter 235 if, during the **current or preceding calendar year**, either:\n  1. The person engages in **200 or more business transactions** with persons within the State; or\n  2. The sum of the value of the person's gross income attributable to sources in the State equals or exceeds **$100,000**, or (for a taxpayer doing business within and without the State) the numerator of the taxpayer's sales factor for the State equals or exceeds **$100,000**.\n* **Franchise Tax:** Under HRS Chapter 241, Hawaii imposes a franchise tax on financial institutions (e.g., banks, building and loan associations, trust companies, and financial services loan companies) doing business in Hawaii, which applies in lieu of net income and general excise taxes.\n* **Applicable Tax Years:** Applies to both tax years 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Hawaii Department of Taxation – TIR No. 2020-05: https://files.hawaii.gov/tax/legal/tir/tir20-05.pdf\n  * Hawaii Department of Taxation – Tax Information Releases: https://tax.hawaii.gov/legal/tax-information-releases/\n  * Hawaii State Legislature – HRS Chapter 235: https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/\n\n---\n\n### 2. Remote Seller Economic Nexus (General Excise Tax)\n\n* **Imposition:** Hawaii levies a General Excise Tax (GET) on gross receipts from business activities rather than a conventional retail sales tax. Remote/out-of-state sellers without physical presence are subject to economic nexus registration and GET licensing requirements under HRS § 237-2.5.\n* **Thresholds:** A remote seller establishes economic nexus if it meets either of the following criteria:\n  * Gross income or receipts of **$100,000 or more** attributable to sources in the State; or\n  * **200 or more business transactions** with persons within the State.\n* **Measurement Period:** The **current or preceding calendar year**.\n* **Applicable Tax Years:** Applies to both tax years 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Hawaii Department of Taxation – General Excise Tax (GET) Information: https://tax.hawaii.gov/geninfo/get/\n  * Hawaii State Legislature – HRS Chapter 237: https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0237/\n\n---\n\n### 3. Hawaii's Stated Position on P.L. 86-272 Protection\n\n* **Administrative Position (TIR No. 2020-05):** The Hawaii Department of Taxation narrowly interprets Public Law 86-272, maintaining that net income tax under HRS Chapter 235 applies to the fullest extent permissible under the U.S. Constitution and that statutory immunity is limited strictly to activities within the \"clear and manifest purpose of Congress\".\n* **Scope of Protection:** \n  * Immunity applies exclusively to the solicitation of orders for sales of **tangible personal property** sent outside the state for approval and filled by shipment or delivery from points outside Hawaii.\n  * P.L. 86-272 protection does **not** apply to sales of services, transactions involving intangibles, or the leasing, renting, or licensing of tangible personal property.\n  * Activities must be strictly ancillary to facilitating sales; activities promoting sales or serving an independent business function forfeit protection unless *de minimis* (evaluated quantitatively and qualitatively).\n* **Economic Nexus as an Unprotected Activity:** Under TIR No. 2020-05, the Department explicitly lists exceeding the state's economic nexus thresholds among its list of **unprotected activities** that cause a business to lose P.L. 86-272 protection:\n  * Making sales that equal or exceed **$100,000** during the current or preceding calendar year; or\n  * Engaging in **200 or more business transactions** with persons within Hawaii during the current or preceding calendar year.\n* **Internet/MTC Guidance:** Hawaii has not issued an updated TIR or formal administrative rule adopting the Multistate Tax Commission's (MTC) August 2021 revised statement on internet activities; TIR No. 2020-05 remains the governing guidance.\n* **Applicable Tax Years:** Applies to both tax years 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Hawaii Department of Taxation – TIR No. 2020-05: https://files.hawaii.gov/tax/legal/tir/tir20-05.pdf\n  * Hawaii Department of Taxation – Tax Information Releases: https://tax.hawaii.gov/legal/tax-information-releases/",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Nexus is established by physical presence or by meeting bright-line economic nexus thresholds under HRS § 235-4.2(a) and TIR No. 2020-05 during the current or preceding calendar year. A person lacking physical presence is taxable if they engage in 200 or more business transactions in Hawaii, or if gross income sourced to the state or the sales factor numerator equals or exceeds $100,000.",
+    "source_url": "https://files.hawaii.gov/tax/legal/tir/tir20-05.pdf",
+    "evidence": [
+     "200 or more business transactions",
+     "equals or exceeds $100,000",
+     "current or preceding calendar year",
+     "lacking physical presence"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://files.hawaii.gov/tax/legal/tir/tir20-05.pdf; unreadable: https://tax.hawaii.gov/get/; figures not on data.capitol.hawaii.gov: ['05']; unreadable: https://data.capitol.hawaii.gov/sessions/session2024/bills/HB1471_HD1_.HTM; unreadable: https://files.hawaii.gov/tax/legal/hrs/hrs_235.pdf; unreadable: https://tax.hawaii.gov/legal/tir/; figures not on data.capitol.hawaii.gov: ['05', '4.2']; unreadable: https://data.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0237/HRS_0237-.h",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Remote sellers establish economic nexus for General Excise Tax if they have gross income or receipts of $100,000 or more attributable to sources in the state, or 200 or more business transactions with persons within Hawaii. The measurement period is the current or preceding calendar year.",
+    "source_url": "https://tax.hawaii.gov/geninfo/get/",
+    "evidence": [
+     "$100,000 or more",
+     "200 or more business transactions",
+     "current or preceding calendar year"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.hawaii.gov/geninfo/get/; unreadable: https://tax.hawaii.gov/get/; evidence not on data.capitol.hawaii.gov (0/3); unreadable: https://data.capitol.hawaii.gov/sessions/session2024/bills/HB1471_HD1_.HTM; unreadable: https://files.hawaii.gov/tax/legal/tir/tir20-05.pdf; unreadable: https://files.hawaii.gov/tax/legal/hrs/hrs_235.pdf; unreadable: https://tax.hawaii.gov/legal/tir/; unreadable: https://data.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0237/HRS_0237-.htm; unr",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Hawaii narrowly interprets P.L. 86-272, limiting immunity strictly to the solicitation of orders for sales of tangible personal property filled from outside the state, and does not extend protection to services or intangibles. Notably, under TIR No. 2020-05, exceeding the economic nexus thresholds of $100,000 in sales or 200 business transactions in the current or preceding calendar year is listed as an unprotected activity.",
+    "source_url": "https://files.hawaii.gov/tax/legal/tir/tir20-05.pdf",
+    "evidence": [
+     "tangible personal property",
+     "unprotected activities",
+     "equal or exceed $100,000",
+     "200 or more business transactions"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://files.hawaii.gov/tax/legal/tir/tir20-05.pdf; unreadable: https://tax.hawaii.gov/get/; figures not on data.capitol.hawaii.gov: ['05']; unreadable: https://data.capitol.hawaii.gov/sessions/session2024/bills/HB1471_HD1_.HTM; unreadable: https://files.hawaii.gov/tax/legal/hrs/hrs_235.pdf; unreadable: https://tax.hawaii.gov/legal/tir/; figures not on data.capitol.hawaii.gov: ['05', '272']; unreadable: https://data.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0237/HRS_0237-.h",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://tax.hawaii.gov/get/",
+   "https://data.capitol.hawaii.gov/sessions/session2024/bills/DC173_.pdf",
+   "https://data.capitol.hawaii.gov/sessions/session2024/bills/HB1471_HD1_.HTM",
+   "https://files.hawaii.gov/tax/legal/tir/tir20-05.pdf",
+   "https://files.hawaii.gov/tax/legal/hrs/hrs_235.pdf",
+   "https://files.hawaii.gov/tax/legal/tir/tir20-05.pdf",
+   "https://tax.hawaii.gov/legal/tir/",
+   "https://data.capitol.hawaii.gov/sessions/session2017/HRS-Chapter-PDF's/HRS_0235.pdf",
+   "https://data.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0237/HRS_0237-.htm",
+   "https://data.capitol.hawaii.gov/sessions/session2019/Testimony/SB495_SD1_TESTIMONY_WAM_02-20-19_.PDF",
+   "https://files.hawaii.gov/tax/legal/tir/tir20-05.pdf",
+   "https://files.hawaii.gov/tax/legal/tir/tir20-05.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "HI",
+  "section": "rates",
+  "notes": "### Hawaii (HI) — Tax Facts for Tax Years 2025 and 2026\n\n---\n\n### 1. Individual Income Tax Rates and Brackets\n* **Status:** Hawaii imposes an individual income tax. Under Act 46 (SLH 2024), restructured tax brackets take effect for taxable years beginning after December 31, 2024, and remain in effect through tax year 2026 (the next bracket adjustment occurs in 2027).\n* **Applicable Tax Years:** 2025 and 2026 (rates and brackets do not change between 2025 and 2026).\n* **Rates & Brackets (Schedule I – Single / Married Filing Separately):**\n  * Up to $9,600: 1.40% of taxable income\n  * $9,601 to $14,400: $134.00 plus 3.20% of excess over $9,600\n  * $14,401 to $19,200: $288.00 plus 5.50% of excess over $14,400\n  * $19,201 to $24,000: $552.00 plus 6.40% of excess over $19,200\n  * $24,001 to $36,000: $859.00 plus 6.80% of excess over $24,000\n  * $36,001 to $48,000: $1,675.00 plus 7.20% of excess over $36,000\n  * $48,001 to $125,000: $2,539.00 plus 7.60% of excess over $48,000\n  * $125,001 to $175,000: $8,391.00 plus 7.90% of excess over $125,000\n  * $175,001 to $225,000: $12,341.00 plus 8.25% of excess over $175,000\n  * $225,001 to $275,000: $16,466.00 plus 9.00% of excess over $225,000\n  * $275,001 to $325,000: $20,966.00 plus 10.00% of excess over $275,000\n  * Over $325,000: $25,966.00 plus 11.00% of excess over $325,000\n* **Rates & Brackets (Schedule II – Married Filing Jointly / Surviving Spouse):**\n  * Threshold dollar amounts are double those of Schedule I (ranging from 1.40% on taxable income up to $19,200 to 11.00% on taxable income over $650,000).\n* **Official Sources:**\n  * Hawaii Department of Taxation – Tax Rate Schedules: https://tax.hawaii.gov/forms/individual-tax-tables-and-rate-schedules-after-december-31-2024/\n  * Hawaii Department of Taxation – Tax Year Information – 2025: https://tax.hawaii.gov/tax-year-information-2025/\n  * Hawaii Revised Statutes § 235-51: https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0051.htm\n\n---\n\n### 2. Corporate Income Tax Rates & Minimum Tax\n* **Tax Rates:** Hawaii imposes a graduated corporate income tax under HRS § 235-71:\n  * **4.4%** on taxable income not over $25,000\n  * **5.4%** on taxable income over $25,000 but not over $100,000\n  * **6.4%** on taxable income over $100,000\n  * *(Corporate net capital gains alternative tax rate is 4.0%)*.\n* **Minimum Tax:** **None**. Hawaii does not impose a minimum corporate income tax.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Hawaii Department of Taxation – Instructions for Form N-30 (Corporation Income Tax Return): https://files.hawaii.gov/tax/forms/2025/n30ins.pdf\n  * Hawaii Revised Statutes § 235-71: https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0071.htm\n\n---\n\n### 3. State Sales & Use Tax / Local Rates\n* **State Tax Structure:** Hawaii does **not** have a traditional retail sales tax. Instead, it imposes a broad **General Excise Tax (GET)** on businesses and a complementary **Use Tax**:\n  * **State GET Rates:**\n    * **4.0%**: Retail sales of goods and services, rentals/leasing of real or personal property, contracting, commissions, and other general business activities.\n    * **0.50%**: Wholesaling goods, manufacturing/producing, and wholesale services.\n    * **0.15%**: Insurance commissions.\n  * **State Use Tax Rates:**\n    * **4.0%**: Landed value of tangible personal property, contracting, or services imported for use or consumption.\n    * **0.50%**: Imported property/services for resale at wholesale.\n* **Local Surcharges:**\n  * All four Hawaii counties (City & County of Honolulu, Hawaii County, Kauai County, and Maui County) impose an authorized **0.5% county surcharge** on transactions subject to the 4.0% state rate.\n  * **Combined Rate:** **4.5%** for retail sales/use across all counties. The county surcharge does not apply to 0.5% wholesale transactions or 0.15% insurance commissions.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Hawaii Department of Taxation – General Excise Tax (GET) Information: https://tax.hawaii.gov/genexc/\n  * Hawaii Department of Taxation – County Surcharge on General Excise and Use Tax: https://tax.hawaii.gov/genexc/countysurcharge/\n\n---\n\n### 4. Gross Receipts, Franchise, Margin, and Other Notable Business Taxes\n* **General Excise Tax (GET):** Hawaii’s GET functions as a gross receipts privilege tax levied on the gross receipts/proceeds of virtually all business activities in Hawaii (HRS Chapter 237).\n* **Franchise Tax (Financial Institutions):** Imposed under HRS Chapter 241 in lieu of corporate net income and GET on banks, building and loan associations, and financial corporations at **7.92%** of entire net income from all sources (Form F-1).\n* **Public Service Company Tax:** Imposed under HRS Chapter 239 on public utilities and common carriers in lieu of GET (rates range up to 8.2% on utility gross income, or 0.5% on sales of utility services for resale).\n* **Elective Pass-Through Entity (PTE) Tax:** Eligible partnerships and S corporations can elect to pay entity-level income tax at **9.0%** of Hawaii taxable income (HRS § 235-51.5).\n* **Transient Accommodations Tax (TAT):** Imposed under HRS Chapter 237D at a state rate of **10.25%** on gross rental proceeds from transient accommodations (rentals under 180 days), in addition to county transient accommodations taxes (up to 3.0%).\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Hawaii Department of Taxation – Pass-Through Entity (PTE) Taxation: https://tax.hawaii.gov/pte-taxation/\n  * Hawaii Department of Taxation – Banks and Financial Institutions (Form F-1): https://tax.hawaii.gov/forms/banks-and-financial-institutions/\n  * Hawaii Revised Statutes § 241-4: https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0241/HRS_0241-0004.htm\n  * Hawaii Revised Statutes § 235-51.5: https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0051_0005.htm",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Hawaii imposes a graduated individual income tax with twelve brackets ranging from 1.40% to 11.00% for single filers, with bracket thresholds doubled for married couples filing jointly.",
+    "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0051.htm",
+    "evidence": [
+     "1.40% of taxable income",
+     "excess over $325,000",
+     "taxable years beginning after"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0051.htm; figure not stated beside the evidence on data.capitol.hawaii.gov; unreadable: https://tax.hawaii.gov/blog/blog16-estimated-impacts-of-2024-tax-cut-bill/; unreadable: https://tax.hawaii.gov/forms/d_25table-on/d_25table-on_p13/; unreadable: https://tax.hawaii.gov/tax-year-information/; unreadable: https://files.hawaii.gov/tax/forms/current/n30ins.pdf; unreadable: https://tax.hawaii.gov/get/; unreadab",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Hawaii corporate income tax is imposed at 4.4% on taxable income up to $25,000, 5.4% over $25,000 up to $100,000, and 6.4% over $100,000. Hawaii does not impose a minimum corporate income tax.",
+    "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0071.htm",
+    "evidence": [
+     "4.4% on its taxable income",
+     "5.4% on its taxable income",
+     "6.4% on its taxable income"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0071.htm; figures not on data.capitol.hawaii.gov: ['25000', '4.4', '5.4']; unreadable: https://tax.hawaii.gov/blog/blog16-estimated-impacts-of-2024-tax-cut-bill/; unreadable: https://tax.hawaii.gov/forms/d_25table-on/d_25table-on_p13/; unreadable: https://tax.hawaii.gov/tax-year-information/; evidence not on data.capitol.hawaii.gov (0/3); unreadable: https://files.hawaii.gov/tax/forms/current/n30ins.pdf; unr",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Hawaii does not have a traditional sales tax, instead levying a general excise tax of 4.0% on retail sales of goods and services, 0.50% on wholesaling, and 0.15% on insurance commissions. All four counties impose an additional 0.5% county surcharge on transactions subject to the 4.0% rate, resulting in a 4.5% combined rate.",
+    "source_url": "https://tax.hawaii.gov/genexc/",
+    "evidence": [
+     "General Excise Tax",
+     "4.0%",
+     "0.50%",
+     "county surcharge"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.hawaii.gov/genexc/; figures not on data.capitol.hawaii.gov: ['0.15', '0.5', '4.5']; unreadable: https://tax.hawaii.gov/blog/blog16-estimated-impacts-of-2024-tax-cut-bill/; unreadable: https://tax.hawaii.gov/forms/d_25table-on/d_25table-on_p13/; unreadable: https://tax.hawaii.gov/tax-year-information/; figures not on data.capitol.hawaii.gov: ['0.15', '0.5']; unreadable: https://files.hawaii.gov/tax/forms/current/n30ins.pdf; unreadable: https://tax.hawaii.gov/get/; unreadab",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Hawaii imposes a franchise tax of 7.92% of entire net income on banks and financial corporations in lieu of corporate income tax and general excise tax. Eligible pass-through entities may elect to pay an entity-level tax at 9.0%.",
+    "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0241/HRS_0241-0004.htm",
+    "evidence": [
+     "rate of 7.92 per cent",
+     "entire net income",
+     "alternative minimum tax"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0241/HRS_0241-0004.htm; figures not on data.capitol.hawaii.gov: ['7.92']; unreadable: https://tax.hawaii.gov/blog/blog16-estimated-impacts-of-2024-tax-cut-bill/; unreadable: https://tax.hawaii.gov/forms/d_25table-on/d_25table-on_p13/; unreadable: https://tax.hawaii.gov/tax-year-information/; unreadable: https://files.hawaii.gov/tax/forms/current/n30ins.pdf; unreadable: https://tax.hawaii.gov/get/; unreadable: https://tax.",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://data.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0051.htm",
+   "https://tax.hawaii.gov/blog/blog16-estimated-impacts-of-2024-tax-cut-bill/",
+   "https://data.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0051.htm",
+   "https://tax.hawaii.gov/forms/d_25table-on/d_25table-on_p13/",
+   "https://tax.hawaii.gov/tax-year-information/",
+   "https://tax.hawaii.gov/forms/d_25table-on/d_25table-on_p13/",
+   "https://tax.hawaii.gov/tax-year-information/",
+   "https://data.capitol.hawaii.gov/sessions/session2017/HRS-Chapter-PDF's/HRS_0235.pdf",
+   "https://files.hawaii.gov/tax/forms/current/n30ins.pdf",
+   "https://data.capitol.hawaii.gov/sessions/session2017/HRS-Chapter-PDF's/HRS_0235.pdf",
+   "https://tax.hawaii.gov/get/",
+   "https://tax.hawaii.gov/blog/blog02_gross-receipts-exempted-from-get/",
+   "https://files.hawaii.gov/tax/stats/trc/docs2012/sup_120829/archive/Hawaii_Draft_Report_8-28-12_FINAL.pdf",
+   "https://tax.hawaii.gov/geninfo/countysurcharge/",
+   "https://files.hawaii.gov/tax/forms/current/f1_i.pdf",
+   "https://data.capitol.hawaii.gov/sessions/session2011/bills/HB802_.HTM",
+   "https://data.capitol.hawaii.gov/sessions/sessionlaws/Years/SLH1979/SLH1979_Act62.pdf",
+   "https://files.hawaii.gov/tax/forms/2022/fp1_i.pdf",
+   "https://files.hawaii.gov/tax/forms/current/u6ins.pdf",
+   "https://data.capitol.hawaii.gov/sessions/session2024/Testimony/HB1803_HD1_TESTIMONY_FIN_02-22-24_.PDF",
+   "https://tax.hawaii.gov/pte/",
+   "https://tax.hawaii.gov/geninfo/licensing/",
+   "https://tax.hawaii.gov/rental/",
+   "https://tax.hawaii.gov/forms/a1_b3_1banks/"
+  ],
+  "error": ""
+ },
+ {
+  "state": "HI",
+  "section": "filing",
+  "notes": "### 1. Individual Return Due Dates and Extension Rules\n* **Calendar-Year Due Date:** April 20 following the close of the tax year (e.g., April 20, 2026 for tax year 2025; April 20, 2027 for tax year 2026).\n* **Extension Period:** An automatic 6-month extension to file is granted through October 20.\n* **Extension Rules:** \n  * No application form is required to request the 6-month extension.\n  * It is granted automatically if the taxpayer is due a refund, or if the taxpayer pays the properly estimated tax liability on or before April 20.\n  * \"Properly estimated tax liability\" requires paying at least 90% of the total tax liability shown on the final return.\n  * An extension of time to file does not extend the time to pay; payments may be remitted via Hawaii Tax Online or with voucher Form N-200V.\n* **Applicability:** Applies to both tax years 2025 and 2026.\n* **Official URLs:** \n  * https://tax.hawaii.gov/tax-year-information-2025/\n  * https://tax.hawaii.gov/faqs/\n\n---\n\n### 2. Corporate and Pass-Through Return Due Dates and Extension Rules\n* **Due Dates:** \n  * On or before the 20th day of the fourth month following the close of the taxable year (April 20 for calendar-year filers) for corporations (Form N-30), S corporations (Form N-35), and partnerships (Form N-20).\n* **Extension Period & Rules:** \n  * Automatic 6-month extension to file (through October 20 for calendar-year filers).\n  * No separate extension form is required.\n  * The extension is contingent on paying the properly estimated tax liability (at least 90% of the final liability) on or before the statutory due date (April 20 for calendar filers). \n  * Extension to file does not extend the deadline to pay tax. Payments can be made via Hawaii Tax Online or using voucher Form N-201V.\n* **Applicability:** Applies to both tax years 2025 and 2026.\n* **Official URLs:**\n  * https://tax.hawaii.gov/faqs/\n  * https://tax.hawaii.gov/tax-year-information-2025/\n  * https://tax.hawaii.gov/forms/corporate-income-tax-forms/\n\n---\n\n### 3. Elective Pass-Through Entity Tax (PTET)\n* **Existence:** Enacted under Act 50 (SLH 2023) and codified at HRS § 235-51.5; permits partnerships and S corporations to elect to pay tax at the entity level.\n* **Rate:** \n  * **9%** for tax years 2024 and beyond (applies to both 2025 and 2026; lowered from the 11% rate in effect for 2023).\n  * Tax base: The sum of all Qualified Members' distributive shares and guaranteed payments of Hawaii taxable income. Qualified members include individuals, trusts, and estates (excluding C corporations, partnerships, and S corporations).\n  * *Legislative update (Act 58, SLH 2025):* Effective for taxable years beginning after December 31, 2024 (applies to TY 2025 and 2026), all qualified members claiming a PTE tax credit must add back their share of PTE taxes paid to their Hawaii taxable income.\n* **How and When to Elect:**\n  * **Form:** Form N-362E (*Pass-Through Entity Tax Election*) and Schedule PTE (*Pass-Through Entity Tax Calculation*) must be submitted with Form N-20 or Form N-35.\n  * **Signatures:** Requires signatures of each member or one authorized member attesting under penalties of perjury to authority to bind the entity.\n  * **Frequency:** Must be elected annually (a separate election is required for each tax year).\n  * **Deadline:** Form N-362E must be filed by the 20th day of the 4th month following the close of the taxable year (April 20 for calendar-year filers), or by the 20th day of the 10th month (October 20) if an extension is granted. All estimated PTE tax and penalties must be remitted prior to the 20th day of the 4th month to qualify for the extension to elect.\n* **Official URLs:**\n  * https://tax.hawaii.gov/pass-through-entity-taxation/\n  * https://tax.hawaii.gov/tax-year-information-2025/\n\n---\n\n### 4. Composite or Group Nonresident Returns for Pass-Through Entities\n* **S Corporations:** Under HRS § 235-128(b), the Department of Taxation is authorized to permit S corporations to file composite returns and make composite payments on behalf of nonresident shareholders. Nonresident shareholders who do not wish to be subjected to entity withholding/mandatory payment must submit Form N-35 Schedule NS (*Hawaii S Corporation Agreement of Nonresident Shareholder*) agreeing to file their own return and pay Hawaii taxes.\n* **Partnerships:** **Not found** on official Department of Taxation pages or statutes authorizing an administrative composite/group income tax return form for partnerships. Instead, partnerships must withhold on nonresident partners or participate in the elective PTET. Nonresident partners report income individually on Form N-15.\n* **Elective PTET Exemption:** An entity election of PTET satisfies the nonresident member withholding requirements.\n* **Official URLs:**\n  * https://www.capitol.hawaii.gov/hrscurrent/vol04_ch0201-0257/HRS0235/HRS_0235-0128.htm (HRS § 235-128)\n  * https://tax.hawaii.gov/pass-through-entity-taxation/\n  * https://tax.hawaii.gov/forms/s-corporation-income-tax-forms/\n\n---\n\n### 5. Estimated Tax Requirements and Nonresident Withholding for Pass-Throughs\n* **Estimated Tax Requirements:**\n  * **Electing PTEs:** Required to pay estimated taxes in four equal installments due on the 20th day of the 4th, 6th, and 9th months of the taxable year, and the 20th day of the 1st month following the close of the taxable year (April 20, June 20, September 20, and January 20 for calendar-year filers).\n  * **Individuals:** Due in four equal installments on April 20, June 20, September 20, and January 20 of the following year (calendar-year filers) (HRS § 235-97). Under HAR § 18-235-97, safe harbor requirements are generally 60% of current year tax or 100% of prior year tax.\n  * **Corporations:** Paid in installments under HRS § 235-97 via Form N-201V / Hawaii Tax Online, subject to underpayment penalties calculated on Form N-220.\n* **Nonresident Withholding for Pass-Throughs:**\n  * Under Act 232 (SLH 2019) and TIR 2025-03, partnerships, estates, and trusts are required to withhold Hawaii tax on a nonresident owner's distributive share of Hawaii taxable income at the highest individual marginal rate (11% under HRS § 235-51).\n  * Nonresident partnership withholding is reported on Form N-20, Schedule K, Schedule NP (*Allocation of Withholding Payment to Nonresident Partners*), and Form N-4P (*Statement of Withholding for a Nonresident Partner of a Partnership*).\n  * Nonresident withholding is not required if the entity makes the PTET election under HRS § 235-51.5.\n* **Applicability:** Applies to both tax years 2025 and 2026.\n* **Official URLs:**\n  * https://tax.hawaii.gov/pass-through-entity-taxation/\n  * https://tax.hawaii.gov/tax-year-information-2025/\n  * https://tax.hawaii.gov/forms/partnership-income-tax/\n  * https://www.capitol.hawaii.gov/slh/Years/SLH2019/SLH2019_Act232.pdf\n\n---\n\n### 6. Main Return Forms\n* **Individual:**\n  * **Form N-11:** *Individual Income Tax Return (Resident)*\n  * **Form N-15:** *Individual Income Tax Return (Nonresident and Part-Year Resident)*\n  * **Form N-200V:** *Individual Income Tax Payment Voucher*\n  * **Form N-210:** *Underpayment of Estimated Tax by Individuals, Estates and Trusts*\n* **Corporate:**\n  * **Form N-30:** *Corporation Income Tax Return*\n  * **Form N-201V:** *Business Income Tax Payment Voucher*\n  * **Form N-220:** *Underpayment of Estimated Tax by Corporations and S Corporations*\n* **Pass-Through Entities:**\n  * **Form N-20:** *Partnership Income Tax Return* (includes Schedule K-1 and Schedule NP)\n  * **Form N-35:** *S Corporation Income Tax Return* (includes Schedule K-1 and Schedule NS)\n  * **Form N-362E:** *Pass-Through Entity Tax Election*\n  * **Schedule PTE:** *Pass-Through Entity Tax Calculation*\n  * **Form N-4P:** *Statement of Withholding for a Nonresident Partner of a Partnership*\n* **Applicability:** In effect for tax years 2025 and 2026.\n* **Official URLs:**\n  * https://tax.hawaii.gov/forms/individual-income-tax-forms/\n  * https://tax.hawaii.gov/forms/corporate-income-tax-forms/\n  * https://tax.hawaii.gov/forms/partnership-income-tax/\n  * https://tax.hawaii.gov/forms/s-corporation-income-tax-forms/\n  * https://tax.hawaii.gov/pass-through-entity-taxation/",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Individual returns for calendar-year filers are due on April 20 following the close of the tax year. An automatic 6-month extension to file through October 20 is granted without an application form if at least 90% of the properly estimated tax liability is paid by April 20.",
+    "source_url": "https://tax.hawaii.gov/tax-year-information-2025/",
+    "evidence": [
+     "April 20",
+     "automatic 6-month extension",
+     "properly estimated tax liability"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.hawaii.gov/tax-year-information-2025/; unreadable: https://tax.hawaii.gov/tax-year-information/; unreadable: https://tax.hawaii.gov/geninfo/a2_b2_4empl_whhold/; unreadable: https://tax.hawaii.gov/faq/; unreadable: https://tax.hawaii.gov/2026konalow/; unreadable: https://tax.hawaii.gov/pte/; unreadable: https://tax.hawaii.gov/forms/a1_b1_3corp/; unreadable: https://data.capitol.hawaii.gov/sessions/session2024/Testimony/HB1803_HD1_TESTIMONY_FIN_02-22-24_.PDF; unreadable: ht",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Calendar-year returns for corporations (Form N-30), S corporations (Form N-35), and partnerships (Form N-20) are due on April 20. An automatic 6-month extension to October 20 is granted without a separate form if at least 90% of the tax liability is paid by April 20.",
+    "source_url": "https://tax.hawaii.gov/tax-year-information-2025/",
+    "evidence": [
+     "Form N-30",
+     "Form N-35",
+     "Form N-20",
+     "October 20"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.hawaii.gov/tax-year-information-2025/; unreadable: https://tax.hawaii.gov/tax-year-information/; unreadable: https://tax.hawaii.gov/geninfo/a2_b2_4empl_whhold/; unreadable: https://tax.hawaii.gov/faq/; unreadable: https://tax.hawaii.gov/2026konalow/; unreadable: https://tax.hawaii.gov/pte/; unreadable: https://tax.hawaii.gov/forms/a1_b1_3corp/; unreadable: https://data.capitol.hawaii.gov/sessions/session2024/Testimony/HB1803_HD1_TESTIMONY_FIN_02-22-24_.PDF; unreadable: ht",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Partnerships and S corporations may elect to pay an elective pass-through entity tax at a rate of 9% for tax years 2024 and beyond. The annual election is made using Form N-362E filed with Form N-20 or Form N-35 by April 20, or by October 20 if extension requirements are met.",
+    "source_url": "https://tax.hawaii.gov/pass-through-entity-taxation/",
+    "evidence": [
+     "Pass-Through Entity Tax",
+     "Form N-362E",
+     "Schedule PTE",
+     "9%"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.hawaii.gov/pass-through-entity-taxation/; unreadable: https://tax.hawaii.gov/tax-year-information/; unreadable: https://tax.hawaii.gov/geninfo/a2_b2_4empl_whhold/; unreadable: https://tax.hawaii.gov/faq/; unreadable: https://tax.hawaii.gov/2026konalow/; unreadable: https://tax.hawaii.gov/pte/; unreadable: https://tax.hawaii.gov/forms/a1_b1_3corp/; unreadable: https://data.capitol.hawaii.gov/sessions/session2024/Testimony/HB1803_HD1_TESTIMONY_FIN_02-22-24_.PDF; unreadable:",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "composite",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Hawaii permits S corporations to file composite returns and make composite payments on behalf of nonresident shareholders. Nonresident shareholders who do not wish to be subjected to entity withholding must submit Form N-35 Schedule NS agreeing to file individually.",
+    "source_url": "https://tax.hawaii.gov/forms/s-corporation-income-tax-forms/",
+    "evidence": [
+     "composite returns",
+     "Schedule NS",
+     "Agreement of Nonresident Shareholder"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.hawaii.gov/forms/s-corporation-income-tax-forms/; unreadable: https://tax.hawaii.gov/tax-year-information/; unreadable: https://tax.hawaii.gov/geninfo/a2_b2_4empl_whhold/; unreadable: https://tax.hawaii.gov/faq/; unreadable: https://tax.hawaii.gov/2026konalow/; unreadable: https://tax.hawaii.gov/pte/; unreadable: https://tax.hawaii.gov/forms/a1_b1_3corp/; unreadable: https://data.capitol.hawaii.gov/sessions/session2024/Testimony/HB1803_HD1_TESTIMONY_FIN_02-22-24_.PDF; unr",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Electing pass-through entities and calendar-year individuals make estimated tax payments across four installments due April 20, June 20, September 20, and January 20. Partnerships must withhold tax on each nonresident owner's distributive share at an 11% rate unless a PTET election is made.",
+    "source_url": "https://tax.hawaii.gov/pass-through-entity-taxation/",
+    "evidence": [
+     "estimated taxes",
+     "Schedule NP",
+     "Form N-4P",
+     "11%"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.hawaii.gov/pass-through-entity-taxation/; unreadable: https://tax.hawaii.gov/tax-year-information/; unreadable: https://tax.hawaii.gov/geninfo/a2_b2_4empl_whhold/; unreadable: https://tax.hawaii.gov/faq/; unreadable: https://tax.hawaii.gov/2026konalow/; unreadable: https://tax.hawaii.gov/pte/; unreadable: https://tax.hawaii.gov/forms/a1_b1_3corp/; unreadable: https://data.capitol.hawaii.gov/sessions/session2024/Testimony/HB1803_HD1_TESTIMONY_FIN_02-22-24_.PDF; unreadable:",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Main individual forms are Form N-11 and Form N-15, with payment voucher Form N-200V. Business and pass-through returns are filed on Form N-30, Form N-20, Form N-35, and PTET election Form N-362E.",
+    "source_url": "https://tax.hawaii.gov/forms/corporate-income-tax-forms/",
+    "evidence": [
+     "Form N-11",
+     "Form N-15",
+     "Form N-30",
+     "Form N-20"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.hawaii.gov/forms/corporate-income-tax-forms/; unreadable: https://tax.hawaii.gov/tax-year-information/; unreadable: https://tax.hawaii.gov/geninfo/a2_b2_4empl_whhold/; unreadable: https://tax.hawaii.gov/faq/; unreadable: https://tax.hawaii.gov/2026konalow/; unreadable: https://tax.hawaii.gov/pte/; unreadable: https://tax.hawaii.gov/forms/a1_b1_3corp/; unreadable: https://data.capitol.hawaii.gov/sessions/session2024/Testimony/HB1803_HD1_TESTIMONY_FIN_02-22-24_.PDF; unreada",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://tax.hawaii.gov/tax-year-information/",
+   "https://tax.hawaii.gov/geninfo/a2_b2_4empl_whhold/",
+   "https://tax.hawaii.gov/tax-year-information/",
+   "https://tax.hawaii.gov/tax-year-information/",
+   "https://tax.hawaii.gov/faq/",
+   "https://tax.hawaii.gov/2026konalow/",
+   "https://tax.hawaii.gov/pte/",
+   "https://tax.hawaii.gov/forms/a1_b1_3corp/",
+   "https://tax.hawaii.gov/pte/",
+   "https://data.capitol.hawaii.gov/sessions/session2024/Testimony/HB1803_HD1_TESTIMONY_FIN_02-22-24_.PDF",
+   "https://tax.hawaii.gov/pte/",
+   "https://tax.hawaii.gov/pte/",
+   "https://data.capitol.hawaii.gov/sessions/sessionlaws/Years/SLH1990/SLH1990_Act16.pdf",
+   "https://tax.hawaii.gov/forms/a1_b1_4scorp/",
+   "https://tax.hawaii.gov/tax-year-information/",
+   "https://data.capitol.hawaii.gov/sessions/sessionlaws/Years/SLH1979/SLH1979_Act62.pdf",
+   "https://tax.hawaii.gov/covid-19/",
+   "https://data.capitol.hawaii.gov/sessions/session2017/HRS-Chapter-PDF's/HRS_0235.pdf",
+   "https://tax.hawaii.gov/legal/tir/",
+   "https://data.capitol.hawaii.gov/sessions/sessionlaws/Years/SLH2019/SLH2019_Act232.pdf",
+   "https://tax.hawaii.gov/forms/a1_b1_2partner/",
+   "https://tax.hawaii.gov/forms/a1_b1_1income/"
+  ],
+  "error": ""
+ }
+]

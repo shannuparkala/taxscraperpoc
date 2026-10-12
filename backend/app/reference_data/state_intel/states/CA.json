@@ -1,0 +1,253 @@
+{
+  "code": "CA",
+  "name": "California",
+  "sections": {
+    "apportionment": {
+      "fields": [
+        {
+          "key": "method",
+          "label": "Apportionment method",
+          "value": "Single sales factor for most trades or businesses. A business deriving more than 50% of gross receipts from a qualified business activity uses an equally weighted three-factor formula (property, payroll, sales).",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.ftb.ca.gov/file/business/income/apportionment-and-allocation.html",
+          "source_citation": "FTB, Apportionment and allocation (single-sales factor; three-factor for QBA)",
+          "last_verified": "2026-10-07"
+        },
+        {
+          "key": "sourcing",
+          "label": "Sales sourcing (services and intangibles)",
+          "value": "Market-based: sales of services are in California to the extent the purchaser received the benefit of the service in California; intangibles to the extent used in California (marketable securities: where the customer is).",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=25136",
+          "source_citation": "Cal. Rev. & Tax. Code 25136(a)",
+          "last_verified": "2026-10-07"
+        },
+        {
+          "key": "special_industries",
+          "label": "Special industry rules",
+          "value": "Qualified business activities using three-factor: agricultural and extractive. Savings and loan and banking or financial activities were removed from that list for tax years beginning on or after January 1, 2025.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.ftb.ca.gov/file/business/income/apportionment-and-allocation.html",
+          "source_citation": "FTB, Apportionment and allocation (QBA lists before and on/after 1 Jan 2025)",
+          "last_verified": "2026-10-07"
+        },
+        {
+          "key": "forms",
+          "label": "Forms",
+          "value": "Schedule R, Apportionment and Allocation of Income",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.ftb.ca.gov/file/business/income/apportionment-and-allocation.html",
+          "source_citation": "FTB, Apportionment and allocation (Instructions for Schedule R)",
+          "last_verified": "2026-10-07"
+        }
+      ]
+    },
+    "nexus": {
+      "fields": [
+        {
+          "key": "sales_economic_nexus",
+          "label": "Sales/use tax: economic nexus",
+          "value": "A remote retailer must register and collect use tax if combined sales of tangible personal property for delivery in California by the retailer and related persons exceed $500,000 in the preceding or current calendar year.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.cdtfa.ca.gov/industry/wayfair.htm",
+          "source_citation": "CDTFA, Tax Guide for Out-of-State Retailers (AB 147)",
+          "last_verified": "2026-10-07"
+        },
+        {
+          "key": "pl_86_272",
+          "label": "P.L. 86-272",
+          "value": "Protects out-of-state companies whose only in-state activity is soliciting sales of tangible personal property from taxes based on net income, but such a company may still be doing business in California and owe the applicable amounts (such as the minimum franchise tax).",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.ftb.ca.gov/file/business/doing-business-in-california.html",
+          "source_citation": "FTB, Doing business in California - Public Law 86-272",
+          "last_verified": "2026-10-07"
+        },
+        {
+          "key": "income_economic_nexus",
+          "label": "Income/franchise tax: doing-business thresholds",
+          "value": "Doing business if California sales exceed $757,070, or property or payroll exceeds $75,707 (or 25% of the taxpayer's total sales, property or payroll), or the taxpayer is organized or commercially domiciled in California, or transacts for financial gain in the state. Include distributive shares from partnerships, LLCs and S corporations.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.ftb.ca.gov/file/business/doing-business-in-california.html",
+          "source_citation": "FTB, Doing business in California (R&TC 23101), 2025 row of the threshold table",
+          "last_verified": "2026-10-07"
+        }
+      ]
+    },
+    "rates": {
+      "fields": [
+        {
+          "key": "individual",
+          "label": "Individual income tax",
+          "value": "Graduated, 1.00% to 12.30% (2025 tax rate schedules), plus a 1% Behavioral Health Services Tax on taxable income over $1,000,000.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.ftb.ca.gov/forms/2025/2025-540-tax-rate-schedules.pdf",
+          "source_citation": "FTB 2025 California Tax Rate Schedules; 2025 Form 540 booklet, line 62 instructions",
+          "last_verified": "2026-10-07"
+        },
+        {
+          "key": "corporate",
+          "label": "Corporate franchise tax",
+          "value": "8.84% of net income (general rate), with an $800 minimum franchise tax. Newly incorporated or qualified corporations are exempt from the minimum tax in their first taxable year.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=23151",
+          "source_citation": "Cal. Rev. & Tax. Code 23151(e)-(f); FTB Corporations page (minimum franchise tax)",
+          "last_verified": "2026-10-07"
+        },
+        {
+          "key": "sales",
+          "label": "Sales and use tax",
+          "value": "Statewide rate 7.25%. Local district taxes add 0.10% to 2.00% in most areas, and some areas have more than one.",
+          "years": [
+            2026
+          ],
+          "source_url": "https://www.cdtfa.ca.gov/taxes-and-fees/sales-use-tax-rates.htm",
+          "source_citation": "CDTFA, California City & County Sales & Use Tax Rates (rates effective 1 Oct 2026)",
+          "last_verified": "2026-10-07"
+        }
+      ]
+    },
+    "filing": {
+      "fields": [
+        {
+          "key": "individual_due",
+          "label": "Individual due date and extension",
+          "value": "April 15 for calendar-year filers; automatic extension to October 15 with no application required. Payment is still due April 15.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.ftb.ca.gov/file/when-to-file/due-dates-personal.html",
+          "source_citation": "FTB, Due dates - Personal",
+          "last_verified": "2026-10-07"
+        },
+        {
+          "key": "business_due",
+          "label": "Business due dates and extensions",
+          "value": "C corporation: 15th day of the 4th month, extended to the 15th day of the 11th month (tax years 2019 and later). S corporation: 15th day of the 3rd month, extended to the 15th day of the 9th month. Partnership/LLC: 15th day of the 3rd month, extended to the 15th day of the 10th month. Exempt organization: 15th day of the 5th month, extended to the 15th day of the 11th month. Extensions are automatic; tax is due on the original date.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.ftb.ca.gov/file/when-to-file/due-dates-business.html",
+          "source_citation": "FTB, Due dates - Businesses",
+          "last_verified": "2026-10-07"
+        },
+        {
+          "key": "ptet",
+          "label": "Pass-through entity elective tax (PTET)",
+          "value": "Available. 9.3% of qualified net income, elected on a timely filed original return with FTB 3804. Extended to taxable years beginning before January 1, 2031; for 2022-2025 the initial payment was due by June 15 of the election year.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.ftb.ca.gov/file/business/credits/pass-through-entity-elective-tax/index.html",
+          "source_citation": "FTB, Pass-through entity elective tax",
+          "last_verified": "2026-10-07"
+        },
+        {
+          "key": "key_forms",
+          "label": "Key forms",
+          "value": "540 (resident), 540NR (nonresident/part-year), 100 (C corporation), 100S (S corporation), 565 (partnership), 568 (LLC), 199 (exempt organization), 3804 (PTET).",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.ftb.ca.gov/file/when-to-file/due-dates-business.html",
+          "source_citation": "FTB, Due dates - Businesses and Personal (forms listed per entity)",
+          "last_verified": "2026-10-07"
+        }
+      ],
+      "due_rules": {
+        "years": [
+          2025,
+          2026
+        ],
+        "source_url": "https://www.ftb.ca.gov/file/when-to-file/due-dates-business.html",
+        "source_citation": "FTB, Due dates - Businesses; Due dates - Personal",
+        "last_verified": "2026-10-07",
+        "entities": {
+          "individual": {
+            "form": "540",
+            "due": {
+              "months_after_year_end": 4,
+              "day": 15
+            },
+            "extended_due": {
+              "months_after_year_end": 10,
+              "day": 15
+            }
+          },
+          "c_corp": {
+            "form": "100",
+            "due": {
+              "months_after_year_end": 4,
+              "day": 15
+            },
+            "extended_due": {
+              "months_after_year_end": 11,
+              "day": 15
+            }
+          },
+          "s_corp": {
+            "form": "100S",
+            "due": {
+              "months_after_year_end": 3,
+              "day": 15
+            },
+            "extended_due": {
+              "months_after_year_end": 9,
+              "day": 15
+            }
+          },
+          "partnership": {
+            "form": "565",
+            "due": {
+              "months_after_year_end": 3,
+              "day": 15
+            },
+            "extended_due": {
+              "months_after_year_end": 10,
+              "day": 15
+            }
+          },
+          "exempt_org": {
+            "form": "199",
+            "due": {
+              "months_after_year_end": 5,
+              "day": 15
+            },
+            "extended_due": {
+              "months_after_year_end": 11,
+              "day": 15
+            }
+          }
+        }
+      }
+    }
+  }
+}

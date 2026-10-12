@@ -1,0 +1,608 @@
+{
+  "template": "f7203_2025.pdf",
+  "form_title": "Form 7203 (Rev. December 2022) S Corporation Shareholder Stock and",
+  "pages": 2,
+  "line_to_field": {
+    "1": "f1_07[0]",
+    "2": "f1_08[0]",
+    "3a": "f1_09[0]",
+    "3b": "f1_10[0]",
+    "3c": "f1_11[0]",
+    "3d": "f1_12[0]",
+    "3e": "f1_13[0]",
+    "3f": "f1_14[0]",
+    "3g": "f1_15[0]",
+    "3h": "f1_16[0]",
+    "3i": "f1_17[0]",
+    "3j": "f1_18[0]",
+    "3k": "f1_19[0]",
+    "3l": "f1_20[0]",
+    "3m": "f1_21[0]",
+    "4": "f1_22[0]",
+    "5": "f1_23[0]",
+    "6": "f1_24[0]",
+    "7": "f1_25[0]",
+    "8a": "f1_26[0]",
+    "8b": "f1_27[0]",
+    "8c": "f1_28[0]",
+    "9": "f1_29[0]",
+    "10": "f1_30[0]",
+    "11": "f1_31[0]",
+    "12": "f1_32[0]",
+    "13": "f1_33[0]",
+    "14": "f1_34[0]",
+    "15": "f1_35[0]",
+    "17": "f1_44[0]",
+    "18": "f1_52[0]",
+    "19": "f2_21[0]",
+    "23": "f2_13[0]",
+    "24": "f2_25[0]",
+    "26": "f2_49[0]",
+    "30": "f2_118[0]",
+    "32": "f2_53[0]",
+    "d": "f2_37[0]"
+  },
+  "needs_review": {
+    "multi_box_lines": {
+      "17": [
+        "f1_44[0]",
+        "f1_45[0]",
+        "f1_46[0]",
+        "f1_47[0]",
+        "f2_05[0]",
+        "f2_06[0]",
+        "f2_07[0]",
+        "f2_08[0]"
+      ],
+      "18": [
+        "f1_52[0]",
+        "f1_53[0]",
+        "f1_54[0]",
+        "f1_55[0]",
+        "f2_17[0]",
+        "f2_18[0]",
+        "f2_19[0]",
+        "f2_20[0]"
+      ],
+      "19": [
+        "f2_21[0]",
+        "f2_22[0]",
+        "f2_23[0]",
+        "f2_24[0]",
+        "f2_45[0]",
+        "f2_46[0]",
+        "f2_47[0]",
+        "f2_48[0]"
+      ],
+      "23": [
+        "f2_13[0]",
+        "f2_14[0]",
+        "f2_15[0]",
+        "f2_16[0]"
+      ],
+      "24": [
+        "f2_25[0]",
+        "f2_26[0]",
+        "f2_27[0]",
+        "f2_28[0]"
+      ],
+      "26": [
+        "f2_49[0]",
+        "f2_50[0]",
+        "f2_51[0]",
+        "f2_52[0]"
+      ],
+      "30": [
+        "f2_118[0]",
+        "f2_119[0]",
+        "f2_120[0]",
+        "f2_121[0]",
+        "f2_122[0]"
+      ],
+      "32": [
+        "f2_53[0]",
+        "f2_54[0]",
+        "f2_55[0]",
+        "f2_56[0]"
+      ],
+      "d": [
+        "f2_37[0]",
+        "f2_38[0]",
+        "f2_39[0]",
+        "f2_40[0]"
+      ]
+    },
+    "unlabelled_fields": [
+      {
+        "field": "f1_01[0]",
+        "page": 0,
+        "row": ""
+      },
+      {
+        "field": "f1_02[0]",
+        "page": 0,
+        "row": ""
+      },
+      {
+        "field": "f1_03[0]",
+        "page": 0,
+        "row": ""
+      },
+      {
+        "field": "f1_04[0]",
+        "page": 0,
+        "row": ""
+      },
+      {
+        "field": "f1_05[0]",
+        "page": 0,
+        "row": "C Stock block (see instructions):"
+      },
+      {
+        "field": "f1_06[0]",
+        "page": 0,
+        "row": "(1) Original shareholder (2) Purchased (3) Inherited (4) Gift (5) Other:"
+      },
+      {
+        "field": "f1_36[0]",
+        "page": 0,
+        "row": "tax year . . . . . . . . . . . . . . ."
+      },
+      {
+        "field": "f1_37[0]",
+        "page": 0,
+        "row": "tax year . . . . . . . . . . . . . . ."
+      },
+      {
+        "field": "f1_38[0]",
+        "page": 0,
+        "row": "tax year . . . . . . . . . . . . . . ."
+      },
+      {
+        "field": "f2_39[0]",
+        "page": 0,
+        "row": "tax year . . . . . . . . . . . . . . ."
+      },
+      {
+        "field": "f1_40[0]",
+        "page": 0,
+        "row": "17 Additional loans (see instructions) . . . . . . ."
+      },
+      {
+        "field": "f1_41[0]",
+        "page": 0,
+        "row": "17 Additional loans (see instructions) . . . . . . ."
+      },
+      {
+        "field": "f1_42[0]",
+        "page": 0,
+        "row": "17 Additional loans (see instructions) . . . . . . ."
+      },
+      {
+        "field": "f1_43[0]",
+        "page": 0,
+        "row": "17 Additional loans (see instructions) . . . . . . ."
+      },
+      {
+        "field": "f1_48[0]",
+        "page": 0,
+        "row": "include interest) . . . . . . . . . . . . ."
+      },
+      {
+        "field": "f1_49[0]",
+        "page": 0,
+        "row": "include interest) . . . . . . . . . . . . ."
+      },
+      {
+        "field": "f1_50[0]",
+        "page": 0,
+        "row": "include interest) . . . . . . . . . . . . ."
+      },
+      {
+        "field": "f1_51[0]",
+        "page": 0,
+        "row": "include interest) . . . . . . . . . . . . ."
+      },
+      {
+        "field": "f2_01[0]",
+        "page": 1,
+        "row": "year . . . . . . . . . . . . . . . ."
+      },
+      {
+        "field": "f2_02[0]",
+        "page": 1,
+        "row": "year . . . . . . . . . . . . . . . ."
+      },
+      {
+        "field": "f2_03[0]",
+        "page": 1,
+        "row": "year . . . . . . . . . . . . . . . ."
+      },
+      {
+        "field": "f2_04[0]",
+        "page": 1,
+        "row": "year . . . . . . . . . . . . . . . ."
+      },
+      {
+        "field": "f2_09[0]",
+        "page": 1,
+        "row": "23 Debt basis restoration (see instructions) . . . . ."
+      },
+      {
+        "field": "f2_10[0]",
+        "page": 1,
+        "row": "23 Debt basis restoration (see instructions) . . . . ."
+      },
+      {
+        "field": "f2_11[0]",
+        "page": 1,
+        "row": "23 Debt basis restoration (see instructions) . . . . ."
+      },
+      {
+        "field": "f2_12[0]",
+        "page": 1,
+        "row": "23 Debt basis restoration (see instructions) . . . . ."
+      },
+      {
+        "field": "f2_29[0]",
+        "page": 1,
+        "row": "deductions in excess of stock basis . . . . . ."
+      },
+      {
+        "field": "f2_30[0]",
+        "page": 1,
+        "row": "deductions in excess of stock basis . . . . . ."
+      },
+      {
+        "field": "f2_31[0]",
+        "page": 1,
+        "row": "deductions in excess of stock basis . . . . . ."
+      },
+      {
+        "field": "f2_32[0]",
+        "page": 1,
+        "row": "deductions in excess of stock basis . . . . . ."
+      },
+      {
+        "field": "f2_33[0]",
+        "page": 1,
+        "row": "28 from line 27. If the result is zero or less, enter -0- ."
+      },
+      {
+        "field": "f2_34[0]",
+        "page": 1,
+        "row": "28 from line 27. If the result is zero or less, enter -0- ."
+      },
+      {
+        "field": "f2_35[0]",
+        "page": 1,
+        "row": "28 from line 27. If the result is zero or less, enter -0- ."
+      },
+      {
+        "field": "f2_36[0]",
+        "page": 1,
+        "row": "28 from line 27. If the result is zero or less, enter -0- ."
+      },
+      {
+        "field": "f2_41[0]",
+        "page": 1,
+        "row": "or less, enter -0- . . . . . . . . . . . ."
+      },
+      {
+        "field": "f2_42[0]",
+        "page": 1,
+        "row": "or less, enter -0- . . . . . . . . . . . ."
+      },
+      {
+        "field": "f2_43[0]",
+        "page": 1,
+        "row": "or less, enter -0- . . . . . . . . . . . ."
+      },
+      {
+        "field": "f2_44[0]",
+        "page": 1,
+        "row": "or less, enter -0- . . . . . . . . . . . ."
+      },
+      {
+        "field": "f2_57[0]",
+        "page": 1,
+        "row": "35 Ordinary business loss . . . . . . ."
+      },
+      {
+        "field": "f2_58[0]",
+        "page": 1,
+        "row": "35 Ordinary business loss . . . . . . ."
+      },
+      {
+        "field": "f2_59[0]",
+        "page": 1,
+        "row": "35 Ordinary business loss . . . . . . ."
+      },
+      {
+        "field": "f2_60[0]",
+        "page": 1,
+        "row": "35 Ordinary business loss . . . . . . ."
+      },
+      {
+        "field": "f2_61[0]",
+        "page": 1,
+        "row": "35 Ordinary business loss . . . . . . ."
+      },
+      {
+        "field": "f2_62[0]",
+        "page": 1,
+        "row": "36 Net rental real estate loss . . . . . ."
+      },
+      {
+        "field": "f2_63[0]",
+        "page": 1,
+        "row": "36 Net rental real estate loss . . . . . ."
+      },
+      {
+        "field": "f2_64[0]",
+        "page": 1,
+        "row": "36 Net rental real estate loss . . . . . ."
+      },
+      {
+        "field": "f2_65[0]",
+        "page": 1,
+        "row": "36 Net rental real estate loss . . . . . ."
+      },
+      {
+        "field": "f2_66[0]",
+        "page": 1,
+        "row": "36 Net rental real estate loss . . . . . ."
+      },
+      {
+        "field": "f2_67[0]",
+        "page": 1,
+        "row": "37 Other net rental loss . . . . . . . ."
+      },
+      {
+        "field": "f2_68[0]",
+        "page": 1,
+        "row": "37 Other net rental loss . . . . . . . ."
+      },
+      {
+        "field": "f2_69[0]",
+        "page": 1,
+        "row": "37 Other net rental loss . . . . . . . ."
+      },
+      {
+        "field": "f2_70[0]",
+        "page": 1,
+        "row": "37 Other net rental loss . . . . . . . ."
+      },
+      {
+        "field": "f2_71[0]",
+        "page": 1,
+        "row": "37 Other net rental loss . . . . . . . ."
+      },
+      {
+        "field": "f2_72[0]",
+        "page": 1,
+        "row": "38 Net capital loss . . . . . . . . . ."
+      },
+      {
+        "field": "f2_73[0]",
+        "page": 1,
+        "row": "38 Net capital loss . . . . . . . . . ."
+      },
+      {
+        "field": "f2_74[0]",
+        "page": 1,
+        "row": "38 Net capital loss . . . . . . . . . ."
+      },
+      {
+        "field": "f2_75[0]",
+        "page": 1,
+        "row": "38 Net capital loss . . . . . . . . . ."
+      },
+      {
+        "field": "f2_76[0]",
+        "page": 1,
+        "row": "38 Net capital loss . . . . . . . . . ."
+      },
+      {
+        "field": "f2_77[0]",
+        "page": 1,
+        "row": "39 Net section 1231 loss . . . . . . . ."
+      },
+      {
+        "field": "f2_78[0]",
+        "page": 1,
+        "row": "39 Net section 1231 loss . . . . . . . ."
+      },
+      {
+        "field": "f2_79[0]",
+        "page": 1,
+        "row": "39 Net section 1231 loss . . . . . . . ."
+      },
+      {
+        "field": "f2_80[0]",
+        "page": 1,
+        "row": "39 Net section 1231 loss . . . . . . . ."
+      },
+      {
+        "field": "f2_81[0]",
+        "page": 1,
+        "row": "39 Net section 1231 loss . . . . . . . ."
+      },
+      {
+        "field": "f2_82[0]",
+        "page": 1,
+        "row": "40 Other loss . . . . . . . . . . ."
+      },
+      {
+        "field": "f2_83[0]",
+        "page": 1,
+        "row": "40 Other loss . . . . . . . . . . ."
+      },
+      {
+        "field": "f2_84[0]",
+        "page": 1,
+        "row": "40 Other loss . . . . . . . . . . ."
+      },
+      {
+        "field": "f2_85[0]",
+        "page": 1,
+        "row": "40 Other loss . . . . . . . . . . ."
+      },
+      {
+        "field": "f2_86[0]",
+        "page": 1,
+        "row": "40 Other loss . . . . . . . . . . ."
+      },
+      {
+        "field": "f2_87[0]",
+        "page": 1,
+        "row": "41 Section 179 deductions . . . . . . ."
+      },
+      {
+        "field": "f2_88[0]",
+        "page": 1,
+        "row": "41 Section 179 deductions . . . . . . ."
+      },
+      {
+        "field": "f2_90[0]",
+        "page": 1,
+        "row": "41 Section 179 deductions . . . . . . ."
+      },
+      {
+        "field": "f2_91[0]",
+        "page": 1,
+        "row": "41 Section 179 deductions . . . . . . ."
+      },
+      {
+        "field": "f2_92[0]",
+        "page": 1,
+        "row": "41 Section 179 deductions . . . . . . ."
+      },
+      {
+        "field": "f2_93[0]",
+        "page": 1,
+        "row": "42 Charitable contributions . . . . . . ."
+      },
+      {
+        "field": "f2_94[0]",
+        "page": 1,
+        "row": "42 Charitable contributions . . . . . . ."
+      },
+      {
+        "field": "f2_95[0]",
+        "page": 1,
+        "row": "42 Charitable contributions . . . . . . ."
+      },
+      {
+        "field": "f2_96[0]",
+        "page": 1,
+        "row": "42 Charitable contributions . . . . . . ."
+      },
+      {
+        "field": "f2_97[0]",
+        "page": 1,
+        "row": "42 Charitable contributions . . . . . . ."
+      },
+      {
+        "field": "f2_98[0]",
+        "page": 1,
+        "row": "43 Investment interest expense . . . . ."
+      },
+      {
+        "field": "f2_99[0]",
+        "page": 1,
+        "row": "43 Investment interest expense . . . . ."
+      },
+      {
+        "field": "f2_100[0]",
+        "page": 1,
+        "row": "43 Investment interest expense . . . . ."
+      },
+      {
+        "field": "f2_101[0]",
+        "page": 1,
+        "row": "43 Investment interest expense . . . . ."
+      },
+      {
+        "field": "f2_102[0]",
+        "page": 1,
+        "row": "43 Investment interest expense . . . . ."
+      },
+      {
+        "field": "f2_103[0]",
+        "page": 1,
+        "row": "44 Section 59(e)(2) expenditures . . . . ."
+      },
+      {
+        "field": "f2_104[0]",
+        "page": 1,
+        "row": "44 Section 59(e)(2) expenditures . . . . ."
+      },
+      {
+        "field": "f2_105[0]",
+        "page": 1,
+        "row": "44 Section 59(e)(2) expenditures . . . . ."
+      },
+      {
+        "field": "f2_106[0]",
+        "page": 1,
+        "row": "44 Section 59(e)(2) expenditures . . . . ."
+      },
+      {
+        "field": "f2_107[0]",
+        "page": 1,
+        "row": "44 Section 59(e)(2) expenditures . . . . ."
+      },
+      {
+        "field": "f2_108[0]",
+        "page": 1,
+        "row": "45 Other deductions . . . . . . . . ."
+      },
+      {
+        "field": "f2_109[0]",
+        "page": 1,
+        "row": "45 Other deductions . . . . . . . . ."
+      },
+      {
+        "field": "f2_110[0]",
+        "page": 1,
+        "row": "45 Other deductions . . . . . . . . ."
+      },
+      {
+        "field": "f2_111[0]",
+        "page": 1,
+        "row": "45 Other deductions . . . . . . . . ."
+      },
+      {
+        "field": "f2_112[0]",
+        "page": 1,
+        "row": "45 Other deductions . . . . . . . . ."
+      },
+      {
+        "field": "f2_113[0]",
+        "page": 1,
+        "row": "46 Foreign taxes paid or accrued . . . . ."
+      },
+      {
+        "field": "f2_114[0]",
+        "page": 1,
+        "row": "46 Foreign taxes paid or accrued . . . . ."
+      },
+      {
+        "field": "f2_115[0]",
+        "page": 1,
+        "row": "46 Foreign taxes paid or accrued . . . . ."
+      },
+      {
+        "field": "f2_116[0]",
+        "page": 1,
+        "row": "46 Foreign taxes paid or accrued . . . . ."
+      },
+      {
+        "field": "f2_117[0]",
+        "page": 1,
+        "row": "46 Foreign taxes paid or accrued . . . . ."
+      }
+    ]
+  }
+}

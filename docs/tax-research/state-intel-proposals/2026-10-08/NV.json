@@ -1,0 +1,419 @@
+[
+ {
+  "state": "NV",
+  "section": "apportionment",
+  "notes": "### Nevada Corporate / Business Income Tax Context\n* **Income Tax Imposition:** The State of Nevada does not levy a corporate income tax or personal income tax. Consequently, traditional multistate business *net income* apportionment formulas do not exist in Nevada. \n* **Commerce Tax (Gross Receipts):** Nevada instead imposes an annual gross receipts tax known as the **Commerce Tax** (NRS Chapter 363C) on business entities engaging in business in Nevada whose Nevada gross revenue exceeds $4,000,000 during the taxable year (fiscal year July 1–June 30). Businesses do not apportion total income by a traditional multi-factor ratio; rather, gross revenue is sitused directly to Nevada under specific statutory situsing rules.\n* **Years:** Applies unchanged to both tax years 2025 and 2026.\n* **Official URLs:** \n  * https://tax.nv.gov/income-tax-in-nevada/\n  * https://tax.nv.gov/tax-types/commerce-tax/\n  * https://www.leg.state.nv.us/nrs/nrs-363c.html\n\n---\n\n### 1. Apportionment Formula for Multistate Business Income\n* **Income Tax Formula:** **Not found** (Nevada does not levy a corporate or business income tax and therefore does not have a single sales factor, three-factor, or other income apportionment formula).\n* **Commerce Tax Method:** Under the Commerce Tax, Nevada does not use an apportionment formula (such as property, payroll, or sales factor ratios) to divide net income. Instead, each category of gross receipts is directly sitused to Nevada pursuant to NRS 363C.220. Tangible personal property sales are sitused to Nevada if delivered or shipped to a buyer in Nevada, regardless of the F.O.B. point or conditions of sale (NRS 363C.220(1)(d)).\n* **Years:** Applies to tax years 2025 and 2026 (unchanged).\n* **Official URLs:** \n  * https://tax.nv.gov/income-tax-in-nevada/\n  * https://www.leg.state.nv.us/nrs/nrs-363c.html#NRS363CSec220\n\n---\n\n### 2. Sourcing for Receipts from Services and Intangibles\n* **Corporate Income Tax:** **Not found** (no corporate income tax).\n* **Commerce Tax Sourcing Rules:**\n  * **Services (Market-Based / Benefit Received):** Gross revenue from the sale of services is sitused to Nevada based on **market-based sourcing**. Under NRS 363C.220(1)(f), service revenue is sitused to Nevada *\"in the proportion that the purchaser's benefit in this State, with respect to what was purchased, bears to the purchaser's benefit everywhere with respect to what was purchased,\"* where the physical location at which the purchaser ultimately uses or receives the benefit is paramount. If taxpayer records do not show that location, a reasonable, consistent, and uniform alternative method supported by contemporaneous business records may be used (NRS 363C.220(1)(f); NAC 363C.300–363C.590).\n  * **Intangibles / Other Receipts:** \n    * Under NRS 363C.220(1)(g), gross revenue not otherwise categorized (including intangibles) is sitused to Nevada if receipts are from business conducted in Nevada; the physical location of the purchaser is paramount. If records do not show the purchaser's location, the gross revenue is not considered to be from business conducted in Nevada.\n    * Gross rents and royalties from real property are sitused to Nevada if the property is located in Nevada (NRS 363C.220(1)(a)).\n    * Gross rents and royalties from tangible personal property are sitused to Nevada to the extent the property is located or used in Nevada (NRS 363C.220(1)(c)).\n* **Years:** Applies to tax years 2025 and 2026 (unchanged).\n* **Official URLs:** \n  * https://www.leg.state.nv.us/nrs/nrs-363c.html#NRS363CSec220\n  * https://www.leg.state.nv.us/nac/nac-363c.html\n\n---\n\n### 3. Industries with Their Own Apportionment / Sourcing Formula\n* **Corporate Income Tax:** **Not found** (no corporate income tax).\n* **Commerce Tax Special Industry Rules:**\n  * **Transportation Services:** Sitused to Nevada only if both the origin and destination points of the transportation are located in Nevada (NRS 363C.220(1)(e)).\n  * **Specific Service Industries (NAC 363C.310 to NAC 363C.590):** Specialized situsing rules apply to multiple specific industries, including:\n    * *Accounting services* (NAC 363C.320)\n    * *Architectural services* (NAC 363C.330)\n    * *Advertising / TV / Radio* (NAC 363C.325, 363C.375)\n    * *Athletes and Entertainers* (NAC 363C.340, 363C.345, 363C.350, 363C.355)\n    * *Cable, satellite, and telecommunication services* (NAC 363C.365, 363C.370)\n* **Years:** Applies to tax years 2025 and 2026 (unchanged).\n* **Official URLs:** \n  * https://www.leg.state.nv.us/nrs/nrs-363c.html#NRS363CSec220\n  * https://www.leg.state.nv.us/nac/nac-363c.html\n\n---\n\n### 4. Form or Schedule Used to Compute Apportionment\n* **Corporate Income Tax Apportionment Form:** **Not found** (no corporate income tax returns or schedules exist).\n* **Commerce Tax Return Form:** \n  * **Form EXC-F025 (Nevada Commerce Tax Return):** Used to report sitused Nevada gross revenue (Lines 1–9), subtract the $4,000,000 statutory threshold (Line 10), apply allowable deductions, and calculate liability based on the entity's designated NAICS code category.\n  * **Schedule A (Form EXC-F025A):** Required only for entities operating within the Las Vegas Sports and Entertainment Improvement District (SEID).\n  * *(Note: Entities with Nevada gross revenue of $4,000,000 or less are not required to file a return per NRS 363C.200 and the repeal of NAC 363C.220).*\n* **Years:** Applies to tax years 2025 and 2026 (Form EXC-F025 versions V2025.1 and V2026.1).\n* **Official URLs:** \n  * https://tax.nv.gov/tax-types/commerce-tax/\n  * https://tax.nv.gov/tax-forms/tax-forms/",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Nevada does not levy a corporate income tax and does not use an apportionment formula to divide net income. Under the Commerce Tax, gross receipts are directly sitused to Nevada, with sales of tangible personal property sitused to the state if delivered or shipped to a buyer in Nevada.",
+    "source_url": "https://www.leg.state.nv.us/nrs/nrs-363c.html#NRS363CSec220",
+    "evidence": [
+     "delivered or shipped to a buyer",
+     "sitused to this State"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.leg.state.nv.us/nrs/nrs-363c.html#NRS363CSec220; evidence not on tax.nv.gov (0/2); evidence not on tax.nv.gov (1/2); unreadable: https://www.leg.state.nv.us/nrs/NRS-363C.html; not an official NV host: law.justia.com; unreadable: https://www.leg.state.nv.us/nac/NAC-363C.html; unreadable: https://www.leg.state.nv.us/Register/RegsReviewed/$R040-24A.PDF",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Gross revenue from services is sitused to Nevada using market-based sourcing based on the proportion of the purchaser's benefit received in the state. Gross revenue from other receipts, including intangibles, is sitused to Nevada if from business conducted in Nevada, where the purchaser's physical location is paramount.",
+    "source_url": "https://www.leg.state.nv.us/nrs/nrs-363c.html#NRS363CSec220",
+    "evidence": [
+     "purchaser's benefit in this State",
+     "physical location of the purchaser"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.leg.state.nv.us/nrs/nrs-363c.html#NRS363CSec220; evidence not on tax.nv.gov (0/2); evidence not on tax.nv.gov (1/2); unreadable: https://www.leg.state.nv.us/nrs/NRS-363C.html; not an official NV host: law.justia.com; unreadable: https://www.leg.state.nv.us/nac/NAC-363C.html; unreadable: https://www.leg.state.nv.us/Register/RegsReviewed/$R040-24A.PDF",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Transportation services are sitused to Nevada only if both the origin and destination points are located in the state. Specialized situsing rules also apply to specific industries including accounting, architectural, advertising, and telecommunication services.",
+    "source_url": "https://www.leg.state.nv.us/nrs/nrs-363c.html#NRS363CSec220",
+    "evidence": [
+     "transportation services",
+     "both the origin and destination"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.leg.state.nv.us/nrs/nrs-363c.html#NRS363CSec220; evidence not on tax.nv.gov (0/2); unreadable: https://www.leg.state.nv.us/nrs/NRS-363C.html; not an official NV host: law.justia.com; unreadable: https://www.leg.state.nv.us/nac/NAC-363C.html; unreadable: https://www.leg.state.nv.us/Register/RegsReviewed/$R040-24A.PDF",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Taxable business entities report Nevada gross revenue on Form EXC-F025 (Nevada Commerce Tax Return). Entities operating within the Las Vegas Sports and Entertainment Improvement District must also file Schedule A (Form EXC-F025A).",
+    "source_url": "https://tax.nv.gov/tax-types/commerce-tax/",
+    "evidence": [
+     "Commerce Tax Return",
+     "Nevada Commerce Tax"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.nv.gov/wp-content/uploads/2025/07/EXC-F025A-COM-Tax-Schedule-A-SEID.pdf",
+    "matched_title": "EXC-F025A COM Tax Schedule A",
+    "matched_phrases": [
+     "Commerce Tax Return",
+     "Nevada Commerce Tax"
+    ],
+    "snippet": "Please attach Schedule A to Form EXC-F025 Nevada Commerce Tax Return."
+   }
+  ],
+  "grounding_urls": [
+   "https://tax.nv.gov/wp-content/uploads/2024/07/Issue-175-Tax-Notes_07-2011.pdf",
+   "https://tax.nv.gov/wp-content/uploads/2026/03/Nevada-Tax-Notes-March-2026.pdf",
+   "https://tax.nv.gov/wp-content/uploads/2025/07/EXC-F025-COM-Tax-Return.pdf",
+   "https://tax.nv.gov/tax-types/commerce-tax/",
+   "https://www.leg.state.nv.us/nrs/NRS-363C.html",
+   "https://law.justia.com/codes/nevada/chapter-363c/statute-363c-220/",
+   "https://tax.nv.gov/wp-content/uploads/2026/07/Commerce-Tax-Due-Date-Notification.pdf",
+   "https://www.leg.state.nv.us/nac/NAC-363C.html",
+   "https://law.justia.com/codes/nevada/chapter-363c/statute-363c-220/",
+   "https://tax.nv.gov/wp-content/uploads/2025/07/EXC-F025A-COM-Tax-Schedule-A-SEID.pdf",
+   "https://www.leg.state.nv.us/Register/RegsReviewed/$R040-24A.PDF"
+  ],
+  "error": ""
+ },
+ {
+  "state": "NV",
+  "section": "nexus",
+  "notes": "### 1. Corporate Income / Franchise Tax Nexus\n\n* **Income / Franchise Tax Status:** The State of Nevada does not levy a personal, business, or corporate income tax or corporate franchise tax.\n* **Entity-Level Commerce Tax Nexus:** Nevada imposes an entity-level **Commerce Tax** (NRS Chapter 363C) on business entities engaging in business in Nevada. \n  * **Threshold:** A business entity is subject to the Commerce Tax and required to file a return only if its Nevada gross revenue exceeds **$4,000,000** during the taxable year (the state fiscal year, July 1 through June 30). Entities with Nevada gross revenue of $4,000,000 or less are exempt from filing.\n  * **Nexus Activities:** For out-of-state entities, both a nexus connection and Nevada gross revenue exceeding $4,000,000 are required. Under NAC 363C.200 and the Department's *Commerce Tax Nexus Questionnaire* (Form EXC-T004), activities establishing nexus include entering the state to purchase/display advertising, maintaining consigned goods, performing contracts, delivering goods in company-owned vehicles, having employees/representatives in Nevada, or engaging in any other activity that constitutes sufficient nexus under the U.S. Constitution.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official URLs:** \n  * https://tax.nv.gov/tax-types/commerce-tax/\n  * https://tax.nv.gov/faq/commerce-tax/\n  * https://www.leg.state.nv.us/nac/nac-363c.html#NAC363CSec200\n  * https://tax.nv.gov/tax-forms/ (Nexus Questionnaire EXC-T004)\n\n---\n\n### 2. Remote Seller Economic Nexus Threshold (Sales and Use Tax)\n\n* **Threshold Amounts:** A remote seller (a seller without a physical presence in Nevada) is required to register and collect Nevada sales or use tax if it meets either of the following criteria:\n  * More than **$100,000** of retail sales into Nevada; **or**\n  * **200 or more** separate retail transactions for delivery into the state.\n* **Measurement Period:** The **previous or current calendar year**. Once the threshold is met, the seller must register by the first day of the calendar month that begins at least 30 calendar days after crossing the threshold.\n* **Applicable Tax Years:** 2025 and 2026 (in effect since October 1, 2018; unchanged).\n* **Official URLs:**\n  * https://tax.nv.gov/faq/remote-sellers-wayfair-decision/\n  * https://tax.nv.gov/faq/marketplace-facilitator-seller/\n\n---\n\n### 3. State's Stated Position on P.L. 86-272 Protection\n\n* **Status:** **Not found** [7.1, 7.2].\n* **Notes:** Public Law 86-272 applies exclusively to taxes imposed on or measured by net income. Because Nevada does not impose an individual or corporate net income tax, no guidance, administrative ruling, or regulation regarding P.L. 86-272 protection is published on the Nevada Department of Taxation website or in the Nevada Administrative Code/Nevada Revised Statutes.",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Nevada does not impose a corporate income or franchise tax, but levies an entity-level Commerce Tax on business entities engaging in business in the state. Out-of-state entities with nexus are subject to the tax and required to file a return only if Nevada gross revenue exceeds $4,000,000 during the taxable year.",
+    "source_url": "https://tax.nv.gov/faq/commerce-tax/",
+    "evidence": [
+     "Commerce Tax",
+     "gross revenue exceeds $4,000,000",
+     "engaging in business in Nevada"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.nv.gov/faqs/commerce-tax-faqs/",
+    "matched_title": "Commerce Tax FAQs – State of Nevada",
+    "matched_phrases": [
+     "Commerce Tax",
+     "gross revenue exceeds $4,000,000",
+     "engaging in business in Nevada"
+    ],
+    "snippet": "Who can file the Exempt Status Entity Form? Exempt entities that have been registered for Commerce Tax and whose Nevada gross revenue exceeds $4,000,000 during the tax year can file the Exempt Status Entity Form :"
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Remote sellers establish economic nexus if they have more than $100,000 of retail sales into Nevada or 200 or more separate retail transactions for delivery into the state. This threshold is measured during the previous or current calendar year.",
+    "source_url": "https://tax.nv.gov/faq/remote-sellers-wayfair-decision/",
+    "evidence": [
+     "More than $100,000",
+     "200 or more separate retail transactions",
+     "previous or current calendar year"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.nv.gov/faqs/marketplace-facilitator-seller-faqs/remote-sellers-wayfair-decision/",
+    "matched_title": "Remote Sellers – Wayfair Decision – State of Nevada",
+    "matched_phrases": [
+     "More than $100,000",
+     "200 or more separate retail transactions",
+     "previous or current calendar year"
+    ],
+    "snippet": "More than $100,000 of retail sales into Nevada, or 200 or more separate retail transactions for delivery into the state However, these small sellers may still volunteer to register and collect tax in this state as a benefit to their Nevada customers."
+   }
+  ],
+  "grounding_urls": [
+   "https://tax.nv.gov/wp-content/uploads/2024/07/Issue-170-Tax-Notes_04-2010.pdf",
+   "https://www.leg.state.nv.us/Session/83rd2025/Bills/SB/SB220.pdf",
+   "https://tax.nv.gov/tax-types/tax-forms/",
+   "https://tax.nv.gov/faqs/commerce-tax-faqs/",
+   "https://tax.nv.gov/wp-content/uploads/2025/07/EXC-F025A-COM-Tax-Schedule-A-SEID.pdf",
+   "https://tax.nv.gov/wp-content/uploads/2026/07/Commerce-Tax-Due-Date-Notification.pdf",
+   "https://tax.nv.gov/faqs/commerce-tax-faqs/",
+   "https://tax.nv.gov/wp-content/uploads/2024/03/EXC-T004-Nexus-Questionnaire-1.pdf",
+   "https://www.leg.state.nv.us/nac/NAC-363C.html",
+   "https://www.leg.state.nv.us/nac/NAC-363C.html",
+   "https://tax.nv.gov/tax-types/commerce-tax/",
+   "https://tax.nv.gov/faqs/marketplace-facilitator-seller-faqs/remote-sellers-wayfair-decision/",
+   "https://tax.nv.gov/faqs/marketplace-facilitator-seller-faqs/",
+   "https://tax.nv.gov/wp-content/uploads/2026/03/Nevada-Tax-Notes-March-2026.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "NV",
+  "section": "rates",
+  "notes": "### 1. Individual Income Tax\n* **Rate:** Nevada has no individual income tax (0.0%). The Nevada Constitution explicitly prohibits income taxes on the wages or personal income of natural persons. \n* **Applicable Tax Years:** 2025 and 2026 (no change).\n* **Official Sources:**\n  * Nevada Department of Taxation: https://tax.nv.gov/tax-types/income-tax-in-nevada/\n  * Nevada Constitution, Article 10, Section 1(9): https://www.leg.state.nv.us/const/nvconst.html\n\n---\n\n### 2. Corporate Income or Franchise Tax\n* **Rate / Minimum Tax:** Nevada does not levy a corporate income tax or a corporate franchise tax based on net income, and imposes no corporate income minimum tax.\n* **Applicable Tax Years:** 2025 and 2026 (no change).\n* **Official Sources:**\n  * Nevada Department of Taxation: https://tax.nv.gov/tax-types/income-tax-in-nevada/\n  * Nevada Constitution, Article 10, Section 1: https://www.leg.state.nv.us/const/nvconst.html\n\n---\n\n### 3. Sales and Use Tax\n* **State Base Rate:** The statewide minimum base rate is **6.85%**. It is composed of:\n  * 2.00% State Sales and Use Tax (NRS Chapter 372)\n  * 2.60% Local School Support Tax (LSST) (NRS Chapter 374)\n  * 0.50% Basic City-County Relief Tax (BCCRT) (NRS Chapter 377)\n  * 1.75% Supplemental City-County Relief Tax (SCCRT) (NRS Chapter 377)\n* **Local Additions:** Yes, local jurisdictions (counties) add optional local sales and use taxes. Total rates vary by county, ranging from the state minimum of 6.850% (e.g., Eureka, Esmeralda, Mineral) up to 8.265% in Washoe County and 8.375% in Clark County.\n* **Applicable Tax Years:** 2025 and 2026 (no rate changes between 2025 and 2026; current county schedule has been in place since January 1, 2020).\n* **Official Sources:**\n  * Nevada Department of Taxation – Sales & Use Tax: https://tax.nv.gov/tax-types/sales-tax-use-tax/\n  * Nevada Department of Taxation – Consumer Use Tax: https://tax.nv.gov/tax-types/consumer-use-tax/\n\n---\n\n### 4. Gross Receipts and Other Notable Business Taxes\n\n#### A. Commerce Tax (Gross Receipts Tax – NRS Chapter 363C)\n* **Threshold & Base:** Imposed on business entities with Nevada gross revenue exceeding **$4,000,000** during the fiscal year (taxable year July 1 through June 30). The tax applies to Nevada gross revenue minus the $4,000,000 statutory deduction and allowable deductions. Entities with $4,000,000 or less in Nevada gross revenue have no filing requirement.\n* **Rates:** Rates vary by industry based on the business’s North American Industry Classification System (NAICS) code, ranging from **0.051% to 0.331%** (entities that cannot be classified under a specific NAICS code are taxed at 0.128% under NRS 363C.300).\n* **Credit:** 50% of Commerce Tax paid can be taken as a credit against the Modified Business Tax (MBT).\n* **Applicable Tax Years:** 2025 and 2026 (fiscal years 2024–2025 and 2025–2026; the 2025–2026 return is due August 14, 2026).\n* **Official Sources:**\n  * Nevada Department of Taxation – Commerce Tax: https://tax.nv.gov/tax-types/commerce-tax/\n  * Nevada Revised Statutes Chapter 363C: https://www.leg.state.nv.us/nrs/nrs-363c.html\n\n#### B. Modified Business Tax (MBT / Payroll Tax – NRS Chapters 363A and 363B)\n* **Base:** Imposed on total gross wages (including reported tips) paid each calendar quarter, less employer-paid qualified employee healthcare expenses.\n* **Rates:**\n  * **General Business (NRS 363B.110):** **1.17%** on quarterly taxable wages exceeding **$50,000** (the first $50,000 per quarter is taxed at 0%).\n  * **Financial Institutions & Mining (NRS 363A.130):** **1.554%** on all taxable wages (no $50,000 quarterly wage exemption).\n* **Applicable Tax Years:** 2025 and 2026 (effective since July 1, 2023; unchanged for 2025 and 2026).\n* **Official Sources:**\n  * Nevada Department of Taxation – Modified Business Tax: https://tax.nv.gov/tax-types/modified-business-tax-mbt/\n  * Nevada Revised Statutes Chapter 363B: https://www.leg.state.nv.us/nrs/nrs-363b.html\n\n#### C. Bank Branch Excise Tax (NRS Chapter 363A.120)\n* **Rate:** **$1,750 per quarter** on each branch office maintained by a bank in excess of one branch per county.\n* **Applicable Tax Years:** 2025 and 2026.\n* **Official Source:**\n  * Nevada Department of Taxation – Bank Branch Excise Tax: https://tax.nv.gov/tax-types/bank-branch-excise-tax/",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Nevada has no individual income tax. The state constitution prohibits taxes on the wages or personal income of natural persons.",
+    "source_url": "https://tax.nv.gov/tax-types/income-tax-in-nevada/",
+    "evidence": [
+     "income tax",
+     "personal income",
+     "natural persons"
+    ],
+    "accepted": false,
+    "reason": "evidence not on tax.nv.gov (1/3); unreadable: https://www.leg.state.nv.us/const/nvconst.html; evidence not on tax.nv.gov (0/3); unreadable: https://www.leg.state.nv.us/nrs/NRS-363C.html; unreadable: https://www.leg.state.nv.us/nrs/NRS-363B.html",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Nevada does not impose a corporate income tax or a corporate franchise tax based on net income, and has no corporate minimum tax.",
+    "source_url": "https://tax.nv.gov/tax-types/income-tax-in-nevada/",
+    "evidence": [
+     "corporate income tax",
+     "income tax",
+     "net income"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.nv.gov/wp-content/uploads/2026/03/Nevada-Tax-Notes-March-2026.pdf",
+    "matched_title": "Nevada Tax Notes March 2026",
+    "matched_phrases": [
+     "corporate income tax",
+     "income tax"
+    ],
+    "snippet": "The State of Nevada does not impose an individual or corporate income tax."
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The statewide base sales and use tax rate is 6.85%. Local jurisdictions add optional local sales and use taxes, bringing total rates up to 8.265% in Washoe County and 8.375% in Clark County.",
+    "source_url": "https://tax.nv.gov/tax-types/sales-tax-use-tax/",
+    "evidence": [
+     "6.85%",
+     "Sales & Use Tax",
+     "Local School Support Tax"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.nv.gov/tax-types/sales-tax-use-tax/",
+    "matched_title": "Sales Tax & Use Tax – State of Nevada",
+    "matched_phrases": [
+     "6.85%",
+     "Sales & Use Tax"
+    ],
+    "snippet": "The base State Sales Tax rate in Nevada is 6.85%."
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Nevada levies a gross receipts Commerce Tax on entities with Nevada gross revenue exceeding $4,000,000, with rates ranging from 0.051% to 0.331%. Businesses also pay a Modified Business Tax on quarterly wages exceeding $50,000 at a rate of 1.17% for general businesses or 1.554% for financial institutions and mining.",
+    "source_url": "https://tax.nv.gov/tax-types/commerce-tax/",
+    "evidence": [
+     "Commerce Tax",
+     "$4,000,000",
+     "gross revenue",
+     "NAICS code"
+    ],
+    "accepted": false,
+    "reason": "figures not on tax.nv.gov: ['0.051', '0.331', '1.17', '1.554', '50000']; figures not on tax.nv.gov: ['0.051', '0.331', '1.17', '1.554', '4000000', '50000']; unreadable: https://www.leg.state.nv.us/const/nvconst.html; figures not on tax.nv.gov: ['0.051', '0.331', '1.17', '1.554']; figures not on tax.nv.gov: ['1.17', '1.554']; figures not on tax.nv.gov: ['0.051', '1.554']; unreadable: https://www.leg.state.nv.us/nrs/NRS-363C.html; figures not on tax.nv.gov: ['0.051', '0.331', '1.17', '1.554', '400",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://tax.nv.gov/about-nevada-department-of-taxation/income-tax-in-nevada/",
+   "https://www.leg.state.nv.us/const/nvconst.html",
+   "https://tax.nv.gov/wp-content/uploads/2026/03/Nevada-Tax-Notes-March-2026.pdf",
+   "https://tax.nv.gov/wp-content/uploads/2024/12/Components-of-Sales-Tax.pdf",
+   "https://tax.nv.gov/tax-types/consumer-use-tax/",
+   "https://tax.nv.gov/tax-types/sales-tax-use-tax/",
+   "https://tax.nv.gov/wp-content/uploads/2024/05/ADM-T047-State-Sales-Tax-Map.pdf",
+   "https://tax.nv.gov/tax-types/sales-tax-use-tax/",
+   "https://tax.nv.gov/wp-content/uploads/2026/07/Commerce-Tax-Due-Date-Notification.pdf",
+   "https://tax.nv.gov/wp-content/uploads/2025/07/EXC-F025A-COM-Tax-Schedule-A-SEID.pdf",
+   "https://tax.nv.gov/wp-content/uploads/2025/07/EXC-F025-COM-Tax-Return.pdf",
+   "https://tax.nv.gov/faqs/commerce-tax-faqs/",
+   "https://tax.nv.gov/wp-content/uploads/2024/07/Issue-187-Tax-Notes_07-2015.pdf",
+   "https://www.leg.state.nv.us/nrs/NRS-363C.html",
+   "https://tax.nv.gov/wp-content/uploads/2025/12/TAX-F003-MBT-Return-General-Business.pdf",
+   "https://tax.nv.gov/tax-types/commerce-tax/",
+   "https://tax.nv.gov/tax-types/modified-business-tax/",
+   "https://tax.nv.gov/tax-types/modified-business-tax/",
+   "https://www.leg.state.nv.us/nrs/NRS-363B.html",
+   "https://tax.nv.gov/tax-types/bank-branch-excise-tax/",
+   "https://tax.nv.gov/wp-content/uploads/2026/03/Nevada-Tax-Notes-March-2026.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "NV",
+  "section": "filing",
+  "notes": "### Overview: Nevada Income Tax Structure\nThe State of Nevada does not levy a personal income tax, corporate income tax, or pass-through entity income tax. Article 10, Section 1, Subsection 9 of the Nevada Constitution expressly provides: *\"No income tax shall be levied upon the wages or personal income of natural persons\"*. \n\nIn lieu of corporate/pass-through income taxes, Nevada levies an entity-level **Commerce Tax** (under Chapter 363C of the Nevada Revised Statutes) on business entities (including C corporations, S corporations, partnerships, and LLCs) whose Nevada gross revenue exceeds $4,000,000 during a fiscal taxable year (July 1 through June 30).\n\n---\n\n### 1. Individual Return Due Dates and Extensions\n* **Fact:** Nevada does not impose an individual income tax. There are no individual income tax return filing requirements, calendar-year due dates, or extension mechanisms.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Nevada Department of Taxation – Income Tax in Nevada: https://tax.nv.gov/income-tax-in-nevada/\n  * Nevada Legislature – The Constitution of the State of Nevada (Art. 10, § 1): https://www.leg.state.nv.us/const/nvconst.html#Art10Sec1\n\n---\n\n### 2. Corporate and Pass-Through Return Due Dates and Extension Rules\n* **Income Tax:** Not applicable; Nevada levies no corporate or pass-through entity income tax.\n* **Commerce Tax (Gross Revenue Tax):**\n  * **Due Date:** For business entities with Nevada gross revenue exceeding $4,000,000, the return is due 45 days after the fiscal year ends on June 30, which is **August 14** (or the next business day if it falls on a weekend or holiday).\n    * For the 2024–2025 fiscal tax year, the due date was August 14, 2025.\n    * For the 2025–2026 fiscal tax year, the due date is August 14, 2026.\n  * **Extensions:** A taxpayer with good cause may request a **30-day extension** of time to file and pay. The application must be postmarked/submitted before the original payment due date. If the tax is paid during the 30-day extension period, no penalty or late charge applies; however, interest accrues at the statutory rate of **0.75 percent per month** from the original due date until paid (NRS 363C.200(4)).\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Nevada Department of Taxation – Commerce Tax: https://tax.nv.gov/tax-types/commerce-tax/\n  * Nevada Department of Taxation – Commerce Tax FAQs: https://tax.nv.gov/faqs/commerce-tax-faqs/\n  * Nevada Legislature – NRS 363C.200: https://www.leg.state.nv.us/nrs/NRS-363C.html#NRS363CSec200\n\n---\n\n### 3. Elective Pass-Through Entity Tax (PTET)\n* **Fact:** Nevada does not have an elective pass-through entity tax. Because the state does not impose a personal income tax, there is no state personal income tax liability for a PTET to offset.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Nevada Department of Taxation – Income Tax in Nevada: https://tax.nv.gov/income-tax-in-nevada/\n  * Nevada Legislature – NRS Chapter 363C (Commerce Tax): https://www.leg.state.nv.us/nrs/NRS-363C.html\n\n---\n\n### 4. Composite or Group Nonresident Returns for Pass-Through Entities\n* **Fact:** Not found / does not exist. Because Nevada does not impose an individual income tax, there are no composite or group nonresident tax returns for pass-through entities.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official Source:**\n  * Nevada Department of Taxation – Income Tax in Nevada: https://tax.nv.gov/income-tax-in-nevada/\n\n---\n\n### 5. Estimated Tax Payments and Nonresident Withholding for Pass-Throughs\n* **Income Tax:** None / not applicable.\n* **Commerce Tax Estimated Payments:** Business entities are **not required** to make estimated Commerce Tax payments during the year.\n* **Nonresident Withholding:** None / not applicable (no pass-through entity withholding exists in Nevada).\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official Source:**\n  * Nevada Department of Taxation – Commerce Tax FAQs: https://tax.nv.gov/faqs/commerce-tax-faqs/\n\n---\n\n### 6. Main Return Forms\n* **Individual Income Tax Returns:** None / not applicable.\n* **Corporate and Pass-Through Income Tax Returns:** None / not applicable.\n* **Commerce Tax Return Forms:**\n  * **Form EXC-F025:** *Nevada Commerce Tax Return* (filed electronically via the *My Nevada Tax* portal or by paper).\n  * **Form EXC-F027:** *Application for 30-day Extension of Time to File and Pay Commerce Tax*.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Nevada Department of Taxation – Tax Forms: https://tax.nv.gov/tax-forms/\n  * Nevada Department of Taxation – Commerce Tax: https://tax.nv.gov/tax-types/commerce-tax/",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Nevada does not impose an individual income tax, so there are no individual income tax return filing requirements, calendar-year due dates, or extension mechanisms.",
+    "source_url": "https://tax.nv.gov/income-tax-in-nevada/",
+    "evidence": [
+     "Income Tax in Nevada",
+     "personal income tax"
+    ],
+    "accepted": false,
+    "reason": "evidence not on tax.nv.gov (1/2); evidence not on tax.nv.gov (0/2); unreadable: https://www.leg.state.nv.us/const/nvconst.html",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Nevada has no corporate or pass-through income tax, but entities with Nevada gross revenue exceeding $4,000,000 must file a Commerce Tax return by August 14 following the June 30 fiscal year end. Taxpayers may request a 30-day extension to file and pay, with interest accruing at 0.75 percent per month from the original due date.",
+    "source_url": "https://tax.nv.gov/tax-types/commerce-tax/",
+    "evidence": [
+     "Nevada Commerce Tax",
+     "August 14",
+     "Nevada gross revenue",
+     "30-day extension"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.nv.gov/wp-content/uploads/2025/07/EXC-F025-COM-Tax-Return.pdf",
+    "matched_title": "https://tax.nv.gov/wp-content/uploads/2025/07/EXC-F025-COM-Tax-Return.pdf",
+    "matched_phrases": [
+     "Nevada Commerce Tax",
+     "August 14",
+     "Nevada gross revenue",
+     "30-day extension"
+    ],
+    "snippet": "if Nevada gross revenue of your business exceeds $4,000,000 during the tax year, you are REQUIRED to file this return."
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Nevada does not have an elective pass-through entity tax because the state does not impose a personal income tax.",
+    "source_url": "https://tax.nv.gov/income-tax-in-nevada/",
+    "evidence": [
+     "Income Tax in Nevada",
+     "personal income tax"
+    ],
+    "accepted": false,
+    "reason": "evidence not on tax.nv.gov (1/2); evidence not on tax.nv.gov (0/2); unreadable: https://www.leg.state.nv.us/const/nvconst.html",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Nevada imposes no income tax or pass-through entity nonresident withholding. Business entities are not required to make estimated Commerce Tax payments during the year.",
+    "source_url": "https://tax.nv.gov/faqs/commerce-tax-faqs/",
+    "evidence": [
+     "Commerce Tax FAQs",
+     "Commerce Tax",
+     "estimated payments"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.nv.gov/faqs/commerce-tax-faqs/",
+    "matched_title": "Commerce Tax FAQs – State of Nevada",
+    "matched_phrases": [
+     "Commerce Tax FAQs",
+     "Commerce Tax",
+     "estimated payments"
+    ],
+    "snippet": "Do I have estimated payments for Commerce Tax during the year? Estimated payments are not required."
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Nevada has no individual, corporate, or pass-through income tax return forms. For the Commerce Tax, businesses file Form EXC-F025 and use Form EXC-F027 to apply for a 30-day extension.",
+    "source_url": "https://tax.nv.gov/tax-forms/",
+    "evidence": [
+     "Commerce Tax Return",
+     "Form EXC-F025",
+     "Form EXC-F027"
+    ],
+    "accepted": false,
+    "reason": "figures not on tax.nv.gov: ['025', '027']; figures not on tax.nv.gov: ['025', '027', '30']; unreadable: https://www.leg.state.nv.us/const/nvconst.html; evidence not on tax.nv.gov (1/3); figures not on tax.nv.gov: ['025']; figures not on tax.nv.gov: ['027']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://tax.nv.gov/about-nevada-department-of-taxation/income-tax-in-nevada/",
+   "https://tax.nv.gov/wp-content/uploads/2024/07/Issue-170-Tax-Notes_04-2010.pdf",
+   "https://www.leg.state.nv.us/const/nvconst.html",
+   "https://tax.nv.gov/tax-types/commerce-tax/",
+   "https://tax.nv.gov/wp-content/uploads/2025/07/EXC-F025-COM-Tax-Return.pdf",
+   "https://tax.nv.gov/wp-content/uploads/2024/03/EXC-F027-30-Day-Extension-of-Time-to-File-and-Pay-Commerce-Tax-Form.pdf",
+   "https://tax.nv.gov/wp-content/uploads/2025/07/EXC-F025-COM-Tax-Return.pdf",
+   "https://tax.nv.gov/faqs/commerce-tax-faqs/",
+   "https://tax.nv.gov/wp-content/uploads/2025/07/EXC-F025A-COM-Tax-Schedule-A-SEID.pdf"
+  ],
+  "error": ""
+ }
+]

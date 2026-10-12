@@ -1,0 +1,469 @@
+[
+ {
+  "state": "MD",
+  "section": "apportionment",
+  "notes": "### Maryland (MD) Corporate Income Tax Apportionment (Tax Years 2025 & 2026)\n\n---\n\n### 1. Apportionment Formula for Multistate Business Income\n* **Standard Formula:** Multistate unitary corporations apportion Maryland modified income using a **single sales factor** formula (100% sales factor). \n* **Elective Formula for Worldwide Headquartered Companies:** A qualifying \"worldwide headquartered company\" may elect annually to apportion income using a **three-factor double-weighted sales formula** (property factor + payroll factor + [2 × sales factor], divided by 4).\n* **Applicable Tax Years:** Applies to both **tax years 2025 and 2026** (single sales factor fully phased in for taxable years beginning after December 31, 2021; no change between 2025 and 2026).\n* **Official Sources / URLs:** \n  * Maryland General Assembly, Md. Code Ann., Tax-Gen. § 10-402: https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtx&section=10-402\n  * Comptroller of Maryland, Business Income Tax Filing Information: https://www.marylandtaxes.gov/individual/tax-compliance/tax-guidance/business-tax-filing.php\n\n---\n\n### 2. Sourcing of Receipts from Services and Intangibles\n* **Services — Market-Based Sourcing:** Gross receipts from contracting or service-related activities are sourced to Maryland (included in the sales factor numerator) if the receipts are derived from **customers within the State**. \"Customers within this State\" are determined generally by the customer's domicile/commercial domicile, or the location where the benefit/service is delivered (e.g., real estate situs for property-related services; point of sale for transaction-processing services).\n* **Intangibles:** \n  * Under general single sales factor rules, gross receipts from intangible investments (such as interest, royalties, and capital gains from the sale of intangible property) are excluded from the numerator and denominator of the sales factor.\n  * Where property and payroll factors apply (such as for electing worldwide headquartered companies or under COMAR 03.04.03.08), gross income from intangible items (dividends, interest, royalties, and capital gains from the sale of intangible property) is included in the Maryland numerator based on the **average of the taxpayer’s property and payroll factors**.\n* **Applicable Tax Years:** Applies to both **tax years 2025 and 2026** (no change between 2025 and 2026).\n* **Official Sources / URLs:**\n  * Code of Maryland Regulations (COMAR) 03.04.03.08 (Apportionment of Income): https://dsd.maryland.gov/\n  * Md. Code Ann., Tax-Gen. § 10-402(d)(3)(ii): https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtx&section=10-402\n  * Comptroller of Maryland, Pass-Through Entity Income Tax Instructions: https://www.marylandtaxes.gov/forms/25forms/business-forms.php\n\n---\n\n### 3. Industries with Their Own Apportionment Formula\nSpecific industries apportion income using dedicated industry formulas under Maryland statute, COMAR, and administrative guidance:\n* **Financial Institutions:** Apportion using a **single receipts factor** with specialized financial receipts sourcing rules. (COMAR 03.04.08.01 through 03.04.08.05).\n* **Transportation Companies:** Apportion using specialized single-factor activity/mileage formulas:\n  * *Motor freight carriers / trucking:* Ratio of miles traveled on roads in Maryland to miles traveled everywhere.\n  * *Railroads:* Ratio of track miles traveled in Maryland to track miles traveled everywhere.\n  * *Shipping companies:* Ratio of port days in Maryland ports to port days everywhere.\n  * *Pipelines:* Ratio of barrel/cubic-foot miles in Maryland to barrel/cubic-foot miles everywhere.\n  *(COMAR 03.04.03.08G(2); Administrative Release No. 2)*.\n* **Airlines:** Apportion using an **equally weighted three-factor formula** (property, payroll, and sales factors, calculated using flight arrivals/departures and revenue-passenger/cargo miles). (COMAR 03.04.03.08G(3)–(6)).\n* **Motion Picture & Television Film Producers / Television Networks:** Apportion using specialized property, payroll, and receipts factor calculations. (COMAR 03.04.03.09).\n* **Rental / Leasing Companies:** Apportion using an **equally weighted two-factor formula** consisting of property and gross receipts (excluding receipts from intangible items). (COMAR 03.04.03.08G(1)).\n* **Applicable Tax Years:** Applies to both **tax years 2025 and 2026** (no change between 2025 and 2026).\n* **Official Sources / URLs:**\n  * Comptroller of Maryland, Business Income Tax Filing Information: https://www.marylandtaxes.gov/individual/tax-compliance/tax-guidance/business-tax-filing.php\n  * Code of Maryland Regulations (COMAR) 03.04.03.08, 03.04.03.09, and 03.04.08: https://dsd.maryland.gov/\n\n---\n\n### 4. Form or Schedule Used to Compute Apportionment\n* **Corporations (Form 500):** \n  * Apportionment is computed on **Schedule A (\"Computation of Apportionment Factor\")**, located on **Page 4 of Form 500** (Corporation Income Tax Return).\n  * The resulting apportionment factor is entered on **Form 500, Page 2, Line 11**, and multiplied by Maryland modified income (Line 10) to determine Maryland apportioned income (Line 12).\n* **Pass-Through Entities (Form 510 / Form 511):** \n  * Apportionment is computed on **Schedule B** (Page 3 of Form 510/511).\n* **Applicable Tax Years:** Applies to both **tax years 2025 and 2026** (no change between 2025 and 2026).\n* **Official Sources / URLs:**\n  * Comptroller of Maryland, Business Tax Forms and Instructions: https://www.marylandtaxes.gov/forms/business-forms-instructions.php\n  * Comptroller of Maryland, 2025 Business Income Tax Forms and Instructions: https://www.marylandtaxes.gov/forms/25forms/business-forms.php",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Multistate unitary corporations apportion Maryland modified income using a single sales factor formula (100% sales factor). A qualifying worldwide headquartered company may elect annually to apportion income using a three-factor double-weighted sales formula.",
+    "source_url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtx&section=10-402",
+    "evidence": [
+     "single sales factor",
+     "worldwide headquartered company",
+     "double-weighted sales formula"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://mgaleg.maryland.gov/2018RS/Chapters_noln/CH_342_hb1794t.pdf",
+    "matched_title": "2018 Regular Session  - House Bill 1794 Chapter",
+    "matched_phrases": [
+     "single sales factor",
+     "worldwide headquartered company"
+    ],
+    "snippet": "342 – 3 – attributable to trade or business carried on in the State shall be determined using a single sales factor apportionment formula, by multiplying its Maryland modified income by 100% of the sales factor."
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Gross receipts from contracting or service-related activities are sourced to Maryland if derived from customers within the State. Under general single sales factor rules, gross receipts from intangible investments are excluded from the sales factor.",
+    "source_url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtx&section=10-402",
+    "evidence": [
+     "customers within the State",
+     "service-related activities",
+     "intangible investments"
+    ],
+    "accepted": false,
+    "reason": "evidence not on mgaleg.maryland.gov (0/3); evidence not on mgaleg.maryland.gov (1/3); evidence not on services.marylandcomptroller.gov (0/3); evidence not on www.marylandcomptroller.gov (1/3); not an official MD host: www.law.cornell.edu; evidence not on marylandtaxes.gov (0/3); evidence not on www.marylandtaxes.gov (0/3); not an official MD host: www.taxformfinder.org; evidence not on www.marylandcomptroller.gov (0/3); not an official MD host: vertexaisearch.cloud.google.com",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Special apportionment formulas apply to financial institutions, transportation companies, airlines, motion picture and television producers, and rental or leasing companies.",
+    "source_url": "https://dsd.maryland.gov/",
+    "evidence": [
+     "Financial Institutions",
+     "single receipts factor",
+     "Transportation Companies"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/instructions/2025/pte-booklet-510.pdf",
+    "matched_title": "Tax Year 2025 PTE Booklet 510 Pass-Through Entity Income Tax Return",
+    "matched_phrases": [
+     "Financial Institutions",
+     "single receipts factor",
+     "Transportation Companies"
+    ],
+    "snippet": "Rental/ leasing companies, financial institutions, transportation companies, and worldwide headquartered companies must use a Special Apportionment Formula (see instruction 4 below), unless the Comptroller has accepted an Alternative Apportionment Formula (see instruction 5 below)."
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Corporations compute apportionment on Schedule A of Form 500. Pass-through entities compute apportionment on Schedule B of Form 510 or Form 511.",
+    "source_url": "https://www.marylandtaxes.gov/forms/25forms/business-forms.php",
+    "evidence": [
+     "Computation of Apportionment Factor",
+     "Form 500",
+     "Form 510",
+     "Schedule A"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/instructions/2025/pte-booklet-510.pdf",
+    "matched_title": "Tax Year 2025 PTE Booklet 510 Pass-Through Entity Income Tax Return",
+    "matched_phrases": [
+     "Computation of Apportionment Factor",
+     "Form 500",
+     "Form 510",
+     "Schedule A"
+    ],
+    "snippet": "In addition to filing Form 500 to calculate and pay the corporation income tax, also file Form 510."
+   }
+  ],
+  "grounding_urls": [
+   "https://mgaleg.maryland.gov/2018RS/Chapters_noln/CH_342_hb1794t.pdf",
+   "https://mgaleg.maryland.gov/2016RS/fnotes/bil_0002/hb1252.pdf",
+   "https://mgaleg.maryland.gov/mgawebsite/laws/StatuteText?article=gtg&section=10-402",
+   "https://mgaleg.maryland.gov/2022RS/bills/hb/hb0457f.pdf",
+   "https://mgaleg.maryland.gov/mgawebsite/laws/StatuteText?article=gtg&section=10-402",
+   "https://services.marylandcomptroller.gov/taxes?id=kb_article_view&sysparm_article=KB0010020",
+   "https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/instructions/2025/pte-booklet-510.pdf",
+   "https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/instructions/2025/pte-booklet-510.pdf",
+   "https://www.law.cornell.edu/regulations/maryland/COMAR-03-04-03-08",
+   "https://www.law.cornell.edu/regulations/maryland/COMAR-03-04-03-10",
+   "https://mgaleg.maryland.gov/mgawebsite/laws/StatuteText?article=gtg&section=10-402",
+   "https://marylandtaxes.gov/business/income/2025-income-tax-forms.php",
+   "https://www.marylandtaxes.gov/business/income/filing-information.php",
+   "https://www.taxformfinder.org/forms/2024/2024-maryland-corporate-booklet.pdf",
+   "https://www.law.cornell.edu/regulations/maryland/COMAR-03-04-03-09",
+   "https://www.law.cornell.edu/regulations/maryland/COMAR-03-04-03-08",
+   "https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/forms/2024/500.pdf",
+   "https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/instructions/2023/Corporate-Booklet.pdf",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdS2XpmcNN3QiDAXFuP3pgADpAf5RrJUp_hUV2zEI3at4ZnwfBnLVxHVtgdQ5dghmBTEgM5zjUcBJbF8Dd7dZX0G21RAGk76j6_We6LOpBmPepyoCE04dmz_TwVclR0jElqNPo",
+   "https://www.marylandtaxes.gov/business/business-tax-forms.php",
+   "https://www.marylandtaxes.gov/business/business-tax-forms.php",
+   "https://marylandtaxes.gov/business/income/2025-income-tax-forms.php"
+  ],
+  "error": ""
+ },
+ {
+  "state": "MD",
+  "section": "nexus",
+  "notes": "### Income or Franchise Tax Nexus & Bright-Line / Economic Nexus Thresholds\n\n* **Corporate Income Tax Nexus Rules:** The Maryland corporation income tax applies to every Maryland corporation and every foreign corporation that has nexus with Maryland. Nexus is established if an out-of-state corporation conducts business activity within Maryland that exceeds the federal protections of 15 U.S.C. § 381 (P.L. 86-272). Activities cited by the Comptroller that create income tax nexus include:\n  * Maintaining an office or business location in Maryland;\n  * Ownership or use of real or personal property in Maryland;\n  * Employees soliciting and accepting orders in Maryland;\n  * Installation or assembly of products in Maryland;\n  * Maintaining inventory in a public warehouse or with a distributor/non-employee representative in Maryland;\n  * Sales personnel collecting on accounts;\n  * Providing post-sale technical assistance, training, repairs, or replacements in Maryland;\n  * Operating mobile stores (such as trucks with driver-salesmen) making direct sales.\n* **Bright-Line / Factor-Presence Economic Nexus Threshold:** Not found. Maryland does not publish a statutory or regulatory bright-line factor-presence dollar amount or transaction threshold for corporate income tax nexus.\n* **Franchise Tax Nexus:** Not found. Financial institutions formerly subject to the Financial Institution Franchise Tax are subject to the corporation income tax (COMAR 03.04.08). Maryland does not impose a general corporate franchise tax.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Comptroller of Maryland – Business Income Tax Filing Information: https://www.marylandtaxes.gov/business/income/filing-information.php\n  * Comptroller of Maryland – Business Taxpayers FAQs: https://www.marylandtaxes.gov/tax-guidance/business-taxpayers-faqs.php\n\n---\n\n### Remote Seller Economic Nexus Threshold (Sales and Use Tax)\n\n* **Threshold Amounts:** An out-of-state vendor without a physical presence in Maryland must register, collect, and remit Maryland sales and use tax if it meets either of the following criteria:\n  * Gross revenue from the sale of tangible personal property or taxable services delivered in Maryland exceeds **$100,000**; or\n  * Sold tangible personal property or taxable services for delivery into Maryland in **200 or more separate transactions**.\n* **Measurement Period:** The threshold is evaluated based on sales or transactions during the **previous calendar year or the current calendar year**.\n* **Applicable Tax Years:** 2025 and 2026 (effective October 1, 2018; unchanged).\n* **Official Sources:**\n  * Md. Code Ann., Tax-Gen. § 11-701(b) / COMAR 03.06.01.33(B)(5)\n  * Comptroller of Maryland – Sales and Use Tax for Out of State Vendors: https://www.marylandtaxes.gov/business/sales-use/out-of-state-vendors.php\n  * Comptroller of Maryland – Special Situations: https://www.marylandtaxes.gov/business/sales-use/special-situations.php\n\n---\n\n### Maryland's Stated Position on P.L. 86-272 Protection\n\n* **Standard Position:** Maryland recognizes the protections of 15 U.S.C. § 381 (P.L. 86-272) for corporations whose only business activity within Maryland consists of the solicitation of orders for sales of tangible personal property, provided the orders are sent outside the state for approval and filled by shipment or delivery from a point outside Maryland. \n* **Apportionment Treatment:** Corporations operating in Maryland and other states whose activities in the other states do not exceed P.L. 86-272 are classified as \"unistate\" corporations and may not apportion income; multistate corporations whose out-of-state activities exceed P.L. 86-272 must allocate and apportion income.\n* **Unprotected In-State Activities:** The Comptroller interprets activities that exceed P.L. 86-272 protection to include maintaining a Maryland location, storing stock/inventory, approving/accepting sales orders, product installation, collecting accounts, and providing post-sale maintenance, training, or repairs.\n* **Position on MTC Revised Internet Guidance:** Not found. The Comptroller of Maryland has not published formal regulatory guidance or an administrative release adopting the Multistate Tax Commission's (MTC) revised interpretation on internet-based business activities.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Comptroller of Maryland – Business Income Tax Filing Information: https://www.marylandtaxes.gov/business/income/filing-information.php\n  * Comptroller of Maryland – Administrative Release No. 2 (referenced): https://www.marylandtaxes.gov/tax-guidance/technical-bulletins.php",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Corporation income tax nexus is established if an out-of-state corporation conducts business activity within Maryland that exceeds the federal protections of P.L. 86-272. Maryland does not have a statutory or regulatory bright-line factor-presence economic nexus dollar or transaction threshold for corporate income tax.",
+    "source_url": "https://www.marylandtaxes.gov/business/income/filing-information.php",
+    "evidence": [
+     "business activity within Maryland",
+     "exceeds the federal protections",
+     "office or business location"
+    ],
+    "accepted": false,
+    "reason": "figures not on www.marylandtaxes.gov: ['272', '86']; figures not on services.marylandcomptroller.gov: ['272', '86']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "An out-of-state vendor must collect and remit sales and use tax if gross revenue from sales of tangible personal property or taxable services delivered in Maryland exceeds $100,000 or includes 200 or more separate transactions. The threshold is measured during the previous calendar year or the current calendar year.",
+    "source_url": "https://www.marylandtaxes.gov/business/sales-use/out-of-state-vendors.php",
+    "evidence": [
+     "exceeds $100,000",
+     "200 or more separate transactions",
+     "previous calendar year or the current"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.marylandtaxes.gov/business/sales-use/out-of-state-vendors.php; figures not on www.marylandtaxes.gov: ['100000', '200']; figures not on services.marylandcomptroller.gov: ['100000', '200']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Maryland recognizes P.L. 86-272 protection for corporations whose sole in-state activity is the solicitation of orders for sales of tangible personal property approved and fulfilled from points outside the state. Protection is exceeded by activities such as maintaining inventory or a business location, accepting orders, product installation, and providing post-sale services.",
+    "source_url": "https://www.marylandtaxes.gov/business/income/filing-information.php",
+    "evidence": [
+     "solicitation of orders",
+     "tangible personal property",
+     "exceed P.L. 86-272"
+    ],
+    "accepted": false,
+    "reason": "figures not on www.marylandtaxes.gov: ['272', '86']; figures not on services.marylandcomptroller.gov: ['272', '86']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://www.marylandtaxes.gov/business/income/filing-information.php",
+   "https://services.marylandcomptroller.gov/taxes?id=kb_article_view&sysparm_article=KB0010020",
+   "https://www.marylandtaxes.gov/pros/admin-releases/",
+   "https://www.marylandtaxes.gov/business/sales-use/out-of-state-vendor.php",
+   "https://www.marylandtaxes.gov/business/sales-use/special-situations/index.php"
+  ],
+  "error": ""
+ },
+ {
+  "state": "MD",
+  "section": "rates",
+  "notes": "### 1. Individual Income Tax Rate(s) and Brackets\n\n* **Applicability:** Tax years 2025 and 2026. Brackets were altered beginning in tax year 2025 (expanding higher brackets up to 6.50% and enacting an additional 2% tax on net capital gains).\n* **Single, Married Filing Separately, Dependent Taxpayers, or Fiduciaries:**\n  * 2.00% of taxable income of $1 through $1,000\n  * 3.00% of taxable income of $1,001 through $2,000\n  * 4.00% of taxable income of $2,001 through $3,000\n  * 4.75% of taxable income of $3,001 through $100,000\n  * 5.00% of taxable income of $100,001 through $125,000\n  * 5.25% of taxable income of $125,001 through $150,000\n  * 5.50% of taxable income of $150,001 through $250,000\n  * 5.75% of taxable income of $250,001 through $500,000\n  * 6.25% of taxable income of $500,001 through $1,000,000\n  * 6.50% of taxable income in excess of $1,000,000\n* **Married Filing Jointly, Head of Household, or Qualified Surviving Spouse:**\n  * 2.00% of taxable income of $1 through $1,000\n  * 3.00% of taxable income of $1,001 through $2,000\n  * 4.00% of taxable income of $2,001 through $3,000\n  * 4.75% of taxable income of $3,001 through $150,000\n  * 5.00% of taxable income of $150,001 through $175,000\n  * 5.25% of taxable income of $175,001 through $225,000\n  * 5.50% of taxable income of $225,001 through $300,000\n  * 5.75% of taxable income of $300,001 through $600,000\n  * 6.25% of taxable income of $600,001 through $1,200,000\n  * 6.50% of taxable income in excess of $1,200,000\n* **Additional Capital Gain Tax:** An additional 2% tax applies to net capital gain income for filers with federal adjusted gross income exceeding $350,000.\n* **Local Income Tax:** Maryland counties and Baltimore City levy a mandatory local income tax collected on the state return, with rates ranging from 2.25% to 3.30%. Nonresidents are subject to a special nonresident rate of 2.25%.\n* **Official Sources:**\n  * Comptroller of Maryland – Maryland Income Tax Rates and Brackets: https://www.marylandtaxes.gov/individual/income/tax-information/tax-rates.php\n  * Annotated Code of Maryland, Tax-General § 10-105: https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtx&section=10-105\n  * Comptroller of Maryland – What's New for the 2026 Tax Filing Season (2025 Tax Year): https://www.marylandtaxes.gov/individual/income/tax-information/whats-new.php\n\n---\n\n### 2. Corporate Income Tax Rate and Minimum Tax\n\n* **Applicability:** Tax years 2025 and 2026 (unchanged).\n* **Rate:** Imposed at an 8.25% rate on Maryland taxable income (Maryland modified income).\n* **Minimum Tax:** None (not found / no minimum dollar tax imposed; corporations must file Form 500 even if inactive or reporting no taxable income).\n* **Official Sources:**\n  * Comptroller of Maryland – Business Income Tax Information: https://www.marylandtaxes.gov/business/income/tax-information.php\n  * Annotated Code of Maryland, Tax-General § 10-105(b): https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtx&section=10-105\n\n---\n\n### 3. State Sales and Use Tax Rate and Local Jurisdictions\n\n* **Applicability:** Tax years 2025 and 2026 (unchanged).\n* **State Rate:** 6% general rate on sales or use of taxable tangible personal property and digital products.\n  * *Special state rates:* 9% on alcoholic beverages and adult-use cannabis products; 11.5% on short-term passenger car/RV rentals; 8% on short-term truck rentals.\n* **Local Sales Taxes:** Local jurisdictions do not add sales and use taxes (\"There are no local sales taxes in Maryland\").\n* **Official Sources:**\n  * Comptroller of Maryland – Sales and Use Tax: https://www.marylandtaxes.gov/business/sales-use/index.php\n  * Comptroller of Maryland – Flea Market Sales: https://www.marylandtaxes.gov/business/sales-use/special-situations/flea-market-sales.php\n\n---\n\n### 4. Gross Receipts, Franchise, Margin, or Other Notable Business Taxes\n\n* **Applicability:** Tax years 2025 and 2026.\n* **Digital Advertising Gross Revenues Tax (DAGRT):** Imposed on gross revenues derived from digital advertising services in Maryland for persons with global annual gross revenues of $100,000,000 or more. Graduated rates based on global gross revenues:\n  * 2.5% of the assessable base for global annual gross revenues of $100,000,000 through $1,000,000,000\n  * 5% of the assessable base for global annual gross revenues of $1,000,000,001 through $5,000,000,000\n  * 7.5% of the assessable base for global annual gross revenues of $5,000,000,001 through $10,000,000,000\n  * 10% of the assessable base for global annual gross revenues exceeding $10,000,000,000\n  * *Official Source:* Comptroller of Maryland – Digital Advertising Gross Revenues Tax: https://www.marylandtaxes.gov/business/dagrt/index.php\n* **Admissions and Amusement Tax:** A gross receipts tax imposed by local jurisdictions (counties and municipalities) and collected by the Comptroller on gross receipts from admissions, use/rental of recreational/sports equipment, and entertainment. Local rates range from 0.5% to 10% (limited to 5% if also subject to sales tax). A state-level tax applies to net proceeds from electronic bingo and electronic tip jars at 30% (33% in Calvert County).\n  * *Official Source:* Comptroller of Maryland – Admissions and Amusement Tax: https://www.marylandtaxes.gov/business/admissions-amusement/index.php\n* **Public Service Company Franchise Tax:** A gross receipts tax imposed on certain operating public service companies (electric, gas, telecommunications) at a rate of 2% under Maryland Tax-General Article Title 8, Subtitle 4.\n  * *Official Source:* Annotated Code of Maryland, Tax-General Title 8, Subtitle 4: https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtx&section=8-402\n* **General Corporate Franchise / Margin Tax:** Maryland does not impose a general corporate franchise, margin, or gross receipts tax across all entities (the former financial institution franchise tax was eliminated and integrated into the corporate income tax).",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Maryland individual income tax rates range from 2.00% to 6.50% across graduated brackets, along with an additional 2% tax on net capital gain income for filers with federal adjusted gross income exceeding $350,000. Local jurisdictions also levy mandatory local income taxes ranging from 2.25% to 3.30%.",
+    "source_url": "https://www.marylandtaxes.gov/individual/income/tax-information/tax-rates.php",
+    "evidence": [
+     "taxable income in excess of",
+     "net capital gain",
+     "special nonresident rate"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.marylandtaxes.gov/individual/income/tax-information/tax-rates.php; figures not on marylandtaxes.gov: ['2', '2.25', '3.3', '350000', '6.5']; figures not on interactive2.marylandtaxes.gov: ['2.25', '3.3', '350000', '6.5']; figures not on mgaleg.maryland.gov: ['2.25', '3.3']; figures not on www.marylandtaxes.gov: ['2', '2.25', '3.3', '350000', '6.5']; figures not on services.marylandcomptroller.gov: ['2', '2.25', '3.3', '350000', '6.5']; figures not on mgaleg.maryland.gov: [",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Maryland imposes corporate income tax at an 8.25% rate on Maryland taxable income. There is no minimum dollar tax imposed on corporations.",
+    "source_url": "https://www.marylandtaxes.gov/business/income/tax-information.php",
+    "evidence": [
+     "8.25% rate",
+     "Maryland taxable income",
+     "Form 500"
+    ],
+    "accepted": false,
+    "reason": "figures not on www.marylandtaxes.gov: ['8.25']; figures not on marylandtaxes.gov: ['8.25']; figures not on interactive2.marylandtaxes.gov: ['8.25']; evidence not on mgaleg.maryland.gov (1/3); figures not on services.marylandcomptroller.gov: ['8.25']; figures not on mgaleg.maryland.gov: ['8.25']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Maryland levies a 6% state general sales and use tax on taxable tangible personal property and digital products. Local jurisdictions do not add local sales taxes.",
+    "source_url": "https://www.marylandtaxes.gov/business/sales-use/index.php",
+    "evidence": [
+     "6% general rate",
+     "digital products",
+     "no local sales taxes"
+    ],
+    "accepted": false,
+    "reason": "figures not on www.marylandtaxes.gov: ['6']; figures not on marylandtaxes.gov: ['6']; evidence not on interactive2.marylandtaxes.gov (0/3); evidence not on mgaleg.maryland.gov (0/3); figures not on services.marylandcomptroller.gov: ['6']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Maryland imposes a Digital Advertising Gross Revenues Tax with rates graduated from 2.5% to 10% on gross revenues derived from digital advertising services for entities with global annual gross revenues of $100,000,000 or more. Other taxes include local admissions and amusement gross receipts taxes of 0.5% to 10% and a 2% public service company franchise tax.",
+    "source_url": "https://www.marylandtaxes.gov/business/dagrt/index.php",
+    "evidence": [
+     "Digital Advertising Gross Revenues",
+     "assessable base",
+     "global annual gross revenues"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.marylandtaxes.gov/business/dagrt/index.php; figures not on marylandtaxes.gov: ['0.5', '10', '100000000', '2', '2.5']; figures not on interactive2.marylandtaxes.gov: ['0.5', '10', '100000000', '2.5']; figures not on mgaleg.maryland.gov: ['0.5', '100000000', '2.5']; figures not on www.marylandtaxes.gov: ['0.5', '10', '100000000', '2', '2.5']; figures not on services.marylandcomptroller.gov: ['0.5', '10', '100000000', '2', '2.5']; figures not on mgaleg.maryland.gov: ['0.5']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://marylandtaxes.gov/new-tax-year-update.php",
+   "https://interactive2.marylandtaxes.gov/EstimatedTaxCalculators",
+   "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-105",
+   "https://www.marylandtaxes.gov/faq/seniors-retirees.php",
+   "https://services.marylandcomptroller.gov/taxes/en/maryland-income-tax-rates-and-brackets?id=kb_article_view&sysparm_article=KB0010014",
+   "https://www.marylandtaxes.gov/individual/income/filing/index.php",
+   "https://www.marylandtaxes.gov/individual/income/tax-info/tax-rates.php",
+   "https://www.marylandtaxes.gov/individual/income/tax-info/tax-rates.php",
+   "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-105",
+   "https://marylandtaxes.gov/new-tax-year-update.php",
+   "https://www.marylandtaxes.gov/business/income/tax-information.php",
+   "https://mgaleg.maryland.gov/2012rs/bills/sb/sb0519f.pdf",
+   "https://www.marylandtaxes.gov/business/sales-use/special-situations/index.php",
+   "https://www.marylandtaxes.gov/business/sales-use/index.php",
+   "https://www.marylandtaxes.gov/business/sales-use/special-situations/bulk-sales-tax.php",
+   "https://www.marylandtaxes.gov/cannabis/",
+   "https://www.marylandtaxes.gov/business/sales-use/special-situations/alcohol-sales-tax.php",
+   "https://www.marylandtaxes.gov/business/sales-use/special-situations/flea-market-sales.php",
+   "https://www.marylandtaxes.gov/business/digital-ad/",
+   "https://mgaleg.maryland.gov/2020RS/bills/hb/hb0732e.pdf",
+   "https://www.marylandtaxes.gov/business/admission-amusement/index.php",
+   "https://www.marylandtaxes.gov/business/boxing-wrestling/index.php",
+   "https://www.marylandtaxes.gov/business/income/filing-information.php"
+  ],
+  "error": ""
+ },
+ {
+  "state": "MD",
+  "section": "filing",
+  "notes": "### 1. Individual Returns: Due Dates and Extension Rules\n* **Calendar-Year Due Date:** April 15 (if April 15 falls on a Saturday, Sunday, or legal holiday, the return is due the next business day). \n  * *Applicability:* Tax years 2025 (due April 15, 2026) and 2026 (due April 15, 2027).\n  * *Official URL:* https://www.marylandtaxes.gov/individual/tax-filing/filing-information.php\n* **Extension Rules:**\n  * Maryland provides an automatic six-month extension (to October 15).\n  * If no additional tax is owed and an IRS federal extension was requested, the taxpayer receives an automatic six-month state extension without filing a Maryland extension form.\n  * If no additional tax is owed and no federal extension was requested, the extension must be submitted online.\n  * If additional Maryland tax is owed, the taxpayer must remit payment with **Form PV** (*Payment Voucher*) by April 15 (Form PV replaces the old extension Form 502E).\n  * An extension grants extra time to file, not extra time to pay.\n  * *Applicability:* Tax years 2025 and 2026.\n  * *Official URL:* https://www.marylandtaxes.gov/individual/tax-compliance/extensions.php\n\n---\n\n### 2. Corporate and Pass-Through Returns: Due Dates and Extensions\n* **Corporate Return Due Date (Form 500):** Due by the 15th day of the 4th month following the close of the tax year (April 15 for calendar-year filers), or by the original due date required for filing the federal corporate return.\n  * *Corporate Extensions (Form 500E):* An extension of up to **7 months** beyond the original due date can be granted. Automatic extension is granted provided Form 500E is submitted by the original due date and full payment of balance due is enclosed. Zero-balance extensions may be requested online.\n  * *Applicability:* Tax years 2025 and 2026.\n  * *Official URL:* https://www.marylandtaxes.gov/business/tax-filing/filing-information.php\n* **Pass-Through Entity Due Date (Form 510 / Form 511):** Due by the original due date required for filing the federal return, or by the 15th day of the 4th month following the close of the tax year.\n  * *PTE Extensions (Form 510/511E):*\n    * **S corporations:** Extension of up to **7 months**.\n    * **Partnerships, LLCs, and business trusts:** Extension of up to **6 months**.\n    * In no case may an extension exceed 7 months beyond the original due date.\n  * *Applicability:* Tax years 2025 and 2026.\n  * *Official URL:* https://www.marylandtaxes.gov/business/tax-filing/filing-information.php\n\n---\n\n### 3. Elective Pass-Through Entity Tax (PTET)\n* **Existence:** Yes, authorized under Md. Code Ann., Tax-Gen. § 10-102.1(b)(2).\n* **Tax Rates:**\n  * **Individual Members (Resident and Nonresident):** Imposed at a rate equal to the lowest county tax rate plus the top marginal State tax rate for individuals (Md. Code Ann., Tax-Gen. § 10-102.1(d)(1)(i), (d)(2)(i); published as **8.75%** for tax year 2025).\n  * **Entity Members (Resident and Nonresident):** Imposed at the corporate tax rate of **8.25%** (Md. Code Ann., Tax-Gen. § 10-102.1(d)(1)(ii), (d)(2)(ii)).\n  * *Applicability:* Tax years 2025 and 2026.\n  * *Official URL:* https://www.marylandtaxes.gov/forms/bulletins/TB-58-Capital-Gains.pdf\n* **How and When to Elect:**\n  * The election is irrevocable for the tax year in which it is made.\n  * The election must be made with the **first filing or payment** for the tax year:\n    1. If making estimated payments: on the first **Form 510/511D** submitted with a payment (by checking Box A).\n    2. If not required to make estimated payments, but filing for an extension: on **Form 510/511E**.\n    3. If neither estimated payments nor an extension were filed: on the annual return by filing **Form 511** (instead of Form 510).\n  * *Applicability:* Tax years 2025 and 2026.\n  * *Official URL:* https://www.marylandtaxes.gov/business/tax-filing/pte-faq.php\n\n---\n\n### 4. Composite or Group Nonresident Returns\n* **Availability & Return Form:** Pass-through entities may elect to file a composite return on **Form 510C** (*Maryland Composite Pass-Through Entity Income Tax Return*).\n* **Eligible Members:** Eligible nonresident individual members only. Nonresident members other than individuals (e.g., corporations or lower-tier entities) are not permitted to participate.\n* **Requirement:** Participating members must agree that the pass-through entity acts as their agent for the receipt of any refund or payment of any tax due.\n* *Applicability:* Tax years 2025 and 2026.\n* *Official URL:* https://www.marylandtaxes.gov/business/tax-guidance/business-income-tax.php and https://www.marylandtaxes.gov/forms/25_forms/2025_Business_Income_Tax_Forms.php\n\n---\n\n### 5. Estimated Tax Payments and Nonresident Withholding for Pass-Throughs\n* **Nonresident Withholding (Non-Electing PTEs - Form 510):**\n  * Under Md. Code Ann., Tax-Gen. § 10-102.1(b)(1), an entity that does not elect the PTET must pay tax on behalf of nonresident members on their distributive/pro-rata share of Maryland taxable income.\n  * **Nonresident individual members:** 7.5% (historic rate under withholding tables) / up to 8.75% (statutory sum of top individual marginal rate and lowest county rate under § 10-102.1(d)(1)(i)).\n  * **Nonresident entity members:** Corporate rate of **8.25%**.\n  * *Applicability:* Tax years 2025 and 2026.\n  * *Official URL:* https://www.marylandtaxes.gov/business/tax-guidance/employer-withholding.php\n* **Estimated Tax Requirements:**\n  * Remitted using **Form 510/511D** (*Declaration of Estimated Pass-Through Entity Tax*) or electronically via the PTE portal on Maryland Tax Connect.\n  * **Due Dates:** Calendar-year quarterly installments are due on the 15th day of the 4th, 6th, 9th, and 12th months (April 15, June 15, September 15, and December 15).\n  * **Safe Harbor / Underpayment Calculation:** Corporations and pass-through entities calculate interest/penalties using **Form 500UP**. Total estimated tax payments must equal at least **90%** of the current tax year's liability or **110%** of the prior year's tax liability, paid in equal installments of at least 25% per quarter.\n  * *Applicability:* Tax years 2025 and 2026.\n  * *Official URL:* https://www.marylandtaxes.gov/individual/tax-compliance/payment-methods.php and https://www.marylandtaxes.gov/forms/25_forms/2025_Business_Income_Tax_Forms.php\n\n---\n\n### 6. Main Tax Return Forms\n* **Individual Return Forms:**\n  * **Form 502:** Resident Income Tax Return\n  * **Form 505:** Nonresident Income Tax Return\n  * **Form 515:** Nonresident Living in Certain Jurisdictions/Employed in Maryland Return\n  * **Form 502B:** Dependents Information\n  * **Form 502CR:** Business and Personal Tax Credits\n  * **Form PV:** Payment Voucher (remitting extension payments, balance due payments, and estimated tax payments)\n  * *Applicability:* Tax years 2025 and 2026.\n  * *Official URL:* https://www.marylandtaxes.gov/forms/25_forms/2025_Individual_Tax_Forms.php\n* **Corporate Return Forms:**\n  * **Form 500:** Corporation Income Tax Return\n  * **Form 500CR:** Business Tax Credit Form\n  * **Form 500D:** Declaration of Estimated Corporation Income Tax\n  * **Form 500E:** Application for Extension of Time to File Corporation Income Tax Return\n  * **Form 500UP:** Underpayment of Estimated Income Tax by Corporations and Pass-Through Entities\n  * *Applicability:* Tax years 2025 and 2026.\n  * *Official URL:* https://www.marylandtaxes.gov/forms/25_forms/2025_Business_Income_Tax_Forms.php\n* **Pass-Through Entity Return Forms:**\n  * **Form 510:** Pass-Through Entity Income Tax Return (standard return with mandatory nonresident member withholding)\n  * **Form 511:** Maryland Pass-Through Entity Election Income Tax Return (elective PTET)\n  * **Form 510C:** Maryland Composite Pass-Through Entity Income Tax Return\n  * **Form 510/511 Schedule K-1:** Maryland Pass-Through Entity Member’s Information\n  * **Form 510/511D:** Declaration of Estimated Pass-Through Entity Tax\n  * **Form 510/511E:** Application for Extension to File Pass-Through Entity Income Tax Return\n  * *Applicability:* Tax years 2025 and 2026.\n  * *Official URL:* https://www.marylandtaxes.gov/forms/25_forms/2025_Business_Income_Tax_Forms.php",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Individual returns are due April 15, with an automatic six-month extension to October 15 available. If tax is owed, payment must be remitted by April 15 using Form PV, as an extension gives extra time to file but not to pay.",
+    "source_url": "https://www.marylandtaxes.gov/individual/tax-compliance/extensions.php",
+    "evidence": [
+     "automatic six-month extension",
+     "Form PV",
+     "extra time to file"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.marylandtaxes.gov/individual/tax-compliance/extensions.php; figures not on www.marylandtaxes.gov: ['15']; figures not on marylandtaxes.gov: ['15']; dates not on interactive.marylandtaxes.gov: ['October 15']; figures not on services.marylandcomptroller.gov: ['15']; figures not on www.marylandcomptroller.gov: ['15']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Corporate returns are due April 15 and may receive an extension of up to 7 months using Form 500E. Pass-through entity returns are due by the federal due date or the 15th day of the 4th month, with extensions of up to 7 months for S corporations and 6 months for partnerships and LLCs using Form 510/511E.",
+    "source_url": "https://www.marylandtaxes.gov/business/tax-filing/filing-information.php",
+    "evidence": [
+     "15th day of the 4th month",
+     "up to 7 months",
+     "Form 500E",
+     "Form 510/511E"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.marylandtaxes.gov/business/tax-filing/filing-information.php; figures not on www.marylandtaxes.gov: ['15', '4', '500', '510', '511', '6']; figures not on marylandtaxes.gov: ['15', '4', '500', '510', '511', '6']; evidence not on interactive.marylandtaxes.gov (1/4); figures not on services.marylandcomptroller.gov: ['15', '4', '500', '510', '511', '6']; figures not on www.marylandcomptroller.gov: ['15', '500']; figures not on www.marylandtaxes.gov: ['15', '500']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Maryland offers an elective pass-through entity tax at 8.75% for individual members and 8.25% for entity members. The election is irrevocable and must be made with the first filing or payment of the year on Form 510/511D, Form 510/511E, or Form 511.",
+    "source_url": "https://www.marylandtaxes.gov/business/tax-filing/pte-faq.php",
+    "evidence": [
+     "first filing or payment",
+     "Form 510/511D",
+     "Form 511"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.marylandtaxes.gov/business/tax-filing/pte-faq.php; figures not on www.marylandtaxes.gov: ['510', '511', '8.25', '8.75']; figures not on marylandtaxes.gov: ['510', '511', '8.25', '8.75']; figures not on interactive.marylandtaxes.gov: ['8.25', '8.75']; figures not on services.marylandcomptroller.gov: ['510', '511', '8.25', '8.75']; evidence not on www.marylandcomptroller.gov (0/3); evidence not on www.marylandtaxes.gov (0/3)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "composite",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Pass-through entities may elect to file a composite return on Form 510C for eligible nonresident individual members only. Participating members must agree that the pass-through entity acts as their agent for the receipt of refunds or payment of taxes.",
+    "source_url": "https://www.marylandtaxes.gov/business/tax-guidance/business-income-tax.php",
+    "evidence": [
+     "Form 510C",
+     "nonresident individual members",
+     "acts as their agent"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.marylandtaxes.gov/business/tax-guidance/business-income-tax.php; figures not on www.marylandtaxes.gov: ['510']; figures not on marylandtaxes.gov: ['510']; evidence not on interactive.marylandtaxes.gov (1/3); figures not on services.marylandcomptroller.gov: ['510']; evidence not on www.marylandcomptroller.gov (0/3); evidence not on www.marylandtaxes.gov (0/3)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Pass-through entities pay estimated taxes quarterly on April 15, June 15, September 15, and December 15 using Form 510/511D, meeting a safe harbor of 90% of the current year or 110% of the prior year tax. Non-electing entities must remit nonresident withholding at 7.5% up to 8.75% for individuals and 8.25% for entities.",
+    "source_url": "https://www.marylandtaxes.gov/forms/25_forms/2025_Business_Income_Tax_Forms.php",
+    "evidence": [
+     "Form 510/511D",
+     "Form 500UP",
+     "prior year"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.marylandtaxes.gov/forms/25_forms/2025_Business_Income_Tax_Forms.php; figures not on www.marylandtaxes.gov: ['110', '15', '510', '511', '7.5', '8.25']; figures not on marylandtaxes.gov: ['110', '15', '510', '511', '7.5', '8.25']; figures not on interactive.marylandtaxes.gov: ['7.5', '8.25', '8.75']; figures not on services.marylandcomptroller.gov: ['110', '15', '510', '511', '7.5', '8.25']; figures not on www.marylandcomptroller.gov: ['110', '15', '7.5', '90']; figures not",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Main business forms include Form 500 for corporations, Form 510 for standard pass-through entities, and Form 511 for electing pass-through entities. Additional key forms include composite return Form 510C, estimated tax forms Form 500D and Form 510/511D, and extension forms Form 500E and Form 510/511E.",
+    "source_url": "https://www.marylandtaxes.gov/forms/25_forms/2025_Business_Income_Tax_Forms.php",
+    "evidence": [
+     "Form 500",
+     "Form 510",
+     "Form 511",
+     "Form 510C"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://interactive.marylandtaxes.gov/Individuals/iFile_ChooseForm/PriorYearForms/Resident_Booklet_2022.pdf",
+    "matched_title": "2022 Resident Booklet",
+    "matched_phrases": [
+     "Form 510",
+     "Form 510C"
+    ],
+    "snippet": "See Form 502CR Instructions and attach Maryland Schedule K-1 (Form 510/511) issued to you."
+   }
+  ],
+  "grounding_urls": [
+   "https://www.marylandtaxes.gov/individual/income/filing/index.php",
+   "https://marylandtaxes.gov/new-tax-year-update.php",
+   "https://www.marylandtaxes.gov/individual/income/filing/extensions.php",
+   "https://interactive.marylandtaxes.gov/Individuals/iFile_ChooseForm/PriorYearForms/Resident_Booklet_2022.pdf",
+   "https://www.marylandtaxes.gov/individual/income/income-forms-index.php",
+   "https://www.marylandtaxes.gov/business/income/filing-information.php",
+   "https://www.marylandtaxes.gov/business/income/filing-information.php",
+   "https://services.marylandcomptroller.gov/taxes?id=kb_article_view&sysparm_article=KB0010020",
+   "https://marylandtaxes.gov/business/income/2025-income-tax-forms.php",
+   "https://www.marylandtaxes.gov/faq/pte.php",
+   "https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/legal-publications/technical-bulletins/tb-58.pdf",
+   "https://services.marylandcomptroller.gov/taxes/en/business-income-tax?id=kb_article_view&sysparm_article=KB0010060",
+   "https://marylandtaxes.gov/business/income/2025-income-tax-forms.php",
+   "https://marylandtaxes.gov/business/income/2025-income-tax-forms.php",
+   "https://www.marylandtaxes.gov/content/dam/mdcomp/tax/legal-publications/technical-bulletins/tb-58.pdf",
+   "https://services.marylandcomptroller.gov/taxes/en/employer-withholding?id=kb_article_view&sysparm_article=KB0010017",
+   "https://marylandtaxes.gov/divisions/cd/business/business-payment-plan.php",
+   "https://marylandtaxes.gov/divisions/cd/business/business-payment-plan.php",
+   "https://www.marylandtaxes.gov/business/income/2024-income-tax-forms.php"
+  ],
+  "error": ""
+ }
+]

@@ -1,0 +1,474 @@
+[
+ {
+  "state": "MO",
+  "section": "apportionment",
+  "notes": "### 1. Apportionment Formula\n* **Fact:** For multistate corporations, apportionable income is apportioned using a **single sales factor** (referred to as the receipts factor). The apportionment fraction consists of total receipts in Missouri during the tax period divided by total receipts everywhere during the tax period (§ 143.455.10 RSMo). On corporate tax forms, this is designated as **Method Two A – Receipts Factor Apportionment** (§ 143.455.2 RSMo).\n* **Applicable Tax Years:** Applies to both tax year 2025 and tax year 2026 (effective for all tax years beginning on or after January 1, 2020; no changes enacted between 2025 and 2026).\n* **Official Sources:**\n  * Missouri Revised Statutes § 143.455: https://revisor.mo.gov/main/OneSection.aspx?section=143.455\n  * Missouri Department of Revenue Form MO-MS Instructions: https://dor.mo.gov/forms/MO-MS_2022.pdf\n\n---\n\n### 2. Sourcing of Receipts from Services and Intangibles\n* **Fact:** Missouri uses **market-based sourcing** (§ 143.455.12 RSMo):\n  * **Services:** Receipts from the sale of a service are in Missouri \"if and to the extent the ultimate beneficiary of the service is located in this state\" and are not in Missouri if the ultimate beneficiary is located outside Missouri (§ 143.455.12(1)(c) RSMo).\n  * **Intangibles:** \n    * *Rental, Lease, or Licensing:* Sourced to Missouri if and to the extent the intangible property is used in the state (§ 143.455.12(1)(d)a RSMo). Intangibles utilized in marketing a good or service are used in Missouri if purchased by a Missouri consumer. Franchise fees and royalties from trademarks/trade names/franchise systems are used in Missouri to the extent the franchise is located in Missouri.\n    * *Sale of Intangibles:* Sourced to Missouri if and to the extent the property is used in Missouri (e.g., contract rights or licenses granting authority to conduct business in a territory including Missouri; sales contingent on productivity are treated as licensing receipts) (§ 143.455.12(1)(d)b RSMo). All other receipts from the sale of intangible property are excluded from both the numerator and denominator (§ 143.455.12(1)(d)b(iii) RSMo).\n    * *Approximation:* If the state of assignment cannot be determined, it must be reasonably approximated (§ 143.455.12(2) RSMo).\n* **Applicable Tax Years:** Applies to both tax year 2025 and tax year 2026 without change.\n* **Official Source:**\n  * Missouri Revised Statutes § 143.455: https://revisor.mo.gov/main/OneSection.aspx?section=143.455\n\n---\n\n### 3. Special Industry Apportionment Formulas\n* **Fact:** Missouri statutes and Department of Revenue rules provide specific statutory apportionment methods for the following industries:\n  * **Transportation (Method Three):** Based on passenger mileage or gross earnings within Missouri and interstate business done in Missouri (§ 143.455.14 RSMo).\n  * **Railroad (Method Four):** Based on the proportion of miles used over rails and lines within Missouri relative to total rail/line mileage, plus leased facility rental value allocations (§ 143.455.15 RSMo).\n  * **Interstate Bridge (Method Five):** One-half of the net income from the operation of a bridge between Missouri and another state is included in Missouri taxable income (§ 143.455.16 RSMo).\n  * **Telephone and Telegraph (Method Six):** Apportioned based on investment in Missouri telephonic/telegraphic facilities and real property improvements divided by total investment everywhere (§ 143.455.17 RSMo).\n  * **Alternative Industry-Specific / Approved Methods (Method Seven):** Permitted with prior approval from the Missouri Director of Revenue or pursuant to a Missouri regulation establishing an alternative industry method (§ 143.455.13(1) RSMo).\n  * **Financial Institutions:** Separate apportionment under Chapter 148 RSMo using property, payroll, and deposits factors.\n* **Applicable Tax Years:** Applies to both tax year 2025 and tax year 2026 without change.\n* **Official Sources:**\n  * Missouri Revised Statutes § 143.455: https://revisor.mo.gov/main/OneSection.aspx?section=143.455\n  * Missouri Department of Revenue Form MO-MS Instructions: https://dor.mo.gov/forms/MO-MS_2022.pdf\n\n---\n\n### 4. Form or Schedule Used to Compute Apportionment\n* **Fact:**\n  * **Form MO-MS** (*Corporation Allocation and Apportionment of Income Schedule*): Used by C corporations and attached to **Form MO-1120** (*Corporation Income Tax Return*).\n  * **Form MO-MSS** (*S Corporation Allocation and Apportionment Schedule*): Used by S corporations and attached to **Form MO-1120S**.\n  * **Form MO-MS PTE** (*Pass-Through Entity Allocation and Apportionment of Income Schedule*): Used by electing pass-through entities and attached to **Form MO-PTE**.\n  * **Form 4347** (*Apportionment Schedule - Bank Franchise Tax*): Used by banking institutions and attached to **Form INT-2**.\n* **Applicable Tax Years:** Applies to both tax year 2025 and tax year 2026.\n* **Official Sources:**\n  * Missouri Department of Revenue Form MO-MS: https://dor.mo.gov/forms/MO-MS_2022.pdf\n  * Missouri Department of Revenue Forms Search: https://dor.mo.gov/forms/",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Multistate corporations apportion income using a single sales factor, referred to as the receipts factor or Method Two A. The fraction consists of total receipts in Missouri divided by total receipts everywhere.",
+    "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=143.455",
+    "evidence": [
+     "Receipts Factor Apportionment",
+     "total receipts in Missouri",
+     "total receipts everywhere"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://revisor.mo.gov/main/OneSection.aspx?section=143.455; unreadable: https://dor.mo.gov/forms/MO-MS_2024.pdf; unreadable: https://dor.mo.gov/faq/taxation/business/corporation-income.html; unreadable: https://dor.mo.gov/forms/INT-2_2025.pdf; unreadable: https://dor.mo.gov/forms/MO-MSS_2024.pdf; unreadable: https://dor.mo.gov/forms/MO-MS%20PTE_2023.pdf; unreadable: https://dor.mo.gov/forms/?formName=mo-ms&category=&year=99",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Missouri utilizes market-based sourcing for services and intangibles. Receipts from services are sourced to Missouri to the extent the ultimate beneficiary is located in the state, while receipts from intangibles are sourced based on the extent the property is used in the state.",
+    "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=143.455",
+    "evidence": [
+     "ultimate beneficiary of the service",
+     "intangible property is used",
+     "reasonably approximated"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://revisor.mo.gov/main/OneSection.aspx?section=143.455; unreadable: https://dor.mo.gov/forms/MO-MS_2024.pdf; unreadable: https://dor.mo.gov/faq/taxation/business/corporation-income.html; unreadable: https://dor.mo.gov/forms/INT-2_2025.pdf; unreadable: https://dor.mo.gov/forms/MO-MSS_2024.pdf; unreadable: https://dor.mo.gov/forms/MO-MS%20PTE_2023.pdf; unreadable: https://dor.mo.gov/forms/?formName=mo-ms&category=&year=99",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Statutory alternative apportionment formulas apply to transportation, railroad, interstate bridge, telephone and telegraph, and financial institutions. Other alternative methods may be used with prior approval or under Department regulation.",
+    "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=143.455",
+    "evidence": [
+     "passenger mileage",
+     "interstate bridge",
+     "Telephone and Telegraph"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://revisor.mo.gov/main/OneSection.aspx?section=143.455; unreadable: https://dor.mo.gov/forms/MO-MS_2024.pdf; unreadable: https://dor.mo.gov/faq/taxation/business/corporation-income.html; unreadable: https://dor.mo.gov/forms/INT-2_2025.pdf; unreadable: https://dor.mo.gov/forms/MO-MSS_2024.pdf; unreadable: https://dor.mo.gov/forms/MO-MS%20PTE_2023.pdf; unreadable: https://dor.mo.gov/forms/?formName=mo-ms&category=&year=99",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "C corporations compute apportionment on Form MO-MS attached to Form MO-1120. S corporations file Form MO-MSS with Form MO-1120S, and pass-through entities use Form MO-MS PTE.",
+    "source_url": "https://dor.mo.gov/forms/MO-MS_2022.pdf",
+    "evidence": [
+     "Form MO-MS",
+     "Allocation and Apportionment of Income",
+     "Form MO-1120"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://dor.mo.gov/forms/MO-MS_2022.pdf; unreadable: https://revisor.mo.gov/main/OneSection.aspx?section=143.455; unreadable: https://dor.mo.gov/forms/MO-MS_2024.pdf; unreadable: https://dor.mo.gov/faq/taxation/business/corporation-income.html; unreadable: https://dor.mo.gov/forms/INT-2_2025.pdf; unreadable: https://dor.mo.gov/forms/MO-MSS_2024.pdf; unreadable: https://dor.mo.gov/forms/MO-MS%20PTE_2023.pdf; unreadable: https://dor.mo.gov/forms/?formName=mo-ms&category=&year=99",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://revisor.mo.gov/main/OneSection.aspx?section=143.455",
+   "https://dor.mo.gov/forms/MO-MS_2024.pdf",
+   "https://revisor.mo.gov/main/OneSection.aspx?section=143.455",
+   "https://revisor.mo.gov/main/OneSection.aspx?section=143.455",
+   "https://revisor.mo.gov/main/OneSection.aspx?section=143.455",
+   "https://revisor.mo.gov/main/OneSection.aspx?section=143.455",
+   "https://dor.mo.gov/faq/taxation/business/corporation-income.html",
+   "https://revisor.mo.gov/main/OneSection.aspx?section=143.455",
+   "https://dor.mo.gov/forms/INT-2_2025.pdf",
+   "https://dor.mo.gov/forms/MO-MSS_2024.pdf",
+   "https://dor.mo.gov/forms/MO-MS%20PTE_2023.pdf",
+   "https://dor.mo.gov/forms/?formName=mo-ms&category=&year=99"
+  ],
+  "error": ""
+ },
+ {
+  "state": "MO",
+  "section": "nexus",
+  "notes": "### 1. Corporate Income and Franchise Tax Nexus\n\n* **Corporate Franchise Tax:** The general corporation franchise tax was repealed and does not apply to taxable years beginning on or after January 1, 2016 (only banks and financial institutions remain subject to a franchise tax under Chapter 148, RSMo).  \n  * **Applicability:** Applies to both tax years 2025 and 2026 (no general franchise tax).  \n  * **Official URL:** https://revisor.mo.gov/main/OneSection.aspx?section=147.020\n* **Corporate Income Tax Nexus Standard:** Income tax is imposed on corporations licensed to do business or doing business in Missouri and deriving income from Missouri sources (§ 143.071, RSMo; § 143.441, RSMo). The Missouri Department of Revenue uses Form 4458 (*Business Activity Questionnaire*) to evaluate whether an out-of-state entity’s physical contacts, property, personnel, or representative activities create tax nexus.  \n  * **Applicability:** Applies to both tax years 2025 and 2026 (unchanged).  \n  * **Official URLs:**  \n    * https://revisor.mo.gov/main/OneSection.aspx?section=143.071  \n    * https://dor.mo.gov/forms/4458.pdf\n* **Economic Nexus / Bright-Line Factor Presence for Corporate Income Tax:** **Not found.** Missouri statutes and Department of Revenue regulations do not establish a bright-line dollar or transaction-count economic nexus threshold for corporate income tax.\n\n---\n\n### 2. Remote Seller Economic Nexus Threshold and Measurement Period\n\n* **Sales Threshold Amount:** Exceeding **$100,000** in gross receipts from taxable sales from delivery of tangible personal property into Missouri (§ 144.605(2)(e), RSMo).  \n* **Transaction Count Threshold:** **None.** Missouri law contains no transaction-count threshold.  \n* **Measurement Period & Effective Date of Collection:**  \n  * Evaluated following the close of each calendar quarter over the **12-month period** ending on the last day of the preceding calendar quarter (or the previous calendar year or current calendar year).  \n  * If the threshold is exceeded, the vendor must register and begin collecting vendor's use tax **no later than three months following the close of the calendar quarter** and must continue collecting for a period of **not less than 12 months** (§ 144.605(2)(e), RSMo; DOR Remote Seller FAQs).  \n* **Applicability:** Effective January 1, 2023; applies unchanged to tax years 2025 and 2026.  \n* **Official URLs:**  \n  * https://revisor.mo.gov/main/OneSection.aspx?section=144.605  \n  * https://dor.mo.gov/faq/taxation/business/remote-seller-and-marketplace-facilitator.html\n\n---\n\n### 3. State’s Stated Position on P.L. 86-272 Protection\n\n* **Recognition of P.L. 86-272:** Missouri explicitly recognizes the protections of Public Law 86-272 (15 U.S.C. §§ 381–385). Department instructions (Form MO-1120, Form MO-PTE, and Schedule MO-MS) state that Missouri lacks jurisdiction to impose net income tax where prohibited by P.L. 86-272.  \n* **Filing Position and Verification:** Corporations claiming exemption must check the designated \"Public Law 86-272\" box on Form MO-1120 and are instructed to complete and attach Form 4458 (*Business Activity Questionnaire*) so the Department can determine whether the P.L. 86-272 immunity is valid (specifically examining whether in-state representative activities are restricted solely to the solicitation of orders for sales of tangible personal property).  \n* **Adoption of MTC Revised Statement on Internet Activities:** **Not found.** The Missouri Department of Revenue has not published administrative guidance or rules adopting the Multistate Tax Commission’s (MTC) revised interpretation regarding internet and digital business activities.  \n* **Applicability:** Applies to both tax years 2025 and 2026 (unchanged).  \n* **Official URLs:**  \n  * https://dor.mo.gov/forms/MO-1120_Instructions_2025.pdf  \n  * https://dor.mo.gov/forms/4458.pdf  \n  * https://dor.mo.gov/forms/MO-MS_Instructions_2022.pdf",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Corporate income tax is imposed on corporations licensed to do business or doing business in Missouri and deriving income from Missouri sources. The state evaluates an out-of-state entity's physical contacts, property, personnel, or representative activities using Form 4458.",
+    "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=143.071",
+    "evidence": [
+     "licensed to do business",
+     "doing business in Missouri",
+     "income from Missouri sources"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://revisor.mo.gov/main/OneSection.aspx?section=143.071; unreadable: https://dor.mo.gov/forms/INT-2_2025.pdf; not an official MO host: vertexaisearch.cloud.google.com; unreadable: https://revisor.mo.gov/main/OneChapterRng.aspx?tb1=143.011%20to%20143.961; unreadable: https://dor.mo.gov/forms/MO-MS_Instructions_2012.pdf; unreadable: https://dor.mo.gov/forms/4458.pdf; unreadable: https://dor.mo.gov/faq/taxation/business/remote-seller-and-marketplace-facilitator.html; unreadable: htt",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Remote seller economic nexus is established when gross receipts from taxable sales from delivery of tangible personal property into Missouri exceed $100,000, with no transaction count threshold. The threshold is evaluated over the 12-month period ending on the last day of the preceding calendar quarter, and vendors exceeding it must begin collection no later than three months following the quarter's close for not less than 12 months.",
+    "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=144.605",
+    "evidence": [
+     "$100,000",
+     "gross receipts",
+     "tangible personal property",
+     "not less than 12 months"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://revisor.mo.gov/main/OneSection.aspx?section=144.605; unreadable: https://dor.mo.gov/forms/INT-2_2025.pdf; not an official MO host: vertexaisearch.cloud.google.com; unreadable: https://revisor.mo.gov/main/OneChapterRng.aspx?tb1=143.011%20to%20143.961; unreadable: https://dor.mo.gov/forms/MO-MS_Instructions_2012.pdf; unreadable: https://dor.mo.gov/forms/4458.pdf; unreadable: https://dor.mo.gov/faq/taxation/business/remote-seller-and-marketplace-facilitator.html; unreadable: htt",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Missouri recognizes Public Law 86-272 protections against net income tax when in-state activities are restricted solely to the solicitation of orders for sales of tangible personal property. Taxpayers claiming exemption must check the Public Law 86-272 box on Form MO-1120 and attach Form 4458 to substantiate their claim.",
+    "source_url": "https://dor.mo.gov/forms/4458.pdf",
+    "evidence": [
+     "Public Law 86-272",
+     "Business Activity Questionnaire",
+     "solicitation of orders",
+     "tangible personal property"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://dor.mo.gov/forms/4458.pdf; unreadable: https://dor.mo.gov/forms/INT-2_2025.pdf; not an official MO host: vertexaisearch.cloud.google.com; unreadable: https://revisor.mo.gov/main/OneChapterRng.aspx?tb1=143.011%20to%20143.961; unreadable: https://dor.mo.gov/forms/MO-MS_Instructions_2012.pdf; unreadable: https://dor.mo.gov/faq/taxation/business/remote-seller-and-marketplace-facilitator.html; unreadable: https://revisor.mo.gov/main/PageSelect.aspx?section=144.605&bid=49987; unrea",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://dor.mo.gov/forms/INT-2_2025.pdf",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-M5fjyrNScqaic8sQknqqSODGbmiJ08hZSmkXnvU0nvDGi72KvllzP4zMxn_rjXWYkKsFb-T4kJiZqotz9j5_z0Z5Z73GwvyJRYHkznh-sh_xV_rDi41P21ZCOGJAgm9FbVP0CGjhUQgf5at-jNKVsn_zw6Ny40LqCA==",
+   "https://revisor.mo.gov/main/OneChapterRng.aspx?tb1=143.011%20to%20143.961",
+   "https://dor.mo.gov/forms/MO-MS_Instructions_2012.pdf",
+   "https://dor.mo.gov/forms/4458.pdf",
+   "https://dor.mo.gov/forms/4458.pdf",
+   "https://dor.mo.gov/faq/taxation/business/remote-seller-and-marketplace-facilitator.html",
+   "https://revisor.mo.gov/main/PageSelect.aspx?section=144.605&bid=49987",
+   "https://dor.mo.gov/taxation/individual/tax-types/income/year-changes/documents/2022TaxLegislativeChanges.pdf",
+   "https://dor.mo.gov/forms/2643.pdf",
+   "https://dor.mo.gov/forms/MO-MS_2024.pdf",
+   "https://dor.mo.gov/forms/MO-PTE%20Instructions_2023.pdf",
+   "https://dor.mo.gov/forms/MO-1120%20Instructions_2025.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "MO",
+  "section": "rates",
+  "notes": "### 1. Individual Income Tax Rates and Brackets\n\n* **Tax Year 2025:**\n  Missouri taxes individual income using a graduated bracket schedule with an initial exempt bracket and seven tax brackets up to a top rate of 4.70%:\n  * $0 to $1,313: $0 (0%)\n  * Over $1,313 but not over $2,626: 2.00% of excess over $1,313\n  * Over $2,626 but not over $3,939: $26 plus 2.50% of excess over $2,626\n  * Over $3,939 but not over $5,252: $59 plus 3.00% of excess over $3,939\n  * Over $5,252 but not over $6,565: $98 plus 3.50% of excess over $5,252\n  * Over $6,565 but not over $7,878: $144 plus 4.00% of excess over $6,565\n  * Over $7,878 but not over $9,191: $197 plus 4.50% of excess over $7,878\n  * Over $9,191: $256 plus 4.70% of excess over $9,191\n  * *Official Source:* [Missouri Department of Revenue - 2025 Individual Income Tax Year Changes](https://dor.mo.gov/taxation/individual/tax-types/individual-income/year-changes/2025.html) and [Missouri 2025 Tax Chart](https://dor.mo.gov/forms/Tax%20Chart_2025.pdf)\n\n* **Tax Year 2026:**\n  The top rate remains 4.7%, but brackets are adjusted for inflation (published on Form MO-1040ES):\n  * $0 to $1,348: $0 (0%)\n  * Over $1,348 but not over $2,696: 2.0% of excess over $1,348\n  * Over $2,696 but not over $4,044: $27 plus 2.5% of excess over $2,696\n  * Over $4,044 but not over $5,392: $61 plus 3.0% of excess over $4,044\n  * Over $5,392 but not over $6,740: $101 plus 3.5% of excess over $5,392\n  * Over $6,740 but not over $8,088: $148 plus 4.0% of excess over $6,740\n  * Over $8,088 but not over $9,436: $202 plus 4.5% of excess over $8,088\n  * Over $9,436: $263 plus 4.7% of excess over $9,436\n  * *Official Source:* [Missouri Department of Revenue - 2026 Form MO-1040ES](https://dor.mo.gov/forms/MO-1040ES_2026.pdf)\n\n---\n\n### 2. Corporate Income Tax, Franchise Tax, and Minimum Tax\n\n* **Corporate Income Tax Rate:**\n  * **2025 & 2026:** 4.0 percent of Missouri taxable income.\n  * *Official Source:* [Missouri Department of Revenue - Corporation Income Tax](https://dor.mo.gov/taxation/business/tax-types/corporation-income/) and [Revised Statutes of Missouri (RSMo) § 143.071](https://revisor.mo.gov/main/OneSection.aspx?section=143.071)\n* **Corporate Minimum Tax:**\n  * **2025 & 2026:** None (not found / no corporate minimum income tax is enacted under Chapter 143, RSMo).\n* **Corporation Franchise Tax:**\n  * **2025 & 2026:** Eliminated / 0%. No franchise tax is imposed for tax years beginning on or after January 1, 2016.\n  * *Official Source:* [Revised Statutes of Missouri (RSMo) § 147.010](https://revisor.mo.gov/main/OneSection.aspx?section=147.010) and [Missouri Department of Revenue - Financial and Statistical Report](https://dor.mo.gov/public-reports/documents/annual_report_16.pdf)\n\n---\n\n### 3. State Sales and Use Tax Rate and Local Additions\n\n* **State Sales and Use Tax Rate:**\n  * **2025 & 2026:** 4.225 percent.\n  * Breakdown: General Revenue (3.0 percent), Education (1.0 percent), Conservation (0.125 percent), and Parks/Soils (0.10 percent).\n* **Local Additions:**\n  * Yes; Missouri permits cities, counties, and special taxing districts (such as ambulance districts, fire protection districts, community improvement districts, and transportation development districts) to impose local sales and use taxes on top of the 4.225 percent state rate.\n  * *Official Source:* [Missouri Department of Revenue - Sales/Use Tax](https://dor.mo.gov/taxation/business/tax-types/sales-use/)\n\n---\n\n### 4. Gross Receipts, Franchise, Margin, or Other Notable Business Taxes\n\n* **General Statewide Gross Receipts / Margin Tax:**\n  * **2025 & 2026:** None (not found; Missouri does not levy a general statewide gross receipts or margin tax on standard commercial businesses).\n* **Corporate Franchise Tax:**\n  * **2025 & 2026:** Repealed/Phased out; rate is 0%.\n* **Financial Institution Tax (FIT):**\n  * **2025 & 2026:** Imposed on banks and other financial institutions at a rate of 4.48% on net income (remitted to the state and distributed back to local political subdivisions less a 2% collection fee; bank tax statutorily authorized under Chapter 148, RSMo).\n  * *Official Source:* [Missouri Department of Revenue - Form 4890 Local Government Tax Guide](https://dor.mo.gov/forms/4890.pdf) and [Revised Statutes of Missouri (RSMo) § 148.030](https://revisor.mo.gov/main/OneSection.aspx?section=148.030)",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025
+    ],
+    "value": "Missouri taxes individual income across graduated brackets starting at 0% on income up to $1,313 and reaching a top rate of 4.70% on income over $9,191.",
+    "source_url": "https://dor.mo.gov/taxation/individual/tax-types/individual-income/year-changes/2025.html",
+    "evidence": [
+     "4.70%",
+     "Individual Income Tax",
+     "tax brackets"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://dor.mo.gov/taxation/individual/tax-types/individual-income/year-changes/2025.html; unreadable: https://dor.mo.gov/taxation/individual/tax-types/income/year-changes/; unreadable: https://dor.mo.gov/forms/2025%20Tax%20Chart_2025.pdf; unreadable: https://dor.mo.gov/forms/MO-1040ES_2026.pdf; unreadable: https://dor.mo.gov/taxation/business/tax-types/corporation-income/; unreadable: https://revisor.mo.gov/main/PageSelect.aspx?section=143.071&bid=35298; unreadable: https://dor.mo.g",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "individual",
+    "years": [
+     2026
+    ],
+    "value": "For 2026, Missouri income tax brackets are adjusted for inflation, starting at 0% up to $1,348 and reaching a top rate of 4.7% on income over $9,436.",
+    "source_url": "https://dor.mo.gov/forms/MO-1040ES_2026.pdf",
+    "evidence": [
+     "4.7%",
+     "MO-1040ES",
+     "Over $9,436"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://dor.mo.gov/forms/MO-1040ES_2026.pdf; unreadable: https://dor.mo.gov/taxation/individual/tax-types/income/year-changes/; unreadable: https://dor.mo.gov/forms/2025%20Tax%20Chart_2025.pdf; unreadable: https://dor.mo.gov/taxation/business/tax-types/corporation-income/; unreadable: https://revisor.mo.gov/main/PageSelect.aspx?section=143.071&bid=35298; unreadable: https://dor.mo.gov/forms/MO-1120S%20Instructions_2015.pdf; unreadable: https://dor.mo.gov/revenue-annual-financial-repo",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Missouri imposes a corporate income tax rate of 4.0 percent of taxable income. There is no corporate minimum tax, and the franchise tax has been eliminated.",
+    "source_url": "https://dor.mo.gov/taxation/business/tax-types/corporation-income/",
+    "evidence": [
+     "4.0 percent",
+     "Corporation Income Tax",
+     "taxable income"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://dor.mo.gov/taxation/business/tax-types/corporation-income/; unreadable: https://dor.mo.gov/taxation/individual/tax-types/income/year-changes/; unreadable: https://dor.mo.gov/forms/2025%20Tax%20Chart_2025.pdf; unreadable: https://dor.mo.gov/forms/MO-1040ES_2026.pdf; unreadable: https://revisor.mo.gov/main/PageSelect.aspx?section=143.071&bid=35298; unreadable: https://dor.mo.gov/forms/MO-1120S%20Instructions_2015.pdf; unreadable: https://dor.mo.gov/revenue-annual-financial-repo",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The state sales and use tax rate is 4.225 percent. Local jurisdictions, including cities, counties, and special taxing districts, may add local sales and use taxes.",
+    "source_url": "https://dor.mo.gov/taxation/business/tax-types/sales-use/",
+    "evidence": [
+     "4.225 percent",
+     "Sales/Use Tax",
+     "local sales and use"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://dor.mo.gov/taxation/business/tax-types/sales-use/; unreadable: https://dor.mo.gov/taxation/individual/tax-types/income/year-changes/; unreadable: https://dor.mo.gov/forms/2025%20Tax%20Chart_2025.pdf; unreadable: https://dor.mo.gov/forms/MO-1040ES_2026.pdf; unreadable: https://dor.mo.gov/taxation/business/tax-types/corporation-income/; unreadable: https://revisor.mo.gov/main/PageSelect.aspx?section=143.071&bid=35298; unreadable: https://dor.mo.gov/forms/MO-1120S%20Instructions",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Missouri levies a Financial Institution Tax on banks and financial institutions at a rate of 4.48% of net income. The corporate franchise tax is 0%, and there is no general statewide gross receipts or margin tax.",
+    "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=148.030",
+    "evidence": [
+     "4.48%",
+     "net income",
+     "financial institutions"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://revisor.mo.gov/main/OneSection.aspx?section=148.030; unreadable: https://dor.mo.gov/taxation/individual/tax-types/income/year-changes/; unreadable: https://dor.mo.gov/forms/2025%20Tax%20Chart_2025.pdf; unreadable: https://dor.mo.gov/forms/MO-1040ES_2026.pdf; unreadable: https://dor.mo.gov/taxation/business/tax-types/corporation-income/; unreadable: https://revisor.mo.gov/main/PageSelect.aspx?section=143.071&bid=35298; unreadable: https://dor.mo.gov/forms/MO-1120S%20Instructio",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://dor.mo.gov/taxation/individual/tax-types/income/year-changes/",
+   "https://dor.mo.gov/forms/2025%20Tax%20Chart_2025.pdf",
+   "https://dor.mo.gov/forms/MO-1040ES_2026.pdf",
+   "https://dor.mo.gov/taxation/business/tax-types/corporation-income/",
+   "https://revisor.mo.gov/main/PageSelect.aspx?section=143.071&bid=35298",
+   "https://dor.mo.gov/forms/MO-1120S%20Instructions_2015.pdf",
+   "https://dor.mo.gov/revenue-annual-financial-report/documents/financialstatreport17.pdf",
+   "https://revisor.mo.gov/main/OneSection.aspx?section=147.010&bid=49326",
+   "https://dor.mo.gov/taxation/business/tax-types/sales-use/",
+   "https://dor.mo.gov/pdf/rates/2026/july2026.pdf",
+   "https://dor.mo.gov/forms/4890.pdf",
+   "https://revisor.mo.gov/main/OneSection.aspx?section=148.030"
+  ],
+  "error": ""
+ },
+ {
+  "state": "MO",
+  "section": "filing",
+  "notes": "### 1. Individual Return Due Dates and Extensions\n\n* **Due Date (Calendar-Year Filers):** April 15 following the close of the calendar year (April 15, 2026, for tax year 2025; April 15, 2027, for tax year 2026). If the due date falls on a Saturday, Sunday, or legal holiday, the return is due the next business day.\n* **Extension Rules:** \n  * Missouri grants an automatic 6-month extension (to October 15) if an approved federal extension (IRS Form 4868) has been filed. A copy of the federal extension must be attached to the Missouri return when filed.\n  * If the taxpayer expects to owe tax, or wants a state extension without filing a federal extension, they must file **Form MO-60** (*Application for Extension of Time to File*) and remit payment on or before April 15.\n  * An extension of time to file does not extend the time to pay; unpaid tax after the original due date incurs a 5% penalty plus interest.\n* **Years Applicable:** Applies to tax years 2025 and 2026.\n* **Official Sources:**\n  * Missouri DOR 2025 Individual Income Tax Changes: https://dor.mo.gov/taxation/individual/tax-types/income/year-changes/2025.html\n  * Missouri DOR Form MO-60 Instructions: https://dor.mo.gov/forms/MO-60_2025.pdf\n  * Missouri Revisor of Statutes § 143.741: https://revisor.mo.gov/main/OneSection.aspx?section=143.741\n\n---\n\n### 2. Corporate and Pass-Through Return Due Dates and Extensions\n\n* **Due Dates:**\n  * **C-Corporations (Form MO-1120):** Due on or before the 15th day of the 4th month following the end of the tax year (April 15 for calendar-year filers; April 15, 2026, for tax year 2025).\n  * **S-Corporations (Form MO-1120S) & Partnerships (Form MO-1065):** Due on or before the 15th day of the 4th month following the end of the tax year (April 15 for calendar-year filers).\n  * **Elective Pass-Through Entity Return (Form MO-PTE):** Due on or before the 15th day of the 4th month following the close of the tax year (April 15 for calendar-year filers).\n* **Extension Rules:**\n  * **Corporations & S-Corporations:** Missouri grants an automatic extension matching the federal extension period (up to 180 days, i.e., October 15) if an approved federal extension (IRS Form 7004) is in place. **Form MO-7004** is only required to be filed if the corporation expects to owe tax (with payment), requests a state extension without a federal extension, or requests additional time beyond the federal automatic extension. S-corporations expecting to owe tax file Form MO-60. An extension to file does not extend the payment due date.\n  * **Pass-Through Entity (Form MO-PTE):** An approved federal extension (IRS Form 7004) automatically extends the Form MO-PTE deadline for the same duration, up to 6 months (October 15). For Form MO-PTE, an extension to file also extends the time to pay to avoid the 5% addition to tax, provided tax is paid on or before the extended due date; however, interest accrues from the original due date.\n* **Years Applicable:** Applies to tax years 2025 and 2026.\n* **Official Sources:**\n  * Missouri DOR Corporate Income Tax Changes: https://dor.mo.gov/taxation/business/tax-types/corporation-income/year-changes/2025.html\n  * Missouri DOR Form MO-7004 Instructions: https://dor.mo.gov/forms/MO-7004_2025.pdf\n  * Missouri DOR Form MO-PTE Instructions: https://dor.mo.gov/forms/MO-PTE_Instructions_2024.pdf\n\n---\n\n### 3. Elective Pass-Through Entity Tax (SALT Parity Act)\n\n* **Existence:** Yes. Enacted under the Missouri SALT Parity Act (§ 143.436, RSMo; 12 CSR 10-2.436).\n* **Tax Rate:** Equal to the highest individual income tax rate under Section 143.011, RSMo. For tax year 2025, the rate is **4.7%** (it remains linked to the top individual bracket for tax year 2026).\n* **How and When to Elect:**\n  * **How:** Elected annually on a timely filed **Form MO-PTE** (*Pass-Through Entity Income Tax Return*). The return must be signed by each member at the time of filing, an authorized officer/manager/member attesting under penalty of perjury, or the designated Affected Business Entity Representative.\n  * **When:** Must be made on or before the filing deadline of Form MO-PTE, including any approved extensions. Once made for a tax year, the election is irrevocable for that year.\n  * **Opt-Out:** Resident members can opt out by executing **Form MO-PTE Opt-Out**; nonresident members opt out via **Form MO-PTENR**.\n* **Years Applicable:** Tax years 2025 and 2026.\n* **Official Sources:**\n  * Missouri Revisor of Statutes § 143.436: https://revisor.mo.gov/main/OneSection.aspx?section=143.436\n  * Missouri Code of State Regulations 12 CSR 10-2.436: https://www.sos.mo.gov/cmsimages/adrules/csr/current/12csr/12c10-2.pdf\n  * Missouri DOR PTE Tax FAQs: https://dor.mo.gov/faq/taxation/business/entity-tax.html\n\n---\n\n### 4. Composite or Group Nonresident Returns for Pass-Through Entities\n\n* **Rules:** Partnerships, S corporations, and LLCs treated as partnerships may file a composite return on behalf of nonresident partners or shareholders who are not otherwise required to file a Missouri individual income tax return (12 CSR 10-2.190). \n* **Filing Mechanism & Form:** Filed using **Form MO-1040** (Individual Income Tax Long Form):\n  * Check the \"Composite Return\" box at the top of the form.\n  * Enter the entity’s Federal Employer Identification Number (FEIN) in the Social Security Number box and the entity's name in the name field.\n  * Attach a schedule of participating nonresident owners containing their TIN, address, and Missouri-source income (if more than 100 members, submit via password-protected electronic media).\n* **Tax Rate:** Applied at the flat rate of **4.7%** on Missouri-source income for tax year 2025.\n* **Due Date:** Due April 15 for calendar-year filers, with an automatic extension granted if an approved federal extension was filed.\n* **Years Applicable:** Applies to tax years 2025 and 2026.\n* **Official Sources:**\n  * Missouri DOR Form 5677 (Composite Instructions): https://dor.mo.gov/forms/5677_2025.pdf\n  * Missouri DOR Partnership Tax FAQs: https://dor.mo.gov/faq/taxation/business/partnerships.html\n\n---\n\n### 5. Estimated Tax Payments and Nonresident Withholding for Pass-Throughs\n\n* **Estimated Tax Requirements:**\n  * **Individuals:** Required if Missouri estimated tax is expected to be **$100 or more** (§ 143.521.1, RSMo). Payments are due in four quarterly installments: April 15, June 15, September 15, and January 15, remitted with **Form MO-1040ES**.\n  * **Corporations:** Required if Missouri estimated tax is expected to be **$250 or more** (§ 143.521.2, RSMo). Payments are due on the 15th day of the 4th, 6th, 9th, and 12th months, remitted with **Form MO-1120ES**.\n  * **Pass-Through Entities (PTE Tax):** Not required to make estimated tax payments of the pass-through entity tax. Entities wishing to remit early payments utilize **Form MO-PTEAP** (*Pass-Through Entity Anticipated Tax Payment Voucher*).\n* **Nonresident Withholding for Pass-Through Entities:**\n  * **Requirement:** Partnerships and S-corporations must withhold Missouri tax on Missouri-source distributive share for nonresident individual partners/shareholders (§ 143.411, RSMo).\n  * **Rate:** **4.7%** for tax year 2025 (or determined by withholding tables).\n  * **Exceptions:** Withholding is not required if the nonresident owner participates in a composite return, has Missouri assignable federal AGI from the entity of less than $1,200, the entity is liquidating with no distributions, or the owner executes an exemption agreement on **Form MO-3NR**.\n  * **Forms & Due Dates:** Withholding is reported annually on **Form MO-1NR** and individual statements on **Form MO-2NR**. Form MO-1NR and payment are due by the due date or extended due date of the entity's return. Form MO-3NR is due by the unextended return due date.\n* **Years Applicable:** Applies to tax years 2025 and 2026.\n* **Official Sources:**\n  * Missouri Revisor of Statutes § 143.521: https://revisor.mo.gov/main/OneSection.aspx?section=143.521\n  * Missouri DOR Form MO-1NR Instructions: https://dor.mo.gov/forms/MO-1NR_2025.pdf\n  * Missouri DOR Form MO-2NR Instructions: https://dor.mo.gov/forms/MO-2NR_2025.pdf\n  * Missouri DOR Form MO-1040ES Instructions: https://dor.mo.gov/forms/MO-1040ES_2026.pdf\n  * Missouri DOR Form MO-1120ES Instructions: https://dor.mo.gov/forms/MO-1120ES_2022.pdf\n\n---\n\n### 6. Main Return Forms\n\n* **Individual Income Tax:**\n  * **Form MO-1040:** Individual Income Tax Return (Long Form).\n  * **Form MO-1040A:** Individual Income Tax Return (Single/Married One Income Short Form).\n* **Corporate Income Tax:**\n  * **Form MO-1120:** Corporation Income Tax Return.\n* **Pass-Through Entities:**\n  * **Form MO-1065:** Partnership Return of Income.\n  * **Form MO-1120S:** S Corporation Income Tax Return.\n  * **Form MO-PTE:** Pass-Through Entity Income Tax Return (Elective PTE Tax).\n  * **Form MO-1040 (Composite):** Individual Income Tax Long Form (marked as a composite return for nonresident group filers).\n* **Years Applicable:** Tax years 2025 and 2026.\n* **Official Sources:**\n  * Missouri DOR Individual Forms Index: https://dor.mo.gov/forms/?formName=MO-1040\n  * Missouri DOR Corporate Forms Index: https://dor.mo.gov/forms/?formName=MO-1120\n  * Missouri DOR Pass-Through Forms Index: https://dor.mo.gov/forms/?formName=MO-PTE",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Individual income tax returns are due on April 15 for calendar-year filers. Missouri grants an automatic six-month extension to October 15 if an approved federal extension is filed, or taxpayers can file Form MO-60 to request an extension or pay tax due.",
+    "source_url": "https://dor.mo.gov/forms/MO-60_2025.pdf",
+    "evidence": [
+     "Application for Extension of Time",
+     "Form MO-60",
+     "October 15",
+     "federal extension"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://dor.mo.gov/forms/MO-60_2025.pdf; unreadable: https://dor.mo.gov/taxation/individual/tax-types/income/year-changes/; unreadable: https://dor.mo.gov/forms/4711_2025.pdf; unreadable: https://dor.mo.gov/news/newsitem/uuid/121f6ae1-6e6a-4973-a86b-94c46fabce29; unreadable: https://dor.mo.gov/business/corporate/whatsnew; unreadable: https://dor.mo.gov/forms/MO-1120%20Instructions_2024.pdf; unreadable: https://dor.mo.gov/forms/MO-PTE%20Instructions_2024.pdf; unreadable: https://dor.m",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Corporate, partnership, and elective pass-through entity returns are due on or before the 15th day of the 4th month following the tax year (April 15 for calendar filers). An approved federal extension provides an automatic extension of up to 180 days, while Form MO-7004 is submitted if the entity expects to owe tax or needs a state extension without a federal extension.",
+    "source_url": "https://dor.mo.gov/forms/MO-7004_2025.pdf",
+    "evidence": [
+     "Form MO-7004",
+     "15th day of the 4th month",
+     "federal extension"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://dor.mo.gov/forms/MO-7004_2025.pdf; unreadable: https://dor.mo.gov/taxation/individual/tax-types/income/year-changes/; unreadable: https://dor.mo.gov/forms/4711_2025.pdf; unreadable: https://dor.mo.gov/forms/MO-60_2025.pdf; unreadable: https://dor.mo.gov/news/newsitem/uuid/121f6ae1-6e6a-4973-a86b-94c46fabce29; unreadable: https://dor.mo.gov/business/corporate/whatsnew; unreadable: https://dor.mo.gov/forms/MO-1120%20Instructions_2024.pdf; unreadable: https://dor.mo.gov/forms/MO",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Missouri allows eligible pass-through entities to elect to pay entity-level tax under the SALT Parity Act at a rate equal to the top individual rate, which is 4.7% for tax year 2025. The irrevocable election is made annually on or before the filing deadline of Form MO-PTE, including extensions.",
+    "source_url": "https://dor.mo.gov/faq/taxation/business/entity-tax.html",
+    "evidence": [
+     "SALT Parity Act",
+     "Form MO-PTE",
+     "Pass-Through Entity",
+     "irrevocable"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://dor.mo.gov/faq/taxation/business/entity-tax.html; unreadable: https://dor.mo.gov/taxation/individual/tax-types/income/year-changes/; unreadable: https://dor.mo.gov/forms/4711_2025.pdf; unreadable: https://dor.mo.gov/forms/MO-60_2025.pdf; unreadable: https://dor.mo.gov/news/newsitem/uuid/121f6ae1-6e6a-4973-a86b-94c46fabce29; unreadable: https://dor.mo.gov/business/corporate/whatsnew; unreadable: https://dor.mo.gov/forms/MO-1120%20Instructions_2024.pdf; unreadable: https://dor.",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "composite",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Pass-through entities may file a composite return on Form MO-1040 on behalf of participating nonresident owners who have no other Missouri filing requirement. Missouri-source income on the composite return is taxed at a flat rate of 4.7% for tax year 2025.",
+    "source_url": "https://dor.mo.gov/forms/5677_2025.pdf",
+    "evidence": [
+     "Composite Return",
+     "Form MO-1040",
+     "nonresident partners"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://dor.mo.gov/forms/5677_2025.pdf; unreadable: https://dor.mo.gov/taxation/individual/tax-types/income/year-changes/; unreadable: https://dor.mo.gov/forms/4711_2025.pdf; unreadable: https://dor.mo.gov/forms/MO-60_2025.pdf; unreadable: https://dor.mo.gov/news/newsitem/uuid/121f6ae1-6e6a-4973-a86b-94c46fabce29; unreadable: https://dor.mo.gov/business/corporate/whatsnew; unreadable: https://dor.mo.gov/forms/MO-1120%20Instructions_2024.pdf; unreadable: https://dor.mo.gov/forms/MO-PT",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Estimated tax payments are required for individuals expecting to owe $100 or more and corporations expecting to owe $250 or more. Pass-through entities must withhold tax at 4.7% on Missouri-source income for nonresident individual owners and remit it with Form MO-1NR.",
+    "source_url": "https://dor.mo.gov/forms/MO-1NR_2025.pdf",
+    "evidence": [
+     "Form MO-1NR",
+     "Form MO-2NR",
+     "distributive share"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://dor.mo.gov/forms/MO-1NR_2025.pdf; unreadable: https://dor.mo.gov/taxation/individual/tax-types/income/year-changes/; unreadable: https://dor.mo.gov/forms/4711_2025.pdf; unreadable: https://dor.mo.gov/forms/MO-60_2025.pdf; unreadable: https://dor.mo.gov/news/newsitem/uuid/121f6ae1-6e6a-4973-a86b-94c46fabce29; unreadable: https://dor.mo.gov/business/corporate/whatsnew; unreadable: https://dor.mo.gov/forms/MO-1120%20Instructions_2024.pdf; unreadable: https://dor.mo.gov/forms/MO-",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Key individual tax forms include Form MO-1040 and Form MO-1040A, while corporations file Form MO-1120. Pass-through entities file Form MO-1065, Form MO-1120S, or Form MO-PTE, with composite filings submitted on Form MO-1040.",
+    "source_url": "https://dor.mo.gov/forms/?formName=MO-1040",
+    "evidence": [
+     "MO-1040",
+     "Individual Income Tax Return",
+     "Long Form"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://dor.mo.gov/forms/?formName=MO-1040; unreadable: https://dor.mo.gov/taxation/individual/tax-types/income/year-changes/; unreadable: https://dor.mo.gov/forms/4711_2025.pdf; unreadable: https://dor.mo.gov/forms/MO-60_2025.pdf; unreadable: https://dor.mo.gov/news/newsitem/uuid/121f6ae1-6e6a-4973-a86b-94c46fabce29; unreadable: https://dor.mo.gov/business/corporate/whatsnew; unreadable: https://dor.mo.gov/forms/MO-1120%20Instructions_2024.pdf; unreadable: https://dor.mo.gov/forms/M",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://dor.mo.gov/taxation/individual/tax-types/income/year-changes/",
+   "https://dor.mo.gov/forms/4711_2025.pdf",
+   "https://dor.mo.gov/forms/MO-60_2025.pdf",
+   "https://dor.mo.gov/news/newsitem/uuid/121f6ae1-6e6a-4973-a86b-94c46fabce29",
+   "https://dor.mo.gov/business/corporate/whatsnew",
+   "https://dor.mo.gov/forms/MO-1120%20Instructions_2024.pdf",
+   "https://dor.mo.gov/forms/MO-PTE%20Instructions_2024.pdf",
+   "https://dor.mo.gov/faq/taxation/business/partnership.html",
+   "https://dor.mo.gov/forms/MO-7004.pdf",
+   "https://dor.mo.gov/taxation/business/registration/small-business/maintain/corporate.html",
+   "https://revisor.mo.gov/main/OneSection.aspx?section=143.436",
+   "https://dor.mo.gov/resources/official-final-rules/documents/2_436.pdf",
+   "https://dor.mo.gov/faq/taxation/business/entity-tax.html",
+   "https://dor.mo.gov/resources/proposed-rules/documents/12_CSR_10-2_436_Proposed_Amendment.pdf",
+   "https://dor.mo.gov/faq/taxation/business/entity-tax.html",
+   "https://dor.mo.gov/forms/MO-PTE%20Opt-Out_2025.pdf",
+   "https://dor.mo.gov/forms/5677_2025.pdf",
+   "https://dor.mo.gov/forms/MO-1040%20Instructions_2025.pdf",
+   "https://dor.mo.gov/forms/5677_2025.pdf",
+   "https://dor.mo.gov/forms/MO-1040ES_2026.pdf",
+   "https://dor.mo.gov/forms/MO-1040%20Instructions_2025.pdf",
+   "https://dor.mo.gov/forms/MO-2220_2025.pdf",
+   "https://dor.mo.gov/forms/MO-1120ES_2023.pdf",
+   "https://dor.mo.gov/faq/taxation/business/entity-tax.html",
+   "https://dor.mo.gov/forms/MO-1120S%20Instructions_2025.pdf",
+   "https://dor.mo.gov/forms/MO-1NR_2025.pdf",
+   "https://dor.mo.gov/forms/MO-2NR_2025.pdf",
+   "https://dor.mo.gov/forms/MO-1065_2025.pdf",
+   "https://dor.mo.gov/forms/MO-1040%20Instructions_2025.pdf",
+   "https://dor.mo.gov/forms/MO-1040A%20Print%20Only_2025.pdf",
+   "https://dor.mo.gov/forms/MO-PTE_2024.pdf",
+   "https://dor.mo.gov/forms/?category=&formName=mo-1120",
+   "https://dor.mo.gov/forms/index.php?formName=tax+"
+  ],
+  "error": ""
+ }
+]

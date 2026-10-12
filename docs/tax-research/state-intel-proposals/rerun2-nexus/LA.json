@@ -1,0 +1,123 @@
+[
+ {
+  "state": "LA",
+  "section": "nexus",
+  "notes": "### 1. Income and Franchise Tax Nexus\n\n#### Corporate Income Tax Nexus\n* **Nexus Standard:** Imposed on corporations and entities taxed as corporations for federal income tax purposes deriving income from Louisiana sources, or foreign corporations doing business in Louisiana or deriving income from Louisiana sources.\n* **Bright-Line / Factor-Presence Economic Nexus Threshold:** **Not found.** Louisiana statutes and Louisiana Department of Revenue (LDR) guidance do not specify a bright-line dollar amount or factor-presence economic threshold for corporate income tax nexus.\n* **Applicability:** Applies to both tax years 2025 and 2026.\n* **Official Sources:**\n  * Louisiana Department of Revenue – Corporation Income Tax: https://revenue.louisiana.gov/CorporationIncomeTax\n  * Louisiana State Legislature – La. R.S. 47:287.11: https://legis.la.gov/legis/Law.aspx?d=101859\n\n#### Corporate Franchise Tax Nexus\n* **Nexus Standard:** Prior to repeal, imposed on domestic and foreign corporations exercising a corporate charter, qualified to do business, actually doing business, or owning/using capital, plant, or property in Louisiana.\n* **Tax Year Applicability & Major Change:**\n  * **Tax Year 2025:** In effect.\n  * **Tax Year 2026:** **Repealed.** Pursuant to Acts 2024, 3rd Ex. Sess., No. 6 (HB 3), §3, La. R.S. 47:601 et seq. is repealed for franchise tax periods beginning on or after January 1, 2026.\n* **Bright-Line / Factor-Presence Economic Nexus Threshold:** **Not found**.\n* **Official Sources:**\n  * Louisiana Department of Revenue – Corporation Income Tax & Franchise Tax Repeal FAQ: https://revenue.louisiana.gov/CorporationIncomeTax\n  * Louisiana Department of Revenue – Is the corporation franchise tax repealed?: https://revenue.louisiana.gov/FAQ/Details/1458\n  * Louisiana State Legislature – La. R.S. 47:601: https://legis.la.gov/legis/Law.aspx?d=102149\n\n---\n\n### 2. Remote Seller Economic Nexus Threshold (Sales and Use Tax)\n\n* **Sales Threshold:** Gross revenue exceeding **$100,000** from retail sales delivered into Louisiana.\n* **Transaction Count Threshold:** **None.** Louisiana repealed the 200-transaction threshold via Act 15 (HB 171) of the 2023 Regular Session (effective August 1, 2023; codified in La. R.S. 47:301(4)(m) and La. R.S. 47:340.1).\n* **Measurement Period:** The **previous or current calendar year**. Once the threshold is exceeded, remote sellers have 30 calendar days to submit an application to register with the Louisiana Sales and Use Tax Commission for Remote Sellers, and must begin collecting within 60 days of surpassing the threshold.\n* **Applicability:** Applies to both tax years 2025 and 2026.\n* **Official Sources:**\n  * Louisiana State Legislature – La. R.S. 47:340.1: https://legis.la.gov/legis/Law.aspx?d=1184984\n  * Louisiana State Legislature – La. R.S. 47:340: https://legis.la.gov/legis/Law.aspx?d=1144078\n  * Louisiana State Legislature – Act 15 (2023 RS, HB 171 Digest): https://legis.la.gov/legis/BillInfo.aspx?i=244102\n  * Louisiana Sales and Use Tax Commission for Remote Sellers: https://remotesellers.louisiana.gov/\n\n---\n\n### 3. State's Stated Position on Public Law 86-272 Protection\n\n* **Recognition & Application:** \n  * Louisiana recognizes P.L. 86-272 protection from corporate net income tax for businesses whose in-state activities are limited to the solicitation of orders for sales of tangible personal property sent outside the state for approval and filled by delivery from outside the state.\n  * **Franchise Tax Exception (through 2025):** LDR specifically notes that P.L. 86-272 applies *only* to net income taxes. A foreign corporation remained subject to the Louisiana Corporation Franchise Tax if it met franchise tax nexus criteria, even if shielded from corporate income tax under P.L. 86-272 (franchise tax repealed effective January 1, 2026).\n  * **Services Limitation:** Under LDR Revenue Information Bulletin No. 06-031, P.L. 86-272 protection does **not** apply to the solicitation of sales of services.\n  * **MTC Revised Interpretation (Internet Activities):** **Not found.** LDR has not published guidance or regulations adopting the Multistate Tax Commission's revised interpretation regarding internet-based activities.\n* **Applicability:** Applies to tax years 2025 and 2026 (franchise tax distinction applies to 2025 only).\n* **Official Sources:**\n  * Louisiana Department of Revenue – FAQ on Income/Franchise Tax Liability and P.L. 86-272: https://revenue.louisiana.gov/FAQ/Details/1231\n  * Louisiana Department of Revenue – Policy Documents Directory (RIB 06-031): https://revenue.louisiana.gov/Laws/Policies",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025
+    ],
+    "value": "Louisiana corporate income tax applies to corporations deriving income from Louisiana sources or doing business in the state. Corporate franchise tax also applies to corporations exercising a charter, qualified to do business, doing business, or owning capital, plant, or property in Louisiana.",
+    "source_url": "https://revenue.louisiana.gov/CorporationIncomeTax",
+    "evidence": [
+     "Corporation Income Tax",
+     "deriving income from Louisiana sources",
+     "doing business in Louisiana"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://revenue.louisiana.gov/CorporationIncomeTax; unreadable: https://revenue.louisiana.gov/businesses/widely-used-tax-types/corporate-income-franchise-tax/; unreadable: https://www.legis.la.gov/legis/Law.aspx?d=101673; unreadable: https://www.legis.la.gov/legis/ViewDocument.aspx?d=949576; unreadable: https://revenue.louisiana.gov/tax-education-and-faqs/faqs/corporation-income-franchise-taxes/is-income-franchise-tax-required-if-sales-tax-is-required/; unreadable: https://revenue.lo",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "income_nexus",
+    "years": [
+     2026
+    ],
+    "value": "Louisiana corporate income tax applies to corporations deriving income from Louisiana sources or doing business in the state. The corporate franchise tax is repealed for franchise tax periods beginning on or after January 1, 2026.",
+    "source_url": "https://revenue.louisiana.gov/FAQ/Details/1458",
+    "evidence": [
+     "corporation franchise tax",
+     "franchise tax repealed",
+     "January 1, 2026"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://revenue.louisiana.gov/FAQ/Details/1458; unreadable: https://revenue.louisiana.gov/businesses/widely-used-tax-types/corporate-income-franchise-tax/; unreadable: https://www.legis.la.gov/legis/Law.aspx?d=101673; unreadable: https://www.legis.la.gov/legis/ViewDocument.aspx?d=949576; unreadable: https://revenue.louisiana.gov/tax-education-and-faqs/faqs/corporation-income-franchise-taxes/is-income-franchise-tax-required-if-sales-tax-is-required/; unreadable: https://revenue.louisi",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Remote seller economic nexus is established when gross revenue from retail sales delivered into Louisiana exceeds $100,000 in the previous or current calendar year. Louisiana has no transaction count threshold.",
+    "source_url": "https://remotesellers.louisiana.gov/",
+    "evidence": [
+     "gross revenue exceeding $100,000",
+     "retail sales delivered into Louisiana",
+     "previous or current calendar year"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://remotesellers.louisiana.gov/; unreadable: https://revenue.louisiana.gov/businesses/widely-used-tax-types/corporate-income-franchise-tax/; unreadable: https://www.legis.la.gov/legis/Law.aspx?d=101673; unreadable: https://www.legis.la.gov/legis/ViewDocument.aspx?d=949576; unreadable: https://revenue.louisiana.gov/tax-education-and-faqs/faqs/corporation-income-franchise-taxes/is-income-franchise-tax-required-if-sales-tax-is-required/; unreadable: https://revenue.louisiana.gov/ta",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025
+    ],
+    "value": "Louisiana recognizes P.L. 86-272 protection from net income tax for the solicitation of orders of tangible personal property, but the protection does not apply to services. Because P.L. 86-272 applies only to net income taxes, foreign corporations remain subject to corporation franchise tax if nexus criteria are met.",
+    "source_url": "https://revenue.louisiana.gov/FAQ/Details/1231",
+    "evidence": [
+     "Public Law 86-272",
+     "net income taxes",
+     "tangible personal property",
+     "Corporation Franchise Tax"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://revenue.louisiana.gov/FAQ/Details/1231; unreadable: https://revenue.louisiana.gov/businesses/widely-used-tax-types/corporate-income-franchise-tax/; unreadable: https://www.legis.la.gov/legis/Law.aspx?d=101673; unreadable: https://www.legis.la.gov/legis/ViewDocument.aspx?d=949576; unreadable: https://revenue.louisiana.gov/tax-education-and-faqs/faqs/corporation-income-franchise-taxes/is-income-franchise-tax-required-if-sales-tax-is-required/; unreadable: https://revenue.louisi",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2026
+    ],
+    "value": "Louisiana restricts P.L. 86-272 protection to net income taxes for activities limited to soliciting orders for sales of tangible personal property approved and filled from outside the state. The protection does not extend to the solicitation of sales of services.",
+    "source_url": "https://revenue.louisiana.gov/FAQ/Details/1231",
+    "evidence": [
+     "Public Law 86-272",
+     "tangible personal property",
+     "net income taxes"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://revenue.louisiana.gov/FAQ/Details/1231; unreadable: https://revenue.louisiana.gov/businesses/widely-used-tax-types/corporate-income-franchise-tax/; unreadable: https://www.legis.la.gov/legis/Law.aspx?d=101673; unreadable: https://www.legis.la.gov/legis/ViewDocument.aspx?d=949576; unreadable: https://revenue.louisiana.gov/tax-education-and-faqs/faqs/corporation-income-franchise-taxes/is-income-franchise-tax-required-if-sales-tax-is-required/; unreadable: https://revenue.louisi",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://revenue.louisiana.gov/businesses/widely-used-tax-types/corporate-income-franchise-tax/",
+   "https://www.legis.la.gov/legis/Law.aspx?d=101673",
+   "https://www.legis.la.gov/legis/ViewDocument.aspx?d=949576",
+   "https://revenue.louisiana.gov/tax-education-and-faqs/faqs/corporation-income-franchise-taxes/is-income-franchise-tax-required-if-sales-tax-is-required/",
+   "https://revenue.louisiana.gov/tax-education-and-faqs/faqs/corporation-income-franchise-taxes/is-the-corporation-franchise-tax-still-required/",
+   "https://legis.la.gov/Legis/Law.aspx?d=102366",
+   "https://revenue.louisiana.gov/businesses/general-resources/business-registration/",
+   "https://revenue.louisiana.gov/tax-education-and-faqs/faqs/income-tax-reform/is-the-corporation-franchise-tax-repealed/",
+   "https://legis.la.gov/legis/ViewDocument.aspx?d=1337247",
+   "https://www.legis.la.gov/legis/Law.aspx?d=1186690",
+   "https://www.legis.la.gov/legis/Law.aspx?d=1055285",
+   "https://legis.la.gov/legis/ViewDocument.aspx?d=1428596",
+   "https://revenue.louisiana.gov/businesses/excise/wine/",
+   "https://revenue.louisiana.gov/tax-policy/policies"
+  ],
+  "error": ""
+ }
+]

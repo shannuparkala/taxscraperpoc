@@ -1,0 +1,131 @@
+{
+  "code": "OK",
+  "name": "Oklahoma",
+  "sections": {
+    "apportionment": {
+      "fields": [
+        {
+          "key": "sourcing",
+          "label": "Sales sourcing (services and intangibles)",
+          "value": "Service receipts are sourced to Oklahoma under a market-based sourcing rule if derived from customers within the state or attributable to the Oklahoma marketplace. Intangible property income is generally allocated to commercial situs, and items like royalties and interest are excluded from sales factor calculations unless gross receipts serve as the basis for a financial organization.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/rules-and-policies/agency-rules/2024/Chapter_50_Income_2024.pdf",
+          "source_citation": "Chapter 50. Income 2024",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "(6) Usual or frequent activity in Oklahoma by employee or representative engaged in a purchasing acti vity or in the performance of services (including construction, installation, assembly, or repair of equipment)."
+        },
+        {
+          "key": "special_industries",
+          "label": "Special industry rules",
+          "value": "Special rules apply to interstate transportation companies such as airlines, trucking, and rail car enterprises based on mileage traveled, and to pipelines using traffic units or miles moved. In addition, income from oil and gas production, mining, farming, and real estate rentals is directly allocated rather than apportioned.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://oklahoma.gov/content/dam/ok/en/tax/documents/forms/businesses/corporate-income-tax/current/512-Pkt.pdf",
+          "source_citation": "2025 Form 512 Oklahoma Corporation Income Tax Return Packet & Instructions",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "For income apportioned to Oklahoma, there is to be added all income separately allocated to Oklahoma with the result being Oklahoma taxable income."
+        },
+        {
+          "key": "forms",
+          "label": "Forms",
+          "value": "Apportionment is computed on Form 512, Part 2 for C-corporations, or Form 512-TI for consolidated groups. S-corporations compute apportionment on Form 512-S, Part 4, and partnerships report it on Form 514, Part 4.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/rules-and-policies/agency-rules/2024/Chapter_50_Income_2024.pdf",
+          "source_citation": "Chapter 50. Income 2024",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "(4) Behind the supporting schedules will be a separate Schedule A or B, as applicable for each company in the group, for the Oklahoma Form 512."
+        }
+      ]
+    },
+    "nexus": {
+      "fields": [
+        {
+          "key": "income_nexus",
+          "label": "Income/franchise tax nexus",
+          "value": "Oklahoma imposes corporate income tax on corporations doing business within or deriving income from sources within the state, established through physical or representative activities with no bright-line dollar threshold.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/rules-and-policies/agency-rules/2024/Chapter_50_Income_2024.pdf",
+          "source_citation": "Chapter 50. Income 2024",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Corporate returns (a) Any corporation doing business within or deriving income from sources within Oklahoma is required to fil e an Oklahoma Corporation Income Tax Return, whether or not a tax is due."
+        },
+        {
+          "key": "sales_economic_nexus",
+          "label": "Sales/use tax: economic nexus",
+          "value": "Remote sellers establish economic nexus by having more than $100,000 in taxable Oklahoma sales during the preceding calendar year or current calendar year. Oklahoma does not impose a transaction count threshold.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://oklahoma.gov/tax/helpcenter/businesses.html",
+          "source_citation": "Businesses",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Remote sellers are only required to obtain a sales tax permit from OTC and collect Oklahoma state and local sales tax if they have more than $100,000 in taxable Oklahoma sales in the preceding calendar year or current calendar year for delivery into the state."
+        }
+      ]
+    },
+    "rates": {
+      "fields": [
+        {
+          "key": "other_business",
+          "label": "Other notable business taxes",
+          "value": "Oklahoma eliminated its franchise tax beginning in tax year 2024, leaving no franchise tax filing requirement for 2025 and 2026.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://oklahoma.gov/tax/businesses/other-taxes.html",
+          "source_citation": "Other Taxes",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Starting with tax year 2024 and beyond, there will be no Oklahoma franchise tax filing requirement."
+        }
+      ]
+    },
+    "filing": {
+      "fields": [
+        {
+          "key": "ptet",
+          "label": "Pass-through entity tax (PTET)",
+          "value": "Oklahoma provides an elective pass-through entity tax taxed at 4.75% on individual, trust, or estate distributive income and 4.0% on corporate or partnership income. The election is made on Form 586 within two months and 15 days of the tax year start or by attaching it to a timely filed return.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://oklahoma.gov/content/dam/ok/en/tax/documents/forms/businesses/corporate-income-tax/current/514-Pkt.pdf",
+          "source_citation": "2025 Form 514 Oklahoma Partnership Income Tax Return Packet & Instructions",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "If You Are the Electing PTE Place an “X” in the “Electing PTE” box (4) located at the top of Form 514, page 1 and provide a copy of Form 586 if making a first-time election for the current tax year."
+        },
+        {
+          "key": "estimates",
+          "label": "Withholding and estimated payments",
+          "value": "Individual estimated tax is required via Form OW-8-ES if tax liability exceeds withholding by $500 or more and safe harbor thresholds are not met. Non-electing pass-through entities must withhold 5% on distributed income to nonresident members, remitting quarterly estimates via Form WTP-10005 if withholding exceeds $500.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://oklahoma.gov/content/dam/ok/en/tax/documents/forms/businesses/corporate-income-tax/current/514-Pkt.pdf",
+          "source_citation": "2025 Form 514 Oklahoma Partnership Income Tax Return Packet & Instructions",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Do not include on this line any withholding paid for your nonresident partners on Form WTP-10005 or Form WTP-10003."
+        }
+      ]
+    }
+  }
+}

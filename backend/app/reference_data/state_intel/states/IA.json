@@ -1,0 +1,266 @@
+{
+  "code": "IA",
+  "name": "Iowa",
+  "sections": {
+    "apportionment": {
+      "fields": [
+        {
+          "key": "method",
+          "label": "Apportionment method",
+          "value": "Multistate business net income is apportioned using a single sales factor, referred to as the Business Activity Ratio. For businesses selling tangible personal property, the ratio is the proportion of gross sales made within Iowa to total gross sales everywhere.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.legis.iowa.gov/docs/iac/chapter/09-03-2025.701.503.pdf",
+          "source_citation": "Iowa Administrative Code",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Accounts receivable interest income which cannot be segregated by geographical source shall be included in the numerator of the business activity ratio applying the same ratio as gross receipts within Iowa bear to total gross receipts."
+        },
+        {
+          "key": "sourcing",
+          "label": "Sales sourcing (services and intangibles)",
+          "value": "Iowa applies market-based sourcing where gross receipts from services are apportioned in proportion to the benefit received in Iowa. Gross receipts from intangible royalties and licensing fees are sourced to Iowa to the extent the asset is an integral part of regular business activity occurring in Iowa.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.legis.iowa.gov/docs/iac/rule/11-02-2022.701.503.6.pdf",
+          "source_citation": "https://www.legis.iowa.gov/docs/iac/rule/11-02-2022.701.503.6.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Gross receipts are includable in the numerator of the apportionment factor in the proportion which the recipient of the service receives benefit of the service in this state."
+        },
+        {
+          "key": "forms",
+          "label": "Forms",
+          "value": "Form IA 1120, Schedule E is used to compute the Business Activity Ratio. The resulting apportionment percentage is transferred to Form IA 1120, Step 5, line 8.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://revenue.iowa.gov/media/4373/download?inline",
+          "source_citation": "42-005 IA 1120S Instructions",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Enter the S corporation’s Business Activity Ratio (BAR) from the IA 1120S, Schedule E, line 13."
+        }
+      ]
+    },
+    "nexus": {
+      "fields": [
+        {
+          "key": "income_nexus",
+          "label": "Income/franchise tax nexus",
+          "value": "Corporate income tax nexus is established by doing business in Iowa, deriving income from sources within the state, or owning or deriving income from property with a business or commercial situs in Iowa. There is no bright-line or factor-presence dollar threshold for corporate income tax or franchise tax nexus.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.legis.iowa.gov/docs/publications/LU/858366.pdf",
+          "source_citation": "Iowa General Assembly",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Iowa Code section 422.33(1) provides that a corporation is subject to the Iowa corporate income tax if it is “doing business in this state, or deriving income from sources within this state,” and Iowa Code section 422.37 permits such a corporation to join an Iowa consolidated tax return wit h other members of an affiliated group subject to the tax."
+        },
+        {
+          "key": "sales_economic_nexus",
+          "label": "Sales/use tax: economic nexus",
+          "value": "A remote seller establishes economic nexus if it has $100,000 or more in gross revenue from Iowa sales during the current calendar year or immediately preceding calendar year. There is no transaction count threshold.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://revenue.iowa.gov/taxes/tax-guidance/sales-use-excise-tax/remote-sellers-marketplace-facilitators",
+          "source_citation": "Remote Sellers & Marketplace Facilitators | Department of Revenue",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Remote sellers must collect Iowa sales tax only if the remote seller has $100,000 or more in gross revenue from Iowa sales."
+        }
+      ]
+    },
+    "rates": {
+      "fields": [
+        {
+          "key": "individual",
+          "label": "Individual income tax",
+          "value": "Iowa imposes a single flat individual income tax rate of 3.8% on all taxable income.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://revenue.iowa.gov/taxes/file-my-taxes/individual-taxes/tax-year-2025-form-changes",
+          "source_citation": "Summary of Tax Year 2025 Form Changes | Department of Revenue",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Iowa now has a flat tax rate of 3.8% Line 6:"
+        },
+        {
+          "key": "corporate",
+          "label": "Corporate income/franchise tax",
+          "value": "Corporate income tax is levied at 5.5% on the first $100,000 and 7.1% on income over $100,000. There is no corporate minimum tax.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://revenue.iowa.gov/taxes/tax-guidance/business-income-tax/iowa-corporate-income-tax-rates",
+          "source_citation": "Iowa Corporate Income Tax Rates | Department of Revenue",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Bracket Tax Rate $0- $25,000 5.5% $25,001- $100,000 5.5% $100,001- $250,000 7.1% > $250,000 7.1% ⤢ Corporate Income Tax Rates - On or after January 1, 2023 and before January 1, 2024 Effective for tax years beginning on or after January 1, 2023 and before January 1, 2024, the corporate income tax rates are as follows:"
+        },
+        {
+          "key": "sales",
+          "label": "Sales and use tax",
+          "value": "The state sales and use tax rate is 6%. Local jurisdictions may add a 1% local option sales tax.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://revenue.iowa.gov/taxes/tax-guidance/sales-use-excise-tax/sales-use-tax-guide",
+          "source_citation": "Sales & Use Tax Guide | Department of Revenue",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "The rate for both is 6%, though an additional 1% applies to most sales subject to sales tax, as many jurisdictions impose a local option sales tax."
+        },
+        {
+          "key": "other_business",
+          "label": "Other notable business taxes",
+          "value": "Iowa levies a franchise tax on the net income of financial institutions at a rate of 4.1% for 2025.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://revenue.iowa.gov/taxes/tax-guidance/general/iowa-taxfee-descriptions-and-rates",
+          "source_citation": "Iowa Tax/Fee Descriptions and Rates | Department of Revenue",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "2022 and earlier 5% of taxable income 2023 - 4.7% 2024 - 4.4% 2025 - 4.1% 2026 - 3.8% 2027 and later - 3.5% Distribution of Funds:"
+        },
+        {
+          "key": "other_business",
+          "label": "Other notable business taxes",
+          "value": "Iowa levies a franchise tax on the net income of financial institutions at a rate of 3.8% for 2026.",
+          "years": [
+            2026
+          ],
+          "source_url": "https://revenue.iowa.gov/taxes/tax-guidance/general/iowa-taxfee-descriptions-and-rates",
+          "source_citation": "Iowa Tax/Fee Descriptions and Rates | Department of Revenue",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "2022 and earlier 5% of taxable income 2023 - 4.7% 2024 - 4.4% 2025 - 4.1% 2026 - 3.8% 2027 and later - 3.5% Distribution of Funds:"
+        }
+      ]
+    },
+    "filing": {
+      "fields": [
+        {
+          "key": "individual_due",
+          "label": "Individual due date and extension",
+          "value": "Calendar-year individual returns are due on April 30. Taxpayers who pay at least 90% of their total correct tax liability by April 30 receive an automatic 6-month extension to file until October 31.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://revenue.iowa.gov/taxes/frequently-asked-questions/individual-income",
+          "source_citation": "Individual Income | Department of Revenue",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "If you have at least 90% of the tax paid by the due date, you will automatically have until October 31 to file the return."
+        },
+        {
+          "key": "business_due",
+          "label": "Business due dates and extensions",
+          "value": "Calendar-year C corporation, partnership, and S corporation returns are due on April 30. An automatic 6-month extension to October 31 is granted if at least 90% of the tax liability is paid by the original due date.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://revenue.iowa.gov/taxes/frequently-asked-questions/individual-income",
+          "source_citation": "Individual Income | Department of Revenue",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "If you have at least 90% of the tax paid by the due date, you will automatically have until October 31 to file the return."
+        },
+        {
+          "key": "ptet",
+          "label": "Pass-through entity tax (PTET)",
+          "value": "Partnerships and S corporations may make an annual, irrevocable election to pay PTET at a rate of 3.8%. The election is made directly on Form IA 1065 or IA 1120S up to six months after the original return due date, though tax must be paid by April 30.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://revenue.iowa.gov/media/4367/download?inline",
+          "source_citation": "41-017 IA 1065 Partnership Return of Income Instructions",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "A PTET election must be made by the date which is six months after the original due date for filing the IA 1065."
+        },
+        {
+          "key": "composite",
+          "label": "Composite returns",
+          "value": "Pass-through entities with nonresident members must file Form IA PTE-C and remit composite tax unless electing PTET or obtaining signed Form 41-175 agreements. For 2025, the composite rate is 3.8% for individuals and pass-throughs, 7.1% for C corporations, and 4.1% for financial institutions.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://revenue.iowa.gov/media/4418/download?inline",
+          "source_citation": "41-176 IA PTE-C Composite Return Instructions",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "● Nonresident members who have completed the 2025 Nonresident Member Composite Agreement (41-175)."
+        },
+        {
+          "key": "composite",
+          "label": "Composite returns",
+          "value": "Pass-through entities with nonresident members must file Form IA PTE-C and remit composite tax unless electing PTET or obtaining signed Form 41-175 agreements. For 2026, the composite tax rate is 3.8% for individuals, pass-throughs, and financial institutions, and 7.1% for C corporations.",
+          "years": [
+            2026
+          ],
+          "source_url": "https://revenue.iowa.gov/media/4418/download?inline",
+          "source_citation": "41-176 IA PTE-C Composite Return Instructions",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "● Nonresident members who have completed the 2025 Nonresident Member Composite Agreement (41-175)."
+        },
+        {
+          "key": "estimates",
+          "label": "Withholding and estimated payments",
+          "value": "For 2025, individuals must remit estimated payments if they expect to owe $200 or more in Iowa income tax after credits and withholding. Business entities and PTET filers expecting to owe $1,000 or more must pay quarterly estimates, while pass-through nonresident withholding is handled via Form IA PTE-C.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://revenue.iowa.gov/taxes/tax-guidance/individual-income-tax/1040-expanded-instructions/note-additional-information",
+          "source_citation": "Note: Additional Information | Department of Revenue",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Estimated Payments Iowa Residents Iowa residents who expect to owe Iowa income tax of $200 ($1,000 for tax years beginning on or after January 1, 2026) or more from income not subject to withholding tax must make estimated tax payments to avoid a penalty for underpayment of estimated tax."
+        },
+        {
+          "key": "estimates",
+          "label": "Withholding and estimated payments",
+          "value": "For 2026, individuals, C corporations, and PTET-electing entities must remit estimated tax payments if they expect to owe $1,000 or more. Nonresident pass-through withholding is replaced by the composite return on Form IA PTE-C.",
+          "years": [
+            2026
+          ],
+          "source_url": "https://revenue.iowa.gov/taxes/tax-guidance/individual-income-tax/1040-expanded-instructions/note-additional-information",
+          "source_citation": "Note: Additional Information | Department of Revenue",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Estimated Payments Iowa Residents Iowa residents who expect to owe Iowa income tax of $200 ($1,000 for tax years beginning on or after January 1, 2026) or more from income not subject to withholding tax must make estimated tax payments to avoid a penalty for underpayment of estimated tax."
+        },
+        {
+          "key": "key_forms",
+          "label": "Key forms",
+          "value": "Individuals file Form IA 1040 and IA 1040ES, while corporations submit Form IA 1120 and IA 1120ES. Pass-through entities file Form IA 1065 or IA 1120S, along with composite Form IA PTE-C and Form 41-175.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://revenue.iowa.gov/taxes/tax-guidance/individual-income-tax/iowa-composite-returns-tax-year-2022-and-later",
+          "source_citation": "Iowa Composite Returns for Tax Year 2022 and Later | Department of Revenue",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "The composite return tax payment is due by the due date of the pass-through entity’s Iowa income tax return (IA 1065, IA 1120S, or IA 1041), not including extensions."
+        }
+      ]
+    }
+  }
+}

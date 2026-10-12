@@ -1,0 +1,129 @@
+{
+  "_comment": "Federal return due dates by entity type, as offsets from the end of the tax year, read from each return's own IRS instructions on 2026-10-07. A due date that lands on a weekend or legal holiday moves to the next business day (IRC 7503; see legal_holidays.json). The dashboard countdown tiles and the client calendar both read this file; nothing in the UI restates a date. 'day' is 15 or 'last' (last day of the month). Offsets are calendar months after the tax year ends.",
+  "version": "2026-10-07",
+  "last_verified": "2026-10-07",
+  "entity_types": [
+    {
+      "key": "individual",
+      "label": "Individual",
+      "return_form": "1040",
+      "extension_form": "4868",
+      "due": {"months_after_year_end": 4, "day": 15},
+      "extended_due": {"months_after_year_end": 10, "day": 15},
+      "source_url": "https://www.irs.gov/filing/individuals/when-to-file",
+      "source_citation": "IRS, 'When to file': calendar-year filers April 15; fiscal-year filers day 15 of the fourth month after the year ends. Form 4868: automatic 6-month extension (to October 15).",
+      "extension_source_url": "https://www.irs.gov/forms-pubs/extension-of-time-to-file-your-tax-return",
+      "last_verified": "2026-10-07"
+    },
+    {
+      "key": "c_corp",
+      "label": "C corporation",
+      "return_form": "1120",
+      "extension_form": "7004",
+      "due": {"months_after_year_end": 4, "day": 15},
+      "extended_due": {"months_after_year_end": 10, "day": 15},
+      "exceptions": [
+        {
+          "id": "june_30_fye_before_2026",
+          "when": {"year_end_month": 6, "tax_year_begins_before": "2026-01-01"},
+          "due": {"months_after_year_end": 3, "day": 15},
+          "extended_due": {"months_after_year_end": 10, "day": 15},
+          "note": "A June 30 year end beginning before 1 Jan 2026 is due on the 15th day of the 3rd month, with a 7-month extension. For tax years beginning in 2026 the general rule (4th month, 6-month extension) applies.",
+          "source_url": "https://www.irs.gov/instructions/i7004",
+          "source_citation": "Form 1120 instructions, When To File (June 30 year end: 15th day of the 3rd month); Form 7004 instructions, Extension Period (June 30 year ends beginning before 1 Jan 2026: 7 months; tax years beginning in 2026: 6 months)."
+        }
+      ],
+      "source_url": "https://www.irs.gov/instructions/i1120",
+      "source_citation": "Form 1120 instructions, When To File: 15th day of the 4th month after the end of the tax year. Form 7004 instructions: automatic extension generally 6 months.",
+      "extension_source_url": "https://www.irs.gov/instructions/i7004",
+      "last_verified": "2026-10-07"
+    },
+    {
+      "key": "s_corp",
+      "label": "S corporation",
+      "return_form": "1120-S",
+      "extension_form": "7004",
+      "due": {"months_after_year_end": 3, "day": 15},
+      "extended_due": {"months_after_year_end": 9, "day": 15},
+      "source_url": "https://www.irs.gov/instructions/i1120s",
+      "source_citation": "Form 1120-S instructions, When To File: 15th day of the 3rd month after the end of the tax year. Form 7004 instructions: automatic extension generally 6 months.",
+      "extension_source_url": "https://www.irs.gov/instructions/i7004",
+      "last_verified": "2026-10-07"
+    },
+    {
+      "key": "partnership",
+      "label": "Partnership",
+      "return_form": "1065",
+      "extension_form": "7004",
+      "due": {"months_after_year_end": 3, "day": 15},
+      "extended_due": {"months_after_year_end": 9, "day": 15},
+      "source_url": "https://www.irs.gov/instructions/i1065",
+      "source_citation": "Form 1065 instructions, When To File: 15th day of the 3rd month following the end of the tax year (March 15 for calendar year). Form 7004 instructions: automatic extension generally 6 months.",
+      "extension_source_url": "https://www.irs.gov/instructions/i7004",
+      "last_verified": "2026-10-07"
+    },
+    {
+      "key": "trust_estate",
+      "label": "Trust or estate",
+      "return_form": "1041",
+      "extension_form": "7004",
+      "due": {"months_after_year_end": 4, "day": 15},
+      "extended_due": {"months_after_year_end": 9, "day": "last"},
+      "source_url": "https://www.irs.gov/instructions/i1041",
+      "source_citation": "Form 1041 instructions, When To File: calendar year April 15; fiscal year 15th day of the 4th month. Form 7004 instructions: estates (other than bankruptcy estates) and trusts get an automatic 5½-month extension (September 30 for a calendar year).",
+      "extension_source_url": "https://www.irs.gov/instructions/i7004",
+      "last_verified": "2026-10-07"
+    },
+    {
+      "key": "exempt_org",
+      "label": "Exempt organization",
+      "return_form": "990",
+      "extension_form": "8868",
+      "due": {"months_after_year_end": 5, "day": 15},
+      "extended_due": {"months_after_year_end": 11, "day": 15},
+      "source_url": "https://www.irs.gov/instructions/i990",
+      "source_citation": "Form 990 instructions, When To File: 15th day of the 5th month after the accounting period ends (May 15 for calendar year). Form 8868 instructions: automatic 6-month extension.",
+      "extension_source_url": "https://www.irs.gov/instructions/i8868",
+      "last_verified": "2026-10-07"
+    }
+  ],
+  "countdown_tiles": [
+    {
+      "id": "mar15",
+      "month": 3,
+      "day": 15,
+      "label": "March 15",
+      "represents": "Calendar-year S corporation and partnership returns (Forms 1120-S and 1065), or their extensions",
+      "entity_keys": ["s_corp", "partnership"],
+      "form_numbers": ["1120-S", "1065", "7004"]
+    },
+    {
+      "id": "apr15",
+      "month": 4,
+      "day": 15,
+      "label": "April 15",
+      "represents": "Individual and calendar-year C corporation returns (Forms 1040 and 1120), or their extensions",
+      "entity_keys": ["individual", "c_corp"],
+      "form_numbers": ["1040", "1120", "4868", "7004"]
+    },
+    {
+      "id": "sep15",
+      "month": 9,
+      "day": 15,
+      "label": "September 15",
+      "represents": "Extended calendar-year S corporation and partnership returns",
+      "entity_keys": ["s_corp", "partnership"],
+      "form_numbers": ["1120-S", "1065"]
+    },
+    {
+      "id": "oct15",
+      "month": 10,
+      "day": 15,
+      "label": "October 15",
+      "represents": "Extended individual returns (and extended calendar-year C corporation returns)",
+      "entity_keys": ["individual", "c_corp"],
+      "form_numbers": ["1040", "1120"]
+    }
+  ],
+  "countdown_note": "These are the commonly applied calendar-year dates. The exact obligation depends on the entity type, its tax year and any extension filed; a date on a weekend or legal holiday moves to the next business day."
+}

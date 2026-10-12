@@ -1,0 +1,399 @@
+[
+ {
+  "state": "AK",
+  "section": "apportionment",
+  "notes": "### 1. Multistate Business Income Apportionment Formula\n* **Rule & Formula:** Alaska uses an equally weighted **three-factor apportionment formula** consisting of the property factor, the payroll factor, and the sales factor. The apportionment factor is calculated as:\n  $$\\text{Apportionment Factor} = \\frac{\\text{Property Factor} + \\text{Payroll Factor} + \\text{Sales Factor}}{3}$$\n  If one or more factors are absent, the denominator is reduced to the number of factors present.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Statutory / Regulatory Authorities:** AS 43.19.010 (Article IV, § 9); AS 43.20.142; 15 AAC 19.131.\n* **Official URLs:** \n  * https://www.akleg.gov/basis/statutes.asp#43.19.010\n  * https://tax.alaska.gov/programs/programs/index.aspx?60380\n\n---\n\n### 2. Sourcing of Receipts from Services and Intangibles\n* **Rule:** Alaska follows the Multistate Tax Compact's **cost of performance** (income-producing activity) method; it does **not** use market-based sourcing. Gross receipts from transactions other than sales of tangible personal property (services and intangibles) are assigned to Alaska if:\n  1. The income-producing activity is performed wholly within Alaska; or\n  2. The income-producing activity is performed both inside and outside Alaska, and a greater proportion of the income-producing activity is performed in Alaska than in any other state, based on costs of performance.\n  * *Intangibles rule:* Where business income from intangible property cannot readily be attributed to any particular income-producing activity, it is excluded from both the numerator and the denominator of the sales factor (15 AAC 19.302(d)).\n* **Applicable Tax Years:** 2025 and 2026 (unchanged; legislative attempts to enact market-based sourcing did not become law).\n* **Statutory / Regulatory Authorities:** AS 43.19.010 (Article IV, § 17); 15 AAC 19.301; 15 AAC 19.302.\n* **Official URLs:**\n  * https://www.akleg.gov/basis/statutes.asp#43.19.010\n  * https://tax.alaska.gov/programs/programs/index.aspx?60380\n\n---\n\n### 3. Industries with Specialized Apportionment Formulas\nAlaska prescribes specialized apportionment methods for several specific industries:\n\n1. **Oil and Gas Production and Pipeline Transportation (AS 43.20.144; 15 AAC 20.500–20.540):**\n   * *Pipeline transportation only:* Two-factor formula consisting of property and sales (tariffs) divided by 2.\n   * *Production only:* Two-factor formula consisting of property and extraction (volume of oil/gas produced) divided by 2.\n   * *Both pipeline transportation and production:* Three-factor formula consisting of property, sales, and extraction divided by 3.\n2. **Financial Organizations (15 AAC 20.610):**\n   * Modified property factor (includes loans and credit card receivables), payroll factor, and receipts factor sourced by borrower/customer location rules.\n3. **Airlines (15 AAC 19.1100 – 15 AAC 19.1190):**\n   * Apportionment incorporating aircraft flight and ground hours/mileage ratios and revenue passenger/cargo ton-mile factors.\n4. **Land Transportation Carriers (15 AAC 19.1200 – 15 AAC 19.1290):**\n   * Apportionment allocating mobile equipment property and operating revenue based on passenger miles, ton miles, or vehicle miles in Alaska.\n5. **Water Transportation Carriers (15 AAC 19.1410 – 15 AAC 19.1490):**\n   * Apportionment for maritime operations using mobile property days/operating days within Alaska waters.\n6. **Construction Contractors (15 AAC 19.1300 – 15 AAC 19.1390):**\n   * Specialized factor accounting under the percentage-of-completion or completed-contract methods.\n\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Statutory / Regulatory Authorities:** AS 43.20.144; 15 AAC Chapter 19 (Articles 8–11); 15 AAC Chapter 20 (Articles 4 & 5).\n* **Official URLs:**\n  * https://www.akleg.gov/basis/statutes.asp#43.20.144\n  * https://tax.alaska.gov/programs/programs/index.aspx?60380\n\n---\n\n### 4. Forms and Schedules Used to Compute Apportionment\n* **Forms & Schedules:**\n  * **Form 6000** (*Alaska Corporation Net Income Tax Return*): Multistate corporations compute apportionment on **Schedule I** (*Apportionment Factor*).\n  * **Form 6100** (*Alaska Oil and Gas Corporation Net Income Tax Return*) or **Form 6150**: Corporations subject to oil and gas modified apportionment under AS 43.20.144 compute their factor on **Schedule I**.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official URLs:**\n  * https://tax.alaska.gov/programs/programs/forms/index.aspx?60380\n  * https://tax.alaska.gov/programs/programs/index.aspx?60380",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Alaska uses an equally weighted three-factor apportionment formula consisting of the property factor, the payroll factor, and the sales factor. If one or more factors are absent, the denominator is reduced to the number of factors present.",
+    "source_url": "https://www.akleg.gov/basis/statutes.asp#43.19.010",
+    "evidence": [
+     "property factor",
+     "payroll factor",
+     "sales factor"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://aws.state.ak.us/OAH/Decision/Display?rec=4796",
+    "matched_title": "Alaska Supreme Court Opinion sp-6838",
+    "matched_phrases": [
+     "property factor",
+     "payroll factor",
+     "sales factor"
+    ],
+    "snippet": "Per AS 43.19.010, article IV, section 9, the portion of a business’s total income apportioned to Alaska is determined by “multiplying the income by a fraction, the numerator of which is the property factor plus the payroll factor plus the sales factor, and the denominator of which is three.” The property factor is the fraction of the taxpayer’s total property and the property attributable to the taxpayer’s business in Alaska;"
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Alaska sources receipts from services and intangibles using the cost of performance method based on income-producing activity. Receipts are assigned to Alaska if the activity is performed wholly in the state, or if a greater proportion is performed in Alaska than in any other state based on costs of performance.",
+    "source_url": "https://www.akleg.gov/basis/statutes.asp#43.19.010",
+    "evidence": [
+     "costs of performance",
+     "income-producing activity"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.akleg.gov/basis/statutes.asp#43.19.010; evidence not on aws.state.ak.us (0/2); not an official AK host: www.api.org; not an official AK host: app.midpage.ai; not an official AK host: codes.findlaw.com; not an official AK host: www.law.cornell.edu; not an official AK host: www.childwelfare.gov; not an official AK host: www.ferc.gov; not an official AK host: taxnews.ey.com; not an official AK host: www.chilkatvalleynews.com; not an official AK host: www.taxformfinder.org; n",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Specialized apportionment rules apply to oil and gas production and pipeline transportation, financial organizations, airlines, land transportation, water transportation, and construction contractors. Oil and gas entities use formulas based on combinations of property, sales, and extraction.",
+    "source_url": "https://www.akleg.gov/basis/statutes.asp#43.20.144",
+    "evidence": [
+     "pipeline transportation",
+     "oil and gas",
+     "extraction"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://aws.state.ak.us/OAH/Decision/Display?rec=4796",
+    "matched_title": "Alaska Supreme Court Opinion sp-6838",
+    "matched_phrases": [
+     "pipeline transportation",
+     "oil and gas",
+     "extraction"
+    ],
+    "snippet": "Under AS 43.20.144(c)(2), a taxpayer that only produces oil or gas in Alaska is instead subject to a two-factor formula based on property and extraction."
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Multistate corporations compute apportionment on Schedule I of Form 6000. Oil and gas corporations subject to modified apportionment compute their factor on Schedule I of Form 6100 or Form 6150.",
+    "source_url": "https://tax.alaska.gov/programs/programs/forms/index.aspx?60380",
+    "evidence": [
+     "Form 6000",
+     "Schedule I",
+     "Apportionment Factor"
+    ],
+    "accepted": false,
+    "reason": "evidence not on tax.alaska.gov (0/3); figures not on aws.state.ak.us: ['6000', '6100', '6150']; not an official AK host: www.api.org; not an official AK host: app.midpage.ai; not an official AK host: codes.findlaw.com; not an official AK host: www.law.cornell.edu; not an official AK host: www.childwelfare.gov; not an official AK host: www.ferc.gov; not an official AK host: taxnews.ey.com; not an official AK host: www.chilkatvalleynews.com; not an official AK host: www.taxformfinder.org; not an o",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://aws.state.ak.us/OAH/Decision/Display?rec=4796",
+   "https://www.api.org/-/media/Files/Energy-Economics/API-Studies/2018/Alaska-OCS-Economic-Impacts-Study.pdf",
+   "https://app.midpage.ai/laws/ak-aac/t15/c19/art10/s15_19_1330",
+   "https://app.midpage.ai/laws/ak-aac/t15/c19/art10/s15_19_1330",
+   "https://codes.findlaw.com/ak/title-43-revenue-and-taxation/ak-st-sect-43-19-010/",
+   "https://www.law.cornell.edu/regulations/alaska/15-AAC-20.610",
+   "https://www.childwelfare.gov/resources/links-state-and-tribal-child-welfare-law-and-policy-alaska/",
+   "https://www.ferc.gov/sites/default/files/2020-05/Appendix%2520X.pdf",
+   "https://codes.findlaw.com/ak/title-43-revenue-and-taxation/ak-st-sect-43-19-010/",
+   "https://taxnews.ey.com/news/2026-1211-alaska-legislature-approves-market-based-sourcing-bill",
+   "https://www.law.cornell.edu/regulations/alaska/15-AAC-19.301",
+   "https://www.law.cornell.edu/regulations/alaska/15-AAC-19.302",
+   "https://www.law.cornell.edu/regulations/alaska/15-AAC-20.610",
+   "https://www.chilkatvalleynews.com/2026/06/21/dunleavy-vetoes-nine-bills-but-alaska-lawmakers-override-two-in-special-session-flurry/",
+   "https://www.taxformfinder.org/forms/2025/2025-alaska-form-6900i.pdf",
+   "https://regulations.justia.com/states/alaska/title-15/chapter-20/article-4/section-15-aac-20-500/",
+   "https://www.aoga.org/wp-content/uploads/2024/04/MRG-Economic-Impacts-of-Oil-and-Gas-Report-Final-3.7.24.pdf",
+   "https://www.law.cornell.edu/regulations/alaska/title-15/chapter-19",
+   "https://www.law.cornell.edu/regulations/alaska/15-AAC-19.1200",
+   "https://app.midpage.ai/laws/ak-aac/t15/c19/art11/s15_19_1490-70cbaf",
+   "https://www.drakesoftware.com/sharedassets/letters/2021/state/ak.pdf",
+   "https://www.taxformfinder.org/forms/2024/2024-alaska-form-6000i.pdf",
+   "https://www.taxformfinder.org/alaska/form-6100",
+   "https://aws.state.ak.us/OnlinePublicNotices/Notices/View.aspx?id=170256",
+   "https://www.taxformfinder.org/alaska/form-6000",
+   "https://www.mystatellc.com/corporation/alaska-annual-report"
+  ],
+  "error": ""
+ },
+ {
+  "state": "AK",
+  "section": "nexus",
+  "notes": "### 1. Income or Franchise Tax Nexus\n* **Franchise Tax:** Alaska does not impose a corporate franchise tax or capital stock tax.\n* **Corporate Income Tax Nexus Triggers:** Under AS 43.20.011(e) and the Department of Revenue’s *Form 6000 Instructions* (General Instructions, \"Who Must File\"), every corporation having nexus with Alaska must file a return. Nexus (\"doing business\") is the act of conducting business activity directly, through employees/agents, or through an interest in a partnership or LLC. Nexus-creating activities include:\n  1. Owning or using property in Alaska, including leased or mobile property;\n  2. Presence of employees in Alaska for business purposes, including telework;\n  3. Making sales into Alaska; or\n  4. Generation of income from sources within Alaska without regard to whether there is physical presence.\n* **Bright-Line / Factor-Presence Economic Nexus Thresholds:** None. Alaska statutes and DOR regulations do not establish a bright-line dollar or transaction count threshold for corporate income tax nexus.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official URLs:** \n  * Alaska Statutes § 43.20.011: https://www.akleg.gov/basis/statutes.asp#43.20.011\n  * Alaska Form 6000 Instructions: https://tax.alaska.gov/programs/documentviewer/viewer.aspx?7530f\n\n---\n\n### 2. Remote Seller Economic Nexus Threshold (Sales and Transactions)\n* **Fact:** Not found at the state level. The State of Alaska does not impose a statewide sales and use tax, and the Alaska Department of Revenue does not administer a general sales tax or enforce a state-level remote seller sales tax threshold. \n* **Note on Local Jurisdictions:** Local municipal sales taxes are authorized under AS 29.45.650. Remote seller economic nexus for participating localities is administered exclusively by an intergovernmental body—the Alaska Remote Seller Sales Tax Commission (ARSSTC)—and not by the Alaska Department of Revenue or via state statute.\n* **Applicable Tax Years:** 2025 and 2026.\n* **Official URLs:**\n  * Alaska Statutes § 29.45.650: https://www.akleg.gov/basis/statutes.asp#29.45.650\n  * Alaska Department of Revenue: https://tax.alaska.gov/\n\n---\n\n### 3. State's Position on P.L. 86-272 Protection\n* **Filing and Reporting Mechanics:** \n  * Alaska formally recognizes P.L. 86-272 protection on corporate income tax returns. Form 6000 provides a dedicated checkbox on page 1 for corporations claiming P.L. 86-272 immunity.\n  * For consolidated returns, any member corporation claiming P.L. 86-272 protection must be listed on Schedule B, Line 1, with the P.L. 86-272 checkbox marked to establish a valid protective filing.\n  * **Apportionment Impact:** A corporation claiming P.L. 86-272 protection remains part of the Alaska combined group. It reports **$0 (no numerator values)** for property, payroll, or sales on Schedule I, but its factors are included in the denominator of the combined apportionment formula.\n* **Position on Internet Activities / Revised MTC Guidance:** Not found on official Alaska revenue agency or statutory pages.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official URL:** \n  * Alaska Form 6000 Instructions (Page 6, *Public Law (P.L.) 86-272*): https://tax.alaska.gov/programs/documentviewer/viewer.aspx?7530f",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Alaska does not impose a corporate franchise tax and has no bright-line factor-presence economic nexus thresholds for corporate income tax. Nexus is triggered by doing business in the state, including owning property, employing personnel (including telework), making sales, or generating income from Alaska sources regardless of physical presence.",
+    "source_url": "https://tax.alaska.gov/programs/documentviewer/viewer.aspx?7530f",
+    "evidence": [
+     "Who Must File",
+     "having nexus with Alaska",
+     "generating income from sources",
+     "without regard to whether"
+    ],
+    "accepted": false,
+    "reason": "evidence not on tax.alaska.gov (0/4); not an official AK host: www.cleertax.com; not an official AK host: www.taxformfinder.org; evidence not on aws.state.ak.us (0/4); not an official AK host: wilkecpa.com; not an official AK host: www.byteorca.com; not an official AK host: www.avalara.com; not an official AK host: codes.findlaw.com; not an official AK host: www.mtc.gov",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Alaska recognizes P.L. 86-272 protection through a dedicated checkbox on Form 6000 and Schedule B for protective filings. A corporation claiming protection reports $0 for Alaska numerators on Schedule I, but its factors are included in the denominator of the combined apportionment formula.",
+    "source_url": "https://tax.alaska.gov/programs/documentviewer/viewer.aspx?7530f",
+    "evidence": [
+     "Public Law (P.L.) 86-272",
+     "protective filing",
+     "Schedule B, Line 1",
+     "combined apportionment formula"
+    ],
+    "accepted": false,
+    "reason": "figures not on tax.alaska.gov: ['0']; not an official AK host: www.cleertax.com; not an official AK host: www.taxformfinder.org; figures not on aws.state.ak.us: ['0', '272', '6000', '86']; not an official AK host: wilkecpa.com; not an official AK host: www.byteorca.com; not an official AK host: www.avalara.com; not an official AK host: codes.findlaw.com; not an official AK host: www.mtc.gov",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://www.cleertax.com/resources/corporate-state-taxes/alaska/",
+   "https://www.taxformfinder.org/forms/2025/2025-alaska-form-6000i.pdf",
+   "https://aws.state.ak.us/OAH/Decision/Display?rec=4790",
+   "https://wilkecpa.com/wp-content/uploads/2021/07/Nexus-by-State.pdf",
+   "https://www.byteorca.com/en/blog/alaska-shipping-sales-tax",
+   "https://www.avalara.com/us/en/blog/alaska-removes-economic-nexus-transaction-threshold.html",
+   "https://codes.findlaw.com/ak/title-29-municipal-government/ak-st-sect-29-45-650/",
+   "https://www.mtc.gov/wp-content/uploads/2023/04/ARSSTC_Aug-2022-MTC-Nexus-Committee.pdf",
+   "https://www.taxformfinder.org/forms/2022/2022-alaska-form-6000.pdf",
+   "https://www.taxformfinder.org/forms/2024/2024-alaska-form-6000i.pdf",
+   "https://www.taxformfinder.org/forms/2025/2025-alaska-form-6000i.pdf",
+   "https://www.taxformfinder.org/forms/2024/2024-alaska-form-6000i.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "AK",
+  "section": "rates",
+  "notes": "### 1. Individual Income Tax\n* **Fact & Rates:** Alaska does not impose an individual income tax (0% rate; no personal income tax return is filed). Under Alaska Statute § 43.20.012(a), the state income tax does not apply to individuals or fiduciaries (individual income tax was repealed in 1980).\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official URLs:** \n  * Alaska Department of Revenue Tax Division: [https://tax.alaska.gov/programs/programs/index.aspx?10001](https://tax.alaska.gov/programs/programs/index.aspx?10001)\n  * Alaska State Legislature (AS § 43.20.012): [https://www.akleg.gov/basis/statutes.asp?media=print&secStart=43.20.011&secEnd=43.20.014](https://www.akleg.gov/basis/statutes.asp?media=print&secStart=43.20.011&secEnd=43.20.014)\n\n---\n\n### 2. Corporate Income / Franchise Tax & Minimum Tax\n* **Fact & Rates:** Alaska levies a graduated Corporation Net Income Tax on C corporations under AS § 43.20.011(e). The rate brackets are:\n  * Less than $25,000: 0%\n  * $25,000 to <$49,000: 2% of taxable income over $25,000\n  * $49,000 to <$74,000: $480 + 3% of taxable income over $49,000\n  * $74,000 to <$99,000: $1,230 + 4% of taxable income over $74,000\n  * $99,000 to <$124,000: $2,230 + 5% of taxable income over $99,000\n  * $124,000 to <$148,000: $3,480 + 6% of taxable income over $124,000\n  * $148,000 to <$173,000: $4,920 + 7% of taxable income over $148,000\n  * $173,000 to <$198,000: $6,670 + 8% of taxable income over $173,000\n  * $198,000 to <$222,000: $8,670 + 9% of taxable income over $198,000\n  * $222,000 or more: $10,830 + 9.4% of taxable income over $222,000\n* **Minimum Tax / Franchise Tax:** \n  * There is no fixed dollar minimum corporate income tax (tax liability is $0 on taxable income under $25,000). \n  * Alaska does not impose a general corporate franchise tax based on net worth/capital stock. \n  * *Alternative Minimum Tax:* 18% of the applicable federal alternative minimum tax under 15 AAC 20.135.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official URLs:** \n  * Alaska Department of Revenue Tax Division: [https://tax.alaska.gov/programs/programs/index.aspx?60380](https://tax.alaska.gov/programs/programs/index.aspx?60380)\n  * Alaska State Legislature (AS § 43.20.011): [https://www.akleg.gov/basis/statutes.asp?media=print&secStart=43.20.011&secEnd=43.20.014](https://www.akleg.gov/basis/statutes.asp?media=print&secStart=43.20.011&secEnd=43.20.014)\n\n---\n\n### 3. State Sales and Use Tax & Local Jurisdictions\n* **Fact & Rates:** \n  * **State Level:** Alaska imposes no state sales tax and no state use tax (rate is 0.0%).\n  * **Local Jurisdictions:** Local municipalities (boroughs and cities) are authorized by statute (AS Title 29, including AS § 29.45.650) to levy local sales and use taxes (local rates typically range from 0% to over 7%).\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official URLs:** \n  * Alaska Department of Revenue Tax Division: [https://tax.alaska.gov/programs/programs/index.aspx?10002](https://tax.alaska.gov/programs/programs/index.aspx?10002)\n  * Alaska State Legislature (Title 29): [https://www.akleg.gov/basis/statutes.asp#29.45.650](https://www.akleg.gov/basis/statutes.asp#29.45.650)\n\n---\n\n### 4. Gross Receipts, Franchise, Margin, or Other Notable Business Taxes\n* **General Gross Receipts, Margin, or Franchise Tax:** Not found / does not exist. Alaska does not levy a broad-based statewide business gross receipts tax, Texas-style margin tax, or capital-stock franchise tax.\n* **Other Notable State Business Taxes (Administered by DOR Tax Division):**\n  * **Mining License Tax (AS § 43.65):** Levied on net income from mining operations in Alaska at graduated rates: $0 on net income up to $40,000; 3% on $40,000–$50,000; 5% on $50,000–$100,000; and 7% on net income over $100,000 (with a 3.5-year exemption for new operations under AS § 43.65.010).\n  * **Fisheries Business Tax (AS § 43.75):** Imposed on processors and exporters based on the value of raw fisheries resources (ranging from 1% to 5% depending on facility type and resource classification).\n  * **Oil and Gas Production Tax (AS § 43.55) & Property Tax (AS § 43.56):** Industry-specific severance and exploration/pipeline/production property taxes.\n  * **Biennial Corporation Tax / Filing Fee (AS § 10.06.845):** A flat $100 biennial fee paid by corporations to the Division of Corporations, Business and Professional Licensing.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official URLs:**\n  * Alaska Department of Revenue Tax Division (Mining License Tax): [https://tax.alaska.gov/programs/programs/index.aspx?60610](https://tax.alaska.gov/programs/programs/index.aspx?60610)\n  * Alaska State Legislature (Title 43): [https://www.akleg.gov/basis/statutes.asp#43.65.010](https://www.akleg.gov/basis/statutes.asp#43.65.010)",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Alaska does not impose an individual income tax, resulting in a 0% rate and no personal income tax return filing requirement. Under Alaska Statute § 43.20.012(a), state income tax does not apply to individuals or fiduciaries.",
+    "source_url": "https://tax.alaska.gov/programs/programs/index.aspx?10001",
+    "evidence": [
+     "individual income tax",
+     "does not apply to individuals",
+     "state income tax"
+    ],
+    "accepted": false,
+    "reason": "figures not on tax.alaska.gov: ['0', '012', '43.2']; not an official AK host: remotelaws.com; figures not on doa.alaska.gov: ['0', '012']; not an official AK host: www.billtrack50.com; not an official AK host: scholarship.law.duke.edu; not an official AK host: taxmath.org; not an official AK host: law.justia.com; not an official AK host: codes.findlaw.com; not an official AK host: www.mystatellc.com; not an official AK host: www.law.cornell.edu; not an official AK host: payproglobal.com; not an ",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Alaska levies a graduated corporate net income tax with rates starting at 0% for taxable income under $25,000 and reaching $10,830 plus 9.4% of taxable income over $222,000. There is no fixed dollar minimum corporate income tax and no general corporate franchise tax.",
+    "source_url": "https://tax.alaska.gov/programs/programs/index.aspx?60380",
+    "evidence": [
+     "Corporation Net Income Tax",
+     "taxable income over $222,000",
+     "9.4% of taxable income"
+    ],
+    "accepted": false,
+    "reason": "figures not on tax.alaska.gov: ['10830']; not an official AK host: remotelaws.com; figures not on doa.alaska.gov: ['0', '10830', '222000', '25000', '9.4']; not an official AK host: www.billtrack50.com; not an official AK host: scholarship.law.duke.edu; not an official AK host: taxmath.org; not an official AK host: law.justia.com; not an official AK host: codes.findlaw.com; not an official AK host: www.mystatellc.com; not an official AK host: www.law.cornell.edu; not an official AK host: payprogl",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Alaska does not levy a state sales or use tax, with a statewide rate of 0.0%. However, local municipalities such as boroughs and cities are authorized to impose their own local sales and use taxes.",
+    "source_url": "https://tax.alaska.gov/programs/programs/index.aspx?10002",
+    "evidence": [
+     "state sales tax",
+     "local sales and use taxes",
+     "boroughs and cities"
+    ],
+    "accepted": false,
+    "reason": "figures not on tax.alaska.gov: ['0']; not an official AK host: remotelaws.com; figures not on doa.alaska.gov: ['0']; not an official AK host: www.billtrack50.com; not an official AK host: scholarship.law.duke.edu; not an official AK host: taxmath.org; not an official AK host: law.justia.com; not an official AK host: codes.findlaw.com; not an official AK host: www.mystatellc.com; not an official AK host: www.law.cornell.edu; not an official AK host: payproglobal.com; not an official AK host: taxm",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "While Alaska imposes no broad-based gross receipts or franchise tax, it levies an industry-specific Mining License Tax on net income from mining operations at graduated rates ranging from 0% up to 7% on net income over $100,000. New mining operations receive a 3.5-year exemption under AS § 43.65.010.",
+    "source_url": "https://tax.alaska.gov/programs/programs/index.aspx?60610",
+    "evidence": [
+     "Mining License Tax",
+     "net income from mining operations",
+     "over $100,000"
+    ],
+    "accepted": false,
+    "reason": "figures not on tax.alaska.gov: ['0', '3.5']; not an official AK host: remotelaws.com; figures not on doa.alaska.gov: ['0', '100000', '3.5', '43.65']; not an official AK host: www.billtrack50.com; not an official AK host: scholarship.law.duke.edu; not an official AK host: taxmath.org; not an official AK host: law.justia.com; not an official AK host: codes.findlaw.com; not an official AK host: www.mystatellc.com; not an official AK host: www.law.cornell.edu; not an official AK host: payproglobal.c",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://remotelaws.com/state-income-tax/us-states/alaska/",
+   "https://doa.alaska.gov/dof/manuals/aam/resource/360.pdf",
+   "https://www.billtrack50.com/billdetail/1803056",
+   "https://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=1500&context=alr",
+   "https://taxmath.org/sources/",
+   "https://law.justia.com/codes/alaska/title-43/chapter-20/article-1/section-43-20-011/",
+   "https://codes.findlaw.com/ak/title-43-revenue-and-taxation/ak-st-sect-43-20-011/",
+   "https://www.mystatellc.com/corporation/how-to-form-a-corporation-in-alaska",
+   "https://www.law.cornell.edu/regulations/alaska/15-AAC-20.135",
+   "https://www.mystatellc.com/corporation/alaska-annual-report",
+   "https://payproglobal.com/saas-sales-tax/alaska/",
+   "https://taxmap.ai/sales-tax-rate/alaska",
+   "https://www.keka.com/free-tools/calculators/salary-paycheck-calculator/alaska",
+   "https://kb.osu.edu/server/api/core/bitstreams/a5deca94-ccf1-5c5f-9518-11d228e49489/content",
+   "https://www.lincolninst.edu/app/uploads/legacy-files/ak_january_2022.pdf",
+   "https://d2l2jhoszs7d12.cloudfront.net/state/Alaska/Alaska%20Department%20of%20Revenue/httptax.alaska.gov/Oil%20and%20Gas%20Property%20Tax/101.pdf",
+   "https://www.guidantfinancial.com/state-checklist/alaska/",
+   "https://www.malcatax.com/state-tax-forms"
+  ],
+  "error": ""
+ },
+ {
+  "state": "AK",
+  "section": "filing",
+  "notes": "### Individual Returns: Due Dates and Extensions\n* **Fact:** Alaska does not impose an individual income tax. Under AS 43.20.012(a), the Alaska Net Income Tax Act \"does not apply to an individual.\" Consequently, calendar-year individual returns, filing due dates, and extension provisions do not exist in Alaska.\n* **Applicability:** Tax years 2025 and 2026 (unchanged).\n* **Official URL:** https://www.akleg.gov/basis/statutes.asp#43.20.012\n\n---\n\n### Corporate and Pass-Through Return Due Dates and Extension Rules\n* **Fact:** \n  * **C Corporations:** Under AS 43.20.030(a), Alaska corporate income tax returns are due within 30 days after the federal return is required to be filed. For calendar-year C corporations (federal Form 1120 due April 15), the Alaska return is due May 15 (the 15th day of the 5th month). However, under AS 43.20.030(c), all corporate tax due must be paid at the same time as the federal return (April 15 / the 15th day of the 4th month). \n  * **Extensions (Corporations):** A federal extension (IRS Form 7004) automatically extends the Alaska filing deadline to 30 days after the federal extended due date (November 15 for calendar-year filers). Alaska does not provide a separate state extension request form; the corporation checks the extension box on the return and attaches a copy of the federal extension. An extension of time to file does not extend the time to pay.\n  * **Pass-Through Entities (Partnerships & S Corporations):**\n    * *Partnerships:* Under AS 43.20.030(a), partnerships that have a corporate partner must file Form 6900 within 30 days after the federal partnership return (Form 1065) is required to be filed (due April 14 for calendar-year partnerships). A federal extension automatically extends the Alaska filing due date to 30 days after the federal extended due date (October 15).\n    * *S Corporations:* S corporations file Form 6000 within 30 days after the federal Form 1120-S due date (due April 14 / 15th day of the 4th month). A federal extension extends the filing due date to 30 days after the federal extended due date (October 15).\n* **Applicability:** Tax years 2025 and 2026 (unchanged).\n* **Official URLs:** \n  * https://www.akleg.gov/basis/statutes.asp#43.20.030\n  * https://tax.alaska.gov/\n\n---\n\n### Elective Pass-Through Entity Tax (PTET)\n* **Fact:** Not found / does not exist. Because Alaska has no personal income tax, the state does not offer an elective pass-through entity tax.\n* **Applicability:** Tax years 2025 and 2026.\n* **Official URL:** https://tax.alaska.gov/\n\n---\n\n### Composite or Group Nonresident Returns for Pass-Through Entities\n* **Fact:** Not found / does not exist. Alaska does not tax individual income, so pass-through entities have no composite or group nonresident return filing mechanisms or requirements.\n* **Applicability:** Tax years 2025 and 2026.\n* **Official URL:** https://tax.alaska.gov/\n\n---\n\n### Estimated Tax Payments and Nonresident Withholding for Pass-Throughs\n* **Fact:**\n  * **Pass-Through Nonresident Withholding:** None required; Alaska does not impose withholding on income distributions to nonresident owners/partners.\n  * **Pass-Through Entity Estimated Taxes:** Pass-through entities themselves are pass-through and do not pay estimated taxes at the entity level.\n  * **Corporate Estimated Tax Requirements:** Under AS 43.20.021 and AS 43.20.030, corporations must make quarterly estimated payments if the estimated Alaska tax liability for the tax year is expected to exceed $500. For calendar-year filers, installments follow federal schedules and are due on the 15th day of the 4th, 6th, 9th, and 12th months (April 15, June 15, September 15, and December 15).\n* **Applicability:** Tax years 2025 and 2026 (unchanged).\n* **Official URLs:**\n  * https://www.akleg.gov/basis/statutes.asp#43.20.030\n  * https://tax.alaska.gov/\n\n---\n\n### Main Return Forms\n* **Individual:** None (Alaska has no individual income tax return form).\n* **Corporate:** \n  * **Form 6000:** Alaska Corporation Net Income Tax Return (standard return for C corporations and S corporations).\n  * **Form 6100:** Alaska Oil and Gas Corporation Net Income Tax Return.\n  * **Form 6240:** Corporation Net Income Tax Payment Voucher (used for estimated payments, extension payments, and payments of balance due).\n  * **Form 6220:** Underpayment of Estimated Tax by Corporations.\n* **Pass-Through Entities:**\n  * **Form 6900:** Alaska Partnership Information Return (along with Schedule K-1; required if the partnership has corporate partners).\n  * **Form 6000:** Filed by S corporations with the \"S Corporation\" box marked.\n* **Applicability:** Tax years 2025 and 2026 (unchanged).\n* **Official URL:** https://tax.alaska.gov/",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Alaska does not impose an individual income tax, as the Alaska Net Income Tax Act under AS 43.20.012(a) does not apply to an individual. Consequently, calendar-year individual returns, filing due dates, and extension provisions do not exist.",
+    "source_url": "https://www.akleg.gov/basis/statutes.asp#43.20.012",
+    "evidence": [
+     "does not apply to an individual",
+     "Net Income Tax Act"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.akleg.gov/basis/statutes.asp#43.20.012; not an official AK host: remotelaws.com; not an official AK host: taxmath.org; not an official AK host: law.justia.com; not an official AK host: www.instead.com; not an official AK host: www.zillionforms.com; not an official AK host: vertexaisearch.cloud.google.com; not an official AK host: www.thomsonreuters.com; not an official AK host: llcattorney.com; not an official AK host: www.taxformfinder.org; not an official AK host: d2l2j",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Alaska corporate income tax returns are due within 30 days after the federal return filing date (May 15 for calendar-year C corporations), but all tax due must be paid by the federal due date of April 15. A federal extension automatically extends the Alaska filing deadline to 30 days after the federal extended due date without requiring a separate state extension request.",
+    "source_url": "https://www.akleg.gov/basis/statutes.asp#43.20.030",
+    "evidence": [
+     "within 30 days after",
+     "federal return is required"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.akleg.gov/basis/statutes.asp#43.20.030; not an official AK host: remotelaws.com; not an official AK host: taxmath.org; not an official AK host: law.justia.com; not an official AK host: www.instead.com; not an official AK host: www.zillionforms.com; not an official AK host: vertexaisearch.cloud.google.com; not an official AK host: www.thomsonreuters.com; not an official AK host: llcattorney.com; not an official AK host: www.taxformfinder.org; not an official AK host: d2l2j",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Corporations must make quarterly estimated tax payments on the 15th day of the 4th, 6th, 9th, and 12th months if the estimated Alaska tax liability is expected to exceed $500. Pass-through entities do not pay entity-level estimated taxes, and Alaska does not require withholding on distributions to nonresident owners.",
+    "source_url": "https://www.akleg.gov/basis/statutes.asp#43.20.030",
+    "evidence": [
+     "estimated tax",
+     "payment of tax"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.akleg.gov/basis/statutes.asp#43.20.030; not an official AK host: remotelaws.com; not an official AK host: taxmath.org; not an official AK host: law.justia.com; not an official AK host: www.instead.com; not an official AK host: www.zillionforms.com; not an official AK host: vertexaisearch.cloud.google.com; not an official AK host: www.thomsonreuters.com; not an official AK host: llcattorney.com; not an official AK host: www.taxformfinder.org; not an official AK host: d2l2j",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The primary corporate return is Form 6000 (or Form 6100 for oil and gas corporations), with payments remitted using Form 6240. Partnerships with corporate partners file Form 6900, while S corporations file Form 6000 with the S corporation box checked.",
+    "source_url": "https://tax.alaska.gov/",
+    "evidence": [
+     "Form 6000",
+     "Form 6900",
+     "Corporation Net Income Tax"
+    ],
+    "accepted": false,
+    "reason": "figures not on tax.alaska.gov: ['6000', '6100', '6240', '6900']; not an official AK host: remotelaws.com; not an official AK host: taxmath.org; not an official AK host: law.justia.com; not an official AK host: www.instead.com; not an official AK host: www.zillionforms.com; not an official AK host: vertexaisearch.cloud.google.com; not an official AK host: www.thomsonreuters.com; not an official AK host: llcattorney.com; not an official AK host: www.taxformfinder.org; not an official AK host: d2l2",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://remotelaws.com/state-income-tax/us-states/alaska/",
+   "https://taxmath.org/sources/",
+   "https://law.justia.com/codes/alaska/title-43/chapter-20/article-1/section-43-20-030/",
+   "https://www.instead.com/state-tax-deadlines/2025-alaska-state-tax-deadlines",
+   "https://www.zillionforms.com/2021/I2132604447.PDF",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH75z1Ol5z8JbevwzJw4Bfx-tqYpHwWJ2F9M8XJhWNmiMffrW82VfaGlkscKtUEz-6RqJ7c_APFE6dP_t7iy571B_LoJahL5UH9BDYQCJ_T6HObbS-BC-y0emOEB5yUhBgaKjXxwcb_cuZ61s2GEqvGTfj1UZ1TKl-KbYlk",
+   "https://www.thomsonreuters.com/en-us/help/ultratax-cs/1120/states/all/extensions-quick-reference",
+   "https://llcattorney.com/states/ak/llc-formation-alaska",
+   "https://www.taxformfinder.org/forms/2025/2025-alaska-form-6900i.pdf",
+   "https://www.instead.com/state-tax-deadlines/2026-alaska-state-tax-deadlines",
+   "https://www.taxformfinder.org/forms/2020/2020-alaska-form-6240.pdf",
+   "https://d2l2jhoszs7d12.cloudfront.net/state/Alaska/Alaska%20Department%20of%20Revenue/httptax.alaska.gov/Corporate%20Income%20Tax/6750i.pdf",
+   "https://www.taxformcalculator.com/state-tax/alaska.html",
+   "https://www.taxformfinder.org/forms/2025/2025-alaska-form-6900i.pdf",
+   "https://www.taxformfinder.org/forms/2025/2025-alaska-form-6000i.pdf"
+  ],
+  "error": ""
+ }
+]

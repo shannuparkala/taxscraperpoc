@@ -1,0 +1,306 @@
+[
+ {
+  "state": "LA",
+  "section": "apportionment",
+  "notes": "",
+  "proposals": [],
+  "grounding_urls": [],
+  "error": ""
+ },
+ {
+  "state": "LA",
+  "section": "nexus",
+  "notes": "",
+  "proposals": [],
+  "grounding_urls": [],
+  "error": "LlmError"
+ },
+ {
+  "state": "LA",
+  "section": "rates",
+  "notes": "### 1. Individual Income Tax Rate(s)\n* **Fact & Rate:** Effective for taxable periods beginning on or after January 1, 2025, Louisiana imposes a flat individual income tax rate of **3%**. All prior graduated tax brackets and rates were repealed.\n* **Applicability:** Applies to both tax years **2025** and **2026**.\n* **Official URL:** \n  * https://revenue.louisiana.gov/IndividualIncomeTax\n  * https://revenue.louisiana.gov/TaxEducation/FaqDetail/2455\n\n---\n\n### 2. Corporate Income Tax, Franchise Tax, and Minimum Tax\n* **Corporate Income Tax Rate:** Effective for taxable periods beginning on or after January 1, 2025, corporate income tax is imposed at a flat rate of **5.5%**. The prior graduated brackets and rates were repealed.\n  * *Applicability:* Applies to both tax years **2025** and **2026**.\n* **Corporate Minimum Tax:** **Not found** (no minimum income tax is assessed).\n* **Corporation Franchise Tax:** \n  * *Tax Year 2025:* Imposed at **$2.75** per $1,000 (or major fraction thereof) of taxable capital in excess of $300,000 (new entities pay an initial tax of $110 for their first period).\n  * *Tax Year 2026:* **Repealed** for franchise tax periods beginning on or after January 1, 2026.\n* **Official URLs:**\n  * https://revenue.louisiana.gov/CorporationIncomeTax\n  * https://revenue.louisiana.gov/TaxEducation/FaqDetail/2460\n  * https://revenue.louisiana.gov/TaxEducation/FaqDetail/2458\n  * https://revenue.louisiana.gov/TaxEducation/FaqDetail/1206\n\n---\n\n### 3. State Sales and Use Tax Rate & Local Jurisdictions\n* **State Sales and Use Tax Rate:** Effective January 1, 2025, the Louisiana state general sales and use tax rate is **5%** (increased from 4.45%).\n* **Local Jurisdictions:** Yes, political subdivisions and local taxing jurisdictions levy and collect additional local sales and use taxes.\n* **Applicability:** Applies to both tax years **2025** and **2026**.\n* **Official URLs:**\n  * https://revenue.louisiana.gov/Sales/GeneralSalesAndUseTax\n  * https://revenue.louisiana.gov/TaxEducation/FaqDetail/663\n  * https://revenue.louisiana.gov/SpecialEvents\n\n---\n\n### 4. Gross Receipts, Franchise, Margin, or Other Notable Business Taxes\n* **General Gross Receipts / Margin Tax:** **Not found** (Louisiana does not impose a general statewide gross receipts or margin tax).\n* **Franchise & Industry Taxes:**\n  * *Corporation Franchise Tax:* Levied on corporate capital in **2025**; repealed beginning January 1, **2026**.\n  * *Selective Gross Receipts / Utility Franchise Taxes:* The state levies special business utility and excise taxes, including the Natural Gas Franchise Tax (Form NGFT-100 / R-9035) and the Transportation and Communication Utilities Tax (Form R-5201).\n  * *Severance Taxes:* Imposed on the extraction of natural resources (oil, natural gas, and timber).\n* **Applicability:** Selective taxes apply to both **2025** and **2026**; the Corporation Franchise Tax changes (is repealed) between 2025 and 2026.\n* **Official URLs:**\n  * https://revenue.louisiana.gov/CorporationIncomeTax\n  * https://revenue.louisiana.gov/TaxForms/Businesses",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Louisiana imposes a flat individual income tax rate of 3% for taxable periods beginning on or after January 1, 2025, with all prior graduated tax brackets repealed.",
+    "source_url": "https://revenue.louisiana.gov/IndividualIncomeTax",
+    "evidence": [
+     "individual income tax",
+     "flat rate of 3%",
+     "January 1, 2025"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://revenue.louisiana.gov/IndividualIncomeTax; unreadable: https://revenue.louisiana.gov/individuals/general-resources/individual-income-tax/; unreadable: https://revenue.louisiana.gov/tax-forms/individuals/; unreadable: https://revenue.louisiana.gov/tax-education-and-faqs/faqs/income-tax-reform/what-are-the-individual-income-tax-rates-and-brackets/; unreadable: https://revenue.louisiana.gov/businesses/widely-used-tax-types/corporate-income-franchise-tax/; unreadable: https://rev",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025
+    ],
+    "value": "Corporate income tax is imposed at a flat rate of 5.5%. Corporation franchise tax is levied at $2.75 per $1,000 of taxable capital in excess of $300,000, with an initial tax of $110 for new entities.",
+    "source_url": "https://revenue.louisiana.gov/CorporationIncomeTax",
+    "evidence": [
+     "flat rate of 5.5%",
+     "Corporation Franchise Tax",
+     "taxable capital in excess of $300,000"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://revenue.louisiana.gov/CorporationIncomeTax; unreadable: https://revenue.louisiana.gov/individuals/general-resources/individual-income-tax/; unreadable: https://revenue.louisiana.gov/tax-forms/individuals/; unreadable: https://revenue.louisiana.gov/tax-education-and-faqs/faqs/income-tax-reform/what-are-the-individual-income-tax-rates-and-brackets/; unreadable: https://revenue.louisiana.gov/businesses/widely-used-tax-types/corporate-income-franchise-tax/; unreadable: https://re",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2026
+    ],
+    "value": "Corporate income tax is imposed at a flat rate of 5.5%. The corporation franchise tax is repealed for periods beginning on or after January 1, 2026.",
+    "source_url": "https://revenue.louisiana.gov/CorporationIncomeTax",
+    "evidence": [
+     "flat rate of 5.5%",
+     "Corporation Franchise Tax",
+     "January 1, 2026"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://revenue.louisiana.gov/CorporationIncomeTax; unreadable: https://revenue.louisiana.gov/individuals/general-resources/individual-income-tax/; unreadable: https://revenue.louisiana.gov/tax-forms/individuals/; unreadable: https://revenue.louisiana.gov/tax-education-and-faqs/faqs/income-tax-reform/what-are-the-individual-income-tax-rates-and-brackets/; unreadable: https://revenue.louisiana.gov/businesses/widely-used-tax-types/corporate-income-franchise-tax/; unreadable: https://re",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The Louisiana state general sales and use tax rate is 5%. Political subdivisions and local taxing jurisdictions levy and collect additional local sales and use taxes.",
+    "source_url": "https://revenue.louisiana.gov/Sales/GeneralSalesAndUseTax",
+    "evidence": [
+     "sales and use tax",
+     "rate is 5%",
+     "local taxing jurisdictions"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://revenue.louisiana.gov/Sales/GeneralSalesAndUseTax; unreadable: https://revenue.louisiana.gov/individuals/general-resources/individual-income-tax/; unreadable: https://revenue.louisiana.gov/tax-forms/individuals/; unreadable: https://revenue.louisiana.gov/tax-education-and-faqs/faqs/income-tax-reform/what-are-the-individual-income-tax-rates-and-brackets/; unreadable: https://revenue.louisiana.gov/businesses/widely-used-tax-types/corporate-income-franchise-tax/; unreadable: htt",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Louisiana levies special business utility and excise taxes, including the Natural Gas Franchise Tax and the Transportation and Communication Utilities Tax. The state also imposes severance taxes on the extraction of natural resources.",
+    "source_url": "https://revenue.louisiana.gov/TaxForms/Businesses",
+    "evidence": [
+     "Natural Gas Franchise Tax",
+     "Transportation and Communication Utilities",
+     "severance taxes"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://revenue.louisiana.gov/TaxForms/Businesses; unreadable: https://revenue.louisiana.gov/individuals/general-resources/individual-income-tax/; unreadable: https://revenue.louisiana.gov/tax-forms/individuals/; unreadable: https://revenue.louisiana.gov/tax-education-and-faqs/faqs/income-tax-reform/what-are-the-individual-income-tax-rates-and-brackets/; unreadable: https://revenue.louisiana.gov/businesses/widely-used-tax-types/corporate-income-franchise-tax/; unreadable: https://rev",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://revenue.louisiana.gov/individuals/general-resources/individual-income-tax/",
+   "https://revenue.louisiana.gov/tax-forms/individuals/",
+   "https://revenue.louisiana.gov/tax-education-and-faqs/faqs/income-tax-reform/what-are-the-individual-income-tax-rates-and-brackets/",
+   "https://revenue.louisiana.gov/businesses/widely-used-tax-types/corporate-income-franchise-tax/",
+   "https://revenue.louisiana.gov/tax-education-and-faqs/faqs/income-tax-reform/what-is-the-corporation-income-tax-rate",
+   "https://revenue.louisiana.gov/businesses/general-sales-and-use-taxes/general-sales-use-tax/",
+   "https://revenue.louisiana.gov/tax-forms/businesses/",
+   "https://revenue.louisiana.gov/tax-education-and-faqs/faqs/corporation-income-franchise-taxes/what-are-the-changes-made-with-the-passge-of-the-constitutional-amendment-2-on-november-13-2021-by-voters-to-corporation-franchise-tax/",
+   "https://www.legis.la.gov/legis/ViewDocument.aspx?d=1314650",
+   "https://legis.la.gov/legis/ViewDocument.aspx?d=1308180",
+   "https://legis.la.gov/legis/ViewDocument.aspx?d=1308180",
+   "https://revenue.louisiana.gov/tax-education-and-faqs/faqs/income-tax-reform/is-the-corporation-franchise-tax-repealed/",
+   "https://revenue.louisiana.gov/tax-education-and-faqs/faqs/income-tax-reform/what-is-the-corporation-income-tax-rate",
+   "https://revenue.louisiana.gov/businesses/general-resources/fairs-festivals-and-other-special-events/",
+   "https://revenue.louisiana.gov/tax-education-and-faqs/faqs/sales-tax/what-is-the-sales-tax-rate-in-louisiana/",
+   "https://revenue.louisiana.gov/tax-education-and-faqs/faqs/sales-tax/what-is-the-sales-tax-rate-in-louisiana/",
+   "https://revenue.louisiana.gov/tax-forms/businesses/",
+   "https://revenue.louisiana.gov/tax-forms/businesses/",
+   "https://revenue.louisiana.gov/tax-policy/policies"
+  ],
+  "error": ""
+ },
+ {
+  "state": "LA",
+  "section": "filing",
+  "notes": "### 1. Individual Income Tax Returns & Extensions (Calendar-Year Filers)\n* **Due Date:** May 15 following the close of the calendar tax year. If May 15 falls on a weekend or legal holiday, the return is due on the next business day. \n  * *Tax Year 2025:* Due Friday, May 15, 2026.\n  * *Tax Year 2026:* Due Friday, May 15, 2027.\n* **Extension Rules:** Under Act 410 (2022) and LAC 61:III.2501, Louisiana provides an **automatic 6-month filing extension** to November 15 (Nov. 16, 2026, for tax year 2025 since Nov. 15 falls on a Sunday). \n  * Taxpayers **do not** need to submit a paper or electronic request to obtain the automatic extension.\n  * The extension grants additional time to file only, not to pay. Taxes unpaid by May 15 are subject to interest and late payment penalties. Extension payments can be made electronically via LaTAP or by mail with Form R-2868V (*Individual Income Tax Automatic Extension Payment Voucher*).\n* **Rate Change (TY 2025 & 2026):** Effective for tax years beginning on or after January 1, 2025, Louisiana replaced graduated brackets (1.85%, 3.5%, 4.25%) with a flat individual income tax rate of **3.0%**.\n* **Official URLs:** \n  * https://revenue.louisiana.gov/IndividualIncomeTax\n  * https://revenue.louisiana.gov/NewsAndAnnouncements/Details/14357\n  * https://revenue.louisiana.gov/IncomeTaxExtensionPayments\n\n---\n\n### 2. Corporate & Pass-Through Entity Return Due Dates & Extension Rules\n* **Corporation Income Tax:**\n  * **Due Date:** Due on or before the 15th day of the fifth month following the close of the tax year (calendar-year due date is **May 15**).\n  * **Extension Rules:** Louisiana grants an automatic 6-month extension (to November 15 for calendar-year filers) **if the corporation timely requested a federal extension**. No state extension application form is required; the taxpayer checks the federal extension box on the return when filed. Extension to file only; payments must be remitted by the original due date using Form CIFT-620EXT-V / CIT-620EXT-V or electronically through LaTAP.\n  * *Law Change note:* Corporation income tax shifted to a flat **5.5%** rate for periods beginning on or after Jan. 1, 2025. The corporate franchise tax is repealed for franchise tax periods beginning on or after Jan. 1, 2026.\n* **Pass-Through Entities (Partnerships & Composite Filers):**\n  * **Due Date:** Due on or before the 15th day of the fifth month after the close of the fiscal year (calendar-year due date is **May 15**).\n  * **Extension Rules:** Under Act 410 (2022) / LAC 61:III.2501, partnerships receive an **automatic 6-month extension** (to November 15 for calendar filers). No paper or electronic extension request is required. Extension payments are remitted using Form R-6467V (*Partnership Automatic Extension Composite Payment Voucher*) or via LaTAP.\n* **Official URLs:**\n  * https://revenue.louisiana.gov/CorporationIncomeTax\n  * https://revenue.louisiana.gov/PartnershipTax\n  * https://revenue.louisiana.gov/TaxEducation/FAQs/Details/2884\n\n---\n\n### 3. Elective Pass-Through Entity Tax (PTET)\n* **Existence:** Yes, authorized under **La. R.S. 47:287.732.2**. Eligible Subchapter S corporations and entities taxed as partnerships for federal income tax purposes may elect to be taxed at the entity level.\n* **Tax Rate:** Under La. R.S. 47:287.732.2(B), the PTET is computed at the rates levied on individuals pursuant to La. R.S. 47:32. \n  * *Tax Years 2025 and 2026:* **Flat 3.0%** (reflecting the repeal of graduated individual tax brackets effective Jan. 1, 2025).\n* **How to Elect:** Submit **Form R-6980** (*Tax Election for Pass-Through Entities*) and receive LDR acceptance. Once accepted, the entity files on the corporate income tax return. The election is binding for the initial year and all subsequent years until formally terminated via Form R-7004.\n* **When to Elect:** The election may be made:\n  1. During the taxable year prior to the taxable year in which the election is first effective;\n  2. During the taxable year in which the election is first effective; or\n  3. On or before the 15th day of the fourth month after the close of the taxable year in which the election is first effective (i.e., **April 15** for a calendar-year entity).\n* **Official URLs:**\n  * https://legis.la.gov/legis/Law.aspx?d=1148816\n  * https://revenue.louisiana.gov/TaxEducation/FAQs/Details/2877\n  * https://revenue.louisiana.gov/TaxEducation/FAQs/Details/18165\n\n---\n\n### 4. Composite Returns for Pass-Through Entities\n* **Requirement:** Under **La. R.S. 47:201.1** and LAC 61:I.1401, entities treated as partnerships engaging in activities in Louisiana must file a composite return and make composite payments on behalf of all nonresident individual partners/members.\n* **Exceptions:** A composite filing is not required if all nonresident partners are corporations, partnerships, or tax-exempt trusts, or if the nonresident partner files an agreement/affidavit with LDR agreeing to timely file and pay Louisiana income tax independently.\n* **Tax Rate:** Paid at the maximum individual tax rate under La. R.S. 47:201.1(D)(1).\n  * *Tax Years 2025 and 2026:* **3.0%**. *(Pre-2025 was 4.25%).*\n* **Restrictions:**\n  * Louisiana resident partners, C corporations, and parent partnerships cannot be included in composite tax calculations (they must file their own respective returns).\n  * An entity filing a composite return cannot make the PTE tax election under R.S. 47:287.732.2 for the same tax year.\n* **Official URLs:**\n  * https://revenue.louisiana.gov/PartnershipTax\n  * https://legis.la.gov/legis/Law.aspx?d=102875\n\n---\n\n### 5. Estimated Tax Payments & Nonresident Withholding for Pass-Throughs\n* **Estimated Tax Requirements:**\n  * **Individuals:** Required when the net tax liability exceeds withholding and credits by more than $1,000 for single filers ($2,000 for married filing jointly). Paid using Form IT-540ES or via LaTAP. Underpayment penalty is **12% annually** under La. R.S. 47:118.\n  * **Corporations / Electing PTEs:** Required to pay estimated corporate income tax using Form CIFT-620ES / CIT-620ES or via LaTAP.\n  * **Composite Partnerships:** Form R-6922ES (*Declaration of Estimated Tax for Composite Partnership*) is provided to submit estimated composite payments.\n* **Pass-Through Nonresident Withholding:**\n  * Louisiana handles nonresident pass-through income through the **mandatory composite return/payment regime** under La. R.S. 47:201.1 rather than a separate partner wage-style withholding mechanism. If nonresident partners do not submit an affidavit agreeing to file independently, the partnership pays tax on their distributive share at the entity level.\n* **Official URLs:**\n  * https://revenue.louisiana.gov/DeclarationOfEstimatedIncomeTaxes\n  * https://revenue.louisiana.gov/PartnershipTax\n\n---\n\n### 6. Main Return Forms\n* **Individual Income Tax:**\n  * **Form IT-540:** Louisiana Resident Individual Income Tax Return.\n  * **Form IT-540B:** Nonresident and Part-Year Resident Individual Income Tax Return.\n* **Corporate Income Tax / Electing PTEs:**\n  * **Form CIFT-620 (or CIT-620):** Corporation Income and Franchise Tax Return (used by standard C corporations as well as entities electing entity-level taxation under R.S. 47:287.732.2).\n* **Pass-Through Entities:**\n  * **Form IT-565:** Partnership Return of Income (informational return).\n  * **Form R-6922:** Composite Partnership Tax Return.\n  * **Form R-6980:** Tax Election for Pass-Through Entities (PTET election form).\n  * **Form R-7004:** Termination of the Pass-Through Entity Tax Election.\n* **Official URLs:**\n  * https://revenue.louisiana.gov/TaxForms\n  * https://revenue.louisiana.gov/TaxForms/Businesses\n  * https://revenue.louisiana.gov/TaxForms/Individuals",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Individual income tax returns for calendar-year filers are due on May 15 following the close of the tax year. Louisiana grants an automatic 6-month extension to November 15 to file without requiring a paper or electronic application, though unpaid taxes remain due by May 15.",
+    "source_url": "https://revenue.louisiana.gov/IndividualIncomeTax",
+    "evidence": [
+     "May 15",
+     "automatic 6-month filing extension",
+     "November 15"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://revenue.louisiana.gov/IndividualIncomeTax; unreadable: https://revenue.louisiana.gov/individuals/general-resources/individual-income-tax/; unreadable: https://revenue.louisiana.gov/businesses/widely-used-tax-types/partnership-tax/; unreadable: https://revenue.louisiana.gov/news-and-announcements/2026/new-news%20&%20announcement/; unreadable: https://revenue.louisiana.gov/tax-education-and-faqs/faqs/general-questions/can-i-request-a-state-income-tax-extension-if-i-am-unable-to",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Calendar-year corporate income tax and partnership returns are due on or before May 15. Corporations obtain an automatic 6-month extension to November 15 if a federal extension was timely requested, while partnerships receive an automatic 6-month extension without needing to submit a request.",
+    "source_url": "https://revenue.louisiana.gov/CorporationIncomeTax",
+    "evidence": [
+     "May 15",
+     "automatic 6-month extension",
+     "fifth month following"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://revenue.louisiana.gov/CorporationIncomeTax; unreadable: https://revenue.louisiana.gov/individuals/general-resources/individual-income-tax/; unreadable: https://revenue.louisiana.gov/businesses/widely-used-tax-types/partnership-tax/; unreadable: https://revenue.louisiana.gov/news-and-announcements/2026/new-news%20&%20announcement/; unreadable: https://revenue.louisiana.gov/tax-education-and-faqs/faqs/general-questions/can-i-request-a-state-income-tax-extension-if-i-am-unable-t",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Under La. R.S. 47:287.732.2, eligible partnerships and S corporations can elect to be taxed at the entity level at a flat 3.0% rate. The election is made on Form R-6980 during the prior tax year, during the effective tax year, or on or before the 15th day of the fourth month after the close of the effective tax year.",
+    "source_url": "https://revenue.louisiana.gov/TaxEducation/FAQs/Details/2877",
+    "evidence": [
+     "Form R-6980",
+     "Pass-Through Entities",
+     "fourth month after the close"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://revenue.louisiana.gov/TaxEducation/FAQs/Details/2877; unreadable: https://revenue.louisiana.gov/individuals/general-resources/individual-income-tax/; unreadable: https://revenue.louisiana.gov/businesses/widely-used-tax-types/partnership-tax/; unreadable: https://revenue.louisiana.gov/news-and-announcements/2026/new-news%20&%20announcement/; unreadable: https://revenue.louisiana.gov/tax-education-and-faqs/faqs/general-questions/can-i-request-a-state-income-tax-extension-if-i-a",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "composite",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Partnerships operating in Louisiana must file a composite return and pay tax at a 3.0% rate on behalf of nonresident individual partners who do not file an agreement to pay independently. Resident partners and C corporations cannot be included in composite returns, and composite filers cannot make the elective pass-through entity tax election.",
+    "source_url": "https://revenue.louisiana.gov/PartnershipTax",
+    "evidence": [
+     "composite return",
+     "nonresident individual partners",
+     "composite payments"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://revenue.louisiana.gov/PartnershipTax; unreadable: https://revenue.louisiana.gov/individuals/general-resources/individual-income-tax/; unreadable: https://revenue.louisiana.gov/businesses/widely-used-tax-types/partnership-tax/; unreadable: https://revenue.louisiana.gov/news-and-announcements/2026/new-news%20&%20announcement/; unreadable: https://revenue.louisiana.gov/tax-education-and-faqs/faqs/general-questions/can-i-request-a-state-income-tax-extension-if-i-am-unable-to-file",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Individual estimated payments are required if net tax liability exceeds withholding and credits by over $1,000 for single filers or $2,000 for joint filers, subject to a 12% annual underpayment penalty. Louisiana does not require separate wage-style partner withholding, instead requiring partnerships to make composite estimated payments using Form R-6922ES.",
+    "source_url": "https://revenue.louisiana.gov/DeclarationOfEstimatedIncomeTaxes",
+    "evidence": [
+     "Form IT-540ES",
+     "net tax liability exceeds",
+     "estimated tax payment"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://revenue.louisiana.gov/DeclarationOfEstimatedIncomeTaxes; unreadable: https://revenue.louisiana.gov/individuals/general-resources/individual-income-tax/; unreadable: https://revenue.louisiana.gov/businesses/widely-used-tax-types/partnership-tax/; unreadable: https://revenue.louisiana.gov/news-and-announcements/2026/new-news%20&%20announcement/; unreadable: https://revenue.louisiana.gov/tax-education-and-faqs/faqs/general-questions/can-i-request-a-state-income-tax-extension-if-",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Key forms include Form IT-540 and Form IT-540B for individuals, Form CIFT-620 for corporations and electing pass-through entities, and Form IT-565 for partnerships. Additional pass-through forms include Form R-6922 for composite returns, Form R-6980 for the pass-through entity tax election, and Form R-7004 for election termination.",
+    "source_url": "https://revenue.louisiana.gov/TaxForms",
+    "evidence": [
+     "Form IT-540",
+     "Form CIFT-620",
+     "Form IT-565",
+     "Form R-6922"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://revenue.louisiana.gov/TaxForms; unreadable: https://revenue.louisiana.gov/individuals/general-resources/individual-income-tax/; unreadable: https://revenue.louisiana.gov/businesses/widely-used-tax-types/partnership-tax/; unreadable: https://revenue.louisiana.gov/news-and-announcements/2026/new-news%20&%20announcement/; unreadable: https://revenue.louisiana.gov/tax-education-and-faqs/faqs/general-questions/can-i-request-a-state-income-tax-extension-if-i-am-unable-to-file-my-re",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://revenue.louisiana.gov/individuals/general-resources/individual-income-tax/",
+   "https://revenue.louisiana.gov/businesses/widely-used-tax-types/partnership-tax/",
+   "https://revenue.louisiana.gov/news-and-announcements/2026/new-news%20&%20announcement/",
+   "https://revenue.louisiana.gov/tax-education-and-faqs/faqs/general-questions/can-i-request-a-state-income-tax-extension-if-i-am-unable-to-file-my-return-before-the-due-date/",
+   "https://revenue.louisiana.gov/tax-policy/rules-regulations",
+   "https://revenue.louisiana.gov/tax-professionals/general-resources/income-tax-extension-payments/",
+   "https://revenue.louisiana.gov/tax-education-and-faqs/faqs/income-tax-reform/what-are-the-income-tax-rates-for-s-corps-and-other-pass-through-entities-making-the-pte-election/",
+   "https://revenue.louisiana.gov/businesses/widely-used-tax-types/corporate-income-franchise-tax/",
+   "https://revenue.louisiana.gov/tax-education-and-faqs/faqs/corporation-income-franchise-taxes/how-do-i-request-an-extension-to-file-a-louisiana-corporation-income-and-franchise-taxes-return/",
+   "https://revenue.louisiana.gov/tax-forms/businesses/",
+   "https://revenue.louisiana.gov/tax-education-and-faqs/faqs/income-tax-reform/what-is-the-corporation-income-tax-rate/",
+   "https://revenue.louisiana.gov/tax-forms/individuals/",
+   "https://revenue.louisiana.gov/tax-education-and-faqs/faqs/corporation-income-franchise-taxes/does-a-corporation-taxed-as-an-s-corporation-federally-have-to-make-the-pass-through-entity-tax-election/",
+   "https://www.legis.la.gov/legis/Law.aspx?d=1148883",
+   "https://www.legis.la.gov/legis/LawPrint.aspx?d=1148889",
+   "https://revenue.louisiana.gov/tax-forms/individuals/",
+   "https://www.legis.la.gov/legis/Law.aspx?d=1148883",
+   "https://revenue.louisiana.gov/businesses/widely-used-tax-types/partnership-tax/",
+   "https://www.legis.la.gov/legis/Law.aspx?d=101460",
+   "https://www.legis.la.gov/legis/Law.aspx?d=101460",
+   "https://www.legis.la.gov/legis/LawPrint.aspx?d=1148883",
+   "https://revenue.louisiana.gov/individuals/general-resources/declaration-of-estimated-income-taxes/",
+   "https://revenue.louisiana.gov/individuals/general-resources/declaration-of-estimated-income-taxes/",
+   "https://revenue.louisiana.gov/tax-forms/",
+   "https://dam.ldr.la.gov/taxforms/210NRAi(1_13)F.pdf",
+   "https://revenue.louisiana.gov/tax-education-and-faqs/faqs/corporation-income-franchise-taxes/with-the-new-tax-rates-effective-for-the-2022-tax-year-how-do-i-estimate-my-corporation-income-tax-liability-in-order-to-make-estimated-payments/",
+   "https://revenue.louisiana.gov/tax-forms/businesses/",
+   "https://revenue.louisiana.gov/tax-forms/businesses/",
+   "https://revenue.louisiana.gov/businesses/widely-used-tax-types/partnership-tax/",
+   "https://revenue.louisiana.gov/tax-education-and-faqs/tax-education"
+  ],
+  "error": ""
+ }
+]

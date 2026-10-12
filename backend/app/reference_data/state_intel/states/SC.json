@@ -1,0 +1,172 @@
+{
+  "code": "SC",
+  "name": "South Carolina",
+  "sections": {
+    "apportionment": {
+      "fields": [
+        {
+          "key": "sourcing",
+          "label": "Sales sourcing (services and intangibles)",
+          "value": "Receipts from services and intangibles are sourced under an income-producing activity and cost of performance standard. Sourcing to South Carolina occurs if or to the extent the income-producing activity is performed within the state.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.scstatehouse.gov/code/t12c006.php",
+          "source_citation": "Code of Laws - Title 12 - Chapter 6- - TAXATION",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "(c) income from intangible personal property, including annuities, dividends, interest, and gains that is derived from property employed in a trade, business, profession, or occupation carried on in this State."
+        },
+        {
+          "key": "special_industries",
+          "label": "Special industry rules",
+          "value": "Special industry apportionment formulas apply to railroad companies, motor carriers, telephone service companies, pipeline companies, airline companies, and shipping lines.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.scstatehouse.gov/code/t12c006.php",
+          "source_citation": "Code of Laws - Title 12 - Chapter 6- - TAXATION",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "(1)(a) Railroad companies shall use a fraction in which the numerator is railway operating revenue from business done within this State during the taxable year and the denominator is total railway operating revenue from all business done by the taxpayer as shown by its records kept in accordance with the Uniform System of Accounts prescribed by the Interstate Commerce Commission."
+        }
+      ]
+    },
+    "nexus": {
+      "fields": [
+        {
+          "key": "income_nexus",
+          "label": "Income/franchise tax nexus",
+          "value": "South Carolina imposes corporate income tax on corporations transacting, conducting, or doing business in the state, or having income within the state, through physical presence or economic nexus without a bright-line factor threshold. Franchise tax applies to domestic corporations, qualified foreign corporations, and corporations required to file an income tax return.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.scstatehouse.gov/code/t12c006.php",
+          "source_citation": "Code of Laws - Title 12 - Chapter 6- - TAXATION",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Role of distribution facility in determining nexus with state for income tax and corporate license fee purposes."
+        },
+        {
+          "key": "sales_economic_nexus",
+          "label": "Sales/use tax: economic nexus",
+          "value": "Remote sellers establish economic nexus if gross revenue exceeds $100,000 from sales of tangible personal property, products transferred electronically, or services delivered into South Carolina during the previous or current calendar year. South Carolina does not enforce a transaction count threshold.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://dor.sc.gov/sites/dor/files/Documents/Policy%20Manuals/SC%20Sales%20Tax%20Manual.pdf",
+          "source_citation": "Sales and Use Tax Manual, 2025 Edition",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "A marketplace facilitator whose gross revenue from sales of tangible personal property 5 (whether such property is owned by the marketplace facilitator or others), products transferred electronically, and services delivered into South Carolina exceeds $100,000 in the previous calendar year or the current calendar year has economic nexus (i.e., substantial nexus) with South Carolina."
+        },
+        {
+          "key": "pl_86_272",
+          "label": "P.L. 86-272",
+          "value": "South Carolina recognizes Public Law 86-272 protection from net income tax when an out-of-state business's sole activity in the state is soliciting orders for tangible personal property approved and filled from outside the state. The protection does not apply to the corporate license fee franchise tax, services, leasing, or intangibles.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://dor.sc.gov/income-tax-nexus-0",
+          "source_citation": "SC Revenue Ruling #98-3",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "any other activity the taxpayer has in South Carolina is protected under Public Law 86-272.1 Public Law 86-272 limits the power of South Carolina to impose net income taxes on income that out-of-state companies derive from the sale of personal property when the only business activity within South Carolina is the solicitation of orders by such company for sales of tangible personal property, which orders are sent outside South Carolina for approval or rejection, and, if approved, are filled by sh"
+        }
+      ]
+    },
+    "rates": {
+      "fields": [
+        {
+          "key": "individual",
+          "label": "Individual income tax",
+          "value": "South Carolina imposes a graduated individual income tax with three brackets of 0%, 3%, and a top rate of 6.0%, where taxable income of $100,000 or more is computed as (Taxable Income × 6%) − $642. Qualified active trade or business income from pass-through entities may be taxed at an elective flat rate of 3%.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.scstatehouse.gov/code/t12c006.php",
+          "source_citation": "Code of Laws - Title 12 - Chapter 6- - TAXATION",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "At Least- But LessThan- -Tax Owed- $0 $3,560 0% $3,560 $17,830 3% times the amount minus $107 $17,830 6.0% times the amount minus $642 2022 Act No."
+        },
+        {
+          "key": "individual",
+          "label": "Individual income tax",
+          "value": "Under Act 110 of 2026, the individual income tax structure features two brackets: 1.99% for taxable income between $0 and $29,999, and (5.21% × taxable income) − $966 for taxable income of $30,000 or more.",
+          "years": [
+            2026
+          ],
+          "source_url": "https://dor.sc.gov/sites/dor/files/policies/IL26-20.pdf",
+          "source_citation": "SC Information Letter #26-20",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Taxable Income 2026 Tax Computation $0 - $29,999 1.99% times taxable income $30,000 or more (5.21% times taxable income) minus $966 The taxable income a mounts in the brackets will be adjusted each year using the Chained Consumer Price Index for All Consumers, as provided in Section 12-6-520 of the South Carolina Code."
+        },
+        {
+          "key": "corporate",
+          "label": "Corporate income/franchise tax",
+          "value": "The corporate income tax rate is 5% for C-corporations and public utilities, and 4.5% for banks, with no minimum corporate income tax. The annual corporate license fee is $15 plus 0.1% of capital stock and paid-in surplus, with a minimum fee of $25.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://dor.sc.gov/business-income-taxes/corporate/corporate-faqs",
+          "source_citation": "Corporate FAQs | SCDOR",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "License fee What is the License Fee rate? The License Fee rate is 0.1% of the corporation's capital stock and paid-in surplus plus $15."
+        },
+        {
+          "key": "sales",
+          "label": "Sales and use tax",
+          "value": "The statewide sales and use tax rate is 6%. Local jurisdictions may impose additional local sales and use taxes typically adding 1% to 2%, resulting in combined rates generally ranging from 6% to 9%.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://dor.sc.gov/sites/dor/files/forms/IITPacket_2025.pdf",
+          "source_citation": "https://dor.sc.gov/sites/dor/files/forms/IITPacket_2025.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Use Tax rates The state Sales and Use Tax rate is 6% plus the applicable local Use Tax rate of the county in which you are located or other applicable rate wherever tangible personal property was delivered."
+        },
+        {
+          "key": "other_business",
+          "label": "Other notable business taxes",
+          "value": "Public utilities are subject to an annual license fee of 0.1% of the fair market value of property owned and used in the state plus 0.3% of gross receipts from regulated business services in South Carolina, with a $25 minimum. Pass-through business owners may elect to have active trade or business income taxed at a flat rate of 3%.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://dor.sc.gov/business-income-taxes/corporate/public-utility",
+          "source_citation": "Public Utility | SCDOR",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "​0.1% of the fair market value of property owned and used in South Carolina to conduct business, as determined by the SCDOR for the prior year’s Property Tax 0.3% of gross receipts from services from regulated business in South Carolina during the prior tax year The minimum License Fee is $25."
+        }
+      ]
+    },
+    "filing": {
+      "fields": [
+        {
+          "key": "composite",
+          "label": "Composite returns",
+          "value": "Pass-through entities may file a composite return on Form SC1040 on behalf of two or more qualifying nonresident owners who submit Form I-338. Composite returns are due April 15 for calendar-year filers, and a six-month extension can be requested via Form SC4868.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://dor.sc.gov/income-tax-withholding-withholding-south-carolina-income-nonresident-shareholders-and-partners-1",
+          "source_citation": "SC Temporary Revenue Procedure #17-2",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "WHAT FORM IS USED TO FILE THE COMPOSITE RETURN? A form SC1040, “Individual Income Tax Return,” is modified and used by the S-corporation or partnership to file a composite return on behalf of its fiduciary and individual shareholders and partners."
+        }
+      ]
+    }
+  }
+}

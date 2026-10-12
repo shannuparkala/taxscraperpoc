@@ -1,0 +1,446 @@
+[
+ {
+  "state": "TN",
+  "section": "apportionment",
+  "notes": "### 1. Apportionment Formula for Multistate Business Income\n\n* **Facts & Figures:**\n  * Under the Tennessee Works Tax Act (Public Chapter 377, 2023), Tennessee transitioned from a three-factor formula to a single sales factor apportionment formula:\n    * **Fiscal years ending before December 31, 2025:** For tax years ending on or after December 31, 2024, but before December 31, 2025, the standard three-factor apportionment formula weights the sales factor 11 times, with the sum of property, payroll, and sales factors divided by 13.\n    * **Tax years ending on or after December 31, 2025 (includes calendar year 2025 and tax year 2026):** The standard apportionment formula consists of the **sales factor only (100% single sales factor)**.\n  * **Election:** Taxpayers may elect to use the previous three-factor apportionment method consisting of property, payroll, and triple-weighted sales (divided by 5) if the election results in a higher apportionment ratio than the standard formula and the taxpayer has net earnings rather than a net loss for the tax year.\n* **Applicable Tax Years:**\n  * For calendar year filers: Single sales factor applies to both **tax years 2025 and 2026**.\n  * For fiscal year filers: Changed between 2024/2025 and 2025/2026 (the 11x sales factor / 13 denominator applies to tax years ending before December 31, 2025; single sales factor applies to tax years ending on or after December 31, 2025).\n* **Official URLs:**\n  * Notice #23-11: https://www.tn.gov/content/dam/tn/revenue/documents/notices/fae/23-11fe.pdf\n  * F&E Apportionment-5: https://revenue.support.tn.gov/hc/en-us/articles/360058223692-F-E-Apportionment-5-Manufacturers-May-Elect-to-Apportion-Using-a-Single-Sales-Factor\n\n---\n\n### 2. Sourcing of Receipts from Services and Intangibles\n\n* **Facts & Figures:**\n  * **Market-based sourcing:** Sales other than sales of tangible personal property (including services, rentals, leases, licenses, and intangible property) are sourced to Tennessee if the taxpayer’s market for the sale is in Tennessee (Tenn. Code Ann. §§ 67-4-2012, 67-4-2111). \n  * **Special Blended Exception:** Taxpayers that primarily sell telecommunications, mobile telecommunications, internet access, video programming, or direct-to-home satellite television programming, and are members of an affiliated group with over $150,000,000 in Tennessee qualified expenditures or Tennessee taxable sales, source other-than-tangible receipts by averaging two methods: cost of performance (COP) and market-based sourcing (Tenn. Code Ann. §§ 67-4-2012(j), 67-4-2111(j)).\n* **Applicable Tax Years:**\n  * Applies to both **tax year 2025 and tax year 2026** (no change).\n* **Official URLs:**\n  * F&E Apportionment-3: https://revenue.support.tn.gov/hc/en-us/articles/360058223652-F-E-Apportionment-3-Market-Based-Sourcing-for-Sales-of-Other-Than-Tangible-Personal-Property\n  * F&E Apportionment-8: https://revenue.support.tn.gov/hc/en-us/articles/360058223752-F-E-Apportionment-8-Apportionment-for-Certain-Sellers-of-Telecommunication-and-Similar-Services\n\n---\n\n### 3. Industries with Their Own Apportionment Formula\n\n* **Facts & Figures:**\n  * **Common Carriers (Railroads, Motor Carriers, Pipelines, and Barges):** Apportion based on passenger miles, vehicle/car miles, barrel miles, or ton miles (Tenn. Code Ann. §§ 67-4-2013, 67-4-2113).\n  * **Air Carriers:** Apportion based on originating revenue, passenger miles, or ton miles (Tenn. Code Ann. §§ 67-4-2013, 67-4-2113).\n  * **Air Express Carriers:** Apportion using specific operating ratios.\n  * **Financial Institutions and Financial Institution Unitary Groups:** Apportion using a specialized single-factor gross receipts formula (loans, credit card receivables, fees, interest, dividends) (Tenn. Code Ann. §§ 67-4-2013, 67-4-2118).\n  * **Captive REITs and Captive REIT Affiliated Groups:** Apportion using formulas prescribed on Form FAE174.\n  * **Qualified Telecommunications Sellers:** Average cost of performance and market-based sourcing (Tenn. Code Ann. §§ 67-4-2012(j), 67-4-2111(j)).\n* **Applicable Tax Years:**\n  * Applies to both **tax year 2025 and tax year 2026** (these specialized industry rules are statutory exceptions to standard single sales factor).\n* **Official URLs:**\n  * Form FAE170 Instructions: https://www.tn.gov/content/dam/tn/revenue/documents/forms/fae/fae170_instr.pdf\n  * Franchise & Excise Tax Forms: https://www.tn.gov/revenue/taxes/franchise---excise-tax/forms.html\n\n---\n\n### 4. Forms and Schedules Used to Compute Apportionment\n\n* **Facts & Figures:**\n  * **Form FAE170 (Franchise and Excise Tax Return):**\n    * **Schedule N:** Standard Apportionment (sales factor).\n    * **Schedule N1:** Apportionment for taxpayers electing the property, payroll, and triple-weighted sales method, and Telecom Qualified Members.\n    * **Schedule O:** Apportionment for Common Carriers (railroads, motor carriers, pipelines, barges).\n    * **Schedule P:** Apportionment for Air Carriers.\n    * **Schedule R:** Apportionment for Air Express Carriers.\n    * **Schedules 170NC / 170SF:** Consolidated Net Worth Apportionment schedules.\n  * **Form FAE174 (Financial Institution and Captive REIT Return):**\n    * Apportionment schedules included: Schedules SE, SF, M, N, and Consolidated Net Worth Schedules 174SC / 174NC.\n* **Applicable Tax Years:**\n  * Applies to both **tax year 2025 and tax year 2026** (Form FAE170 / FAE174 kits cover periods beginning January 1, 2025 and after).\n* **Official URLs:**\n  * Franchise & Excise Tax Forms: https://www.tn.gov/revenue/taxes/franchise---excise-tax/forms.html\n  * Form FAE170 Instructions: https://www.tn.gov/content/dam/tn/revenue/documents/forms/fae/fae170_instr.pdf",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "For tax years ending on or after December 31, 2025, Tennessee uses a 100% single sales factor apportionment formula. Taxpayers may elect to use a three-factor formula with property, payroll, and triple-weighted sales if it results in a higher apportionment ratio and the taxpayer has net earnings.",
+    "source_url": "https://www.tn.gov/content/dam/tn/revenue/documents/notices/fae/23-11fe.pdf",
+    "evidence": [
+     "single sales factor",
+     "Tennessee Works Tax Act",
+     "standard apportionment formula"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.tn.gov/content/dam/tn/revenue/documents/tax_manuals/june-2026/franchise-tax.pdf",
+    "matched_title": "Franchise and Excise Tax Manual",
+    "matched_phrases": [
+     "single sales factor",
+     "Tennessee Works Tax Act",
+     "standard apportionment formula"
+    ],
+    "snippet": " For tax years ending on or after December 31, 2025, the standard apportionment formula will consist of the sales factor only."
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Tennessee uses market-based sourcing for sales other than sales of tangible personal property, including services and intangibles. Qualified telecommunications sellers averaging over $150,000,000 in Tennessee qualified expenditures or taxable sales average cost of performance and market-based sourcing.",
+    "source_url": "https://revenue.support.tn.gov/hc/en-us/articles/360058223652-F-E-Apportionment-3-Market-Based-Sourcing-for-Sales-of-Other-Than-Tangible-Personal-Property",
+    "evidence": [
+     "Market-Based Sourcing",
+     "tangible personal property",
+     "market for the sale"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://revenue.support.tn.gov/hc/en-us/articles/360058223652-F-E-Apportionment-3-Market-Based-Sourcing-for-Sales-of-Other-Than-Tangible-Personal-Property; figures not on www.tn.gov: ['150000000']; unreadable: https://www.tn.gov/content/dam/tn/revenue/documents/notices/fae/23-11fe.pdf; unreadable: https://revenue.support.tn.gov/hc/en-us/articles/360057764312-F-E-Apportionment-5-Manufacturers-May-Elect-to-Apportion-Using-a-Single-Sales-Factor; unreadable: https://revenue.support.tn.go",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Specific apportionment formulas apply to common carriers, air carriers, air express carriers, financial institutions, captive REITs, and qualified telecommunications sellers. Common and air carriers apportion based on miles or originating revenue, while financial institutions use a specialized gross receipts formula.",
+    "source_url": "https://www.tn.gov/content/dam/tn/revenue/documents/forms/fae/fae170_instr.pdf",
+    "evidence": [
+     "Common Carriers",
+     "Air Carriers",
+     "Air Express Carriers"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.tn.gov/content/dam/tn/revenue/documents/forms/fae/fae170instructions2025.pdf",
+    "matched_title": "Instructions for Franchise and Excise Tax Return",
+    "matched_phrases": [
+     "Common Carriers",
+     "Air Carriers",
+     "Air Express Carriers"
+    ],
+    "snippet": "Schedule O – Apportionment – Common Carriers Line 1:"
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Apportionment is reported on Form FAE170 using Schedule N for standard single sales factor apportionment, Schedule N1 for the alternative three-factor election, and Schedules O, P, and R for specialized transportation carriers. Financial institutions and captive REITs report apportionment on Form FAE174.",
+    "source_url": "https://www.tn.gov/revenue/taxes/franchise---excise-tax/forms.html",
+    "evidence": [
+     "Form FAE170",
+     "Schedule N",
+     "Form FAE174"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.tn.gov/revenue/taxes/franchise---excise-tax/forms.html",
+    "matched_title": "Forms",
+    "matched_phrases": [
+     "Form FAE170",
+     "Form FAE174"
+    ],
+    "snippet": "…, 2025 and after For corporations, LLCs, & LPs. This kit does not include financial institutions or captive REIT.  All schedules and instructions are included. Form FAE170 Franchise and Excise Tax Return, includes Schedules A-F, H-K, M, N-P, R-V Form FAE170 Instructions Form IE - Intangible Expense Disclosure Schedule 170NC & 170SF Consolidated  Net Worth Apportionment…"
+   }
+  ],
+  "grounding_urls": [
+   "https://www.tn.gov/revenue/tax-resources/legal-resources/legislative-summaries/2023-legislative-summaries.html",
+   "https://www.tn.gov/content/dam/tn/revenue/documents/notices/fae/23-11fe.pdf",
+   "https://www.tn.gov/content/dam/tn/revenue/documents/forms/fae/fae170instructions2025.pdf",
+   "https://www.tn.gov/revenue/tax-resources/legal-resources/important-notices/franchise---excise-tax.html",
+   "https://revenue.support.tn.gov/hc/en-us/articles/360057764312-F-E-Apportionment-5-Manufacturers-May-Elect-to-Apportion-Using-a-Single-Sales-Factor",
+   "https://revenue.support.tn.gov/hc/en-us/articles/360057763792-F-E-Apportionment-3-Market-Based-Sourcing-for-Sales-of-Other-Than-Tangible-Personal-Property",
+   "https://revenue.support.tn.gov/hc/en-us/articles/360057782872-F-E-Apportionment-8-Apportionment-for-Certain-Sellers-of-Telecommunication-and-Similar-Services",
+   "https://revenue.support.tn.gov/hc/en-us/articles/360057782872-F-E-Apportionment-8-Apportionment-for-Certain-Sellers-of-Telecommunication-and-Similar-Services",
+   "https://revenue.support.tn.gov/hc/en-us/articles/360057763672-F-E-Apportionment-2-Throwback-Provision-Not-Adopted",
+   "https://www.tn.gov/content/dam/tn/revenue/documents/tax_manuals/june-2026/franchise-tax.pdf",
+   "https://www.tn.gov/content/dam/tn/revenue/documents/forms/fae/FAE170_2019.pdf",
+   "https://www.tn.gov/content/dam/tn/revenue/documents/forms/fae/fae1702010.pdf",
+   "https://www.tn.gov/content/dam/tn/revenue/documents/forms/fae/Form_170_NC_June_2017.pdf",
+   "https://www.tn.gov/revenue/taxes/franchise---excise-tax/forms.html",
+   "https://www.tn.gov/content/dam/tn/revenue/documents/forms/fae/FAE170_2025.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "TN",
+  "section": "nexus",
+  "notes": "### 1. Income / Franchise Tax Nexus\n\n* **Nexus Standard & Bright-Line Thresholds:** \n  Tennessee asserts franchise and excise tax jurisdiction to the fullest extent permitted by the U.S. Constitution. A business entity has a \"bright-line presence\" (and thus substantial nexus) if any of the following apply during the tax period:\n  * **Receipts:** More than **$500,000** or **25%** of the taxpayer's total receipts from sales in Tennessee.\n  * **Property:** More than **$50,000** or **25%** of the taxpayer's total property by value in Tennessee.\n  * **Payroll:** More than **$50,000** or **25%** of the taxpayer's total compensation paid in Tennessee.\n* **Non-Bright-Line Economic Nexus:** \n  A taxpayer that does not meet the bright-line thresholds may still establish substantial nexus if its contact is sufficient (e.g., engaging in systematic and continuous business activity that produces receipts attributable to Tennessee customers). Physical presence is not required.\n* **Applicable Tax Years:** \n  Applies to both **tax year 2025** and **tax year 2026** (unchanged).\n* **Official Sources:** \n  * Tenn. Code Ann. § 67-4-2004(49)\n  * Tennessee Department of Revenue Help Center (F&E-17): https://revenue.support.tn.gov/hc/en-us/articles/360058359471-F-E-17-Physical-Presence-is-Not-Required-to-Establish-Nexus-for-Franchise-and-Excise-Taxes\n  * Tennessee Department of Revenue Help Center (F&E-18): https://revenue.support.tn.gov/hc/en-us/articles/360058360671-F-E-18-Substantial-Nexus-May-Exist-When-Bright-Line-Standards-Are-Not-Met\n  * TN Dept. of Revenue 2015 Legislative Summaries: https://www.tn.gov/revenue/tax-resources/legal-resources/tax-legislation-summaries/2015-legislative-summaries.html\n\n---\n\n### 2. Remote Seller Economic Nexus Threshold (Sales Tax)\n\n* **Sales Threshold Amount:** \n  **$100,000** or more in sales to Tennessee customers. This includes all retail sales (including exempt sales), but excludes sales for resale.\n* **Transaction Count:** \n  **None**. Tennessee does not have a transaction count threshold.\n* **Measurement Period:** \n  The **previous 12-month period**.\n* **Applicable Tax Years:** \n  Applies to both **tax year 2025** and **tax year 2026** (effective October 1, 2020; unchanged).\n* **Official Sources:** \n  * TN Dept. of Revenue Out-of-State Dealers & Marketplace Facilitators Guidance: https://www.tn.gov/revenue/taxes/sales-and-use-tax/out-of-state-dealers-marketplace-facilitators.html\n  * TN Dept. of Revenue 2020 Legislative Summaries (Public Chapter 759): https://www.tn.gov/revenue/tax-resources/legal-resources/tax-legislation-summaries/2020-legislative-summaries.html\n\n---\n\n### 3. State's Position on Public Law 86-272 Protection\n\n* **Position:** \n  * Public Law 86-272 applies strictly to net income-based taxes; therefore, it provides protection **only against the Tennessee Corporate Excise Tax**.\n  * Public Law 86-272 **does not apply** to the Tennessee Franchise Tax, because the franchise tax is a privilege tax measured by net worth, not net income.\n  * An out-of-state taxpayer protected under P.L. 86-272 that has substantial nexus in Tennessee must still register, file Form FAE170 (checking the box for \"Public Law 86-272 applied to excise tax\"), and calculate/pay the franchise tax portion of the return.\n* **Applicable Tax Years:** \n  Applies to both **tax year 2025** and **tax year 2026** (unchanged).\n* **Official Sources:** \n  * Tennessee Department of Revenue Help Center (F&E-19): https://revenue.support.tn.gov/hc/en-us/articles/360058360411-F-E-19-Filing-Requirement-when-Entity-with-Substantial-Nexus-Qualifies-for-Protection-Under-Public-Law-86-272\n  * Franchise & Excise Tax Ruling 11-66: https://www.tn.gov/content/dam/tn/revenue/documents/rulings/fae/11-66.pdf\n  * TN Dept. of Revenue Form FAE170: https://www.tn.gov/content/dam/tn/revenue/documents/forms/fae/fae170.pdf",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Tennessee asserts franchise and excise tax jurisdiction to the fullest extent permitted by the U.S. Constitution, establishing bright-line presence if Tennessee receipts exceed $500,000 or 25% of total receipts, or if Tennessee property or payroll exceeds $50,000 or 25%. Substantial nexus may also exist without physical presence if contacts are systematic and continuous even when bright-line thresholds are not met.",
+    "source_url": "https://revenue.support.tn.gov/hc/en-us/articles/360058359471-F-E-17-Physical-Presence-is-Not-Required-to-Establish-Nexus-for-Franchise-and-Excise-Taxes",
+    "evidence": [
+     "Physical Presence is Not Required",
+     "Franchise and Excise Taxes",
+     "substantial nexus",
+     "bright-line presence"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.tn.gov/content/dam/tn/revenue/documents/tax_manuals/june-2026/franchise-tax.pdf",
+    "matched_title": "Franchise and Excise Tax Manual",
+    "matched_phrases": [
+     "Physical Presence is Not Required",
+     "Franchise and Excise Taxes",
+     "substantial nexus",
+     "bright-line presence"
+    ],
+    "snippet": "However, for tax years beginning on or after January 1, 2016, this taxpayer would be subject to the tax if its sales into the state exceed the lesser of $500,000 or 25% of the taxpayer’s total receipts, or if any other contact with the state is sufficient to create substantial nexus."
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Tennessee requires remote sellers to register and collect sales tax if sales to Tennessee customers exceed $100,000 during the previous 12-month period. Tennessee does not impose a transaction count threshold.",
+    "source_url": "https://www.tn.gov/revenue/taxes/sales-and-use-tax/out-of-state-dealers-marketplace-facilitators.html",
+    "evidence": [
+     "Out-of-State Dealers",
+     "Marketplace Facilitators",
+     "previous 12-month period"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.tn.gov/revenue/taxes/sales-and-use-tax/out-of-state-dealers-marketplace-facilitators.html",
+    "matched_title": "Out of State Dealers Marketplace Facilitators",
+    "matched_phrases": [
+     "Out-of-State Dealers",
+     "Marketplace Facilitators",
+     "previous 12-month period"
+    ],
+    "snippet": "Beginning on October 1, 2020, marketplace facilitators that make or facilitate more than $100,000 in sales to Tennessee customers in the previous 12-month period are required to collect and remit Tennessee sales tax."
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Public Law 86-272 protects qualifying out-of-state businesses solely from Tennessee's net income-based excise tax, but provides no protection against the franchise tax. Taxpayers with substantial nexus must still register, file Form FAE170, and calculate and pay the franchise tax.",
+    "source_url": "https://revenue.support.tn.gov/hc/en-us/articles/360058360411-F-E-19-Filing-Requirement-when-Entity-with-Substantial-Nexus-Qualifies-for-Protection-Under-Public-Law-86-272",
+    "evidence": [
+     "Public Law 86-272",
+     "Substantial Nexus",
+     "applied to excise tax",
+     "franchise tax"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.tn.gov/content/dam/tn/revenue/documents/tax_manuals/june-2026/franchise-tax.pdf",
+    "matched_title": "Franchise and Excise Tax Manual",
+    "matched_phrases": [
+     "Public Law 86-272",
+     "Substantial Nexus",
+     "applied to excise tax",
+     "franchise tax"
+    ],
+    "snippet": "58 Public Law 86-272 .................................................................................................................................."
+   }
+  ],
+  "grounding_urls": [
+   "https://www.tn.gov/revenue/tax-resources/legal-resources/legislative-summaries/2015-legislative-summaries.html",
+   "https://revenue.support.tn.gov/hc/en-us/articles/360058422311-F-E-18-Substantial-Nexus-May-Exist-When-Bright-Line-Standards-Are-Not-Met",
+   "https://revenue.support.tn.gov/hc/en-us/articles/360057957192-F-E-17-Physical-Presence-is-Not-Required-to-Establish-Nexus-for-Franchise-and-Excise-Taxes",
+   "https://www.tn.gov/content/dam/tn/revenue/documents/tax_manuals/june-2026/franchise-tax.pdf",
+   "https://www.tn.gov/revenue/taxes/sales-and-use-tax/out-of-state-dealers-marketplace-facilitators.html",
+   "https://www.tn.gov/revenue/tax-resources/legal-resources/legislative-summaries/2020-legislative-summaries.html",
+   "https://www.tn.gov/content/dam/tn/attorneygeneral/documents/ops/2004/op04-159.pdf",
+   "https://revenue.support.tn.gov/hc/en-us/articles/360057959092-F-E-19-Filing-Requirement-when-Entity-with-Substantial-Nexus-Qualifies-for-Protection-Under-Public-Law-86-272",
+   "https://www.tn.gov/content/dam/tn/attorneygeneral/documents/ops/2004/op04-159.pdf",
+   "https://revenue.support.tn.gov/hc/en-us/articles/360057959092-F-E-19-Filing-Requirement-when-Entity-with-Substantial-Nexus-Qualifies-for-Protection-Under-Public-Law-86-272",
+   "https://www.tn.gov/content/dam/tn/revenue/documents/rulings/fae/11-66fe.pdf",
+   "https://www.tn.gov/content/dam/tn/revenue/documents/forms/fae/FAE170_2025.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "TN",
+  "section": "rates",
+  "notes": "### 1. Individual Income Tax Rate(s)\n* **Fact / Rates:** Tennessee has **no individual income tax** on wages or earned income. The former \"Hall income tax,\" which taxed individuals on interest from bonds and notes and dividends from stock, was fully repealed for tax periods beginning on or after January 1, 2021.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official URL:** https://www.tn.gov/revenue/taxes/hall-income-tax.html\n\n---\n\n### 2. Corporate Income / Franchise Tax & Minimum Tax\n* **Excise Tax (Corporate Income):** \n  * **Rate:** **6.5%** of Tennessee taxable income (net earnings).\n  * **Deduction:** Companies may deduct the first **$50,000** in net earnings from the excise tax under the Tennessee Works Tax Act.\n* **Franchise Tax:** \n  * **Rate:** **0.25%** ($0.25 per $100) of Tennessee net worth. *(Note: The alternative minimum measure based on the value of tangible property was repealed in 2024; franchise tax is calculated exclusively on net worth)*.\n  * **Minimum Tax:** **$100** minimum franchise tax (payable by any incorporated, domesticated, qualified, or Secretary of State-registered entity, whether active or inactive).\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official URLs:** \n  * https://www.tn.gov/revenue/taxes/franchise---excise-tax.html\n  * https://www.tn.gov/revenue/taxes/franchise---excise-tax/due-dates-and-tax-rates.html\n\n---\n\n### 3. State Sales and Use Tax & Local Rates\n* **State Rate:** \n  * **7%** general state sales and use tax rate on most tangible personal property and taxable services.\n  * **4%** state sales tax rate on food and food ingredients.\n* **Local Jurisdictions:** \n  * Any county or incorporated city may levy an additional local sales and use tax. \n  * The local tax rate may not exceed **2.75%** (must be a multiple of 0.25%; rates typically range from 2.00% to 2.75%). \n  * In most jurisdictions, the local sales tax applies only to the first **$1,600** of the sales price of any single article of tangible personal property.\n* **Applicable Tax Years:** 2025 and 2026 (general state rates unchanged).\n* **Official URLs:** \n  * https://www.tn.gov/revenue/taxes/sales-and-use-tax.html\n  * https://www.tn.gov/revenue/taxes/sales-and-use-tax/due-dates-and-tax-rates.html\n  * https://www.tn.gov/revenue/taxes/sales-and-use-tax/local-sales-tax.html\n\n---\n\n### 4. Gross Receipts, Business Tax, & Other Notable Business Taxes\n* **Tennessee Business Tax (Gross Receipts Tax on General Businesses):**\n  * Imposed at both state and municipal/city levels on businesses with annual gross taxable receipts of **$100,000 or more** per jurisdiction. (Businesses grossing between $3,000 and $100,000 are only required to obtain a local minimal activity license).\n  * Rates depend on dominant business activity classification and whether the business is classified as a retailer or wholesaler:\n    * *Class 1A:* Retailer: **0.001** (0.1%); Wholesaler: **0.00025** (0.025%)\n    * *Class 1B & 1C:* Retailer: **0.001** (0.1%); Wholesaler: **0.000375** (0.0375%)\n    * *Class 1D:* Retailer: **0.0005** (0.05%); Wholesaler: N/A\n    * *Class 1E:* Retailer: N/A; Wholesaler: **0.0003125** (0.03125%)\n    * *Class 2:* Retailer: **0.0015** (0.15%); Wholesaler: **0.000375** (0.0375%)\n    * *Class 3:* Retailer: **0.001875** (0.1875%); Wholesaler: **0.000375** (0.0375%)\n    * *Class 4 (Contractors):* Rate: **0.001** (0.1%)\n    * *Class 5A:* Rate: **0.001** (0.1%)\n  * **Minimum Business Tax:** Class 1–4 and 5B taxpayers must pay a minimum tax of **$22** per location. Class 5A taxpayers pay a minimum tax of **$450** up to a maximum of **$1,500** per location.\n* **Industry-Specific Gross Receipts Taxes (in lieu of Business Tax):**\n  * *Bottlers / Soft Drinks:* **1.9%** of gross receipts\n  * *Utilities (Water, Electric Power, Light):* **3%** of gross receipts derived from intrastate business\n  * *Gas Distribution / Manufacture:* **1.5%** of gross receipts\n  * *Charitable Vending Machines (items ≤ $0.25):* **1.5%** of gross receipts\n  * *Mixing Bars:* **15%** of gross receipts\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official URLs:** \n  * https://www.tn.gov/revenue/taxes/business-tax.html\n  * https://www.tn.gov/revenue/taxes/business-tax/due-dates-and-tax-rates.html\n  * https://www.tn.gov/revenue/taxes/gross-receipts-taxes.html\n  * https://www.tn.gov/revenue/taxes/gross-receipts-taxes/due-dates-and-tax-rates.html",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Tennessee has no individual income tax on wages or earned income. The former Hall income tax on interest and dividend income was fully repealed for tax periods beginning on or after January 1, 2021.",
+    "source_url": "https://www.tn.gov/revenue/taxes/hall-income-tax.html",
+    "evidence": [
+     "Hall income tax",
+     "fully repealed",
+     "no individual income tax"
+    ],
+    "accepted": false,
+    "reason": "evidence not on www.tn.gov (1/3); figures not on www.tn.gov: ['2021']; figures not on www.tn.gov: ['1', '2021']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Tennessee levies a 6.5% excise tax on net earnings with a $50,000 deduction, and a franchise tax of 0.25% ($0.25 per $100) of net worth. A minimum franchise tax of $100 is required for registered entities.",
+    "source_url": "https://www.tn.gov/revenue/taxes/franchise---excise-tax/due-dates-and-tax-rates.html",
+    "evidence": [
+     "6.5% of Tennessee taxable income",
+     "net earnings",
+     "net worth",
+     "minimum franchise tax"
+    ],
+    "accepted": false,
+    "reason": "figures not on www.tn.gov: ['100', '50000']; figures not on www.tn.gov: ['0.25', '100', '50000', '6.5']; figures not on www.tn.gov: ['0.25', '100', '6.5']; figures not on www.tn.gov: ['0.25', '50000', '6.5']; figures not on www.tn.gov: ['100', '50000', '6.5']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The state sales and use tax rate is 7% (4% on food and food ingredients). Local jurisdictions may levy an additional tax up to 2.75%, which generally applies only to the first $1,600 of a single article.",
+    "source_url": "https://www.tn.gov/revenue/taxes/sales-and-use-tax/due-dates-and-tax-rates.html",
+    "evidence": [
+     "food and food ingredients",
+     "local sales and use tax",
+     "single article"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.tn.gov/revenue/taxes/sales-and-use-tax/due-dates-and-tax-rates.html",
+    "matched_title": "Due Dates and Tax Rates",
+    "matched_phrases": [
+     "local sales and use tax",
+     "single article"
+    ],
+    "snippet": "State Single Article Rates 2.75% on any single item sold in excess of $1,600, but not more than $3,200."
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The state and municipal business tax applies to businesses with annual gross taxable receipts of $100,000 or more, with rates ranging from 0.025% to 0.1875% depending on class. Certain industries are instead subject to gross receipts taxes ranging from 1.5% to 15%.",
+    "source_url": "https://www.tn.gov/revenue/taxes/business-tax/due-dates-and-tax-rates.html",
+    "evidence": [
+     "gross taxable receipts",
+     "dominant business activity",
+     "minimal activity license"
+    ],
+    "accepted": false,
+    "reason": "figures not on www.tn.gov: ['0.025', '0.1875', '1.5', '100000']; figures not on www.tn.gov: ['0.025', '0.1875', '1.5', '100000', '15']; figures not on www.tn.gov: ['0.025', '0.1875', '1.5']; figures not on www.tn.gov: ['0.025', '0.1875', '100000', '15']; figures not on www.tn.gov: ['0.025', '0.1875', '1.5', '15']; figures not on www.tn.gov: ['0.025', '0.1875', '100000']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://www.tn.gov/revenue/taxes.html",
+   "https://www.tn.gov/revenue/taxes/hall-income-tax.html",
+   "https://www.tn.gov/revenue/taxes/franchise---excise-tax/due-dates-and-tax-rates.html",
+   "https://www.tn.gov/revenue/tax-resources/legal-resources/archived-resources/tennessee-works.html",
+   "https://www.tn.gov/revenue/revenue-news/news-publications/important-notices.html",
+   "https://www.tn.gov/revenue/taxes/franchise---excise-tax.html",
+   "https://www.tn.gov/revenue/taxes/franchise---excise-tax/forms.html",
+   "https://www.tn.gov/revenue/taxes/sales-and-use-tax.html",
+   "https://www.tn.gov/revenue/taxes/sales-and-use-tax/due-dates-and-tax-rates.html",
+   "https://www.tn.gov/revenue/taxes/sales-and-use-tax/local-sales-tax.html",
+   "https://www.tn.gov/revenue/taxes/sales-and-use-tax/local-sales-tax/local-sales-tax-rates-map.html",
+   "https://www.tn.gov/revenue/taxes/sales-and-use-tax/single-article-special-tax-rates.html",
+   "https://www.tn.gov/revenue/for-local-governments/county-clerk-resource-page/business-tax-cc.html",
+   "https://www.tn.gov/revenue/taxes/business-tax.html",
+   "https://www.tn.gov/revenue/news/2024/3/4/small-businesses-no-longer-have-to-file-business-tax.html",
+   "https://www.tn.gov/content/dam/tn/revenue/documents/forms/business/bus428.pdf",
+   "https://www.tn.gov/revenue/taxes/business-tax/due-dates-and-tax-rates.html",
+   "https://www.tn.gov/revenue/taxes/gross-receipts-taxes.html",
+   "https://www.tn.gov/revenue/taxes/gross-receipts-taxes/due-dates-and-tax-rates.html",
+   "https://www.tn.gov/revenue.html",
+   "https://www.tn.gov/revenue/taxes/business-tax/due-dates-and-tax-rates.html"
+  ],
+  "error": ""
+ },
+ {
+  "state": "TN",
+  "section": "filing",
+  "notes": "### 1. Individual Return Due Dates and Extensions\n* **Fact:** Tennessee does not impose a general individual income tax. The former Hall Income Tax (which applied only to dividend and interest income) was fully repealed for tax periods beginning on or after January 1, 2021. The Department explicitly instructs taxpayers not to file a return for any tax year beginning on or after January 1, 2021. Consequently, there are no individual income tax return due dates or extension procedures for calendar-year individual filers.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official URLs:** \n  * https://www.tn.gov/revenue/taxes/hall-income-tax.html\n  * https://revenue.support.tn.gov/hc/en-us/articles/360060205891-HIT-3-Hall-Income-Tax-Repealed-Beginning-January-1-2021\n\n---\n\n### 2. Corporate and Pass-Through Return Due Dates and Extension Rules\n* **Fact:** Entities with limited liability protection (corporations, S corporations, LLCs, and limited partnerships) chartered, registered, or doing business in Tennessee are subject to Tennessee Franchise and Excise (F&E) Tax at the entity level. General partnerships and sole proprietorships without limited liability protection are not subject to the tax.\n  * **Due Date:** The annual return is due on the 15th day of the 4th month following the close of the entity's taxable year. For calendar-year filers, the return is due on **April 15** of the following year.\n  * **Extension Period:** A **7-month extension** of time to file is granted (extending a calendar-year return to **November 15**).\n  * **Extension Requirements & Safe Harbor:** An extension of time to file does not extend the time to pay. To receive an extension and avoid penalties, the taxpayer must remit payment on or before the original return due date equal to the lesser of:\n    * **90%** of the liability for the current tax year, or\n    * **100%** of the liability for the preceding tax year (annualized if the preceding year was less than 12 months).\n  * The extension can be filed using **Form FAE173** or submitted electronically through the Tennessee Taxpayer Access Point (TNTAP).\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official URLs:** \n  * https://www.tn.gov/revenue/taxes/franchise---excise-tax/due-dates-and-tax-rates.html\n  * https://www.tn.gov/revenue/tax-resources/legal-resources/legislative-summaries/2012-legislative-summaries.html\n  * https://www.tn.gov/revenue/taxes/franchise---excise-tax/forms.html\n\n---\n\n### 3. Elective Pass-Through Entity Tax (PTET)\n* **Fact:** **Not found / Does not exist.** Tennessee has not enacted an elective pass-through entity tax. Because Tennessee has no personal income tax and already mandates entity-level Franchise and Excise Tax (Excise Tax rate: 6.5% of net earnings; Franchise Tax rate: 0.25% of net worth) on limited liability pass-through entities, there is no state PTET regime.\n* **Applicable Tax Years:** 2025 and 2026.\n* **Official URL:** https://www.tn.gov/revenue/taxes/franchise---excise-tax.html\n\n---\n\n### 4. Composite or Group Nonresident Returns for Pass-Through Entities\n* **Fact:** **Not found / Does not exist.** Because Tennessee does not levy an individual income tax, pass-through entities have no requirement and no mechanism to file composite or group nonresident personal income tax returns on behalf of individual nonresident owners.\n* **Applicable Tax Years:** 2025 and 2026.\n* **Official URLs:** \n  * https://revenue.support.tn.gov/hc/en-us/articles/360060738612-GEN-34-Income-Tax-Withholding\n  * https://www.tn.gov/revenue/taxes/hall-income-tax.html\n\n---\n\n### 5. Estimated Tax Requirements and Nonresident Withholding for Pass-Through Entities\n* **Nonresident Withholding:** **Not found / Does not exist.** Pass-through entities are not required to withhold tax on distributions or distributive share income to nonresident partners, members, or shareholders (Tennessee has no income tax withholding requirements).\n* **Estimated Tax Payments (Entity-Level F&E Tax):**\n  * **Threshold:** Quarterly estimated payments are required if the entity has a combined franchise and excise tax liability of **$5,000 or more** in both the prior and current tax years.\n  * **Due Dates:** The 15th day of the **4th, 6th, and 9th months** of the current tax year, and the 15th day of the **1st month of the next succeeding tax year**. For calendar-year filers, the dates are **April 15, June 15, September 15, and January 15**.\n  * **Payment Amount:** Each quarterly estimated payment must equal at least **25%** of the combined franchise and excise tax liability for the preceding tax year or **25%** of the combined liability for the current tax year, whichever is less.\n  * **Payment Method:** Remitted via **Form FAE172** or electronically via TNTAP. Payment must be made electronically if any quarterly estimated payment exceeds **$2,500**.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official URLs:** \n  * https://www.tn.gov/revenue/taxes/franchise---excise-tax/due-dates-and-tax-rates.html\n  * https://www.tn.gov/revenue/tax-resources/legal-resources/legislative-summaries/2003-legislative-summaries.html\n  * https://www.tn.gov/revenue/tax-resources/legal-resources/legislative-summaries/2009-legislative-summaries.html\n  * https://revenue.support.tn.gov/hc/en-us/articles/360060738612-GEN-34-Income-Tax-Withholding\n\n---\n\n### 6. Main Individual, Corporate, and Pass-Through Return Forms\n* **Individual Return Form:** **None / Not applicable**. (Form INC250 for the Hall income tax is obsolete and not to be filed for any tax periods beginning January 1, 2021 or later).\n* **Corporate and Pass-Through Forms (Franchise & Excise Tax):**\n  * **Form FAE170:** Franchise and Excise Tax Return (used by standard corporations, S corporations, LLCs, and LPs).\n  * **Form FAE174:** Franchise and Excise Financial Institution and Captive REIT Tax Return.\n  * **Form FAE173:** Application for Extension of Time to File.\n  * **Form FAE172:** Franchise and Excise Tax Estimated Payment Voucher.\n  * **Form FAE183:** Application for Exemption / Annual Exemption Renewal (used by entities claiming exemption, such as Family-Owned Non-Corporate Entities / FONCE).\n* **Applicable Tax Years:** Tax periods beginning January 1, 2025 and after (effective for 2025 and 2026).\n* **Official URL:** https://www.tn.gov/revenue/taxes/franchise---excise-tax/forms.html",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Tennessee does not impose a general individual income tax, as the Hall Income Tax was fully repealed for tax periods beginning on or after January 1, 2021. Taxpayers are instructed not to file a return, meaning there are no calendar-year return due dates or extension procedures.",
+    "source_url": "https://www.tn.gov/revenue/taxes/hall-income-tax.html",
+    "evidence": [
+     "Hall Income Tax",
+     "January 1, 2021",
+     "repealed for tax periods"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.tn.gov/revenue/taxes/hall-income-tax.html",
+    "matched_title": "Hall Income Tax",
+    "matched_phrases": [
+     "Hall Income Tax",
+     "January 1, 2021",
+     "repealed for tax periods"
+    ],
+    "snippet": "The Hall Income tax was repealed for tax periods that begin on January 1, 2021 , or later."
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Calendar-year franchise and excise tax returns are due on April 15, with an available seven-month extension to November 15. To obtain an extension without penalty, taxpayers must remit by the original due date the lesser of 90% of the current year liability or 100% of the preceding year liability.",
+    "source_url": "https://www.tn.gov/revenue/taxes/franchise---excise-tax/due-dates-and-tax-rates.html",
+    "evidence": [
+     "Franchise and Excise Tax",
+     "15th day of the fourth month",
+     "extension of time to file"
+    ],
+    "accepted": false,
+    "reason": "figures not on www.tn.gov: ['100', '90']; figures not on www.tn.gov: ['100', '15', '90']; unreadable: https://revenue.support.tn.gov/hc/en-us/articles/360057828631-HIT-3-Hall-Income-Tax-Repealed-Beginning-January-1-2021; figures not on www.tn.gov: ['15', '90']; dates not on www.tn.gov: ['April 15', 'November 15']; figures not on www.tn.gov: ['15']; figures not on www.tn.gov: ['90']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Entities must make quarterly estimated franchise and excise tax payments if their combined liability is $5,000 or more in both the prior and current years, due April 15, June 15, September 15, and January 15 for calendar filers. Each payment must equal at least 25% of the preceding or current year liability, and pass-through entities have no nonresident withholding requirements.",
+    "source_url": "https://www.tn.gov/revenue/taxes/franchise---excise-tax/due-dates-and-tax-rates.html",
+    "evidence": [
+     "quarterly estimated payments",
+     "$5,000 or more",
+     "combined franchise and excise tax"
+    ],
+    "accepted": false,
+    "reason": "figures not on www.tn.gov: ['25']; figures not on www.tn.gov: ['25', '5000']; figures not on www.tn.gov: ['15', '25', '5000']; unreadable: https://revenue.support.tn.gov/hc/en-us/articles/360057828631-HIT-3-Hall-Income-Tax-Repealed-Beginning-January-1-2021; figures not on www.tn.gov: ['5000']; evidence not on www.tn.gov (0/3); figures not on www.tn.gov: ['15', '5000']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The primary franchise and excise tax return is Form FAE170, and financial institutions file Form FAE174. Extensions are requested on Form FAE173, while estimated payments are remitted using Form FAE172.",
+    "source_url": "https://www.tn.gov/revenue/taxes/franchise---excise-tax/forms.html",
+    "evidence": [
+     "Form FAE170",
+     "Franchise and Excise Tax Return",
+     "Form FAE173",
+     "Form FAE172"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.tn.gov/revenue/taxes/franchise---excise-tax/forms.html",
+    "matched_title": "Forms",
+    "matched_phrases": [
+     "Form FAE170",
+     "Franchise and Excise Tax Return",
+     "Form FAE172"
+    ],
+    "snippet": "…, 2025 and after For corporations, LLCs, & LPs. This kit does not include financial institutions or captive REIT.  All schedules and instructions are included. Form FAE170 Franchise and Excise Tax Return, includes Schedules A-F, H-K, M, N-P, R-V Form FAE170 Instructions Form IE - Intangible Expense Disclosure Schedule 170NC & 170SF Consolidated  Net Worth Apportionment…"
+   }
+  ],
+  "grounding_urls": [
+   "https://www.tn.gov/revenue/taxes/hall-income-tax/due-date-and-tax-rates.html",
+   "https://www.tn.gov/revenue/taxes/franchise---excise-tax/forms.html",
+   "https://www.tn.gov/revenue/taxes/hall-income-tax.html",
+   "https://revenue.support.tn.gov/hc/en-us/articles/360057828631-HIT-3-Hall-Income-Tax-Repealed-Beginning-January-1-2021",
+   "https://www.tn.gov/revenue/taxes/franchise---excise-tax.html",
+   "https://www.tn.gov/revenue/taxes/franchise---excise-tax/forms.html",
+   "https://www.tn.gov/revenue/taxes/franchise---excise-tax/due-dates-and-tax-rates.html",
+   "https://www.tn.gov/revenue/revenue-news/news-publications/hot-topics.html",
+   "https://www.tn.gov/revenue/tax-resources/legal-resources/legislative-summaries/2012-legislative-summaries.html",
+   "https://www.tn.gov/revenue/tax-resources/legal-resources/legislative-summaries/2012-legislative-summaries.html",
+   "https://www.tn.gov/revenue/taxes/franchise---excise-tax/forms.html",
+   "https://www.tn.gov/revenue/e-filing-information/electronic-filing-using-a-software-vendor.html",
+   "https://www.tn.gov/revenue/tax-resources/legal-resources/legislative-summaries/2003-legislative-summaries.html",
+   "https://www.tn.gov/revenue/tax-resources/legal-resources/legislative-summaries/2009-legislative-summaries.html",
+   "https://www.tn.gov/revenue/e-filing-information/electronic-filing-using-a-software-vendor.html",
+   "https://www.tn.gov/revenue/taxes/franchise---excise-tax/exemptions/exempt-entities.html"
+  ],
+  "error": ""
+ }
+]

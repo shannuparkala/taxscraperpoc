@@ -1,0 +1,185 @@
+[
+ {
+  "state": "MT",
+  "section": "apportionment",
+  "notes": "",
+  "proposals": [],
+  "grounding_urls": [],
+  "error": ""
+ },
+ {
+  "state": "MT",
+  "section": "nexus",
+  "notes": "",
+  "proposals": [],
+  "grounding_urls": [],
+  "error": "LlmError"
+ },
+ {
+  "state": "MT",
+  "section": "rates",
+  "notes": "",
+  "proposals": [],
+  "grounding_urls": [],
+  "error": ""
+ },
+ {
+  "state": "MT",
+  "section": "filing",
+  "notes": "### 1. Individual Income Tax Return Due Dates and Extensions\n\n* **Calendar-Year Return Due Date:** April 15 (applies to tax years 2025 and 2026; if it falls on a weekend or holiday, the due date is the next business day).\n* **Extension Rules:** \n  * Montana grants an automatic 6-month extension to file individual income tax returns. \n  * The extended due date for calendar-year filers is October 15.\n  * An extension to file is not an extension to pay; any tax owed must be paid by the original April 15 deadline to avoid penalties and interest.\n* **Official URLs:** \n  * Montana Department of Revenue: https://mtrevenue.gov/taxes/individual-income-tax/\n  * Mont. Code Ann. § 15-30-2604: https://leg.mt.gov/bills/mca/title_0150/chapter_0300/part_0260/section_0040/0150-0300-0260-0040.html\n\n---\n\n### 2. Corporate and Pass-Through Entity Due Dates and Extension Rules\n\n#### Corporate Income Tax (Form CIT)\n* **Return Due Date:** \n  * Calendar-year filers: May 15. \n  * Fiscal-year filers: 15th day of the 5th month following the close of the tax year.\n* **Extension Rules:** \n  * Montana grants an automatic 6-month extension of time to file. \n  * Calendar-year extended due date: November 15. \n  * Fiscal-year extended due date: 15th day of the 11th month after the close of the fiscal year.\n  * An extension to file does not extend the time to pay tax liabilities.\n* **Official URL:** \n  * Montana Department of Revenue: https://mtrevenue.gov/taxes/business-taxes/corporate-income-tax/\n\n#### Pass-Through Entities (Form PTE)\n* **Return Due Date:** \n  * Calendar-year filers: March 15. \n  * Fiscal-year filers: 15th day of the 3rd month following the close of the tax year.\n* **Extension Rules:** \n  * Automatic 6-month extension.\n  * Calendar-year extended due date: September 15.\n* **Official URL:** \n  * Montana Department of Revenue: https://mtrevenue.gov/taxes/business-taxes/pass-through-entities/\n\n---\n\n### 3. Elective Pass-Through Entity Tax (PTET)\n\n* **Existence:** Yes. Enacted under Senate Bill 554 (effective beginning tax year 2023) and codified at Mont. Code Ann. §§ 15-30-3325 through 15-30-3328.\n* **Tax Rate:** \n  * 5.9% of each electing/affected owner’s distributive share of Montana-source income for tax years 2025 and 2026 (the rate matches the highest marginal individual income tax rate in effect under MCA § 15-30-2103).\n* **How and When to Elect:** \n  * The election is made annually by an eligible pass-through entity (partnership or S corporation) directly on a timely-filed Form PTE (including extensions, by September 15 for calendar-year filers).\n  * Once made for the tax year, the election is irrevocable. Elections submitted after the extended due date are invalid.\n* **Official URLs:** \n  * Montana Department of Revenue: https://mtrevenue.gov/taxes/business-taxes/pass-through-entities/\n  * Mont. Code Ann. § 15-30-3326: https://leg.mt.gov/bills/mca/title_0150/chapter_0300/part_0330/section_0260/0150-0300-0330-0260.html\n\n---\n\n### 4. Composite Returns for Pass-Through Entities\n\n* **Existence and Mechanism:** \n  * Yes, pass-through entities may file a composite return on behalf of consenting eligible nonresident owners directly using Form PTE and its schedules (separate standalone composite forms CLT-4S and PR-1 have been discontinued).\n* **Composite Tax Rate:** \n  * The composite tax is calculated at the highest individual marginal tax rate (5.9% for tax years 2025 and 2026 under MCA § 15-30-2103).\n* **Filing Date:** Same as Form PTE (March 15; September 15 on extension).\n* **Official URLs:** \n  * Mont. Code Ann. § 15-30-3312: https://leg.mt.gov/bills/mca/title_0150/chapter_0300/part_0330/section_0120/0150-0300-0330-0120.html\n  * Montana Department of Revenue: https://mtrevenue.gov/taxes/business-taxes/pass-through-entities/\n\n---\n\n### 5. Estimated Tax Payments and Nonresident Withholding for Pass-Throughs\n\n* **Nonresident Withholding Requirement:** \n  * Under Mont. Code Ann. § 15-30-3313, if a pass-through entity has a nonresident individual, foreign C corporation, or upper-tier entity owner whose distributive share of Montana source income is $1,000 or more, the pass-through entity must do one of the following on or before the due date (including extensions):\n    1. Include the owner in a composite return;\n    2. File an executed owner tax agreement (Form PT-AGR) in which the owner agrees to timely file Montana returns and pay tax; or\n    3. Remit withholding on behalf of the nonresident owner at the highest marginal rate (5.9% for 2025 and 2026).\n* **Pass-Through Entity Estimated Taxes:** \n  * Entities that owe composite tax or elective pass-through entity tax (PTET) are subject to estimated tax payment requirements and underpayment interest.\n  * Form EST-PTI is used to report and calculate interest on underpayment of estimated pass-through and composite tax.\n* **Corporate Estimated Tax Requirements:** \n  * Corporations that anticipate a tax liability of $5,000 or more must make quarterly estimated payments due on the 15th day of the 4th, 6th, 9th, and 12th months of the tax year.\n* **Official URLs:** \n  * Mont. Code Ann. § 15-30-3313: https://leg.mt.gov/bills/mca/title_0150/chapter_0300/part_0330/section_0130/0150-0300-0330-0130.html\n  * Montana Department of Revenue Pass-Through Entities: https://mtrevenue.gov/taxes/business-taxes/pass-through-entities/\n  * Montana Department of Revenue Corporate Income Tax: https://mtrevenue.gov/taxes/business-taxes/corporate-income-tax/\n\n---\n\n### 6. Main Return and Compliance Forms\n\n* **Individual Income Tax:**\n  * **Form 2:** Montana Individual Income Tax Return\n  * **Form IT:** Montana Individual Income Tax Payment Voucher\n  * **Form EST-I:** Underpayment of Estimated Tax by Individuals, Estates, and Trusts\n* **Corporate Income Tax:**\n  * **Form CIT:** Montana Corporate Income Tax Return\n  * **Form CIT Voucher:** Montana Corporate Income Tax Payment Voucher\n  * **Form CIT-UT:** Underpayment of Estimated Tax by Corporation\n* **Pass-Through Entities:**\n  * **Form PTE:** Montana Pass-Through Entity Tax Return (used for partnerships, S corporations, PTET election, and composite tax)\n  * **Form PTE, Schedule K-1:** Montana Owner's Share of Income, Deductions, and Credits\n  * **Form PR:** Montana Partnership Tax Payment Voucher\n  * **Form SB:** Montana Small Business Corporation (S Corp) Tax Payment Voucher\n  * **Form PT-AGR:** Pass-Through Entity Owner Tax Agreement\n  * **Form EST-PTI:** Interest on Underpayment of Estimated Tax for Composite Tax and Pass-Through Entity Tax\n* **Official URL:** \n  * Montana Department of Revenue Forms Repository: https://mtrevenue.gov/forms/",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Individual income tax returns for calendar-year filers are due April 15, with an automatic six-month filing extension to October 15. The extension applies only to filing, and any tax owed must still be paid by April 15.",
+    "source_url": "https://mtrevenue.gov/taxes/individual-income-tax/",
+    "evidence": [
+     "automatic 6-month extension",
+     "April 15",
+     "October 15"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://revenue.mt.gov/taxes/individual-income-tax/",
+    "matched_title": "Individual Income Tax",
+    "matched_phrases": [
+     "April 15",
+     "October 15"
+    ],
+    "snippet": "…n (Form WMRE) Additional Resources Where's My Refund? Montana Free File Partner Offers Approved Commercial Tax Software Individual Income Tax Due Dates Returns April 15 Extension October 15 Customer Service Helena Office: (406) 444-6900 Field Office Locations Mailing Addresses Contact Us State Directories Department of Revenue Telephone Directory Agency Telephone Li…"
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Calendar-year pass-through entity returns are due March 15, with an automatic six-month extension to September 15. Calendar-year corporate income tax returns are due May 15, with an automatic six-month extension to November 15.",
+    "source_url": "https://mtrevenue.gov/taxes/business-taxes/pass-through-entities/",
+    "evidence": [
+     "March 15",
+     "September 15",
+     "automatic 6-month extension"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://mtrevenue.gov/taxes/business-taxes/pass-through-entities/; evidence not on mtrevenue.gov (0/3); evidence not on mtrevenue.gov (1/3); not an official MT host: mostpolicyinitiative.org; not an official MT host: vertexaisearch.cloud.google.com; figures not on revenue.mt.gov: ['15']; dates not on mtrevenue.gov: ['May 15', 'November 15']; evidence not on revenue.mt.gov (1/3); not an official MT host: codes.findlaw.com; evidence not on revenuefiles.mt.gov (1/3); figures not on mtre",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Montana provides an elective pass-through entity tax at a rate of 5.9% of each electing owner's distributive share of Montana-source income. The irrevocable election is made annually by an eligible partnership or S corporation directly on a timely-filed Form PTE.",
+    "source_url": "https://mtrevenue.gov/taxes/business-taxes/pass-through-entities/",
+    "evidence": [
+     "pass-through entity tax",
+     "timely-filed Form PTE",
+     "distributive share of Montana-source income"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://revenue.mt.gov/taxes/pass-through-entities/pass-through-entity-tax",
+    "matched_title": "Montana Pass-Through Entity Tax: How to Elect & Pay",
+    "matched_phrases": [
+     "pass-through entity tax",
+     "timely-filed Form PTE",
+     "distributive share of Montana-source income"
+    ],
+    "snippet": "The pass-through entity tax (PTET) is a 5.9% of an affected owner’s distributive share of Montana source income."
+   },
+   {
+    "key": "composite",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Pass-through entities may file a composite return on behalf of consenting eligible nonresident owners directly using Form PTE. The composite tax is calculated at the rate of 5.9% for tax years 2025 and 2026.",
+    "source_url": "https://mtrevenue.gov/taxes/business-taxes/pass-through-entities/",
+    "evidence": [
+     "composite return",
+     "eligible nonresident owners",
+     "Form PTE and its schedules"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://mtrevenue.gov/taxes/business-taxes/pass-through-entities/; figures not on mtrevenue.gov: ['5.9']; not an official MT host: mostpolicyinitiative.org; not an official MT host: vertexaisearch.cloud.google.com; figures not on revenue.mt.gov: ['5.9']; evidence not on revenue.mt.gov (0/3); not an official MT host: codes.findlaw.com; figures not on revenuefiles.mt.gov: ['2026']; redirected off MT: https://mca.legmt.gov/bills/mca/title_0150/chapter_0300/part_0330/section_0130/0150-03",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Entities owing composite tax or elective pass-through entity tax are subject to estimated tax payments and report underpayment interest on Form EST-PTI. Pass-through entities must withhold 5.9% on nonresident owners with Montana source income of $1,000 or more unless included in a composite return or an executed Form PT-AGR agreement is filed.",
+    "source_url": "https://mtrevenue.gov/taxes/business-taxes/pass-through-entities/",
+    "evidence": [
+     "Form EST-PTI",
+     "owner tax agreement",
+     "Form PT-AGR"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://mtrevenue.gov/taxes/business-taxes/pass-through-entities/; figures not on mtrevenue.gov: ['1000', '5.9']; not an official MT host: mostpolicyinitiative.org; not an official MT host: vertexaisearch.cloud.google.com; figures not on revenue.mt.gov: ['1000', '5.9']; figures not on revenue.mt.gov: ['1000']; not an official MT host: codes.findlaw.com; evidence not on revenuefiles.mt.gov (1/3); redirected off MT: https://mca.legmt.gov/bills/mca/title_0150/chapter_0300/part_0330/sect",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Key individual income tax forms include Form 2, Form IT, and Form EST-I. Primary business forms include Form CIT for corporations and Form PTE for pass-through entities.",
+    "source_url": "https://mtrevenue.gov/forms/",
+    "evidence": [
+     "Form 2",
+     "Form CIT",
+     "Form PTE",
+     "Form PT-AGR"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://revenue.mt.gov/forms/",
+    "matched_title": "Montana Department of Revenue Forms Repository",
+    "matched_phrases": [
+     "Form 2",
+     "Form CIT",
+     "Form PTE",
+     "Form PT-AGR"
+    ],
+    "snippet": "…rtment of Revenue Business Registration (Form GenReg) (PDF) Montana Individual Income Tax Payment Voucher (Form IT) (PDF) Montana Individual Income Tax Return (Form 2) Montana Individual Income Tax Return (Form 2) Instruction Booklet Montana Profit or Loss from a Disregarded Entity Owned by a Nonresident (Form DE) Prepaying Income Tax (Publication 1) Request for T…"
+   }
+  ],
+  "grounding_urls": [
+   "https://mtrevenue.gov/taxes/individual-income-tax/",
+   "https://mtrevenue.gov/taxes/corporate-income-tax",
+   "https://mostpolicyinitiative.org/science-note/income-tax-elimination/",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-o2TcfNEVOSnIzYtv-HDRw9AUrWxMP1u0CdyY2VQibG9SxWitKdRLyj8jEeZfCtJDeqSB-IqtT6-d1QNo7MtQnx7XdKx3EE5U0vRu5R82yEaMwrIo8Lss3Kdx4e3R7vqQbtZBpKd_snVHOpPVOmOsbVwZB49LdyFgEiZTAMeeOobREPERNcpfi6G5T9FxifrKHDIMc9hsQAARS9iTbyf-fydgebKweuvI",
+   "https://revenue.mt.gov/taxes/",
+   "https://mtrevenue.gov/taxes/pass-through-entities/",
+   "https://revenue.mt.gov/taxes/pass-through-entities/pass-through-entity-tax",
+   "https://codes.findlaw.com/mt/title-15-taxation/mt-st-15-30-3326/",
+   "https://revenuefiles.mt.gov/files/forms/Montana_Publication_4%E2%80%93Pass-Through_Entity_Tax_Guide.pdf",
+   "https://mtrevenue.gov/forms/",
+   "https://leg.mt.gov/bills/mca/title_0150/chapter_0300/part_0330/section_0130/0150-0300-0330-0130.html",
+   "https://leg.mt.gov/bills/mca_toc/15_30_33.htm",
+   "https://revenue.mt.gov/taxes/corporate-income-tax",
+   "https://revenue.mt.gov/forms/",
+   "https://mtrevenue.gov/forms/",
+   "https://mtrevenue.gov/forms/"
+  ],
+  "error": ""
+ }
+]

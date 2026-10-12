@@ -1,0 +1,117 @@
+{
+  "code": "OH",
+  "name": "Ohio",
+  "sections": {
+    "apportionment": {
+      "fields": [
+        {
+          "key": "special_industries",
+          "label": "Special industry rules",
+          "value": "Special rules apply to motor carriers, which apportion traveling employee compensation based on vehicle mileage, and financial institutions, which apportion net equity capital using a single gross receipts factor. Additionally, electric light and local exchange telephone companies use an equally weighted three-factor formula.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/communications/publications/annual_reports/2017AnnualReport/AR2017.pdf",
+          "source_citation": "2017 AR",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "112 Municipal Income Tax for Electric Light and Telephone Companies ................................................................115 Property Tax –Manufactured Home Tax ........................................................................................................................"
+        },
+        {
+          "key": "forms",
+          "label": "Forms",
+          "value": "Individuals compute apportionment using Schedule IT BUS, while pass-through entities use Form IT 4708 Schedule IV or Form IT 4738. Withholding tax apportionment is reported on Form IT 1140 Schedule C.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://tax.ohio.gov/business/pass-through-entity-and-fiduciary-income-tax",
+          "source_citation": "Pass-Through Entity and Fiduciary Income Tax",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "IT 1140 Pass-Through Entity and Trust Withholding Tax Return IT 4708 Pass-Through Entity Composite Income Tax Return IT 4738 Electing Pass-Through Entity Income Tax Return The Pass-Through Entity Tax is required to be filed by qualifying pass-through entities that:"
+        }
+      ]
+    },
+    "nexus": {
+      "fields": []
+    },
+    "rates": {
+      "fields": [
+        {
+          "key": "individual",
+          "label": "Individual income tax",
+          "value": "For 2025, nonbusiness income is taxed at 0% up to $26,050, 2.75% from $26,050 to $100,000, and 3.125% over $100,000. Taxable business income is taxed at a flat rate of 3.0% after the Business Income Deduction.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://tax.ohio.gov/individual/resources/annual-tax-rates",
+          "source_citation": "Annual Tax Rates",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Ohio Taxable Income Tax Calculation More than      Up to $0       -       $26,050 0.000% of Ohio taxable nonbusiness income $26,050 -    $100,000 $342 + 2.75% of excess over $26,050 $100,000 - $2,394.32 + 3.125% of excess over $100,000 For taxable years beginning in 2024:"
+        }
+      ]
+    },
+    "filing": {
+      "fields": [
+        {
+          "key": "ptet",
+          "label": "Pass-through entity tax (PTET)",
+          "value": "Ohio has an elective pass-through entity tax levied at a rate of 3%. Entities elect annually by filing Form IT 4738 or submitting Form EPTE-ELEC on or before the filing deadline including extensions, which is irrevocable once made.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://tax.ohio.gov/business/pass-through-entity-and-fiduciary-income-tax/it-4708",
+          "source_citation": "IT 4708 Pass-Through Entity Composite Income Tax Return",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Share this odx-more-information Additional Resources Pass-Through Entity and Fiduciary Income Tax Information on Pass-Through Entity & Fiduciary Income Tax Returns/Forms Pass-Through Entity & Fiduciary Income Tax Rates IT 1140 Pass-Through Entity (PTE) and Trust Withholding Tax Return IT 4708 Pass-Through Entity Composite Income Tax Return IT 4738 Electing Pass-Through Entity Income Tax Return IT 1041 Fiduciary Income Tax Return (Trusts/Estates) Ohio IT K-1 Contact Us OH|TAX eServices Web Messag"
+        },
+        {
+          "key": "composite",
+          "label": "Composite returns",
+          "value": "A pass-through entity may file an annual composite return using Form IT 4708 on behalf of direct and indirect investors at a tax rate of 3.125%. Nonresident investors whose only Ohio-sourced income is included on Form IT 4708 are exempt from filing an individual return.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://tax.ohio.gov/business/pass-through-entity-and-fiduciary-income-tax",
+          "source_citation": "Pass-Through Entity and Fiduciary Income Tax",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "IT 1140 Pass-Through Entity and Trust Withholding Tax Return IT 4708 Pass-Through Entity Composite Income Tax Return IT 4738 Electing Pass-Through Entity Income Tax Return The Pass-Through Entity Tax is required to be filed by qualifying pass-through entities that:"
+        },
+        {
+          "key": "estimates",
+          "label": "Withholding and estimated payments",
+          "value": "For tax year 2026, estimated tax due dates for IT 1140, IT 4738, and IT 4708 align to April 15, June 15, September 15, and January 15. Form IT 1140 withholding applies at a 3% rate when an entity's adjusted qualifying amount exceeds $1,000.",
+          "years": [
+            2026
+          ],
+          "source_url": "https://tax.ohio.gov/business/pass-through-entity-and-fiduciary-income-tax",
+          "source_citation": "Pass-Through Entity and Fiduciary Income Tax",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Ability to claim business credits or refundable PTE credits Investors’ residency Investors’ filing requirement Topic IT 4738 Electing Pass-Through Entity (EPTE) Income Tax Return IT 4708 PTE Composite Income Tax Return IT 1140 PTE & Trust Withholding Tax Return Filing Date April 15 after the year in which the entity’s taxable year ends April 15 after the year in which the entity’s taxable year ends 15th day of fourth month after close of fiscal year Can the Return Include Resident Investors? Yes"
+        },
+        {
+          "key": "key_forms",
+          "label": "Key forms",
+          "value": "Key individual tax forms include IT 1040 and SD 100, while Ohio levies no general corporate net income tax. Core pass-through entity forms include Form IT 1140 for withholding, Form IT 4708 for composite filers, Form IT 4738 for elective PTET, and Ohio IT K-1.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://tax.ohio.gov/home/forms",
+          "source_citation": "Tax Forms",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Top Individual Forms IT 1040/SD 100 Instructions Tax Year:"
+        }
+      ]
+    }
+  }
+}

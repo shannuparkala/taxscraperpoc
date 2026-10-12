@@ -1,0 +1,40 @@
+{
+  "id": "adv-other-person",
+  "tax_year": 2025,
+  "kind": "adversarial",
+  "source": {
+    "workpaper": "synthetic:other-person",
+    "filed_return": "none - invented"
+  },
+  "inputs": [
+    {
+      "field": "wages",
+      "amount": "52340.00",
+      "verified": true
+    },
+    {
+      "field": "federal_withheld_w2",
+      "amount": "6120.00",
+      "verified": true
+    }
+  ],
+  "lines": [
+    {
+      "node": "f1040.l1a",
+      "amount": "52340",
+      "verified": true
+    },
+    {
+      "node": "f1040.l25a",
+      "amount": "6120",
+      "verified": true
+    }
+  ],
+  "expected_flags": [
+    {
+      "kind": "review_item",
+      "match": "another (person|taxpayer)|different (person|taxpayer|employee)|does not match|not the taxpayer"
+    }
+  ],
+  "notes": "A second W-2 issued to somebody else is in the bundle. It must not reach the return, and it must be flagged."
+}

@@ -1,0 +1,486 @@
+[
+ {
+  "state": "TX",
+  "section": "apportionment",
+  "notes": "### Apportionment Formula\n* **Fact:** Texas margin (the tax base for the Texas Franchise Tax) is apportioned using a **single-factor apportionment formula** based entirely on gross receipts. The apportionment factor is calculated as a fraction: Texas gross receipts (business done in Texas) divided by gross receipts everywhere (entire business). The factor is rounded to four decimal places. Texas does not allow the Multistate Tax Compact’s three-factor formula.\n* **Applicability:** Tax years 2025 and 2026 (unchanged).\n* **Official URL:** \n  * Texas Tax Code § 171.106: https://statutes.capitol.texas.gov/Docs/TX/htm/TX.171.htm\n  * Comptroller Apportionment FAQ: https://comptroller.texas.gov/taxes/franchise/faq/apportionment.php\n  * Comptroller Franchise Tax Overview: https://comptroller.texas.gov/taxes/franchise/\n\n---\n\n### Sourcing of Receipts from Services and Intangibles\n* **Services (Performance-Based / Location of Performance):**\n  * **Rule:** Receipts from services are sourced based on the **location where the service is performed** (cost of performance / work performed), *not* market-based sourcing. Under 34 TAC § 3.591(e)(26) (amended March 14, 2023, following *Sirius XM Radio, Inc. v. Hegar*), a service is performed where the taxpayer’s personnel or property are doing the work that the customer hired the taxable entity to perform.\n  * *Statutory exceptions:* Receipts from servicing loans secured by real property are sourced to Texas if the real property is located in Texas (Tex. Tax Code § 171.103(a)(2)); receipts from internet hosting services are sourced to Texas only if the customer is located in Texas (Tex. Tax Code § 171.106(g)).\n* **Intangibles:**\n  * **Royalties / Use of Intangibles:** Receipts from the use of a patent, copyright, trademark, franchise, or license are sourced to Texas if the intangible is used in Texas (Tex. Tax Code § 171.103(a)(4); 34 TAC § 3.591). Receipts from sales or licenses of computer software are sourced to the legal domicile of the payor.\n  * **Sales / Net Gains:** Net gains from the sale of intangible assets held as capital assets or investments are sourced to the **location of the payor** (the legal domicile of the payor; for a corporation, its state of formation) (34 TAC § 3.591(e)(2)(D), (e)(21)(B)).\n* **Applicability:** Tax years 2025 and 2026 (unchanged).\n* **Official URL:**\n  * Texas Tax Code § 171.103: https://statutes.capitol.texas.gov/Docs/TX/htm/TX.171.htm\n  * Comptroller Tax Policy News (Rule 3.591 amendments): https://comptroller.texas.gov/taxes/tax-policy-news/2023-april.php\n  * STAR Document 202101003R (34 TAC § 3.591): https://star.comptroller.texas.gov/lic/202101003R\n  * STAR Document 201607948L (Intangible Sourcing): https://star.comptroller.texas.gov/lic/201607948L\n\n---\n\n### Industries with Special Apportionment Formulas or Rules\nTexas prescribes specialized statutory and administrative apportionment formulas for specific industries:\n* **Broadcasters:** Sourced to Texas only if the legal domicile of the broadcaster’s customer is in Texas (Tex. Tax Code § 171.106(h)).\n* **Investment Management Services / Regulated Investment Companies (RICs) & Employee Retirement Plans:** Margin is apportioned based on the proportion of shares owned by shareholders (or beneficiaries) domiciled in Texas (Tex. Tax Code § 171.106(b), (c)).\n* **Internet Hosting:** Receipts are sourced to Texas only if the customer to whom the service is provided is located in Texas (Tex. Tax Code § 171.106(g)).\n* **Financial Institutions / Broker-Dealers:** Specialized gross proceeds rules for sales of certain loans and securities categorized as \"Securities Available for Sale\" or \"Trading Securities\" under FAS 115 (Tex. Tax Code § 171.106(f), (f-1)).\n* **Transportation Companies:** Sourced using mileage ratios (ratio of compensated passenger/goods mileage in Texas to compensated mileage everywhere, or revenues derived from intrastate transportation originating and terminating in Texas) (34 TAC § 3.591(e)(32)/(33)).\n* **Telecommunications Services:** Sourced based on specific calling points, transmission origins, and billing addresses (34 TAC § 3.591(e)(30)).\n* **Applicability:** Tax years 2025 and 2026 (unchanged).\n* **Official URL:**\n  * Texas Tax Code § 171.106: https://statutes.capitol.texas.gov/Docs/TX/htm/TX.171.htm\n  * Comptroller Tax Exemptions & Incidence Report (Special Apportionment): https://comptroller.texas.gov/transparency/reports/tax-exemptions/2025/96-463.pdf\n\n---\n\n### Form or Schedule Used to Compute Apportionment\n* **Standard Franchise Tax Filers (Long Form):** \n  * **Form 05-158** (*Texas Franchise Tax Report*), specifically **Page 2 (Form 05-158-B)**.\n  * Apportionment is computed on:\n    * Item 24: Gross receipts in Texas\n    * Item 25: Gross receipts everywhere\n    * Item 26: Apportionment Factor (Item 24 ÷ Item 25, rounded to 4 decimal places)\n* **E-Z Computation Filers:** \n  * **Form 05-169** (*Texas Franchise Tax E-Z Computation Report*).\n  * Computed on Item 11 (Texas receipts), Item 12 (Everywhere receipts), and Item 13 (Apportionment factor).\n* **Combined Groups:** \n  * **Form 05-166** (*Affiliate Schedule*), which reports the separate Texas and everywhere receipts of each unitary affiliate to roll up into the combined group's Form 05-158 or Form 05-169.\n* **Applicability:** Tax years 2025 and 2026 (unchanged).\n* **Official URL:**\n  * Form 05-158: https://comptroller.texas.gov/forms/05-158.pdf\n  * Form 05-169: https://comptroller.texas.gov/forms/05-169.pdf\n  * Franchise Tax Report Forms Directory: https://comptroller.texas.gov/taxes/franchise/forms/2025-forms.php",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Texas apportions margin using a single-factor apportionment formula based entirely on gross receipts. The apportionment factor is calculated by dividing Texas gross receipts by gross receipts everywhere and rounded to four decimal places.",
+    "source_url": "https://statutes.capitol.texas.gov/Docs/TX/htm/TX.171.htm",
+    "evidence": [
+     "gross receipts",
+     "business done in this state",
+     "apportioned margin"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://comptroller.texas.gov/forms/05-158-a-20.pdf",
+    "matched_title": "05-158 Texas Franchise Tax 2020 Annual Report",
+    "matched_phrases": [
+     "gross receipts",
+     "apportioned margin"
+    ],
+    "snippet": "Gross receipts in Texas (Whole dollars only) 0 0 25.25."
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Receipts from services are sourced based on the location where the service is performed rather than market-based sourcing. Receipts from the use of intangibles are sourced to Texas if used in Texas, while net gains from sales of intangibles held as capital assets or investments are sourced to the legal domicile of the payor.",
+    "source_url": "https://statutes.capitol.texas.gov/Docs/TX/htm/TX.171.htm",
+    "evidence": [
+     "service is performed",
+     "used in this state",
+     "gross receipts"
+    ],
+    "accepted": false,
+    "reason": "evidence not on statutes.capitol.texas.gov (0/3); evidence not on comptroller.texas.gov (1/3); evidence not on star.comptroller.texas.gov (0/3); evidence not on comptroller.texas.gov (0/3)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Texas prescribes specialized apportionment rules for broadcasters, investment management services, internet hosting, financial institutions, transportation companies, and telecommunications providers.",
+    "source_url": "https://statutes.capitol.texas.gov/Docs/TX/htm/TX.171.htm",
+    "evidence": [
+     "regulated investment company",
+     "internet hosting service",
+     "broadcaster's customer"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://comptroller.texas.gov/transparency/reports/tax-exemptions-and-incidence/2025/96-463.pdf",
+    "matched_title": "96-463 Tax Exemptions and Tax Incidence",
+    "matched_phrases": [
+     "regulated investment company",
+     "broadcaster's customer"
+    ],
+    "snippet": "Section 171.106(b) sources receipts from regulated investment company services to the domicile of the owners of the investment funds."
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Apportionment is computed on Form 05-158 (Page 2, Form 05-158-B) for standard filers or Form 05-169 for E-Z Computation filers. Combined groups report each affiliate's receipts on Form 05-166.",
+    "source_url": "https://comptroller.texas.gov/forms/05-158.pdf",
+    "evidence": [
+     "Texas Franchise Tax Report",
+     "Gross receipts in Texas",
+     "Apportionment Factor"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://comptroller.texas.gov/forms/05-914.pdf",
+    "matched_title": "Form 05-914, 2025 Franchise Tax Instructions",
+    "matched_phrases": [
+     "Texas Franchise Tax Report",
+     "Gross receipts in Texas",
+     "Apportionment Factor"
+    ],
+    "snippet": "Form 05-158-B Texas Franchise Tax Report – Page 2 Item 19."
+   }
+  ],
+  "grounding_urls": [
+   "https://comptroller.texas.gov/taxes/publications/98-806.php",
+   "https://comptroller.texas.gov/forms/hb3calc.pdf",
+   "https://statutes.capitol.texas.gov/docs/TX/htm/TX.171.htm",
+   "https://comptroller.texas.gov/forms/05-169-a-19.pdf",
+   "https://comptroller.texas.gov/forms/05-158-a-20.pdf",
+   "https://comptroller.texas.gov/taxes/franchise/faq/apportionment.php",
+   "https://comptroller.texas.gov/forms/05-914.pdf",
+   "https://star.comptroller.texas.gov/view/202101003R?q1=sourcing%20services",
+   "https://comptroller.texas.gov/taxes/tax-policy-news/2023-april.php",
+   "https://statutes.capitol.texas.gov/GetStatute.aspx?Code=TX&Value=171.1014&Date=3/5/2025",
+   "https://statutes.capitol.texas.gov/docs/TX/htm/TX.171.htm",
+   "https://comptroller.texas.gov/forms/05-393.pdf",
+   "https://star.comptroller.texas.gov/view/201607948L",
+   "https://comptroller.texas.gov/transparency/reports/tax-exemptions-and-incidence/2025/96-463.pdf",
+   "https://comptroller.texas.gov/transparency/reports/tax-exemptions-and-incidence/2025/96-463.pdf",
+   "https://star.comptroller.texas.gov/view/201809019H?q1=114,930",
+   "https://comptroller.texas.gov/forms/05-169-f-25.pdf",
+   "https://comptroller.texas.gov/taxes/franchise/forms/2025-franchise.php",
+   "https://comptroller.texas.gov/forms/05-158-f-26.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "TX",
+  "section": "nexus",
+  "notes": "### 1. Income or Franchise Tax Nexus & Bright-Line / Economic Nexus Threshold\n\n* **Tax Structure Note:** Texas does not impose an individual or corporate net income tax. It imposes the Texas Franchise Tax (a privilege tax on taxable entities doing business or organized in Texas).\n* **Physical Presence Nexus:** A taxable entity has nexus if it is chartered/organized in Texas or has physical presence in Texas (e.g., maintaining an office, place of distribution, warehouse, employees, representatives, consigned goods, etc.). \n* **Use Tax Permit Presumption:** Under 34 Tex. Admin. Code § 3.586(e), a foreign taxable entity holding an active Texas use tax permit is presumed to have franchise tax nexus.\n* **Economic Nexus / Bright-Line Threshold:** \n  * Under 34 Tex. Admin. Code § 3.586(f), a foreign taxable entity has nexus in Texas and is subject to the Texas franchise tax—even without physical presence—if during a federal income tax accounting period ending in 2019 or later, it has **gross receipts from business done in Texas of $500,000 or more** (sourced under 34 Tex. Admin. Code § 3.591).\n  * \"Gross receipts\" means all revenue reportable on its federal return without deduction for cost of goods sold, labor, materials, or other costs.\n* **Applicability (Tax Years 2025 and 2026):** Applies to both tax years 2025 and 2026 (franchise tax report years 2025 and 2026). The threshold remains unchanged at **$500,000**.\n* **Official Sources:**\n  * Texas Comptroller Franchise Tax Remote Sellers: https://comptroller.texas.gov/taxes/franchise/remote-sellers.php\n  * Texas Administrative Code, 34 TAC § 3.586 (STAR System Accession No. 202601004R): https://star.comptroller.texas.gov/netportal/\n  * Texas Tax Code Chapter 171: https://statutes.capitol.texas.gov/Docs/TX/htm/TX.171.htm\n\n---\n\n### 2. Remote Seller Economic Nexus Threshold (Sales and Use Tax)\n\n* **Definition:** A remote seller is an out-of-state seller whose only activity in Texas is the remote solicitation of sales (with no physical presence).\n* **Economic Nexus Threshold:** Total Texas revenue of **$500,000 or more**.\n  * Texas provides a safe harbor: remote sellers with total Texas revenue of less than $500,000 in the measurement period are not required to obtain a permit or collect/remit use tax.\n  * Total Texas revenue includes gross revenue from all taxable and nontaxable sales of tangible personal property and services into Texas, including separately stated shipping/handling fees, sales for resale, and exempt sales.\n* **Transaction Count:** **None**. Texas does not have a transaction-count threshold.\n* **Measurement Period:** The **preceding 12 calendar months**.\n* **Collection Obligation Timeline:** A remote seller that exceeds the $500,000 safe harbor must obtain a sales and use tax permit and begin collecting and remitting tax no later than the **first day of the fourth month** after the month in which the safe harbor threshold was exceeded (34 TAC § 3.286(b)(2)(B)).\n* **Applicability (Tax Years 2025 and 2026):** Applies to both 2025 and 2026 without change.\n* **Official Sources:**\n  * Texas Comptroller Remote Sellers Page: https://comptroller.texas.gov/taxes/sales/remote-sellers.php\n  * Texas Comptroller Remote Sellers & Marketplace FAQs: https://comptroller.texas.gov/taxes/sales/remote-sellers-faq.php\n  * Texas Administrative Code, 34 TAC § 3.286 (STAR System): https://star.comptroller.texas.gov/netportal/\n\n---\n\n### 3. State's Stated Position on Public Law 86-272 Protection\n\n* **Official Stated Position:** **Public Law 86-272 does not apply to the Texas Franchise Tax**.\n  * 34 Tex. Admin. Code § 3.586(i) explicitly provides: *\"Public Law 86-272 (15 United States Code §§381 - 384) does not apply to the Texas franchise tax.\"*\n  * Texas does not impose a net income tax; because the Texas Franchise Tax is an excise/privilege tax imposed on taxable margin rather than a net corporate income tax, the Texas Comptroller maintains that federal statutory immunity under 15 U.S.C. §§ 381–384 does not shield taxpayers from the Texas franchise tax.\n* **Applicability (Tax Years 2025 and 2026):** Applies to both tax years 2025 and 2026 without change.\n* **Official Source:**\n  * Texas Administrative Code, 34 TAC § 3.586(i) (STAR System Accession No. 202601004R): https://star.comptroller.texas.gov/netportal/",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Texas franchise tax nexus is established through physical presence, holding an active use tax permit, or having gross receipts from business done in Texas of $500,000 or more during a federal income tax accounting period. Gross receipts include all reportable federal revenue without deduction for costs.",
+    "source_url": "https://comptroller.texas.gov/taxes/franchise/remote-sellers.php",
+    "evidence": [
+     "gross receipts",
+     "500,000 or more",
+     "Texas franchise tax"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://comptroller.texas.gov/taxes/sales/remote-sellers.php",
+    "matched_title": "Remote Sellers",
+    "matched_phrases": [
+     "gross receipts",
+     "Texas franchise tax"
+    ],
+    "snippet": "A foreign (i.e., out-of-state) taxable entity with annual gross receipts of $500,000 or more from business in Texas has economic nexus even if the entity has no physical presence in this state."
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "A remote seller establishes sales tax economic nexus if its total Texas revenue is $500,000 or more during the preceding 12 calendar months. Texas has no transaction-count threshold.",
+    "source_url": "https://comptroller.texas.gov/taxes/sales/remote-sellers.php",
+    "evidence": [
+     "total Texas revenue",
+     "500,000 or more",
+     "preceding 12 calendar months"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://comptroller.texas.gov/taxes/sales/remote-sellers-marketplace-faq.php",
+    "matched_title": "Remote Sellers and Marketplace Frequently Asked Questions",
+    "matched_phrases": [
+     "total Texas revenue",
+     "preceding 12 calendar months"
+    ],
+    "snippet": "What is the safe harbor provision for remote sellers? The safe harbor provision provides that a remote seller is not required to obtain a tax permit and collect use tax, if its total Texas revenue is less than $500,000 in the previous 12 calendar months."
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Public Law 86-272 does not apply to the Texas franchise tax. Because the tax is an excise or privilege tax rather than a corporate net income tax, federal statutory immunity does not shield taxpayers.",
+    "source_url": "https://star.comptroller.texas.gov/netportal/",
+    "evidence": [
+     "Public Law 86-272",
+     "does not apply",
+     "Texas franchise tax"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://star.comptroller.texas.gov/netportal/; figures not on comptroller.texas.gov: ['272', '86']; figures not on star.comptroller.texas.gov: ['272', '86']; figures not on statutes.capitol.texas.gov: ['272', '86']; figures not on comptroller.texas.gov: ['272']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://comptroller.texas.gov/taxes/sales/remote-sellers.php",
+   "https://star.comptroller.texas.gov/view/202601004R",
+   "https://statutes.capitol.texas.gov/docs/TX/htm/TX.171.htm",
+   "https://star.comptroller.texas.gov/view/202601004R",
+   "https://comptroller.texas.gov/taxes/sales/marketplace-providers-sellers.php",
+   "https://comptroller.texas.gov/taxes/tax-policy-news/2026-january.php",
+   "https://comptroller.texas.gov/forms/05-914.pdf",
+   "https://comptroller.texas.gov/taxes/sales/remote-sellers-marketplace-faq.php",
+   "https://comptroller.texas.gov/taxes/publications/94-108.php",
+   "https://comptroller.texas.gov/taxes/publications/94-105.php",
+   "https://comptroller.texas.gov/web-forms/remote-seller/",
+   "https://star.comptroller.texas.gov/view/202002011L?q1=202002011L",
+   "https://star.comptroller.texas.gov/view/9710258L"
+  ],
+  "error": ""
+ },
+ {
+  "state": "TX",
+  "section": "rates",
+  "notes": "### 1. Individual Income Tax\n* **Fact:** Texas has no individual (personal) income tax. Imposition of a net income tax on individuals (including a partner's share of partnership income) is explicitly prohibited by the state constitution.\n* **Applicability:** Applies to both tax years 2025 and 2026 (no change).\n* **Official URLs:** \n  * Texas Constitution, Art. VIII, Sec. 24-a: https://statutes.capitol.texas.gov/Docs/CN/htm/CN.8.htm#8.24-a\n  * Texas Comptroller: https://comptroller.texas.gov/economy/fiscal-notes/archive/2016/february/starting.php\n\n---\n\n### 2. Corporate Income Tax, Franchise (Margin) Tax Rates & Minimum Tax\n* **Fact:** Texas does not levy a traditional corporate income tax. Instead, it imposes the **Franchise Tax** (a privilege tax based on taxable margin) on taxable entities.\n  * **Standard Franchise Tax Rates:**\n    * Retail or wholesale entities: **0.375%**\n    * Other entities (non-retail/wholesale): **0.75%**\n  * **EZ Computation:**\n    * Available for entities with annualized total revenue up to **$20 million**\n    * Rate: **0.331%**\n  * **No Tax Due Threshold (changed between 2025 and 2026):**\n    * Report Year 2025: **$2,470,000**\n    * Report Year 2026: **$2,650,000**\n    *(Entities with annualized total revenue at or below this threshold owe $0 and are not required to file a Franchise Tax report, though information reports remain due).*\n  * **Compensation Deduction Limit (changed between 2025 and 2026):**\n    * Report Year 2025: **$450,000** per person\n    * Report Year 2026: **$480,000** per person\n  * **Minimum Tax:** \n    * There is **no minimum franchise tax**.\n    * Entities calculating an amount of tax due of less than **$1,000** owe no tax.\n* **Applicability:** Rates and the $1,000 threshold apply to both 2025 and 2026; the No Tax Due threshold and compensation limit adjusted upward for 2026 reports.\n* **Official URLs:** \n  * Texas Comptroller Franchise Tax Rates and Thresholds: https://comptroller.texas.gov/taxes/franchise/\n  * Texas Comptroller 2026 Franchise Tax Instructions: https://comptroller.texas.gov/forms/05-915.pdf\n\n---\n\n### 3. State Sales and Use Tax & Local Rates\n* **Fact:** \n  * State Sales and Use Tax Rate: **6.25%**.\n  * Local Taxing Jurisdictions: Cities, counties, transit authorities, and special purpose districts may add local sales and use taxes up to **2.00%**, resulting in a maximum combined rate of **8.25%**.\n* **Applicability:** Applies to both tax years 2025 and 2026 (no change).\n* **Official URLs:** \n  * Texas Comptroller Sales and Use Tax: https://comptroller.texas.gov/taxes/sales/\n  * Texas Comptroller Local Sales and Use Tax FAQ: https://comptroller.texas.gov/taxes/sales/faq/local.php\n\n---\n\n### 4. Gross Receipts and Other Notable Business Taxes\n* **Fact:** In addition to the franchise (margin) tax, Texas imposes specific gross receipts taxes and assessments:\n  * **Miscellaneous Gross Receipts Tax (MGRT):** Imposed on utility companies (electric, gas, water) providing service in incorporated cities/towns based on population:\n    * Population 1,001 to 2,499: **0.581%** (0.00581)\n    * Population 2,500 to 9,999: **1.07%** (0.0107)\n    * Population 10,000 or more: **1.997%** (0.01997)\n  * **Mixed Beverage Gross Receipts Tax:** Imposed at **6.7%** on a permittee's gross receipts from the sale, preparation, or service of mixed beverages, ice, or mixers (levied in addition to the 8.25% mixed beverage sales tax).\n  * **Public Utility Gross Receipts Assessment:** Imposed at **1/6 of 1% (0.001667)** on gross receipts of public utilities, retail electric providers, and electric cooperatives charged to the ultimate consumer in Texas.\n* **Applicability:** Applies to both tax years 2025 and 2026 (no change).\n* **Official URLs:**\n  * Miscellaneous Gross Receipts Tax: https://comptroller.texas.gov/taxes/gross-receipts/\n  * Mixed Beverage Gross Receipts Tax: https://comptroller.texas.gov/taxes/mixed-beverage-gross-receipts/\n  * Texas Tax Code § 183.021: https://statutes.capitol.texas.gov/Docs/TX/htm/TX.183.htm#183.021\n  * Public Utility Gross Receipts Assessment: https://comptroller.texas.gov/taxes/pu-gross-receipts/",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Texas does not levy an individual income tax, and the state constitution explicitly prohibits imposing a net income tax on individuals.",
+    "source_url": "https://statutes.capitol.texas.gov/Docs/CN/htm/CN.8.htm#8.24-a",
+    "evidence": [
+     "net income tax",
+     "natural persons"
+    ],
+    "accepted": false,
+    "reason": "evidence not on statutes.capitol.texas.gov (0/2); evidence not on comptroller.texas.gov (0/2); unreadable: https://comptroller.texas.gov/taxes/property-tax/docs/96-298-23.pdf; evidence not on comptroller.texas.gov (1/2)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025
+    ],
+    "value": "Texas imposes a franchise tax of 0.375% on retail and wholesale entities and 0.75% on other entities (or 0.331% under EZ computation), with no minimum tax. For report year 2025, entities with annualized total revenue at or below $2,470,000 or calculating tax due under $1,000 owe no tax.",
+    "source_url": "https://comptroller.texas.gov/taxes/franchise/",
+    "evidence": [
+     "0.375%",
+     "0.75%",
+     "no tax due",
+     "EZ computation"
+    ],
+    "accepted": false,
+    "reason": "figures not on comptroller.texas.gov: ['1000']; figures not on comptroller.texas.gov: ['0.331', '0.375', '0.75', '2470000']; unreadable: https://comptroller.texas.gov/taxes/property-tax/docs/96-298-23.pdf; figures not on statutes.capitol.texas.gov: ['0.331', '0.375', '0.75', '1000', '2025', '2470000']; figures not on comptroller.texas.gov: ['0.331', '0.375', '0.75', '1000', '2470000']; figures not on comptroller.texas.gov: ['2470000']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2026
+    ],
+    "value": "Texas imposes a franchise tax of 0.375% on retail and wholesale entities and 0.75% on other entities (or 0.331% under EZ computation), with no minimum tax. For report year 2026, the no tax due threshold increases to $2,650,000 in annualized total revenue, with tax liability waived if calculated under $1,000.",
+    "source_url": "https://comptroller.texas.gov/taxes/franchise/",
+    "evidence": [
+     "0.375%",
+     "0.75%",
+     "no tax due",
+     "EZ computation"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://comptroller.texas.gov/forms/05-915.pdf",
+    "matched_title": "05-915 - 2026 Franchise Tax Instructions - Form",
+    "matched_phrases": [
+     "0.375%",
+     "0.75%",
+     "no tax due",
+     "EZ computation"
+    ],
+    "snippet": "• 0.75% (0.0075) for most entities • 0.375% (0.00375) for qualifying wholesalers and retailers • 0.331% (0.00331) for those entities with $20 million or less in annualized total revenue using the EZ computation."
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The Texas state sales and use tax rate is 6.25%. Local jurisdictions may add up to 2.00% for a maximum combined sales and use tax rate of 8.25%.",
+    "source_url": "https://comptroller.texas.gov/taxes/sales/",
+    "evidence": [
+     "sales and use tax",
+     "6.25 percent",
+     "local sales and use",
+     "8.25 percent"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://comptroller.texas.gov/taxes/sales/",
+    "matched_title": "Sales and Use Tax",
+    "matched_phrases": [
+     "sales and use tax",
+     "6.25 percent",
+     "local sales and use",
+     "8.25 percent"
+    ],
+    "snippet": "Local taxing jurisdictions (cities, counties, special purpose districts and transit authorities) can also impose up to 2 percent sales and use tax for a maximum combined rate of 8.25 percent."
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Texas levies a Miscellaneous Gross Receipts Tax on utility companies in incorporated cities at rates of 0.581%, 1.07%, or 1.997% based on population, and a Mixed Beverage Gross Receipts Tax of 6.7%. Additionally, public utilities are subject to a Public Utility Gross Receipts Assessment of 1/6 of 1% (0.001667).",
+    "source_url": "https://comptroller.texas.gov/taxes/gross-receipts/",
+    "evidence": [
+     "gross receipts tax",
+     "utility companies",
+     "incorporated city",
+     "0.581 percent"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://comptroller.texas.gov/taxes/gross-receipts/; figures not on comptroller.texas.gov: ['0.001667', '0.581', '1.07', '1.997', '6.7']; unreadable: https://comptroller.texas.gov/taxes/property-tax/docs/96-298-23.pdf; figures not on statutes.capitol.texas.gov: ['0.001667', '0.581', '1', '1.07', '1.997', '6']; figures not on comptroller.texas.gov: ['0.001667', '0.581', '1.07', '1.997', '6', '6.7']; figures not on comptroller.texas.gov: ['0.001667', '0.581', '1', '1.07', '1.997', '6']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://comptroller.texas.gov/economy/fiscal-notes/archive/2016/february/starting.php",
+   "https://comptroller.texas.gov/economy/fiscal-notes/archive/2023/oct/resilient.php",
+   "https://comptroller.texas.gov/taxes/property-tax/docs/96-298-23.pdf",
+   "https://statutes.capitol.texas.gov/docs/sdocs/thetexasconstitution.pdf",
+   "https://statutes.capitol.texas.gov/GetStatute.aspx?Code=CN&Value=8.24-a",
+   "https://comptroller.texas.gov/taxes/franchise/",
+   "https://comptroller.texas.gov/taxes/publications/98-806.php",
+   "https://comptroller.texas.gov/taxes/franchise/",
+   "https://comptroller.texas.gov/taxes/franchise/",
+   "https://comptroller.texas.gov/taxes/franchise/forms/2025-franchise.php",
+   "https://comptroller.texas.gov/forms/05-915.pdf",
+   "https://comptroller.texas.gov/taxes/tax-policy-news/2025-april.php",
+   "https://comptroller.texas.gov/taxes/tax-policy-news/2026-april.php",
+   "https://comptroller.texas.gov/taxes/franchise/faq/compensation.php",
+   "https://comptroller.texas.gov/taxes/sales/",
+   "https://comptroller.texas.gov/taxes/sales/faq/local.php",
+   "https://comptroller.texas.gov/taxes/mixed-beverage/receipts.php",
+   "https://comptroller.texas.gov/taxes/misc-gross-receipts/",
+   "https://comptroller.texas.gov/taxes/public-utility/",
+   "https://comptroller.texas.gov/taxes/mixed-beverage/refunds-receipts.php",
+   "https://statutes.capitol.texas.gov/GetStatute.aspx?Code=TX&Value=183.021"
+  ],
+  "error": ""
+ },
+ {
+  "state": "TX",
+  "section": "filing",
+  "notes": "### 1. Individual Return Due Dates and Extensions\n* **Fact:** Texas does not impose an individual (personal) income tax. Therefore, there are no individual income tax return due dates, filing requirements, or extension rules.\n* **Applicable Tax Years:** Tax years 2025 and 2026 (unchanged; prohibited under the Texas Constitution, Art. VIII, Sec. 24-a).\n* **Official URL:** https://comptroller.texas.gov/taxes/ and https://statutes.capitol.texas.gov/Docs/CN/htm/CN.8.htm#8.24-a\n\n---\n\n### 2. Corporate and Pass-Through Return Due Dates and Extension Rules\n* **Fact:** In Texas, both corporations and pass-through entities (LLCs, partnerships, S corporations, etc., excluding sole proprietorships and general partnerships composed solely of natural persons) are taxable entities subject to the Texas Franchise Tax.\n  * **Original Due Date:** Annual franchise tax reports are due on **May 15**. If May 15 falls on a weekend or legal holiday, the due date is the next business day.\n  * **Filing Extensions:** An extension of time to file will be tentatively granted upon receipt of a timely extension request (postmarked/received on or before May 15):\n    * *Non-EFT filers:* Filing Form 05-164 (or requesting online via Webfile) extends the filing deadline to **November 15**. To be valid, the taxpayer must remit at least 90% of the tax due for the current year or 100% of the tax reported as due for the prior year on or before May 15.\n    * *Mandatory EFT filers:* \n      * *First Extension:* May request an extension to **August 15** by paying at least 90% of the current year tax or 100% of the prior year tax by May 15.\n      * *Second Extension:* May request a second extension to **November 15** on or before August 15 by remitting the balance of 100% of the tax expected to be due.\n  * *No Tax Due filers:* Entities with annualized total revenue at or below the No Tax Due threshold that need an extension to file their required Information Report (PIR or OIR) must also submit a timely extension request (or extend via Webfile with $0 payment).\n* **Applicable Tax Years:** Applies to both 2025 and 2026 report years.\n* **Official URLs:** \n  * https://comptroller.texas.gov/taxes/franchise/\n  * https://comptroller.texas.gov/taxes/franchise/filing-extensions.php\n\n---\n\n### 3. Elective Pass-Through Entity (PTE) Tax\n* **Fact:** Not found / Does not exist. Texas has no personal income tax, so there is no elective pass-through entity income tax. Pass-through entities are already subject to the mandatory entity-level Texas Franchise Tax unless specifically exempt.\n* **Applicable Tax Years:** 2025 and 2026.\n* **Official URL:** https://comptroller.texas.gov/taxes/franchise/\n\n---\n\n### 4. Composite or Group Nonresident Returns for Pass-Through Entities\n* **Fact:** Not found / Does not exist. Because Texas does not have an individual income tax, composite or group nonresident personal income tax returns do not exist.\n* **Applicable Tax Years:** 2025 and 2026.\n* **Official URL:** https://comptroller.texas.gov/taxes/\n\n---\n\n### 5. Estimated Tax Payments and Nonresident Withholding for Pass-Throughs\n* **Estimated Tax Payments:** Quarterly estimated tax payments are **not required** for the Texas Franchise Tax (\"Are quarterly estimated payments required? No.\"). The franchise tax is an annual tax paid with the report or extension.\n* **Nonresident Withholding:** Not found / Does not exist. Texas does not impose individual income tax and does not require pass-through entities to withhold income tax on distributions or distributive shares to nonresident owners.\n* **Applicable Tax Years:** Applies to both 2025 and 2026.\n* **Official URLs:** \n  * https://comptroller.texas.gov/taxes/franchise/faq/\n  * https://comptroller.texas.gov/taxes/franchise/\n\n---\n\n### 6. Main Individual, Corporate, and Pass-Through Return Forms\n* **Individual Return Forms:** None (no personal income tax in Texas).\n* **Corporate & Pass-Through Entity Forms (Texas Franchise Tax):**\n  * **Form 05-158-A & Form 05-158-B:** *Texas Franchise Tax Report* (standard margin calculation method).\n  * **Form 05-169:** *Texas Franchise Tax EZ Computation Report* (available for entities with annualized total revenue of $20 million or less; tax rate is 0.331%).\n  * **Form 05-102:** *Texas Franchise Tax Public Information Report (PIR)* (required for each legally formed corporation, LLC, limited banking association, and professional association).\n  * **Form 05-167:** *Texas Franchise Tax Ownership Information Report (OIR)* (required for partnerships, trusts, and other taxable entities that do not file a PIR).\n  * **Form 05-164:** *Texas Franchise Tax Extension Request*.\n  * **Form 05-166:** *Texas Franchise Tax Affiliate Schedule* (for combined groups).\n  * *Discontinued Form 05-163 (No Tax Due Information Report):* Discontinued for report years 2024 and later. Taxable entities with annualized total revenue at or below the No Tax Due threshold ($2,470,000 for report year 2025; $2,650,000 for report year 2026) are not required to file a franchise tax report, but must still file Form 05-102 or Form 05-167.\n* **Applicable Tax Years:** Applies to both 2025 and 2026 report years (with threshold updated from $2.47 million in 2025 to $2.65 million in 2026).\n* **Official URLs:** \n  * https://comptroller.texas.gov/taxes/franchise/forms/2025.php\n  * https://comptroller.texas.gov/taxes/franchise/forms/2026.php\n  * https://comptroller.texas.gov/taxes/franchise/no-tax-due-2024.php",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Texas does not impose an individual income tax, so there are no individual income tax return due dates or extension rules.",
+    "source_url": "https://comptroller.texas.gov/taxes/",
+    "evidence": [
+     "individual income tax",
+     "personal income tax"
+    ],
+    "accepted": false,
+    "reason": "evidence not on comptroller.texas.gov (0/2); evidence not on comptroller.texas.gov (1/2)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Annual franchise tax reports are due on May 15. Filing Form 05-164 extends the filing deadline to November 15 for non-EFT filers who remit at least 90% of the current year tax or 100% of the prior year tax by May 15.",
+    "source_url": "https://comptroller.texas.gov/taxes/franchise/filing-extensions.php",
+    "evidence": [
+     "annual franchise tax reports",
+     "May 15",
+     "Form 05-164",
+     "November 15"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://comptroller.texas.gov/forms/05-392.pdf",
+    "matched_title": "05-392 Texas Franchise Tax Report Information and Instructions",
+    "matched_phrases": [
+     "May 15",
+     "Form 05-164",
+     "November 15"
+    ],
+    "snippet": "ELECTRONIC FUNDS TRANSFER (EFT) An EFT filer may extend the filing due date from May 15 to August 15 by timely requesting an extension on Form 05- 164 and by remitting at least 90 percent of the tax that will be due with the report or 100 percent of the tax reported as due on the prior franchise tax report."
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Quarterly estimated tax payments are not required for the Texas Franchise Tax, which is an annual tax paid with the report or extension. Texas does not require pass-through entities to withhold tax on nonresident owners.",
+    "source_url": "https://comptroller.texas.gov/taxes/franchise/faq/",
+    "evidence": [
+     "quarterly estimated payments required",
+     "annual tax"
+    ],
+    "accepted": false,
+    "reason": "evidence not on comptroller.texas.gov (0/2); evidence not on comptroller.texas.gov (1/2)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025
+    ],
+    "value": "Key franchise tax forms include Form 05-158-A, Form 05-158-B, Form 05-169 EZ Computation Report, Form 05-102 Public Information Report, and Form 05-167 Ownership Information Report. Entities at or below the $2,470,000 No Tax Due threshold do not file a franchise tax report but must still file Form 05-102 or Form 05-167.",
+    "source_url": "https://comptroller.texas.gov/taxes/franchise/forms/2025.php",
+    "evidence": [
+     "Franchise Tax Report",
+     "EZ Computation Report",
+     "Public Information Report",
+     "Ownership Information Report"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://comptroller.texas.gov/forms/05-914.pdf",
+    "matched_title": "Form 05-914, 2025 Franchise Tax Instructions",
+    "matched_phrases": [
+     "Franchise Tax Report",
+     "EZ Computation Report",
+     "Public Information Report",
+     "Ownership Information Report"
+    ],
+    "snippet": "• All taxable entities involved in the tiered partnership election must file a franchise tax report, a Public Information Report (Form 05-102) or Ownership Information Report (Form 05- 167), and the Tiered Partnership Report (Form 05-175)."
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2026
+    ],
+    "value": "Key franchise tax forms include Form 05-158-A, Form 05-158-B, Form 05-169 EZ Computation Report, Form 05-102 Public Information Report, and Form 05-167 Ownership Information Report. Entities at or below the $2,650,000 No Tax Due threshold do not file a franchise tax report but must still file Form 05-102 or Form 05-167.",
+    "source_url": "https://comptroller.texas.gov/taxes/franchise/forms/2026.php",
+    "evidence": [
+     "Franchise Tax Report",
+     "EZ Computation Report",
+     "Public Information Report",
+     "Ownership Information Report"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://comptroller.texas.gov/taxes/franchise/forms/2026.php; figures not on comptroller.texas.gov: ['05', '102', '158', '167', '169', '2650000']; figures not on comptroller.texas.gov: ['102', '158', '167', '169']; figures not on comptroller.texas.gov: ['102', '158', '167', '169', '2650000']; figures not on comptroller.texas.gov: ['158', '169', '2650000']; figures not on comptroller.texas.gov: ['2650000']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://comptroller.texas.gov/economy/fiscal-notes/archive/2016/february/starting.php",
+   "https://comptroller.texas.gov/taxes/franchise/",
+   "https://comptroller.texas.gov/taxes/publications/98-806.php",
+   "https://comptroller.texas.gov/taxes/publications/98-806.php",
+   "https://comptroller.texas.gov/taxes/franchise/filing-extensions.php",
+   "https://comptroller.texas.gov/about/media-center/news/20210225-texas-comptrollers-office-extends-franchise-tax-deadline-1614276000000",
+   "https://comptroller.texas.gov/taxes/franchise/filing-extensions.php",
+   "https://comptroller.texas.gov/about/media-center/news/20200402-comptrollers-office-extends-franchise-tax-deadline-1585846800000",
+   "https://comptroller.texas.gov/taxes/franchise/ntd-rpt-updates-2024.php",
+   "https://comptroller.texas.gov/forms/05-914.pdf",
+   "https://comptroller.texas.gov/taxes/tax-policy-news/2026-april.php",
+   "https://comptroller.texas.gov/taxes/franchise/faq/reports-payments.php",
+   "https://comptroller.texas.gov/taxes/franchise/faq/reports-payments.php",
+   "https://comptroller.texas.gov/taxes/franchise/faq/reports-payments.php",
+   "https://comptroller.texas.gov/forms/05-392.pdf",
+   "https://comptroller.texas.gov/taxes/franchise/forms/2023-franchise.php"
+  ],
+  "error": ""
+ }
+]

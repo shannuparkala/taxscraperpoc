@@ -1,0 +1,380 @@
+[
+ {
+  "state": "DC",
+  "section": "apportionment",
+  "notes": "### 1. Apportionment Formula\n* **Rule:** All businesses other than financial institutions must use a **single sales factor** formula to apportion business income. Net business income is multiplied by a fraction: the numerator is total gross receipts in DC (excluding non-business income), and the denominator is total gross receipts everywhere (excluding non-business income).\n* **Years Applicable:** Tax years 2025 and 2026 (no changes between years).\n* **Official Sources:**\n  * DC Official Code § 47-1810.02: https://code.dccouncil.gov/us/dc/council/code/sections/47-1810.02\n  * DC Office of Tax and Revenue, Form D-20 Instructions: https://otr.cfo.dc.gov/publication/2025-d-20\n\n---\n\n### 2. Sourcing of Receipts from Services and Intangibles\n* **Rule:** DC uses **market-based sourcing** for sales other than sales of tangible personal property:\n  * **Services:** Sourced to DC if and to the extent the service is delivered to a location in the District (D.C. Official Code § 47-1810.02(g)(3)(A)(iii)).\n  * **Intangible Property:**\n    * *Rented, leased, or licensed:* Sourced to DC if and to the extent the intangible property is used in the District (D.C. Official Code § 47-1810.02(g)(3)(A)(iv)(I)).\n    * *Sold:* Sourced to DC if and to the extent the intangible property is used in the District (D.C. Official Code § 47-1810.02(g)(3)(A)(iv)(II)).\n* **Years Applicable:** Tax years 2025 and 2026 (no changes between years).\n* **Official Sources:**\n  * DC Official Code § 47-1810.02: https://code.dccouncil.gov/us/dc/council/code/sections/47-1810.02\n  * DC Office of Tax and Revenue, Form D-20 Instructions: https://otr.cfo.dc.gov/publication/2025-d-20\n\n---\n\n### 3. Special Industry Apportionment Formulas\n* **Financial Institutions:**\n  * Must use an evenly weighted **two-factor formula** (payroll factor + sales/gross income factor divided by 2; if fewer than two factors, divide by 1).\n* **Transportation Companies:**\n  * Use a specialized **revenue-unit sales factor fraction**:\n    * *Numerator:* Revenue units first received as originating or connecting traffic at a point in DC plus revenue units discharged or unloaded at a point in DC (upon termination of the movement or transfer to a connecting carrier).\n    * *Denominator:* Twice the total revenue units everywhere.\n* **Years Applicable:** Tax years 2025 and 2026 (no changes between years).\n* **Official Sources:**\n  * DC Official Code § 47-1810.02: https://code.dccouncil.gov/us/dc/council/code/sections/47-1810.02\n  * DC Office of Tax and Revenue, Form D-20 Instructions: https://otr.cfo.dc.gov/publication/2025-d-20\n  * DC Office of Tax and Revenue, Form D-30 Instructions: https://otr.cfo.dc.gov/publication/2025-d-30\n\n---\n\n### 4. Form and Schedule Used to Compute Apportionment\n* **Separate / Stand-Alone Filers:**\n  * **Form D-20** (Corporation Franchise Tax Return), **Schedule F** (page 4, “DC Apportionment Factor”).\n  * **Form D-30** (Unincorporated Business Franchise Tax Return), **Schedule F** (page 4, “DC Apportionment Factor”).\n  * **Form D-65** (Partnership Return of Income), **Schedule F** (page 2).\n* **Combined Reporting Groups:**\n  * Must leave Schedule F blank on Form D-20 / Form D-30.\n  * Group factor is computed on **Combined Reporting Schedule 2A** (Apportionment Factors Computation).\n  * Member factors are computed on **Combined Reporting Schedule 2B**.\n* **Years Applicable:** Tax years 2025 and 2026 (no changes between years).\n* **Official Sources:**\n  * DC Office of Tax and Revenue Corporate Forms: https://otr.cfo.dc.gov/page/corporate-business-franchise-tax-forms\n  * DC Office of Tax and Revenue, 2025 Form D-20: https://otr.cfo.dc.gov/publication/2025-d-20\n  * DC Office of Tax and Revenue, 2025 Combined Reporting Schedules: https://otr.cfo.dc.gov/publication/2025-dc-combined-reporting-instructions-and-schedules-official-and-fill",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "All businesses other than financial institutions must use a single sales factor formula to apportion business income. Net business income is multiplied by a fraction of total gross receipts in DC over total gross receipts everywhere.",
+    "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/47-1810.02",
+    "evidence": [
+     "single sales factor",
+     "gross receipts in DC",
+     "gross receipts everywhere"
+    ],
+    "accepted": false,
+    "reason": "evidence not on code.dccouncil.gov (0/3); evidence not on otr.cfo.dc.gov (1/3); not an official DC host: www.insidesalt.com; evidence not on dcregs.dc.gov (0/3); evidence not on otr.cfo.dc.gov (0/3)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "DC uses market-based sourcing for sales other than sales of tangible personal property. Services and intangible property receipts are sourced to DC if delivered to or used in the District.",
+    "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/47-1810.02",
+    "evidence": [
+     "market-based sourcing",
+     "delivered to a location",
+     "used in the District"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://code.dccouncil.gov/us/dc/council/code/sections/47-1810.02",
+    "matched_title": "§ 47–1810.02. Allocation and apportionment of District and non-District income. | D.C. Law Library",
+    "matched_phrases": [
+     "market-based sourcing",
+     "delivered to a location",
+     "used in the District"
+    ],
+    "snippet": "— (1) The property factor is a fraction, the numerator of which is the average value of the taxpayer’s real and tangible personal property owned or rented and used in the District during the tax period and the denominator of which is the average value of all the taxpayer’s real and tangible personal property owned or rented and used during the tax period."
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Financial institutions must use an evenly weighted two-factor formula of payroll and sales. Transportation companies use a specialized revenue-unit sales factor fraction.",
+    "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/47-1810.02",
+    "evidence": [
+     "Financial Institutions",
+     "two-factor formula",
+     "revenue units"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2024%20Combined%20Reporting%20Instructions_121824_0.pdf",
+    "matched_title": "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2024%20Combined%20Reporting%20Instructions_121824_0.pdf",
+    "matched_phrases": [
+     "Financial Institutions",
+     "two-factor formula"
+    ],
+    "snippet": "Financial Institutions Financial institutions must use a two-factor formula, determined by multiplying the financial institution’s base (net income for the tax year) by an apportionment fraction."
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Separate filers compute apportionment on Schedule F of Form D-20, Form D-30, or Form D-65. Combined reporting groups compute apportionment on Combined Reporting Schedules 2A and 2B.",
+    "source_url": "https://otr.cfo.dc.gov/publication/2025-d-20",
+    "evidence": [
+     "Form D-20",
+     "Schedule F",
+     "Schedule 2A",
+     "Schedule 2B"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D-20_Book_Final_wLinks_02272026.pdf",
+    "matched_title": "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D-20_Book_Final_wLinks_02272026.pdf",
+    "matched_phrases": [
+     "Form D-20",
+     "Schedule F",
+     "Schedule 2A",
+     "Schedule 2B"
+    ],
+    "snippet": "1 Amount from numerator of DC sales apportionment factor from Schedule F, Line 1, Column 2 of D-20 or D-30."
+   }
+  ],
+  "grounding_urls": [
+   "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2024%20Combined%20Reporting%20Instructions_121824_0.pdf",
+   "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D-20_Book_Final_wLinks_02272026.pdf",
+   "https://www.insidesalt.com/2014/08/is-2015-the-beginning-of-mandatory-single-sales-factor-apportionment-for-d-c-taxpayers/",
+   "https://dcregs.dc.gov/Common/DCR/Issues/IssueCategoryList.aspx?DownloadFile=404A445F-0000-CA3F-82F5-E3B9E16DD0A5",
+   "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2017%20DC%20COMBINED%20REPORTING%20SCHEDULE%202B_0002.pdf",
+   "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2024_D-20_Book_121824.pdf",
+   "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D-20_Book_Final_wLinks_02272026.pdf",
+   "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2023_D-30_Book_Final_012224_red.pdf",
+   "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D30_Book_Final_wLinks_02232026.pdf",
+   "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2024_D-20_Form_0002_121824.pdf",
+   "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D-20_Form_0002_02172026webver.pdf",
+   "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D30_Book_Final_wLinks_02232026.pdf",
+   "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D30_Book_Final_wLinks_02232026.pdf",
+   "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D-65_Book_Final_wLinks_02232026.pdf",
+   "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2024%20Combined%20Reporting%20Instructions_121824_0.pdf",
+   "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2022_Schedule_2A_0002.pdf",
+   "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2024_Schedule_2B_0002_121824_0.pdf",
+   "https://otr.cfo.dc.gov/publication/2025-dc-combined-reporting-instructions-and-schedules-official-and-fill"
+  ],
+  "error": ""
+ },
+ {
+  "state": "DC",
+  "section": "nexus",
+  "notes": "### 1. Income / Franchise Tax Nexus\n\n* **Nexus Standard:** \n  * For District Corporate Franchise Tax (Form D-20) and Unincorporated Business Franchise Tax (Form D-30), nexus is established when an entity engages in business activity within the District (not protected by P.L. 86-272), has a physical presence in the District, or carries on a trade or business in the District and/or derives income from DC sources.\n  * Statutory carveout: Under D.C. Official Code § 47-1801.04, \"trade or business\" excludes sales of tangible personal property (where title passes within or without the District) by a corporation or unincorporated business that does not physically maintain an office, warehouse, or place of business in the District, and has no officer, agent, or representative with an office or place of business in the District during the taxable year.\n  * Filing threshold for unincorporated businesses: Gross income of more than $12,000 from District sources triggers a Form D-30 filing requirement.\n* **Economic Nexus / Bright-Line Threshold:** **Not found** (the District of Columbia has not enacted a factor-presence or bright-line economic nexus dollar/property/payroll threshold for income or franchise tax).\n* **Combined Reporting Method Change (2025 vs. 2026):**\n  * **Tax Year 2025:** Apportionment follows the Joyce method.\n  * **Tax Year 2026:** Pursuant to the Combined Reporting Amendment Act of 2024, effective January 1, 2026, the District transitions to the Finnigan method. All members of a unitary combined group are treated as a single taxpayer; when determining apportionable DC income, the District includes sales from all group members, even if particular members do not independently have DC nexus.\n* **Applicable Tax Years:** 2025 and 2026 (with the Joyce-to-Finnigan transition effective January 1, 2026).\n* **Official URLs:**\n  * https://otr.cfo.dc.gov/page/nexus\n  * https://otr.cfo.dc.gov/page/collections-audit-faqs\n  * https://otr.cfo.dc.gov/page/district-columbia-tax-changes-take-effect-october-1st\n  * https://code.dccouncil.gov/us/dc/council/code/sections/47-1801.04\n\n---\n\n### 2. Remote Seller Economic Nexus Threshold\n\n* **Threshold Amounts:**\n  * **Gross Receipts:** More than $100,000 of gross receipts from retail sales delivered into the District; **OR**\n  * **Transaction Count:** More than 200 separate retail sales delivered into the District (or 200 or more separate retail sales).\n  * *Threshold calculations include:* Sales to DC purchasers presenting valid DC sales tax exemption certificates, as well as combined sales made through the seller's own website and through digital marketplaces.\n* **Measurement Period:** The previous calendar year or the current calendar year.\n* **Applicable Tax Years:** 2025 and 2026 (in effect since January 1, 2019; no changes between 2025 and 2026).\n* **Official URLs:**\n  * https://otr.cfo.dc.gov/page/sales-and-use-tax-faqs\n  * https://code.dccouncil.gov/us/dc/council/code/sections/47-2001\n\n---\n\n### 3. Position on Public Law 86-272 Protection\n\n* **Stated Policy:** \n  * The DC Office of Tax and Revenue officially states: *\"The District generally follows the Statement of Information Concerning Practices of the Multistate Tax Commission and Signatory States under Public Law 86-272.\"*\n  * P.L. 86-272 protection is limited strictly to out-of-state entities whose DC activities do not exceed the solicitation of orders for sales of tangible personal property, where orders are sent outside the District for approval and filled by shipment or delivery from outside the District.\n  * P.L. 86-272 protection does not apply to:\n    * The sale of services or licensing/sales of intangible personal property (e.g., commissions earned on securities solicitation in the District).\n    * Businesses delivering goods into DC using company-owned vehicles/trucks or maintaining any physical presence.\n* **Telecommuting Relief Expiration:** Temporary COVID-19 relief stating telework would not cause a taxpayer to lose P.L. 86-272 protections expired on July 16, 2022 (OTR Tax Notice 2022-06) and does not apply to tax years 2025 or 2026.\n* **Applicable Tax Years:** 2025 and 2026 (no changes between them).\n* **Official URLs:**\n  * https://otr.cfo.dc.gov/page/nexus\n  * https://otr.cfo.dc.gov/page/collections-audit-faqs\n  * https://otr.cfo.dc.gov/release/june-6-2022-otr-tax-notice-2022-06-covid-19-franchise-tax-nexus",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025
+    ],
+    "value": "Franchise tax nexus is established by engaging in business activity, having a physical presence, or deriving income from DC sources, with combined groups apportioning income under the Joyce method. Unincorporated businesses must file Form D-30 if District-source gross income exceeds $12,000.",
+    "source_url": "https://otr.cfo.dc.gov/page/nexus",
+    "evidence": [
+     "business activity within the District",
+     "physical presence in the District",
+     "derives income from DC sources",
+     "Form D-30"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://otr.cfo.dc.gov/page/collections-audit-faqs",
+    "matched_title": "Collections & Audit FAQs | otr",
+    "matched_phrases": [
+     "physical presence in the District",
+     "Form D-30"
+    ],
+    "snippet": "other than a corporation file? They must file Form D-30, (unless they are specifically excluded from filing by the Code) if their gross income is more than $12,000 from District sources."
+   },
+   {
+    "key": "income_nexus",
+    "years": [
+     2026
+    ],
+    "value": "Effective January 1, 2026, under the Combined Reporting Amendment Act of 2024, the District transitions to the Finnigan method, including sales from all unitary group members even without independent DC nexus. General franchise tax nexus continues to apply to entities engaging in business activity, maintaining a physical presence, or deriving income from DC sources.",
+    "source_url": "https://otr.cfo.dc.gov/page/district-columbia-tax-changes-take-effect-october-1st",
+    "evidence": [
+     "Combined Reporting Amendment Act",
+     "Finnigan method",
+     "January 1, 2026",
+     "unitary combined group"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://otr.cfo.dc.gov/release/district-columbia-tax-changes-take-effect-october1-24",
+    "matched_title": "District of Columbia Tax Changes Take Effect October 1st | otr",
+    "matched_phrases": [
+     "Combined Reporting Amendment Act",
+     "Finnigan method",
+     "January 1, 2026"
+    ],
+    "snippet": "Starting January 1, 2026, the District will change how it calculates taxes for businesses that operate in multiple states."
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "A remote seller establishes economic nexus if it has more than $100,000 of gross receipts from retail sales or more than 200 separate retail sales delivered into the District. The threshold is evaluated based on sales during the previous calendar year or the current calendar year.",
+    "source_url": "https://otr.cfo.dc.gov/page/sales-and-use-tax-faqs",
+    "evidence": [
+     "more than $100,000",
+     "retail sales delivered into the District",
+     "previous calendar year or the current calendar year",
+     "separate retail sales"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://otr.cfo.dc.gov/page/sales-and-use-tax-faqs",
+    "matched_title": "Sales and Use Tax FAQs | otr",
+    "matched_phrases": [
+     "more than $100,000",
+     "retail sales delivered into the District",
+     "previous calendar year or the current calendar year",
+     "separate retail sales"
+    ],
+    "snippet": "What responsibilities does a remote seller have under the new sales tax law? Beginning on January 1, 2019, remote sellers must collect and remit District sales tax if they had, in the previous calendar year, or will have, in the current calendar year, more than $100,000 of gross receipts from retail sales delivered into the District or more than 200 separate retail sales delivered in the District."
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The District generally follows the Multistate Tax Commission's Statement of Information under Public Law 86-272, strictly limiting protection to the solicitation of orders for sales of tangible personal property. Protection does not apply to the sale of services, licensing or sale of intangibles, or deliveries made using company-owned vehicles.",
+    "source_url": "https://otr.cfo.dc.gov/page/nexus",
+    "evidence": [
+     "Multistate Tax Commission",
+     "Public Law 86-272",
+     "tangible personal property",
+     "solicitation of orders"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/tax_guide_nexus.pdf",
+    "matched_title": "tax guide nexus 110102.PDF",
+    "matched_phrases": [
+     "Multistate Tax Commission",
+     "Public Law 86-272",
+     "tangible personal property",
+     "solicitation of orders"
+    ],
+    "snippet": "* The District generally follows the Statement of Information Concerning Practices of the Multistate Tax Commission and Signatory States under Public Law 86-272."
+   }
+  ],
+  "grounding_urls": [
+   "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/tax_guide_nexus.pdf",
+   "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/FR-500_314.pdf",
+   "https://otr.cfo.dc.gov/page/collections-audit-faqs",
+   "https://otr.cfo.dc.gov/page/collections-audit-faqs",
+   "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D30_Book_Final_wLinks_02232026.pdf",
+   "https://otr.cfo.dc.gov/release/district-columbia-tax-changes-take-effect-october1-24",
+   "https://otr.cfo.dc.gov/publication/nexus",
+   "https://otr.cfo.dc.gov/page/collections-audit-faqs",
+   "https://otr.cfo.dc.gov/release/district-columbia-tax-changes-take-effect-october1-24",
+   "https://ttlc.intuit.com/community/state-tax-filing-8/residency-status-owning-a-second-home-in-dc-690646",
+   "https://otr.cfo.dc.gov/page/sales-and-use-tax-faqs",
+   "https://dccouncil.gov/wp-content/uploads/2018/11/Internet-Sales-TAX-EMER-DRAFT.pdf",
+   "https://otr.cfo.dc.gov/page/sales-and-use-tax-faqs",
+   "https://otr.cfo.dc.gov/page/sales-and-use-tax-faqs",
+   "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/tax_guide_nexus.pdf",
+   "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/OTR_NOTICE_2022-06_Nexus.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "DC",
+  "section": "rates",
+  "notes": "",
+  "proposals": [],
+  "grounding_urls": [],
+  "error": ""
+ },
+ {
+  "state": "DC",
+  "section": "filing",
+  "notes": "### 1. Individual Returns: Due Dates and Extensions\n\n* **Calendar-Year Return Due Date:** \n  * Due **April 15** following the close of the tax year (e.g., April 15, 2026 for tax year 2025; April 15, 2027 for tax year 2026). If the date falls on a weekend or legal holiday, the due date is the next business day.\n  * *Applicable Years:* 2025 and 2026 (unchanged).\n  * *Official Source:* [DC OTR Individual Income Tax Filing](https://otr.cfo.dc.gov/page/individual-income-tax-filing); [DC OTR Individual Filings FAQs](https://otr.cfo.dc.gov/page/individual-filings-faqs).\n* **Extension Rules:**\n  * **Form FR-127** (*Extension of Time to File Voucher*) grants a **6-month extension** (until **October 15**) to file the return.\n  * An additional 6-month extension may be granted for individuals living or traveling outside the U.S.\n  * Form FR-127 must be filed on or before **April 15**.\n  * A filing extension is not an extension of time to pay; full payment of any estimated tax due must accompany the extension request (or be paid electronically via MyTax.DC.gov), or the request will be denied and penalties/interest will apply.\n  * *Applicable Years:* 2025 and 2026 (unchanged).\n  * *Official Source:* [DC OTR Individual Income Tax Forms](https://otr.cfo.dc.gov/page/individual-income-tax-forms); [DC OTR Form FR-127 Instructions](https://otr.cfo.dc.gov/node/1781211).\n\n---\n\n### 2. Corporate and Pass-Through Return Due Dates and Extensions\n\n#### A. Corporate Franchise Tax (Form D-20)\n* **Due Date:**\n  * Calendar-year filers: **April 15** (e.g., April 15, 2026 for tax year 2025).\n  * Fiscal-year filers: 15th day of the 4th month following the close of the fiscal year (15th day of the 5th month for exempt organizations).\n* **Extension Rules:**\n  * **Form FR-120** (*Extension of Time to File Corporation Franchise Tax Return*) must be filed no later than the original return due date.\n  * Grants a **6-month extension** to **October 15** (or **7 months** to **November 15** for combined report filers).\n  * Tentative tax due must be paid in full with the request. Federal extension forms are not accepted.\n* *Applicable Years:* 2025 and 2026 (unchanged).\n* *Official Source:* [DC OTR Corporate Franchise Tax Forms](https://otr.cfo.dc.gov/page/corporate-franchise-tax-forms); [DC OTR Form D-20 Instructions](https://otr.cfo.dc.gov/node/1781281); [DC OTR Franchise Tax FAQs](https://otr.cfo.dc.gov/page/franchise-tax-faqs).\n\n#### B. Pass-Through Entities / Unincorporated Businesses (Forms D-30 & D-65)\nThe District separates pass-throughs into entities subject to the mandatory Unincorporated Business Franchise Tax and informational partnerships:\n* **Unincorporated Business Franchise Tax (Form D-30):** Required for unincorporated entities (partnerships, LLCs, sole proprietorships) carrying on a trade or business in DC whose gross income exceeds $12,000.\n  * **Due Date:** Calendar-year filers: **April 15**; Fiscal-year filers: 15th day of the 4th month after year-end.\n  * **Extension:** **Form FR-130** (*Extension of Time to File Unincorporated Business Franchise Tax Return*) grants a **6-month extension** to **October 15** (or 7 months to November 15 for combined filers). Full payment of any tax liability must accompany the request.\n* **Partnership Return of Income (Form D-65):** Informational return for partnerships engaged in a trade or business or deriving DC-source income that are *not* required to file Form D-30.\n  * **Due Date:** Calendar-year filers: **April 15** (e.g., April 15, 2026 for tax year 2025); Fiscal-year filers: 15th day of the 4th month after year-end.\n  * **Extension:** **Form FR-165** (*Extension of Time to File a DC Partnership Return*) grants a **6-month extension** to **October 15**. Form FR-165 does not require a remittance of funds.\n* *Applicable Years:* 2025 and 2026 (unchanged).\n* *Official Source:* [DC OTR Unincorporated Business Franchise Tax Forms](https://otr.cfo.dc.gov/page/unincorporated-business-franchise-tax-forms); [DC OTR Partnership Tax Forms](https://otr.cfo.dc.gov/page/partnership-tax-forms); [DC OTR Form D-65 Instructions](https://otr.cfo.dc.gov/node/1781291).\n\n---\n\n### 3. Elective Pass-Through Entity Tax (PTET)\n\n* **Status:** **Not found** (does not exist in the District of Columbia).\n* **Official Context:** DC has not enacted an elective SALT-cap workaround pass-through entity tax. Instead, DC levies a *mandatory* entity-level **Unincorporated Business Franchise Tax** on partnerships, LLCs, and sole proprietorships conducting business in DC with gross income over $12,000.\n  * **Franchise Tax Rate:** **8.25%** of DC taxable income.\n  * **Minimum Tax:** **$250** if DC gross receipts are $1,000,000 or less; **$1,000** if DC gross receipts exceed $1,000,000.\n* *Applicable Years:* 2025 and 2026 (unchanged).\n* *Official Source:* [DC OTR Business Franchise Tax Rates](https://otr.cfo.dc.gov/page/dc-business-franchise-tax-rates); [DC OTR Form D-30 Instructions](https://otr.cfo.dc.gov/node/1781286).\n\n---\n\n### 4. Composite or Group Nonresident Returns for Pass-Through Entities\n\n* **Status:** **Not found** (does not exist).\n* **Official Context:** Nonresidents are exempt from DC individual income tax. Under federal law (District of Columbia Home Rule Act, Pub. L. 93-198; D.C. Code § 1-206.02(a)(5)), the District is prohibited from imposing an individual income tax on nonresidents. Because nonresidents have no individual DC income tax liability on DC-source pass-through income, DC neither permits nor requires composite/group nonresident returns.\n* *Applicable Years:* 2025 and 2026.\n* *Official Source:* [DC OTR Form D-4A Certificate of Nonresidence](https://otr.cfo.dc.gov/node/1781226); [DC OTR Form D-40B Nonresident Request for Refund](https://otr.cfo.dc.gov/node/1781221).\n\n---\n\n### 5. Estimated Tax Payments & Nonresident Withholding for Pass-Throughs\n\n* **Nonresident Pass-Through Withholding:** **Not found** (does not exist). Pass-through entities do not withhold DC tax on nonresident partners/members because nonresidents are statutorily exempt from DC personal income tax.\n* **Entity-Level Estimated Tax Requirements (Unincorporated Businesses - Form D-30ES):**\n  * **Requirement:** Required for any unincorporated business that expects its DC franchise tax liability to exceed **$1,000** for the taxable year.\n  * **Safe Harbor / Underpayment Threshold:** Total estimated payments must equal at least the smaller of:\n    * **90%** of the current tax year liability; or\n    * **110%** of the prior tax year liability (provided the prior year consisted of 12 months).\n  * **Payment Due Dates (Calendar-Year Filers):**\n    * Voucher 1: **April 15**\n    * Voucher 2: **June 15**\n    * Voucher 3: **September 15**\n    * Voucher 4: **December 15**\n    *(Fiscal-year filers: 15th day of the 4th, 6th, 9th, and 12th months)*\n* **Corporate Estimated Tax Requirements (Corporations - Form D-20ES):**\n  * Required if estimated franchise tax exceeds **$1,000**.\n  * Same safe harbor (90% current year / 110% prior year) and identical calendar-year voucher deadlines: April 15, June 15, September 15, December 15.\n* *Applicable Years:* 2025 and 2026 (unchanged).\n* *Official Source:* [DC OTR Form D-30ES](https://otr.cfo.dc.gov/page/2026-d-30es); [DC OTR Form D-20ES](https://otr.cfo.dc.gov/node/1781306); [DC OTR Form D-30 Instructions](https://otr.cfo.dc.gov/node/1781286).\n\n---\n\n### 6. Main Return Forms\n\n* **Individual Income Tax:**\n  * **Form D-40:** Individual Income Tax Return.\n  * **Form FR-127:** Extension of Time to File DC Individual Income Tax Return.\n  * **Form D-40ES:** Estimated Payment for Individual Income Tax.\n  * **Form D-40B:** Nonresident Request for Refund (for refund of DC tax withheld/paid erroneously).\n  * *Official Source:* [DC OTR Individual Income Tax Forms](https://otr.cfo.dc.gov/page/individual-income-tax-forms).\n* **Corporate Franchise Tax:**\n  * **Form D-20:** Corporation Franchise Tax Return.\n  * **Form FR-120:** Extension of Time to File Corporation Franchise Tax Return.\n  * **Form D-20ES:** Declaration of Estimated Franchise Tax for Corporations.\n  * *Official Source:* [DC OTR Corporate Franchise Tax Forms](https://otr.cfo.dc.gov/page/corporate-franchise-tax-forms).\n* **Pass-Through / Unincorporated Business:**\n  * **Form D-30:** Unincorporated Business Franchise Tax Return (mandatory for entities with DC gross income > $12,000).\n  * **Form D-30N:** Affidavit of Gross Income in Lieu of D-30 (for entities with DC gross income of $12,000 or less).\n  * **Form FR-130:** Extension of Time to File Unincorporated Business Franchise Tax Return.\n  * **Form D-30ES:** Declaration of Estimated Franchise Tax for Unincorporated Businesses.\n  * **Form D-65:** Partnership Return of Income (informational return for partnerships not required to file Form D-30).\n  * **Form FR-165:** Extension of Time to File a DC Partnership Return.\n  * *Official Source:* [DC OTR Unincorporated Business Franchise Tax Forms](https://otr.cfo.dc.gov/page/unincorporated-business-franchise-tax-forms); [DC OTR Partnership Tax Forms](https://otr.cfo.dc.gov/page/partnership-tax-forms).",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Individual income tax returns are due April 15 following the close of the calendar year. Filing Form FR-127 provides a 6-month extension to October 15, but full payment of tentative tax must accompany the voucher.",
+    "source_url": "https://otr.cfo.dc.gov/node/1781211",
+    "evidence": [
+     "Extension of Time to File",
+     "6-month extension",
+     "October 15"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://otr.cfo.dc.gov/page/individual-income-tax-forms",
+    "matched_title": "Individual Income Tax Forms | otr",
+    "matched_phrases": [
+     "Extension of Time to File",
+     "October 15"
+    ],
+    "snippet": "FR-127 FR-127 (Fill-in) Extension of Time to File Voucher File by April 15, 2026 (If Military Combat Zone, file by October 15, 2026)."
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Calendar-year corporate and pass-through returns are due on April 15. Extensions granted by Form FR-120, FR-130, or FR-165 extend the filing deadline by 6 months to October 15, or 7 months to November 15 for combined report filers.",
+    "source_url": "https://otr.cfo.dc.gov/node/1781281",
+    "evidence": [
+     "Corporation Franchise Tax Return",
+     "October 15",
+     "combined report filers"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://otr.cfo.dc.gov/node/1781281; figures not on otr.cfo.dc.gov: ['120', '130', '165']; figures not on otr.cfo.dc.gov: ['130', '165']; figures not on otr.cfo.dc.gov: ['120', '130']; figures not on otr.cfo.dc.gov: ['165']; figures not on otr.cfo.dc.gov: ['120', '165']; figures not on otr.cfo.dc.gov: ['120', '130', '15', '165']; figures not on otr.cfo.dc.gov: ['120', '130', '15', '165', '6', '7']; figures not on otr.cfo.dc.gov: ['15', '6', '7']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Estimated franchise tax payments are required for businesses expecting tax liability over $1,000, due April 15, June 15, September 15, and December 15. The safe harbor threshold is the lesser of 90% of the current year liability or 110% of the prior year liability.",
+    "source_url": "https://otr.cfo.dc.gov/page/2026-d-30es",
+    "evidence": [
+     "Declaration of Estimated Franchise Tax",
+     "exceed $1,000",
+     "September 15"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D-20ES_Book_121824.pdf",
+    "matched_title": "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D-20ES_Book_121824.pdf",
+    "matched_phrases": [
+     "Declaration of Estimated Franchise Tax",
+     "exceed $1,000",
+     "September 15"
+    ],
+    "snippet": "File Electronically Today! -1- General Instructions Declaration of Estimated Franchise Tax for Corporations ________________________________________________________ Who must file a Form D-20ES? A corporation must file a declaration of estimated franchise tax voucher if its District of Columbia (DC) franchise tax liability is expected to exceed $1,000 for the taxable year."
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "DC individual income tax returns are filed on Form D-40, with extension requests submitted via Form FR-127. Business returns are filed on Form D-20 for corporations, Form D-30 for unincorporated businesses, and Form D-65 for partnerships.",
+    "source_url": "https://otr.cfo.dc.gov/page/individual-income-tax-forms",
+    "evidence": [
+     "Individual Income Tax Return",
+     "Form D-40",
+     "Form FR-127"
+    ],
+    "accepted": false,
+    "reason": "figures not on otr.cfo.dc.gov: ['65']; figures not on otr.cfo.dc.gov: ['20', '30', '40', '65']; figures not on otr.cfo.dc.gov: ['20', '65']; figures not on otr.cfo.dc.gov: ['127']; figures not on otr.cfo.dc.gov: ['127', '40']; figures not on otr.cfo.dc.gov: ['127', '20', '40', '65']; figures not on otr.cfo.dc.gov: ['127', '65']; figures not on otr.cfo.dc.gov: ['127', '40', '65']; figures not on otr.cfo.dc.gov: ['127', '20', '40']; figures not on otr.cfo.dc.gov: ['127', '20', '30', '40', '65']; f",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_FR-127_021226.pdf",
+   "https://otr.cfo.dc.gov/page/individual-income-tax-forms",
+   "https://otr.cfo.dc.gov/page/individual-filings-faqs",
+   "https://otr.cfo.dc.gov/book/individual-income-tax-filing",
+   "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D-20_Book_Final_wLinks_02272026.pdf",
+   "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D-20ES_Book_121824.pdf",
+   "https://otr.cfo.dc.gov/release/tax-relief-victims-hurricane-helene",
+   "https://otr.cfo.dc.gov/page/franchise-tax-faqs",
+   "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D-20_Book_Final_wLinks_02272026.pdf",
+   "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D-65_Book_Final_wLinks_02232026.pdf",
+   "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D30_Book_Final_wLinks_02232026.pdf",
+   "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/FR500_13.pdf",
+   "https://otr.cfo.dc.gov/page/unincorporated-business-franchise-tax-forms",
+   "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D30_Book_Final_wLinks_02232026.pdf",
+   "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D-65_Book_Final_wLinks_02232026.pdf",
+   "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2017%20D-65_Booklet.pdf",
+   "https://otr.cfo.dc.gov/page/unincorporated-business-franchise-tax-forms",
+   "https://otr.cfo.dc.gov/page/partnership-tax-forms",
+   "https://otr.cfo.dc.gov/page/dc-business-franchise-tax-rates",
+   "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2018%20D-4A.pdf",
+   "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/d-40b.pdf",
+   "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D30_Book_Final_wLinks_02232026.pdf",
+   "https://otr.cfo.dc.gov/publication/2026-d-30es",
+   "https://otr.cfo.dc.gov/page/individual-income-tax-forms",
+   "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/MailingAddresses%20for%20Tax%20Returns_092316.pdf",
+   "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/service_content/attachments/TPI_OGC_2023.pdf",
+   "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2023_D-30_Book_Final_012224_red.pdf"
+  ],
+  "error": ""
+ }
+]

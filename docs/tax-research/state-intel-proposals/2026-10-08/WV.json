@@ -1,0 +1,576 @@
+[
+ {
+  "state": "WV",
+  "section": "apportionment",
+  "notes": "### 1. Apportionment Formula for Multistate Business Income\n* **Fact:** West Virginia apportions multistate business net income using a **single sales factor** formula. Under this formula, net business income is multiplied by a fraction where the numerator consists of sales occurring in West Virginia and the denominator consists of sales occurring everywhere. \n* **Applicability:** Applies to **both tax years 2025 and 2026** without change (effective for tax years beginning on or after January 1, 2022).\n* **Official URLs:** \n  * West Virginia Legislature, W. Va. Code § 11-24-7(e): https://code.wvlegislature.gov/11-24-7/\n  * West Virginia Tax Division, Corporate Income Tax: https://tax.wv.gov/Business/CorporateIncomeTax/Pages/CorporateIncomeTax.aspx\n\n---\n\n### 2. Sourcing of Receipts from Services and Intangibles\n* **Fact:** West Virginia applies **market-based sourcing**:\n  * **Services:** Gross receipts from the sale of a service are sourced to West Virginia if and to the extent the service is delivered to a customer/location in West Virginia.\n  * **Intangible Property:** Gross receipts from intangible property that is rented, leased, or licensed, or sold, are sourced to West Virginia if and to the extent the intangible property is used in West Virginia.\n* **Applicability:** Applies to **both tax years 2025 and 2026** without change (effective for sales made on or after January 1, 2022).\n* **Official URLs:**\n  * West Virginia Legislature, W. Va. Code § 11-24-7(e)(13): https://code.wvlegislature.gov/11-24-7/\n  * West Virginia Tax Division, Corporate Income Tax: https://tax.wv.gov/Business/CorporateIncomeTax/Pages/CorporateIncomeTax.aspx\n\n---\n\n### 3. Industries with Their Own Apportionment Formula\n* **Fact:** \n  * **Motor Carriers:** Apportion income using a single factor based on **vehicle mileage**—the ratio of vehicle miles traveled within West Virginia to total vehicle miles traveled everywhere (W. Va. Code § 11-24-7a(b)).\n  * **Financial Organizations:** Apportion income using a **single factor gross receipts** formula—the ratio of gross receipts attributable to West Virginia under specific statutory rules to gross receipts everywhere (W. Va. Code § 11-24-7b).\n  * **Public Utilities:** If standard allocation and apportionment does not fairly represent business activities, public utilities may petition for, or the Tax Commissioner may require, allocation and apportionment in accordance with the system of accounts prescribed by the Public Service Commission of West Virginia under W. Va. Code § 24-2-8 (W. Va. Code § 11-24-7(h)(2)).\n* **Applicability:** Applies to **both tax years 2025 and 2026** without change.\n* **Official URLs:**\n  * West Virginia Legislature, W. Va. Code § 11-24-7a: https://code.wvlegislature.gov/11-24-7A/\n  * West Virginia Legislature, W. Va. Code § 11-24-7b: https://code.wvlegislature.gov/11-24-7B/\n  * West Virginia Legislature, W. Va. Code § 11-24-7(h)(2): https://code.wvlegislature.gov/11-24-7/\n\n---\n\n### 4. Form or Schedule Used to Compute Apportionment\n* **Fact:** \n  * Multistate corporations compute apportionment on **Form CIT-120APT** (*Allocation and Apportionment for Multistate Businesses*), Schedule B:\n    * **Part 1:** Regular Entities (Sales Factor)\n    * **Part 2:** Motor Carrier Factor (Vehicle Mileage)\n    * **Part 3:** Financial Organization Factor (Gross Receipts)\n  * Form CIT-120APT is submitted with **Form CIT-120** (Schedule 2 for separate entity multistate filers). Combined unitary groups report apportionment using **Schedule UB-4APT** / **UB-CR**. \n  * *(Pass-through entities use Form PTE-100APT, Schedule B attached to Form PTE-100, or Form EPT-100 for elective pass-through entities).*\n* **Applicability:** Applies to **both tax years 2025 and 2026** without change.\n* **Official URLs:**\n  * West Virginia Tax Division, Form CIT-120APT: https://tax.wv.gov/Documents/TaxForms/cit120.2024.pdf\n  * West Virginia Tax Division, Corporate Income Tax Instructions: https://tax.wv.gov/Documents/TaxForms/cit120.instructions.2024.pdf\n  * West Virginia Tax Division, Corporate Income Tax Portal: https://tax.wv.gov/Business/CorporateIncomeTax/Pages/CorporateIncomeTax.aspx",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "West Virginia apportions multistate business net income using a single sales factor formula where net business income is multiplied by West Virginia sales divided by sales everywhere.",
+    "source_url": "https://code.wvlegislature.gov/11-24-7/",
+    "evidence": [
+     "single sales factor",
+     "sales occurring in West Virginia",
+     "sales occurring everywhere"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.wv.gov/business/corporateincometax/pages/corporateincometax.aspx",
+    "matched_title": "Corporate Income Tax",
+    "matched_phrases": [
+     "single sales factor",
+     "sales occurring in West Virginia",
+     "sales occurring everywhere"
+    ],
+    "snippet": "Under this formula, the numerator includes sales occurring in West Virginia and the denominator includes sales occurring everywhere."
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "West Virginia uses market-based sourcing, sourcing gross receipts from services if delivered to a customer in the state and receipts from intangibles if used in the state.",
+    "source_url": "https://code.wvlegislature.gov/11-24-7/",
+    "evidence": [
+     "service is delivered",
+     "intangible property is used",
+     "gross receipts"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://code.wvlegislature.gov/11-24-7/; evidence not on tax.wv.gov (0/3); unreadable: https://code.wvlegislature.gov/11-24-7A/; evidence not on tax.wv.gov (1/3); unreadable: https://code.wvlegislature.gov/pdf/11-24/; unreadable: https://code.wvlegislature.gov/11-24-7B/",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Motor carriers apportion income using vehicle mileage, financial organizations use a single factor gross receipts formula, and public utilities may apportion according to accounts prescribed by the Public Service Commission.",
+    "source_url": "https://code.wvlegislature.gov/11-24-7A/",
+    "evidence": [
+     "vehicle mileage",
+     "vehicle miles traveled",
+     "gross receipts"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.wv.gov/Documents/TaxForms/2019/spf100apt.pdf",
+    "matched_title": "https://tax.wv.gov/Documents/TaxForms/2019/spf100apt.pdf",
+    "matched_phrases": [
+     "vehicle mileage",
+     "gross receipts"
+    ],
+    "snippet": "PART 2 – MOTOR CARRIER FACTOR (§11-24-7A) Divide Column 1 by Column 2 and enter six (6) digit decimal in Column 3 Enter on SPF-100, Schedule A, line 10 VEHICLE MILEAGE Column 1 West Virginia Column 2 Everywhere Column 3 Decimal Fraction (6 digits) ."
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Multistate corporations compute apportionment on Form CIT-120APT, Schedule B, submitted with Form CIT-120, while combined unitary groups use Schedule UB-4APT or UB-CR.",
+    "source_url": "https://tax.wv.gov/Documents/TaxForms/cit120.instructions.2024.pdf",
+    "evidence": [
+     "Form CIT-120APT",
+     "Allocation and Apportionment",
+     "Form CIT-120"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.wv.gov/Documents/PTE/2024/ept100.Instructions.2024.pdf",
+    "matched_title": "https://tax.wv.gov/Documents/PTE/2024/ept100.Instructions.2024.pdf",
+    "matched_phrases": [
+     "Allocation and Apportionment",
+     "Form CIT-120"
+    ],
+    "snippet": "Neither the numerator nor the denominator of the gross receipts factor should include gross receipts from obligations and certain loans on which you claim the special allowance on Form CIT-120, Schedule B-1."
+   }
+  ],
+  "grounding_urls": [
+   "https://tax.wv.gov/business/corporateincometax/pages/corporateincometax.aspx",
+   "https://code.wvlegislature.gov/11-24-7/",
+   "https://code.wvlegislature.gov/11-24-7/",
+   "https://code.wvlegislature.gov/11-24-7A/",
+   "https://tax.wv.gov/Documents/TaxForms/2019/spf100apt.pdf",
+   "https://tax.wv.gov/Documents/PTE/2024/ept100.Instructions.2024.pdf",
+   "https://code.wvlegislature.gov/pdf/11-24/",
+   "https://code.wvlegislature.gov/11-24-7B/",
+   "https://code.wvlegislature.gov/11-24-7/",
+   "https://code.wvlegislature.gov/11-24-7A/",
+   "https://tax.wv.gov/Documents/CIT/2024/cit120.2024.pdf",
+   "https://tax.wv.gov/Documents/TaxForms/2020/cit120apt.pdf",
+   "https://tax.wv.gov/business/corporateincometax/pages/corporateincometax.aspx",
+   "https://tax.wv.gov/Documents/TaxForms/2015/cnf120.instructions.pdf",
+   "https://tax.wv.gov/Documents/TaxForms/2013/cnf120.pdf",
+   "https://tax.wv.gov/Documents/PTE/2024/pte100.instructions.2024.pdf",
+   "https://tax.wv.gov/Documents/PTE/2025/pte100.instructions.2025.pdf",
+   "https://tax.wv.gov/Documents/CIT/2025/cit120.instructions.2025.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "WV",
+  "section": "nexus",
+  "notes": "### 1. Income or Franchise Tax Nexus & Bright-Line Thresholds\n\n* **Corporate Net Income Tax (CNIT):**\n  * **General Nexus Standard:** Imposed on every domestic or foreign corporation \"engaging in business in this state or deriving income from property, activity or other sources in this state\". \"Engaging in business\" or \"doing business\" encompasses any activity enjoying the benefits and protection of the government and laws of West Virginia.\n  * **General Bright-Line / Factor-Presence Threshold:** None published for general corporations.\n  * **Financial Organizations Bright-Line Presumption:** A financial organization commercially domiciled outside West Virginia is presumed to be regularly engaging in business in the state if during any year:\n    * It obtains or solicits business with **20 or more persons** within the state; or\n    * The sum of the value of its gross receipts attributable to sources in the state equals or exceeds **$100,000**.\n* **Business Franchise Tax:**\n  * West Virginia's Business Franchise Tax was eliminated for taxable years beginning on or after January 1, 2015, with the tax rate set to zero ($0) / no tax due. Consequently, there is no separate operative franchise tax nexus threshold.\n* **Applicability:** Applies to both tax years 2025 and 2026 without change.\n* **Official URLs:**\n  * https://code.wvlegislature.gov/11-24-4/\n  * https://code.wvlegislature.gov/11-24-7B/\n  * https://code.wvlegislature.gov/11-23-6/\n\n---\n\n### 2. Remote Seller Economic Nexus Threshold & Measurement Period\n\n* **Threshold Amounts:** A remote seller has economic nexus and a collection obligation for West Virginia state and municipal sales/use taxes if it meets either of the following:\n  * Gross revenue/sales into West Virginia exceeding **$100,000**; or\n  * **200 or more separate transactions** for delivery in West Virginia.\n  * The dollar amount and transaction count include both taxable and nontaxable sales and services.\n* **Measurement Period:**\n  * Measured based on the **immediately preceding calendar year** or the **current calendar year**.\n  * If a remote seller meets either threshold during the current calendar year, it must register and begin collecting tax on sales made after the date either threshold is met.\n* **Applicability:** Applies to both tax years 2025 and 2026 without change.\n* **Official URLs:**\n  * https://code.wvlegislature.gov/11-15A-6B/\n  * https://tax.wv.gov/Business/SalesAndUseTax/ECommerce/Pages/RemoteSellers.aspx\n  * https://tax.wv.gov/Documents/TaxBulletins/adnot2018-18.pdf\n\n---\n\n### 3. State's Stated Position on P.L. 86-272 Protection\n\n* **General Protection Recognized:**\n  * The West Virginia Tax Division recognizes Public Law 86-272 (15 U.S.C. § 381) as federal legislation immunizing out-of-state entities from state net income taxes where business activities in the state do not exceed the solicitation of orders for sales of tangible personal property, provided orders are sent outside the state for approval and filled from outside the state.\n  * Corporation net income tax instructions require filers with multistate activity to report sales of tangible personal property delivered or shipped to states in which the corporation is not subject to tax under P.L. 86-272.\n* **MTC Revised Interpretation on Internet Activities:**\n  * **Not found:** The West Virginia Tax Division and West Virginia Code have not published official administrative guidance or rules adopting or rejecting the Multistate Tax Commission's (MTC) revised interpretation regarding internet activities under P.L. 86-272.\n* **Applicability:** Tax years 2025 and 2026.\n* **Official URLs:**\n  * https://tax.wv.gov/Documents/TaxBulletins/taa98002.htm\n  * https://tax.wv.gov/Documents/TaxForms/cit120.instructions.pdf",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "West Virginia corporate net income tax applies to corporations engaging in business or deriving income from sources in the state, with no bright-line factor presence threshold for general corporations. For out-of-state financial organizations, nexus is presumed if they solicit business with 20 or more persons in the state or have gross receipts of $100,000 or more from state sources.",
+    "source_url": "https://code.wvlegislature.gov/11-24-7B/",
+    "evidence": [
+     "financial organization",
+     "regularly engaging in business",
+     "20 or more persons",
+     "equals or exceeds $100,000"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.wv.gov/Documents/CIT/2023/cit120.instructions.2023.pdf",
+    "matched_title": "https://tax.wv.gov/Documents/CIT/2023/cit120.instructions.2023.pdf",
+    "matched_phrases": [
+     "financial organization",
+     "regularly engaging in business",
+     "20 or more persons"
+    ],
+    "snippet": "A financial organization not having its commercial domicile in West Virginia is presumed to be regularly engaging in business in West Virginia if during any year it obtains or solicits business with 20 or more persons within West Virginia, or the sum of its gross receipts attributable to sources in West Virginia equals or exceeds $100,000.00."
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Remote sellers must collect sales and use tax if gross sales into West Virginia exceed $100,000 or if they have 200 or more separate transactions for delivery in the state. The threshold is measured based on the current calendar year or the immediately preceding calendar year.",
+    "source_url": "https://code.wvlegislature.gov/11-15A-6B/",
+    "evidence": [
+     "exceeding $100,000",
+     "200 or more separate transactions",
+     "immediately preceding calendar year"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.wv.gov/documents/administrativenotices/2018/administrativenotice.2018-18.pdf",
+    "matched_title": "https://tax.wv.gov/documents/administrativenotices/2018/administrativenotice.2018-18.pdf",
+    "matched_phrases": [
+     "200 or more separate transactions",
+     "immediately preceding calendar year"
+    ],
+    "snippet": "The Act applies only to sellers that deliver more than $100,000 of goods or services into South Dakota or engage in 200 or more separate transactions for the delivery of goods and services into the State on an annual basis."
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "West Virginia recognizes Public Law 86-272 protection against net income tax for out-of-state businesses whose activities within the state are limited to soliciting sales of tangible personal property. Corporate income tax instructions require reporting sales where immunity under Public Law 86-272 applies.",
+    "source_url": "https://tax.wv.gov/Documents/TaxForms/cit120.instructions.pdf",
+    "evidence": [
+     "Public Law 86-272",
+     "tangible personal property",
+     "solicitation of orders"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.wv.gov/Documents/TAA/taa.1998-002.html",
+    "matched_title": "Technical Assistance Advisory TAA 1998-002 Business Registration Tax - Business Franchise Tax - Corporation Net Income Tax - Consumer Sales And Service Tax - Use Tax - Personal Income Tax - Property T",
+    "matched_phrases": [
+     "Public Law 86-272",
+     "tangible personal property"
+    ],
+    "snippet": "Finally, it should be mentioned that Public Law 86-272, 15 U.S.C."
+   }
+  ],
+  "grounding_urls": [
+   "https://code.wvlegislature.gov/email/11-24/",
+   "https://tax.wv.gov/Documents/TAA/taa.1998-002.html",
+   "https://code.wvlegislature.gov/11-24-7B/",
+   "https://code.wvlegislature.gov/11-23-6/",
+   "https://code.wvlegislature.gov/email/11-24/",
+   "https://code.wvlegislature.gov/11-24-4/",
+   "https://code.wvlegislature.gov/11-15A-6B/",
+   "https://tax.wv.gov/business/salesandusetax/ecommerce/remotesellers/Pages/RemoteSellersAndWestVirginiaTax.aspx",
+   "https://code.wvlegislature.gov/11-15A-6B/",
+   "https://tax.wv.gov/documents/administrativenotices/2018/administrativenotice.2018-18.pdf",
+   "https://tax.wv.gov/Documents/TAA/taa.1998-002.html",
+   "https://tax.wv.gov/Documents/CIT/2023/cit120.instructions.2023.pdf",
+   "https://tax.wv.gov/Documents/PTE/2024/ept100.Instructions.2024.pdf",
+   "https://tax.wv.gov/Documents/TAA/taa.1998-002.html"
+  ],
+  "error": ""
+ },
+ {
+  "state": "WV",
+  "section": "rates",
+  "notes": "### 1. Individual Income Tax\n\nWest Virginia imposes a graduated personal income tax. The rates changed between tax years 2025 and 2026.\n\n#### Tax Year 2025\n* **Applicable Law:** W. Va. Code § 11-21-4i\n* **Single, Head of Household, Married Filing Jointly, and Qualifying Surviving Spouse Brackets:**\n  * **Not over $10,000:** 2.22% of taxable income\n  * **$10,001 to $25,000:** $222 plus 2.96% of excess over $10,000\n  * **$25,001 to $40,000:** $666 plus 3.33% of excess over $25,000\n  * **$40,001 to $60,000:** $1,165.50 plus 4.44% of excess over $40,000\n  * **Over $60,000:** $2,053.50 plus 4.82% of excess over $60,000\n* **Married Filing Separately Brackets:**\n  * **Not over $5,000:** 2.22% of taxable income\n  * **$5,001 to $12,500:** $111 plus 2.96% of excess over $5,000\n  * **$12,501 to $20,000:** $333 plus 3.33% of excess over $12,500\n  * **$20,001 to $30,000:** $582.75 plus 4.44% of excess over $20,000\n  * **Over $30,000:** $1,026.75 plus 4.82% of excess over $30,000\n* **Official URLs:** \n  * https://code.wvlegislature.gov/11-21-4I/\n  * https://tax.wv.gov/Individuals/Pages/Individuals.aspx\n\n---\n\n#### Tax Year 2026\n* **Applicable Law:** W. Va. Code § 11-21-4j (enacted via SB 392, signed March 31, 2026; effective retroactive to January 1, 2026).\n* **Single, Head of Household, Married Filing Jointly, and Qualifying Surviving Spouse Brackets:**\n  * **Not over $10,000:** 2.11% of taxable income\n  * **$10,001 to $25,000:** $211.00 plus 2.81% of excess over $10,000\n  * **$25,001 to $40,000:** $632.50 plus 3.16% of excess over $25,000\n  * **$40,001 to $60,000:** $1,106.50 plus 4.22% of excess over $40,000\n  * **Over $60,000:** $1,950.50 plus 4.58% of excess over $60,000\n* **Married Filing Separately Brackets:**\n  * **Not over $5,000:** 2.11% of taxable income\n  * **$5,001 to $12,500:** $105.50 plus 2.81% of excess over $5,000\n  * **$12,501 to $20,000:** $316.25 plus 3.16% of excess over $12,500\n  * **$20,001 to $30,000:** $553.25 plus 4.22% of excess over $20,000\n  * **Over $30,000:** $975.25 plus 4.58% of excess over $30,000\n* **Official URLs:** \n  * https://tax.wv.gov/Individuals/Pages/2026IncomeTaxRateCut.aspx\n  * https://code.wvlegislature.gov/11-21-4J/\n\n---\n\n### 2. Corporate Income Tax & Franchise Tax\n\n* **Corporate Net Income Tax Rate:** Flat **6.5%** of West Virginia taxable income (W. Va. Code § 11-24-4). \n  * **Tax Years:** Applies to both **2025** and **2026** (unchanged).\n* **Minimum Tax:** **None** (minimum tax not found for Corporation Net Income Tax; estimated payments are mandatory if West Virginia taxable income is expected to exceed $10,000).\n* **Business Franchise Tax:** Reduced to **0.00%** / repealed for taxable years beginning on or after January 1, 2015 (W. Va. Code § 11-23-6).\n* **Official URLs:**\n  * https://tax.wv.gov/Business/CorporateIncomeTax/Pages/CorporateIncomeTax.aspx\n  * https://code.wvlegislature.gov/11-24-4/\n\n---\n\n### 3. State Sales & Use Tax and Local Rates\n\n* **State Sales and Use Tax Rate:** **6.0%** (W. Va. Code § 11-15-3 and § 11-15A-2).\n  * **Tax Years:** Applies to both **2025** and **2026** (unchanged).\n* **Local Sales Taxes:** **Yes.** Municipalities participating under municipal home rule or statutory authority (W. Va. Code § 8-13C-4) are authorized to levy a municipal sales and use tax, typically **1%**, resulting in a combined state and local rate of up to **7.0%** in participating jurisdictions.\n* **Official URLs:**\n  * https://tax.wv.gov/Business/SalesAndUseTax/Pages/SalesAndUseTax.aspx\n  * https://tax.wv.gov/Business/SalesAndUseTax/MunicipalSalesAndUseTax/Pages/MunicipalSalesAndUseTax.aspx\n\n---\n\n### 4. Gross Receipts, Margin, Franchise, or Other Notable Business Taxes\n\n* **State Business and Occupation (B&O) Tax:** \n  * Imposed as a gross receipts tax exclusively on public service and utility businesses (e.g., natural gas, electric power, water) under W. Va. Code § 11-13-1 et seq. Rates vary by utility activity and capacity.\n  * *Note on Municipalities:* While the state B&O tax was repealed for general businesses in 1987, individual West Virginia municipalities retain authority to levy local B&O gross receipts taxes on businesses operating in their borders (W. Va. Code § 8-13-5).\n  * **Tax Years:** Applies to both **2025** and **2026** (unchanged).\n  * **Official URL:** https://tax.wv.gov/Business/ExciseTax/BusinessAndOccupationTax/Pages/BusinessAndOccupationTax.aspx\n\n* **Severance Tax:**\n  * Imposed on gross receipts/gross value of natural resources extracted or produced in West Virginia (W. Va. Code § 11-13A-1 et seq.).\n  * Rates include:\n    * **5.0%** on oil and natural gas gross receipts\n    * **5.0%** (4.65% state + 0.35% local) on coal production\n    * **2.5%** on waste coal\n    * **5.0%** on other minerals (limestone, sandstone, sand, gravel)\n  * **Tax Years:** Applies to both **2025** and **2026** (unchanged).\n  * **Official URL:** https://tax.wv.gov/Business/SeveranceTax/Pages/SeveranceTax.aspx\n\n* **Health Care Provider Taxes:**\n  * Gross receipts taxes imposed on providers of specific health care items and services (W. Va. Code § 11-27-1 et seq.).\n  * **Tax Years:** Applies to both **2025** and **2026** (unchanged).\n  * **Official URL:** https://tax.wv.gov/Business/ExciseTax/Pages/ExciseTax.aspx\n\n* **Cannabis Dispensary Tax:**\n  * Imposed on medical cannabis dispensaries at a rate of **10%** of gross receipts.\n  * **Tax Years:** Applies to both **2025** and **2026** (unchanged).\n  * **Official URL:** https://tax.wv.gov/Business/ExciseTax/Pages/ExciseTax.aspx",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025
+    ],
+    "value": "For tax year 2025, West Virginia imposes graduated individual income tax rates of 2.22%, 2.96%, 3.33%, 4.44%, and 4.82%. Married individuals filing separately face brackets half the size of single and joint filers at the same percentage rates.",
+    "source_url": "https://code.wvlegislature.gov/11-21-4I/",
+    "evidence": [
+     "2.22% of taxable income",
+     "4.82% of excess over",
+     "taxable income"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://code.wvlegislature.gov/11-21-4I/; unreadable: https://code.wvlegislature.gov/pdf/11-21/; figures not on tax.wv.gov: ['2.22', '2.96', '3.33', '4.44', '4.82']; unreadable: https://code.wvlegislature.gov/11-21-4j/; figures not on tax.wv.gov: ['2.22', '2.96', '2025', '3.33', '4.44', '4.82']; unreadable: https://code.wvlegislature.gov/11-24-4/",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "individual",
+    "years": [
+     2026
+    ],
+    "value": "Effective for tax year 2026, West Virginia personal income tax rates are reduced to 2.11%, 2.81%, 3.16%, 4.22%, and 4.58%. Married individuals filing separately are subject to the same rates on proportionally reduced bracket thresholds.",
+    "source_url": "https://tax.wv.gov/Individuals/Pages/2026IncomeTaxRateCut.aspx",
+    "evidence": [
+     "2.11% of taxable income",
+     "4.58% of excess over",
+     "taxable income"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.wv.gov/Individuals/Pages/PersonalIncomeTaxReductionBill.aspx",
+    "matched_title": "2026 Income Tax Rate Cut",
+    "matched_phrases": [
+     "2.11% of taxable income",
+     "4.58% of excess over",
+     "taxable income"
+    ],
+    "snippet": "Not over $5,000 2.11% of taxable income Over $5,000 but not over $12,500 $105.50 plus 2.81% of excess over $5,000 Over $12,500 but not over $20,000 $316.25 plus 3.16% of excess over $12,500 Over $20,000 but not over $30,000 $553.25 plus 4.22% of excess over $20,000 Over $30,000 $975.25 plus 4.58% of excess over $30,000 Employers The withholding tax tables have been updated for the 2026 tax year."
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "West Virginia imposes a flat Corporate Net Income Tax rate of 6.5% with no minimum tax. The Business Franchise Tax is 0.00%.",
+    "source_url": "https://tax.wv.gov/Business/CorporateIncomeTax/Pages/CorporateIncomeTax.aspx",
+    "evidence": [
+     "Corporation Net Income Tax",
+     "6.5%",
+     "taxable income"
+    ],
+    "accepted": false,
+    "reason": "figures not on tax.wv.gov: ['6.5']; unreadable: https://code.wvlegislature.gov/pdf/11-21/; figures not on tax.wv.gov: ['0', '6.5']; unreadable: https://code.wvlegislature.gov/11-21-4j/; unreadable: https://code.wvlegislature.gov/11-21-4I/; figures not on tax.wv.gov: ['0']; figure not stated beside the evidence on tax.wv.gov; unreadable: https://code.wvlegislature.gov/11-24-4/; evidence not on tax.wv.gov (1/3)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The state sales and use tax rate is 6.0%. Municipalities may levy an additional local sales and use tax, typically 1%, yielding a total rate of up to 7.0%.",
+    "source_url": "https://tax.wv.gov/Business/SalesAndUseTax/Pages/SalesAndUseTax.aspx",
+    "evidence": [
+     "sales and use tax",
+     "6.0%",
+     "municipal sales and use"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.wv.gov/Business/SalesAndUseTax/Pages/SalesAndUseTax.aspx",
+    "matched_title": "Sales and Use Tax",
+    "matched_phrases": [
+     "sales and use tax",
+     "municipal sales and use"
+    ],
+    "snippet": "Forms CST-200CU Sales and Use Tax Return Effective 01/01/2018 Instructions Import Spreadsheet Instructions for Filing the CST-200 Sales and Use Tax Return Via MyTaxes Schedule BD Bad Debt Deduction Worksheet Schedule S Sales Tax Credit Memos, Adjustments, and Refunds Schedule U Schedule U Refund or Credit of Use Tax Claimed on a Return When filing a Schedule U it must be submitted through MyTaxes beginning 7/1/2023."
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "West Virginia levies a state Business and Occupation gross receipts tax on public service and utility companies, as well as a severance tax including 5.0% on oil, natural gas, and coal gross receipts. Additionally, the state imposes health care provider taxes and a 10% gross receipts tax on medical cannabis dispensaries.",
+    "source_url": "https://tax.wv.gov/Business/ExciseTax/BusinessAndOccupationTax/Pages/BusinessAndOccupationTax.aspx",
+    "evidence": [
+     "Business and Occupation Tax",
+     "gross receipts tax",
+     "public service and utility"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.wv.gov/Documents/Reports/2022/SeveranceTaxes.TaxData.FiscalYears.2015-2022.pdf",
+    "matched_title": "https://tax.wv.gov/Documents/Reports/2022/SeveranceTaxes.TaxData.FiscalYears.2015-2022.pdf",
+    "matched_phrases": [
+     "Business and Occupation Tax",
+     "gross receipts tax"
+    ],
+    "snippet": "A 5% gross receipts tax also applies to extraction of sand, gravel, limestone, sandstone and any other mineral extracted with the exception of coal , waste coal and timber."
+   }
+  ],
+  "grounding_urls": [
+   "https://code.wvlegislature.gov/pdf/11-21/",
+   "https://tax.wv.gov/Individuals/Pages/PersonalIncomeTaxReductionBill.aspx",
+   "https://code.wvlegislature.gov/11-21-4j/",
+   "https://code.wvlegislature.gov/11-21-4I/",
+   "https://code.wvlegislature.gov/11-21-4I/",
+   "https://code.wvlegislature.gov/11-21-4I/",
+   "https://code.wvlegislature.gov/11-21-4I/",
+   "https://tax.wv.gov/individuals",
+   "https://tax.wv.gov/Documents/CIT/2024/cit120.instructions.2024.pdf",
+   "https://tax.wv.gov/Documents/CIT/2025/cit120.2025.pdf",
+   "https://tax.wv.gov/Documents/CIT/cit120es.pdf",
+   "https://tax.wv.gov/Documents/TaxForms/2015/cnf120.instructions.pdf",
+   "https://tax.wv.gov/business/corporateincometax/pages/corporateincometax.aspx",
+   "https://code.wvlegislature.gov/11-24-4/",
+   "https://tax.wv.gov/business/salesandusetax/municipalsalesandusetax/pages/municipalsalesandusetax.aspx",
+   "https://tax.wv.gov/Documents/TSD/tsd413.pdf",
+   "https://tax.wv.gov/Documents/SUT/MunicipalitiesImposingSalesAndUseTaxes.pdf",
+   "https://tax.wv.gov/Business/SalesAndUseTax/MunicipalSalesAndUseTax/Pages/MunicipalSalesAndUseTaxGuidelines.aspx",
+   "https://tax.wv.gov/business/salesandusetax/pages/salesandusetax.aspx",
+   "https://tax.wv.gov/business/businessoccupation",
+   "https://tax.wv.gov/Documents/TaxForms/bot300e.pdf",
+   "https://tax.wv.gov/Documents/Reports/TaxExpenditureStudy.2015.01.pdf",
+   "https://tax.wv.gov/Documents/Reports/2022/SeveranceTaxes.TaxData.FiscalYears.2015-2022.pdf",
+   "https://tax.wv.gov/business/excisetax/businessoccupationtax/Pages/BusinessOccupationTax.aspx",
+   "https://tax.wv.gov/business/severancetax/Pages/SeveranceTaxForms.aspx",
+   "https://tax.wv.gov/business/excisetax/pages/excisetax.aspx"
+  ],
+  "error": ""
+ },
+ {
+  "state": "WV",
+  "section": "filing",
+  "notes": "### 1. Individual Return Due Dates and Extension Rules\n\n* **Return Due Date:** For calendar-year filers, the annual individual return is due on or before **April 15** following the close of the tax year (or the next business day if April 15 falls on a weekend or legal holiday). \n  * *Applicability:* Applies to both **Tax Year 2025** (due April 15, 2026) and **Tax Year 2026** (due April 15, 2027).\n* **Extension Rules:** \n  * A **6-month extension** to file is available (extended due date is **October 15**).\n  * If a taxpayer has been granted a federal extension (IRS Form 4868) and **does not expect to owe** West Virginia income tax, no separate state form is required; the taxpayer simply marks the federal extension box on the West Virginia return.\n  * If West Virginia tax is owed (or if no federal extension was obtained), the taxpayer must file **Form WV4868** (*Application for Extension of Time to File*) on or before the original April 15 due date and remit the tentative tax due. \n  * An extension of time to file is **not** an extension of time to pay.\n  * *Applicability:* Applies to both **Tax Year 2025** and **Tax Year 2026**.\n* **Official Sources:**\n  * West Virginia Tax Division Filing Season: https://tax.wv.gov/Individuals/TaxFilingSeason/Pages/WestVirginiaIncomeTaxFilingSeason.aspx\n  * Form WV4868 Instructions: https://tax.wv.gov/Documents/TaxForms/it140.wv4868.pdf\n  * W. Va. Code § 11-21-51: https://code.wvlegislature.gov/11-21-51/\n\n---\n\n### 2. Corporate and Pass-Through Return Due Dates and Extension Rules\n\n#### Corporate Net Income Tax (C Corporations)\n* **Due Date:** Calendar-year C corporations must file on or before **April 15** (the 15th day of the fourth month following the close of the taxable year). Tax-exempt organizations with unrelated business income must file on or before the 15th day of the fifth month (May 15).\n* **Extension Rules:** \n  * Grants a **6-month extension** (extended due date is **October 15** for calendar-year filers).\n  * A federal extension (IRS Form 7004) is automatically accepted by West Virginia if no tax is expected to be owed. \n  * If the corporation expects to owe tax, it must file **Form CIT-120EXT** with tentative payment on or before the original due date. An extension of time to file does not extend the time for payment.\n* *Applicability:* Applies to both **Tax Year 2025** and **Tax Year 2026**.\n* **Official Sources:**\n  * West Virginia Tax Division Corporate Income Tax: https://tax.wv.gov/Business/CorporateIncomeTax/Pages/CorporateIncomeTax.aspx\n  * Form CIT-120 Instructions: https://tax.wv.gov/Documents/TaxForms/cit120.instructions.2025.pdf\n  * Form CIT-120EXT: https://tax.wv.gov/Documents/TaxForms/cit120ext.pdf\n\n#### Pass-Through Entities (S Corporations and Partnerships)\n* **Due Date:** Calendar-year pass-through entities filing standard **Form PTE-100** or elective **Form EPT-100** must file on or before **March 15** (the 15th day of the third month following the close of the taxable year).\n* **Extension Rules:** \n  * Grants a **6-month extension** (extended due date is **September 15** for calendar-year filers).\n  * A federal extension (IRS Form 7004) is automatically accepted for filing time if attached to the return. \n  * If the entity expects to owe tax (e.g., nonresident withholding) or needs to request a state extension without a federal extension, it must file **Form PTE-100EXT** (or file an extension request via MyTaxes) on or before the original due date. An extension of time to file does not extend the time to pay.\n* *Applicability:* Applies to both **Tax Year 2025** and **Tax Year 2026**.\n* **Official Sources:**\n  * West Virginia Tax Division Pass Through Entity: https://tax.wv.gov/Business/PassThroughEntity/Pages/PassThroughEntity.aspx\n  * Form PTE-100 Instructions: https://tax.wv.gov/Documents/TaxForms/pte100.instructions.2025.pdf\n  * Form PTE-100EXT: https://tax.wv.gov/Documents/TaxForms/pte100ext.pdf\n\n---\n\n### 3. Elective Pass-Through Entity Tax (PTET)\n\n* **Existence:** Yes. West Virginia enacted an elective PTET under W. Va. Code § 11-21-3a (effective retroactively starting tax year 2022).\n* **Tax Rate:** Imposed on the electing entity's West Virginia taxable income at the top marginal individual income tax rate pursuant to W. Va. Code § 11-21-3a(k):\n  * **Tax Year 2025:** **4.82%** (pursuant to W. Va. Code § 11-21-4i).\n  * **Tax Year 2026:** **4.58%** (reduced pursuant to SB 392, codified at W. Va. Code § 11-21-4j).\n* **How and When to Elect:**\n  * **When:** The election must be made on or before the due date of the return, including extensions (March 15 for calendar-year filers, or September 15 under extension).\n  * **How:** The election is made directly by filing the annual elective pass-through entity return, **Form EPT-100**. Filing Form EPT-100 signifies the election. The election is made on a year-by-year basis and is irrevocable for that tax year once made.\n  * *Note:* Entities electing to pay the PTET are exempt from nonresident withholding requirements and do not file Form PTE-100.\n* **Official Sources:**\n  * WV Tax Division Elective PTET: https://tax.wv.gov/Business/ElectivePassThroughEntityTax/Pages/ElectivePassThroughEntityTax.aspx\n  * W. Va. Code § 11-21-3a: https://code.wvlegislature.gov/11-21-3A/\n  * W. Va. Code § 11-21-4i: https://code.wvlegislature.gov/11-21-4I/\n  * W. Va. Code § 11-21-4j: https://code.wvlegislature.gov/11-21-4J/\n\n---\n\n### 4. Composite or Group Nonresident Returns for Pass-Through Entities\n\n* **Existence and Mechanics:** Yes. Under W. Va. Code § 11-21-51a, pass-through entities (S corporations and partnerships) or estates and trusts may elect to file a composite return on behalf of eligible nonresident owners/beneficiaries who elect to participate.\n* **Form:** **Form IT-140NRC** (*West Virginia Nonresident Composite Income Tax Return*).\n* **Filing Fee:** A mandatory **$50 processing fee** is required to be submitted with each Form IT-140NRC pursuant to W. Va. Code § 11-21-51a.\n* **Tax Rate on Composite Income:**\n  * **Tax Year 2025:** **4.82%** (pursuant to W. Va. Code § 11-21-4i(d)).\n  * **Tax Year 2026:** **4.58%** (pursuant to W. Va. Code § 11-21-4j(d)).\n* **PTET Interaction:** An entity electing to pay the elective PTET (EPT-100) **may not** file a composite return on behalf of its owners.\n* **Official Sources:**\n  * Form IT-140NRC Instructions: https://tax.wv.gov/Documents/TaxForms/it140nrc.pdf\n  * W. Va. Code § 11-21-51a: https://code.wvlegislature.gov/11-21-51A/\n  * W. Va. Code § 11-21-4i: https://code.wvlegislature.gov/11-21-4I/\n  * W. Va. Code § 11-21-4j: https://code.wvlegislature.gov/11-21-4J/\n\n---\n\n### 5. Estimated Tax Payments and Nonresident Withholding for Pass-Throughs\n\n#### Nonresident Withholding\n* **Requirement:** Under W. Va. Code § 11-21-71a, every partnership and S corporation having West Virginia-source income must withhold income tax on distributions (actual or deemed) to nonresident partners and shareholders (unless electing to pay PTET on Form EPT-100).\n* **Rate:**\n  * **Tax Year 2025:** **4.82%** (W. Va. Code § 11-21-4i(d); Form PTE-100 instructions).\n  * **Tax Year 2026:** **4.58%** (W. Va. Code § 11-21-4j(d)).\n* **Reporting:** Reported on **Schedule SP** and remitted with **Form PTE-100**.\n* **Safe Harbor / Extension Requirement:** To avoid additions to tax when requesting an extension, the entity must remit by the original due date at least **90%** of the withholding due for the current taxable year or **100%** of the withholding paid for the prior taxable year (provided the prior taxable year was a full 12 months and tax was paid).\n\n#### Estimated Tax Payments\n* **Form & Payment Portal:** Form **PTE-100ES** (*West Virginia Estimated Income Tax Payment for S Corporations and Partnerships*) or paid online via MyTaxes. Elective PTET estimated payments are made directly to the entity's EPT account on MyTaxes.\n* **Due Dates for Calendar-Year Filers:**\n  * 1st Installment: **April 15**\n  * 2nd Installment: **June 15**\n  * 3rd Installment: **September 15**\n  * 4th Installment: **January 15** of the following year\n* *Applicability:* Applies to both **Tax Year 2025** and **Tax Year 2026**.\n* **Official Sources:**\n  * W. Va. Code § 11-21-71a: https://code.wvlegislature.gov/11-21-71A/\n  * Form PTE-100EXT Instructions: https://tax.wv.gov/Documents/TaxForms/pte100ext.pdf\n  * West Virginia Tax Division Elective PTET: https://tax.wv.gov/Business/ElectivePassThroughEntityTax/Pages/ElectivePassThroughEntityTax.aspx\n\n---\n\n### 6. Main Return Forms\n\n* **Individual Income Tax:** **Form IT-140** (*West Virginia Personal Income Tax Return*).\n  * Official Page: https://tax.wv.gov/Individuals/Pages/Individuals.aspx\n* **Corporate Net Income Tax:** **Form CIT-120** (*West Virginia Corporation Net Income Tax Return*).\n  * Official Page: https://tax.wv.gov/Business/CorporateIncomeTax/Pages/CorporateIncomeTax.aspx\n* **Pass-Through Entities:**\n  * Standard Return: **Form PTE-100** (*West Virginia S Corporation & Partnership Income Tax Return*).\n    * Official Page: https://tax.wv.gov/Business/PassThroughEntity/Pages/PassThroughEntity.aspx\n  * Elective PTET Return: **Form EPT-100** (*West Virginia Elective Pass Through Entity Tax Return*).\n    * Official Page: https://tax.wv.gov/Business/ElectivePassThroughEntityTax/Pages/ElectivePassThroughEntityTax.aspx",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "West Virginia individual income tax returns are due on or before April 15 for calendar-year filers. A six-month extension to October 15 is available, which requires filing Form WV4868 if tax is owed, though an approved federal extension is accepted if no tax is due.",
+    "source_url": "https://tax.wv.gov/Individuals/TaxFilingSeason/Pages/WestVirginiaIncomeTaxFilingSeason.aspx",
+    "evidence": [
+     "due on April 15",
+     "extension of time",
+     "Form WV4868"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.wv.gov/Individuals/TaxFilingSeason/Pages/WestVirginiaIncomeTaxFilingSeason.aspx; evidence not on tax.wv.gov (1/3); figures not on tax.wv.gov: ['4868']; unreadable: https://code.wvlegislature.gov/11-21-51/; figures not on tax.wv.gov: ['15', '4868']; unreadable: https://code.wvlegislature.gov/11-21-3A/; unreadable: https://code.wvlegislature.gov/11-21-4I/; figures not on www.wvlegislature.gov: ['4868']; unreadable: https://code.wvlegislature.gov/pdf/11-21-4J/; unreadable: h",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Calendar-year C corporations must file Form CIT-120 by April 15, with a six-month extension to October 15 available via Form CIT-120EXT if tax is owed. Pass-through entities must file Form PTE-100 or Form EPT-100 by March 15, with a six-month extension to September 15 requested via Form PTE-100EXT.",
+    "source_url": "https://tax.wv.gov/Business/CorporateIncomeTax/Pages/CorporateIncomeTax.aspx",
+    "evidence": [
+     "Corporate Net Income Tax",
+     "due on April 15",
+     "six-month extension"
+    ],
+    "accepted": false,
+    "reason": "figures not on tax.wv.gov: ['100']; figures not on tax.wv.gov: ['100', '120']; evidence not on tax.wv.gov (1/3); evidence not on tax.wv.gov (0/3); unreadable: https://code.wvlegislature.gov/11-21-51/; figures not on tax.wv.gov: ['100', '15']; figures not on tax.wv.gov: ['120']; figures not on tax.wv.gov: ['120', '15']; unreadable: https://code.wvlegislature.gov/11-21-3A/; unreadable: https://code.wvlegislature.gov/11-21-4I/; figures not on www.wvlegislature.gov: ['100', '120']; unreadable: https",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2025
+    ],
+    "value": "West Virginia offers an elective pass-through entity tax imposed at a rate of 4.82% for tax year 2025. The annual election is made by filing Form EPT-100 on or before the return due date, including extensions.",
+    "source_url": "https://code.wvlegislature.gov/11-21-4I/",
+    "evidence": [
+     "rate of 4.82%",
+     "taxable income",
+     "taxable year beginning"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://code.wvlegislature.gov/11-21-4I/; figures not on tax.wv.gov: ['100', '4.82']; figures not on tax.wv.gov: ['2025', '4.82']; figures not on tax.wv.gov: ['100', '2025', '4.82']; unreadable: https://code.wvlegislature.gov/11-21-51/; evidence not on tax.wv.gov (1/3); figures not on tax.wv.gov: ['4.82']; figures not on tax.wv.gov: ['2025']; unreadable: https://code.wvlegislature.gov/11-21-3A/; figures not on www.wvlegislature.gov: ['100', '2025', '4.82']; unreadable: https://code.w",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2026
+    ],
+    "value": "West Virginia offers an elective pass-through entity tax imposed at a reduced rate of 4.58% for tax year 2026. The annual election is made by filing Form EPT-100 on or before the return due date, including extensions.",
+    "source_url": "https://code.wvlegislature.gov/11-21-4J/",
+    "evidence": [
+     "rate of 4.58%",
+     "taxable income",
+     "taxable year beginning"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://code.wvlegislature.gov/11-21-4J/; figures not on tax.wv.gov: ['100', '4.58']; figures not on tax.wv.gov: ['4.58']; figures not on tax.wv.gov: ['100', '2026', '4.58']; evidence not on tax.wv.gov (1/3); unreadable: https://code.wvlegislature.gov/11-21-51/; figures not on tax.wv.gov: ['2026', '4.58']; unreadable: https://code.wvlegislature.gov/11-21-3A/; unreadable: https://code.wvlegislature.gov/11-21-4I/; figures not on www.wvlegislature.gov: ['100']; unreadable: https://code.",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "composite",
+    "years": [
+     2025
+    ],
+    "value": "Pass-through entities may file a composite nonresident return on Form IT-140NRC with a mandatory $50 processing fee at a 4.82% tax rate for tax year 2025. Entities that elect to pay the elective pass-through entity tax cannot file a composite return.",
+    "source_url": "https://code.wvlegislature.gov/11-21-51A/",
+    "evidence": [
+     "nonresident composite return",
+     "processing fee",
+     "Form IT-140NRC"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://code.wvlegislature.gov/11-21-51A/; figures not on tax.wv.gov: ['4.82', '50']; figures not on tax.wv.gov: ['2025', '4.82', '50']; unreadable: https://code.wvlegislature.gov/11-21-51/; figures not on tax.wv.gov: ['140', '4.82']; figures not on tax.wv.gov: ['140', '2025', '4.82', '50']; figures not on tax.wv.gov: ['140', '4.82', '50']; evidence not on tax.wv.gov (1/3); figures not on tax.wv.gov: ['2025']; unreadable: https://code.wvlegislature.gov/11-21-3A/; unreadable: https://",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "composite",
+    "years": [
+     2026
+    ],
+    "value": "Pass-through entities may file a composite nonresident return on Form IT-140NRC with a mandatory $50 processing fee at a reduced 4.58% tax rate for tax year 2026. Entities electing the pass-through entity tax are not permitted to file a composite return.",
+    "source_url": "https://code.wvlegislature.gov/11-21-4J/",
+    "evidence": [
+     "rate of 4.58%",
+     "taxable income",
+     "taxable year beginning"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://code.wvlegislature.gov/11-21-4J/; figures not on tax.wv.gov: ['4.58', '50']; figures not on tax.wv.gov: ['2026', '4.58', '50']; figures not on tax.wv.gov: ['50']; unreadable: https://code.wvlegislature.gov/11-21-51/; figures not on tax.wv.gov: ['140', '4.58']; figures not on tax.wv.gov: ['140', '2026', '4.58', '50']; figures not on tax.wv.gov: ['4.58']; figures not on tax.wv.gov: ['2026', '4.58']; unreadable: https://code.wvlegislature.gov/11-21-3A/; unreadable: https://code.",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025
+    ],
+    "value": "Pass-through entities must withhold tax at a 4.82% rate on distributions to nonresident owners on Schedule SP of Form PTE-100 unless electing PTET. Estimated payments are due quarterly on April 15, June 15, September 15, and January 15 using Form PTE-100ES or MyTaxes.",
+    "source_url": "https://code.wvlegislature.gov/11-21-71A/",
+    "evidence": [
+     "nonresident partners",
+     "withholding tax",
+     "pass through entity"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://code.wvlegislature.gov/11-21-71A/; figures not on tax.wv.gov: ['100', '4.82']; figures not on tax.wv.gov: ['4.82']; unreadable: https://code.wvlegislature.gov/11-21-51/; figures not on tax.wv.gov: ['100', '15', '4.82']; dates not on tax.wv.gov: ['April 15', 'June 15', 'January 15']; figures not on tax.wv.gov: ['15', '4.82']; dates not on tax.wv.gov: ['April 15', 'June 15', 'September 15', 'January 15']; unreadable: https://code.wvlegislature.gov/11-21-3A/; unreadable: https:/",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2026
+    ],
+    "value": "Pass-through entities must withhold tax at a reduced 4.58% rate on distributions to nonresident owners unless electing PTET. Estimated payments are due quarterly on April 15, June 15, September 15, and January 15.",
+    "source_url": "https://code.wvlegislature.gov/11-21-4J/",
+    "evidence": [
+     "rate of 4.58%",
+     "taxable income",
+     "taxable year beginning"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://code.wvlegislature.gov/11-21-4J/; figures not on tax.wv.gov: ['4.58']; evidence not on tax.wv.gov (1/3); unreadable: https://code.wvlegislature.gov/11-21-51/; figures not on tax.wv.gov: ['15', '4.58']; unreadable: https://code.wvlegislature.gov/11-21-3A/; unreadable: https://code.wvlegislature.gov/11-21-4I/; evidence not on www.wvlegislature.gov (1/3); unreadable: https://code.wvlegislature.gov/pdf/11-21-4J/; unreadable: https://code.wvlegislature.gov/11-21-51A/; unreadable: ",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The primary tax returns are Form IT-140 for individuals, Form CIT-120 for corporations, Form PTE-100 for standard pass-through entities, and Form EPT-100 for elective PTET filers.",
+    "source_url": "https://tax.wv.gov/Business/PassThroughEntity/Pages/PassThroughEntity.aspx",
+    "evidence": [
+     "Form PTE-100",
+     "Pass Through Entity",
+     "Partnership Income Tax Return"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.wv.gov/Documents/PTE/2025/pte100.instructions.2025.pdf",
+    "matched_title": "https://tax.wv.gov/Documents/PTE/2025/pte100.instructions.2025.pdf",
+    "matched_phrases": [
+     "Form PTE-100",
+     "Pass Through Entity"
+    ],
+    "snippet": "PENALTY FOR LATE FILING AND FAILURE TO INCLUDE CORRECT INFORMATION Any S Corporation or Partnership that fails to file and/or include all the correct information on Form PTE-100, and on Form WV K-1 or Form NRW-4 when applicable, by the required filing date is subject to a penalty of $50.00 for each information return that they failed to file or include correct information on, not to exceed $100,000."
+   }
+  ],
+  "grounding_urls": [
+   "https://tax.wv.gov/Individuals/TaxFilingSeason/Pages/TaxFilingSeason.aspx",
+   "https://tax.wv.gov/TaxCalendar/Pages/TaxCalendarApril.aspx",
+   "https://tax.wv.gov/Documents/PIT/it140.wv4868.pdf",
+   "https://tax.wv.gov/individuals/frequentlyaskedquestions/Pages/IndividualsFrequentlyAskedQuestions.aspx",
+   "https://code.wvlegislature.gov/11-21-51/",
+   "https://tax.wv.gov/Documents/CIT/2025/cit120.instructions.2025.pdf",
+   "https://tax.wv.gov/Documents/CIT/cit120ext.pdf",
+   "https://tax.wv.gov/business/corporateincometax/pages/corporateincometax.aspx",
+   "https://tax.wv.gov/Documents/PTE/2025/pte100.instructions.2025.pdf",
+   "https://tax.wv.gov/Business/ElectivePassThroughEntityTax/Pages/ElectivePassThroughEntityTax.aspx",
+   "https://tax.wv.gov/Documents/PTE/pte100ext.pdf",
+   "https://tax.wv.gov/business/passthroughentity/pages/passthroughentity.aspx",
+   "https://tax.wv.gov/Business/PassThroughEntity/Pages/PassThroughEntityElectiveTax.aspx",
+   "https://code.wvlegislature.gov/11-21-3A/",
+   "https://code.wvlegislature.gov/11-21-3A/",
+   "https://code.wvlegislature.gov/11-21-4I/",
+   "https://www.wvlegislature.gov/Bill_Text_HTML/2026_SESSIONS/RS/bills/sb392%20sub1%20enr.pdf",
+   "https://code.wvlegislature.gov/pdf/11-21-4J/",
+   "https://tax.wv.gov/Documents/PIT/2025/it140.NRC.2025.pdf",
+   "https://code.wvlegislature.gov/11-21-51A/",
+   "https://tax.wv.gov/Documents/TaxForms/2020/it140nrc.pdf",
+   "https://tax.wv.gov/Business/ElectivePassThroughEntityTax/Pages/ElectivePassThroughEntityTax.aspx",
+   "https://code.wvlegislature.gov/pdf/11-21-71A/",
+   "https://tax.wv.gov/business/passthroughentity/pages/passthroughentity.aspx",
+   "https://tax.wv.gov/business/passthroughentity/pages/passthroughentity.aspx",
+   "https://tax.wv.gov/Business/ElectivePassThroughEntityTax/Pages/ElectivePassThroughEntityTax.aspx",
+   "https://tax.wv.gov/TaxCalendar/Pages/TaxCalendarApril.aspx",
+   "https://tax.wv.gov/TaxCalendar/Pages/TaxCalendarJune.aspx",
+   "https://tax.wv.gov/individuals",
+   "https://tax.wv.gov/Business/ElectivePassThroughEntityTax/Pages/ElectivePassThroughEntityTax.aspx"
+  ],
+  "error": ""
+ }
+]

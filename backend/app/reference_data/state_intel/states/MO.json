@@ -1,0 +1,18 @@
+{
+  "code": "MO",
+  "name": "Missouri",
+  "sections": {
+    "apportionment": {
+      "fields": []
+    },
+    "nexus": {
+      "fields": []
+    },
+    "rates": {
+      "fields": []
+    },
+    "filing": {
+      "fields": []
+    }
+  }
+}

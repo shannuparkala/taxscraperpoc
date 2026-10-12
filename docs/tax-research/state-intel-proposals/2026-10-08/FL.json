@@ -1,0 +1,450 @@
+[
+ {
+  "state": "FL",
+  "section": "apportionment",
+  "notes": "### Florida Corporate Income Tax Apportionment (Tax Years 2025 & 2026)\n\n---\n\n### 1. Apportionment Formula\n* **Standard Formula:** Florida utilizes a three-factor formula with a double-weighted sales factor:\n  * **Sales factor:** 50%\n  * **Property factor:** 25%\n  * **Payroll factor:** 25%\n* **Zero or Insignificant Denominator Adjustments:**\n  * If the sales denominator is zero or insignificant, the property and payroll factors are weighted at 50% each.\n  * If either the property or payroll factor denominator is zero or insignificant, the remaining factor is weighted at $33\\frac{1}{3}\\%$, and the sales factor is weighted at $66\\frac{2}{3}\\%$.\n  * If any two factor denominators are zero or insignificant, the remaining factor is weighted at 100%.\n* **Single Sales Factor Exceptions:**\n  * **Qualified Capital Expenditures:** Under Fla. Stat. § 220.153, taxpayers (excluding financial organizations) making qualified capital expenditures equal to or exceeding $250 million over a two-year period may apply and elect to apportion adjusted federal income solely by the sales factor.\n  * **Citrus Processors:** Under Fla. Stat. § 220.151(3), eligible citrus processing companies may elect to apportion net income solely using the sales factor.\n* **Applicability:** Applies to both tax years 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Florida Statutes § 220.15: http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0200-0299/0220/Sections/0220.15.html\n  * Florida Statutes § 220.153: http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0200-0299/0220/Sections/0220.153.html\n  * Florida Department of Revenue Corporate Income Tax Overview: https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx\n\n---\n\n### 2. Sourcing of Services and Intangibles\n* **Rule:** **Cost of Performance (COP)**.\n* **Standards:**\n  * Gross receipts from services and other non-tangible personal property sales are attributed to Florida if the income-producing activity that gave rise to the receipts is performed wholly within Florida.\n  * If the income-producing activity is performed both within and outside Florida, gross receipts are attributed to Florida only if the greater proportion of the income-producing activity is performed in Florida, based on costs of performance (F.A.C. Rule 12C-1.0155(2)(e), (2)(l)).\n* **Applicability:** Applies to both tax years 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Florida Department of Revenue Technical Assistance Advisements (citing F.A.C. Rule 12C-1.0155):\n    * https://floridarevenue.com/taxes/rulings/Documents/08C1-002.pdf\n    * https://floridarevenue.com/taxes/rulings/Documents/17C1-004.pdf\n  * Florida Statutes § 220.15(5): http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0200-0299/0220/Sections/0220.15.html\n\n---\n\n### 3. Special Industry Apportionment Formulas\nFlorida provides specialized apportionment rules for the following industries:\n* **Insurance Companies:** Apportioned using a single-factor direct premiums written fraction. \n  * *Numerator:* Direct premiums written for insurance upon properties and risks in Florida.\n  * *Denominator:* Direct premiums written for insurance upon properties and risks everywhere.\n  * *Reinsurance:* Specific rules apply where reinsurance is the company's principal source of premiums written (Fla. Stat. § 220.151(1)).\n* **Transportation Services:** Apportioned using a revenue-miles fraction.\n  * *Numerator:* Revenue miles in Florida.\n  * *Denominator:* Revenue miles everywhere.\n  * *Passenger/Freight:* Includes statutory formulas weighting passenger and freight revenue miles. Air and sea carriers compute Florida revenue miles over defined Florida boundaries/coordinates (Fla. Stat. § 220.151(2)).\n  * *Pipelines:* Revenue mile defined as moving 1 barrel of oil, 1,000 cubic feet of gas, or a specified quantity of other substance 1 mile for consideration (Fla. Stat. § 220.151(2)(b)).\n* **Citrus Processing Companies:** Allowed an election to apportion income solely using the sales factor (Fla. Stat. § 220.151(3)).\n* **Financial Organizations:** Governed under standard three-factor apportionment, but subject to specialized statutory inclusions in the property and sales factors (e.g., intangible personal property, loans, interest, and fee receipts) (Fla. Stat. § 220.15(2)(c) & § 220.15(6)).\n* **Applicability:** Applies to both tax years 2025 and 2026 (unchanged).\n* **Official Source:**\n  * Florida Statutes § 220.151: http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0200-0299/0220/Sections/0220.151.html\n\n---\n\n### 4. Forms and Schedules Used to Compute Apportionment\n* **Primary Corporate Return:** **Florida Form F-1120** (*Florida Corporate Income/Franchise Tax Return*).\n  * **Schedule III** (*Apportionment of Adjusted Federal Income*):\n    * **Schedule III-A:** Standard three-factor formula computation (Average value of property, Salaries/wages/commissions/compensation, and Sales).\n    * **Schedule III-B:** Computation of average value of property (original cost).\n    * **Schedule III-C:** Sales factor calculation.\n    * **Schedule III-D:** Special apportionment fractions (Line 1 for insurance companies; Line 2 for transportation services).\n* **Partnership Information Return:** **Form F-1065**, Part III (*Apportionment Information*) and Part IV (*Apportionment of Partners' Share*).\n* **Applicability:** Applies to both tax years 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Florida Form F-1120: https://floridarevenue.com/Forms_library/current/f1120.pdf\n  * Florida Form F-1120 Instructions: https://floridarevenue.com/Forms_library/current/f1120n.pdf",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Florida uses a three-factor formula with a double-weighted sales factor, weighting sales at 50%, property at 25%, and payroll at 25%. Elective single sales factor apportionment is available for citrus processors and taxpayers making qualified capital expenditures equal to or exceeding $250 million.",
+    "source_url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0200-0299/0220/Sections/0220.15.html",
+    "evidence": [
+     "sales factor",
+     "property factor",
+     "payroll factor",
+     "double-weighted"
+    ],
+    "accepted": false,
+    "reason": "figures not on www.leg.state.fl.us: ['250']; figures not on floridarevenue.com: ['250']; figures not on www.leg.state.fl.us: ['25', '50']; figures not on www.leg.state.fl.us: ['25', '250', '50']; not an official FL host: moffataxlaw.com; figures not on floridarevenue.com: ['25', '250']; figures not on floridarevenue.com: ['25', '250', '50']; evidence not on floridarevenue.com (1/4); figure not stated beside the evidence on floridarevenue.com",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Florida sources gross receipts from services and intangibles using the cost of performance method. Receipts are attributed to Florida if the income-producing activity is performed wholly in the state or if a greater proportion is performed in Florida based on costs of performance.",
+    "source_url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0200-0299/0220/Sections/0220.15.html",
+    "evidence": [
+     "costs of performance",
+     "income-producing activity",
+     "greater proportion"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://floridarevenue.com/TaxLaw/Documents/TAA%2008C1-002.pdf",
+    "matched_title": "November 20, 2007",
+    "matched_phrases": [
+     "costs of performance",
+     "income-producing activity",
+     "greater proportion"
+    ],
+    "snippet": "Also, gross receipts shall be attributed to this state if the income producing activity is performed within and without this state but the greater proportion of the income producing activity is performed in this state, based on costs of performance."
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Insurance companies apportion income using a single-factor direct premiums written fraction, while transportation services apportion income using a revenue-miles fraction. Citrus processing companies may elect a single sales factor formula, and financial organizations follow special factor inclusions.",
+    "source_url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0200-0299/0220/Sections/0220.151.html",
+    "evidence": [
+     "direct premiums written",
+     "revenue miles",
+     "transportation services",
+     "citrus processing"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0200-0299/0220/Sections/0220.151.html",
+    "matched_title": "Statutes & Constitution \r\n      :View Statutes \r\n    :\r\n  \r\n  Online Sunshine",
+    "matched_phrases": [
+     "direct premiums written",
+     "revenue miles",
+     "transportation services",
+     "citrus processing"
+    ],
+    "snippet": "(2) The tax base for a taxpayer furnishing transportation services, for the purpose of computing a tax on those activities, shall be apportioned to this state by multiplying such base by a fraction the numerator of which is the revenue miles of the taxpayer in this state and the denominator of which is the revenue miles of the taxpayer everywhere."
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Apportionment is computed on Florida Form F-1120, Schedule III (Apportionment of Adjusted Federal Income). Partnerships report apportionment using Form F-1065, Parts III and IV.",
+    "source_url": "https://floridarevenue.com/Forms_library/current/f1120.pdf",
+    "evidence": [
+     "Form F-1120",
+     "Schedule III",
+     "Adjusted Federal Income"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+    "matched_title": "Florida Dept. of Revenue - \r\n                        \r\n            \r\n            Corporate Income Tax",
+    "matched_phrases": [
+     "Form F-1120",
+     "Adjusted Federal Income"
+    ],
+    "snippet": "Corporation Income Tax Return (Federal Form 1120) must file Florida Corporate Income/Franchise Tax Return ( Form F-1120 ) or the Florida Corporate Short Form Income Tax Return ( Form F-1120A ) regardless of whether any tax may be due."
+   }
+  ],
+  "grounding_urls": [
+   "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+   "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0200-0299/0220/Sections/0220.15.html",
+   "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0200-0299/0220/Sections/0220.153.html",
+   "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0200-0299/0220/Sections/0220.151.html",
+   "https://moffataxlaw.com/florida-cost-of-performance-cop-apportionment-what-is-going-on/",
+   "https://floridarevenue.com/TaxLaw/Documents/TAA%2008C1-002.pdf",
+   "https://floridarevenue.com/TaxLaw/Documents/TAA%2017C1-004.pdf",
+   "https://floridarevenue.com/TaxLaw/Documents/18C1-011.pdf",
+   "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0200-0299/0220/Sections/0220.151.html",
+   "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0200-0299/0220/0220PartIIContentsIndex.html&StatuteYear=2010&Title=-%3E2010-%3EChapter%20220-%3EPart%20II/",
+   "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0200-0299/0220/Sections/0220.151.html",
+   "https://floridarevenue.com/rules/pdf/F-1120_0725.pdf",
+   "https://floridarevenue.com/rules/pdf/F-1120_0725.pdf",
+   "https://floridarevenue.com/forms_library/current/f1065.pdf",
+   "https://floridarevenue.com/Forms_library/current/f1120n.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "FL",
+  "section": "nexus",
+  "notes": "### 1. Corporate Income / Franchise Tax Nexus & Bright-Line Thresholds\n\n* **Nexus Standard:** Florida imposes corporate income/franchise tax on all corporations for the privilege of conducting business, deriving income, or existing within Florida. Activities that establish nexus include:\n  * Having employees, agents, or independent contractors conducting sales or other business activities in Florida;\n  * Maintaining an office or other place of business in Florida;\n  * Assembling, installing, servicing, or repairing products in Florida;\n  * Owning, renting, or leasing real property or tangible personal property in Florida;\n  * Delivering goods to Florida customers using company-owned or leased vehicles;\n  * Holding a partnership interest in a partnership doing business, deriving income, or existing in Florida (Fla. Admin. Code R. 12C-1.011(1)(v));\n  * Selling or licensing intangible property for use in Florida (e.g., trademarks, patents) (Fla. Admin. Code R. 12C-1.011(1)(p)).\n* **Economic Nexus / Bright-Line Factor Presence Threshold:** Not found. Florida statutes and administrative rules do not provide a bright-line factor presence nexus standard or a specific dollar-amount economic nexus threshold for corporate income tax.\n* **Applicability:** Applies to both tax years 2025 and 2026 (unchanged).\n* **Official URLs:**\n  * Florida Department of Revenue (Corporate Income Tax): `https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx`\n  * Florida Department of Revenue (Out-of-State Businesses): `https://floridarevenue.com/taxes/taxesfees/Pages/outofstate.aspx`\n  * Florida Statutes § 220.11: `https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0200-0299/0220/Sections/0220.11.html`\n\n---\n\n### 2. Remote Seller Economic Nexus Threshold & Measurement Period (Sales Tax)\n\n* **Sales Threshold:** Total taxable remote sales into Florida in excess of **$100,000** (Fla. Stat. § 212.0596(1)(b)).\n* **Transaction Count:** None. Florida law specifies **any number** of taxable remote sales (no transaction minimum).\n* **Measurement Period:** The **previous calendar year** (Fla. Stat. § 212.0596(1)(b)).\n* **Applicability:** Applies to both tax years 2025 and 2026 (effective July 1, 2021; unchanged for 2025 and 2026).\n* **Official URLs:**\n  * Florida Statutes § 212.0596: `https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0200-0299/0212/Sections/0212.0596.html`\n  * Florida Department of Revenue (Sales and Use Tax): `https://floridarevenue.com/taxes/taxesfees/Pages/salestax.aspx`\n  * Florida Department of Revenue TIP No. 21A01-03: `https://floridarevenue.com/taxes/tips/documents/tip21a01-03.pdf`\n\n---\n\n### 3. State Position on Public Law 86-272 Protection\n\n* **Recognition and Incorporation:** Florida explicitly incorporates Public Law 86-272 (15 U.S.C. §§ 381–384) by reference into its administrative rules (Fla. Admin. Code R. 12C-1.0511(2)). \n* **Scope of Protection:** \n  * A business is protected from Florida corporate income tax if its Florida activity is limited strictly to the solicitation of orders for sales of tangible personal property, provided the orders are sent outside Florida for approval or rejection and filled by shipment or delivery from a point outside Florida by mail or common carrier.\n  * Having sales representatives in Florida carry and demonstrate samples or use company cars does not by itself exceed protection (Fla. Admin. Code R. 12C-1.011(2)).\n  * Activities exceeding solicitation (unless *de minimis* under *Wisconsin Department of Revenue v. William Wrigley, Jr., Co.*)—such as in-state repair/servicing, demonstrating customer-owned goods, technical consulting, administrative remote employees, or independent contractors approving orders—eliminate P.L. 86-272 immunity and create corporate income tax nexus (Fla. Admin. Code R. 12C-1.011(1)(k), (l)).\n* **MTC Revised Internet Activity Guidance:** Not found. The Florida Department of Revenue has not issued published rules or official guidance adopting the Multistate Tax Commission's 2021 revised interpretations regarding internet activities under P.L. 86-272.\n* **Applicability:** Applies to both tax years 2025 and 2026 (unchanged).\n* **Official URLs:**\n  * Florida Department of Revenue (Out-of-State Businesses): `https://floridarevenue.com/taxes/taxesfees/Pages/outofstate.aspx`\n  * Florida Department of Revenue Technical Assistance Advisement 11C1-006: `https://floridarevenue.com/taxes/legal_treatments/Documents/11C1-006.pdf`\n  * Florida Department of Revenue Technical Assistance Advisement 10C1-009: `https://floridarevenue.com/taxes/legal_treatments/Documents/10C1-009.pdf`",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Florida imposes corporate income tax on corporations for the privilege of conducting business, deriving income, or existing in the state. Nexus is created by activities such as maintaining an office, having employees or property, delivering goods in company vehicles, or licensing intangibles in Florida.",
+    "source_url": "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+    "evidence": [
+     "privilege of conducting business",
+     "deriving income",
+     "corporate income"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+    "matched_title": "Florida Dept. of Revenue - \r\n                        \r\n            \r\n            Corporate Income Tax",
+    "matched_phrases": [
+     "privilege of conducting business",
+     "deriving income",
+     "corporate income"
+    ],
+    "snippet": "A limited liability company (LLC) classified as a corporation for Florida and federal income tax purposes is subject to the Florida Income Tax Code and must file a Florida corporate income/franchise tax return."
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "A remote seller has sales tax economic nexus if its total taxable remote sales into Florida exceeded $100,000 in the previous calendar year. There is no transaction count threshold, meaning it applies across any number of taxable remote sales.",
+    "source_url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0200-0299/0212/Sections/0212.0596.html",
+    "evidence": [
+     "taxable remote sales",
+     "excess of $100,000",
+     "previous calendar year"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://floridarevenue.com/taxes/tips/Documents/TIP_21A01-03.pdf",
+    "matched_title": "https://floridarevenue.com/taxes/tips/Documents/TIP_21A01-03.pdf",
+    "matched_phrases": [
+     "taxable remote sales",
+     "previous calendar year"
+    ],
+    "snippet": "A “substantial number of remote sales” is any number of taxable remote sales in the previous calendar year in which the sum of the total sales exceeds $100,000."
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Florida recognizes Public Law 86-272 immunity if in-state activities are limited strictly to the solicitation of orders for sales of tangible personal property approved and filled from outside the state. Protection is eliminated by activities exceeding solicitation, including in-state repair, servicing, technical consulting, or administrative remote personnel.",
+    "source_url": "https://floridarevenue.com/taxes/taxesfees/Pages/outofstate.aspx",
+    "evidence": [
+     "solicitation of orders",
+     "tangible personal property",
+     "Public Law 86-272"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://floridarevenue.com/TaxLaw/Documents/TAA%2095C1-010.pdf",
+    "matched_title": "https://floridarevenue.com/TaxLaw/Documents/TAA%2095C1-010.pdf",
+    "matched_phrases": [
+     "solicitation of orders",
+     "tangible personal property",
+     "Public Law 86-272"
+    ],
+    "snippet": "381-384)           \"solicitation of orders\" included not only activities essential           to making requests for purchases, but also activities that are           \"entirely ancillary\" to the making of requests for purchases.(FN 1)           Activities which exceed this standard result in the loss of           the protection provided by Public Law 86-272, unless the           activities are considered \"de minimis\" because they do not           establish a \"nontrivial additional connection\" wit"
+   }
+  ],
+  "grounding_urls": [
+   "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+   "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0200-0299/0220/Sections/0220.11.html",
+   "https://floridarevenue.com/taxes/businesses/Pages/outstate.aspx",
+   "https://floridarevenue.com/TaxLaw/Documents/TAA%2095C1-010.pdf",
+   "https://floridarevenue.com/TaxLaw/Documents/23C1-001B.pdf",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4ig7yVuWmbqS19gFjbkFaIIp3P8z5AT_tORmBqZ7u2y20T8UjygGtObaIuZBrir0CcNzgwSprS-fDR96b-ZSkgZOd1NBUIzETHPxd_AXUGBo9_JPafJQb3Lxu0hMhUbneyX4VIS3CY1XffVE0qFGHnTyv",
+   "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0200-0299/0220/Sections/0220.02.html",
+   "https://floridarevenue.com/taxes/tips/Documents/TIP_21A01-03.pdf",
+   "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0200-0299/0212/Sections/0212.0596.html",
+   "https://floridarevenue.com/taxes/taxesfees/Pages/sales_tax.aspx",
+   "https://floridarevenue.com/TaxLaw/Documents/TAA%2011C1-006.pdf",
+   "https://floridarevenue.com/TaxLaw/Documents/TAA%2011C1-006.pdf",
+   "https://floridarevenue.com/TaxLaw/Documents/TAA%2010C1-009.pdf",
+   "https://floridarevenue.com/TaxLaw/Documents/TAA%2084M-004.pdf",
+   "https://floridarevenue.com/TaxLaw/Documents/TAA%2010C1-009.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "FL",
+  "section": "rates",
+  "notes": "### 1. Individual Income Tax\n* **Rate / Brackets:** Florida does not impose an individual (personal) income tax.\n* **Applicability:** Applies to both tax years 2025 and 2026 (unchanged).\n* **Official URL:** \n  * https://floridarevenue.com/taxes/taxesfees/Pages/new_resident.aspx\n  * https://floridarevenue.com/taxes/taxesfees/Pages/tax_rates.aspx\n\n---\n\n### 2. Corporate Income / Franchise Tax\n* **Rate:** \n  * **General Rate:** **5.5%** on Florida net income (for taxable years beginning on or after January 1, 2022).\n  * **Alternative Minimum Rate:** **3.3%** for taxpayers determining taxable income under section 220.13(2)(k), F.S. (subject to federal Alternative Minimum Tax).\n  * **Exemption:** An exemption of up to **$50,000** of net income is allowed in computing tax liability.\n* **Minimum Tax:** Florida does not impose a fixed dollar minimum corporate income/franchise tax.\n* **Applicability:** Applies to both tax years 2025 and 2026 (unchanged).\n* **Official URLs:**\n  * https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx\n  * https://floridarevenue.com/taxes/taxesfees/Pages/tax_rates.aspx\n  * http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0200-0299/0220/Sections/0220.11.html\n  * http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0200-0299/0220/Sections/0220.14.html\n\n---\n\n### 3. State Sales and Use Tax\n* **State Rate:** **6%** general rate. \n  * *Specific statutory state rate exceptions:* Retail sales of new mobile homes: **3%**; amusement machine receipts: **4%**; electricity: **6.95%**.\n* **Local Option Surtaxes:** Florida counties may levy a local discretionary sales surtax (county tax) in addition to the state sales and use tax. The surtax applies to transactions delivered into a county that imposes it (for most transactions, the surtax applies only to the first $5,000 of a taxable sale).\n* **Applicability:** Applies to both tax years 2025 and 2026 (state base rate remains unchanged; specific county surtax rates adjust locally by calendar year).\n* **Official URL:** \n  * https://floridarevenue.com/taxes/taxesfees/Pages/sales_tax.aspx\n\n---\n\n### 4. Gross Receipts and Notable Business Taxes\n* **Gross Receipts Tax on Utility Services:** \n  * Imposed at a rate of **2.5%** on the sale, delivery, or transportation of natural gas, manufactured gas (excluding LP gas), or electricity to retail consumers in Florida.\n  * *Applicability:* Applies to both tax years 2025 and 2026 (rate unchanged; administrative index prices are updated annually on July 1).\n  * *Official URL:* https://floridarevenue.com/taxes/taxesfees/Pages/grt.aspx\n* **Communications Services Tax (CST):**\n  * Imposed on telecommunications, video, and audio signals. \n  * Total state CST rate is **7.44%** (comprising **4.92%** state tax + **2.52%** gross receipts tax [2.37% + 0.15%]).\n  * Direct-to-home satellite service total rate is **11.44%** (**9.07%** state + **2.37%** gross receipts tax).\n  * Municipalities and charter counties impose an additional local CST rate.\n  * *Applicability:* Applies to both tax years 2025 and 2026 (unchanged).\n  * *Official URL:* https://floridarevenue.com/taxes/taxesfees/Pages/cst.aspx\n* **Gross Receipts Tax on Dry-Cleaning Facilities:**\n  * Imposed at a rate of **2%** on all gross receipts/charges by dry-cleaning and dry drop-off facilities for dry-cleaning and laundering services.\n  * *Applicability:* Applies to both tax years 2025 and 2026 (unchanged).\n  * *Official URL:* https://floridarevenue.com/taxes/taxesfees/Pages/drycleaning.aspx",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Florida does not impose an individual (personal) income tax.",
+    "source_url": "https://floridarevenue.com/taxes/taxesfees/Pages/new_resident.aspx",
+    "evidence": [
+     "individual",
+     "income tax",
+     "Florida does not"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://floridarevenue.com/faq/Pages/FAQDetails.aspx?FAQID=1466",
+    "matched_title": "https://floridarevenue.com/faq/Pages/FAQDetails.aspx?FAQID=1466",
+    "matched_phrases": [
+     "income tax",
+     "Florida does not"
+    ],
+    "snippet": "Do I have to file a personal income tax return in Florida? Florida does not impose a personal income tax, so there are no filing requirements."
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Florida imposes a corporate income tax at a general rate of 5.5% on net income, with an alternative minimum rate of 3.3% and an exemption of up to $50,000. There is no fixed dollar minimum corporate income tax.",
+    "source_url": "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+    "evidence": [
+     "5.5%",
+     "3.3%",
+     "$50,000",
+     "corporate income"
+    ],
+    "accepted": false,
+    "reason": "figures not on floridarevenue.com: ['3.3']; figures not on floridarevenue.com: ['3.3', '5.5', '50000']; figures not on floridarevenue.com: ['3.3', '5.5']; figures not on floridarevenue.com: ['3.3', '50000']; figures not on www.leg.state.fl.us: ['5.5', '50000']; figures not on www.leg.state.fl.us: ['3.3', '5.5', '50000']; figures not on taxapps.floridarevenue.com: ['3.3', '5.5', '50000']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The state general sales and use tax rate is 6%. Florida counties may also levy a local discretionary sales surtax in addition to the state tax.",
+    "source_url": "https://floridarevenue.com/taxes/taxesfees/Pages/sales_tax.aspx",
+    "evidence": [
+     "6%",
+     "discretionary sales surtax",
+     "sales and use tax"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://floridarevenue.com/Forms_library/current/brochure/gt800025.pdf",
+    "matched_title": "https://floridarevenue.com/Forms_library/current/brochure/gt800025.pdf",
+    "matched_phrases": [
+     "6%",
+     "discretionary sales surtax",
+     "sales and use tax"
+    ],
+    "snippet": "Buying Goods in or for Use in Florida Sales Tax Retail sales of most goods in Florida are subject to a 6% state sales tax, plus any applicable discretionary sales surtax (local option sales tax) at the rate imposed by the county in which the sale occurs."
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Florida levies a gross receipts tax on utility services at 2.5% on the sale, delivery, or transportation of natural gas, manufactured gas, or electricity to retail consumers.",
+    "source_url": "https://floridarevenue.com/taxes/taxesfees/Pages/grt.aspx",
+    "evidence": [
+     "Gross Receipts Tax",
+     "2.5%",
+     "utility services",
+     "electricity"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://floridarevenue.com/taxes/taxesfees/Pages/sales_tax.aspx",
+    "matched_title": "Florida Dept. of Revenue - \r\n                        \r\n            \r\n            Florida Sales and Use Tax",
+    "matched_phrases": [
+     "2.5%",
+     "electricity"
+    ],
+    "snippet": "The collection allowance is 2.5% (.025) of the first $1,200 of tax due, not to exceed $30 for each reporting location."
+   }
+  ],
+  "grounding_urls": [
+   "https://floridarevenue.com/faq/Pages/FAQDetails.aspx?FAQID=1466",
+   "https://floridarevenue.com/taxes/compliance/Pages/violations.aspx",
+   "https://floridarevenue.com/Forms_library/gt800025.pdf",
+   "https://floridarevenue.com/Forms_library/current/brochure/gt800025.pdf",
+   "https://floridarevenue.com/taxes/taxesfees/Pages/tax_interest_rates.aspx",
+   "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+   "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0200-0299/0220/Sections/0220.11.html",
+   "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0200-0299/0220/Sections/0220.14.html",
+   "https://taxapps.floridarevenue.com/Corporate/Login.aspx",
+   "https://floridarevenue.com/taxes/tips/Documents/TIP_25C01-01.pdf",
+   "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+   "https://floridarevenue.com/taxes/taxesfees/Pages/sales_tax.aspx",
+   "https://floridarevenue.com/taxes/tips/Documents/TIP_25A01-15.pdf",
+   "https://floridarevenue.com/taxes/taxesfees/Pages/grt_utility.aspx",
+   "https://floridarevenue.com/Forms_library/current/dr700019.pdf",
+   "https://floridarevenue.com/Forms_library/current/brochure/gt800011.pdf",
+   "https://floridarevenue.com/taxes/tips/Pages/default.aspx",
+   "https://floridarevenue.com/taxes/tips/Pages/2025.aspx",
+   "https://floridarevenue.com/taxes/taxesfees/Pages/cst.aspx",
+   "https://floridarevenue.com/Forms_library/current/brochure/gt800021.pdf",
+   "https://floridarevenue.com/taxes/taxesfees/Pages/grt_dry_cleaning.aspx"
+  ],
+  "error": ""
+ },
+ {
+  "state": "FL",
+  "section": "filing",
+  "notes": "### Individual Return Due Dates and Extension Rules\n* **Fact:** Florida does not impose a personal income tax (authorized by Article VII, Section 5 of the Florida Constitution). Consequently, there are no individual return filing requirements, no calendar-year filing due dates, and no extension procedures for individuals.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official URL:** [https://floridarevenue.com/faq/Pages/search.aspx](https://floridarevenue.com/faq/Pages/search.aspx) (FAQ: *Do I have to file a personal income tax return in Florida?*)\n\n---\n\n### Corporate and Pass-Through Return Due Dates and Extension Rules\n* **Corporate Income Tax (Form F-1120 / F-1120A):**\n  * **Due Date:** For calendar-year filers, the return is due the later of:\n    1. On or before the 1st day of the 5th month following the close of the taxable year (May 1); or\n    2. The 15th day following the due date, without extension, for filing the related federal return.\n    *(If the due date falls on a Saturday, Sunday, or federal/state holiday, filing is timely if postmarked on the next business day).*\n  * **Extensions:** Corporations may request a 6-month extension (extending a calendar-year return due date to November 1) by filing Florida Form F-7004 and paying 100% of tentative tax due on or before the original return due date. A federal extension alone does not extend a Florida return.\n  * *Fiscal Year Note (June 30 Year-End):* For tax years beginning before January 1, 2026, returns are due on or before the 1st day of the 4th month (October 1). For tax years beginning on or after January 1, 2026, the due date changes to the 1st day of the 5th month (November 1).\n* **Pass-Through Entities (Form F-1065):**\n  * **Filing Requirement:** An LLC or partnership doing business, earning income, or existing in Florida must file Form F-1065 only if one or more of its owners/partners is a corporation.\n  * **Due Date:** Due on or before the 1st day of the 4th month following the close of the taxable year (April 1 for calendar-year filers).\n  * **Extensions:** An extension of 6 months (to the 1st day of the 10th month / October 1 for calendar filers) is obtained by submitting Florida Form F-7004 on or before the original return due date. Only one extension is permitted.\n* **Applicable Tax Years:** 2025 and 2026 (the June 30 corporate fiscal year due date changes for tax years beginning on or after January 1, 2026; calendar-year rules remain unchanged).\n* **Official URLs:** \n  * [https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx](https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx)\n  * [https://floridarevenue.com/taxes/cit/duedates](https://floridarevenue.com/taxes/cit/duedates)\n\n---\n\n### Elective Pass-Through Entity Tax (PTET)\n* **Fact:** Not found. Florida does not impose an individual personal income tax and has not enacted an elective pass-through entity tax regime or PTE tax rate.\n* **Applicable Tax Years:** 2025 and 2026.\n* **Official URL:** Not found ([Chapter 220, Florida Statutes](https://www.flsenate.gov/Laws/Statutes/2026/Chapter220) / [https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx](https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx)).\n\n---\n\n### Composite or Group Nonresident Returns for Pass-Through Entities\n* **Fact:** Not found. Because Florida imposes no personal income tax on individuals, pass-through entities do not file composite or group income tax returns for nonresident individual owners. Any corporate partner must independently file its own Florida corporate income tax return (Form F-1120).\n* **Applicable Tax Years:** 2025 and 2026.\n* **Official URL:** Not found ([Chapter 220, Florida Statutes](https://www.flsenate.gov/Laws/Statutes/2026/Chapter220) / [https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx](https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx)).\n\n---\n\n### Estimated Tax Payment Requirements and Nonresident Withholding for Pass-Throughs\n* **Pass-Through Entity Estimated Taxes & Nonresident Withholding:**\n  * **Fact:** Not found / Not required. Pass-through entities have no entity-level estimated tax payment requirement, and there is no state income tax withholding required on nonresident partners/members.\n* **Corporate Estimated Tax Requirements:**\n  * **Threshold:** Every corporation or entity subject to tax under Chapter 220, Florida Statutes, must declare and pay estimated tax if its annual Florida tax liability is expected to exceed $2,500.\n  * **Installment Schedule (Calendar-Year Filers):** Paid in four equal installments of 25% (0.25) due on or before:\n    * Installment 1: Last day of the 5th month (May 31)\n    * Installment 2: Last day of the 6th month (June 30)\n    * Installment 3: Last day of the 9th month (September 30)\n    * Installment 4: Last day of the taxable year (December 31)\n    *(For tax years ending June 30, installments are due on or before the last day of the 4th, 6th, and 9th months, and the last day of the tax year).*\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official URLs:** \n  * [https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx](https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx)\n  * [https://www.flsenate.gov/Laws/Statutes/2026/Chapter220](https://www.flsenate.gov/Laws/Statutes/2026/Chapter220) (Sections 220.24 and 220.33, F.S.)\n\n---\n\n### Main Return Forms\n* **Individual Return Forms:** None (no individual income tax returns exist in Florida).\n* **Corporate Forms:**\n  * **Form F-1120:** Florida Corporate Income/Franchise Tax Return\n  * **Form F-1120A:** Florida Corporate Short Form Income Tax Return\n  * **Form F-1120ES:** Declaration/Installment of Florida Estimated Income/Franchise Tax\n  * **Form F-7004:** Florida Tentative Income/Franchise Tax Return and Application for Extension of Time to File Return\n* **Pass-Through Entity Forms:**\n  * **Form F-1065:** Florida Partnership Information Return (used by partnerships/LLCs with corporate partners)\n  * **Form F-7004:** Application for Extension of Time to File Form F-1065\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official URLs:**\n  * [https://floridarevenue.com/forms](https://floridarevenue.com/forms) (Corporate Income Tax section)\n  * [https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx](https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx)",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Florida does not impose a personal income tax, so there are no individual return filing requirements, calendar-year due dates, or extension procedures.",
+    "source_url": "https://floridarevenue.com/faq/Pages/search.aspx",
+    "evidence": [
+     "personal income tax return",
+     "file a personal income tax"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://floridarevenue.com/faq/Pages/FAQDetails.aspx?FAQID=1466",
+    "matched_title": "https://floridarevenue.com/faq/Pages/FAQDetails.aspx?FAQID=1466",
+    "matched_phrases": [
+     "personal income tax return",
+     "file a personal income tax"
+    ],
+    "snippet": "Do I have to file a personal income tax return in Florida? Florida does not impose a personal income tax, so there are no filing requirements."
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Calendar-year corporate returns are due May 1 or the 15th day following the federal due date, and partnerships with corporate owners file Form F-1065 by April 1. A 6-month extension is obtained by submitting Form F-7004 and paying 100% of tentative tax due.",
+    "source_url": "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+    "evidence": [
+     "Form F-1120",
+     "Form F-7004",
+     "close of the taxable year"
+    ],
+    "accepted": false,
+    "reason": "dates not on floridarevenue.com: ['April 1']; figures not on floridarevenue.com: ['1', '100', '1065', '15', '6', '7004']; figures not on floridarevenue.com: ['100', '1065', '15', '6']; figures not on floridarevenue.com: ['100', '15']; figures not on floridarevenue.com: ['100', '1065', '15', '7004']; figures not on www.flsenate.gov: ['1065', '7004']; figures not on floridarevenue.com: ['100', '1065']; evidence not on floridarevenue.com (1/3)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Corporations must declare and pay estimated tax in four equal 25% installments if expected Florida tax liability exceeds $2,500. Pass-through entities have no entity-level estimated tax or nonresident withholding requirements.",
+    "source_url": "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+    "evidence": [
+     "exceed $2,500",
+     "four equal installments",
+     "estimated tax"
+    ],
+    "accepted": false,
+    "reason": "evidence not on floridarevenue.com (1/3); figures not on floridarevenue.com: ['25', '2500']; figure not stated beside the evidence on floridarevenue.com; figure not stated beside the evidence on www.flsenate.gov; figures not on floridarevenue.com: ['2500']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Key corporate forms include Form F-1120, Form F-1120A, Form F-1120ES for estimated taxes, and Form F-7004 for extensions. Partnerships with corporate partners file Form F-1065.",
+    "source_url": "https://floridarevenue.com/forms",
+    "evidence": [
+     "Form F-1120",
+     "Form F-1120A",
+     "Form F-1065"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+    "matched_title": "Florida Dept. of Revenue - \r\n                        \r\n            \r\n            Corporate Income Tax",
+    "matched_phrases": [
+     "Form F-1120",
+     "Form F-1120A",
+     "Form F-1065"
+    ],
+    "snippet": "Corporation Income Tax Return (Federal Form 1120) must file Florida Corporate Income/Franchise Tax Return ( Form F-1120 ) or the Florida Corporate Short Form Income Tax Return ( Form F-1120A ) regardless of whether any tax may be due."
+   }
+  ],
+  "grounding_urls": [
+   "https://floridarevenue.com/faq/Pages/FAQDetails.aspx?FAQID=1466",
+   "https://floridarevenue.com/faq/Pages/FAQDetails.aspx?FAQID=1466",
+   "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+   "https://floridarevenue.com/taxes/tips/documents/TIP_17C01-02.pdf",
+   "https://floridarevenue.com/Forms_library/current/f1120n.pdf",
+   "https://floridarevenue.com/Forms_library/current/f1120n.pdf",
+   "https://floridarevenue.com/forms_library/current/f1065.pdf",
+   "https://floridarevenue.com/taxes/tips/documents/TIP_17C01-02.pdf",
+   "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+   "https://floridarevenue.com/Forms_library/current/f1120es.pdf",
+   "https://www.flsenate.gov/Laws/Statutes/2026/Chapter220/All",
+   "https://floridarevenue.com/forms_library/current/f1120.pdf",
+   "https://floridarevenue.com/Pages/forms_index.aspx",
+   "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx"
+  ],
+  "error": ""
+ }
+]

@@ -1,0 +1,181 @@
+[
+ {
+  "state": "WY",
+  "section": "apportionment",
+  "notes": "### Wyoming Corporate Income Tax Status (Tax Years 2025 and 2026)\n\nThe State of Wyoming does not levy a corporate income tax (rate is 0% / $0). Under Wyoming Statutes Title 39, Chapter 12 (W.S. § 39-12-101), the state preempts the field of income taxes and prohibits political subdivisions from levying any tax on income. Consequently, the Wyoming Department of Revenue does not administer a corporate income tax or business income apportionment.\n\n---\n\n### Topics\n\n#### 1. Formula Used to Apportion Multistate Business Income\n* **Fact:** Not found. Wyoming imposes no corporate income tax, so no corporate income apportionment formula exists in the statutes or Department of Revenue regulations.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official URL:** \n  * https://revenue.wyo.gov/\n  * https://wyoleg.gov/statutes/compress/title39.pdf\n\n#### 2. Market-Based Sourcing vs. Cost of Performance (Services and Intangibles)\n* **Fact:** Not found. Wyoming does not have a corporate income tax, and neither sourcing method is enacted for corporate income purposes.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official URL:** \n  * https://revenue.wyo.gov/\n  * https://wyoleg.gov/statutes/compress/title39.pdf\n\n#### 3. Industries with Their Own Apportionment Formula\n* **Fact:** Not found. Because Wyoming does not tax corporate income, there are no industry-specific income apportionment formulas.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official URL:** \n  * https://revenue.wyo.gov/\n  * https://wyoleg.gov/statutes/compress/title39.pdf\n\n#### 4. Form or Schedule Used to Compute Apportionment\n* **Fact:** Not found. The Wyoming Department of Revenue does not maintain or provide any corporate income tax return, apportionment schedule, or apportionment computation form.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official URL:** \n  * https://revenue.wyo.gov/\n  * https://revenue.wyo.gov/rules-and-regulations",
+  "proposals": [],
+  "grounding_urls": [
+   "https://wyoleg.gov/InterimCommittee/2025/03-202506032-01WyomingtaxstructureratesandcollectionsJune32025.pdf",
+   "https://wyoleg.gov/statutes/compress/title39.pdf",
+   "https://revenue.wyo.gov/rules-and-regulations",
+   "https://revenue.wyo.gov/"
+  ],
+  "error": ""
+ },
+ {
+  "state": "WY",
+  "section": "nexus",
+  "notes": "### 1. Corporate Income / Franchise Tax Nexus & Bright-Line Thresholds\n\n* **Fact:** **Not found.** The State of Wyoming does not impose a corporate income tax or a net income-based corporate franchise tax (see Wyo. Const. art. 15, § 18; W.S. Title 39). Consequently, there are no statutory provisions, administrative rules, or bright-line economic nexus thresholds creating corporate income or franchise tax nexus in Wyoming. *(Note: Under W.S. § 17-16-1630, an annual report license tax administered by the Secretary of State applies to entities organized or authorized to do business in the state based on capital, property, and assets employed in Wyoming, but this is neither an income-based tax nor administered by the Department of Revenue).*\n* **Applicable Tax Years:** 2025 and 2026 (no change between years).\n* **Official URLs:** \n  * Wyoming Legislature Title 39 Statutes: https://wyoleg.gov/statutes/compress/title39.pdf\n  * Wyoming Department of Revenue: https://revenue.wyo.gov/\n\n---\n\n### 2. Remote Seller Economic Nexus Threshold & Measurement Period\n\n* **Fact:** Under W.S. § 39-15-501(a), any seller of tangible personal property, admissions, or services subject to sales tax who does not have a physical presence in Wyoming must remit sales tax if the seller meets the economic nexus criteria:\n  * **Sales Dollar Threshold:** Gross revenue from the sale of tangible personal property, admissions, or services delivered into Wyoming exceeds **$100,000.00** (W.S. § 39-15-501(a)(i)).\n  * **Transaction Count Threshold:** **None** for tax years 2025 and 2026. The 200 or more separate transactions threshold previously codified at W.S. § 39-15-501(a)(ii) was repealed effective July 1, 2024, by 2024 House Bill 0197 (Laws 2024, ch. 67, § 2).\n  * **Measurement Period:** The **current calendar year or the immediately preceding calendar year** (W.S. § 39-15-501(a)).\n* **Applicable Tax Years:** 2025 and 2026 (the repeal of the 200-transaction threshold occurred July 1, 2024, and remains in effect for 2025 and 2026 without change between them).\n* **Official URLs:** \n  * Wyoming Legislature Title 39 Statutes: https://wyoleg.gov/statutes/compress/title39.pdf\n  * Wyoming Legislature 2024 HB 0197 / Enrolled Act No. 38 (Laws 2024, ch. 67): https://wyoleg.gov/Legislation/2024/HB0197\n\n---\n\n### 3. State Position on Public Law 86-272 Protection\n\n* **Fact:** **Not found.** Public Law 86-272 protects businesses from state net income taxation when activities in the state are limited to solicitation of sales of tangible personal property. Because Wyoming levies no corporate net income tax, P.L. 86-272 is inapplicable, and no position statement or guidance exists on the Department of Revenue website or in the Wyoming Statutes.\n* **Applicable Tax Years:** 2025 and 2026.\n* **Official URLs:** \n  * Wyoming Department of Revenue: https://revenue.wyo.gov/\n  * Wyoming Legislature Statutes: https://wyoleg.gov/statutes/compress/title39.pdf",
+  "proposals": [
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "A remote seller must remit sales tax if gross revenue from sales of tangible personal property, admissions, or services delivered into Wyoming exceeds $100,000.00 in the current or immediately preceding calendar year. The previous 200-transaction threshold was repealed effective July 1, 2024, leaving no transaction count requirement.",
+    "source_url": "https://wyoleg.gov/statutes/compress/title39.pdf",
+    "evidence": [
+     "delivered into Wyoming exceeds",
+     "immediately preceding calendar year",
+     "remit sales tax",
+     "$100,000.00"
+    ],
+    "accepted": false,
+    "reason": "figures not on wyoleg.gov: ['100000', '200', '2024']; figures not on wyoleg.gov: ['100000', '200']; figures not on revenue.wyo.gov: ['1', '100000', '200', '2024']; figures not on www.wyoleg.gov: ['100000', '200', '2024']; figures not on www.wyoleg.gov: ['1', '100000', '200', '2024']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://wyoleg.gov/InterimCommittee/2025/03-202506032-01WyomingtaxstructureratesandcollectionsJune32025.pdf",
+   "https://revenue.wyo.gov/",
+   "https://www.wyoleg.gov/2019/Introduced/HB0207.pdf",
+   "https://wyoleg.gov/statutes/compress/title39.pdf",
+   "https://www.wyoleg.gov/Legislation/2024/HB0197"
+  ],
+  "error": ""
+ },
+ {
+  "state": "WY",
+  "section": "rates",
+  "notes": "### 1. Individual Income Tax Rate(s)\n* **Fact:** Wyoming imposes no individual income tax (0% rate). Under Article 15, Section 18 of the Wyoming Constitution, no tax may be levied upon income without allowing a full credit for all sales and use taxes paid to the state or its political subdivisions.\n* **Tax Years:** Applies to both tax year 2025 and tax year 2026 (no change).\n* **Official URLs:** \n  * Wyoming Legislative Service Office (Statutory Tax Structure Title 39): https://wyoleg.gov/InterimCommittee/2025/03-20250603TaxStructureOverview.pdf\n  * Wyoming Statutes (Title 39): https://wyoleg.gov/statutes/compress/title39.pdf\n\n---\n\n### 2. Corporate Income Tax and Corporate License / Franchise Tax\n* **Corporate Income Tax Rate:** Wyoming does not impose a corporate income tax (0% rate; $0 collections). \n* **Corporate License Tax (Franchise Tax):** While the Wyoming Department of Revenue does not collect a corporate franchise or income tax, the state levies an annual report license tax on corporations and limited liability companies administered through the Secretary of State under Wyo. Stat. § 17-16-1630(a) and § 17-29-209(a). The tax is calculated on the sum of capital, property, and assets located and employed in Wyoming at:\n  * Minimum tax: $60.00\n  * Variable rate: Two-tenths of one mill on the dollar ($0.0002) of assets located and employed in the state, whichever is greater.\n* **Tax Years:** Applies to both tax year 2025 and tax year 2026 (no change).\n* **Official URLs:**\n  * Wyoming Legislative Service Office (Statutory Tax Structure Title 39): https://wyoleg.gov/InterimCommittee/2025/03-20250603TaxStructureOverview.pdf\n  * Wyoming Statutes (Title 17 - Corporations, Partnerships, and Associations): https://wyoleg.gov/statutes/compress/title17.pdf\n\n---\n\n### 3. State Sales and Use Tax Rate & Local Rates\n* **State Rate:** The statewide sales and use tax rate is 4.0% (comprising an excise tax of 3% pursuant to Wyo. Stat. § 39-15-104(a) / § 39-16-104(a) plus an additional 1% pursuant to Wyo. Stat. § 39-15-104(b) / § 39-16-104(b)).\n* **Local Option Rates:** Local jurisdictions (counties) may impose additional local option sales and use taxes of 0% to 3% (such as general-purpose, specific-purpose, or economic development excise taxes under Wyo. Stat. § 39-15-204 and § 39-16-204).\n* **Tax Years:** Applies to both tax year 2025 and tax year 2026 (no change).\n* **Official URLs:**\n  * Wyoming Legislative Service Office (Statutory Tax Structure Title 39): https://wyoleg.gov/InterimCommittee/2025/03-20250603TaxStructureOverview.pdf\n  * Wyoming Statutes (Title 39 - Taxation and Revenue): https://wyoleg.gov/statutes/compress/title39.pdf\n  * Wyoming Department of Revenue (Excise Tax Division): https://revenue.wyo.gov/divisions/excise-tax\n\n---\n\n### 4. Gross Receipts, Margin, or Other Notable Business Taxes\n* **Gross Receipts / Margin Tax:** Wyoming does not impose a general gross receipts tax or corporate margin tax.\n* **Notable Specific Business Taxes:**\n  * **Mineral Severance Tax (Wyo. Stat. Title 39, Chapter 14):** Levied on mineral extraction and administered by the Department of Revenue Mineral Tax Division. Rates include:\n    * Crude oil: 6%\n    * Natural gas: 6%\n    * Surface coal: 6.5% for the first half of 2025; reduced to 6.0% effective July 1, 2025 (and continuing in 2026) pursuant to 2025 Session Law, Chapter 31\n    * Underground coal: 3.75%\n    * Trona: 4%\n    * Uranium: 0% to 5% (2021–2025)\n    * Other valuable deposits: 2%\n  * **Wind Generation Tax (Wyo. Stat. § 39-22-104):** $1.00 per megawatt-hour produced, beginning 3 years after a wind turbine first produces electricity.\n* **Tax Years:** 2025 and 2026 (surface coal severance rate changed from 6.5% to 6.0% effective July 1, 2025).\n* **Official URLs:**\n  * Wyoming Legislative Service Office (Statutory Tax Structure Title 39): https://wyoleg.gov/InterimCommittee/2025/03-20250603TaxStructureOverview.pdf\n  * Wyoming Statutes (Title 39): https://wyoleg.gov/statutes/compress/title39.pdf\n  * Wyoming Department of Revenue: https://revenue.wyo.gov/",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Wyoming does not impose an individual income tax (0% rate). Under the state constitution, no tax may be levied upon income without allowing a full credit for all sales and use taxes paid to the state or its political subdivisions.",
+    "source_url": "https://wyoleg.gov/InterimCommittee/2025/03-20250603TaxStructureOverview.pdf",
+    "evidence": [
+     "no individual income tax",
+     "Article 15, Section 18",
+     "full credit for all sales"
+    ],
+    "accepted": false,
+    "reason": "figures not on wyoleg.gov: ['0']; evidence not on wyoleg.gov (0/3); figures not on revenue.wyo.gov: ['0']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Wyoming does not impose a corporate income tax (0% rate). The state levies an annual report license tax with a minimum tax of $60.00, or two-tenths of one mill on the dollar ($0.0002) of assets located and employed in Wyoming, whichever is greater.",
+    "source_url": "https://wyoleg.gov/statutes/compress/title17.pdf",
+    "evidence": [
+     "two-tenths of one mill",
+     "located and employed in Wyoming",
+     "whichever is greater"
+    ],
+    "accepted": false,
+    "reason": "figures not on wyoleg.gov: ['0', '0.0002']; figures not on wyoleg.gov: ['0.0002']; figures not on revenue.wyo.gov: ['0', '0.0002', '60']; figures not on wyoleg.gov: ['0', '0.0002', '60']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The statewide sales and use tax rate is 4.0%. Local jurisdictions may impose additional local option sales and use taxes of 0% to 3%.",
+    "source_url": "https://wyoleg.gov/InterimCommittee/2025/03-20250603TaxStructureOverview.pdf",
+    "evidence": [
+     "sales and use tax",
+     "local option sales",
+     "excise taxes"
+    ],
+    "accepted": false,
+    "reason": "figures not on wyoleg.gov: ['0', '3', '4']; figure not stated beside the evidence on wyoleg.gov; figures not on wyoleg.gov: ['0']; figures not on revenue.wyo.gov: ['0', '3', '4']; evidence not on wyoleg.gov (0/3)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025
+    ],
+    "value": "Wyoming does not impose a general gross receipts tax, but levies mineral severance taxes such as 6% on crude oil, with surface coal at 6.5% before July 1, 2025 and 6.0% thereafter. It also levies a wind generation tax of $1.00 per megawatt-hour produced.",
+    "source_url": "https://wyoleg.gov/InterimCommittee/2025/03-20250603TaxStructureOverview.pdf",
+    "evidence": [
+     "mineral severance tax",
+     "megawatt-hour produced",
+     "gross receipts tax"
+    ],
+    "accepted": false,
+    "reason": "figures not on wyoleg.gov: ['1', '2025', '6', '6.5']; evidence not on wyoleg.gov (1/3); figures not on wyoleg.gov: ['2025', '6.5']; figures not on revenue.wyo.gov: ['1', '6', '6.5']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2026
+    ],
+    "value": "Wyoming does not impose a general gross receipts tax, but levies mineral severance taxes including 6% on crude oil and 6.0% on surface coal. It also levies a wind generation tax of $1.00 per megawatt-hour produced.",
+    "source_url": "https://wyoleg.gov/InterimCommittee/2025/03-20250603TaxStructureOverview.pdf",
+    "evidence": [
+     "mineral severance tax",
+     "megawatt-hour produced",
+     "gross receipts tax"
+    ],
+    "accepted": false,
+    "reason": "figures not on wyoleg.gov: ['1', '6']; evidence not on wyoleg.gov (1/3); evidence not on wyoleg.gov (0/3); figures not on revenue.wyo.gov: ['1', '6']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://wyoleg.gov/InterimCommittee/2025/03-202506032-01WyomingtaxstructureratesandcollectionsJune32025.pdf",
+   "https://wyoleg.gov/statutes/compress/title39.pdf",
+   "https://revenue.wyo.gov/our-mission",
+   "https://wyoleg.gov/statutes/compress/title17.pdf",
+   "https://wyoleg.gov/2018/Amends/HB0140H2006.pdf",
+   "https://wyoleg.gov/statutes/compress/title39.pdf",
+   "https://wyoleg.gov/InterimCommittee/2023/03-202306265-01SalesTax101June2023.pdf",
+   "https://revenue.wyo.gov/"
+  ],
+  "error": ""
+ },
+ {
+  "state": "WY",
+  "section": "filing",
+  "notes": "### State Overview: Wyoming Income Taxation (Tax Years 2025 and 2026)\n\nThe State of Wyoming does not levy an individual income tax, a corporate income tax, or a pass-through entity income tax. \n\n* **Constitutional Provision:** Article 15, Section 18 of the Wyoming Constitution provides: *\"No tax shall be imposed upon income without allowing full credit against such tax liability for all sales, use, and ad valorem taxes paid in the taxable year by the same taxpayer to any taxing authority in Wyoming.\"* \n  * **Official Source:** [Wyoming Constitution (Title 97)](https://wyoleg.gov/statutes/compress/title97.pdf)\n* **Statutory Framework:** Wyoming Statutes Title 39, Chapter 12 contains only W.S. § 39-12-101 (*Preemption by state*), which preempts local jurisdictions from levying income taxes, while the state itself levies no income tax. \n  * **Official Source:** [Wyoming Statutes Title 39 (Taxation and Revenue)](https://wyoleg.gov/statutes/compress/title39.pdf)\n* **State Tax Structure:** The Wyoming Legislative Service Office (LSO) tax structure report confirms that for Individual Income Tax and Corporate Income Tax, the base rate is **0%** and collections are **$0**. The Wyoming Department of Revenue consists solely of Excise Tax, Mineral Tax, Property Tax, and Liquor divisions; it has no income tax division.\n  * **Official Source:** [Wyoming State Legislature – Wyoming Statutory Tax Structure: Title 39](https://wyoleg.gov/InterimCommittee/2025/03-202506032-01WyomingtaxstructureratesandcollectionsJune32025.pdf)\n  * **Official Source:** [Wyoming Department of Revenue](https://revenue.wyo.gov/)\n\n---\n\n### Topic-by-Topic Details\n\n#### 1. Individual Return Due Dates and Extensions (Calendar-Year Filers)\n* **Fact:** Not found / Not applicable. Wyoming does not impose a personal income tax. Consequently, there are no individual income tax filing deadlines or extension procedures under Wyoming state law.\n* **Tax Years:** Applies to both tax year 2025 and tax year 2026 (unchanged).\n* **Official URL:** [https://wyoleg.gov/InterimCommittee/2025/03-202506032-01WyomingtaxstructureratesandcollectionsJune32025.pdf](https://wyoleg.gov/InterimCommittee/2025/03-202506032-01WyomingtaxstructureratesandcollectionsJune32025.pdf)\n\n#### 2. Corporate and Pass-Through Return Due Dates and Extension Rules\n* **Fact:** Not found / Not applicable. Wyoming imposes no corporate income tax (0% base rate) and no entity-level income tax on pass-through entities. There are no state income tax return due dates or extension rules for corporations, partnerships, or S-corporations. *(Note: Annual reports and license tax fees for business entities registered in Wyoming are filed separately with the Wyoming Secretary of State, not as income tax returns with the Department of Revenue).*\n* **Tax Years:** Applies to both tax year 2025 and tax year 2026 (unchanged).\n* **Official URL:** [https://wyoleg.gov/InterimCommittee/2025/03-202506032-01WyomingtaxstructureratesandcollectionsJune32025.pdf](https://wyoleg.gov/InterimCommittee/2025/03-202506032-01WyomingtaxstructureratesandcollectionsJune32025.pdf)\n\n#### 3. Elective Pass-Through Entity Tax (PTET), Rate, and Election Mechanics\n* **Fact:** Not found / Does not exist. Wyoming does not have an income tax, and therefore has not enacted an elective pass-through entity tax (PTET).\n* **Tax Years:** Applies to both tax year 2025 and tax year 2026 (unchanged).\n* **Official URL:** [https://wyoleg.gov/statutes/compress/title39.pdf](https://wyoleg.gov/statutes/compress/title39.pdf)\n\n#### 4. Composite or Group Nonresident Returns for Pass-Through Entities\n* **Fact:** Not found / Not applicable. Because Wyoming does not tax individual or entity income, there are no provisions or requirements for composite or group nonresident income tax returns.\n* **Tax Years:** Applies to both tax year 2025 and tax year 2026 (unchanged).\n* **Official URL:** [https://wyoleg.gov/statutes/compress/title39.pdf](https://wyoleg.gov/statutes/compress/title39.pdf)\n\n#### 5. Estimated Tax Payment Requirements and Nonresident Withholding for Pass-Throughs\n* **Fact:** Not found / Not applicable. Wyoming does not require estimated income tax payments and does not impose withholding on nonresident owners or partners of pass-through entities.\n* **Tax Years:** Applies to both tax year 2025 and tax year 2026 (unchanged).\n* **Official URL:** [https://wyoleg.gov/statutes/compress/title39.pdf](https://wyoleg.gov/statutes/compress/title39.pdf)\n\n#### 6. Main Individual, Corporate, and Pass-Through Return Forms\n* **Fact:** Not found / Does not exist. The Wyoming Department of Revenue does not publish or maintain individual, corporate, or pass-through entity income tax returns.\n* **Tax Years:** Applies to both tax year 2025 and tax year 2026 (unchanged).\n* **Official URL:** [https://revenue.wyo.gov/](https://revenue.wyo.gov/)",
+  "proposals": [],
+  "grounding_urls": [
+   "https://wyoleg.gov/InterimCommittee/2025/03-202506032-01WyomingtaxstructureratesandcollectionsJune32025.pdf",
+   "https://wyoleg.gov/statutes/compress/title97.pdf",
+   "https://wyoleg.gov/statutes/compress/title39.pdf",
+   "https://settledestate.com/wyoming/step-up-in-basis/",
+   "https://revenue.wyo.gov/"
+  ],
+  "error": ""
+ }
+]

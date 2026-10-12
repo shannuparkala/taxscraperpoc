@@ -1,0 +1,126 @@
+[
+ {
+  "state": "OK",
+  "section": "apportionment",
+  "notes": "### Apportionment Formula\n* **Standard Formula:** Oklahoma uses an equally weighted three-factor formula consisting of the arithmetical average of property, payroll, and sales/gross revenue (33.33% each). If fewer than three factors are present (i.e., lacking a denominator), the formula is the arithmetical average of the remaining factors (a two-factor or single-factor formula).\n* **Alternative Formula (Substantial Capital Investment):** For qualified corporations that make an initial investment or facility expansion in Oklahoma of $200 million or more, an alternative double-weighted sales apportionment formula is permitted (property 25%, payroll 25%, and sales 50%).\n* **Applicable Tax Years:** Applies to both tax years 2025 and 2026 (no statutory changes between years).\n* **Official Sources:**\n  * Oklahoma Statutes, Title 68, Section 2358(A)(5): https://oksenate.gov/sites/default/files/2019-12/os68.pdf\n  * Oklahoma Administrative Code (OAC) § 710:50-17-71: https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/rules/oac710-50.pdf\n  * 2025 Form 512 Instructions (Part 2 Instructions): https://oklahoma.gov/content/dam/ok/en/tax/documents/forms/businesses/corporate-income-tax/current/512-pkt.pdf\n\n---\n\n### Sourcing of Receipts from Services and Intangibles\n* **Services (Market-Based Sourcing):** Gross receipts from the performance of services are sourced to Oklahoma (included in the sales factor numerator) if the receipts are derived from customers within Oklahoma or are otherwise attributable to the Oklahoma marketplace:\n  * For a customer engaged in a trade or business, it applies if the customer maintains a regular place of business in Oklahoma.\n  * For a customer not engaged in a trade or business, it applies if the customer's billing address is in Oklahoma.\n* **Intangibles:** \n  * Under 68 O.S. § 2358(A)(4)(b), income from intangible personal property (such as interest, dividends, patent or copyright royalties, and gains/losses from sales thereof) is directly allocated to the taxpayer's commercial/domiciliary situs unless it has acquired a business situs in Oklahoma.\n  * For unitary businesses, patent and copyright royalties are included in apportionable business income. However, under OAC § 710:50-17-71(1)(A)(i), Oklahoma excludes receipts from items other than sales (e.g., royalties, interest, dividends, capital gains) from both the numerator and denominator of the sales factor, unless gross receipts serve as the basis for a financial organization or an entity whose sales do not represent its principal activity.\n* **Applicable Tax Years:** Applies to both tax years 2025 and 2026.\n* **Official Sources:**\n  * OAC § 710:50-17-71(1)(A): https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/rules/oac710-50.pdf\n  * Oklahoma Statutes, Title 68, Section 2358(A)(4)(b) & (A)(5): https://oksenate.gov/sites/default/files/2019-12/os68.pdf\n\n---\n\n### Industries with Specialized Apportionment Formulas\nSpecific industries must apply tailored statutory and regulatory formulas or sourcing mechanisms:\n1. **Railroads / Railways:** The sales factor numerator cannot be less than the allocation of revenues to Oklahoma reported in the company's Annual Report to the Oklahoma Corporation Commission.\n2. **Airlines, Trucking, Bus, and Railroad Car Enterprises:** Revenue from interstate transportation is included in the sales factor numerator based on the ratio of Oklahoma interstate mileage traveled to total interstate mileage traveled.\n3. **Oil, Gasoline, or Gas Pipelines:** The sales factor is determined by traffic units (the transportation of one barrel of oil, one gallon of gasoline, or 1,000 cubic feet of natural or casinghead gas for a distance of one mile) in Oklahoma compared to total traffic units everywhere, or by revenue allocated on miles moved at the taxpayer's election.\n4. **Financial Organizations:** Where sales do not represent the entity's principal business activity, gross receipts are utilized as the basis of the receipts factor.\n5. **Oil and Gas Production, Mining, Farming, and Real Estate Rentals:** Income and expenses from these operations are separately allocated via direct/separate accounting under 68 O.S. § 2358(A)(4) rather than apportioned under the three-factor formula.\n* **Applicable Tax Years:** Applies to both tax years 2025 and 2026.\n* **Official Sources:**\n  * Oklahoma Statutes, Title 68, Section 2358(A)(5)(c): https://oksenate.gov/sites/default/files/2019-12/os68.pdf\n  * OAC § 710:50-17-71(1)(C)–(E): https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/rules/oac710-50.pdf\n  * 2025 Form 512 Instructions: https://oklahoma.gov/content/dam/ok/en/tax/documents/forms/businesses/corporate-income-tax/current/512-pkt.pdf\n\n---\n\n### Forms and Schedules Used to Compute Apportionment\n* **C-Corporations:** Apportionment is calculated on **Form 512, Part 2 (Apportionment Formula)**.\n* **Consolidated Returns:** Consolidated corporate groups calculate each affiliate's apportionment factors on **Form 512-TI** (Computation of Oklahoma Consolidated Taxable Income) and, if needed, **Form 512-TI-SUP** (Supplemental Schedule for Form 512-TI).\n* **S-Corporations:** Calculated on **Form 512-S, Part 4 (Apportionment Formula)**.\n* **Partnerships:** Calculated on **Form 514, Part 4 (Apportionment Formula)**.\n* **Applicable Tax Years:** Applies to both tax years 2025 and 2026.\n* **Official Sources:**\n  * 2025 Form 512 Packet & Instructions: https://oklahoma.gov/content/dam/ok/en/tax/documents/forms/businesses/corporate-income-tax/current/512-pkt.pdf\n  * 2025 Form 512-S Packet & Instructions: https://oklahoma.gov/content/dam/ok/en/tax/documents/forms/businesses/corporate-income-tax/current/512-s-pkt.pdf\n  * Oklahoma Tax Commission Forms Portal: https://oklahoma.gov/tax/forms.html",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Oklahoma uses an equally weighted three-factor apportionment formula consisting of property, payroll, and sales. Qualified corporations making an initial investment or expansion in Oklahoma of $200 million or more may utilize an alternative double-weighted sales formula.",
+    "source_url": "https://oksenate.gov/sites/default/files/2019-12/os68.pdf",
+    "evidence": [
+     "arithmetical average",
+     "property, payroll and sales",
+     "two hundred million dollars",
+     "investment or facility expansion"
+    ],
+    "accepted": false,
+    "reason": "not an official OK host: oksenate.gov; evidence not on oklahoma.gov (0/4); figures not on oklahoma.gov: ['200']; figure not stated beside the evidence on oklahoma.gov; not an official OK host: www.ftb.ca.gov; not an official OK host: www.thomsonreuters.com; figures not on digitalprairie.ok.gov: ['200']; not an official OK host: ftp.zillionforms.com",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Service receipts are sourced to Oklahoma under a market-based sourcing rule if derived from customers within the state or attributable to the Oklahoma marketplace. Intangible property income is generally allocated to commercial situs, and items like royalties and interest are excluded from sales factor calculations unless gross receipts serve as the basis for a financial organization.",
+    "source_url": "https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/rules/oac710-50.pdf",
+    "evidence": [
+     "performance of services",
+     "regular place of business",
+     "billing address",
+     "Oklahoma marketplace"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/rules-and-policies/agency-rules/2024/Chapter_50_Income_2024.pdf",
+    "matched_title": "Chapter 50. Income 2024",
+    "matched_phrases": [
+     "performance of services",
+     "regular place of business",
+     "billing address"
+    ],
+    "snippet": "(6) Usual or frequent activity in Oklahoma by employee or representative engaged in a purchasing acti vity or in the performance of services (including construction, installation, assembly, or repair of equipment)."
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Special rules apply to interstate transportation companies such as airlines, trucking, and rail car enterprises based on mileage traveled, and to pipelines using traffic units or miles moved. In addition, income from oil and gas production, mining, farming, and real estate rentals is directly allocated rather than apportioned.",
+    "source_url": "https://oksenate.gov/sites/default/files/2019-12/os68.pdf",
+    "evidence": [
+     "interstate transportation",
+     "traffic units",
+     "interstate mileage",
+     "separately allocated"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://oklahoma.gov/content/dam/ok/en/tax/documents/forms/businesses/corporate-income-tax/current/512-Pkt.pdf",
+    "matched_title": "2025 Form 512 Oklahoma Corporation Income Tax Return Packet & Instructions",
+    "matched_phrases": [
+     "traffic units",
+     "separately allocated"
+    ],
+    "snippet": "For income apportioned to Oklahoma, there is to be added all income separately allocated to Oklahoma with the result being Oklahoma taxable income."
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Apportionment is computed on Form 512, Part 2 for C-corporations, or Form 512-TI for consolidated groups. S-corporations compute apportionment on Form 512-S, Part 4, and partnerships report it on Form 514, Part 4.",
+    "source_url": "https://oklahoma.gov/content/dam/ok/en/tax/documents/forms/businesses/corporate-income-tax/current/512-pkt.pdf",
+    "evidence": [
+     "Form 512",
+     "Apportionment Formula",
+     "Form 512-TI",
+     "Part 2"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/rules-and-policies/agency-rules/2024/Chapter_50_Income_2024.pdf",
+    "matched_title": "Chapter 50. Income 2024",
+    "matched_phrases": [
+     "Form 512",
+     "Apportionment Formula",
+     "Part 2"
+    ],
+    "snippet": "(4) Behind the supporting schedules will be a separate Schedule A or B, as applicable for each company in the group, for the Oklahoma Form 512."
+   }
+  ],
+  "grounding_urls": [
+   "https://oklahoma.gov/tax/helpcenter/businesses.html",
+   "https://oklahoma.gov/content/dam/ok/en/tax/documents/forms/businesses/corporate-income-tax/current/512-Pkt.pdf",
+   "https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/rules-and-policies/agency-rules/2024/Chapter_50_Income_2024.pdf",
+   "https://oksenate.gov/sites/default/files/2019-12/sb881_enr.pdf",
+   "https://oklahoma.gov/content/dam/ok/en/tax/documents/forms/businesses/corporate-income-tax/current/512-Pkt.pdf",
+   "https://www.ftb.ca.gov/tax-pros/law/regulatory-activity/05182018-definition-sales.pdf",
+   "https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/rules-and-policies/commission-decisions/corporate-income/2018-09-20-04.pdf",
+   "https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/rules-and-policies/commission-decisions/corporate-income/2018-09-20-04.pdf",
+   "https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/rules-and-policies/agency-rules/2024/Chapter_50_Income_2024.pdf",
+   "https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/rules-and-policies/agency-rules/2024/Chapter_50_Income_2024.pdf",
+   "https://oklahoma.gov/tax/reporting-resources/rules-policies/agency-rules.html",
+   "https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/rules-and-policies/agency-rules/2024/Chapter_50_Income_2024.pdf",
+   "https://www.thomsonreuters.com/en-us/help/gosystem-tax-rs/1120/states/oklahoma/form-512s-pages-4-5-column-b-print-requirements.html",
+   "https://digitalprairie.ok.gov/digital/api/collection/forms/id/3201/download",
+   "https://ftp.zillionforms.com/2025/F2535000822.PDF?cfu=TAA&cpid=WKUS-TAA-AC",
+   "https://oklahoma.gov/content/dam/ok/en/tax/documents/forms/businesses/corporate-income-tax/current/512-S-Pkt.pdf",
+   "https://oklahoma.gov/content/dam/ok/en/tax/documents/forms/businesses/corporate-income-tax/current/512-S-Pkt.pdf",
+   "https://oklahoma.gov/content/dam/ok/en/tax/documents/forms/businesses/corporate-income-tax/current/514-Pkt.pdf",
+   "https://oklahoma.gov/tax/forms.html"
+  ],
+  "error": ""
+ }
+]

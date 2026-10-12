@@ -1,0 +1,190 @@
+{
+  "code": "NM",
+  "name": "New Mexico",
+  "sections": {
+    "apportionment": {
+      "fields": [
+        {
+          "key": "method",
+          "label": "Apportionment method",
+          "value": "New Mexico utilizes an equally weighted three-factor formula consisting of property, payroll, and sales divided by three. Qualifying manufacturers, computer processing facilities, and headquarters operations may elect to apportion business income solely using the sales factor.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.tax.newmexico.gov/all-nm-taxes/wp-content/uploads/sites/9/2021/03/Uniform-Division-of-Income-For-Tax-Purposes-Act.pdf",
+          "source_citation": "03 NMAC 05 UDI [PUB]",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Exce pt as provided in Subsections B and C of this section, all business income shall be apportioned to this state by multiplying the income by a fraction, the numerator of which is the property factor plus the payroll factor plus the sales factor and the denominator of which is three."
+        },
+        {
+          "key": "sourcing",
+          "label": "Sales sourcing (services and intangibles)",
+          "value": "New Mexico uses market-based sourcing for receipts from services and intangibles. Services are sourced to the state if and to the extent delivered to a location in New Mexico, while intangibles are sourced to the state if and to the extent used in New Mexico.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.tax.newmexico.gov/all-nm-taxes/wp-content/uploads/sites/9/2021/03/Uniform-Division-of-Income-For-Tax-Purposes-Act.pdf",
+          "source_citation": "03 NMAC 05 UDI [PUB]",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "and (4) in the case of sale, rental, lease or license of intangible property, if and to the extent the intangible property is used in this state."
+        },
+        {
+          "key": "special_industries",
+          "label": "Special industry rules",
+          "value": "Special apportionment regulations apply to construction contractors, railroads, airlines, trucking companies, financial institutions, television and radio broadcasting, and publishing.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.tax.newmexico.gov/all-nm-taxes/wp-content/uploads/sites/9/2021/03/Uniform-Division-of-Income-For-Tax-Purposes-Act.pdf",
+          "source_citation": "03 NMAC 05 UDI [PUB]",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "EQUITABLE ADJUSTMENT OF STANDARD ALLOCATION OR APPORTIONMENT 3.5.19.8 – Special rules – in general 3.5.19.9 – Adjustment of formula 3.5.19.10 – Special rules – property factor 3.5.19.11 – Special rules – sales factor 3.5.19.12 – Special rules – construction contractors 3.5.19.13 – Special rules – railroads 3.5.19.14 – Special rules – airlines 3.5.19.15 – Special rules – trucking companies 3.5.19.17 – Special rules – financial institution 3.5.19.18 – Special rules – television and radio broadcast"
+        },
+        {
+          "key": "forms",
+          "label": "Forms",
+          "value": "Multistate corporations compute and report apportionment using Schedule CIT-A and Schedule CIT-C filed with Form CIT-1. Pass-through entities report apportionment on Form PTE with Schedule PTE-A or PTE-B.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.tax.newmexico.gov/businesses/corporate-income-franchise-tax-overview/",
+          "source_citation": "Overview",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Such corporations must file a New Mexico form CIT-1, Corporate Income and Franchise Tax Return."
+        }
+      ]
+    },
+    "nexus": {
+      "fields": [
+        {
+          "key": "income_nexus",
+          "label": "Income/franchise tax nexus",
+          "value": "Corporate income tax nexus is established by deriving income from the transaction of business in, into, or from New Mexico, or from property or employment in the state, with no statutory bright-line dollar threshold. The corporate franchise tax is imposed at a flat rate of $50 annually on every domestic and foreign corporation doing business or exercising its corporate franchise in the state.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.tax.newmexico.gov/businesses/corporate-income-franchise-tax-overview/",
+          "source_citation": "Overview",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Is employed or engaged in the transaction of business in, into, or from this state, or Has income from property or employment within this state."
+        },
+        {
+          "key": "sales_economic_nexus",
+          "label": "Sales/use tax: economic nexus",
+          "value": "Remote seller economic nexus is established with at least $100,000 in total taxable gross receipts sourced to New Mexico during the previous calendar year. There is no transaction count threshold.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.tax.newmexico.gov/businesses/determining-nexus/",
+          "source_citation": "Determining Nexus : Businesses",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "For someone who lacks physical presence, engaging in business means having in the previous calendar year total taxable gross receipts of at least one hundred thousand dollars ($100,000) from sales, leases, and licenses of tangle personal property, sales of licenses and sales of services and licenses for use of real property sourced to this state pursuant to Section 7-1-14 NMSA 1978."
+        },
+        {
+          "key": "pl_86_272",
+          "label": "P.L. 86-272",
+          "value": "New Mexico follows Multistate Tax Commission guidance on protected activities under P.L. 86-272 for corporate income tax solicitation of sales of tangible personal property. However, P.L. 86-272 does not protect domestic corporations or exempt businesses from the $50 corporate franchise tax.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://realfile.tax.newmexico.gov/corporate-income-tax-audit-manual.pdf",
+          "source_citation": "DISCLAIMER",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Public Law 86-272 A federal law (15 USCA, Section 381 et seq.) which provides that a state cannot impose a net income tax upon a taxpayer whose only business activities within the state consist of the solicitation of sales of tangible personal property."
+        }
+      ]
+    },
+    "rates": {
+      "fields": [
+        {
+          "key": "corporate",
+          "label": "Corporate income/franchise tax",
+          "value": "New Mexico imposes a flat corporate income tax rate of 5.9% on taxable income, along with an annual corporate franchise tax of $50.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://realfile.tax.newmexico.gov/FYI-350.pdf",
+          "source_citation": "FYI-350 Corporate Income Tax and Corporate Franchise Tax",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "For taxable years beginning on or after January 1, 2020 If your total taxable income is… then your tax will be… Not over $500,000 4.8% of taxable income Over $500,000 $24,000 plus 5.9% of excess over $500,000 For taxable years beginning on or after January 1, 2025 5.9% of taxable income New Mexico Corporate Franchise Tax is $50 per year or partial year."
+        },
+        {
+          "key": "sales",
+          "label": "Sales and use tax",
+          "value": "New Mexico does not have a conventional sales tax, but imposes a Gross Receipts Tax and Compensating Tax with a state base rate of 4.875%. Counties and municipalities add local option gross receipts taxes.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.tax.newmexico.gov/wp-content/uploads/2023/08/July-2023_GRT-Filers-Kit.pdf",
+          "source_citation": "https://www.tax.newmexico.gov/wp-content/uploads/2023/08/July-2023_GRT-Filers-Kit.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "^ Indicates overlapping location code UNION GROSS RECEIPTS AND COMPENSATING TAX RATE SCHEDULE Effective July 1, 2023 through December 31,2023 TAOS* TORRANCE VALENCIA STATE GROSS RECEIPTS TAX RATE = 4.875% SPECIAL TAX RATES & REPORTING LOCATIONS * Indicates rate change due to enactment/expiration of local option taxes and/or change in the state gross receipts tax rate."
+        }
+      ]
+    },
+    "filing": {
+      "fields": [
+        {
+          "key": "ptet",
+          "label": "Pass-through entity tax (PTET)",
+          "value": "New Mexico offers an elective entity-level pass-through entity tax under Section 7-3A-10 NMSA 1978 at a rate of 5.9%. The annual election is made by filing Form PTE or Form S-Corp and paying the entity-level tax by the return due date.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.tax.newmexico.gov/businesses/corporate-income-franchise-tax-overview/pass-through-entity/",
+          "source_citation": "Pass-Through Entity : Businesses",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "How does the PTE treat deductions? Are the same deductions that are available to the partners or members also available to the PTE? Section 7-3A-10 NMSA 1978 determines what distributed allocated net income is subject to entity-level tax."
+        },
+        {
+          "key": "composite",
+          "label": "Composite returns",
+          "value": "Pass-through entities may file a composite return on behalf of electing nonresident members whose only New Mexico income is from pass-through entities. Tax is reported at the 5.9% rate directly on Form PTE or Form S-Corp, with owner allocations provided on Form RPD-41359.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.tax.newmexico.gov/businesses/corporate-income-franchise-tax-overview/pass-through-entity/",
+          "source_citation": "Pass-Through Entity : Businesses",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Is that the highest personal income tax rate or the highest corporate income tax rate? The taxable net income of the PTE is taxed at the higher of the personal or corporate income tax rate. The highest rate for both personal and corporate income taxes is currently 5.9%."
+        },
+        {
+          "key": "key_forms",
+          "label": "Key forms",
+          "value": "The primary return forms are Form PIT-1 for individuals and Form CIT-1 for C-corporations. Pass-through entities file Form PTE or Form S-Corp, with fiduciaries filing Form FID-1 and owners receiving withholding information on Form RPD-41359.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://realfile.tax.newmexico.gov/2012rpd-41367.pdf",
+          "source_citation": "https://realfile.tax.newmexico.gov/2012rpd-41367.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "A PTE may use federal Forms 1099-Misc, pro forma 1099-Misc, or Form RPD- 41359, Annual Statement of Pass-Through Entity Withholding , to report to the owners the allocable net income and the New Mexico tax withheld."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "code": "FL",
+  "name": "Florida",
+  "sections": {
+    "apportionment": {
+      "fields": [
+        {
+          "key": "sourcing",
+          "label": "Sales sourcing (services and intangibles)",
+          "value": "Florida sources gross receipts from services and intangibles using the cost of performance method. Receipts are attributed to Florida if the income-producing activity is performed wholly in the state or if a greater proportion is performed in Florida based on costs of performance.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://floridarevenue.com/TaxLaw/Documents/TAA%2008C1-002.pdf",
+          "source_citation": "November 20, 2007",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Also, gross receipts shall be attributed to this state if the income producing activity is performed within and without this state but the greater proportion of the income producing activity is performed in this state, based on costs of performance."
+        },
+        {
+          "key": "special_industries",
+          "label": "Special industry rules",
+          "value": "Insurance companies apportion income using a single-factor direct premiums written fraction, while transportation services apportion income using a revenue-miles fraction. Citrus processing companies may elect a single sales factor formula, and financial organizations follow special factor inclusions.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0200-0299/0220/Sections/0220.151.html",
+          "source_citation": "Statutes & Constitution :View Statutes : Online Sunshine",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "(2) The tax base for a taxpayer furnishing transportation services, for the purpose of computing a tax on those activities, shall be apportioned to this state by multiplying such base by a fraction the numerator of which is the revenue miles of the taxpayer in this state and the denominator of which is the revenue miles of the taxpayer everywhere."
+        },
+        {
+          "key": "forms",
+          "label": "Forms",
+          "value": "Apportionment is computed on Florida Form F-1120, Schedule III (Apportionment of Adjusted Federal Income). Partnerships report apportionment using Form F-1065, Parts III and IV.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+          "source_citation": "Florida Dept. of Revenue - Corporate Income Tax",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Corporation Income Tax Return (Federal Form 1120) must file Florida Corporate Income/Franchise Tax Return ( Form F-1120 ) or the Florida Corporate Short Form Income Tax Return ( Form F-1120A ) regardless of whether any tax may be due."
+        }
+      ]
+    },
+    "nexus": {
+      "fields": [
+        {
+          "key": "income_nexus",
+          "label": "Income/franchise tax nexus",
+          "value": "Florida imposes corporate income tax on corporations for the privilege of conducting business, deriving income, or existing in the state. Nexus is created by activities such as maintaining an office, having employees or property, delivering goods in company vehicles, or licensing intangibles in Florida.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+          "source_citation": "Florida Dept. of Revenue - Corporate Income Tax",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "A limited liability company (LLC) classified as a corporation for Florida and federal income tax purposes is subject to the Florida Income Tax Code and must file a Florida corporate income/franchise tax return."
+        },
+        {
+          "key": "sales_economic_nexus",
+          "label": "Sales/use tax: economic nexus",
+          "value": "Since July 1, 2021, a business making remote sales into Florida must collect and electronically remit sales and use tax if its taxable remote sales exceeded $100,000 in the previous calendar year.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://floridarevenue.com/taxes/taxesfees/Pages/sales_tax.aspx",
+          "source_citation": "Florida Department of Revenue, Sales and Use Tax",
+          "last_verified": "2026-10-07"
+        },
+        {
+          "key": "pl_86_272",
+          "label": "P.L. 86-272",
+          "value": "Florida recognizes Public Law 86-272 immunity if in-state activities are limited strictly to the solicitation of orders for sales of tangible personal property approved and filled from outside the state. Protection is eliminated by activities exceeding solicitation, including in-state repair, servicing, technical consulting, or administrative remote personnel.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://floridarevenue.com/TaxLaw/Documents/TAA%2095C1-010.pdf",
+          "source_citation": "https://floridarevenue.com/TaxLaw/Documents/TAA%2095C1-010.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "381-384)           \"solicitation of orders\" included not only activities essential           to making requests for purchases, but also activities that are           \"entirely ancillary\" to the making of requests for purchases.(FN 1)           Activities which exceed this standard result in the loss of           the protection provided by Public Law 86-272, unless the           activities are considered \"de minimis\" because they do not           establish a \"nontrivial additional connection\" wit"
+        }
+      ]
+    },
+    "rates": {
+      "fields": [
+        {
+          "key": "individual",
+          "label": "Individual income tax",
+          "value": "Florida does not impose an individual (personal) income tax.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://floridarevenue.com/faq/Pages/FAQDetails.aspx?FAQID=1466",
+          "source_citation": "https://floridarevenue.com/faq/Pages/FAQDetails.aspx?FAQID=1466",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Do I have to file a personal income tax return in Florida? Florida does not impose a personal income tax, so there are no filing requirements."
+        },
+        {
+          "key": "corporate",
+          "label": "Corporate income tax",
+          "value": "5.5% of Florida net income for tax years beginning on or after January 1, 2022, after a $50,000 exemption.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+          "source_citation": "Florida Department of Revenue, Corporate Income Tax",
+          "last_verified": "2026-10-07"
+        },
+        {
+          "key": "sales",
+          "label": "Sales and use tax",
+          "value": "General state rate 6% (exceptions include mobile homes 3%, amusement machines 4%, electricity 6.95%). Many counties add a discretionary sales surtax.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://floridarevenue.com/taxes/taxesfees/Pages/sales_tax.aspx",
+          "source_citation": "Florida Department of Revenue, Sales and Use Tax",
+          "last_verified": "2026-10-07"
+        },
+        {
+          "key": "other_business",
+          "label": "Other notable business taxes",
+          "value": "Florida levies a gross receipts tax on utility services at 2.5% on the sale, delivery, or transportation of natural gas, manufactured gas, or electricity to retail consumers.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://floridarevenue.com/taxes/taxesfees/Pages/sales_tax.aspx",
+          "source_citation": "Florida Dept. of Revenue - Florida Sales and Use Tax",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "The collection allowance is 2.5% (.025) of the first $1,200 of tax due, not to exceed $30 for each reporting location."
+        }
+      ]
+    },
+    "filing": {
+      "fields": [
+        {
+          "key": "individual_due",
+          "label": "Individual due date and extension",
+          "value": "Florida does not impose a personal income tax, so there are no individual return filing requirements, calendar-year due dates, or extension procedures.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://floridarevenue.com/faq/Pages/FAQDetails.aspx?FAQID=1466",
+          "source_citation": "https://floridarevenue.com/faq/Pages/FAQDetails.aspx?FAQID=1466",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Do I have to file a personal income tax return in Florida? Florida does not impose a personal income tax, so there are no filing requirements."
+        },
+        {
+          "key": "key_forms",
+          "label": "Key forms",
+          "value": "F-1120 (corporate income/franchise tax return).",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+          "source_citation": "Florida Department of Revenue, Corporate Income Tax",
+          "last_verified": "2026-10-07"
+        },
+        {
+          "key": "corporate_due",
+          "label": "Corporate due date and extension",
+          "value": "Form F-1120 is generally due on the 1st day of the 5th month after the tax year ends (1st day of the 4th month for a June 30 year end), or 15 days after the federal due date if later. Extensions run 6 months (7 months for a June 30 year end) and do not extend the time to pay.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+          "source_citation": "Florida Department of Revenue, Corporate Income Tax - due dates and extensions",
+          "last_verified": "2026-10-07"
+        }
+      ],
+      "due_rules": {
+        "years": [
+          2025,
+          2026
+        ],
+        "source_url": "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+        "source_citation": "Florida Department of Revenue, Corporate Income Tax - due dates and extensions",
+        "last_verified": "2026-10-07",
+        "entities": {
+          "c_corp": {
+            "form": "F-1120",
+            "due": {
+              "months_after_year_end": 5,
+              "day": 1
+            },
+            "extended_due": {
+              "months_after_year_end": 11,
+              "day": 1
+            },
+            "june_30": {
+              "due": {
+                "months_after_year_end": 4,
+                "day": 1
+              },
+              "extended_due": {
+                "months_after_year_end": 11,
+                "day": 1
+              }
+            },
+            "note": "Or 15 days after the federal due date if that is later; the calendar shows the 1st-of-month rule."
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "code": "WV",
+  "name": "West Virginia",
+  "sections": {
+    "apportionment": {
+      "fields": [
+        {
+          "key": "method",
+          "label": "Apportionment method",
+          "value": "West Virginia apportions multistate business net income using a single sales factor formula where net business income is multiplied by West Virginia sales divided by sales everywhere.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://tax.wv.gov/business/corporateincometax/pages/corporateincometax.aspx",
+          "source_citation": "Corporate Income Tax",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Under this formula, the numerator includes sales occurring in West Virginia and the denominator includes sales occurring everywhere."
+        },
+        {
+          "key": "special_industries",
+          "label": "Special industry rules",
+          "value": "Motor carriers apportion income using vehicle mileage, financial organizations use a single factor gross receipts formula, and public utilities may apportion according to accounts prescribed by the Public Service Commission.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://tax.wv.gov/Documents/TaxForms/2019/spf100apt.pdf",
+          "source_citation": "https://tax.wv.gov/Documents/TaxForms/2019/spf100apt.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "PART 2 – MOTOR CARRIER FACTOR (§11-24-7A) Divide Column 1 by Column 2 and enter six (6) digit decimal in Column 3 Enter on SPF-100, Schedule A, line 10 VEHICLE MILEAGE Column 1 West Virginia Column 2 Everywhere Column 3 Decimal Fraction (6 digits) ."
+        },
+        {
+          "key": "forms",
+          "label": "Forms",
+          "value": "Multistate corporations compute apportionment on Form CIT-120APT, Schedule B, submitted with Form CIT-120, while combined unitary groups use Schedule UB-4APT or UB-CR.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://tax.wv.gov/Documents/PTE/2024/ept100.Instructions.2024.pdf",
+          "source_citation": "https://tax.wv.gov/Documents/PTE/2024/ept100.Instructions.2024.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Neither the numerator nor the denominator of the gross receipts factor should include gross receipts from obligations and certain loans on which you claim the special allowance on Form CIT-120, Schedule B-1."
+        }
+      ]
+    },
+    "nexus": {
+      "fields": [
+        {
+          "key": "income_nexus",
+          "label": "Income/franchise tax nexus",
+          "value": "West Virginia corporate net income tax applies to corporations engaging in business or deriving income from sources in the state, with no bright-line factor presence threshold for general corporations. For out-of-state financial organizations, nexus is presumed if they solicit business with 20 or more persons in the state or have gross receipts of $100,000 or more from state sources.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://tax.wv.gov/Documents/CIT/2023/cit120.instructions.2023.pdf",
+          "source_citation": "https://tax.wv.gov/Documents/CIT/2023/cit120.instructions.2023.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "A financial organization not having its commercial domicile in West Virginia is presumed to be regularly engaging in business in West Virginia if during any year it obtains or solicits business with 20 or more persons within West Virginia, or the sum of its gross receipts attributable to sources in West Virginia equals or exceeds $100,000.00."
+        },
+        {
+          "key": "sales_economic_nexus",
+          "label": "Sales/use tax: economic nexus",
+          "value": "Remote sellers must collect sales and use tax if gross sales into West Virginia exceed $100,000 or if they have 200 or more separate transactions for delivery in the state. The threshold is measured based on the current calendar year or the immediately preceding calendar year.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://tax.wv.gov/documents/administrativenotices/2018/administrativenotice.2018-18.pdf",
+          "source_citation": "https://tax.wv.gov/documents/administrativenotices/2018/administrativenotice.2018-18.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "The Act applies only to sellers that deliver more than $100,000 of goods or services into South Dakota or engage in 200 or more separate transactions for the delivery of goods and services into the State on an annual basis."
+        },
+        {
+          "key": "pl_86_272",
+          "label": "P.L. 86-272",
+          "value": "West Virginia recognizes Public Law 86-272 protection against net income tax for out-of-state businesses whose activities within the state are limited to soliciting sales of tangible personal property. Corporate income tax instructions require reporting sales where immunity under Public Law 86-272 applies.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://tax.wv.gov/Documents/TAA/taa.1998-002.html",
+          "source_citation": "Technical Assistance Advisory TAA 1998-002 Business Registration Tax - Business Franchise Tax - Corporation Net Income Tax - Consumer Sales And Service Tax - Us",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Finally, it should be mentioned that Public Law 86-272, 15 U.S.C."
+        }
+      ]
+    },
+    "rates": {
+      "fields": [
+        {
+          "key": "individual",
+          "label": "Individual income tax",
+          "value": "Effective for tax year 2026, West Virginia personal income tax rates are reduced to 2.11%, 2.81%, 3.16%, 4.22%, and 4.58%. Married individuals filing separately are subject to the same rates on proportionally reduced bracket thresholds.",
+          "years": [
+            2026
+          ],
+          "source_url": "https://tax.wv.gov/Individuals/Pages/PersonalIncomeTaxReductionBill.aspx",
+          "source_citation": "2026 Income Tax Rate Cut",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Not over $5,000 2.11% of taxable income Over $5,000 but not over $12,500 $105.50 plus 2.81% of excess over $5,000 Over $12,500 but not over $20,000 $316.25 plus 3.16% of excess over $12,500 Over $20,000 but not over $30,000 $553.25 plus 4.22% of excess over $20,000 Over $30,000 $975.25 plus 4.58% of excess over $30,000 Employers The withholding tax tables have been updated for the 2026 tax year."
+        },
+        {
+          "key": "sales",
+          "label": "Sales and use tax",
+          "value": "The state sales and use tax rate is 6.0%. Municipalities may levy an additional local sales and use tax, typically 1%, yielding a total rate of up to 7.0%.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://tax.wv.gov/Business/SalesAndUseTax/Pages/SalesAndUseTax.aspx",
+          "source_citation": "Sales and Use Tax",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Forms CST-200CU Sales and Use Tax Return Effective 01/01/2018 Instructions Import Spreadsheet Instructions for Filing the CST-200 Sales and Use Tax Return Via MyTaxes Schedule BD Bad Debt Deduction Worksheet Schedule S Sales Tax Credit Memos, Adjustments, and Refunds Schedule U Schedule U Refund or Credit of Use Tax Claimed on a Return When filing a Schedule U it must be submitted through MyTaxes beginning 7/1/2023."
+        },
+        {
+          "key": "other_business",
+          "label": "Other notable business taxes",
+          "value": "West Virginia levies a state Business and Occupation gross receipts tax on public service and utility companies, as well as a severance tax including 5.0% on oil, natural gas, and coal gross receipts. Additionally, the state imposes health care provider taxes and a 10% gross receipts tax on medical cannabis dispensaries.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://tax.wv.gov/Documents/Reports/2022/SeveranceTaxes.TaxData.FiscalYears.2015-2022.pdf",
+          "source_citation": "https://tax.wv.gov/Documents/Reports/2022/SeveranceTaxes.TaxData.FiscalYears.2015-2022.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "A 5% gross receipts tax also applies to extraction of sand, gravel, limestone, sandstone and any other mineral extracted with the exception of coal , waste coal and timber."
+        }
+      ]
+    },
+    "filing": {
+      "fields": [
+        {
+          "key": "key_forms",
+          "label": "Key forms",
+          "value": "The primary tax returns are Form IT-140 for individuals, Form CIT-120 for corporations, Form PTE-100 for standard pass-through entities, and Form EPT-100 for elective PTET filers.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://tax.wv.gov/Documents/PTE/2025/pte100.instructions.2025.pdf",
+          "source_citation": "https://tax.wv.gov/Documents/PTE/2025/pte100.instructions.2025.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "PENALTY FOR LATE FILING AND FAILURE TO INCLUDE CORRECT INFORMATION Any S Corporation or Partnership that fails to file and/or include all the correct information on Form PTE-100, and on Form WV K-1 or Form NRW-4 when applicable, by the required filing date is subject to a penalty of $50.00 for each information return that they failed to file or include correct information on, not to exceed $100,000."
+        }
+      ]
+    }
+  }
+}

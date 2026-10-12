@@ -1,0 +1,559 @@
+[
+ {
+  "state": "GA",
+  "section": "apportionment",
+  "notes": "### 1. Apportionment Formula\n\n* **Fact:** Georgia uses a **single sales factor** (a 100% gross receipts factor / one-factor formula) to apportion multistate business income. The gross receipts factor is the ratio of gross receipts from business done within Georgia to total gross receipts from business done everywhere.\n* **Applicable Tax Years:** 2025 and 2026 (effective since January 1, 2008; unchanged for 2025 and 2026).\n* **Official Source:** \n  * Georgia Department of Revenue, *2025 IT-611 Corporate Income Tax Booklet*: https://dor.georgia.gov/document/form/2025-it-611-corporate-income-tax-booklet\n  * Georgia Code (O.C.G.A. § 48-7-31(d)(2)): https://www.legis.ga.gov/\n  * Georgia Department of Revenue, *Apportionment and Allocation FAQ*: https://dor.georgia.gov/apportionment-and-allocation-faq\n\n---\n\n### 2. Sourcing of Receipts from Services and Intangibles\n\n* **Fact:** Georgia employs **market-based sourcing**. Under Georgia law, when receipts are derived from business other than the sale of tangible personal property (including services), gross receipts are deemed derived from Georgia if received from customers within Georgia or if the receipts are otherwise attributable to Georgia's marketplace. Net investment income from intangible property held purely for investment purposes is allocated rather than apportioned (allocated to Georgia if the corporation's situs is in Georgia or if acquired as income from business done in Georgia).\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official Source:** \n  * Georgia Department of Revenue, *2025 IT-611 Corporate Income Tax Booklet*: https://dor.georgia.gov/document/form/2025-it-611-corporate-income-tax-booklet\n  * Georgia Code (O.C.G.A. § 48-7-31(d)(2)(A)(i)): https://www.legis.ga.gov/\n  * Rules and Regulations of the State of Georgia (Ga. Comp. R. & Regs. r. 560-7-7-.03): https://dor.georgia.gov/rules-and-regulations\n\n---\n\n### 3. Industries with Their Own Apportionment Formula\n\n* **Fact:** \n  * **Airlines / Air Transportation:** Corporations whose net business income is derived principally from transporting passengers or cargo in revenue flight apportion income using a specific three-factor formula:\n    * Revenue air miles factor weighted at **25%**\n    * Tons handled factor weighted at **25%**\n    * Originating revenue factor weighted at **50%**\n  * **Motor Carriers and Petroleum Pipeline Companies:** Ga. Comp. R. & Regs. r. 560-7-7-.03 sets out specialized apportionment rules/ratios for freight and passenger motor carriers and pipeline transportation companies.\n  * **Financial Institutions:** Apportion gross receipts under the Financial Institutions Business Occupation Tax (O.C.G.A. § 48-6-95; Form 900) based on gross receipts within Georgia over gross receipts everywhere, using specific industry receipt categories (interest on loans, fees, etc.).\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official Source:** \n  * Georgia Code (O.C.G.A. § 48-7-31(d)(2)(B)): https://www.legis.ga.gov/\n  * Georgia Department of Revenue, *Form 900 Financial Institutions Business Occupation Tax Return*: https://dor.georgia.gov/\n  * Rules and Regulations of the State of Georgia (Ga. Comp. R. & Regs. r. 560-7-7-.03): https://dor.georgia.gov/rules-and-regulations\n\n---\n\n### 4. Form and Schedule Used to Compute Apportionment\n\n* **Fact:**\n  * **C-Corporations (Form 600):** Apportionment is computed on **Schedule 6** (*Apportionment of Income*) of Form 600. The resulting ratio from Schedule 6 (Column C) is entered on Page 2, Line 4 (Schedule 1) to determine the net business income apportioned to Georgia.\n  * **S-Corporations (Form 600S):** Apportionment is computed on **Schedule 9**.\n  * **Partnerships (Form 700):** Apportionment is computed on **Schedule 7** (*Apportionment of Income*).\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official Source:** \n  * Georgia Department of Revenue, *Form 600 Corporation Tax Return*: https://dor.georgia.gov/document/form/form-600-corporation-tax-return\n  * Georgia Department of Revenue, *2025 IT-611 Corporate Income Tax Booklet*: https://dor.georgia.gov/document/form/2025-it-611-corporate-income-tax-booklet\n  * Georgia Department of Revenue, *Form 700 Partnership Tax Return*: https://dor.georgia.gov/document/form/form-700-partnership-tax-return",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Georgia uses a single sales factor (a 100% gross receipts factor) to apportion multistate business income. The gross receipts factor is the ratio of gross receipts from business done within Georgia to total gross receipts from business done everywhere.",
+    "source_url": "https://dor.georgia.gov/document/form/2025-it-611-corporate-income-tax-booklet",
+    "evidence": [
+     "single sales factor",
+     "gross receipts factor",
+     "business done within Georgia"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://dor.georgia.gov/document/form/2025-it-611-corporate-income-tax-booklet; evidence not on dor.georgia.gov (1/3); evidence not on dor.georgia.gov (0/3); not an official GA host: law.justia.com; figures not on dor.georgia.gov: ['100']; not an official GA host: www.cpajournal.com; evidence not on www.legis.ga.gov (0/3); not an official GA host: codes.findlaw.com; not an official GA host: www.law.cornell.edu; not an official GA host: montax.org; figures not on www.audits.ga.gov: ['",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Georgia employs market-based sourcing for gross receipts derived from business other than the sale of tangible personal property, including services. Receipts are deemed derived from Georgia if received from customers within Georgia or otherwise attributable to Georgia's marketplace.",
+    "source_url": "https://dor.georgia.gov/document/form/2025-it-611-corporate-income-tax-booklet",
+    "evidence": [
+     "market-based sourcing",
+     "customers within Georgia",
+     "attributable to Georgia's marketplace"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://dor.georgia.gov/document/form/2025-it-611-corporate-income-tax-booklet; evidence not on dor.georgia.gov (0/3); not an official GA host: law.justia.com; not an official GA host: www.cpajournal.com; evidence not on www.legis.ga.gov (0/3); not an official GA host: codes.findlaw.com; not an official GA host: www.law.cornell.edu; not an official GA host: montax.org; evidence not on www.audits.ga.gov (1/3)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Airlines apportion business income using a formula consisting of a revenue air miles factor weighted at 25%, a tons handled factor weighted at 25%, and an originating revenue factor weighted at 50%. Specialized apportionment rules also apply to motor carriers, petroleum pipeline companies, and financial institutions.",
+    "source_url": "https://dor.georgia.gov/rules-and-regulations",
+    "evidence": [
+     "revenue air miles factor",
+     "tons handled factor",
+     "originating revenue factor"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://dor.georgia.gov/rules-and-regulations; evidence not on dor.georgia.gov (0/3); figures not on dor.georgia.gov: ['50']; not an official GA host: law.justia.com; figures not on dor.georgia.gov: ['25', '50']; not an official GA host: www.cpajournal.com; evidence not on www.legis.ga.gov (0/3); not an official GA host: codes.findlaw.com; not an official GA host: www.law.cornell.edu; not an official GA host: montax.org; evidence not on www.audits.ga.gov (0/3)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "C-corporations compute apportionment on Schedule 6 of Form 600. S-corporations compute apportionment on Schedule 9 of Form 600S, and partnerships use Schedule 7 of Form 700.",
+    "source_url": "https://dor.georgia.gov/document/form/form-600-corporation-tax-return",
+    "evidence": [
+     "Schedule 6",
+     "Apportionment of Income",
+     "Form 600"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://dor.georgia.gov/document/form/form-600-corporation-tax-return; figures not on dor.georgia.gov: ['700']; not an official GA host: law.justia.com; figures not on dor.georgia.gov: ['6', '600', '700', '9']; not an official GA host: www.cpajournal.com; evidence not on www.legis.ga.gov (1/3); not an official GA host: codes.findlaw.com; not an official GA host: www.law.cornell.edu; not an official GA host: montax.org; figures not on www.audits.ga.gov: ['600', '700']; figures not on ",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download",
+   "https://dor.georgia.gov/instructions-file-consolidated-returns",
+   "https://law.justia.com/codes/georgia/title-48/chapter-7/article-2/section-48-7-31/",
+   "https://dor.georgia.gov/apportionment-and-allocation-faq",
+   "https://www.cpajournal.com/2016/10/01/apportioning-income-from-sales-of-services/",
+   "https://dor.georgia.gov/document/document/2024-it611-corporate-income-tax-instruction-booklet/download",
+   "https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download",
+   "https://dor.georgia.gov/document/document/2024-it-611s-s-corporation-income-tax-booklet/download",
+   "https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download",
+   "https://www.legis.ga.gov/api/legislation/document/20252026/246941",
+   "https://codes.findlaw.com/ga/title-48-revenue-and-taxation/ga-code-sect-48-7-31/",
+   "https://www.law.cornell.edu/regulations/georgia/Ga-Comp-R-Regs-R-560-7-7-.03",
+   "https://montax.org/wp-content/uploads/2024/12/Lindholm-Presentation.pdf",
+   "https://law.justia.com/codes/georgia/title-48/chapter-7/article-2/section-48-7-31/",
+   "https://www.audits.ga.gov/ReportSearch/download/31862",
+   "https://dor.georgia.gov/document/form/900georgiafinancialinstitutionsbusinessoccupationtaxreturnpdf/download",
+   "https://dor.georgia.gov/document/form/900georgiafinancialinstitutionsbusinessoccupationtaxreturnpdf/download",
+   "https://dor.georgia.gov/document/document/2022-600-corporation-income-tax-return-blank-form-printing/download",
+   "https://dor.georgia.gov/document/document/2025-it-611s-s-corporation-income-tax-booklet/download",
+   "https://dor.georgia.gov/document/document/2024-700-partnership-tax-return-blank-form-printing/download",
+   "https://dor.georgia.gov/600-corporation-tax-return"
+  ],
+  "error": ""
+ },
+ {
+  "state": "GA",
+  "section": "nexus",
+  "notes": "### 1. Corporate Income and Franchise (Net Worth) Tax Nexus\n\n* **Corporate Income Tax Nexus Standard:** Corporations that own property, do business in Georgia, or receive income from Georgia sources are subject to Georgia corporate income tax. \n  * \"Doing business\" is defined as being engaged within Georgia in any activities or transactions for the purpose of financial profit or gain, whether or not registered to do business in the state, whether or not maintaining an office or place of business within the state, and whether or not connected with interstate or foreign commerce (O.C.G.A. § 48-7-31(a)).\n  * Having an employee in Georgia creates nexus (subject to P.L. 86-272 protections for sales of tangible personal property).\n* **Franchise (Net Worth) Tax Nexus Standard:** Imposed on corporations for the privilege of doing business or exercising a corporate franchise in Georgia. Foreign corporations doing business, owning property in Georgia, or having taxable status under O.C.G.A. § 48-7-31 are subject to the tax (O.C.G.A. § 48-13-72). \n  * Under the Net Worth Tax Table, corporations with a net worth not exceeding $100,000 have a tax liability of $0, but a return must still be filed if the corporation has nexus.\n* **Bright-Line / Factor-Presence Economic Nexus Threshold for Income/Franchise Tax:** **Not found.** Georgia statutes and Department of Revenue regulations do not provide a bright-line dollar or transaction factor-presence economic nexus threshold for corporate income or net worth tax.\n* **Applicability:** Applies to both tax years 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Georgia Department of Revenue – Corporate Income and Net Worth Tax: https://dor.georgia.gov/corporate-income-and-net-worth-tax\n  * Georgia Department of Revenue – C Corporations FAQ: https://dor.georgia.gov/c-corporations-faq\n  * Georgia Department of Revenue – Net Worth Tax for Corporations FAQ: https://dor.georgia.gov/net-worth-tax-corporations-faq\n  * Georgia Department of Revenue – 2025 IT-611 Corporate Income Tax Instructions Booklet: https://dor.georgia.gov/document/form/2025-it-611-corporate-income-tax-instructions-booklet/download\n\n---\n\n### 2. Remote Seller Economic Nexus Threshold (Sales and Use Tax)\n\n* **Economic Nexus Thresholds:** A remote seller must register, collect, and remit Georgia sales and use tax if it meets either of the following criteria (O.C.G.A. § 48-8-2(8)(M.1); Policy Bulletin SUT-2019-02):\n  * Gross revenue exceeding **$100,000.00** from retail sales of tangible personal property delivered electronically or physically into Georgia; **OR**\n  * Conducted **200 or more** separate retail sales of tangible personal property delivered electronically or physically into Georgia.\n* **Measurement Period:** The **previous or current calendar year**.\n* **Applicability:** Applies to both tax years 2025 and 2026 (in effect since January 1, 2020; unchanged).\n* **Official Sources:**\n  * Georgia Department of Revenue – Policy Bulletin SUT-2019-02 (*Remote Sellers – Sales and Use Tax Obligations*): https://dor.georgia.gov/document/bulletin/sut-2019-02-sales-and-use-tax-obligations-remote-sellers/download\n  * Georgia Department of Revenue – Out-of-State Sellers: https://dor.georgia.gov/out-state-sellers\n\n---\n\n### 3. Public Law 86-272 Protection\n\n* **Stated Position:** \n  * P.L. 86-272 protects an out-of-state corporation from Georgia income tax if its Georgia activities are strictly limited to the solicitation of orders for sales of tangible personal property, provided the orders are sent outside Georgia for approval and are filled and shipped via common carrier from outside Georgia.\n  * If business activities or employees go beyond mere solicitation, the statutory protection is lost.\n* **Net Worth Tax Exception:** The Georgia DOR explicitly specifies that **P.L. 86-272 does not apply to the Georgia net worth (franchise) tax**. A corporation exempt from income tax under P.L. 86-272 is still required to file Form 600 or 600S and pay the net worth tax (if net worth exceeds $100,000).\n* **Filing Requirements for Claiming P.L. 86-272:**\n  * The corporation must check the **\"PL 86-272\"** box on the front page of Form 600 / Form 600S.\n  * Enter **zero ($0)** on line 8, Schedule 1 of Form 600.\n  * Complete the remaining schedules, attach a copy of federal Form 1120 or 1120S, and attach an explanatory statement indicating the basis for P.L. 86-272 protection.\n* **Applicability:** Applies to both tax years 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Georgia Department of Revenue – C Corporations FAQ: https://dor.georgia.gov/c-corporations-faq\n  * Georgia Department of Revenue – 2025 IT-611 Corporate Income Tax Instructions Booklet (Page 10): https://dor.georgia.gov/document/form/2025-it-611-corporate-income-tax-instructions-booklet/download\n  * Georgia Department of Revenue – 2025 IT-611S S Corporation Income Tax Booklet: https://dor.georgia.gov/document/form/2025-it-611s-s-corporation-income-tax-instructions-booklet/download",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Corporations are subject to Georgia income and net worth tax if they own property, do business in Georgia, or receive income from Georgia sources. Georgia does not provide a bright-line factor-presence economic nexus dollar threshold for corporate income or net worth tax.",
+    "source_url": "https://dor.georgia.gov/corporate-income-and-net-worth-tax",
+    "evidence": [
+     "own property",
+     "do business in Georgia",
+     "receive income from Georgia sources"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://dor.georgia.gov/taxes/corporate-income-and-net-worth-tax",
+    "matched_title": "Corporate Income and Net Worth Tax | Department of Revenue",
+    "matched_phrases": [
+     "own property",
+     "do business in Georgia",
+     "receive income from Georgia sources"
+    ],
+    "snippet": "Corporations that own property, do business in Georgia, or receive income from Georgia sources are subject to corporate income tax The rate of taxation is 5.19% of a corporation's Georgia taxable net income."
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "A remote seller establishes economic nexus if it has gross revenue exceeding $100,000.00 from retail sales of tangible personal property delivered into Georgia, or conducts 200 or more separate retail sales into the state. This threshold is measured across the previous or current calendar year.",
+    "source_url": "https://dor.georgia.gov/document/bulletin/sut-2019-02-sales-and-use-tax-obligations-remote-sellers/download",
+    "evidence": [
+     "exceeding $100,000.00",
+     "200 or more separate retail sales",
+     "previous or current calendar year"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://dor.georgia.gov/document/document-sut-pb/sut-2019-02/download",
+    "matched_title": "policy bulletin SUT-2013-02 may 7, 2019 remote sellers- sales and use tax obligations (supersedes prior policy nulletin SUY-2018-07, dated october 1, 2018",
+    "matched_phrases": [
+     "200 or more separate retail sales",
+     "previous or current calendar year"
+    ],
+    "snippet": "• Obtained gross revenue, in an amount exceeding $100,000 in the previous or current calendar year, from conducting retail sales of tangible personal property to be delivered electronically or physically to a location within this state to be used, consumed, distributed, or stored for use or consumption in this state, OR • Conducted 200 or mo re separate retail sales of tangible personal property in the previous or current calendar year to be delivered electronically or physically to a location w"
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "P.L. 86-272 protects out-of-state corporations from Georgia income tax when activities are limited strictly to solicitation of orders for sales of tangible personal property filled from outside Georgia. However, P.L. 86-272 does not protect against the Georgia net worth tax, requiring qualifying corporations to still file returns and pay applicable net worth tax.",
+    "source_url": "https://dor.georgia.gov/c-corporations-faq",
+    "evidence": [
+     "solicitation of orders",
+     "net worth tax",
+     "PL 86-272"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://dor.georgia.gov/document/document/2021-600-corporation-income-tax-return-blank-form-printing/download",
+    "matched_title": "600 Print",
+    "matched_phrases": [
+     "net worth tax",
+     "PL 86-272"
+    ],
+    "snippet": "Date admitted into GA Original Return Initial Net Worth Consolidated GA Parent Return (attach approval) GA Consolidated Subsidiary Consolidated Parent FEIN Address Change Name Change Final (attach explanation) PL 86-272 Amended Return UET Annualization Exception a ttached IRS Audit Amended due to IT-552 attached Extension attached 1."
+   }
+  ],
+  "grounding_urls": [
+   "https://dor.georgia.gov/taxes/corporate-income-and-net-worth-tax",
+   "https://dor.georgia.gov/document/document/2023-it611-corporate-income-tax-instruction-booklet/download",
+   "https://dor.georgia.gov/c-corporations-faq",
+   "https://dor.georgia.gov/taxes/corporate-income-and-net-worth-tax",
+   "https://dor.georgia.gov/net-worth-tax-corporations-faq",
+   "https://dor.georgia.gov/net-worth-tax-corporations-faq",
+   "https://dor.georgia.gov/document/document/2024-it611-corporate-income-tax-instruction-booklet/download",
+   "https://dor.georgia.gov/document/document-sut-pb/sut-2019-02/download",
+   "https://dor.georgia.gov/document/document/2021-600-corporation-income-tax-return-blank-form-printing/download"
+  ],
+  "error": ""
+ },
+ {
+  "state": "GA",
+  "section": "rates",
+  "notes": "### Individual Income Tax Rates\n* **Tax Year 2025:** Flat rate of **5.19%**. Under House Bill 111 (amending O.C.G.A. § 48-7-20), Georgia transitioned to a flat individual income tax system, reduced to 5.19% for taxable years beginning on or after January 1, 2025.\n* **Tax Year 2026:** Flat rate of **4.99%**. The rate is reduced from 5.19% to 4.99% effective for taxable years beginning on or after January 1, 2026.\n* **Official Sources:**\n  * Georgia Department of Revenue, *Important Tax Updates*: https://dor.georgia.gov/important-tax-updates\n  * Georgia Department of Revenue, *Film Tax Credit Resources (Withholding Rate Schedule)*: https://dor.georgia.gov/film-tax-credit-resources\n  * Georgia Department of Revenue, *2025 Summary of Enacted Legislation*: https://dor.georgia.gov/2025-summary-enacted-legislation\n\n---\n\n### Corporate Income Tax and Minimum Tax\n* **Tax Year 2025:** Flat rate of **5.19%** of Georgia taxable net income. Under House Bill 1023 (amending O.C.G.A. § 48-7-21(a)), Georgia aligned the corporate income tax rate to match the individual income tax rate imposed under O.C.G.A. § 48-7-20.\n* **Tax Year 2026:** Under O.C.G.A. § 48-7-21(a), the corporate income tax rate matches the individual rate, reducing to **4.99%** for taxable years beginning on or after January 1, 2026.\n* **Minimum Tax:** **None** (no minimum corporate income tax is imposed under Georgia law).\n* **Official Sources:**\n  * Georgia Department of Revenue, *Corporate Income and Net Worth Tax*: https://dor.georgia.gov/taxes/business-taxes/corporate-income-and-net-worth-tax\n  * Georgia Department of Revenue, *IT-611 Corporation Income Tax Instruction Booklet*: https://dor.georgia.gov/it-611-corporation-income-tax-instruction-booklet\n  * Georgia General Assembly, *HB 1023 (2024)*: https://www.legis.ga.gov/legislation/66750\n\n---\n\n### State Sales and Use Tax Rate & Local Jurisdictions\n* **State Rate (2025 and 2026):** **4%** (unchanged between 2025 and 2026).\n* **Local Jurisdictions (2025 and 2026):** **Yes**, local jurisdictions add local taxes (including LOST, SPLOST, ELOST, TSPLOST, MARTA, and MOST). Combined state and local sales tax rates across counties and special districts typically total between **6% and 9%** (for example, the City of Atlanta rate is 8.5%, and Clayton County–College Park is 9%).\n* **Official Sources:**\n  * Georgia Department of Revenue, *Tax Rates*: https://dor.georgia.gov/tax-rates\n  * Georgia Department of Revenue, *Sales Tax Rates – Current, Historical, and Upcoming*: https://dor.georgia.gov/sales-tax-rates-current-historical-and-upcoming\n  * Georgia Department of Revenue, *Georgia Sales and Use Tax Rate Charts*: https://dor.georgia.gov/sales-tax-rates-current-historical-and-upcoming\n\n---\n\n### Gross Receipts, Franchise, Margin, or Other Notable Business Taxes\n* **Corporate Net Worth Tax (Franchise Tax) (2025 and 2026):**\n  * Georgia imposes an annual graduated **Net Worth Tax** on C corporations and S corporations for the privilege of doing business or exercising a corporate franchise in the state (O.C.G.A. § 48-13-72).\n  * **Brackets / Rates:**\n    * Net worth of **$100,000 or less:** **$0** (exempt from paying the tax under O.C.G.A. § 48-13-71, though an annual return must still be filed).\n    * Over $100,000 up to $150,000: **$125.00**.\n    * Over $150,000 up to $200,000: **$150.00**.\n    * Brackets graduate up to a maximum tax of **$5,000** for net worth in excess of **$22,000,000**.\n  * Foreign corporations apportion net worth based on an in-state ratio of property and gross receipts.\n* **Statewide General Gross Receipts or Margin Tax:** **Not found** (Georgia does not impose a statewide general gross receipts or margin tax).\n* **Local Financial Institutions Business License Tax (2025 and 2026):** Under O.C.G.A. § 48-6-95, counties and municipalities are authorized to levy a local business license tax on financial institutions of not more than **0.25%** of Georgia gross receipts, with a maximum local minimum tax of **$1,000.00**.\n* **Official Sources:**\n  * Georgia Department of Revenue, *Corporate Income and Net Worth Tax*: https://dor.georgia.gov/taxes/business-taxes/corporate-income-and-net-worth-tax\n  * Georgia Department of Revenue, *Form PT-440 Return of Business License Tax Instructions*: https://dor.georgia.gov/pt-440-return-business-license-tax\n  * Georgia Department of Revenue, *2025 IT-611 Corporate Income Tax Booklet*: https://dor.georgia.gov/it-611-corporation-income-tax-instruction-booklet",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025
+    ],
+    "value": "Georgia imposes a flat individual income tax rate of 5.19% for taxable years beginning on or after January 1, 2025.",
+    "source_url": "https://dor.georgia.gov/important-tax-updates",
+    "evidence": [
+     "flat individual income tax",
+     "reduced to 5.19%",
+     "January 1, 2025"
+    ],
+    "accepted": false,
+    "reason": "figures not on dor.georgia.gov: ['5.19']; evidence not on dor.georgia.gov (1/3); evidence not on dor.georgia.gov (0/3); figures not on dor.georgia.gov: ['2025']; figures not on www.legis.ga.gov: ['2025', '5.19']; figures not on dor.georgia.gov: ['2025', '5.19']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "individual",
+    "years": [
+     2026
+    ],
+    "value": "Georgia's flat individual income tax rate is reduced to 4.99% effective for taxable years beginning on or after January 1, 2026.",
+    "source_url": "https://dor.georgia.gov/important-tax-updates",
+    "evidence": [
+     "reduced from 5.19% to 4.99%",
+     "January 1, 2026",
+     "individual income tax"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://dor.georgia.gov/document/document/2025-legislative-summary/download",
+    "matched_title": "2025 Summary of Enacted Legislation",
+    "matched_phrases": [
+     "January 1, 2026",
+     "individual income tax"
+    ],
+    "snippet": "The bill provides for annual reductions of 0.10 percent beginning January 1, 2026, until the rate reaches 4.99 percent, subject to revenue triggers."
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025
+    ],
+    "value": "Georgia imposes a flat corporate income tax rate of 5.19% of taxable net income, and there is no minimum tax.",
+    "source_url": "https://dor.georgia.gov/taxes/business-taxes/corporate-income-and-net-worth-tax",
+    "evidence": [
+     "corporate income tax",
+     "taxable net income",
+     "5.19%"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://dor.georgia.gov/taxes/corporate-income-and-net-worth-tax",
+    "matched_title": "Corporate Income and Net Worth Tax | Department of Revenue",
+    "matched_phrases": [
+     "corporate income tax",
+     "taxable net income",
+     "5.19%"
+    ],
+    "snippet": "Corporations that own property, do business in Georgia, or receive income from Georgia sources are subject to corporate income tax The rate of taxation is 5.19% of a corporation's Georgia taxable net income."
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2026
+    ],
+    "value": "Georgia's corporate income tax rate matches the individual rate at 4.99% of taxable net income, with no minimum tax.",
+    "source_url": "https://dor.georgia.gov/taxes/business-taxes/corporate-income-and-net-worth-tax",
+    "evidence": [
+     "corporate income tax rate",
+     "taxable net income",
+     "reducing to 4.99%"
+    ],
+    "accepted": false,
+    "reason": "figures not on dor.georgia.gov: ['4.99']; evidence not on dor.georgia.gov (0/3); evidence not on dor.georgia.gov (1/3); figures not on www.legis.ga.gov: ['4.99']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Georgia imposes a 4% state sales and use tax rate, with local jurisdictions adding taxes that typically bring combined rates between 6% and 9%.",
+    "source_url": "https://dor.georgia.gov/tax-rates",
+    "evidence": [
+     "sales and use tax",
+     "combined state and local",
+     "4%"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://dor.georgia.gov/taxes/business-taxes/sales-use-tax/tax-rates",
+    "matched_title": "Tax Rates | Department of Revenue",
+    "matched_phrases": [
+     "sales and use tax",
+     "4%"
+    ],
+    "snippet": "** Effective October 1, 2018, the generally applicable tax rate in Ware County is 9% (state sales tax at the statewide rate of 4% plus 5 local sales taxes at a rate of 1% each)."
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Georgia levies a graduated corporate net worth tax ranging from $0 for net worth of $100,000 or less to a maximum of $5,000 for net worth over $22,000,000. Counties and municipalities may also levy a local business license tax on financial institutions of up to 0.25% of Georgia gross receipts.",
+    "source_url": "https://dor.georgia.gov/taxes/business-taxes/corporate-income-and-net-worth-tax",
+    "evidence": [
+     "corporate franchise",
+     "Net Worth Tax",
+     "maximum tax of $5,000"
+    ],
+    "accepted": false,
+    "reason": "figures not on dor.georgia.gov: ['0', '0.25', '22000000']; figures not on dor.georgia.gov: ['0.25', '22000000']; figures not on dor.georgia.gov: ['0', '0.25', '22000000', '5000']; figures not on dor.georgia.gov: ['0', '0.25', '100000', '22000000', '5000']; figures not on www.legis.ga.gov: ['0', '0.25', '100000', '22000000', '5000']; figures not on dor.georgia.gov: ['0', '0.25', '100000', '22000000']; figures not on www.legis.ga.gov: ['0', '0.25']; figures not on dor.georgia.gov: ['0.25']; figure",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://dor.georgia.gov/document/document/2025-it-711-partnership-income-tax-booklet/download",
+   "https://dor.georgia.gov/document/document/2025-legislative-summary/download",
+   "https://dor.georgia.gov/press-releases/2025-06-02/gov-kemp-special-tax-refund-checks-begin-issuing-week",
+   "https://dor.georgia.gov/taxes/important-tax-updates",
+   "https://dor.georgia.gov/film-tax-credits/film-tax-credit-resources",
+   "https://dor.georgia.gov/taxes/corporate-income-and-net-worth-tax",
+   "https://www.legis.ga.gov/api/legislation/document/20232024/225674",
+   "https://dor.georgia.gov/document/document/general-rate-chart-effective-april-1-2026-through-june-30-2026/download",
+   "https://dor.georgia.gov/taxes/business-taxes/sales-use-tax/tax-rates",
+   "https://dor.georgia.gov/taxes/business-taxes/sales-use-tax/tax-rates",
+   "https://dor.georgia.gov/document/document/effective-april-1-2026-through-june-30-2026-tsplost-exempt-only/download",
+   "https://www.legis.ga.gov/api/legislation/document/20172018/164536",
+   "https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download",
+   "https://dor.georgia.gov/document/document/2024-it611-corporate-income-tax-instruction-booklet/download",
+   "https://dor.georgia.gov/net-worth-tax-corporations-faq",
+   "https://dor.georgia.gov/document/document/pt-440-financial-institutions-business-license-taxes/download"
+  ],
+  "error": ""
+ },
+ {
+  "state": "GA",
+  "section": "filing",
+  "notes": "### 1. Individual Return Due Dates & Extension Rules\n\n* **Due Date (Calendar-Year Filers):** April 15 of the following year (e.g., April 15, 2026 for tax year 2025; April 15, 2027 for tax year 2026). If the date falls on a weekend or state holiday, the deadline moves to the next business day.\n* **Extension to File:**\n  * Georgia grants an extension of up to **6 months** (to October 15).\n  * An approved federal extension (**IRS Form 4868**) is automatically accepted without requiring a separate state form.\n  * If a federal extension was not requested, taxpayers must submit **Form IT-303** (*Application for Extension of Time for Filing State Income Tax Returns*) on or before the statutory due date.\n* **Payment Rules During Extension:**\n  * An extension of time to file does **not** extend the time to pay.\n  * Any tax due must be remitted by the original statutory due date using **Form IT-560** (*Individual and Fiduciary Income Tax Payment Voucher*) to avoid interest and late payment penalties (assessed at 0.5% per month up to 25%).\n* **Applicability:** Tax years 2025 and 2026.\n* **Official Sources:**\n  * Georgia DOR Tax Due Dates: https://dor.georgia.gov/tax-due-dates\n  * Georgia DOR Requesting an Extension: https://dor.georgia.gov/requesting-extension\n  * Georgia DOR Form IT-303 Instructions: https://dor.georgia.gov/application-extension-time-filing-state-income-tax-returns\n\n---\n\n### 2. Corporate & Pass-Through Due Dates & Extension Rules\n\n* **C Corporations (Form 600):**\n  * **Statutory Due Date:** 15th day of the 4th month following the close of the tax year (April 15 for calendar-year filers).\n  * **Extension:** For tax years beginning on or after January 1, 2025, corporations receive **7 months** to file (to November 15 for calendar-year filers) if they obtain a federal extension (**IRS Form 7004**) or file Georgia **Form IT-303** (Georgia law provides one additional month beyond the 6-month federal extension).\n  * Payment must be remitted by the statutory due date with **Form IT-560C**.\n* **S Corporations (Form 600S):**\n  * **Statutory Due Date:** 15th day of the 3rd month following the close of the tax year (March 15 for calendar-year filers).\n  * **Extension:** Granted up to **7 months** (to October 15 for calendar-year filers) with an approved federal extension or Georgia **Form IT-303**. Payment must be remitted by the statutory due date using **Form IT-560C**.\n* **Partnerships / LLCs taxed as partnerships (Form 700):**\n  * **Statutory Due Date:** 15th day of the 3rd month following the close of the tax year (March 15 for calendar-year filers).\n  * **Extension:** Automatic **6-month extension** (to September 15 for calendar-year filers) with a federal extension (**Form 7004**) or state **Form IT-303**. Taxes must be prepaid by the statutory due date using **Form IT-560C**.\n* **Applicability:** Tax years 2025 and 2026 (7-month corporate extension effective for tax periods beginning on or after January 1, 2025).\n* **Official Sources:**\n  * Georgia DOR Corporate Income Tax Booklet: https://dor.georgia.gov/2025-it-611-corporate-income-tax-booklet\n  * Georgia DOR S Corporation Income Tax Booklet: https://dor.georgia.gov/georgia-s-corporation-income-tax-booklet\n  * Georgia DOR Partnership Income Tax Booklet: https://dor.georgia.gov/2025-it-711-partnership-income-tax-booklet\n\n---\n\n### 3. Elective Pass-Through Entity Tax (PTET)\n\n* **Existence:** Yes (enacted under HB 149; O.C.G.A. §§ 48-7-21 and 48-7-23). S Corporations and Partnerships (including LLCs taxed as partnerships) may make an annual election to pay tax at the entity level.\n* **Tax Rate:** By statute, the electing PTE rate matches the Georgia individual income tax rate for the corresponding tax year:\n  * **Tax Year 2025:** **5.19%**.\n  * **Tax Year 2026:** **4.99%** (rate reduced from 5.19% to 4.99% beginning January 1, 2026).\n* **How to Elect:**\n  * Check the designated election box on the return:\n    * S Corporations: Check *\"S Corporation elects to pay the tax at the entity level\"* on **Form 600S**.\n    * Partnerships: Check *\"Partnership elects to pay the tax at the entity level\"* on **Form 700**.\n* **When to Elect:**\n  * Must be made annually on or before the due date or extended due date of the entity's return.\n  * The election is irrevocable after the applicable due date passes.\n  * The election is binding on all owners, including nonresidents.\n* **Applicability:** Tax years 2025 and 2026 (rate decreased from 5.19% to 4.99%).\n* **Official Sources:**\n  * Georgia DOR HB 149 PTE Tax FAQ: https://dor.georgia.gov/hb-149-pass-through-entity-tax-faq\n  * Georgia DOR Taxes for Partnerships: https://dor.georgia.gov/taxes-partnerships\n  * Georgia DOR Important Tax Updates: https://dor.georgia.gov/important-tax-updates\n\n---\n\n### 4. Composite / Group Nonresident Returns for Pass-Through Entities\n\n* **Existence:** Pass-through entities may file a composite return on behalf of eligible nonresident members in lieu of nonresident withholding (Ga. Comp. R. & Regs. 560-7-8-.34).\n* **Return Form:** **Form IT-CR** (*Georgia Nonresident Composite Tax Return*).\n* **Due Date & Extensions:** Due date and extension deadlines are the same as for individual returns (April 15 for calendar-year filers; extension requested via Form IT-303 or federal extension).\n* **Interaction with Elective PTET:** If the entity elects to pay the PTE tax at the entity level, a composite return is **not** filed/required.\n* **Applicability:** Tax years 2025 and 2026.\n* **Official Sources:**\n  * Georgia DOR Form IT-CR: https://dor.georgia.gov/it-cr-georgia-nonresident-composite-tax-return\n  * Georgia DOR Regulation 560-7-8-.34: https://dor.georgia.gov/rules-department-revenue-chapter-560-7-income-tax-division-subject-560-7-4-net-taxable-income-individual\n\n---\n\n### 5. Estimated Taxes & Nonresident Withholding for Pass-Through Entities\n\n* **Estimated Tax Requirements:**\n  * **Electing PTET Entities:** Required to pay estimated taxes in the same manner as a C Corporation using **Form 602-ES** (or via the Georgia Tax Center) if net income for the tax year can reasonably be expected to exceed **$25,000**. Underpayment penalties are computed on **Form 600 UET**.\n  * **Composite Filers:** Estimated tax payments for composite returns are made using **Form CR-ES** (*Composite Return Estimated Tax*) following individual installment due dates.\n* **Nonresident Withholding (Non-Electing Entities):**\n  * Under O.C.G.A. § 48-7-129 and Rule 560-7-8-.34, partnerships, S corporations, and LLCs must withhold on each nonresident member's share of Georgia-sourced taxable income.\n  * **Rate:** **4%**.\n  * **De Minimis Exception:** Withholding is not required if the nonresident member's annual share of Georgia taxable income is less than **$1,000**.\n  * **Withholding Return & Payment:** Filed and paid using **Form G-7 NRW** (*Nonresident Withholding Return*).\n  * **Withholding Due Date:** Due on or before the statutory due date for filing the entity's income tax return, **without regard to extensions** (e.g., March 15 for calendar-year entities). Failure to timely pay incurs a **25% penalty** plus interest.\n  * **Exemptions from Withholding:** Members who file **Form NRW-Exemption** (partnerships/LLCs) or **Form 600S-CA** (S corporations) certifying agreement to pay Georgia tax directly; or if the entity pays elective PTET or includes the member on Form IT-CR.\n* **Applicability:** Tax years 2025 and 2026.\n* **Official Sources:**\n  * Georgia DOR Form G-7 NRW: https://dor.georgia.gov/g-7nrw-nonresident-withholding-return\n  * Georgia DOR Form CR-ES: https://dor.georgia.gov/cr-es-composite-return-estimated-tax\n  * Georgia DOR Partnership Income Tax Booklet: https://dor.georgia.gov/2025-it-711-partnership-income-tax-booklet\n\n---\n\n### 6. Main Return Forms\n\n* **Individual:**\n  * **Form 500** (*Individual Income Tax Return*).\n  * *(Note: Form 500-EZ was discontinued and is no longer accepted for tax years beginning on or after January 1, 2025)*.\n* **C Corporation:**\n  * **Form 600** (*Corporation Income Tax and Net Worth Tax Return*).\n* **S Corporation:**\n  * **Form 600S** (*S Corporation Income and Net Worth Tax Return*).\n* **Partnership / Multi-Member LLC:**\n  * **Form 700** (*Partnership Tax Return*).\n* **Composite Nonresident Return:**\n  * **Form IT-CR** (*Nonresident Composite Tax Return*).\n* **Nonresident Withholding Return:**\n  * **Form G-7 NRW** (*Nonresident Withholding Return*).\n* **Applicability:** Tax years 2025 and 2026.\n* **Official Sources:**\n  * Georgia DOR Individual Income Tax Forms: https://dor.georgia.gov/this-years-individual-income-tax-forms\n  * Georgia DOR Partnership Tax Forms: https://dor.georgia.gov/taxes-partnerships\n  * Georgia DOR Form IT-CR: https://dor.georgia.gov/it-cr-georgia-nonresident-composite-tax-return",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Individual income tax returns are due on April 15 for calendar-year filers, or the next business day if falling on a weekend or holiday. Georgia accepts an automatic 6-month extension to October 15 with federal Form 4868 or state Form IT-303, but any tax owed must be paid by April 15 with Form IT-560.",
+    "source_url": "https://dor.georgia.gov/tax-due-dates",
+    "evidence": [
+     "April 15",
+     "Form IT-303",
+     "Form 4868",
+     "Form IT-560"
+    ],
+    "accepted": false,
+    "reason": "figures not on dor.georgia.gov: ['303', '4868', '560', '6']; figures not on dor.georgia.gov: ['4868']; figures not on dor.georgia.gov: ['15', '4868']; figures not on dor.georgia.gov: ['15']; figures not on dor.georgia.gov: ['4868', '560', '6']; figures not on dor.georgia.gov: ['15', '6']; figures not on dor.georgia.gov: ['303', '4868']; figures not on dor.georgia.gov: ['15', '303', '4868', '6']; figures not on dor.georgia.gov: ['15', '303', '4868']; figures not on dor.georgia.gov: ['15', '303', ",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "For calendar-year filers, C corporations are due April 15 with a 7-month extension to November 15, S corporations are due March 15 with a 7-month extension to October 15, and partnerships are due March 15 with a 6-month extension to September 15. Extensions require federal Form 7004 or Georgia Form IT-303, with payments due by the statutory due date using Form IT-560C.",
+    "source_url": "https://dor.georgia.gov/2025-it-611-corporate-income-tax-booklet",
+    "evidence": [
+     "Form 600",
+     "Form 600S",
+     "Form 700",
+     "Form IT-560C"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://dor.georgia.gov/2025-it-611-corporate-income-tax-booklet; figures not on dor.georgia.gov: ['303', '560', '6', '7', '7004']; dates not on dor.georgia.gov: ['November 15', 'March 15', 'October 15', 'March 15']; figures not on dor.georgia.gov: ['15', '7004']; figures not on dor.georgia.gov: ['15', '7', '7004']; figures not on dor.georgia.gov: ['560', '6', '7', '7004']; figures not on dor.georgia.gov: ['15', '6', '7', '7004']; figures not on dor.georgia.gov: ['7004']; figures not",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2025
+    ],
+    "value": "Eligible partnerships and S corporations can make an annual irrevocable election to pay tax at the entity level at a rate of 5.19% for tax year 2025. The election is made on Form 600S or Form 700 on or before the return's due date or extended due date.",
+    "source_url": "https://dor.georgia.gov/hb-149-pass-through-entity-tax-faq",
+    "evidence": [
+     "entity level",
+     "5.19%",
+     "Form 600S",
+     "Form 700"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://dor.georgia.gov/document/document/2025-it-711-partnership-income-tax-booklet/download",
+    "matched_title": "2025 IT-711 Partnership Income Tax Booklet",
+    "matched_phrases": [
+     "entity level",
+     "5.19%",
+     "Form 700"
+    ],
+    "snippet": "ADDITIONAL INFORMA TION 19 2025 IT-711 Instructions Booklet PARTNERSHIPS THAT MUST FILE ESTIMATED TAX The tax rate is 5.19% A partnership that elects to pay tax at the pass-through entity level must make estimated tax payments in the same manner as a corporation and using the Form 602-ES."
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2026
+    ],
+    "value": "Eligible partnerships and S corporations can make an annual irrevocable election to pay tax at the entity level at a rate of 4.99% for tax year 2026. The election is made on Form 600S or Form 700 on or before the return's due date or extended due date.",
+    "source_url": "https://dor.georgia.gov/important-tax-updates",
+    "evidence": [
+     "entity level",
+     "4.99%",
+     "Form 600S",
+     "Form 700"
+    ],
+    "accepted": false,
+    "reason": "figures not on dor.georgia.gov: ['600', '700']; figures not on dor.georgia.gov: ['4.99', '600', '700']; figures not on dor.georgia.gov: ['4.99', '700']; figures not on dor.georgia.gov: ['2026', '4.99', '600']; figures not on dor.georgia.gov: ['2026', '4.99', '600', '700']; figures not on dor.georgia.gov: ['2026', '4.99', '700']; figures not on dor.georgia.gov: ['4.99']; figures not on dor.georgia.gov: ['2026', '4.99']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "composite",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Pass-through entities may file a composite return on Form IT-CR on behalf of eligible nonresident members, sharing the same April 15 statutory due date and extension rules as individual returns. A composite return is not filed or required if the entity elects into the pass-through entity tax.",
+    "source_url": "https://dor.georgia.gov/it-cr-georgia-nonresident-composite-tax-return",
+    "evidence": [
+     "Form IT-CR",
+     "Nonresident Composite Tax Return",
+     "Form IT-303"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://dor.georgia.gov/document/document/subjects-560-7-4-and-560-7-8-no-redlinespdf/download",
+    "matched_title": "Subject 560-7-4 and Subject 560-7-8",
+    "matched_phrases": [
+     "Form IT-CR",
+     "Form IT-303"
+    ],
+    "snippet": "In lieu of withholding, the entity may elect to file a composite income tax return for one or all of its nonresident members using Form IT-CR."
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Electing pass-through entities must pay estimated taxes using Form 602-ES if net income is expected to exceed $25,000, while composite filers use Form CR-ES. Non-electing entities must withhold at a 4% rate on each nonresident member's Georgia taxable income exceeding $1,000, remitted on Form G-7 NRW by the entity's return due date without extensions.",
+    "source_url": "https://dor.georgia.gov/g-7nrw-nonresident-withholding-return",
+    "evidence": [
+     "Form 602-ES",
+     "Form G-7 NRW",
+     "Form CR-ES",
+     "4%"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://dor.georgia.gov/document/document/2025-it-711-partnership-income-tax-booklet/download",
+    "matched_title": "2025 IT-711 Partnership Income Tax Booklet",
+    "matched_phrases": [
+     "Form 602-ES",
+     "4%"
+    ],
+    "snippet": "ADDITIONAL INFORMA TION 19 2025 IT-711 Instructions Booklet PARTNERSHIPS THAT MUST FILE ESTIMATED TAX The tax rate is 5.19% A partnership that elects to pay tax at the pass-through entity level must make estimated tax payments in the same manner as a corporation and using the Form 602-ES."
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Key returns include Form 500 for individuals, Form 600 for C corporations, Form 600S for S corporations, and Form 700 for partnerships. Nonresident filings use Form IT-CR for composite returns and Form G-7 NRW for nonresident withholding.",
+    "source_url": "https://dor.georgia.gov/this-years-individual-income-tax-forms",
+    "evidence": [
+     "Form 500",
+     "Form 600",
+     "Form 600S",
+     "Form 700"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://dor.georgia.gov/hb-149-pass-through-entity-tax-faq",
+    "matched_title": "HB 149 Pass-Through Entity Tax FAQ | Department of Revenue",
+    "matched_phrases": [
+     "Form 500",
+     "Form 600",
+     "Form 600S",
+     "Form 700"
+    ],
+    "snippet": "However, if the owners have made estimated payments or otherwise have credits or other attributes that would reduce their liability, the entity may check the \"UET Annualization Exception Attached\" box on the Form 600S or Form 700 and compute the penalty on Form 600 UET as if the entity had made such payments or applied such credits or attributes."
+   }
+  ],
+  "grounding_urls": [
+   "https://dor.georgia.gov/taxes/important-tax-updates",
+   "https://dor.georgia.gov/taxes/tax-faqs-due-dates-and-other-resources/tax-due-dates",
+   "https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download",
+   "https://dor.georgia.gov/document/form/tsdapplicationforextensionoftimeforfilingstateincometaxreturnsit303-2pdf/download",
+   "https://dor.georgia.gov/requesting-extension",
+   "https://dor.georgia.gov/press-releases/2023-10-06/dor-reminds-taxpayers-extension-deadline",
+   "https://dor.georgia.gov/taxes/years-individual-income-tax-forms",
+   "https://dor.georgia.gov/press-releases/2023-10-06/dor-reminds-taxpayers-extension-deadline",
+   "https://dor.georgia.gov/c-corporations-faq",
+   "https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download",
+   "https://dor.georgia.gov/document/document/2025-it-611s-s-corporation-income-tax-booklet/download",
+   "https://dor.georgia.gov/net-worth-tax-corporations-faq",
+   "https://dor.georgia.gov/document/document/2024-it-611s-s-corporation-income-tax-booklet/download",
+   "https://dor.georgia.gov/document/document/2025-it-711-partnership-income-tax-booklet/download",
+   "https://dor.georgia.gov/hb-149-pass-through-entity-tax-faq",
+   "https://dor.georgia.gov/document/document/2025-qualified-education-expense-tax-credit-cap-status-3-24-2025pdf/download",
+   "https://dor.georgia.gov/taxes/taxes-partnerships",
+   "https://dor.georgia.gov/document/document/2025-it-611s-s-corporation-income-tax-booklet/download",
+   "https://dor.georgia.gov/document/document/2023-it-611s-s-corporation-income-tax-booklet/download",
+   "https://dor.georgia.gov/document/document/2024-700-partnership-tax-return-blank-form-printing/download",
+   "https://dor.georgia.gov/hb-149-pass-through-entity-tax-faq",
+   "https://dor.georgia.gov/document/document/2025-it-711-partnership-income-tax-booklet/download",
+   "https://dor.georgia.gov/document/document/subjects-560-7-4-and-560-7-8-no-redlinespdf/download",
+   "https://dor.georgia.gov/document/document/itd-2026-001-regulation-packet-redlinedpdf/download",
+   "https://dor.georgia.gov/cr-es-composite-return-estimated-tax",
+   "https://dor.georgia.gov/document/document/itd-2026-001-regulation-packet-redlinedpdf/download",
+   "https://dor.georgia.gov/it-cr-georgia-nonresident-composite-tax-return",
+   "https://dor.georgia.gov/document/document/subjects-560-7-4-and-560-7-8-no-redlinespdf/download",
+   "https://dor.georgia.gov/document/document/beginning-or-after-january-1-2025-600-uet-underpayment-estimated-tax/download",
+   "https://dor.georgia.gov/g-7nrw-nonresident-withholding-return",
+   "https://dor.georgia.gov/document/document/2025-it-711-partnership-income-tax-booklet/download",
+   "https://dor.georgia.gov/document/document/subjects-560-7-4-and-560-7-8-no-redlinespdf/download",
+   "https://dor.georgia.gov/document/document/2025-it-711-partnership-income-tax-booklet/download",
+   "https://dor.georgia.gov/document/form/tsdnonresidentwithholdingquarterlyreturng7nrwpdf/download",
+   "https://dor.georgia.gov/document/form/tsdnonresidentwithholdingquarterlyreturng7nrwpdf/download",
+   "https://dor.georgia.gov/document/form/nrw-exemption/download"
+  ],
+  "error": ""
+ }
+]

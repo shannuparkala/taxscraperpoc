@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="theme-color" content="#080c14" />
+    <title>TaxScraper — Tax Automation Platform</title>
+    <!-- Resolve the theme before first paint, or the page flashes the wrong
+         canvas on every load. The design is dark-first: dark unless the user
+         has chosen light. Must stay in sync with hooks/useTheme.ts. -->
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('taxscraper_theme');
+          document.documentElement.dataset.theme = stored === 'light' ? 'light' : 'dark';
+        } catch (e) {
+          document.documentElement.dataset.theme = 'dark';
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

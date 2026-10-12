@@ -1,0 +1,148 @@
+{
+  "code": "CT",
+  "name": "Connecticut",
+  "sections": {
+    "apportionment": {
+      "fields": [
+        {
+          "key": "sourcing",
+          "label": "Sales sourcing (services and intangibles)",
+          "value": "Connecticut mandates market-based sourcing for gross receipts from services and intangibles. Receipts from services or the rental, lease, license, or sale of intangibles are sourced to Connecticut if and to the extent the service or property is used at a location in the state.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://portal.ct.gov/drs/legislative-summaries/2016-legislative-update/2016-legislative-summary",
+          "source_citation": "2016 Legislative Summary",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Beginning with the 2017 tax year, pass-through entities and other filers subject to the income tax will use single sales factor apportionment with market based sourcing to compute their liability."
+        },
+        {
+          "key": "special_industries",
+          "label": "Special industry rules",
+          "value": "Special apportionment formulas apply to air carriers, motor bus and motor carrier companies, broadcasters and production entities, financial service companies, services to regulated investment companies, credit card companies, and securities brokerage services.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://portal.ct.gov/drs/corporation-tax/tax-information",
+          "source_citation": "Corporation Welcome Page",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Air Carriers Broadcasters and Production Entities Credit Card Companies Financial Service Companies Limited Partners Manufacturing Companies Motor Bus and Motor Carrier Companies Security Brokerage Companies Income from Services to Regulated Investment Companies."
+        },
+        {
+          "key": "forms",
+          "label": "Forms",
+          "value": "General separate filers use Form CT-1120A, and combined unitary filers complete Form CT-1120A-CU. Special industries compute apportionment using specific schedules such as Forms CT-1120A-A, CT-1120 A-BMC, CT-1120 A-BPE, and CT-1120 A-FS.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://portal.ct.gov/drs/corporation-tax/tax-information",
+          "source_citation": "Corporation Welcome Page",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Use Form CT-1120A-CU , Apportionment Computation for Combined Unitary Filers for more information."
+        }
+      ]
+    },
+    "nexus": {
+      "fields": [
+        {
+          "key": "sales_economic_nexus",
+          "label": "Sales/use tax: economic nexus",
+          "value": "An out-of-state retailer must collect sales and use tax if it has both 200 or more retail sales into Connecticut and at least $100,000 in gross receipts from sales into the state. This is determined over the 12-month period ending on September 30 immediately preceding the monthly or quarterly tax period.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://portal.ct.gov/drs/businesses/new-business-resource-center/registering-with-drs",
+          "source_citation": "Registering with DRS",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "200 or more retail sales into Connecticut and has at least $100,000 in gross receipts from sales into Connecticut."
+        },
+        {
+          "key": "pl_86_272",
+          "label": "P.L. 86-272",
+          "value": "Connecticut recognizes Public Law 86-272 as restricting the imposition of net income tax when in-state activity is limited to soliciting orders for sales of tangible personal property. However, it does not apply to non-net income taxes, leaving immune corporations subject to the Corporation Business Tax assessed on the capital base.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://portal.ct.gov/drs/publications/informational-publications/2010/ip-2010291-q--a-on-economic-nexus?archived=true",
+          "source_citation": "IP 2010291 Q A on Economic Nexus",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Does federal Public Law 86-272 provide protection to businesses that have economic nexus in Connecticut against Connecticut taxation? Yes."
+        }
+      ]
+    },
+    "rates": {
+      "fields": [
+        {
+          "key": "corporate",
+          "label": "Corporate income/franchise tax",
+          "value": "The corporate business tax net income base rate is 7.5% with a minimum tax of $250, and corporations pay the higher of the net income base or capital base tax. A 10% surtax applies to corporations with federal gross income equal to or exceeding $100 million or those filing as part of a combined unitary group.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://portal.ct.gov/drs/corporation-tax/tax-information",
+          "source_citation": "Corporation Welcome Page",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Net Income Base Tax Capital Base Tax Companies whose total income reported on line 11 of federal Form 1120 equals or exceeds $100 million, or who file as part of a combined unitary group must pay a surtax of 10% of the tax without regard to credits and tax credit recapture."
+        },
+        {
+          "key": "sales",
+          "label": "Sales and use tax",
+          "value": "The statewide general sales and use tax rate is 6.35%, and no local jurisdictions add sales taxes. Special rates include 1% for computer and data processing services, 2.99% for vessels, 7.75% for luxury items, and 9.35% for short-term passenger motor vehicle rentals.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://portal.ct.gov/drs/sales-tax/tax-information",
+          "source_citation": "Tax Information",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Tax Rates The sales tax rate of 6.35% applies to the retail sale, lease, or rental of most goods (including digital goods, which are described in Special Notice 2019(8) , Sales and Use Taxes on Digital Goods and Canned or Prewritten Software ) and taxable services."
+        }
+      ]
+    },
+    "filing": {
+      "fields": [
+        {
+          "key": "composite",
+          "label": "Composite returns",
+          "value": "Pass-through entities doing business in Connecticut or with Connecticut-sourced income must file Form CT-1065/CT-1120SI and remit composite payments on behalf of nonresident noncorporate members. Group nonresident returns under Form CT-G have been discontinued.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://portal.ct.gov/drs/taxes/composite-income-tax/tax-information",
+          "source_citation": "Tax Information",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Electing to file Form CT-PET, Pass-Through Entity Tax Return The entity may elect to file Form CT-PET , Connecticut Pass-Through Entity Tax Return, in addition to Form CT-1065/CT-1120SI , Connecticut Composite Income Tax Return, by checking the box at the bottom of the first page of Form CT-1065/CT-1120SI and filing Form CT‑PET."
+        },
+        {
+          "key": "key_forms",
+          "label": "Key forms",
+          "value": "Primary individual tax forms are Form CT-1040 and Form CT-1040NR/PY. Primary corporate returns include Form CT-1120 and Form CT-1120CU, while pass-through returns include Form CT-1065/CT-1120SI and Form CT-PET.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://portal.ct.gov/drs/electronic/fed-and-state-electronic-filing",
+          "source_citation": "Fed and State Electronic Filing",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Form CT ‑ 1040 , Connecticut Resident Income Tax Return ;"
+        }
+      ]
+    }
+  }
+}

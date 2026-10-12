@@ -1,0 +1,120 @@
+{
+ "_comment": "Asset classes offered by the calculator. recovery_years is the GDS recovery period; method is the GDS method the percentage tables embody; table_family picks the Pub. 946 table set; ads_years is used for listed property at 50% or less business use. Every entry is traceable to Pub. 946.",
+ "version": "2026.10.05",
+ "classes": {
+  "computers": {
+   "label": "Computers and office equipment",
+   "recovery_years": "5", "method": "200DB", "table_family": "gds",
+   "section_179_eligible": true, "bonus_eligible": true, "listed": false, "real_property": false,
+   "form_class": "5",
+   "note": "Computers and peripheral equipment (asset class 00.12) and office machinery such as copiers and calculators.",
+   "source_url": "https://www.irs.gov/pub/irs-pdf/p946.pdf",
+   "source_citation": "IRS Pub. 946 (2025), ch. 4 '5-year property' (d. office machinery) and Appendix B, Table B-1, asset class 00.12",
+   "last_verified": "2026-10-05", "verified": true
+  },
+  "furniture": {
+   "label": "Office furniture and fixtures",
+   "recovery_years": "7", "method": "200DB", "table_family": "gds",
+   "section_179_eligible": true, "bonus_eligible": true, "listed": false, "real_property": false,
+   "form_class": "7",
+   "note": "Desks, files, safes and similar (asset class 00.11). Furniture used in a residential rental activity is 5-year property - choose 'Other' with 5 years.",
+   "source_url": "https://www.irs.gov/pub/irs-pdf/p946.pdf",
+   "source_citation": "IRS Pub. 946 (2025), ch. 4 '7-year property' (a. office furniture and fixtures)",
+   "last_verified": "2026-10-05", "verified": true
+  },
+  "machinery": {
+   "label": "Machinery and equipment",
+   "recovery_years": "7", "method": "200DB", "table_family": "gds",
+   "section_179_eligible": true, "bonus_eligible": true, "listed": false, "real_property": false,
+   "form_class": "7",
+   "note": "Seven years is the class for property with no class life and for most general business equipment. Some industries' machinery has a different class life (Pub. 946 Table B-2) - use 'Other' if yours does.",
+   "source_url": "https://www.irs.gov/pub/irs-pdf/p946.pdf",
+   "source_citation": "IRS Pub. 946 (2025), ch. 4 '7-year property' (d. property without a class life) and Appendix B",
+   "last_verified": "2026-10-05", "verified": true
+  },
+  "qip": {
+   "label": "Qualified improvement property",
+   "recovery_years": "15", "method": "SL", "table_family": "sl",
+   "section_179_eligible": true, "bonus_eligible": true, "listed": false, "real_property": false,
+   "form_class": "15",
+   "note": "Interior improvements to nonresidential buildings placed in service after the building, excluding enlargements, elevators/escalators and the internal structural framework. 15-year straight line.",
+   "source_url": "https://www.irs.gov/pub/irs-pdf/p946.pdf",
+   "source_citation": "IRS Pub. 946 (2025), ch. 4 '15-year property' (h.) and Table 4-1 (GDS using SL: qualified improvement property); IRC 179(f)",
+   "last_verified": "2026-10-05", "verified": true
+  },
+  "passenger_vehicle": {
+   "label": "Passenger vehicle (6,000 lb GVWR or less)",
+   "recovery_years": "5", "method": "200DB", "table_family": "gds",
+   "section_179_eligible": true, "bonus_eligible": true, "listed": true, "real_property": false,
+   "luxury_auto_caps": true, "ads_years": "5",
+   "form_class": "5",
+   "note": "Listed property subject to the section 280F annual depreciation limits.",
+   "source_url": "https://www.irs.gov/pub/irs-pdf/p946.pdf",
+   "source_citation": "IRS Pub. 946 (2025), ch. 4 '5-year property' (a. automobiles) and ch. 5 (passenger automobile: 6,000 pounds or less GVWR)",
+   "last_verified": "2026-10-05", "verified": true
+  },
+  "heavy_vehicle": {
+   "label": "Heavy SUV, truck or van (over 6,000 lb GVWR)",
+   "recovery_years": "5", "method": "200DB", "table_family": "gds",
+   "section_179_eligible": true, "bonus_eligible": true, "listed": true, "real_property": false,
+   "luxury_auto_caps": false, "suv_cap": true, "ads_years": "5",
+   "form_class": "5",
+   "note": "Not subject to the 280F limits, but an SUV rated 6,001-14,000 lb has a separate section 179 cap unless it seats more than nine behind the driver, has a cargo bed of at least six feet not readily accessible from the passenger area, or is a cargo van without seating rearward of the driver.",
+   "source_url": "https://www.irs.gov/pub/irs-pdf/i4562.pdf",
+   "source_citation": "Instructions for Form 4562, Part I, 'Section 179 deduction for SUVs'; IRC 179(b)(5); IRS Pub. 946 ch. 5",
+   "last_verified": "2026-10-05", "verified": true
+  },
+  "residential_rental": {
+   "label": "Residential rental building",
+   "recovery_years": "27.5", "method": "SL", "table_family": "residential_mm",
+   "section_179_eligible": false, "bonus_eligible": false, "listed": false, "real_property": true,
+   "form_class": "27.5",
+   "note": "A building where 80% or more of gross rental income is from dwelling units. Mid-month convention, straight line. Land is never depreciable.",
+   "source_url": "https://www.irs.gov/pub/irs-pdf/p946.pdf",
+   "source_citation": "IRS Pub. 946 (2025), ch. 4 '8. Residential rental property' and Appendix A, Table A-6",
+   "last_verified": "2026-10-05", "verified": true
+  },
+  "nonresidential": {
+   "label": "Nonresidential building",
+   "recovery_years": "39", "method": "SL", "table_family": "nonresidential_mm",
+   "section_179_eligible": false, "bonus_eligible": false, "listed": false, "real_property": true,
+   "form_class": "39",
+   "note": "Office buildings, stores, warehouses. Mid-month convention, straight line over 39 years. Land is never depreciable.",
+   "source_url": "https://www.irs.gov/pub/irs-pdf/p946.pdf",
+   "source_citation": "IRS Pub. 946 (2025), ch. 4 '9. Nonresidential real property' and Appendix A, Table A-7a",
+   "last_verified": "2026-10-05", "verified": true
+  },
+  "land_improvements": {
+   "label": "Land improvements",
+   "recovery_years": "15", "method": "150DB", "table_family": "gds",
+   "section_179_eligible": false, "bonus_eligible": true, "listed": false, "real_property": false,
+   "form_class": "15",
+   "note": "Fences, roads, sidewalks, parking lots, shrubbery. 15-year, 150% declining balance. Not section 179 property (section 1250 property).",
+   "source_url": "https://www.irs.gov/pub/irs-pdf/p946.pdf",
+   "source_citation": "IRS Pub. 946 (2025), ch. 4 '15-year property' (a.) and Table 4-1 (GDS using 150% DB: all 15-year property)",
+   "last_verified": "2026-10-05", "verified": true
+  },
+  "qualified_production": {
+   "label": "Qualified production property (Sec. 168(n))",
+   "recovery_years": "39", "method": "SL", "table_family": "nonresidential_mm",
+   "section_179_eligible": false, "bonus_eligible": false, "listed": false, "real_property": true,
+   "qpp": true,
+   "form_class": "39",
+   "note": "The production portion of a nonresidential building. If you elect section 168(n) and the construction and placed-in-service dates qualify, 100% of the designated basis is deductible in the first year; otherwise it is ordinary 39-year property.",
+   "source_url": "https://www.irs.gov/pub/irs-drop/n-26-16.pdf",
+   "source_citation": "Notice 2026-16; IRC 168(n); IRS Pub. 946 (2025) Table A-7a for the non-elected basis",
+   "last_verified": "2026-10-05", "verified": true
+  },
+  "other": {
+   "label": "Other (choose the recovery period)",
+   "recovery_years": null, "allowed_recovery_years": ["3", "5", "7", "10", "15", "20"],
+   "method": "200DB for 3-10 years, 150DB for 15-20 years", "table_family": "gds",
+   "section_179_eligible": true, "bonus_eligible": true, "listed": false, "real_property": false,
+   "form_class": null,
+   "note": "Tangible personal property with a recovery period you have determined from Pub. 946 Appendix B.",
+   "source_url": "https://www.irs.gov/pub/irs-pdf/p946.pdf",
+   "source_citation": "IRS Pub. 946 (2025), ch. 4 'Which Property Class Applies Under GDS?' and Table 4-1",
+   "last_verified": "2026-10-05", "verified": true
+  }
+ }
+}

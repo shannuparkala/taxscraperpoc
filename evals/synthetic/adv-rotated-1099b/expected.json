@@ -1,0 +1,33 @@
+{
+  "id": "adv-rotated-1099b",
+  "tax_year": 2025,
+  "kind": "adversarial",
+  "source": {
+    "workpaper": "synthetic:rotated-1099b",
+    "filed_return": "none - invented"
+  },
+  "inputs": [
+    {
+      "field": "wages",
+      "amount": "52340.00",
+      "verified": true
+    },
+    {
+      "field": "federal_withheld_w2",
+      "amount": "6120.00",
+      "verified": true
+    }
+  ],
+  "lines": [],
+  "expected_flags": [
+    {
+      "kind": "layout_warning",
+      "match": "rotated"
+    },
+    {
+      "kind": "unplaced",
+      "field": "short_term_gain"
+    }
+  ],
+  "notes": "Trap 12: a 1099-B page turned 90 degrees with /Rotate 0 and no text layer. The page must be read (the gain reaches extraction, where it is unplaced because the graph needs the Form 8949 box) and the rotation must be recorded. The unplaced flag is the evidence the turned page was read."
+}

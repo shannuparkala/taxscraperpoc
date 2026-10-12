@@ -1,0 +1,197 @@
+{
+  "code": "NY",
+  "name": "New York",
+  "sections": {
+    "apportionment": {
+      "fields": [
+        {
+          "key": "method",
+          "label": "Apportionment method",
+          "value": "New York State uses a single receipts factor (100% sales factor) to apportion business income and capital. The business apportionment factor fraction consists of New York State receipts, net income, and net gains divided by everywhere receipts, net income, and net gains.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.tax.ny.gov/forms/current-forms/ct/ct3i.htm",
+          "source_citation": "2025 Form CT-3-I, Instructions for Form CT-3",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "If you fail to properly complete Part 6 , we may impose a 100% business apportionment factor."
+        },
+        {
+          "key": "sourcing",
+          "label": "Sales sourcing (services and intangibles)",
+          "value": "New York requires market-based sourcing for receipts from services and intangibles. Services are sourced starting with where the benefit is received, while receipts from intangibles and digital products are sourced based on where the property is used or the customer's primary use location.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.tax.ny.gov/forms/html-instructions/2023/ct/ct3ai-2023.htm",
+          "source_citation": "Instructions for Form CT-3-A",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Receipts from sale of, license to use, or granting of remote access to digital products Line 7 For Article 9-A apportionment purposes, the term digital product generally means any property or service, or combination thereof, of whatever nature delivered to the purchaser through the use of wire, cable, fiber-optic, laser, microwave, radio wave, satellite or similar successor media, or any combination of these."
+        },
+        {
+          "key": "special_industries",
+          "label": "Special industry rules",
+          "value": "Special rules apply to railroad, trucking, and omnibus businesses (revenue miles), vessels (working days), aviation, pipeline gas transmission, financial transactions and broker-dealers, and publishing and broadcasting. Qualified financial instruments can also elect an 8% fixed percentage method.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.tax.ny.gov/forms/html-instructions/2023/ct/ct3ai-2023.htm",
+          "source_citation": "Instructions for Form CT-3-A",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Qualified financial instruments and the 8% fixed percentage method Line 8 For taxpayers other than non-captive real estate investment trusts and non-captive regulated investment companies A qualified financial instrument means a financial instrument of the following types that is marked to market in the tax year by the taxpayer under IRC § 475 or § 1256:"
+        },
+        {
+          "key": "forms",
+          "label": "Forms",
+          "value": "Corporate apportionment is computed on Form CT-3, Part 6 for separate C corporations, Form CT-3-A, Part 6 for combined groups, and Form CT-3-S, Part 3 for S corporations. Metropolitan Transportation Business Tax surcharge filers use Form CT-3-M, Part 6.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.tax.ny.gov/forms/current-forms/ct/ct3i.htm",
+          "source_citation": "2025 Form CT-3-I, Instructions for Form CT-3",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "If you have no receipts required to be included in the denominator of the apportionment factor, you must mark the box at the beginning of Form CT-3, Part 6 , Calculation of business apportionment factor ."
+        }
+      ]
+    },
+    "nexus": {
+      "fields": [
+        {
+          "key": "sales_economic_nexus",
+          "label": "Sales/use tax: economic nexus",
+          "value": "An out-of-state seller must register as a sales tax vendor if cumulative gross receipts from sales of tangible personal property delivered into New York State exceed $500,000 and the business conducts more than 100 sales of tangible personal property delivered into the state. This threshold is evaluated over the immediately preceding four sales tax quarters.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.tax.ny.gov/pubs_and_bulls/publications/sales/nexus.htm",
+          "source_citation": "Registration requirement for businesses with no physical presence in New York State",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Information How does a business determine if it meets the registration requirements? To determine if you are required to register, see if you had more than $500,000 in sales of tangible personal property delivered in the state and conducted more than 100 sales of tangible personal property delivered in the state in the immediately preceding four sales tax quarters."
+        },
+        {
+          "key": "pl_86_272",
+          "label": "P.L. 86-272",
+          "value": "A foreign corporation is exempt from Article 9-A franchise tax if its activities are limited to the solicitation of orders for sales of tangible personal property filled from outside New York, and it is not required to file Form CT-3 if it exceeds the economic nexus threshold solely through protected activities. However, interactive online activities with New York customers beyond solicitation forfeit P.L. 86-272 protection.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.tax.ny.gov/bus/ct/common-filing-errors.htm",
+          "source_citation": "Tax tips for avoiding common filing errors for general business corporations",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Tips for foreign corporations and corporate partners Public Law (PL) 86-272 foreign corporations are exempt from the corporate franchise tax Foreign corporations that are not part of a combined group that are disclaiming tax liability in NYS based on PL 86-272 are not required to file Form CT-3 or pay tax on any base under the corporate franchise tax, including the fixed dollar minimum tax or file any other form."
+        }
+      ]
+    },
+    "rates": {
+      "fields": [
+        {
+          "key": "individual",
+          "label": "Individual income tax",
+          "value": "Personal income tax rate schedules were revised for middle-class rate reductions effective January 1, 2026, under Chapter 59 of the Laws of 2025. The supplemental wage withholding rate is 11.70%.",
+          "years": [
+            2026
+          ],
+          "source_url": "https://www.tax.ny.gov/pdf/publications/withholding/nys50_t_nys.pdf",
+          "source_citation": "Form NYS-50-T-NYS New York State Withholding Tax Tables and Methods Revised 1/26",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "518-457-5431 Text Telephone (TTY) or TDD Dial 7-1-1 for the equipment users New York Relay Service NYS-50-T-NYS (1/26) Page 3 of 23 Important information General changes for 2026 The 2026 New York State personal income tax rate schedules have been revised to reflect certain income tax rate reductions enacted under Chapter 59 of the Laws of 2025 (Part A)."
+        },
+        {
+          "key": "corporate",
+          "label": "Corporate income/franchise tax",
+          "value": "General business corporations pay 6.50% on business income, or 7.25% if the income base exceeds $5,000,000 (0.00% for qualified manufacturers and 4.875% for QETCs), alongside a 0.1875% capital base tax. A receipts-based fixed dollar minimum tax ranges from $25 to $200,000.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.tax.ny.gov/forms/html-instructions/2022/ct/ct3i-2022.htm",
+          "source_citation": "Instructions for Form CT-3",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Tax rates schedule Tax rates schedule Business income base Tax rates Qualified New York manufacturers .00 Qualified emerging technology companies .04875 General business taxpayers with a business income base of more than $5,000,000 .0725 All other general business taxpayers .065 Capital base Tax rates Qualified New York manufacturers, qualified emerging technology companies, cooperative housing corporations, and small business taxpayers .00 All other general business taxpayers .001875 Fixed doll"
+        },
+        {
+          "key": "sales",
+          "label": "Sales and use tax",
+          "value": "The state sales and use tax rate is 4.00%, with local jurisdictions adding local sales and use taxes. An additional 0.375% applies within the Metropolitan Commuter Transportation District.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.tax.ny.gov/bus/st/rates.htm",
+          "source_citation": "Find sales tax rates",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "JURISDICTION/RATE LOOKUP BY ADDRESS Sales tax rates The combined sales and use tax rate equals the state rate (currently 4%) plus any local tax rate imposed by a city, county, or school district."
+        }
+      ]
+    },
+    "filing": {
+      "fields": [
+        {
+          "key": "individual_due",
+          "label": "Individual due date and extension",
+          "value": "Individual returns for calendar-year filers are due on or before April 15. Taxpayers can receive an automatic six-month extension to October 15 by filing Form IT-370 with full payment of estimated tax on or before the due date.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.tax.ny.gov/forms/current-forms/it/it370i.htm",
+          "source_citation": "2025 Form IT-370-I, Instructions for IT-370",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "If you are required to file Form Y-203 , Yonkers Nonresident Earnings Tax Return , we will automatically extend the time to file when you file Form IT-370."
+        },
+        {
+          "key": "ptet",
+          "label": "Pass-through entity tax (PTET)",
+          "value": "Available as an annual election made online between January 1 and March 15 (next business day if March 15 is a weekend or legal holiday). Eligible: partnerships and New York S corporations; not sole proprietorships, trusts, non-profit corporations or other corporations. The election is irrevocable after the due date and may be revoked until the due date of the first estimated payment.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.tax.ny.gov/bus/ptet/",
+          "source_citation": "New York State Department of Taxation and Finance, Pass-through entity tax (PTET)",
+          "last_verified": "2026-10-07"
+        },
+        {
+          "key": "estimates",
+          "label": "Withholding and estimated payments",
+          "value": "Partnerships and NY S corporations must make quarterly estimated payments for nonresidents on Forms IT-2658 and CT-2658, due April 15, June 15, September 15, and January 15, unless the partner's estimated tax is $300 or less or an exemption is filed. Electing PTET entities pay quarterly installments on March 15, June 15, September 15, and December 15 totaling the lesser of 90% of the current year PTET or 100% of the prior year PTET.",
+          "years": [
+            2026
+          ],
+          "source_url": "https://www.tax.ny.gov/pdf/current_forms/ct/ct2658i.pdf",
+          "source_citation": "Instructions for Form CT-2658, Report of Estimated Tax for Corporate Partners Tax Year 2026",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Estimated tax payments are not required for any partner whose New York State estimated tax required to be paid for the tax year by the partnership is $300 or less."
+        },
+        {
+          "key": "key_forms",
+          "label": "Key forms",
+          "value": "Primary individual forms include Form IT-201 and Form IT-203. Corporate returns use Form CT-3, Form CT-3-A, or Form CT-3-S, while partnerships file Form IT-204 and Form IT-204-LL.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.tax.ny.gov/bus/ptet/faq.htm",
+          "source_citation": "Frequently asked questions about the pass-through entity tax (PTET)",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "The nonresident partners must file individual New York State personal income tax returns (Form IT-203, Nonresident and Part-Year Resident Income Tax Return ) to claim the PTET credit."
+        }
+      ]
+    }
+  }
+}

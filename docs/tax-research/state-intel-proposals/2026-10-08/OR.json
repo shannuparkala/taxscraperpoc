@@ -1,0 +1,316 @@
+[
+ {
+  "state": "OR",
+  "section": "apportionment",
+  "notes": "### 1. Apportionment Formula for Multistate Business Income\n\n* **Statutory Formula:** Multistate business income is apportioned to Oregon using a **single sales factor** formula. Apportionable income is apportioned by multiplying the income by the sales factor, which is Oregon sales and other receipts divided by total sales and other receipts everywhere.\n* **Alternative Formula for Utilities/Telecommunications:** Taxpayers primarily engaged in utilities or telecommunications may elect an alternative double-weighted sales factor formula: 50 percent of the sales factor plus 25 percent of the property factor plus 25 percent of the payroll factor.\n* **Applicable Tax Years:** Applies to both tax year 2025 and tax year 2026 (no changes between them).\n* **Official URLs:** \n  * Oregon Revised Statutes: https://www.oregonlegislature.gov/bills_laws/ors/ors314.html (ORS 314.650 and ORS 314.280)\n  * Oregon Department of Revenue: https://www.oregon.gov/dor/forms/FormsPubs/schedule-or-ap-instructions_150-102-171-1_2025.pdf\n\n---\n\n### 2. Sourcing Method for Receipts from Services and Intangibles\n\n* **Method:** Oregon uses **market-based sourcing**. \n  * Under ORS 314.665(4), receipts other than sales of tangible personal property are Oregon sales if the taxpayer's market for the sales is in Oregon as determined under ORS 314.666.\n  * **Services:** Sourced to Oregon if and to the extent the service is delivered to a location in Oregon (ORS 314.666(1)(c)).\n  * **Intangibles:** \n    * Rental, lease, or license of intangible property is sourced to Oregon if and to the extent the property is used in Oregon (ORS 314.666(2)). Intangible property utilized in marketing a good or service to a consumer is deemed used in Oregon if that good or service is purchased by a consumer in Oregon.\n    * Sale of intangible property is sourced to Oregon if and to the extent the property is used in Oregon. If receipts are dependent on productivity, use, or disposition, they are sourced as a license.\n* **Applicable Tax Years:** Applies to both tax year 2025 and tax year 2026 (no changes between them).\n* **Official URL:** \n  * Oregon Revised Statutes: https://www.oregonlegislature.gov/bills_laws/ors/ors314.html (ORS 314.665 and ORS 314.666)\n\n---\n\n### 3. Industries with Their Own Apportionment Formula\n\nOregon statutes and administrative rules prescribe industry-specific apportionment methods for the following industries:\n\n* **Utilities and Telecommunications:** Under ORS 314.280 and ORS 314.650, taxpayers primarily engaged in utilities or telecommunications may elect to apportion business income using a formula of 50 percent sales factor, 25 percent property factor, and 25 percent payroll factor.\n* **Financial Institutions:** Governed separately under ORS 314.280 and Oregon Administrative Rules (e.g., OAR 150-314-0088 and 150-314-0089) using industry-specific factor calculations.\n* **Insurance Companies / Insurers:** Under ORS 317.660, an insurer’s net income is apportioned using a direct insurance sales factor, where the numerator is direct premiums written in Oregon and the denominator is direct premiums everywhere (excluding reinsurance accepted and without deduction of reinsurance ceded).\n* **Broadcasting:** Under ORS 314.665, broadcasting sales are sourced to Oregon based on the ratio of the broadcaster's audience or subscribers in Oregon relative to total audience or subscribers everywhere (or by population ratio if subscriber data is unavailable).\n* **Applicable Tax Years:** Applies to both tax year 2025 and tax year 2026 (no changes between them).\n* **Official URLs:** \n  * ORS Chapter 314: https://www.oregonlegislature.gov/bills_laws/ors/ors314.html (ORS 314.280, ORS 314.650, ORS 314.665)\n  * ORS Chapter 317: https://www.oregonlegislature.gov/bills_laws/ors/ors317.html (ORS 317.660)\n\n---\n\n### 4. Form or Schedule Used to Compute Apportionment\n\n* **Form/Schedule:** **Schedule OR-AP**, *Apportionment of Income for Corporations and Partnerships* (Form number 150-102-171).\n  * Used with Form OR-20 (*Corporation Excise Tax Return*), Form OR-20-INC (*Corporation Income Tax Return*), Form OR-20-INS (*Insurance Excise Tax Return*), Form OR-20-S (*S Corporation Tax Return*), and Form OR-65 (*Partnership Income Return*).\n  * Electing pass-through entities filing Form OR-21 use **Schedule OR-21-AP**, *Oregon Pass-through Entity Elective Tax Apportionment of Income*.\n* **Applicable Tax Years:** Applies to both tax year 2025 and tax year 2026 (no changes between them).\n* **Official URLs:**\n  * Oregon Department of Revenue (Schedule OR-AP Instructions): https://www.oregon.gov/dor/forms/FormsPubs/schedule-or-ap-instructions_150-102-171-1_2025.pdf\n  * Oregon Department of Revenue (Schedule OR-AP Form): https://www.oregon.gov/dor/forms/FormsPubs/schedule-or-ap_150-102-171_2025.pdf",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Multistate business income is apportioned using a single sales factor formula. Taxpayers primarily engaged in utilities or telecommunications may elect an alternative double-weighted sales factor formula of 50 percent sales, 25 percent property, and 25 percent payroll.",
+    "source_url": "https://www.oregonlegislature.gov/bills_laws/ors/ors314.html",
+    "evidence": [
+     "single sales factor",
+     "sales factor",
+     "utilities or telecommunications"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.oregonlegislature.gov/bills_laws/ors/ors314.html; unreadable: https://www.oregonlegislature.gov/bills_laws/lawsstatutes/2012S1orLaws0001.pdf; figures not on www.oregon.gov: ['50']; unreadable: https://www.oregonlegislature.gov/bills_laws/archivebills/2001_CCABEHB2281.pdf; unreadable: https://olis.oregonlegislature.gov/liz/2017R1/Downloads/CommitteeMeetingDocument/96136; unreadable: https://www.oregonlegislature.gov/bills_laws/ors/ors317.html; unreadable: https://olis.oreg",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Oregon uses market-based sourcing for receipts other than sales of tangible personal property. Receipts from services are sourced to Oregon if the service is delivered to a location in the state, and intangible property receipts are sourced based on use in Oregon.",
+    "source_url": "https://www.oregonlegislature.gov/bills_laws/ors/ors314.html",
+    "evidence": [
+     "market for the sales",
+     "service is delivered",
+     "property is used in Oregon"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.oregon.gov/dor/forms/FormsPubs/schedule-or-21-ap-instr_107-111-1_2025.pdf",
+    "matched_title": "2025 Schedule OR-21-AP Instructions, Oregon Pass-through Entity Elective Tax Apportionment of Income 150-107-111-1",
+    "matched_phrases": [
+     "service is delivered",
+     "property is used in Oregon"
+    ],
+    "snippet": "• Charges for a service, if the service is delivered to a loca - tion in Oregon."
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Special apportionment methods apply to utilities and telecommunications, financial institutions, insurance companies, and broadcasting. Insurers apportion income using a direct insurance sales factor based on direct premiums written.",
+    "source_url": "https://www.oregonlegislature.gov/bills_laws/ors/ors317.html",
+    "evidence": [
+     "direct insurance sales factor",
+     "direct premiums written"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.oregonlegislature.gov/bills_laws/ors/ors317.html; unreadable: https://www.oregonlegislature.gov/bills_laws/lawsstatutes/2012S1orLaws0001.pdf; evidence not on www.oregon.gov (0/2); unreadable: https://www.oregonlegislature.gov/bills_laws/archivebills/2001_CCABEHB2281.pdf; unreadable: https://www.oregonlegislature.gov/bills_laws/ors/ors314.html; unreadable: https://olis.oregonlegislature.gov/liz/2017R1/Downloads/CommitteeMeetingDocument/96136; unreadable: https://olis.orego",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Apportionment is computed on Schedule OR-AP, Apportionment of Income for Corporations and Partnerships. Electing pass-through entities filing Form OR-21 use Schedule OR-21-AP.",
+    "source_url": "https://www.oregon.gov/dor/forms/FormsPubs/schedule-or-ap-instructions_150-102-171-1_2025.pdf",
+    "evidence": [
+     "Schedule OR-AP",
+     "Apportionment of Income",
+     "Schedule OR-21-AP"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.oregon.gov/dor/forms/FormsPubs/schedule-or-ap-instructions_102-171-1_2025.pdf",
+    "matched_title": "2025 Schedule OR-AP Instructions, Apportionment of Income for Corporations and Partnerships, 150-102-171-1",
+    "matched_phrases": [
+     "Schedule OR-AP",
+     "Apportionment of Income"
+    ],
+    "snippet": "Schedule OR-AP Instructions Apportionment of Income for Corporations and Partnerships 2025 This publication is a guide, not a complete statement, of Oregon Revised Statutes (ORS) and Oregon Administrative Rules (OAR)."
+   }
+  ],
+  "grounding_urls": [
+   "https://www.oregonlegislature.gov/bills_laws/lawsstatutes/2012S1orLaws0001.pdf",
+   "https://www.oregon.gov/dor/forms/FormsPubs/schedule-or-ap-instructions_102-171-1_2025.pdf",
+   "https://www.oregonlegislature.gov/bills_laws/archivebills/2001_CCABEHB2281.pdf",
+   "https://www.oregonlegislature.gov/bills_laws/ors/ors314.html",
+   "https://www.oregon.gov/dor/forms/FormsPubs/schedule-or-ap-instructions_102-171-1_2025.pdf",
+   "https://www.oregonlegislature.gov/bills_laws/ors/ors314.html",
+   "https://www.oregonlegislature.gov/bills_laws/ors/ors314.html",
+   "https://www.oregonlegislature.gov/bills_laws/ors/ors314.html",
+   "https://www.oregonlegislature.gov/bills_laws/ors/ors314.html",
+   "https://olis.oregonlegislature.gov/liz/2017R1/Downloads/CommitteeMeetingDocument/96136",
+   "https://www.oregonlegislature.gov/bills_laws/ors/ors317.html",
+   "https://olis.oregonlegislature.gov/liz/2020r1/Downloads/ProposedAmendment/17768",
+   "https://www.oregon.gov/dor/forms/FormsPubs/schedule-or-ap-instructions_102-171-1_2024.pdf",
+   "https://www.oregon.gov/dor/forms/FormsPubs/schedule-or-ap_102-171_2025.pdf",
+   "https://www.oregon.gov/dor/forms/FormsPubs/schedule-or-21-ap-instr_107-111-1_2025.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "OR",
+  "section": "nexus",
+  "notes": "### 1. Income or Franchise Tax Nexus & Economic / Bright-Line Thresholds\n\n* **Nexus Standard:** Oregon imposes two taxes measured by net income:\n  * **Corporation Excise Tax (ORS Chapter 317):** Imposed on corporations for the privilege of \"doing business\" in Oregon. \"Doing business\" is defined as carrying on or being engaged in any profit-seeking activity in Oregon. Activities establishing nexus include maintaining a stock of goods, an office, a place of business, having employees or representatives providing services, or having third parties perform activities significantly associated with establishing or maintaining an Oregon market.\n  * **Corporation Income Tax (ORS Chapter 318):** Imposed on corporations not \"doing business\" in Oregon but deriving income from Oregon sources (e.g., tangible/intangible property or assets used in Oregon).\n* **Economic Nexus:** Physical presence is not required under Commerce Clause substantial nexus standards. Substantial nexus exists where a taxpayer regularly takes advantage of Oregon's economy to produce income, established through a significant economic presence. Factors include continuous/systematic contacts, marketing to Oregon customers, receipt of significant gross receipts from Oregon customers, or receipt of gross receipts from intangible property used in Oregon.\n* **Bright-Line Factor Nexus Thresholds:** None for corporate excise or income tax. Oregon does not have bright-line factor amounts (e.g., fixed property, payroll, or sales dollar thresholds) for corporate income or excise tax nexus. \n  *(Note: For the separate Corporate Activity Tax (CAT) under ORS Chapter 317A, the Department of Revenue also does not apply a bright-line nexus test, though registration is required when Oregon commercial activity exceeds $750,000 and filing/payment is required when it exceeds $1,000,000).*\n* **Applicable Tax Years:** Tax years 2025 and 2026 (no change between them).\n* **Official URLs:**\n  * Oregon Department of Revenue (Foreign Corporations): https://www.oregon.gov/dor/programs/businesses/pages/foreign-corporations.aspx\n  * Oregon Administrative Rules (OAR 150-317-0020): https://secure.sos.state.or.us/oard/viewSingleRule.action?ruleVrsnRsn=229871\n  * Oregon Administrative Rules (OAR 150-317-0030): https://secure.sos.state.or.us/oard/viewSingleRule.action?ruleVrsnRsn=229872\n  * Oregon Administrative Rules (OAR 150-317-1010): https://secure.sos.state.or.us/oard/viewSingleRule.action?ruleVrsnRsn=271923\n  * Oregon Department of Revenue (CAT Nexus): https://www.oregon.gov/dor/programs/businesses/pages/cat.aspx\n\n---\n\n### 2. Remote Seller Economic Nexus Threshold (Sales Tax)\n\n* **Status:** **Not applicable.** Oregon does not have a general state sales or use tax.\n* **Remote Seller Threshold & Measurement Period:** Because there is no general sales and use tax, Oregon has no remote seller economic nexus sales threshold (dollar amount), transaction count threshold, or measurement period. The Department explicitly notes that the *Wayfair* decision does not affect remote seller sales into Oregon because Oregon has no general sales tax.\n* **Applicable Tax Years:** Tax years 2025 and 2026 (no change between them).\n* **Official URL:**\n  * Oregon Department of Revenue (Sales Tax in Oregon): https://www.oregon.gov/dor/programs/businesses/Pages/sales-tax.aspx\n\n---\n\n### 3. State's Stated Position on Public Law 86-272 Protection\n\n* **Protected Activities:** Under P.L. 86-272, Oregon cannot impose net income taxes (corporation excise or income tax) on out-of-state businesses whose activities in Oregon are limited strictly to the solicitation of orders for sales of tangible personal property, provided orders are sent outside Oregon for approval and filled by shipment or delivery from points outside Oregon. \n* **Scope & Narrow Interpretation:** The Oregon Department of Revenue adheres to a narrow interpretation of P.L. 86-272, protecting only actual solicitation and activities entirely ancillary to solicitation. For guidance on what constitutes protected vs. unprotected activities, the Department explicitly directs taxpayers to the Multistate Tax Commission (MTC) *\"Statement of Information Concerning Practices of Multistate Tax Commission and Signatory States Under Public Law 86-272\"*.\n* **Exceptions to Protection:**\n  * Does not apply to companies selling services or profiting from intangible property in Oregon.\n  * Does not apply to businesses incorporated under Oregon law.\n  * Activities by independent contractors that include repair or warranty service are not immune (OAR 150-317-0030(4)).\n  * P.L. 86-272 does not protect businesses from the Oregon Corporate Activity Tax (CAT), which is imposed for the privilege of doing business and is not a net income tax (ORS 317A.116(1)).\n* **Applicable Tax Years:** Tax years 2025 and 2026 (no change between them).\n* **Official URLs:**\n  * Oregon Department of Revenue (Foreign Corporations): https://www.oregon.gov/dor/programs/businesses/pages/foreign-corporations.aspx\n  * Oregon Revised Statutes (ORS 317A.116): https://www.oregonlegislature.gov/bills_laws/ors/ors317A.html\n  * Oregon Administrative Rules (OAR 150-317-0030): https://secure.sos.state.or.us/oard/viewSingleRule.action?ruleVrsnRsn=229872",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Corporation excise tax applies to corporations doing business in Oregon, while corporation income tax applies to those deriving income from Oregon sources. Oregon asserts nexus based on a significant economic presence and maintains no bright-line factor nexus thresholds.",
+    "source_url": "https://www.oregon.gov/dor/programs/businesses/pages/foreign-corporations.aspx",
+    "evidence": [
+     "doing business",
+     "significant economic presence",
+     "profit-seeking activity"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.oregon.gov/dor/programs/businesses/pages/foreign-corps.aspx",
+    "matched_title": "Oregon Department of Revenue  : Foreign Corporations : Businesses : State of Oregon",
+    "matched_phrases": [
+     "doing business",
+     "profit-seeking activity"
+    ],
+    "snippet": "\"Doing business\" means being engaged in any profit-seeking activity in Oregon."
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Oregon does not impose a general state sales or use tax. As a result, there is no remote seller economic nexus threshold, transaction count, or measurement period.",
+    "source_url": "https://www.oregon.gov/dor/programs/businesses/Pages/sales-tax.aspx",
+    "evidence": [
+     "general sales tax",
+     "remote seller sales",
+     "Wayfair decision"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.oregon.gov/dor/programs/businesses/Pages/sales-tax.aspx",
+    "matched_title": "Oregon Department of Revenue  : Sales Tax in Oregon : Businesses : State of Oregon",
+    "matched_phrases": [
+     "general sales tax",
+     "Wayfair decision"
+    ],
+    "snippet": "Impacts to Oregonians shopping online The Wayfair decision doesn't affect Oregonians purchasing goods or services online because Oregon doesn't have a general sales tax."
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "P.L. 86-272 protects businesses whose Oregon activity is limited strictly to solicitation of orders for sales of tangible personal property approved and filled from outside the state. Oregon adheres to a narrow interpretation following Multistate Tax Commission guidance, and the protection does not apply to the Corporate Activity Tax.",
+    "source_url": "https://www.oregon.gov/dor/programs/businesses/pages/foreign-corporations.aspx",
+    "evidence": [
+     "solicitation of orders",
+     "tangible personal property",
+     "Multistate Tax Commission"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.oregon.gov/dor/programs/businesses/pages/foreign-corps.aspx",
+    "matched_title": "Oregon Department of Revenue  : Foreign Corporations : Businesses : State of Oregon",
+    "matched_phrases": [
+     "solicitation of orders",
+     "tangible personal property",
+     "Multistate Tax Commission"
+    ],
+    "snippet": "86-272 prohibits Oregon from imposing net income taxes on out-of-state companies selling tangible personal property whose business activities in Oregon are limited to the solicitation of orders by their employees or representatives."
+   }
+  ],
+  "grounding_urls": [
+   "https://www.oregon.gov/dor/programs/businesses/pages/foreign-corps.aspx",
+   "https://olis.oregonlegislature.gov/liz/2023r1/Downloads/CommitteeMeetingDocument/258685",
+   "https://secure.sos.state.or.us/oard/viewSingleRule.action?ruleVrsnRsn=20938",
+   "https://www.oregon.gov/dor/programs/businesses/pages/foreign-corps.aspx",
+   "https://secure.sos.state.or.us/oard/displayDivisionRules.action;JSESSIONID_OARD=-zfFn06pcfbhjW0X2_tBOr7h1M144Fvy7xhJiPYHyoMxW2b_FegQ!-924259904?selectedDivision=450",
+   "https://secure.sos.state.or.us/oard/view.action?ruleNumber=150-317-0020",
+   "https://www.oregon.gov/dor/programs/businesses/pages/corporate-activity-tax.aspx",
+   "https://www.oregonlegislature.gov/bills_laws/ors/ors317A.html",
+   "https://www.oregon.gov/dor/programs/businesses/pages/sales-tax.aspx",
+   "https://www.oregonlegislature.gov/bills_laws/ors/ors317A.html"
+  ],
+  "error": ""
+ },
+ {
+  "state": "OR",
+  "section": "rates",
+  "notes": "### Individual Income Tax Rates and Brackets\n\n* **Tax Rates (ORS 316.037):** Oregon imposes a four-bracket progressive personal income tax with marginal rates of **4.75%**, **6.75%**, **8.75%**, and **9.9%**. These statutory tax rates apply to both **tax year 2025** and **tax year 2026**.\n* **2025 Tax Brackets (Indexed for Inflation):**\n  * **Chart S (Single / Married Filing Separately):**\n    * Not over $4,400: **4.75%** of taxable income\n    * Over $4,400 but not over $11,100: **$209 plus 6.75%** of excess over $4,400\n    * Over $11,100 but not over $125,000: **$661 plus 8.75%** of excess over $11,100\n    * Over $125,000: **$10,627 plus 9.9%** of excess over $125,000\n  * **Chart J (Married Filing Jointly / Head of Household / Qualifying Surviving Spouse):**\n    * Not over $8,800: **4.75%** of taxable income\n    * Over $8,800 but not over $22,200: **$418 plus 6.75%** of excess over $8,800\n    * Over $22,200 but not over $250,000: **$1,323 plus 8.75%** of excess over $22,200\n    * Over $250,000: **$21,256 plus 9.9%** of excess over $250,000\n* **2026 Tax Brackets:** **Not found** (official inflation-adjusted bracket dollar thresholds for tax year 2026 have not yet been released by the Department of Revenue; statutory marginal percentage rates remain unchanged).\n* **Official URLs:** \n  * https://www.oregon.gov/dor/programs/individuals/Pages/personal-income-tax.aspx\n  * https://www.oregon.gov/dor/forms/FormsPubs/part-year-nonresident-tax-rate-charts_2025.pdf\n\n---\n\n### Corporate Income and Excise Tax Rates & Minimum Tax\n\n* **Corporate Income / Excise Tax Rates (ORS 317.061, ORS 318.020):**\n  * Applies to **both tax year 2025 and tax year 2026** (no rate change):\n    * **6.6%** on Oregon taxable income up to and including $1,000,000.\n    * **7.6%** on Oregon taxable income exceeding $1,000,000 (calculated as **$66,000 plus 7.6%** of the excess over $1,000,000).\n  * Corporation excise tax filers pay the greater of the calculated tax or the minimum tax. Form OR-20-INC (corporation income tax) filers pay calculated tax only and are not subject to the minimum tax.\n* **Minimum Tax (ORS 317.090):**\n  * **S corporations & Partnerships:** Fixed minimum excise tax of **$150**.\n  * **C corporations (Excise Tax):** Graduated minimum tax tiered by Oregon sales of the filing group (applies to **tax years 2025 and 2026**):\n    * Under $500,000: **$150**\n    * $500,000 to $999,999: **$500**\n    * $1,000,000 to $1,999,999: **$1,000**\n    * $2,000,000 to $2,999,999: **$1,500**\n    * $3,000,000 to $4,999,999: **$2,000**\n    * $5,000,000 to $6,999,999: **$4,000**\n    * $7,000,000 to $9,999,999: **$7,500**\n    * $10,000,000 to $24,999,999: **$15,000**\n    * $25,000,000 to $49,999,999: **$30,000**\n    * $50,000,000 to $74,999,999: **$50,000**\n    * $75,000,000 to $99,999,999: **$75,000**\n    * $100,000,000 and above: **$100,000**\n* **Official URLs:** \n  * https://www.oregon.gov/dor/programs/businesses/Pages/corp-excise-income.aspx\n  * https://www.oregon.gov/dor/forms/FormsPubs/form-or-20-instr_2025.pdf\n\n---\n\n### State Sales and Use Tax\n\n* **Rate:** **0.0%**; Oregon does not impose a general state sales or use/transactions tax.\n* **Local Sales Taxes:** Local jurisdictions do not add general sales taxes.\n* **Applicability:** Applies to both **tax year 2025 and tax year 2026**.\n* *(Note: Oregon levies specific excise taxes such as a 0.5% vehicle use tax on new vehicles purchased outside the state, a bicycle excise tax of $15, and a 17% state marijuana retail sales tax, but no general sales tax).*\n* **Official URL:** \n  * https://www.oregon.gov/dor/programs/businesses/Pages/sales-tax.aspx\n\n---\n\n### Gross Receipts and Other Notable Business Taxes\n\n* **Corporate Activity Tax (CAT) (ORS Chapter 317A):**\n  * A gross receipts-style tax imposed on businesses (all entity types) for the privilege of doing business in Oregon, based on Oregon commercial activity.\n  * **Tax Rate & Threshold:** Imposed on taxable Oregon commercial activity exceeding $1,000,000 at a rate of **$250 plus 0.57%** of taxable commercial activity over $1,000,000.\n  * Businesses with $1,000,000 or less of taxable Oregon commercial activity have no CAT liability.\n  * Allows a subtraction equal to **35%** of the greater of allowable cost inputs or allowable labor costs apportioned to Oregon.\n  * Applies to **tax year 2025 and tax year 2026** (no rate change).\n* **Official URL:** \n  * https://www.oregon.gov/dor/programs/businesses/Pages/corporate-activity-tax.aspx",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Oregon imposes a progressive personal income tax with marginal rates of 4.75%, 6.75%, 8.75%, and 9.9%. For tax year 2025, single bracket rates range from 4.75% on income up to $4,400 to 9.9% on income exceeding $125,000.",
+    "source_url": "https://www.oregon.gov/dor/programs/individuals/Pages/personal-income-tax.aspx",
+    "evidence": [
+     "personal income tax",
+     "taxable income",
+     "tax rates"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.oregon.gov/dor/programs/individuals/Pages/personal-income-tax.aspx; figure not stated beside the evidence on www.oregon.gov; evidence not on www.oregon.gov (1/3); figures not on www.oregon.gov: ['125000', '4.75', '4400', '6.75', '8.75', '9.9']; figures not on www.oregon.gov: ['125000', '2025', '4.75', '4400', '6.75', '8.75']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Oregon corporate tax rates are 6.6% on taxable income up to $1,000,000 and $66,000 plus 7.6% on income over $1,000,000. C corporation excise tax filers pay a tiered minimum tax ranging from $150 to $100,000 based on Oregon sales, while S corporations and partnerships pay a $150 minimum tax.",
+    "source_url": "https://www.oregon.gov/dor/programs/businesses/Pages/corp-excise-income.aspx",
+    "evidence": [
+     "corporate excise tax",
+     "taxable income",
+     "minimum tax"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.oregon.gov/dor/programs/businesses/Pages/corp-excise-income.aspx; figures not on www.oregon.gov: ['6.6', '7.6']; figures not on www.oregon.gov: ['100000', '1000000', '150', '6.6', '66000', '7.6']; figures not on www.oregon.gov: ['100000', '1000000']; figures not on www.oregon.gov: ['7.6']; figures not on www.oregon.gov: ['1000000', '7.6']; figures not on www.oregon.gov: ['100000', '1000000', '6.6', '66000', '7.6']; figures not on www.oregon.gov: ['1000000', '150', '6.6', ",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Oregon does not impose a general state sales or use tax, and local jurisdictions do not add general sales taxes.",
+    "source_url": "https://www.oregon.gov/dor/programs/businesses/Pages/sales-tax.aspx",
+    "evidence": [
+     "general sales tax",
+     "sales and use",
+     "vehicle use tax"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.oregon.gov/dor/programs/businesses/Pages/sales-tax.aspx",
+    "matched_title": "Oregon Department of Revenue  : Sales Tax in Oregon : Businesses : State of Oregon",
+    "matched_phrases": [
+     "general sales tax",
+     "vehicle use tax"
+    ],
+    "snippet": "However, Oregon does have a vehicle use tax that applies to new vehicles purchased outside of the state."
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The Corporate Activity Tax is imposed on taxable Oregon commercial activity exceeding $1,000,000 at a rate of $250 plus 0.57% of the excess. Businesses are allowed a subtraction equal to 35% of the greater of allowable cost inputs or allowable labor costs apportioned to Oregon.",
+    "source_url": "https://www.oregon.gov/dor/programs/businesses/Pages/corporate-activity-tax.aspx",
+    "evidence": [
+     "Corporate Activity Tax",
+     "commercial activity",
+     "allowable cost inputs"
+    ],
+    "accepted": false,
+    "reason": "figures not on www.oregon.gov: ['1000000']; figures not on www.oregon.gov: ['0.57']; figures not on www.oregon.gov: ['0.57', '1000000', '250', '35']; figures not on www.oregon.gov: ['0.57', '35']; figures not on www.oregon.gov: ['0.57', '1000000', '35']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://www.oregon.gov/dor/forms/FormsPubs/publication-or-17_101-431_2025.pdf",
+   "https://www.oregon.gov/dor/programs/individuals/Documents/Part-year%20and%20nonresident%20tax%20rate%20charts.pdf",
+   "https://www.oregon.gov/dor/programs/individuals/pages/pit.aspx/",
+   "https://www.oregon.gov/dor/programs/businesses/pages/corp-requirements.aspx",
+   "https://www.oregon.gov/DOR/forms/FormsPubs/form-or-20-instructions_102-020-1_2025.pdf",
+   "https://www.oregon.gov/dor/forms/FormsPubs/form-or-20-inc-instructions_102-021-1_2020.pdf",
+   "https://www.oregon.gov/dor/programs/businesses/pages/partnership.aspx",
+   "https://www.oregon.gov/dor/forms/FormsPubs/form-or-20-instructions_102-020-1_2024.pdf",
+   "https://www.oregon.gov/dor/forms/FormsPubs/form-or-20-instructions_102-016_2018.pdf",
+   "https://www.oregon.gov/dor/programs/businesses/pages/sales-tax.aspx",
+   "https://www.oregon.gov/dor/programs/businesses/pages/default.aspx",
+   "https://www.oregon.gov/dor/pages/revenue-stream.aspx",
+   "https://www.oregon.gov/dor/programs/businesses/pages/corporate-activity-tax.aspx"
+  ],
+  "error": ""
+ },
+ {
+  "state": "OR",
+  "section": "filing",
+  "notes": "",
+  "proposals": [],
+  "grounding_urls": [],
+  "error": ""
+ }
+]

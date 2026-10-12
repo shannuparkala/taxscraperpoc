@@ -1,0 +1,517 @@
+[
+ {
+  "state": "AL",
+  "section": "apportionment",
+  "notes": "### 1. Apportionment Formula for Multistate Business Income\n* **Fact / Formula:** Alabama uses a **single sales factor** apportionment formula (100% sales factor). All business income of a multistate taxpayer is apportioned to Alabama by multiplying the business income by the sales factor. Property and payroll factors are not included in the standard apportionment formula.\n* **Applicability:** Applies to both tax years **2025 and 2026** (effective beginning January 1, 2021, under Act 2021-1, amending Ala. Code § 40-27-1, Art. IV.9; no changes between 2025 and 2026).\n* **Official Sources:**\n  * Alabama Department of Revenue (ALDOR) Current Issues: https://www.revenue.alabama.gov/tax-policy/current-issues/\n  * Alabama Administrative Code r. 810-27-1-.09: https://admincode.legislature.state.al.us/rules/810-27-1-.09\n\n---\n\n### 2. Sourcing of Receipts from Services and Intangibles\n* **Fact:** Alabama uses **market-based sourcing**. Gross receipts from sales other than sales of tangible personal property (services and intangibles) are sourced to Alabama if the taxpayer’s market for the sale is in Alabama. Receipts from services are sourced to Alabama if and to the extent the service is delivered to a location in Alabama.\n* **Applicability:** Applies to both tax years **2025 and 2026** (effective for tax years beginning after December 31, 2010, pursuant to Act 2011-616 and Ala. Code § 40-27-1, Art. IV.17; no changes between 2025 and 2026).\n* **Official Sources:**\n  * Ala. Admin. Code r. 810-27-1-.17 (*Sales Factor: Sourcing Sales Derived From Services Rendered To Individual And Unrelated Business Customers*): https://admincode.legislature.state.al.us/rules/810-27-1-.17\n  * ALDOR Rule Page: https://www.revenue.alabama.gov/rules/sales-factor-sourcing-sales-derived-from-services-rendered-to-individual-and-unrelated-business-customers/\n\n---\n\n### 3. Industries with Their Own Apportionment Rules\n* **Fact:** Special apportionment regulations apply to specific industries (for single sales factor reporting, these rules govern how the sales factor numerator and denominator are determined):\n  * **Airlines:** Ala. Admin. Code r. 810-27-1-.18.01 (apportionment based on flight departures / transportation revenues).\n  * **Construction Contractors:** Ala. Admin. Code r. 810-27-1-.18.02 (special accounting and long-term contract sourcing rules).\n  * **Publishing:** Ala. Admin. Code r. 810-27-1-.18.03 (sourcing of circulation, subscription, and advertising receipts).\n  * **Railroads:** Ala. Admin. Code r. 810-27-1-.18.04 (revenue ton-mile and car/locomotive mileage calculations).\n  * **Television and Radio Broadcasting:** Ala. Admin. Code r. 810-27-1-.18.05 (audience share and subscriber ratios for advertising/program licensing).\n  * **Trucking Companies:** Ala. Admin. Code r. 810-27-1-.18.06 (mobile property miles ratio for interstate freight/express).\n  * **Telecommunications and Ancillary Service Providers:** Ala. Admin. Code r. 810-27-1-.18.07.\n  * **Financial Institutions:** Ala. Admin. Code r. 810-9-1-.05 (specialized apportionment rules under the Financial Institution Excise Tax, Form ET-1).\n* **Applicability:** Applies to both tax years **2025 and 2026** (no changes between them).\n* **Official Sources:**\n  * Alabama Administrative Code Chapter 810-27-1: https://admincode.legislature.state.al.us/rules/810-27-1\n  * ALDOR FAQ on Industry Rules under Single Sales Factor: https://www.revenue.alabama.gov/faqs/does-the-single-sales-factor-apportionment-formula-apply-to-industries-whose-sales-factors-are-currently-calculated-in-accordance-with-rules-810-27-1-18-02-through-810-27-1-18-07/\n\n---\n\n### 4. Form or Schedule Used to Compute Apportionment\n* **Fact:**\n  * **Corporate Income Tax (Form 20C):** **Schedule D-1** (*Apportionment Factor Schedule*) is completed by multistate corporations to compute the apportionment percentage (transferred to Form 20C, page 1, line 7). Taxpayers with qualifying Alabama gross sales under $100,000 and no property may use Schedule D-2.\n  * **S Corporations (Form 20S):** **Schedule C** (*Apportionment Factor*).\n  * **Partnerships / LLCs (Form 65):** **Schedule C** (*Apportionment Factor*).\n  * **Financial Institutions (Form ET-1):** **Schedule E** (*Apportionment and Allocation of Net Income*).\n* **Applicability:** Applies to both tax years **2025 and 2026** (no changes between them).\n* **Official Sources:**\n  * ALDOR Corporate Income Tax Return (Form 20C) Instructions: https://www.revenue.alabama.gov/wp-content/uploads/2025/01/24form20c_instr.pdf\n  * ALDOR Corporate Tax Forms Directory: https://www.revenue.alabama.gov/tax-types/corporate-income-tax/",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Alabama uses a single sales factor apportionment formula to apportion business income of a multistate taxpayer. Property and payroll factors are not included in the standard apportionment formula.",
+    "source_url": "https://admincode.legislature.state.al.us/rules/810-27-1-.09",
+    "evidence": [
+     "single sales factor",
+     "business income",
+     "sales factor"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.alabama.gov/individual-corporate/current-issues/",
+    "matched_title": "Current Issues - Alabama Department of Revenue",
+    "matched_phrases": [
+     "single sales factor",
+     "business income",
+     "sales factor"
+    ],
+    "snippet": "Alabama Act 2021-1 amends Section 40-27-1 to change the apportionment factor to a single sales factor."
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Alabama uses market-based sourcing for sales other than sales of tangible personal property. Receipts from services are sourced to Alabama if and to the extent the service is delivered to a location in Alabama.",
+    "source_url": "https://admincode.legislature.state.al.us/rules/810-27-1-.17",
+    "evidence": [
+     "market for the sale",
+     "delivered to a location",
+     "services rendered"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://admincode.legislature.state.al.us/rules/810-27-1-.17; evidence not on www.revenue.alabama.gov (0/3); unreadable: https://file.admincode.legislature.state.al.us/JCARR/JCARR-OCT-21/REV%20810-27-1-.18.04.pdf; unreadable: https://admincode.legislature.state.al.us/administrative-code/810-27-1; unreadable: https://admincode.legislature.state.al.us/administrative-code/810-27-1-.17; evidence not on www.revenue.alabama.gov (1/3); unreadable: https://admincode.legislature.state.al.us/a",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Special apportionment regulations apply to airlines, construction contractors, publishing, railroads, television and radio broadcasting, trucking companies, telecommunications, and financial institutions.",
+    "source_url": "https://admincode.legislature.state.al.us/rules/810-27-1",
+    "evidence": [
+     "Construction Contractors",
+     "Radio Broadcasting",
+     "Trucking Companies"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://admincode.legislature.state.al.us/rules/810-27-1; evidence not on www.revenue.alabama.gov (0/3); unreadable: https://file.admincode.legislature.state.al.us/JCARR/JCARR-OCT-21/REV%20810-27-1-.18.04.pdf; evidence not on www.revenue.alabama.gov (1/3); unreadable: https://admincode.legislature.state.al.us/administrative-code/810-27-1; unreadable: https://admincode.legislature.state.al.us/administrative-code/810-27-1-.17; unreadable: https://admincode.legislature.state.al.us/api/r",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Multistate corporations compute apportionment on Schedule D-1 of Form 20C, with qualifying small corporations permitted to use Schedule D-2. S corporations and partnerships report apportionment on Schedule C, while financial institutions use Schedule E of Form ET-1.",
+    "source_url": "https://www.revenue.alabama.gov/wp-content/uploads/2025/01/24form20c_instr.pdf",
+    "evidence": [
+     "Schedule D-1",
+     "Apportionment Factor Schedule",
+     "Form 20C"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.alabama.gov/wp-content/uploads/2025/01/24f20cinstr.pdf",
+    "matched_title": "20C Instructions TY 2024_12-12-25_F.pdf",
+    "matched_phrases": [
+     "Schedule D-1",
+     "Form 20C"
+    ],
+    "snippet": "Section 40-2A-11 provides additional penalties for (1) failure InstructIons For the PreParatIon oF alabama DePartment oF revenue corporation Income tax return FORM 20C INSTRUCTIONS 2024 to timely file, (2) failure to timely pay, (3) underpayment due to negligence, and (4) un- derpayment due to fraud."
+   }
+  ],
+  "grounding_urls": [
+   "https://www.revenue.alabama.gov/individual-corporate/current-issues/",
+   "https://file.admincode.legislature.state.al.us/JCARR/JCARR-OCT-21/REV%20810-27-1-.18.04.pdf",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2022/10/810-27-1-.18.06.pdf",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2022/10/810-27-1-.18.01-1.pdf",
+   "https://admincode.legislature.state.al.us/administrative-code/810-27-1",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2017/05/revrevu3_11.pdf",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2017/05/2011_annual-report.pdf",
+   "https://admincode.legislature.state.al.us/administrative-code/810-27-1-.17",
+   "https://admincode.legislature.state.al.us/administrative-code/810-27-1-.17",
+   "https://www.revenue.alabama.gov/admin-rules/sales-factor-sourcing-sales-derived-from-services-rendered-to-individual-and-unrelated-business-customers/",
+   "https://www.revenue.alabama.gov/faqs/does-the-single-sales-factor-apportionment-formula-apply-to-industries-whose-sales-factors-are-currently-calculated-in-accordance-with-rules-810-27-1-18-02-through-810-27-1-18-07/",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2022/10/810-27-1-.18.01-1.pdf",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2021/12/810-27-1-.18.021.pdf",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2021/12/810-27-1-.18.031.pdf",
+   "https://admincode.legislature.state.al.us/api/rule/810-27-1-.18.04",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2021/12/810-27-1-.18.051.pdf",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2022/10/810-27-1-.18.06.pdf",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2022/10/810-27-1-.18.07.pdf",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2021/10/08fet1instr.pdf",
+   "https://admincode.legislature.state.al.us/administrative-code/810-9-1-.05",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2025/01/24f20cinstr.pdf",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2026/02/2025al4163_fnl.pdf",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2021/10/15f20cinstr.pdf",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2021/10/10f20sinstr.pdf",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2021/10/07f20sinstr.pdf",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2021/10/08quickrefcptpptinst.pdf",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2025/01/24f65instr.pdf",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2021/10/10f20sinstr4-5.pdf",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2025/01/25fpptinstr.pdf",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2026/01/26fpptinstr.pdf",
+   "https://www.revenue.alabama.gov/faq-categories/corporate-income-tax/"
+  ],
+  "error": ""
+ },
+ {
+  "state": "AL",
+  "section": "nexus",
+  "notes": "### 1. Income and Business Privilege (Franchise) Tax Nexus\n\n* **Nexus Standard & Thresholds:**\n  * Under **Ala. Code § 40-18-31.2** (Act 2015-505), Alabama utilizes a bright-line **factor presence nexus standard** to determine substantial nexus for business income tax, business privilege tax, and financial institution excise tax. \n  * A business entity organized or commercially domiciled in Alabama automatically has substantial nexus. Nonresident individuals and out-of-state entities establish substantial nexus if any of the following thresholds are exceeded during the tax period:\n    * **$68,000** of property;\n    * **$68,000** of payroll;\n    * **$675,000** of sales; or\n    * **25 percent (25%)** of total property, total payroll, or total sales.\n* **Applicable Tax Years:** \n  * Applies to **Tax Years 2025 and 2026** (effective for tax years beginning on or after January 1, 2025; adjusted up from the 2023–2024 thresholds of $64,000 / $64,000 / $635,000). No change between 2025 and 2026.\n* **Official Sources:**\n  * Alabama Department of Revenue (ADOR) – *Nexus*: https://www.revenue.alabama.gov/individual-corporate/nexus/\n  * ADOR FAQ – *Does our corporation have Nexus in Alabama?*: https://www.revenue.alabama.gov/faqs/does-our-corporation-have-nexus-in-alabama/\n  * ADOR Form 20C Instructions: https://www.revenue.alabama.gov/forms/corporation-income-tax-return/\n\n---\n\n### 2. Remote Seller Economic Nexus (Sales / Simplified Sellers Use Tax)\n\n* **Threshold Amounts & Transaction Count:**\n  * **Sales Amount:** Total retail sales delivered into Alabama exceeding **$250,000**.\n  * **Transaction Count:** **None** (Alabama does not have a transaction volume threshold).\n  * *Calculation specifics:* The $250,000 threshold includes retail sales made directly by the seller (taxable or nontaxable), but excludes wholesale sales for resale (where an Alabama sales tax license/resale certificate is presented) and sales made through an SSUT-participating marketplace facilitator collecting on the seller’s behalf.\n* **Measurement Period:**\n  * The **previous calendar year** (under Ala. Admin. Code r. 810-6-2-.90.03, sales exceeding $250,000 per year based on the previous calendar year’s sales).\n* **Applicable Tax Years:**\n  * Applies to **Tax Years 2025 and 2026** (no change between 2025 and 2026).\n* **Official Sources:**\n  * ADOR FAQ – *Are all remote sellers required to register in Alabama?*: https://www.revenue.alabama.gov/faqs/are-all-remote-sellers-required-to-register-in-alabama/\n  * ADOR Rule 810-6-2-.90.03 – *Requirements for Certain Out-of-State Sellers Making Significant Sales into Alabama*: https://www.revenue.alabama.gov/wp-content/uploads/2017/05/810-6-2-.90.03.pdf\n  * ADOR – *Simplified Sellers Use Tax (SSUT)*: https://www.revenue.alabama.gov/tax-types/simplified-sellers-use-tax-ssut/\n\n---\n\n### 3. Public Law 86-272 Position\n\n* **Stated Agency Position:**\n  * Under **Ala. Admin. Code r. 810-27-1-.19**, it is the policy of Alabama to impose its net income tax to the fullest extent constitutionally permissible. \n  * Alabama strictly construes P.L. 86-272 immunity based on the U.S. Supreme Court decision in *Wisconsin Department of Revenue v. William Wrigley, Jr., Co.* (1992), limiting preemption only to activities that fall strictly within the solicitation of orders for sales of tangible personal property.\n  * **Interaction with Factor Presence Nexus:** If an out-of-state business entity's activities do not exceed the standard of \"mere solicitation of sales\" protected by P.L. 86-272, the factor presence nexus thresholds under Ala. Code § 40-18-31.2 will **not apply** to establish income tax liability. Corporations claiming exemption must check the \"Public Law 86-272\" box on Form 20C and complete the Alabama Nexus Questionnaire.\n  * **Revised MTC Internet Guidance:** Alabama's official administrative rule (Rule 810-27-1-.19, last amended June 25, 2016) has not incorporated the Multistate Tax Commission's 2021 revised statement concerning internet activities.\n* **Applicable Tax Years:**\n  * Applies to **Tax Years 2025 and 2026** (no changes between them).\n* **Official Sources:**\n  * ADOR Rule 810-27-1-.19 – *Public Law 86-272 Exemption from Income Tax*: https://www.revenue.alabama.gov/rules/public-law-86-272-exemption-from-income-tax/\n  * ADOR – *Nexus*: https://www.revenue.alabama.gov/individual-corporate/nexus/",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Substantial nexus is established if an out-of-state entity exceeds $68,000 of property, $68,000 of payroll, $675,000 of sales, or 25 percent of total property, payroll, or sales during the tax period. Entities organized or commercially domiciled in Alabama automatically establish substantial nexus.",
+    "source_url": "https://www.revenue.alabama.gov/individual-corporate/nexus/",
+    "evidence": [
+     "factor presence nexus",
+     "substantial nexus",
+     "675,000 of sales",
+     "25 percent"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.alabama.gov/faqs/does-our-corporation-have-nexus-in-alabama/",
+    "matched_title": "Does our corporation have Nexus in Alabama? - Alabama Department of Revenue",
+    "matched_phrases": [
+     "factor presence nexus",
+     "substantial nexus",
+     "25 percent"
+    ],
+    "snippet": "$68,000 of property, $68,000 of payroll, $675,000 of sales, or 25 percent of the total property, total payroll, or total sales."
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Remote seller economic nexus applies to retail sales delivered into Alabama exceeding $250,000 based on the previous calendar year's sales. Alabama has no transaction count threshold.",
+    "source_url": "https://www.revenue.alabama.gov/faqs/are-all-remote-sellers-required-to-register-in-alabama/",
+    "evidence": [
+     "exceeding $250,000",
+     "previous calendar year",
+     "remote sellers"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.alabama.gov/faqs/are-all-remote-sellers-required-to-register-in-alabama/",
+    "matched_title": "Are all remote sellers required to register in Alabama? - Alabama Department of Revenue",
+    "matched_phrases": [
+     "previous calendar year",
+     "remote sellers"
+    ],
+    "snippet": "New standards for administering simplified sellers use tax laws for remote sellers will be developed by rule, with a small seller exception for remote sellers who do not have annual sales of products and services into the state of more than $250,000.   Any small seller exception adopted will not apply to sellers with a physical presence in Alabama.  However, remote sellers with sales below the threshold may still apply to participate in the simplified sellers use tax program."
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Alabama strictly construes P.L. 86-272 immunity to activities falling strictly within the solicitation of orders for sales of tangible personal property. Factor presence nexus thresholds do not apply to establish income tax liability if the entity's activities do not exceed mere solicitation protected by P.L. 86-272.",
+    "source_url": "https://www.revenue.alabama.gov/rules/public-law-86-272-exemption-from-income-tax/",
+    "evidence": [
+     "Public Law 86-272",
+     "tangible personal property",
+     "solicitation of orders"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.alabama.gov/wp-content/uploads/2026/01/25f20cinstr.pdf",
+    "matched_title": "20C Instructions TY 2025_7-21-25_F.pdf",
+    "matched_phrases": [
+     "Public Law 86-272",
+     "tangible personal property"
+    ],
+    "snippet": "Taxpayers claiming exemption from state income tax under Public Law 86-272, should check the box, located on Form 20C, page 1."
+   }
+  ],
+  "grounding_urls": [
+   "https://www.revenue.alabama.gov/faqs/does-our-corporation-have-nexus-in-alabama/",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2025/01/24f65instr.pdf",
+   "https://www.revenue.alabama.gov/individual-corporate/nexus/",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2026/01/25f20cinstr.pdf",
+   "https://www.revenue.alabama.gov/faqs/are-all-remote-sellers-required-to-register-in-alabama/",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2021/12/810-6-2-.90.03.pdf",
+   "https://www.revenue.alabama.gov/sales-use/simplified-sellers-use-tax-ssut/",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2022/08/Sales_Use_Rulebook.pdf",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2022/08/Sales_Use_Rulebook.pdf",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2021/12/810-27-1-.191.pdf",
+   "https://www.revenue.alabama.gov/admin-rules/public-law-86-272-exemption-from-income-tax/",
+   "https://www.revenue.alabama.gov/admin-rules/public-law-86-272-exemption-from-income-tax/"
+  ],
+  "error": ""
+ },
+ {
+  "state": "AL",
+  "section": "rates",
+  "notes": "### Individual Income Tax Rates and Brackets\n* **Rates & Brackets**:\n  * *Single, Head of Family, and Married Filing Separately:*\n    * 2% on the first $500 of taxable income\n    * 4% on the next $2,500 of taxable income ($501 to $3,000)\n    * 5% on all taxable income over $3,000\n  * *Married Filing Jointly:*\n    * 2% on the first $1,000 of taxable income\n    * 4% on the next $5,000 of taxable income ($1,001 to $6,000)\n    * 5% on all taxable income over $6,000\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * [Alabama Department of Revenue - Individual Income Tax Rates FAQ](https://www.revenue.alabama.gov/faqs/what-is-alabamas-individual-income-tax-rate/)\n  * [Alabama Department of Revenue - General Information for Individuals](https://www.revenue.alabama.gov/individual-income-tax/general-information-for-individuals/)\n\n---\n\n### Corporate Income Tax Rate and Minimum Tax\n* **Tax Rate:** 6.5% flat rate on Alabama taxable net income.\n* **Minimum Tax:** Alabama does not impose a minimum corporate income tax.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * [Alabama Department of Revenue - What is the corporate income tax rate?](https://www.revenue.alabama.gov/faqs/what-is-the-corporate-income-tax-rate/)\n  * [Alabama Department of Revenue - Corporate Income Filing Requirements](https://www.revenue.alabama.gov/corporate-income-tax/corporate-income-filing-requirements/)\n  * [Alabama Department of Revenue - Does Alabama have a minimum corporate income tax?](https://www.revenue.alabama.gov/faqs/does-alabama-have-a-minimum-corporate-income-tax/)\n\n---\n\n### State Sales and Use Tax Rate & Local Rates\n* **State Sales and Use Tax Rate:**\n  * General rate: 4%.\n  * Preferential state rates:\n    * Automotive: 2%\n    * Manufacturing machinery: 1.5%\n    * Farm machinery: 1.5%\n    * Sales through vending machines (food products): 3%\n    * Food / groceries: 3% through August 31, 2025; reduced to 2% effective September 1, 2025 (in accordance with Act 2025-305).\n* **Local Taxes:** Yes, cities and counties levy additional local sales and use taxes on top of the state rate. Remote sellers without physical nexus may collect the flat 8% Simplified Sellers Use Tax (SSUT), which covers both state and local shares.\n* **Applicable Tax Years:** 2025 and 2026 (the food/grocery rate changed on September 1, 2025, from 3% to 2%; the general 4% rate is unchanged).\n* **Official Sources:**\n  * [Alabama Department of Revenue - State Sales and Use Tax Rates](https://www.revenue.alabama.gov/sales-use/state-sales-and-use-tax-rates/)\n  * [Alabama Department of Revenue - Sales and Use Tax Rates](https://www.revenue.alabama.gov/sales-use/sales-and-use-tax-rates/)\n  * [Alabama Department of Revenue - Notice: State Sales and Use Tax Rate Reduced on Food](https://www.revenue.alabama.gov/news/notice-state-sales-and-use-tax-rate-reduced-on-food-beginning-september-1-2025/)\n\n---\n\n### Gross Receipts, Franchise, Margin, or Other Notable Business Taxes\n* **Business Privilege Tax (BPT):**\n  * Annual tax levied on net worth apportioned to Alabama for corporations, limited liability entities, and disregarded entities.\n  * *Tax Rates:* Graduated from $0.25 to $1.75 per $1,000 of taxable net worth based on federal taxable income apportioned to Alabama:\n    * Less than $1: $0.25 per $1,000\n    * $1 to $199,999: $1.00 per $1,000\n    * $200,000 to $499,999: $1.25 per $1,000\n    * $500,000 to $2,499,999: $1.50 per $1,000\n    * $2,500,000 and greater: $1.75 per $1,000\n  * *Maximum Tax:* $15,000 for general entities ($3,000,000 for financial institutions and insurance companies; $500 for qualifying electing family limited liability entities).\n  * *Minimum Tax & Exemption:* Taxpayers whose calculated business privilege tax is $100 or less receive a full exemption and are not required to file a return (effective for taxable years beginning after December 31, 2023, under Act 2022-252).\n* **Contractors Gross Receipts Tax:**\n  * 5% privilege tax on payments made to contractors engaged in constructing, reconstructing, or building public highways, roads, bridges, streets, or tunnels for the State of Alabama (Code of Ala. 1975 § 40-23-50).\n* **Financial Institution Excise Tax (FIET):**\n  * 6.5% of net income on financial institutions conducting business in Alabama.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * [Alabama Department of Revenue - Business Privilege Tax](https://www.revenue.alabama.gov/business-license/business-privilege-tax/)\n  * [Alabama Department of Revenue - Business Privilege Tax Incentives](https://www.revenue.alabama.gov/business-license/business-privilege-tax/business-privilege-tax-incentives/)\n  * [Alabama Department of Revenue - What is Contractors Gross Receipts Tax?](https://www.revenue.alabama.gov/faqs/what-is-contractors-gross-receipts-tax/)\n  * [Alabama Department of Revenue - Summary of Alabama Taxes and Tax Incentives](https://www.revenue.alabama.gov/tax-incentives/summary-of-alabama-taxes-and-tax-incentives/)",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Alabama tax rates for single, head of family, and married filing separately filers are 2% on the first $500 of taxable income, 4% on the next $2,500, and 5% over $3,000. For married filing jointly, rates are 2% on the first $1,000, 4% on the next $5,000, and 5% on taxable income over $6,000.",
+    "source_url": "https://www.revenue.alabama.gov/faqs/what-is-alabamas-individual-income-tax-rate/",
+    "evidence": [
+     "taxable income",
+     "Married Filing Jointly",
+     "Head of Family"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.alabama.gov/faqs/what-is-alabamas-individual-income-tax-rate/",
+    "matched_title": "What is Alabama’s Individual Income Tax Rate? - Alabama Department of Revenue",
+    "matched_phrases": [
+     "taxable income",
+     "Head of Family"
+    ],
+    "snippet": "2% First $500 of taxable income 4% Next $2,500 of taxable income 5% All taxable income over $3,000 For married persons filing a joint return:"
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Alabama levies a flat 6.5% corporate income tax rate on Alabama taxable net income. The state does not impose a minimum corporate income tax.",
+    "source_url": "https://www.revenue.alabama.gov/faqs/what-is-the-corporate-income-tax-rate/",
+    "evidence": [
+     "taxable net income",
+     "corporate income tax rate"
+    ],
+    "accepted": false,
+    "reason": "evidence not on www.revenue.alabama.gov (1/2); figures not on www.revenue.alabama.gov: ['6.5']; evidence not on www.revenue.alabama.gov (0/2)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Alabama's general state sales and use tax rate is 4%, and cities and counties levy additional local sales and use taxes. Preferential state rates apply to certain items, including food which drops from 3% to 2% on September 1, 2025.",
+    "source_url": "https://www.revenue.alabama.gov/sales-use/state-sales-and-use-tax-rates/",
+    "evidence": [
+     "sales and use tax",
+     "General rate",
+     "Farm machinery"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.alabama.gov/sales-use/state-sales-use-tax-rates/",
+    "matched_title": "State Sales and Use Tax Rates - Alabama Department of Revenue",
+    "matched_phrases": [
+     "sales and use tax",
+     "Farm machinery"
+    ],
+    "snippet": "The total $0.25 cent rate was effective for prescriptions filled between September 1, 2015 and June 16, 2016.) July 1, 2002 – August 31, 2015 $0.10 Sales, Use, Rental and Lodgings Tax Rates Sales and Use Tax Rates (§§40-23-2, 40-23-37, 40-23-61, and 40-23-63, Code of Ala."
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The Business Privilege Tax is levied on net worth apportioned to Alabama at rates from $0.25 to $1.75 per $1,000, with a $100 or less tax exemption and a $15,000 general maximum. Other taxes include a 5% Contractors Gross Receipts Tax on certain state public road contracts and a 6.5% Financial Institution Excise Tax.",
+    "source_url": "https://www.revenue.alabama.gov/business-license/business-privilege-tax/",
+    "evidence": [
+     "Business Privilege Tax",
+     "taxable net worth",
+     "per $1,000"
+    ],
+    "accepted": false,
+    "reason": "figures not on www.revenue.alabama.gov: ['0.25', '1.75', '100', '1000', '15000', '5']; figures not on www.revenue.alabama.gov: ['0.25', '1.75', '15000', '6.5']; figures not on www.revenue.alabama.gov: ['0.25', '1.75', '100', '15000', '6.5']; figures not on www.revenue.alabama.gov: ['0.25', '1.75', '100', '1000', '15000']; evidence not on www.revenue.alabama.gov (1/3); figures not on www.revenue.alabama.gov: ['100', '1000', '15000', '6.5']; figures not on www.revenue.alabama.gov: ['0.25', '1.75',",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://www.revenue.alabama.gov/individual-corporate/individual-income-tax-filing-information/",
+   "https://www.revenue.alabama.gov/faqs/what-income-must-i-report-on-my-alabama-return/",
+   "https://www.revenue.alabama.gov/individual-corporate/corporate-income-filing-requirements/",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2025/05/summary.pdf",
+   "https://www.revenue.alabama.gov/faqs/does-alabama-have-a-minimum-corporate-income-tax/",
+   "https://www.revenue.alabama.gov/faq-categories/corporate-income-tax/",
+   "https://www.revenue.alabama.gov/sales-use/state-sales-use-tax-rates/",
+   "https://www.revenue.alabama.gov/notice-state-sales-and-use-tax-rate-reduced-on-food-beginning-september-1-2025/",
+   "https://www.revenue.alabama.gov/sales-use/tax-rates/",
+   "https://www.revenue.alabama.gov/tax-incentives/sales-use-tax/",
+   "https://www.revenue.alabama.gov/sales-use/simplified-sellers-use-tax-information-for-local-governments/",
+   "https://www.revenue.alabama.gov/tax-incentives/business-privilege-tax-incentives/",
+   "https://www.revenue.alabama.gov/individual-corporate/alabama-business-privilege-tax-and-corporate-share-tax/",
+   "https://www.revenue.alabama.gov/tax-types/business-privilege-tax/",
+   "https://www.revenue.alabama.gov/notice-important-changes-to-the-2024-business-privilege-tax-filing-requirements/",
+   "https://www.revenue.alabama.gov/faqs/what-is-contractors-gross-receipts-tax/",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2022/03/Sales_Tax-Contractors_Gross_Receipts_Tax.pdf",
+   "https://www.revenue.alabama.gov/faq-categories/tax-rates/",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2025/01/25fpptinstr.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "AL",
+  "section": "filing",
+  "notes": "### Individual Income Tax Return Due Dates and Extensions (Calendar-Year Filers)\n* **Original Due Date:** April 15 (same date as the corresponding federal return; if the due date falls on a weekend or state holiday, it is due the following business day). Applies to Tax Years 2025 and 2026.\n* **Filing Extension:** Alabama grants an automatic 6-month extension (to October 15). No paper or electronic extension request form is required.\n* **Payment Due Date:** There is no extension of time to pay. Any tax owed must be remitted by April 15 with Form 40V (payment voucher) or paid online via My Alabama Taxes (MAT) to avoid penalties and interest.\n* **Official URLs:** \n  * https://www.revenue.alabama.gov/individual-corporate/due-dates/\n  * https://www.revenue.alabama.gov/individual-corporate/individual-income-tax-general-information-for-individuals/\n  * https://www.revenue.alabama.gov/faqs/can-i-apply-for-an-extension-to-file-my-return/\n\n---\n\n### Corporate and Pass-Through Return Due Dates and Extensions\n\n#### C-Corporations (Form 20C)\n* **Original Due Date:** Due one month following the due date of the corresponding federal income tax return (including applicable extensions) under Act 2022-53. For calendar-year C-corporations (Forms 1120 / 1120-REIT), the original Alabama due date is May 15. For Form 1120-F filers on a calendar year, the due date is July 15. Applies to Tax Years 2025 and 2026.\n* **Filing Extension:** An automatic extension is granted matching the federal extension period plus the additional one month. Federal Form 7004 must be attached to the Alabama return. \n* **Payment Due Date:** Extension is for filing only; all taxes must be paid by the original statutory due date without extension using Form BIT-V (if paying under $750 by check) or electronically via MAT.\n* **Official URLs:**\n  * https://www.revenue.alabama.gov/individual-corporate/due-dates/\n  * https://www.revenue.alabama.gov/individual-corporate/corporate-income-due-date-extensions/\n\n#### Pass-Through Entities (Partnerships, S-Corporations, Electing PTEs)\n* **Original Due Date:** The 15th day of the third month following the close of the tax year (March 15 for calendar-year filers), matching the federal due date. Applies to Form 65, Form 20S, Form PTE-C, and Form EPT. Applies to Tax Years 2025 and 2026.\n* **Filing Extension:** Automatic 6-month extension of time to file (to September 15 for calendar-year filers), consistent with federal extensions. The federal extension form must be included with the Alabama return.\n* **Payment Due Date:** Payments must be made by the original due date using Form PTE-V or electronically; extensions apply only to filing.\n* **Official URLs:**\n  * https://www.revenue.alabama.gov/individual-corporate/subchapter-k-entities-partnerships-and-s-corporations/\n  * https://www.revenue.alabama.gov/individual-corporate/electing-pass-through-entities/\n\n---\n\n### Elective Pass-Through Entity Tax (PTET)\n* **Existence:** Yes; enacted under the Alabama Electing Pass-Through Entity Tax Act (effective for tax years beginning on or after January 1, 2021). Applies to Tax Years 2025 and 2026.\n* **Tax Rate:** 5 percent of Alabama apportioned taxable income.\n* **When to Elect:** Any time during the tax year up through the due date for filing the return, including extensions.\n* **How to Elect (Rule for TY 2025 & TY 2026):** For tax periods beginning on or after January 1, 2025, entities make the election simply by checking the \"Electing PTE\" box on their timely filed Form 65 or Form 20S (including extensions). The box must be checked each year the election is in effect. The election requires the vote or written consent of the governing body and owners holding greater than 50 percent voting control. (Entities electing must also file Form EPT).\n  * *Change Note:* Prior to tax periods beginning January 1, 2025, the election had to be submitted separately online via MAT using Form PTE-E.\n* **Official URLs:**\n  * https://www.revenue.alabama.gov/individual-corporate/electing-pass-through-entities/\n  * https://www.revenue.alabama.gov/faqs/how-does-the-pass-through-entity-make-an-election-to-be-treated-as-an-electing-pass-through-entity-when-is-a-pass-through-entity-required-to-make-the-election/\n  * https://www.revenue.alabama.gov/faqs/how-does-the-pass-through-entity-determine-its-tax-liability-what-is-the-entity-level-tax-rate/\n\n---\n\n### Composite or Group Nonresident Returns for Pass-Through Entities\n* **Requirements & Form:** Filed on Form PTE-C (Nonresident Composite Payment Return). Subchapter K entities (partnerships/LLCs) are required to file Form PTE-C and remit tax on behalf of nonresident members under Ala. Code § 40-18-24.2. S corporations may file a composite return or file Schedule NRA on behalf of nonresident owners who elect out and agree to file on their own under Ala. Code § 40-18-176.\n* **Tax Rate:** 5 percent on behalf of nonresident partners/shareholders.\n* **Due Date:** Due on or before the 15th day of the third month following the close of the entity's accounting period (March 15 for calendar-year filers).\n* **Exemption if PTET Elected:** If the entity elects to be taxed at the entity level as an Electing PTE, Form PTE-C is not required.\n* **Tax Years:** Applies to Tax Years 2025 and 2026.\n* **Official URL:**\n  * https://www.revenue.alabama.gov/individual-corporate/subchapter-k-entities-partnerships-and-s-corporations/\n\n---\n\n### Estimated Tax Payments and Nonresident Withholding\n* **Individuals:**\n  * Required if expected Alabama tax liability exceeds withholding/credits by $500 or more.\n  * Due dates for calendar-year filers: April 15, June 15, September 15, and January 15 (of following tax year).\n  * Safe harbors: 100 percent of current year tax liability or 100 percent of prior year tax liability (110 percent if prior-year Alabama AGI exceeds $150,000, or $75,000 if married filing separately).\n  * Applies to Tax Years 2025 and 2026.\n* **Corporations:**\n  * Required if corporate income tax liability (less credits) can reasonably be expected to be $500 or more.\n  * Due dates: 15th day of the 4th, 6th, 9th, and 12th months of the tax year (April 15, June 15, September 15, and December 15 for calendar-year corporations).\n  * Applies to Tax Years 2025 and 2026.\n* **Electing Pass-Through Entities (PTET):**\n  * Required to pay estimated income tax if Alabama tax liability is expected to be $500 or more (subject to corporate estimated tax rules under Ala. Code § 40-18-80.1).\n  * Installments: 25 percent of the required annual payment due by the 15th day of the 4th, 6th, 9th, and 12th months of the fiscal/tax year.\n  * Safe harbor: Lesser of 100 percent of current year tax or 100 percent of prior year tax.\n  * Applies to Tax Years 2025 and 2026.\n* **PTE Nonresident Withholding:**\n  * Pass-through entities satisfy nonresident withholding requirements via Form PTE-C composite payments at 5 percent (unless PTET is elected or Schedule NRA is filed by S-corp shareholders).\n* **Official URLs:**\n  * https://www.revenue.alabama.gov/individual-corporate/individual-income-estimated-taxes/\n  * https://www.revenue.alabama.gov/forms/form-40es-instructions/\n  * https://www.revenue.alabama.gov/individual-corporate/corporate-income-estimated-tax-payments/\n  * https://www.revenue.alabama.gov/individual-corporate/electing-pass-through-entities/\n\n---\n\n### Main Tax Return Forms\n* **Individual:**\n  * **Form 40:** Alabama Individual Income Tax Return (Residents)\n  * **Form 40NR:** Alabama Individual Income Tax Return (Nonresidents)\n  * **Form 40A:** Alabama Individual Income Tax Return (Short Form for Residents)\n* **Corporate:**\n  * **Form 20C:** Alabama Corporation Income Tax Return\n  * **Form 20C-C:** Alabama Consolidated Corporation Income Tax Return\n* **Pass-Through:**\n  * **Form 65:** Alabama Partnership / Limited Liability Company Return of Income\n  * **Form 20S:** Alabama S Corporation Information/Tax Return\n  * **Form EPT:** Electing Pass-Through Entity Payment Return\n  * **Form PTE-C:** Nonresident Composite Payment Return\n* **Applies to:** Tax Years 2025 and 2026.\n* **Official URLs:**\n  * https://www.revenue.alabama.gov/forms-mailing-addresses/\n  * https://www.revenue.alabama.gov/individual-corporate/subchapter-k-entities-partnerships-and-s-corporations/\n  * https://www.revenue.alabama.gov/individual-corporate/electing-pass-through-entities/",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Alabama individual income tax returns for calendar-year filers are due on April 15. Taxpayers receive an automatic 6-month extension to October 15, but any tax due must be paid by April 15.",
+    "source_url": "https://www.revenue.alabama.gov/individual-corporate/due-dates/",
+    "evidence": [
+     "April 15",
+     "automatic 6-month extension",
+     "Form 40V"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.alabama.gov/wp-content/uploads/2026/01/25f40bk.pdf",
+    "matched_title": "40 Booklet TY 2025_12-9-25_D.pdf",
+    "matched_phrases": [
+     "April 15",
+     "Form 40V"
+    ],
+    "snippet": "File it with your local SSA office early enough to get your number before April 15."
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Calendar-year C-corporation returns are due May 15, which is one month after the federal due date, with an automatic extension matching federal plus one month. Calendar-year pass-through entity returns are due March 15 and receive an automatic 6-month extension to September 15.",
+    "source_url": "https://www.revenue.alabama.gov/individual-corporate/due-dates/",
+    "evidence": [
+     "one month following",
+     "May 15",
+     "March 15"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.alabama.gov/wp-content/uploads/2022/03/2013-General-Summary.pdf",
+    "matched_title": "Just seems odd to start out with electronic filing – that is way old news",
+    "matched_phrases": [
+     "May 15",
+     "March 15"
+    ],
+    "snippet": "Payment and return are due by March 15 for calendar year corporations and April 15 for calendar year limited liability entities."
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Alabama allows an elective pass-through entity tax at a rate of 5 percent of Alabama apportioned taxable income. Starting in tax year 2025, the election is made by checking the Electing PTE box on a timely filed Form 65 or Form 20S and filing Form EPT.",
+    "source_url": "https://www.revenue.alabama.gov/individual-corporate/electing-pass-through-entities/",
+    "evidence": [
+     "5 percent",
+     "Electing PTE",
+     "Form EPT"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.alabama.gov/individual-corporate/electing-pass-through-entities/",
+    "matched_title": "Electing Pass Through Entities - Alabama Department of Revenue",
+    "matched_phrases": [
+     "5 percent",
+     "Electing PTE",
+     "Form EPT"
+    ],
+    "snippet": "How does the pass-through entity make an election to be treated as an Electing Pass-Through Entity? For tax periods beginning on or after January 1, 2025, the Electing Pass-Through Entity must check the Electing PTE box on the timely filed Form 65 or Form 20S, including any extensions which have been granted following the close of that tax year for which the entity elects to be taxed as an Electing Pass-Through Entity.  The Electing PTE box must be checked each year the election is in effect.  E"
+   },
+   {
+    "key": "composite",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Pass-through entities file Form PTE-C to remit composite tax at 5 percent on behalf of nonresident owners by March 15 for calendar-year filers. Form PTE-C is not required if the entity elects to be taxed at the entity level as an Electing PTE.",
+    "source_url": "https://www.revenue.alabama.gov/individual-corporate/subchapter-k-entities-partnerships-and-s-corporations/",
+    "evidence": [
+     "Form PTE-C",
+     "5 percent",
+     "Nonresident Composite Payment Return"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.alabama.gov/individual-corporate/electing-pass-through-entities/",
+    "matched_title": "Electing Pass Through Entities - Alabama Department of Revenue",
+    "matched_phrases": [
+     "Form PTE-C",
+     "5 percent"
+    ],
+    "snippet": "Calculate the total of lines 1 through 17 in the Alabama column on Schedule K from the PTEs Form 65, then multiply this total by 5 percent."
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Estimated tax payments are required for individuals, corporations, and electing pass-through entities if expected tax liability is $500 or more. Nonresident withholding is satisfied through Form PTE-C composite payments at 5 percent unless the entity elects PTET or nonresident S corporation shareholders file Schedule NRA.",
+    "source_url": "https://www.revenue.alabama.gov/individual-corporate/corporate-income-estimated-tax-payments/",
+    "evidence": [
+     "$500 or more",
+     "estimated tax",
+     "Form PTE-C"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.alabama.gov/faq-categories/corporate-income-tax/page/2/",
+    "matched_title": "Corporate Income Tax – Page 2 – Alabama Department of Revenue",
+    "matched_phrases": [
+     "$500 or more",
+     "estimated tax"
+    ],
+    "snippet": "If the corporation’s tax liability is $500 or more, quarterly estimated tax payments are required to be made by the 15th day of the 4th, 6th, 9th, and 12th months of the tax year."
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Primary individual returns are Form 40, Form 40NR, and Form 40A, while corporate returns include Form 20C and Form 20C-C. Main pass-through entity forms are Form 65, Form 20S, Form EPT, and Form PTE-C.",
+    "source_url": "https://www.revenue.alabama.gov/forms-mailing-addresses/",
+    "evidence": [
+     "Form 40",
+     "Form 20C",
+     "Form 65",
+     "Form EPT"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.alabama.gov/individual-corporate/forms-mailing-addresses/",
+    "matched_title": "Forms Mailing Addresses - Alabama Department of Revenue",
+    "matched_phrases": [
+     "Form 40",
+     "Form 20C",
+     "Form 65",
+     "Form EPT"
+    ],
+    "snippet": "Authorized Alabama Corporate, Excise, Partnership, Business Privilege, Financial Institution Excise Tax, and Fiduciary Income Tax E-File Providers for 2025 Alabama Business Modernized Electronic Filing (MeF) Back To Income Tax Home Individual Income Form Making a Payment Receiving a Refund Not Receiving a Refund or Making a Payment Current Form 40 – Individual Income Tax Return Alabama Department of Revenue P."
+   }
+  ],
+  "grounding_urls": [
+   "https://www.revenue.alabama.gov/individual-corporate/individual-income-tax-filing-information/",
+   "https://www.revenue.alabama.gov/faqs/can-i-apply-for-an-extension-to-file-my-return/",
+   "https://www.revenue.alabama.gov/individual-corporate/due-dates/",
+   "https://www.revenue.alabama.gov/faq-categories/corporate-income-tax/page/2/",
+   "https://www.revenue.alabama.gov/individual-corporate/corporate-income-due-date-extensions/",
+   "https://www.revenue.alabama.gov/faqs/is-there-a-filing-extension-available-for-corporate-income-tax-returns/",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2021/10/fbitv.pdf",
+   "https://www.revenue.alabama.gov/aldor-reminds-pass-through-entities-to-file-election-to-be-taxed-at-the-entity-level/",
+   "https://www.revenue.alabama.gov/individual-corporate/pass-thru-entities-subchapter-k-entities-partnerships-and-s-corporations/",
+   "https://www.revenue.alabama.gov/individual-corporate/electing-pass-through-entities/",
+   "https://www.revenue.alabama.gov/individual-corporate/electing-pass-through-entities/",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2022/10/fptev.pdf",
+   "https://www.revenue.alabama.gov/notice-alabama-electing-pass-through-entity-tax-act-guidance/",
+   "https://www.revenue.alabama.gov/faq-categories/electing-pass-through-entity-2/",
+   "https://www.revenue.alabama.gov/notice-reminder-deadline-for-ptes-to-file-the-election-to-be-taxed-at-the-entity-level/",
+   "https://www.revenue.alabama.gov/faqs/how-does-the-pass-through-entity-make-an-election-to-be-treated-as-an-electing-pass-through-entity-when-is-a-pass-through-entity-required-to-make-the-election/",
+   "https://www.revenue.alabama.gov/faqs/how-does-the-pass-through-entity-determine-its-tax-liability-what-is-the-entity-level-tax-rate/",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2022/03/2013-General-Summary.pdf",
+   "https://www.revenue.alabama.gov/faq-categories/electing-pass-through-entity-2/",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2021/10/15f40bk-1.pdf",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2017/05/EFILE06.pdf",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2026/01/25f40bk.pdf",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2026/01/26f40esinstr.pdf",
+   "https://www.revenue.alabama.gov/individual-corporate/individual-income-estimated-taxes/",
+   "https://www.revenue.alabama.gov/individual-corporate/corporate-income-estimated-tax-payments/",
+   "https://www.revenue.alabama.gov/individual-corporate/forms-mailing-addresses/",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2022/06/810-3-36-.01-clean.pdf",
+   "https://www.revenue.alabama.gov/wp-content/uploads/2022/06/21f41instr.pdf"
+  ],
+  "error": ""
+ }
+]

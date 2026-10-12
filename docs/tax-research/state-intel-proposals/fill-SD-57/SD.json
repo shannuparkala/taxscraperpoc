@@ -1,0 +1,106 @@
+[
+ {
+  "state": "SD",
+  "section": "filing",
+  "notes": "### South Dakota (SD) Tax Research Notes (Tax Years 2025 and 2026)\n\n---\n\n### 1. Individual Return Due Dates and Extensions\n* **Fact:** South Dakota does not impose a personal or individual income tax. There are no individual income tax returns, filing due dates, or extension rules.\n* **Applicable Tax Years:** Tax years 2025 and 2026 (unchanged).\n* **Official URLs:** \n  * https://dor.sd.gov/individuals/taxes/\n  * https://dor.sd.gov/businesses/taxes/sales-use-tax/\n\n---\n\n### 2. Corporate and Pass-Through Return Due Dates and Extensions\n* **General Corporate & Pass-Through Entities:**\n  * **Fact:** South Dakota does not impose a corporate income tax or pass-through entity income tax. There are no corporate or pass-through income tax returns, due dates, or extension filings.\n  * **Applicable Tax Years:** Tax years 2025 and 2026 (unchanged).\n  * **Official URL:** https://dor.sd.gov/businesses/taxes/\n\n* **Financial Institutions (Bank Franchise Tax):**\n  * **Fact:** Financial institutions regularly engaged in business in South Dakota are subject to the Bank Franchise Tax under SDCL Chapter 10-43. \n    * **Due Date:** Returns and payments are due within 15 days after the taxpayer's federal income tax return is due (SDCL 10-43-30).\n    * **Extensions:** An extension to file not exceeding 6 months from the original due date is granted under SDCL 10-43-30.1. To qualify, the institution must submit to the Department on or before the original due date: (1) a cover letter requesting the extension, (2) a copy of the Federal Income Tax Extension Request Form, and (3) payment of the estimated tax (minimum tax is $200 per return).\n  * **Applicable Tax Years:** Tax years 2025 and 2026 (unchanged).\n  * **Official URLs:** \n    * https://dor.sd.gov/businesses/taxes/bank-franchise-tax/\n    * https://sdlegislature.gov/Statutes/10-43-30\n    * https://sdlegislature.gov/Statutes/10-43-30.1\n\n---\n\n### 3. Elective Pass-Through Entity Tax (PTET)\n* **Fact:** Not found. South Dakota does not have an individual or corporate income tax and has no elective pass-through entity tax.\n* **Applicable Tax Years:** Tax years 2025 and 2026 (unchanged).\n* **Official URL:** https://dor.sd.gov/businesses/taxes/\n\n---\n\n### 4. Composite or Group Nonresident Returns for Pass-Through Entities\n* **Fact:** Not found. Because South Dakota does not impose an individual income tax, composite or group nonresident returns do not exist.\n* **Applicable Tax Years:** Tax years 2025 and 2026 (unchanged).\n* **Official URL:** https://dor.sd.gov/individuals/taxes/\n\n---\n\n### 5. Estimated Tax Payments and Nonresident Withholding for Pass-Throughs\n* **Pass-Through Entities / Nonresidents:**\n  * **Fact:** Not found. Pass-through entities are not subject to estimated income tax payments or nonresident income withholding.\n* **Bank Franchise Tax (Financial Institutions Only):**\n  * **Fact:** A financial institution whose tax liability in the previous year exceeded $10,000 must file and pay a quarterly estimate of tax due for the current year on or before the 15th day of January, April, July, and October for calendar-year taxpayers (or the 15th day of the month following the end of the quarter for fiscal-year taxpayers) (SDCL 10-43-30).\n  * **Applicable Tax Years:** Tax years 2025 and 2026 (unchanged).\n  * **Official URL:** https://sdlegislature.gov/Statutes/10-43-30\n\n---\n\n### 6. Main Return Forms\n* **Individual, Corporate, and Pass-Through Income Tax Forms:** \n  * **Fact:** Not found. No individual, general corporate, or pass-through entity income tax return forms exist.\n* **Financial Institutions:** \n  * **Fact:** Financial institutions submit the Bank Franchise Tax return through the Department of Revenue's online Filing and Payment portal.\n  * **Applicable Tax Years:** Tax years 2025 and 2026 (unchanged).\n  * **Official URL:** https://dor.sd.gov/businesses/taxes/bank-franchise-tax/",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "South Dakota does not impose a personal or individual income tax. Consequently, there are no individual income tax returns, filing due dates, or extension rules.",
+    "source_url": "https://dor.sd.gov/individuals/taxes/",
+    "evidence": [
+     "individual income tax",
+     "Department of Revenue"
+    ],
+    "accepted": false,
+    "reason": "evidence not on dor.sd.gov (1/2); evidence not on sdlegislature.gov (0/2); evidence not on mylrc.sdlegislature.gov (1/2)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "South Dakota imposes no general corporate or pass-through income tax, but financial institutions subject to the Bank Franchise Tax must file returns within 15 days after the federal return is due. An extension of up to 6 months may be granted if requested by the original due date with a federal extension copy and estimated tax payment.",
+    "source_url": "https://dor.sd.gov/businesses/taxes/bank-franchise-tax/",
+    "evidence": [
+     "Bank Franchise Tax",
+     "financial institutions",
+     "federal income tax return"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://dor.sd.gov/media/1gxpk4ck/2024-7_sales-use-tax-guide.pdf",
+    "matched_title": "https://dor.sd.gov/media/1gxpk4ck/2024-7_sales-use-tax-guide.pdf",
+    "matched_phrases": [
+     "financial institutions",
+     "federal income tax return"
+    ],
+    "snippet": "A controlled group is defined as any corporations or other entities eligible to file a consolidated federal income tax return, or entitled to only a single surtax exemption for federal corporate income tax purposes, and includes a controlled group of corporations as defined at 26 U.S.C."
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Pass-through entities are not subject to estimated tax payments or nonresident withholding. However, financial institutions whose prior-year tax liability exceeded $10,000 must pay quarterly estimated bank franchise tax on the 15th day of January, April, July, and October for calendar-year filers.",
+    "source_url": "https://sdlegislature.gov/Statutes/10-43-30",
+    "evidence": [
+     "financial institution",
+     "tax liability",
+     "quarterly estimate"
+    ],
+    "accepted": false,
+    "reason": "figures not on sdlegislature.gov: ['10000', '15']; evidence not on dor.sd.gov (1/3); figures not on dor.sd.gov: ['10000', '15']; figures not on dor.sd.gov: ['10000']; figures not on mylrc.sdlegislature.gov: ['10000']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "South Dakota does not have individual, corporate, or pass-through income tax return forms. Financial institutions file the Bank Franchise Tax return electronically through the Department of Revenue's online Filing and Payment portal.",
+    "source_url": "https://dor.sd.gov/businesses/taxes/bank-franchise-tax/",
+    "evidence": [
+     "Bank Franchise Tax",
+     "Filing and Payment portal",
+     "Department of Revenue"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://dor.sd.gov/businesses/taxes/bank-franchise-tax/",
+    "matched_title": "Bank Franchise Tax | South Dakota Department of Revenue",
+    "matched_phrases": [
+     "Bank Franchise Tax",
+     "Filing and Payment portal",
+     "Department of Revenue"
+    ],
+    "snippet": "Bank Franchise Tax | South Dakota Department of Revenue Skip to main content What Can We Do For You Today? Search DOR.GOV.SD Choose a filter to refine your search All dor.sd.gov Pages Forms / Resources Close search Pages Forms / Resources All dor.sd.gov Site navigation Individuals Gaming Gaming for Individuals Find information about the South Dakota Commission on Gaming, laws, regulations and the seven types of gaming licenses issued to the general public."
+   }
+  ],
+  "grounding_urls": [
+   "https://dor.sd.gov/media/1gxpk4ck/2024-7_sales-use-tax-guide.pdf",
+   "https://dor.sd.gov/individuals/taxes/",
+   "https://dor.sd.gov/businesses/taxes/",
+   "https://dor.sd.gov/businesses/taxes/bank-franchise-tax/",
+   "https://dor.sd.gov/businesses/taxes/bank-franchise-tax/bank-franchise-tax-laws-regulations/",
+   "https://sdlegislature.gov/Statutes/10-43",
+   "https://sdlegislature.gov/Statutes?Statute=10-43-30.1",
+   "https://mylrc.sdlegislature.gov/api/Documents/SessionLaw/40677.html?Year=2016"
+  ],
+  "error": ""
+ }
+]

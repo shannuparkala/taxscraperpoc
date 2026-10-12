@@ -1,0 +1,111 @@
+[
+ {
+  "state": "DE",
+  "section": "apportionment",
+  "notes": "### Apportionment Formula\n* **Rule & Figures:** For general multistate corporations, business income is apportioned to Delaware using a **100% single sales (gross receipts) factor**. The sales factor equals gross receipts from sales of tangible personal property delivered within Delaware plus gross income from other sources within Delaware, divided by total gross receipts and gross income from everywhere.\n* **Applicable Tax Years:** 2025 and 2026 (effective for taxable periods beginning after December 31, 2019 / January 1, 2020; unchanged between 2025 and 2026). *(Note: While certain Division of Revenue informational overview pages still display legacy text referring to an equally weighted three-factor formula, the governing Delaware Code, official Corporate Income Tax FAQs, and return instructions mandate the 100% single sales/gross receipts factor).*\n* **Official URLs:** \n  * Delaware Code: https://delcode.delaware.gov/title30/c019/index.html (30 Del. C. § 1903(b)(6)a.5)\n  * Delaware Division of Revenue CIT FAQs: https://revenue.delaware.gov/frequently-asked-questions/corporate-income-tax-faqs/\n\n---\n\n### Sourcing of Services and Intangibles\n* **Services:** Sourced using **cost of performance / place of performance**. Gross receipts from services are included in the Delaware numerator if the services are rendered within Delaware. Other income is considered Delaware-source \"when the activity that gives rise to the income is performed within the State of Delaware\".\n* **Intangibles:** \n  * Under 30 Del. C. § 1903(b), items such as patent and copyright royalties, rents, and gains/losses from property are non-apportionable and **directly allocated** (e.g., patent/copyright royalties are allocated based on where the product or process protected by the patent is manufactured or used, or where publications are produced). \n  * Taxable dividends, net gains/losses on the sale of intangible property, and partnership distributions that are not directly allocated are sourced to Delaware if the taxpayer maintains Delaware as the principal place from which the trade or business is directed or managed (commercial domicile).\n* **Market-Based Sourcing Exception:** **Asset management corporations** must source gross receipts from asset management services using market-based sourcing based on the domicile of the customer, beneficiary, or fund investor (30 Del. C. § 1903(b)(7)).\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official URLs:** \n  * Delaware Code: https://delcode.delaware.gov/title30/c019/index.html (30 Del. C. § 1903(b))\n  * Delaware Division of Revenue Corporate Instructions: https://revenue.delaware.gov/business-tax-forms/2025-2026/\n\n---\n\n### Special Industry Apportionment Formulas\nUnder 30 Del. C. § 1903(b)(6)c, the general apportionment formula does not apply to the following industries:\n1. **Asset Management Corporations:** Apportioned under 30 Del. C. § 1903(b)(7) using a single ratio of gross receipts from asset management services sourced to Delaware (based on client/investor domicile) over total gross receipts from asset management services everywhere.\n2. **Telecommunications Corporations:** Excluded from standard single sales factor rules; governed by 30 Del. C. § 1903(b)(8), which provides an alternative formula.\n3. **Worldwide Headquarters Corporations:** Governed by 30 Del. C. § 1903(b)(8), providing an alternative apportionment calculation.\n4. **Banking Organizations and Trust Companies:** Governed under Title 5 (5 Del. C. § 1101A) rather than Title 30 Chapter 19; apportioned using a four-factor formula (property factor, payroll factor, and 2 times the receipts factor, divided by 4).\n5. **Headquarters Management Corporations:** Taxed and apportioned under Title 30 Chapter 64 (30 Del. C. § 6403).\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official URLs:** \n  * Delaware Code Title 30: https://delcode.delaware.gov/title30/c019/index.html (30 Del. C. § 1903(b)(6)–(8))\n  * Delaware Code Title 5: https://delcode.delaware.gov/title5/c011/sc01/index.html (5 Del. C. § 1101A)\n\n---\n\n### Form and Schedule Used to Compute Apportionment\n* **Forms & Schedules:**\n  * **Form CIT-TAX** (Delaware Corporate Income Tax Return), page 2:\n    * **Schedule 3A** (*Gross Receipts Subject to Apportionment*): Used to report gross receipts within Delaware and within/without Delaware.\n    * **Schedule 3B** (*Determination of Apportionment Percentage*): Used to divide Delaware gross receipts/income by total gross receipts/income to calculate the apportionment factor carried to line 8 on page 1 of Form CIT-TAX.\n  * *(For S corporations: Form SCT-RTN and Schedule 1-D / Schedule B).*\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official URL:** \n  * Delaware Division of Revenue Business Tax Forms (2025–2026): https://revenue.delaware.gov/business-tax-forms/2025-2026/",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Multistate corporations apportion business income to Delaware using a 100% single sales (gross receipts) factor. The factor is calculated as gross receipts from tangible personal property delivered in Delaware plus other Delaware gross income, divided by total gross receipts and gross income everywhere.",
+    "source_url": "https://delcode.delaware.gov/title30/c019/index.html",
+    "evidence": [
+     "100% single sales",
+     "gross receipts factor",
+     "entire business income"
+    ],
+    "accepted": false,
+    "reason": "figures not on delcode.delaware.gov: ['100']; figures not on revenue.delaware.gov: ['100']; not an official DE host: law.justia.com; evidence not on revenuefiles.delaware.gov (1/3); not an official DE host: www.taxformfinder.org; evidence not on delcode.delaware.gov (0/3)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Gross receipts from services are sourced using cost or place of performance, included in the numerator if rendered within Delaware. Asset management corporations are an exception and source receipts using market-based sourcing based on customer or investor domicile.",
+    "source_url": "https://delcode.delaware.gov/title30/c019/index.html",
+    "evidence": [
+     "services are rendered",
+     "performed within the State",
+     "asset management services",
+     "domicile of the customer"
+    ],
+    "accepted": false,
+    "reason": "evidence not on delcode.delaware.gov (1/4); evidence not on revenue.delaware.gov (0/4); not an official DE host: law.justia.com; evidence not on revenuefiles.delaware.gov (1/4); not an official DE host: www.taxformfinder.org; evidence not on delcode.delaware.gov (0/4)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Special apportionment rules apply to asset management corporations, telecommunications corporations, and worldwide headquarters corporations. In addition, banking organizations and trust companies apportion income under a four-factor formula pursuant to Title 5.",
+    "source_url": "https://delcode.delaware.gov/title30/c019/index.html",
+    "evidence": [
+     "Asset management corporations",
+     "Telecommunications corporations",
+     "Worldwide headquarters corporations"
+    ],
+    "accepted": false,
+    "reason": "evidence not on delcode.delaware.gov (0/3); evidence not on revenue.delaware.gov (0/3); not an official DE host: law.justia.com; evidence not on revenuefiles.delaware.gov (0/3); not an official DE host: www.taxformfinder.org",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Apportionment is computed on Form CIT-TAX using Schedule 3A and Schedule 3B. Schedule 3B determines the apportionment percentage that carries to line 8 on page 1 of the return.",
+    "source_url": "https://revenue.delaware.gov/business-tax-forms/2025-2026/",
+    "evidence": [
+     "Form CIT-TAX",
+     "Schedule 3A",
+     "Schedule 3B"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://revenuefiles.delaware.gov/2025/BusinessTaxForms_Instructions/CIT-TAX_2025-01_Instructions.pdf",
+    "matched_title": "https://revenuefiles.delaware.gov/2025/BusinessTaxForms_Instructions/CIT-TAX_2025-01_Instructions.pdf",
+    "matched_phrases": [
+     "Form CIT-TAX",
+     "Schedule 3A",
+     "Schedule 3B"
+    ],
+    "snippet": "Schedule 3B - Determination of Apportionment Percentage Enter in the numerator on Line 1 the total gross receipts within Delaware from Line 3 on Schedule 3A, enter in the denominator on Line 2 the total gross receipts from within and without Delaware on Line 3 on Schedule 3A and compute the respective percentage carried to at least six decimal places (do not round up)."
+   }
+  ],
+  "grounding_urls": [
+   "https://revenue.delaware.gov/frequently-asked-questions/corporate-income-tax-faqs/",
+   "https://law.justia.com/codes/delaware/title-30/chapter-19/section-1903/",
+   "https://delcode.delaware.gov/title30/c019/index.html",
+   "https://revenue.delaware.gov/business-tax-forms/filing-corporate-income-tax/",
+   "https://revenuefiles.delaware.gov/2025/BusinessTaxForms_Instructions/CIT-TAX_2025-01_Instructions.pdf",
+   "https://revenuefiles.delaware.gov/docs/TY10_1100i.pdf",
+   "https://revenuefiles.delaware.gov/2023/CIT-TAX_2023-01_Instructions.pdf",
+   "https://www.taxformfinder.org/delaware/form-1100",
+   "https://revenuefiles.delaware.gov/2024/Business_Tax_Forms_2024_2025/CIT-TAX_2024-01_Instructions.pdf",
+   "https://delcode.delaware.gov/title30/c019/index.html",
+   "https://delcode.delaware.gov/title30/c019/index.html",
+   "https://revenue.delaware.gov/business-tax-forms/",
+   "https://delcode.delaware.gov/title5/c011/index.html",
+   "https://delcode.delaware.gov/title30/c064/index.html"
+  ],
+  "error": ""
+ }
+]

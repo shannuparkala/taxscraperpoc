@@ -1,0 +1,582 @@
+[
+ {
+  "state": "NE",
+  "section": "apportionment",
+  "notes": "### 1. Apportionment Formula\n* **Fact:** Nebraska uses a **single sales factor** (100% sales factor) apportionment formula to apportion multistate business income. Property and payroll factors are not included.\n* **Applicable Tax Years:** 2025 and 2026 (no changes between years).\n* **Official URLs:** \n  * https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.05\n  * https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.16\n  * https://revenue.nebraska.gov/about/legal-information/regulations/chapter-24-apportionment\n\n---\n\n### 2. Sourcing of Services and Intangibles\n* **Fact:** Nebraska uses **market-based sourcing** for gross receipts from services and intangibles:\n  * **Services:** Sourced to Nebraska if the buyer uses the service in Nebraska. If the buyer uses the service both within and outside Nebraska, sales are apportioned in proportion to the use in Nebraska using any reasonable method. If the location cannot be determined, sales are sourced to where the order was placed or to the customer's billing address.\n  * **Intangibles:** Sourced to Nebraska if the buyer uses the intangible property at a location in Nebraska. If used within and outside Nebraska, receipts are apportioned in proportion to use; if the location cannot be determined, they are sourced to the buyer's billing address.\n  * **Statutory Exception (Communications Companies):** Sales (other than sales of tangible personal property) of a communications company are sourced using **cost of performance** (sourced to Nebraska if the income-producing activity is performed in Nebraska, or if a greater proportion is performed in Nebraska than in any other state based on costs of performance).\n* **Applicable Tax Years:** 2025 and 2026 (no changes between years).\n* **Official URLs:**\n  * https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.14\n  * https://revenue.nebraska.gov/businesses/apportionment-multistate-business-market-based-sourcing\n\n---\n\n### 3. Industries with Their Own Apportionment Formula\n* **Fact:** Neb. Rev. Stat. § 77-2734.15(3) authorizes special apportionment rules for industries where standard formulas are not appropriate (including transportation, broadcast communications, and insurance):\n  * **Airlines (Reg-24-341):** Apportion transportation revenue using a ratio of aircraft departures in Nebraska weighted by aircraft cost and value by type compared to total departures everywhere.\n  * **Pipeline Companies (Reg-24-342):** Apportion transportation revenue using traffic units (such as barrel-miles or cubic-foot-miles) within Nebraska versus everywhere.\n  * **Trucking Companies (Reg-24-343):** Apportion transportation revenue based on the ratio of mobile property miles traveled in Nebraska to total mobile property miles traveled everywhere.\n  * **Insurance Companies (Reg-24-061 & Reg-24-347):** Apportion income based on direct premiums written on properties and risks within Nebraska compared to total direct premiums written everywhere.\n  * **Communications Companies (Neb. Rev. Stat. § 77-2734.14(4)):** Required to use cost-of-performance sourcing for sales rather than market-based sourcing.\n  * **Financial Institutions:** Subject to the Nebraska Financial Institution Tax based on deposits under Neb. Rev. Stat. Chapter 77, Article 38 (rather than corporate income tax apportionment).\n* **Applicable Tax Years:** 2025 and 2026 (no changes between years).\n* **Official URLs:**\n  * https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.15\n  * https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.14\n  * https://revenue.nebraska.gov/about/legal-information/regulations/chapter-24-apportionment\n\n---\n\n### 4. Form or Schedule Used to Compute Apportionment\n* **Fact:** Apportionment is computed on **Nebraska Schedule I (Apportionment for Multistate Business)**:\n  * For C corporations / unitary corporate filers: **Form 1120N, Schedule I**.\n  * For S corporations: **Form 1120-SN, Schedule I**.\n  * For partnerships: **Form 1065N, Schedule I**.\n  * For amended corporate returns: **Form 1120XN, Schedule I**.\n* **Applicable Tax Years:** 2025 and 2026 (no changes between years).\n* **Official URLs:**\n  * https://revenue.nebraska.gov/businesses/corporation-and-s-corporation-income-tax-forms\n  * https://revenue.nebraska.gov/files/doc/tax-forms/2025/f_1120n_booklet.pdf",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Nebraska uses a single sales factor apportionment formula to apportion multistate business income. Property and payroll factors are not included.",
+    "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.05",
+    "evidence": [
+     "single sales factor",
+     "multistate business income"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.05; evidence not on revenue.nebraska.gov (0/2); unreadable: https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.16; unreadable: https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.14; unreadable: https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.15; unreadable: https://nebraskalegislature.gov/laws/display_html.php?begin_section=77-6801&end_section=77-6846",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Nebraska uses market-based sourcing for gross receipts from services and intangibles based on where the buyer uses the service or property. Communications companies are subject to a statutory exception requiring cost-of-performance sourcing.",
+    "source_url": "https://revenue.nebraska.gov/businesses/apportionment-multistate-business-market-based-sourcing",
+    "evidence": [
+     "market-based sourcing",
+     "uses the service in Nebraska",
+     "costs of performance"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://revenue.nebraska.gov/about/apportionment-multistate-business-market-based-sourcing",
+    "matched_title": "Apportionment for Multistate Business Market-Based Sourcing | Nebraska Department of Revenue",
+    "matched_phrases": [
+     "market-based sourcing",
+     "costs of performance"
+    ],
+    "snippet": "Market-based sourcing replaces the former costs of performance method of apportionment used for tax years beginning before January 1, 2014."
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Special industry apportionment rules apply to airlines, pipeline companies, trucking companies, and insurance companies. Communications companies are required to use cost of performance, while financial institutions are subject to a deposit-based tax.",
+    "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.15",
+    "evidence": [
+     "special apportionment rules",
+     "traffic units",
+     "direct premiums written"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://revenue.nebraska.gov/about/legal-information/regulations/chapter-24-apportionment",
+    "matched_title": "Chapter 24 - Apportionment | Nebraska Department of Revenue",
+    "matched_phrases": [
+     "special apportionment rules",
+     "direct premiums written"
+    ],
+    "snippet": "Sale Not Specifically Addressed REG-24-341 Special Apportionment Rules;"
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Apportionment is computed on Nebraska Schedule I (Apportionment for Multistate Business). This schedule is filed with Form 1120N for C corporations, Form 1120-SN for S corporations, and Form 1065N for partnerships.",
+    "source_url": "https://revenue.nebraska.gov/businesses/corporation-and-s-corporation-income-tax-forms",
+    "evidence": [
+     "Schedule I",
+     "Apportionment for Multistate Business",
+     "Form 1120N"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2025/f_Corp_Booklet.pdf",
+    "matched_title": "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2025/f_Corp_Booklet.pdf",
+    "matched_phrases": [
+     "Schedule I",
+     "Apportionment for Multistate Business",
+     "Form 1120N"
+    ],
+    "snippet": "Form 1120N (2025) Page 2 FORM 1120N Schedules A and I 2025 Name on Form 1120N Nebraska ID Number Nebraska Schedule A — Adjustments to FTI Nebraska Schedule I — Apportionment for Multistate Business ."
+   }
+  ],
+  "grounding_urls": [
+   "https://revenue.nebraska.gov/about/legal-information/regulations/chapter-24-apportionment",
+   "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2025/f_Corp_Booklet.pdf",
+   "https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.16",
+   "https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.05",
+   "https://revenue.nebraska.gov/about/apportionment-multistate-business-market-based-sourcing",
+   "https://revenue.nebraska.gov/about/apportionment-multistate-business-market-based-sourcing",
+   "https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.14",
+   "https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.14",
+   "https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.14",
+   "https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.15",
+   "https://revenue.nebraska.gov/about/legal-information/regulations/chapter-24-apportionment",
+   "https://revenue.nebraska.gov/about/legal-information/regulations/chapter-24-apportionment",
+   "https://revenue.nebraska.gov/about/legal-information/regulations/chapter-24-apportionment",
+   "https://revenue.nebraska.gov/about/legal-information/regulations/chapter-24-corporate-income-tax",
+   "https://nebraskalegislature.gov/laws/display_html.php?begin_section=77-6801&end_section=77-6846",
+   "https://revenue.nebraska.gov/about/legal-information/regulations/chapter-24-corporate-income-tax",
+   "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2024/f_1120N.pdf",
+   "https://revenue.nebraska.gov/about/forms/corporation-and-s-corporation-income-tax-forms",
+   "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2019/f_1120sn_booklet.pdf",
+   "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2024/f_Return_of_Partnership_Booklet.pdf",
+   "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2024/f_1120XN_taxyear_2023.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "NE",
+  "section": "nexus",
+  "notes": "### 1. Corporate Income / Franchise Tax Nexus\n\n* **Nexus Standard:** \n  * Under Neb. Rev. Stat. § 77-2734.02(1) and 316 Neb. Admin. Code § 24-001.01, Nebraska imposes corporate income tax on every corporate taxpayer that is doing business in the state and derives federal taxable income from Nebraska sources, unless exempt under Public Law 86-272 or organized as a financial institution (which is subject to the franchise tax under Neb. Rev. Stat. § 77-3801 et seq.).\n  * Neb. Rev. Stat. § 77-2734.04(12) and 316 Neb. Admin. Code § 24-058.05 define *\"doing business in this state\"* as:\n    > \"the exercise of the corporation's franchise in this state or the conduct of operations in this state that exceed the limitations provided in 15 U.S.C. 381 on a state imposing an income tax\".\n* **Bright-Line / Economic Nexus Factor-Presence Threshold:**\n  * **Not found.** Nebraska has not enacted a bright-line dollar, property, or payroll factor-presence economic nexus threshold for general corporate income tax.\n  * *(Industry Exception)*: Revenue Ruling 24-08-1 establishes a narrow administrative *de minimis* non-taxable threshold specifically for for-hire trucking companies (fewer than 25,000 mobile miles in NE, not exceeding 3.0% of total fleet mobile miles, no pickups/deliveries, no owned/leased real/personal property other than mobile property, and no more than 12 trips into NE).\n* **Applicability:** Applies to both tax years 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Nebraska Legislature — Neb. Rev. Stat. § 77-2734.02: https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.02\n  * Nebraska Legislature — Neb. Rev. Stat. § 77-2734.04: https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.04\n  * Nebraska Department of Revenue — Title 316, Ch. 24 (Corporate Income Tax): https://revenue.nebraska.gov/about/regulations/chapter-24-corporate-income-tax\n  * Nebraska Department of Revenue — Revenue Ruling 24-08-1: https://revenue.nebraska.gov/files/doc/legal-information/revenue-rulings/rr24-08-1.pdf\n\n---\n\n### 2. Remote Seller Economic Nexus Threshold & Measurement Period\n\n* **Statutory Thresholds:** Under Neb. Rev. Stat. § 77-2701.13(2) and Department guidance, a remote retailer without physical presence in Nebraska is engaged in business in Nebraska and required to register, collect, and remit sales/use tax if either:\n  * Total retail sales of property in Nebraska **exceeded $100,000** (gross retail sales, including sales made through a marketplace platform); **OR**\n  * The retailer made retail sales in Nebraska in **200 or more separate transactions**.\n* **Measurement Period:** The **previous or current calendar year**.\n* **Collection Start Date:** Under Neb. Rev. Stat. § 77-2705(1)(c), a retailer crossing either threshold for the first time must obtain a permit and begin collecting sales tax on or before the **first day of the second calendar month** after the threshold was exceeded.\n* **Applicability:** Applies to both tax years 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Nebraska Legislature — Neb. Rev. Stat. § 77-2701.13: https://nebraskalegislature.gov/laws/statutes.php?statute=77-2701.13\n  * Nebraska Legislature — Neb. Rev. Stat. § 77-2705: https://nebraskalegislature.gov/laws/statutes.php?statute=77-2705\n  * Nebraska Department of Revenue — Remote Seller and Marketplace Facilitator FAQs: https://revenue.nebraska.gov/businesses/frequently-asked-questions-about-remote-sellers-and-marketplace-facilitators\n\n---\n\n### 3. State's Stated Position on P.L. 86-272 Protection\n\n* **Statutory & Regulatory Incorporation:** \n  * Nebraska statutory law incorporates P.L. 86-272 (15 U.S.C. § 381) directly into the definition of \"doing business in this state\" under Neb. Rev. Stat. § 77-2734.04(12).\n  * 316 Neb. Admin. Code § 24-001.01 expressly exempts corporations protected by P.L. 86-272 (15 U.S.C. §§ 381–384) from Nebraska corporate income tax liability.\n* **Published Rulings & Stated Positions:**\n  * **Deliveries by Company Vehicles:** In Revenue Ruling 24-01-1, the Department ruled that shipping or delivering goods into Nebraska using a company’s own vehicles (private carriage) to fill orders solicited in-state and approved/filled from outside the state is protected activity under P.L. 86-272 and does not create corporate income tax nexus.\n  * **Provision of Services:** In Revenue Ruling 24-08-1, the Department established that services physically performed in the state (e.g., for-hire trucking/transportation) fall outside the protections of P.L. 86-272.\n  * **MTC Revised Guidance on Internet Activities:** **Not found** on official Nebraska Department of Revenue or legislative pages (Nebraska has not formally published administrative guidance adopting the MTC's revised interpretation of P.L. 86-272 regarding internet activities).\n* **Applicability:** Applies to both tax years 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Nebraska Legislature — Neb. Rev. Stat. § 77-2734.04: https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.04\n  * Nebraska Department of Revenue — Title 316, Ch. 24 (REG-24-001 & REG-24-058): https://revenue.nebraska.gov/about/regulations/chapter-24-corporate-income-tax\n  * Nebraska Department of Revenue — Revenue Ruling 24-01-1: https://revenue.nebraska.gov/files/doc/legal-information/revenue-rulings/rr24-01-1.pdf\n  * Nebraska Department of Revenue — Revenue Ruling 24-08-1: https://revenue.nebraska.gov/files/doc/legal-information/revenue-rulings/rr24-08-1.pdf",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Nebraska imposes corporate income tax on corporations doing business in the state and deriving federal taxable income from Nebraska sources. Doing business is defined as exercising a corporate franchise or conducting operations exceeding the limitations in 15 U.S.C. 381.",
+    "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.04",
+    "evidence": [
+     "doing business in this state",
+     "exercise of the corporation's franchise",
+     "limitations provided in 15 U.S.C. 381"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.04; figure not stated beside the evidence on revenue.nebraska.gov; unreadable: https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.02; evidence not on revenue.nebraska.gov (1/3); unreadable: https://nebraskalegislature.gov/laws/statutes.php?statute=77-2701.13; figures not on revenue.nebraska.gov: ['15', '381']; unreadable: https://nebraskalegislature.gov/laws/statutes.php?statute=77-2705; evidence not on ",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "A remote retailer has economic nexus if retail sales into Nebraska exceed $100,000 or are made in 200 or more separate transactions. The measurement period is the previous or current calendar year.",
+    "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=77-2701.13",
+    "evidence": [
+     "exceeded one hundred thousand dollars",
+     "two hundred or more separate transactions",
+     "previous or current calendar year"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://nebraskalegislature.gov/laws/statutes.php?statute=77-2701.13; figures not on revenue.nebraska.gov: ['200']; unreadable: https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.02; unreadable: https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.04; figures not on revenue.nebraska.gov: ['100000', '200']; evidence not on revenue.nebraska.gov (0/3); unreadable: https://nebraskalegislature.gov/laws/statutes.php?statute=77-2705",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Nebraska explicitly protects activities falling within P.L. 86-272, defining doing business as operations exceeding 15 U.S.C. 381 limitations. Department guidance clarifies that deliveries in company-owned vehicles are protected, while services performed in the state are not.",
+    "source_url": "https://revenue.nebraska.gov/files/doc/legal-information/revenue-rulings/rr24-01-1.pdf",
+    "evidence": [
+     "Public Law 86-272",
+     "company-owned vehicles",
+     "corporate income tax nexus"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://revenue.nebraska.gov/sites/default/files/doc/legal/rulings/rr240801.pdf",
+    "matched_title": "rr240801.indd",
+    "matched_phrases": [
+     "Public Law 86-272",
+     "corporate income tax nexus"
+    ],
+    "snippet": "Such services are not protected by Public Law 86-272."
+   }
+  ],
+  "grounding_urls": [
+   "https://revenue.nebraska.gov/about/legal-information/regulations/chapter-24-corporate-income-tax",
+   "https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.02",
+   "https://revenue.nebraska.gov/about/legal-information/regulations/chapter-24-corporate-income-tax",
+   "https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.04",
+   "https://revenue.nebraska.gov/sites/default/files/doc/legal/rulings/rr240801.pdf",
+   "https://nebraskalegislature.gov/laws/statutes.php?statute=77-2701.13",
+   "https://revenue.nebraska.gov/about/frequently-asked-questions/remote-seller-and-marketplace-facilitator-faqs",
+   "https://nebraskalegislature.gov/laws/statutes.php?statute=77-2705",
+   "https://revenue.nebraska.gov/sites/default/files/doc/legal/rulings/rr240101.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "NE",
+  "section": "rates",
+  "notes": "### 1. Individual Income Tax Brackets and Rates\n\n* **Tax Year 2025**:\n  * **Brackets & Rates**:\n    * **Bracket 1 (2.46%)**: \n      * Married Filing Jointly: $0 – $8,040\n      * Head of Household: $0 – $7,510\n      * Single / Married Filing Separately: $0 – $4,030\n    * **Bracket 2 (3.51%)**: \n      * Married Filing Jointly: $8,040 – $48,250\n      * Head of Household: $7,510 – $38,590\n      * Single / Married Filing Separately: $4,030 – $24,120\n    * **Bracket 3 (5.01%)**: \n      * Married Filing Jointly: $48,250 – $77,730\n      * Head of Household: $38,590 – $57,630\n      * Single / Married Filing Separately: $24,120 – $38,870\n    * **Bracket 4 (5.20%)**: \n      * Married Filing Jointly: Over $77,730\n      * Head of Household: Over $57,630\n      * Single / Married Filing Separately: Over $38,870\n* **Tax Year 2026**:\n  * **Brackets & Rates** (The top rate decreases to 4.55%, matching the third bracket rate cap):\n    * **Bracket 1 (2.46%)**: \n      * Married Filing Jointly: $0 – $8,250\n      * Head of Household: $0 – $7,700\n      * Single / Married Filing Separately: $0 – $4,130\n    * **Bracket 2 (3.51%)**: \n      * Married Filing Jointly: $8,250 – $49,530\n      * Head of Household: $7,700 – $39,620\n      * Single / Married Filing Separately: $4,130 – $24,760\n    * **Bracket 3 (4.55%)**: \n      * Married Filing Jointly: $49,530 – $79,800\n      * Head of Household: $39,620 – $59,160\n      * Single / Married Filing Separately: $24,760 – $39,900\n    * **Bracket 4 (4.55%)**: \n      * Married Filing Jointly: Over $79,800\n      * Head of Household: Over $59,160\n      * Single / Married Filing Separately: Over $39,900\n* **Official Sources**:\n  * Nebraska Department of Revenue, Table 1 — Income Tax and Sales Tax Rates: https://revenue.nebraska.gov/about/tax-rate-chronologies-table-1-income-tax-and-sales-tax-rates\n  * Nebraska Legislature, Neb. Rev. Stat. § 77-2715.03: https://nebraskalegislature.gov/laws/statutes.php?statute=77-2715.03\n\n---\n\n### 2. Corporate Income / Franchise Tax and Minimum Tax\n\n* **Rates**:\n  * **Tax Year 2025**: A flat rate of **5.20%** applies to all taxable corporate income (the former two-bracket structure was eliminated).\n  * **Tax Year 2026**: A flat rate of **4.55%** applies to all taxable corporate income.\n* **Minimum Tax**:\n  * **None**: Nebraska imposes no corporate minimum tax.\n* **Official Sources**:\n  * Nebraska Legislature, Neb. Rev. Stat. § 77-2734.02: https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.02\n  * Nebraska Department of Revenue, Corporation Income Tax Instructions / Booklets: https://revenue.nebraska.gov/about/tax-rate-chronologies-table-1-income-tax-and-sales-tax-rates\n\n---\n\n### 3. State Sales and Use Tax Rate & Local Jurisdiction Additions\n\n* **State Rate**: \n  * **5.5%** for both TY 2025 and TY 2026 (qualifying transactions in designated Good Life Districts are subject to a reduced state rate of 2.75%).\n* **Local Taxes**: \n  * Yes, local jurisdictions add rates.\n  * Incorporated cities and villages may impose local option sales taxes up to **2.0%** (typically 0.5%, 1.0%, 1.5%, 1.75%, or 2.0%).\n  * Counties may also impose a sales tax (e.g., Dakota County imposes **0.5%** in areas outside municipalities that impose a municipal sales tax).\n  * Total combined state and local rates commonly reach **6.0%** to **7.5%**.\n* **Official Sources**:\n  * Nebraska Department of Revenue, Local Sales and Use Tax Rates: https://revenue.nebraska.gov/businesses/sales-and-use-tax/local-sales-and-use-tax-rates\n  * Nebraska Legislature, Neb. Rev. Stat. § 77-2701.02: https://nebraskalegislature.gov/laws/statutes.php?statute=77-2701.02\n\n---\n\n### 4. Gross Receipts, Franchise, Margin, or Other Notable Business Taxes\n\n* **General Business Entities**: \n  * Nebraska does **not** impose a general statewide gross receipts tax, margin tax, or general corporate franchise tax on C corporations.\n* **Notable Specific Business Taxes**:\n  * **Financial Institution Franchise Tax**: Imposed on financial institutions maintaining a place of business and soliciting deposits in Nebraska under Neb. Rev. Stat. §§ 77-3801 through 77-3807.\n    * *Rate (TY 2025)*: **$0.31 per $1,000** of average deposits, limited to a maximum limitation amount of **2.54%** of net financial income (limitation rate tied to 48.8% of the top corporate income tax rate).\n  * **Pass-Through Entity Tax (PTET)**: Partnerships and S corporations may elect an entity-level income tax at the top individual rate under Neb. Rev. Stat. § 77-2727(6) and § 77-2734.01(8) (5.20% for TY 2025; 4.55% for TY 2026).\n* **Official Sources**:\n  * Nebraska Legislature, Neb. Rev. Stat. §§ 77-3801 through 77-3807: https://nebraskalegislature.gov/laws/statutes.php?statute=77-3802\n  * Nebraska Department of Revenue, Business Income Tax FAQs: https://revenue.nebraska.gov/about/frequently-asked-questions/business-income-tax-faqs\n  * Nebraska Department of Revenue, Form 1120NF-ES Instructions: https://revenue.nebraska.gov/",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025
+    ],
+    "value": "For tax year 2025, Nebraska individual income tax is levied across four brackets at rates of 2.46%, 3.51%, 5.01%, and 5.20%.",
+    "source_url": "https://revenue.nebraska.gov/about/tax-rate-chronologies-table-1-income-tax-and-sales-tax-rates",
+    "evidence": [
+     "Income Tax and Sales Tax",
+     "2.46%",
+     "5.20%"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://revenue.nebraska.gov/sites/default/files/doc/research/chronology/4-607table1.pdf",
+    "matched_title": "Nebraska Tax Rate Chronologies - Table 1",
+    "matched_phrases": [
+     "Income Tax and Sales Tax",
+     "2.46%",
+     "5.20%"
+    ],
+    "snippet": "1, 2026 7 2.46% 3.51% 4.55% 4.55% $176 $8,850 $17 ,700 4.55% 5.5% 2.50% Oct."
+   },
+   {
+    "key": "individual",
+    "years": [
+     2026
+    ],
+    "value": "For tax year 2026, individual income tax bracket rates are 2.46%, 3.51%, and 4.55%, with the top rate dropping to 4.55%.",
+    "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=77-2715.03",
+    "evidence": [
+     "rate of tax",
+     "4.55 percent"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://nebraskalegislature.gov/laws/statutes.php?statute=77-2715.03; evidence not on revenue.nebraska.gov (0/2); unreadable: https://www.nebraskalegislature.gov/laws/statutes.php?statute=77-2715.03; figures not on revenue.nebraska.gov: ['2.46', '3.51', '4.55']; unreadable: https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.02; figures not on revenue.nebraska.gov: ['2.46', '2026', '3.51', '4.55']; figures not on revenue.nebraska.gov: ['4.55']; unreadable: https://nebra",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025
+    ],
+    "value": "Nebraska imposes a flat corporate income tax rate of 5.20% on all taxable income for tax year 2025, with no minimum tax.",
+    "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.02",
+    "evidence": [
+     "corporate income tax",
+     "taxable income",
+     "5.20 percent"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2025/f_Corp_Booklet.pdf",
+    "matched_title": "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2025/f_Corp_Booklet.pdf",
+    "matched_phrases": [
+     "corporate income tax",
+     "taxable income"
+    ],
+    "snippet": "For the 2025 taxable year, the corporate tax rate for Nebraska taxable income is reduced to 5.20%."
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2026
+    ],
+    "value": "Nebraska imposes a flat corporate income tax rate of 4.55% on all taxable income for tax year 2026, with no minimum tax.",
+    "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.02",
+    "evidence": [
+     "corporate income tax",
+     "taxable income",
+     "4.55 percent"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.02; evidence not on revenue.nebraska.gov (1/3); unreadable: https://www.nebraskalegislature.gov/laws/statutes.php?statute=77-2715.03; figures not on revenue.nebraska.gov: ['4.55']; figures not on revenue.nebraska.gov: ['2026', '4.55']; unreadable: https://nebraskalegislature.gov/laws/statutes.php?statute=77-3804; unreadable: https://nebraskalegislature.gov/laws/statutes.php?statute=77-2727; unreadable: https://nebraska",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The state sales and use tax rate is 5.5%, while local jurisdictions may add local option sales taxes up to 2.0% (and counties up to 0.5%). Qualifying transactions in Good Life Districts are subject to a reduced state rate of 2.75%.",
+    "source_url": "https://revenue.nebraska.gov/businesses/sales-and-use-tax/local-sales-and-use-tax-rates",
+    "evidence": [
+     "Sales and Use Tax Rates",
+     "local option sales tax",
+     "state sales tax"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://revenue.nebraska.gov/businesses/sales-and-use-tax/local-sales-and-use-tax-rates; evidence not on revenue.nebraska.gov (1/3); unreadable: https://www.nebraskalegislature.gov/laws/statutes.php?statute=77-2715.03; figures not on revenue.nebraska.gov: ['0.5', '2.75']; unreadable: https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.02; figures not on revenue.nebraska.gov: ['0.5', '2', '2.75']; figures not on revenue.nebraska.gov: ['0.5', '2.75', '5.5']; figures not o",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025
+    ],
+    "value": "Nebraska imposes no general gross receipts or margin tax, but levies a financial institution franchise tax of $0.31 per $1,000 of average deposits, limited to 2.54% of net financial income, and an elective pass-through entity tax at 5.20%.",
+    "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=77-3802",
+    "evidence": [
+     "franchise tax",
+     "financial institution",
+     "average deposits"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://nebraskalegislature.gov/laws/statutes.php?statute=77-3802; figures not on revenue.nebraska.gov: ['0.31', '1000', '2.54']; unreadable: https://www.nebraskalegislature.gov/laws/statutes.php?statute=77-2715.03; figures not on revenue.nebraska.gov: ['0.31', '2.54']; unreadable: https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.02; figures not on revenue.nebraska.gov: ['0.31', '1000', '2.54', '5.2']; figures not on revenue.nebraska.gov: ['0.31']; unreadable: https:",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2026
+    ],
+    "value": "Nebraska imposes no general gross receipts or margin tax, but levies a financial institution franchise tax on average deposits and an elective pass-through entity tax at 4.55%.",
+    "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=77-3802",
+    "evidence": [
+     "franchise tax",
+     "financial institution",
+     "average deposits"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://nebraskalegislature.gov/laws/statutes.php?statute=77-3802; evidence not on revenue.nebraska.gov (0/3); unreadable: https://www.nebraskalegislature.gov/laws/statutes.php?statute=77-2715.03; figures not on revenue.nebraska.gov: ['4.55']; unreadable: https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.02; unreadable: https://nebraskalegislature.gov/laws/statutes.php?statute=77-3804; unreadable: https://nebraskalegislature.gov/laws/statutes.php?statute=77-2727; unre",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://revenue.nebraska.gov/sites/default/files/doc/research/chronology/4-607table1.pdf",
+   "https://www.nebraskalegislature.gov/laws/statutes.php?statute=77-2715.03",
+   "https://revenue.nebraska.gov/sites/default/files/doc/research/chronology/4-607table1.pdf",
+   "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2025/f_Corp_Booklet.pdf",
+   "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2025/f_Corp_Booklet.pdf",
+   "https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.02",
+   "https://revenue.nebraska.gov/businesses/local-sales-and-use-tax-rates",
+   "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2026/salestax/slstax_rates_01-01-2026.pdf",
+   "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2024/salestax/slstax_rates_01-01-2025.pdf",
+   "https://revenue.nebraska.gov/sites/default/files/doc/info/6-352.pdf",
+   "https://revenue.nebraska.gov/about/frequently-asked-questions/business-income-tax-faqs",
+   "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2025/f_1120NF-ES.pdf",
+   "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2025/f_1120NF-ES.pdf",
+   "https://nebraskalegislature.gov/laws/statutes.php?statute=77-3804",
+   "https://nebraskalegislature.gov/laws/statutes.php?statute=77-2727",
+   "https://nebraskalegislature.gov/laws/display_html.php?begin_section=77-2734.01&end_section=77-2734.14"
+  ],
+  "error": ""
+ },
+ {
+  "state": "NE",
+  "section": "filing",
+  "notes": "### 1. Individual Returns: Due Dates and Extensions\n\n* **Calendar-Year Return Due Date:** \n  * Nebraska individual income tax returns (**Form 1040N**) are due on or before **April 15** following the close of the calendar year (or the next business day if April 15 falls on a weekend or legal holiday).\n  * *Applicability:* Applies to tax years 2025 (due April 15, 2026) and 2026 (due April 15, 2027).\n  * *Official Source:* [Nebraska Tax Calendar](https://revenue.nebraska.gov/about/tax-calendar) | [Neb. Rev. Stat. § 77-2768](https://nebraskalegislature.gov/laws/statutes.php?statute=77-2768)\n\n* **Extension Rules:**\n  * **Automatic Federal Extension:** If an individual has been granted an automatic federal extension (IRS Form 4868), the Nebraska filing due date is automatically extended for the same period (up to **6 months**, to October 15) without filing a state extension form. A copy of the federal extension or federal confirmation must be retained/attached to the return.\n  * **Nebraska Extension (Form 4868N):** Taxpayers requesting a Nebraska extension without a federal extension, or who are submitting a tentative tax payment, must file **Form 4868N** on or before the original due date of the return. (The requirement to file Form 4868N is waived if the return is e-filed through a paid preparer).\n  * **Payment Requirement:** An extension of time to file does not extend the time for payment of tax. Full tentative tax must be paid on or before the original due date to avoid interest and late payment penalties.\n  * *Applicability:* Applies to tax years 2025 and 2026.\n  * *Official Source:* [Form 4868N Instructions](https://revenue.nebraska.gov/individuals/individual-income-tax-forms)\n\n---\n\n### 2. Corporate and Pass-Through Entity Return Due Dates and Extensions\n\n* **C Corporations (Form 1120N):**\n  * **Due Date:** Due on or before the **15th day of the 4th month** following the close of the taxable year (April 15 for calendar-year filers). *(Exception: corporations with a fiscal year ending June 30 are due on the 15th day of the 3rd month, September 15)*.\n  * **Extension:** Nebraska allows a maximum **7-month extension** beyond the original due date (to November 15 for calendar-year filers). If a federal extension has been granted on Federal Form 7004, the Nebraska filing date is automatically extended for the federal period; however, corporations may obtain the full 7-month extension by filing **Form 7004N** on or before the date the federal extension expires. If making a tentative tax payment, Form 7004N must be filed by the original due date.\n  * *Applicability:* Applies to tax years 2025 and 2026.\n  * *Official Source:* [Business Income Tax FAQs](https://revenue.nebraska.gov/about/frequently-asked-questions/business-income-tax-faqs) | [Form 7004N Instructions](https://revenue.nebraska.gov/businesses/corporation-and-s-corporation-income-tax)\n\n* **S Corporations (Form 1120-SN):**\n  * **Due Date:** Due on or before the **15th day of the 3rd month** following the close of the taxable year (March 15 for calendar-year filers).\n  * **Extension:** Allows an automatic **7-month extension** from the original due date (to October 15 for calendar-year filers). A federal extension granted on Form 7004 automatically extends the state return for the same period; Form 7004N must be filed if making a tentative tax payment or requesting the full 7-month extension.\n  * *Applicability:* Applies to tax years 2025 and 2026.\n  * *Official Source:* [Form 7004N](https://revenue.nebraska.gov/businesses/corporation-and-s-corporation-income-tax) | [S Corporation Income Tax Booklet](https://revenue.nebraska.gov/businesses/corporation-and-s-corporation-income-tax)\n\n* **Partnerships (Form 1065N):**\n  * **Due Date:** Due on or before the **15th day of the 3rd month** following the close of the taxable year (March 15 for calendar-year filers).\n  * **Extension:** Nebraska allows partnerships an extension of time **up to the maximum number of months provided by the IRS (6 months)** (to September 15 for calendar-year filers). A granted federal extension automatically extends the state return for the same duration. Form 7004N must be filed on or before the original return due date if a tentative payment is made or if federal Form 7004 was not filed. No additional Nebraska extension is granted beyond the federal period.\n  * *Applicability:* Applies to tax years 2025 and 2026.\n  * *Official Source:* [Form 7004N](https://revenue.nebraska.gov/businesses/partnership-income-tax) | [Return of Partnership Income Booklet](https://revenue.nebraska.gov/businesses/partnership-income-tax)\n\n---\n\n### 3. Elective Pass-Through Entity Tax (PTET)\n\n* **Existence:** Nebraska provides an elective entity-level income tax for partnerships and S corporations under Neb. Rev. Stat. §§ 77-2727(6) and 77-2734.01(8).\n* **Rate:** The PTET rate equals the highest individual income tax rate under Neb. Rev. Stat. § 77-2715.03:\n  * **Tax Year 2025:** **5.20%**\n  * **Tax Year 2026:** **4.55%** (drops to 3.99% for 2027 and thereafter)\n* **How to Elect:** The entity makes the election by either:\n  1. Checking **Box 5** directly on the PTE return (Form 1065N or Form 1120-SN); or\n  2. Submitting **Form PTET-E** (*Pass-Through Entity Tax Election for Tax Years After 2022*) via the Department of Revenue's secure file sharing system (Box 5 must still be marked on the return).\n* **When to Elect:** The election must be made **on or before the due date of the return, including any granted extensions**. Once made for a tax year, the election is **irrevocable** and binding on the entity and its owners.\n* *Applicability:* Rates changed between tax years 2025 (5.20%) and 2026 (4.55%); election rules apply to both years.\n* *Official Source:* [Pass-Through Entity Tax (PTET) FAQs](https://revenue.nebraska.gov/about/frequently-asked-questions/pass-through-entity-tax-ptet-faqs) | [Nebraska PTET Information Page](https://revenue.nebraska.gov/businesses/nebraska-pass-through-entity-tax-ptet) | [Neb. Rev. Stat. § 77-2715.03](https://nebraskalegislature.gov/laws/statutes.php?statute=77-2715.03)\n\n---\n\n### 4. Composite or Group Nonresident Returns\n\n* **Availability:** **Not permitted.** The Nebraska Department of Revenue explicitly prohibits composite return filing: *\"The Department does not allow the filing of 'composite' income tax returns\"*.\n* **Required Alternative Procedure:** Partnerships and S corporations with nonresident individual partners/shareholders must do one of the following:\n  1. Obtain a signed **Form 12N** (*Nebraska Nonresident Income Tax Agreement*) from the nonresident owner prior to filing, agreeing that the nonresident will file a Nebraska return and pay tax; OR\n  2. Withhold and remit Nebraska income tax on the nonresident owner's share of Nebraska income directly with the entity return (**Form 1065N Schedule II** or **Form 1120-SN Schedule II**).\n  * *(Note: Nonresident individuals whose only connection to Nebraska is the pass-through entity and whose liability was fully satisfied via entity withholding may elect not to file Form 1040N, unless claiming a refund)*.\n* *Applicability:* Applies to tax years 2025 and 2026.\n* *Official Source:* [Return of Partnership Income Booklet](https://revenue.nebraska.gov/businesses/partnership-income-tax) | [S Corporation Income Tax Booklet](https://revenue.nebraska.gov/businesses/corporation-and-s-corporation-income-tax)\n\n---\n\n### 5. Estimated Tax Payments and Nonresident Withholding for Pass-Through Entities\n\n* **Nonresident Withholding Requirements:**\n  * For non-electing pass-through entities, withholding is mandatory for any nonresident individual partner or shareholder who does not execute a Form 12N.\n  * **Withholding Rate:** Equal to the highest individual income tax rate:\n    * **Tax Year 2025:** **5.20%**\n    * **Tax Year 2026:** **4.55%**\n  * Withholding is reported on **Schedule II** of Form 1065N or Form 1120-SN and allocated to owners on **Schedule K-1N**. Corporate, estate, and trust owners (other than grantor trusts) cannot be withheld on and must file their own Nebraska returns.\n* **Estimated Tax Payment Requirements:**\n  * **Electing PTET Entities:** Under Neb. Rev. Stat. §§ 77-2727(6)(c) and 77-2734.01(8)(c), electing PTEs are treated as corporations for estimated tax purposes. They must make quarterly estimated payments if the entity’s Nebraska income tax liability is reasonably expected to exceed allowable credits by **$400 or more**.\n    * **Due Dates (Calendar-Year Filers):** Due on the 15th day of the 4th, 6th, 9th, and 12th months of the taxable year (**April 15, June 15, September 15, and December 15**).\n    * **Vouchers:** Electing partnerships use **Form 1065N-ES**; electing S corporations use **Form 1120N-ES**.\n  * **Non-Electing PTEs:** Non-electing partnerships are not required to make estimated income tax payments. Non-electing S corporations may make voluntary estimated payments on Form 1120N-ES, which are treated as withholding on behalf of shareholders.\n* *Applicability:* Rates changed between tax years 2025 and 2026; thresholds and due date schedules apply to both years.\n* *Official Source:* [Form 1065N-ES](https://revenue.nebraska.gov/businesses/partnership-income-tax-forms) | [Form 1120N-ES](https://revenue.nebraska.gov/businesses/corporation-and-s-corporation-income-tax-forms) | [Neb. Rev. Stat. § 77-2769](https://nebraskalegislature.gov/laws/statutes.php?statute=77-2769)\n\n---\n\n### 6. Main Return Forms\n\n* **Individual Income Tax:**\n  * **Form 1040N:** Nebraska Individual Income Tax Return\n  * **Form 1040N Schedules I, II, and III:** Adjustments to Income, Credit for Tax Paid to Another State, and Computation of Nebraska Tax for Nonresidents/Partial-Year Residents\n  * **Form 1040N-ES:** Nebraska Individual Estimated Income Tax Payment Voucher\n  * **Form 4868N:** Application for Automatic Extension of Time to File Nebraska Individual Income Tax Return\n  * *Official Source:* [Individual Income Tax Forms](https://revenue.nebraska.gov/individuals/individual-income-tax-forms)\n\n* **Corporate Income Tax:**\n  * **Form 1120N:** Nebraska Corporation Income Tax Return (with Schedules A, I, II, III, and IV)\n  * **Form 1120N-ES:** Nebraska Corporation Estimated Income Tax Payment Voucher\n  * **Form 7004N:** Application for Automatic Extension of Time to File Nebraska Corporation, Fiduciary, or Partnership Return\n  * **Form 1120XN:** Amended Nebraska Corporation Income Tax Return\n  * *Official Source:* [Corporation Income Tax Forms](https://revenue.nebraska.gov/businesses/corporation-and-s-corporation-income-tax-forms)\n\n* **Pass-Through Entities:**\n  * **Form 1065N:** Nebraska Return of Partnership Income\n  * **Form 1065N Schedule K-1N:** Partner’s Share of Income, Deductions, Modifications, and Credits\n  * **Form 1065N Schedule PTET:** Partner’s Share of Nebraska Pass-Through Entity Tax\n  * **Form 1065N-ES:** Nebraska Partnership Estimated Income Tax Payment Voucher\n  * **Form 1120-SN:** Nebraska S Corporation Income Tax Return\n  * **Form 1120-SN Schedule K-1N:** Shareholder’s Share of Income, Deductions, Modifications, and Credits\n  * **Form 1120-SN Schedule PTET:** Shareholder’s Share of Nebraska Pass-Through Entity Tax\n  * **Form PTET-E:** Pass-Through Entity Tax (PTET) Election for Tax Years After 2022\n  * **Form 12N:** Nebraska Nonresident Income Tax Agreement\n  * *Official Source:* [Partnership Income Tax Forms](https://revenue.nebraska.gov/businesses/partnership-income-tax-forms) | [S Corporation Income Tax Forms](https://revenue.nebraska.gov/businesses/corporation-and-s-corporation-income-tax-forms)",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Nebraska individual income tax returns are due on or before April 15 following the close of the calendar year. Taxpayers with an approved federal extension automatically receive a 6-month extension to October 15, while those without a federal extension or making a tentative payment must file Form 4868N by the original due date.",
+    "source_url": "https://revenue.nebraska.gov/individuals/individual-income-tax-forms",
+    "evidence": [
+     "Form 4868N",
+     "April 15",
+     "automatic federal extension"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://revenue.nebraska.gov/individuals/individual-income-tax-forms; figures not on revenue.nebraska.gov: ['4868', '6']; figures not on revenue.nebraska.gov: ['15', '6']; figures not on revenue.nebraska.gov: ['15', '4868']; figures not on revenue.nebraska.gov: ['4868']; figures not on revenue.nebraska.gov: ['15', '4868', '6']; unreadable: https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.01; unreadable: https://nebraskalegislature.gov/FloorDocs/108/PDF/AM/AM1066.pdf;",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "C corporation returns are due on the 15th day of the 4th month (April 15 for calendar-year filers) with an available 7-month extension, while S corporation and partnership returns are due on the 15th day of the 3rd month (March 15). S corporations can receive an automatic 7-month extension, and partnerships can receive up to a 6-month extension using Form 7004N.",
+    "source_url": "https://revenue.nebraska.gov/about/frequently-asked-questions/business-income-tax-faqs",
+    "evidence": [
+     "15th day of the 4th month",
+     "15th day of the 3rd month",
+     "Form 7004N",
+     "7-month extension"
+    ],
+    "accepted": false,
+    "reason": "figures not on revenue.nebraska.gov: ['4', '6', '7']; figures not on revenue.nebraska.gov: ['4', '6', '7', '7004']; figures not on revenue.nebraska.gov: ['15', '3', '4', '6', '7004']; figures not on revenue.nebraska.gov: ['15']; dates not on revenue.nebraska.gov: ['March 15']; figures not on revenue.nebraska.gov: ['15', '3', '4', '6', '7', '7004']; unreadable: https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.01; unreadable: https://nebraskalegislature.gov/FloorDocs/108/PDF/AM/AM",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2025
+    ],
+    "value": "Nebraska offers an elective pass-through entity tax for partnerships and S corporations at a rate of 5.20% for tax year 2025. The irrevocable election is made on or before the due date including extensions by checking Box 5 on the return or submitting Form PTET-E.",
+    "source_url": "https://revenue.nebraska.gov/about/frequently-asked-questions/pass-through-entity-tax-ptet-faqs",
+    "evidence": [
+     "5.20%",
+     "Box 5",
+     "Form PTET-E"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://revenue.nebraska.gov/about/frequently-asked-questions/pass-through-entity-tax-ptet-faqs; figures not on revenue.nebraska.gov: ['5', '5.2']; figures not on revenue.nebraska.gov: ['2025', '5.2']; figures not on revenue.nebraska.gov: ['2025', '5', '5.2']; figures not on revenue.nebraska.gov: ['5.2']; unreadable: https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.01; unreadable: https://nebraskalegislature.gov/FloorDocs/108/PDF/AM/AM1066.pdf; figure not stated besi",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2026
+    ],
+    "value": "Nebraska offers an elective pass-through entity tax for partnerships and S corporations at a rate of 4.55% for tax year 2026. The irrevocable election is made on or before the due date including extensions by checking Box 5 on the return or submitting Form PTET-E.",
+    "source_url": "https://revenue.nebraska.gov/about/frequently-asked-questions/pass-through-entity-tax-ptet-faqs",
+    "evidence": [
+     "4.55%",
+     "Box 5",
+     "Form PTET-E"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://revenue.nebraska.gov/about/frequently-asked-questions/pass-through-entity-tax-ptet-faqs; figures not on revenue.nebraska.gov: ['4.55', '5']; figures not on revenue.nebraska.gov: ['4.55']; figures not on revenue.nebraska.gov: ['2026', '4.55', '5']; figures not on revenue.nebraska.gov: ['2026', '4.55']; unreadable: https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.01; unreadable: https://nebraskalegislature.gov/FloorDocs/108/PDF/AM/AM1066.pdf; figure not stated ",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "composite",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Nebraska does not permit the filing of composite income tax returns. Entities must instead obtain an executed Form 12N nonresident agreement or remit withholding on the nonresident owner's share of income using Schedule II of Form 1065N or Form 1120-SN.",
+    "source_url": "https://revenue.nebraska.gov/businesses/partnership-income-tax",
+    "evidence": [
+     "does not allow",
+     "composite",
+     "Form 12N",
+     "Schedule II"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2024/f_S_Corporation_Booklet.pdf",
+    "matched_title": "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2024/f_S_Corporation_Booklet.pdf",
+    "matched_phrases": [
+     "does not allow",
+     "composite",
+     "Form 12N",
+     "Schedule II"
+    ],
+    "snippet": "Instead, check this box FORM 1120-SN Schedule II 2024 (A)(B) Shareholder (C) Percent of Ownership (D) Nebraska Resident Individual (Y or N) Nonresident Individuals and Grantor Trusts (Skip if line 5, Form 1120-SN is less than zero) Shareholder NameShareholder Address (E) Check if Form 12N Attached (F) Shareholder Income [Line 5 Form 1120-SN x Column (C) Percent] (G) Nebr."
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025
+    ],
+    "value": "Electing PTET entities must make quarterly estimated payments using Form 1065N-ES or Form 1120N-ES if expected tax exceeds credits by $400 or more. Non-electing entities must withhold at a 5.20% rate on nonresident individual owners who do not submit Form 12N.",
+    "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=77-2769",
+    "evidence": [
+     "Form 1065N-ES",
+     "Form 1120N-ES",
+     "5.20%"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://nebraskalegislature.gov/laws/statutes.php?statute=77-2769; figures not on revenue.nebraska.gov: ['400', '5.2']; figures not on revenue.nebraska.gov: ['12', '400', '5.2']; figures not on revenue.nebraska.gov: ['1065', '1120', '12', '400', '5.2']; figures not on revenue.nebraska.gov: ['5.2']; unreadable: https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.01; unreadable: https://nebraskalegislature.gov/FloorDocs/108/PDF/AM/AM1066.pdf; evidence not on revenue.nebra",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2026
+    ],
+    "value": "Electing PTET entities must make quarterly estimated payments using Form 1065N-ES or Form 1120N-ES if expected tax exceeds credits by $400 or more. Non-electing entities must withhold at a 4.55% rate on nonresident individual owners who do not submit Form 12N.",
+    "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=77-2769",
+    "evidence": [
+     "Form 1065N-ES",
+     "Form 1120N-ES",
+     "4.55%"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://nebraskalegislature.gov/laws/statutes.php?statute=77-2769; figures not on revenue.nebraska.gov: ['4.55', '400']; figures not on revenue.nebraska.gov: ['12', '4.55', '400']; figures not on revenue.nebraska.gov: ['1065', '1120', '12', '4.55', '400']; figures not on revenue.nebraska.gov: ['4.55']; unreadable: https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.01; unreadable: https://nebraskalegislature.gov/FloorDocs/108/PDF/AM/AM1066.pdf; evidence not on revenue.n",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Key individual forms include Form 1040N, Form 1040N-ES, and Form 4868N. Key business forms include Form 1120N for C corporations, Form 1120-SN for S corporations, Form 1065N for partnerships, and Form 7004N for extensions.",
+    "source_url": "https://revenue.nebraska.gov/businesses/corporation-and-s-corporation-income-tax-forms",
+    "evidence": [
+     "Form 1040N",
+     "Form 1120N",
+     "Form 1120-SN",
+     "Form 7004N"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://revenue.nebraska.gov/tax-professionals/2025-final-income-tax-forms",
+    "matched_title": "2025 Final Income Tax Forms | Nebraska Department of Revenue",
+    "matched_phrases": [
+     "Form 1040N",
+     "Form 1120N",
+     "Form 1120-SN",
+     "Form 7004N"
+    ],
+    "snippet": "…rm 941N - Nebraska Income Tax Withholding Return Individual Income Tax 2025 Individual Income Tax and Amended Return Booklet - Including forms and instructions Form 1040N - 2025 Nebraska Individual Income Tax Return Form 1040N - Schedules I, II, and III 2025 Nebraska Tax Table 2025 Public High School District Codes Form 1040N-EB - Purchase of a Nebraska Residence in a…"
+   }
+  ],
+  "grounding_urls": [
+   "https://revenue.nebraska.gov/about/tax-calendar",
+   "https://revenue.nebraska.gov/about/frequently-asked-questions/business-income-tax-faqs",
+   "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2024/f_4868N.pdf",
+   "https://revenue.nebraska.gov/about/frequently-asked-questions/business-income-tax-faqs",
+   "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2025/f_7004N.pdf",
+   "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2024/f_7004N.pdf",
+   "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2012/f_7004n.pdf",
+   "https://revenue.nebraska.gov/about/tax-calendar",
+   "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2024/f_S_Corporation_Booklet.pdf",
+   "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2021/f_7004n.pdf",
+   "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2024/f_S_Corporation_Booklet.pdf",
+   "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2024/f_Return_of_Partnership_Booklet.pdf",
+   "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2026/f_7004n.pdf",
+   "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2024/f_Return_of_Partnership_Booklet.pdf",
+   "https://revenue.nebraska.gov/tax-credits/nebraska-pass-through-entity-tax-ptet",
+   "https://nebraskalegislature.gov/laws/statutes.php?statute=77-2734.01",
+   "https://nebraskalegislature.gov/FloorDocs/108/PDF/AM/AM1066.pdf",
+   "https://revenue.nebraska.gov/about/frequently-asked-questions/pass-through-entity-tax-faqs",
+   "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2025/f_1065N_and_Schedule_A.pdf",
+   "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2025/f_1120-SN.pdf",
+   "https://www.nebraskalegislature.gov/laws/statutes.php?statute=77-2715.03",
+   "https://revenue.nebraska.gov/about/frequently-asked-questions/pass-through-entity-tax-faqs",
+   "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2017/f_1065n_booklet.pdf",
+   "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2013/f_1120sn_booklet.pdf",
+   "https://revenue.nebraska.gov/about/legal-information/regulations/chapter-24-corporate-income-tax",
+   "https://revenue.nebraska.gov/about/forms/corporation-and-s-corporation-income-tax-forms",
+   "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2024/f_1120N-ES_2025.pdf",
+   "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/drafts/f_1065n-es.pdf",
+   "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/drafts/f_1065n-es.pdf",
+   "https://nebraskalegislature.gov/laws/statutes.php?statute=77-2727",
+   "https://revenue.nebraska.gov/tax-professionals/2025-final-income-tax-forms",
+   "https://revenue.nebraska.gov/about/forms/individual-income-tax-forms",
+   "https://revenue.nebraska.gov/about/forms/partnership-tax-forms"
+  ],
+  "error": ""
+ }
+]

@@ -1,0 +1,195 @@
+[
+ {
+  "state": "HI",
+  "section": "apportionment",
+  "notes": "### 1. Apportionment Formula\n\n* **Rule:** Hawaii utilizes an equally weighted **three-factor formula** consisting of the property factor, payroll factor, and sales factor:\n  $$\\text{Apportionment Percentage} = \\frac{\\text{Property Factor} + \\text{Payroll Factor} + \\text{Sales Factor}}{3}$$\n  If the denominator of any factor is zero, the denominator (3) is reduced by the number of zero-denominator factors.\n* **Applicable Tax Years:** 2025 and 2026 (no statutory change enacted between these years).\n* **Official Sources:**\n  * Hawaii Revised Statutes (HRS) § 235-29: https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0029.htm\n  * Department of Taxation, Instructions for Schedules O & P (Form N-30): https://files.hawaii.gov/tax/forms/2024/n30schopinstr.pdf\n\n---\n\n### 2. Sourcing of Receipts from Services and Intangibles\n\n* **Rule:** Hawaii applies **cost-of-performance sourcing** (not market-based sourcing) for receipts other than sales of tangible personal property. Under HRS § 235-37, gross receipts from services and intangibles are sourced to Hawaii if:\n  1. The income-producing activity is performed entirely in Hawaii; or\n  2. The income-producing activity is performed both within and outside Hawaii and a greater proportion of the activity is performed in Hawaii than in any other state, based on costs of performance.\n* **Applicable Tax Years:** 2025 and 2026 (no change between these years).\n* **Official Sources:**\n  * Hawaii Revised Statutes (HRS) § 235-37: https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0037.htm\n\n---\n\n### 3. Industries with Their Own Apportionment Formula\n\n* **Rule:** Pursuant to HRS § 235-38 and Hawaii Administrative Rules (HAR) § 18-235-38-06, specialized apportionment factor modifications apply to taxpayers operating in the following industries:\n  * Air transportation services\n  * Sea transportation services\n  * Construction contracting\n  * Publishing\n  * Radio and television broadcasting\n  *(Note: Financial institutions and banks are also subject to industry-specific apportionment under HAR § 18-241-4 on Form F-1).*\n* **Applicable Tax Years:** 2025 and 2026 (no change between these years).\n* **Official Sources:**\n  * Hawaii Revised Statutes (HRS) § 235-38: https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0038.htm\n  * Department of Taxation, Instructions for Schedules O & P (Form N-30): https://files.hawaii.gov/tax/forms/2024/n30schopinstr.pdf\n\n---\n\n### 4. Form or Schedule Used to Compute Apportionment\n\n* **Forms:**\n  * **C Corporations (Form N-30):** Apportionment is computed on **Schedule P (Form N-30)** (*Apportionment Formula*) and reported with **Schedule O (Form N-30)** (*Allocation and Apportionment of Income*).\n  * **S Corporations (Form N-35):** Apportionment is computed on **Form N-35, page 4** (Schedule P / Apportionment of Income).\n  * **Partnerships (Form N-20):** Apportionment is computed on **Schedules O and P (Form N-20)**.\n  * **Financial Corporations (Form F-1):** Apportionment is computed on **Schedule P (Form F-1)**.\n* **Applicable Tax Years:** 2025 and 2026 (no change between these years).\n* **Official Sources:**\n  * Department of Taxation, Corporate Income Tax Forms: https://tax.hawaii.gov/forms/corporate-income-tax-forms/\n  * Department of Taxation, Instructions for Schedules O & P (Form N-30): https://files.hawaii.gov/tax/forms/2024/n30schopinstr.pdf",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Hawaii utilizes an equally weighted three-factor apportionment formula consisting of the property factor, payroll factor, and sales factor. If the denominator of any factor is zero, the denominator is reduced accordingly.",
+    "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0029.htm",
+    "evidence": [
+     "property factor",
+     "payroll factor",
+     "sales factor"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://data.capitol.hawaii.gov/sessions/session2017/HRS-Chapter-PDF's/HRS_0235.pdf",
+    "matched_title": "https://data.capitol.hawaii.gov/sessions/session2017/HRS-Chapter-PDF's/HRS_0235.pdf",
+    "matched_phrases": [
+     "property factor",
+     "payroll factor",
+     "sales factor"
+    ],
+    "snippet": "All business income shall be apportioned to this State by multiplying the income by a fraction, the numerator of which is the property factor plus the payroll factor plus the sales factor, and the denominator of which is three."
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Gross receipts from services and intangibles are sourced using the cost-of-performance method. Receipts are sourced to Hawaii if the income-producing activity is performed wholly within the state, or if a greater proportion is performed in Hawaii than in any other state based on costs of performance.",
+    "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0037.htm",
+    "evidence": [
+     "income-producing activity",
+     "costs of performance",
+     "greater proportion"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://data.capitol.hawaii.gov/sessions/session2017/HRS-Chapter-PDF's/HRS_0235.pdf",
+    "matched_title": "https://data.capitol.hawaii.gov/sessions/session2017/HRS-Chapter-PDF's/HRS_0235.pdf",
+    "matched_phrases": [
+     "income-producing activity",
+     "costs of performance",
+     "greater proportion"
+    ],
+    "snippet": "or (2) The income-producing activity is performed both in and outside this State and a greater proportion of the income-producing activity is performed in this State than in any other state, based on costs of performance."
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Specialized apportionment formulas apply to air transportation services, sea transportation services, construction contracting, publishing, and radio and television broadcasting.",
+    "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0038.htm",
+    "evidence": [
+     "Air transportation",
+     "Sea transportation",
+     "Construction contracting",
+     "television broadcasting"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0038.htm; evidence not on data.capitol.hawaii.gov (0/4); unreadable: https://files.hawaii.gov/tax/forms/2024/n30opins.pdf; unreadable: https://files.hawaii.gov/tax/forms/2018/n30opins.pdf; unreadable: https://files.hawaii.gov/tax/news/htn/archive/htn97-03.pdf; unreadable: https://files.hawaii.gov/tax/forms/2024/f1_i.pdf; unreadable: https://files.hawaii.gov/tax/forms/current/f1ins.pdf; unreadable: https://ta",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Corporations compute apportionment on Schedule P (Form N-30) and report allocation and apportionment on Schedule O (Form N-30). S corporations use Form N-35, partnerships use Schedules O and P (Form N-20), and financial corporations use Schedule P (Form F-1).",
+    "source_url": "https://files.hawaii.gov/tax/forms/2024/n30schopinstr.pdf",
+    "evidence": [
+     "Schedule P",
+     "Schedule O",
+     "Form N-30",
+     "Apportionment Formula"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://files.hawaii.gov/tax/forms/2024/n30schopinstr.pdf; evidence not on data.capitol.hawaii.gov (0/4); unreadable: https://files.hawaii.gov/tax/forms/2024/n30opins.pdf; unreadable: https://files.hawaii.gov/tax/forms/2018/n30opins.pdf; unreadable: https://files.hawaii.gov/tax/news/htn/archive/htn97-03.pdf; unreadable: https://files.hawaii.gov/tax/forms/2024/f1_i.pdf; unreadable: https://files.hawaii.gov/tax/forms/current/f1ins.pdf; unreadable: https://tax.hawaii.gov/forms/a1_b1_3co",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://data.capitol.hawaii.gov/sessions/session2017/HRS-Chapter-PDF's/HRS_0235.pdf",
+   "https://files.hawaii.gov/tax/forms/2024/n30opins.pdf",
+   "https://data.capitol.hawaii.gov/sessions/session2017/HRS-Chapter-PDF's/HRS_0235.pdf",
+   "https://files.hawaii.gov/tax/forms/2018/n30opins.pdf",
+   "https://files.hawaii.gov/tax/news/htn/archive/htn97-03.pdf",
+   "https://data.capitol.hawaii.gov/sessions/session2017/HRS-Chapter-PDF's/HRS_0235.pdf",
+   "https://files.hawaii.gov/tax/forms/2024/f1_i.pdf",
+   "https://files.hawaii.gov/tax/forms/current/f1ins.pdf",
+   "https://tax.hawaii.gov/forms/a1_b1_3corp/",
+   "https://files.hawaii.gov/tax/forms/2018/n30schp_i.pdf",
+   "https://files.hawaii.gov/tax/forms/current/n35_i.pdf",
+   "https://tax.hawaii.gov/forms/a1_1alphalist/"
+  ],
+  "error": ""
+ },
+ {
+  "state": "HI",
+  "section": "nexus",
+  "notes": "### 1. Income or Franchise Tax Nexus & Economic / Bright-Line Thresholds\n\n* **Corporate Net Income Tax (HRS Chapter 235)**:\n  * **General Nexus:** Nexus is established through physical presence (e.g., maintaining an office, having employees, representatives, property, or performing services in Hawaii) or through deriving income from property owned, trade or business carried on, or any source within the state (HRS § 235-4(b); HRS § 235-92(1)).\n  * **Bright-Line Economic Nexus Standard (HRS § 235-4.2):** Under Hawaii Revised Statutes § 235-4.2 (enacted under Act 221, Session Laws of Hawaii 2019), a person lacking physical presence in the state is presumed to be systematically and regularly engaging in business in Hawaii and taxable under Chapter 235 if, during the **current or preceding calendar year**:\n    1. The person engages in **200 or more business transactions** with persons within the state; **or**\n    2. The sum of the value of the person's gross income attributable to sources in the state equals or exceeds **$100,000**, or for a person that does business within and without the state, the numerator of the person's sales factor for Hawaii equals or exceeds **$100,000**.\n  * **Applicable Tax Years:** Applies to tax years **2025 and 2026** without change (effective for taxable years beginning after December 31, 2019).\n  * **Official Source URLs:**\n    * https://files.hawaii.gov/tax/legal/tir/tir20-05.pdf\n    * https://tax.hawaii.gov/legal/tax-information-releases-tirs/\n\n* **Franchise Tax (Financial Corporations, HRS Chapter 241)**:\n  * Imposed on banks and other financial corporations doing business in Hawaii under HRS Chapter 241 in lieu of net income and general excise taxes. \n  * **Bright-Line Economic Nexus Threshold:** **Not found** in official statute (HRS § 235-4.2 expressly applies only to Chapter 235).\n  * **Official Source URLs:**\n    * https://files.hawaii.gov/tax/legal/tir/tir20-05.pdf\n\n---\n\n### 2. Remote Seller Economic Nexus Threshold (General Excise Tax / GET)\n\n* **Tax Structure:** Hawaii does not have a traditional sales tax; it levies a General Excise Tax (GET) on gross receipts/privilege of doing business in Hawaii (HRS Chapter 237).\n* **Economic Nexus Threshold (HRS § 237-2.5):** Under HRS § 237-2.5 (enacted by Act 41, SLH 2018), a person that lacks physical presence in the state is deemed to be engaging in business in Hawaii if, during the **current or preceding calendar year**, the person meets either of the following criteria:\n  * **Gross Income / Receipts:** Equals or exceeds **$100,000** from the sale of tangible personal property delivered in Hawaii, services used or consumed in Hawaii, or intangible property used in Hawaii; **or**\n  * **Transaction Count:** **200 or more separate transactions** involving tangible personal property delivered in Hawaii, services used or consumed in Hawaii, or intangible property used in Hawaii.\n* **Measurement Period:** The **current or preceding calendar year**.\n* **Applicable Tax Years:** Applies to tax years **2025 and 2026** without change.\n* **Official Source URLs:**\n  * https://tax.hawaii.gov/geninfo/get/\n  * https://tax.hawaii.gov/legal/tax-announcements/ (Tax Announcement No. 2018-10)\n\n---\n\n### 3. State's Stated Position on P.L. 86-272 Protection\n\n* **Applicability to Tax Types:** In **Tax Information Release (TIR) No. 2020-05** (superseding TIR No. 95-3), the Department states that Public Law 86-272 applies solely to net income taxes under HRS Chapter 235 (including corporate net income tax). It **does not protect** businesses from the General Excise Tax (GET), which is not a net income tax.\n* **Scope of Protection:** \n  * Hawaii net income tax applies to the fullest extent permissible under the U.S. Constitution. Preemption under P.L. 86-272 is strictly limited to activities falling within the \"clear and manifest purpose of Congress.\"\n  * Protects **only** the solicitation of orders for sales of **tangible personal property**, where orders are sent outside Hawaii for acceptance/rejection and filled by shipment or delivery from outside the state.\n  * Does **not** protect the leasing, renting, licensing, or other disposition of tangible personal property, nor any transactions involving intangibles or services.\n* **Interaction with Economic Nexus:** Even if an out-of-state corporation triggers Hawaii’s corporate income tax economic nexus thresholds ($100,000 gross income or 200 transactions under HRS § 235-4.2), it remains immune from Hawaii corporate net income tax if its in-state activities are strictly limited to protected solicitation (and de minimis activities) under P.L. 86-272.\n* **Delivery in Own Vehicles:** Delivering goods into Hawaii in company-owned/operated vehicles is theoretically protected, but because maintaining delivery vehicles or warehousing in the state are unprotected activities, the Department states that delivering goods into Hawaii in the seller's own vehicles will, as a practical matter, forfeit P.L. 86-272 protection.\n* **Post-2020 MTC Internet Activities Guidance:** Formal administrative adoption or official guidance reflecting the 2021 Multistate Tax Commission (MTC) revised statement on internet activities is **not found** on the Department's site (TIR No. 2020-05 remains the operative release).\n* **Applicable Tax Years:** Applies to tax years **2025 and 2026**.\n* **Official Source URLs:**\n  * https://files.hawaii.gov/tax/legal/tir/tir20-05.pdf\n  * https://tax.hawaii.gov/legal/tax-information-releases-tirs/",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Nexus is established through physical presence or deriving income from Hawaii sources. Additionally, a bright-line economic nexus standard applies if a person has 200 or more business transactions in the state or $100,000 or more in gross income attributable to Hawaii sources (or sales factor numerator) during the current or preceding calendar year.",
+    "source_url": "https://files.hawaii.gov/tax/legal/tir/tir20-05.pdf",
+    "evidence": [
+     "200 or more business transactions",
+     "equals or exceeds $100,000",
+     "current or preceding calendar year"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://files.hawaii.gov/tax/legal/tir/tir20-05.pdf; unreadable: https://tax.hawaii.gov/get/; evidence not on data.capitol.hawaii.gov (0/3); unreadable: https://files.hawaii.gov/tax/legal/hrs/hrs_235.pdf; unreadable: https://tax.hawaii.gov/legal/tir/; unreadable: https://files.hawaii.gov/tax/forms/current/f1ins.pdf; unreadable: https://files.hawaii.gov/tax/legal/brochures/GE_brochure-23.pdf; unreadable: https://files.hawaii.gov/tax/forms/2018/g45ins.pdf; unreadable: https://tax.hawai",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Under the General Excise Tax, remote sellers establish economic nexus if in the current or preceding calendar year they have gross income or receipts of $100,000 or more, or 200 or more separate transactions, from property delivered, services used, or intangibles used in Hawaii.",
+    "source_url": "https://tax.hawaii.gov/geninfo/get/",
+    "evidence": [
+     "200 or more separate transactions",
+     "equals or exceeds $100,000",
+     "current or preceding calendar year"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.hawaii.gov/geninfo/get/; unreadable: https://files.hawaii.gov/tax/legal/tir/tir20-05.pdf; unreadable: https://tax.hawaii.gov/get/; evidence not on data.capitol.hawaii.gov (0/3); unreadable: https://files.hawaii.gov/tax/legal/hrs/hrs_235.pdf; unreadable: https://tax.hawaii.gov/legal/tir/; unreadable: https://files.hawaii.gov/tax/forms/current/f1ins.pdf; unreadable: https://files.hawaii.gov/tax/legal/brochures/GE_brochure-23.pdf; unreadable: https://files.hawaii.gov/tax/for",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Hawaii applies Public Law 86-272 strictly to net income taxes under Chapter 235 and does not extend its protection to the General Excise Tax. Even if economic nexus thresholds are exceeded, taxpayers remain protected from corporate net income tax if activities are restricted to protected solicitation of tangible personal property sales.",
+    "source_url": "https://files.hawaii.gov/tax/legal/tir/tir20-05.pdf",
+    "evidence": [
+     "Public Law 86-272",
+     "tangible personal property",
+     "General Excise Tax"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://files.hawaii.gov/tax/legal/tir/tir20-05.pdf; unreadable: https://tax.hawaii.gov/get/; figures not on data.capitol.hawaii.gov: ['272']; unreadable: https://files.hawaii.gov/tax/legal/hrs/hrs_235.pdf; unreadable: https://tax.hawaii.gov/legal/tir/; evidence not on data.capitol.hawaii.gov (0/3); unreadable: https://files.hawaii.gov/tax/forms/current/f1ins.pdf; unreadable: https://files.hawaii.gov/tax/legal/brochures/GE_brochure-23.pdf; unreadable: https://files.hawaii.gov/tax/for",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://files.hawaii.gov/tax/legal/tir/tir20-05.pdf",
+   "https://tax.hawaii.gov/get/",
+   "https://data.capitol.hawaii.gov/sessions/session2017/HRS-Chapter-PDF's/HRS_0235.pdf",
+   "https://files.hawaii.gov/tax/legal/hrs/hrs_235.pdf",
+   "https://tax.hawaii.gov/legal/tir/",
+   "https://data.capitol.hawaii.gov/sessions/session2024/bills/DC173_.pdf",
+   "https://files.hawaii.gov/tax/forms/current/f1ins.pdf",
+   "https://files.hawaii.gov/tax/legal/brochures/GE_brochure-23.pdf",
+   "https://tax.hawaii.gov/get/",
+   "https://files.hawaii.gov/tax/forms/2018/g45ins.pdf",
+   "https://tax.hawaii.gov/news/announce/"
+  ],
+  "error": ""
+ }
+]

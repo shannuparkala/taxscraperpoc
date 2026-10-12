@@ -1,0 +1,350 @@
+[
+ {
+  "state": "SD",
+  "section": "apportionment",
+  "notes": "### Overview: South Dakota Net Corporate Income Tax\nSouth Dakota does **not** impose a general corporate income tax, unitary business income tax, or personal income tax on multistate business corporations. The state does, however, levy a Bank Franchise Tax on financial institutions under South Dakota Codified Laws (SDCL) Chapter 10-43 based on net income. \n\n* **Applicable Tax Years:** 2025 and 2026 (no changes between years).\n* **Official URLs:** \n  * https://dor.sd.gov/businesses/taxes/business-tax/\n  * https://dor.sd.gov/businesses/taxes/sales-use-tax/sales-and-use-tax-guide/\n\n---\n\n### 1. Apportionment Formula\n* **General Multistate Business Income:** Not applicable / no general corporate income tax is imposed.\n* **Financial Institutions (Bank Franchise Tax):** An equally weighted three-factor apportionment formula is used. Net income is apportioned to the state by multiplying net income by a fraction, the numerator of which is the property factor plus the payroll factor plus the receipts factor, and the denominator of which is 3.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official URL:** https://sdlegislature.gov/Statutes/10-43-22.1\n\n---\n\n### 2. Sourcing of Services and Intangibles (Market-Based Sourcing vs. Cost of Performance)\n* **General Multistate Businesses:** Not applicable / no general corporate income tax.\n* **Financial Institutions (Bank Franchise Tax):**\n  * **Receipts from Services:** Sourced using a **cost/place of performance** standard. Receipts from fees, commissions, service charges, and other receipts from rendering financial or fiduciary services are included in the South Dakota numerator if the service is \"principally performed in South Dakota\" (SDCL 10-43-25.3). Exception: \"Affiliated service income\" is sourced under SDCL 10-43-25.8 based on the location of the borrower/collateral/credit card customer (market location).\n  * **Receipts from Intangibles / Securities:** Sourced based on principal place of business or location of deposits/borrowers:\n    * Interest, dividends, and net gains from transactions in securities are sourced to South Dakota if the institution's principal place of business is in South Dakota (SDCL 10-43-25.5).\n    * Receipts from securities used to maintain reserves against deposits are sourced based on the ratio of South Dakota deposits to total deposits everywhere (SDCL 10-43-25.6).\n    * Interest, fees, penalties, and net gain from loans are sourced based on the real property location (if real property secured) or the borrower's billing address (if not real property secured) (SDCL 10-43-25.2).\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official URLs:**\n  * Services: https://sdlegislature.gov/Statutes/10-43-25.3\n  * Affiliated Services: https://sdlegislature.gov/Statutes/10-43-25.8\n  * Securities: https://sdlegislature.gov/Statutes/10-43-25.5\n  * Securities Reserves: https://sdlegislature.gov/Statutes/10-43-25.6\n  * Loan Receipts: https://sdlegislature.gov/Statutes/10-43-25.2\n\n---\n\n### 3. Special Industry Apportionment Formulas\n* **General Multistate Businesses:** Not applicable / no corporate income tax is imposed on other industries (transportation, broadcasting, telecommunications, etc.).\n* **Financial Institutions:** South Dakota Codified Laws Chapter 10-43 provides a dedicated industry apportionment scheme solely for financial institutions (banks, savings and loan associations, and production credit associations), defining property, payroll, and receipts specifically for financial assets and activities (SDCL 10-43-22.1 through SDCL 10-43-25.9).\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official URL:** https://sdlegislature.gov/Statutes/10-43\n\n---\n\n### 4. Form or Schedule Used to Compute Apportionment\n* **General Corporate Multistate Businesses:** Not applicable (no general corporate return or apportionment form exists).\n* **Financial Institutions:** Apportionment is reported and calculated as part of the **Bank Franchise Tax Return** filed electronically via the Department of Revenue’s online portal (EPath). Taxpayers must attach work papers calculating the apportionment factors (receipts, property, and payroll factors) to the return.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official URLs:**\n  * https://dor.sd.gov/businesses/taxes/bank-franchise-tax/\n  * https://dor.sd.gov/businesses/taxes/bank-franchise-tax/guidance-on-foreign-dividend-recapture/\n  * https://sdlegislature.gov/Statutes/64:26:02:04",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Financial institutions subject to the Bank Franchise Tax apportion net income using an equally weighted three-factor formula consisting of property, payroll, and receipts factors divided by 3. South Dakota imposes no general corporate income tax on other multistate business corporations.",
+    "source_url": "https://sdlegislature.gov/Statutes/10-43-22.1",
+    "evidence": [
+     "property factor",
+     "payroll factor",
+     "receipts factor",
+     "denominator of which is 3"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://sdlegislature.gov/api/Statutes/10-43.html",
+    "matched_title": "SDLRC - Codified Law 10-43 - INCOME TAX ON BANKS AND FINANCIAL CORPORATIONS",
+    "matched_phrases": [
+     "property factor",
+     "payroll factor",
+     "receipts factor"
+    ],
+    "snippet": "…3-22.1 Tax limited to income from business within state--Formula for net income apportionment. 10-43-23 10-43-23 . Repealed by SL 1977, ch 96, § 20. 10-43-23.1 Property factor. 10-43-23.2 Valuation of property owned or rented--Net annual rental rate. 10-43-23.3 Average value determination. 10-43-24 10-43-24 . Repealed by SL 1977, ch 96, § 20. 10-43-24.1 Payroll factor. 10-…"
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Receipts from rendering financial or fiduciary services are sourced to South Dakota if the service is principally performed in the state. Affiliated service income is an exception sourced based on the customer or collateral location.",
+    "source_url": "https://sdlegislature.gov/Statutes/10-43-25.3",
+    "evidence": [
+     "principally performed in South Dakota",
+     "rendering financial or fiduciary services",
+     "fees, commissions, service charges"
+    ],
+    "accepted": false,
+    "reason": "evidence not on sdlegislature.gov (0/3); evidence not on dor.sd.gov (0/3); evidence not on sdlegislature.gov (1/3)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "South Dakota provides a dedicated industry apportionment scheme solely for financial institutions under Chapter 10-43. No other special industry income tax apportionment formulas exist because South Dakota has no general corporate income tax.",
+    "source_url": "https://sdlegislature.gov/Statutes/10-43",
+    "evidence": [
+     "financial institutions",
+     "Bank Franchise Tax",
+     "apportioned to this state"
+    ],
+    "accepted": false,
+    "reason": "figures not on sdlegislature.gov: ['10', '43']; figures not on dor.sd.gov: ['43']; evidence not on sdlegislature.gov (1/3); figures not on dor.sd.gov: ['10', '43']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Financial institutions calculate and report apportionment on the Bank Franchise Tax Return filed electronically through the Department of Revenue's online portal. Taxpayers must attach work papers calculating the apportionment factors to the return.",
+    "source_url": "https://dor.sd.gov/businesses/taxes/bank-franchise-tax/",
+    "evidence": [
+     "Bank Franchise Tax",
+     "financial institutions",
+     "apportionment factors"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://dor.sd.gov/businesses/taxes/",
+    "matched_title": "Taxes | South Dakota Department of Revenue",
+    "matched_phrases": [
+     "Bank Franchise Tax",
+     "financial institutions"
+    ],
+    "snippet": "Learn More Taxes Telecommunication Emergency Surcharges & Fees Alcohol Amusement Machines Bank Franchise Tax Cigarette, Tobacco & Nicotine Products Coin Operated Washers & Dryers Contractor's Excise Tax Motor Fuel Municipal Tax Precious Metal & Energy Mineral Severance Taxes & Conservation Tax Property Tax Sales & Use Tax Tourism Tax Sturgis Motorcycle Rally Sturgis Motor Cycle Rally Find information, tax applications, licensing instructions and municipal tax rates for the Sturgis Motorcycle Ral"
+   }
+  ],
+  "grounding_urls": [
+   "https://dor.sd.gov/businesses/taxes/",
+   "https://dor.sd.gov/media/1gxpk4ck/2024-7_sales-use-tax-guide.pdf",
+   "https://sdlegislature.gov/api/Statutes/2038639.html",
+   "https://dor.sd.gov/businesses/taxes/bank-franchise-tax/",
+   "https://sdlegislature.gov/Statutes/10-43-22.1",
+   "https://sdlegislature.gov/Statutes/10-43-25.3",
+   "https://sdlegislature.gov/Statutes/10-43-25.8",
+   "https://sdlegislature.gov/Statutes/10-43",
+   "https://sdlegislature.gov/Statutes/10-43-25.2",
+   "https://sdlegislature.gov/Statutes/10-43-25.5",
+   "https://sdlegislature.gov/Statutes/10-43-25.7",
+   "https://sdlegislature.gov/Statutes/10-43",
+   "https://sdlegislature.gov/Statutes/10-43",
+   "https://dor.sd.gov/businesses/taxes/bank-franchise-tax/filing-and-paying-taxes-online-help/",
+   "https://dor.sd.gov/media/ghbpoybs/foreign-dividend-recapture-guidance.pdf",
+   "https://sdlegislature.gov/Rules/Administrative/64:26:02:04"
+  ],
+  "error": ""
+ },
+ {
+  "state": "SD",
+  "section": "nexus",
+  "notes": "### 1. Income or Franchise Tax Nexus (including Economic Nexus / Bright-Line Thresholds)\n\n* **General Corporate Income Tax / Corporate Franchise Tax:**\n  * South Dakota does not impose a general corporate income tax or a general corporate franchise tax. \n  * Consequently, there are no economic nexus standards or bright-line factor-presence dollar/transaction thresholds for general corporate income or franchise tax purposes.\n  * **Applicability:** Applies to both tax years 2025 and 2026 (unchanged).\n  * **Source:** \n    * South Dakota Department of Revenue, Business Tax: https://dor.sd.gov/businesses/taxes/business-tax/\n\n* **Bank Franchise Tax (Financial Institutions Only):**\n  * South Dakota imposes a Bank Franchise Tax exclusively on financial institutions (SDCL Chapter 10-43).\n  * **Nexus Standard:** Imposed on each financial institution \"doing business in this state or licensed to do business in this state during any part of its tax year\" (SDCL § 10-43-2), or \"regularly engaged in business in South Dakota at any time during the year\". There are no bright-line factor-presence or economic nexus dollar/transaction thresholds established by statute or regulation.\n  * **Applicability:** Applies to both tax years 2025 and 2026 (unchanged).\n  * **Sources:**\n    * South Dakota Department of Revenue, Bank Franchise Tax: https://dor.sd.gov/businesses/taxes/bank-franchise-tax/\n    * South Dakota Legislature, SDCL § 10-43-2: https://sdlegislature.gov/Statutes/10-43-2\n\n---\n\n### 2. Remote Seller Economic Nexus Threshold & Measurement Period\n\n* **Sales Threshold Amount:** Gross sales / gross revenue from sales of tangible personal property, products transferred electronically, or services delivered into South Dakota exceeding **$100,000**.\n* **Transaction Count:** **None** (0 transactions). The former alternative threshold of 200 or more separate transactions was repealed effective July 1, 2023 (SL 2023, ch 38, § 1) and does not apply.\n* **Measurement Period:** The **previous or current calendar year**.\n* **Registration Timeline:** Under SDCL § 10-64-2.1, remote sellers meeting the threshold are required to register and begin remitting by the first day of the first month that begins at least 30 days after meeting the threshold.\n* **Applicability:** Applies to both tax years 2025 and 2026 (unchanged).\n* **Sources:**\n  * South Dakota Legislature, SDCL § 10-64-2: https://sdlegislature.gov/Statutes/10-64-2\n  * South Dakota Legislature, SDCL § 10-64-2.1: https://sdlegislature.gov/Statutes/10-64-2.1\n  * South Dakota Department of Revenue, Sales & Use Tax: https://dor.sd.gov/businesses/taxes/sales-use-tax/\n  * South Dakota Department of Revenue, Remote Seller Bulletin (August 2025): https://dor.sd.gov/media/wjhbsuuv/remote-seller-bulletin.pdf\n\n---\n\n### 3. State's Stated Position on P.L. 86-272 Protection\n\n* **Position:** **not found**\n  * *Context:* South Dakota does not impose a corporate or personal net income tax; therefore, neither the South Dakota Department of Revenue nor the South Dakota Legislature publishes guidance, rules, or determinations interpreting or applying Public Law 86-272 (15 U.S.C. § 381).",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "South Dakota does not impose a general corporate income tax or general corporate franchise tax, meaning there are no corporate income economic nexus thresholds. A bank franchise tax applies only to financial institutions doing business or licensed to do business in the state.",
+    "source_url": "https://sdlegislature.gov/Statutes/10-43-2",
+    "evidence": [
+     "financial institution",
+     "doing business in this state",
+     "licensed to do business"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://dor.sd.gov/businesses/taxes/bank-franchise-tax/",
+    "matched_title": "Bank Franchise Tax | South Dakota Department of Revenue",
+    "matched_phrases": [
+     "financial institution",
+     "doing business in this state"
+    ],
+    "snippet": "A financial institution is defined as any banking institution, production credit association, or savings and loan association organized under the laws of the United States and located or doing business in this state."
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Remote sellers have economic nexus if gross revenue from sales delivered into South Dakota exceeds $100,000 in the previous or current calendar year. There is no transaction count threshold.",
+    "source_url": "https://sdlegislature.gov/Statutes/10-64-2",
+    "evidence": [
+     "exceeding $100,000",
+     "previous or current calendar year",
+     "delivered into South Dakota"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://dor.sd.gov/businesses/taxes/sales-use-tax/2023-legislative-updates/",
+    "matched_title": "2023 Legislative Updates | South Dakota Department of Revenue",
+    "matched_phrases": [
+     "exceeding $100,000",
+     "previous or current calendar year",
+     "delivered into South Dakota"
+    ],
+    "snippet": "Only remote sellers with more than $100,000 in gross sales in South Dakota in the previous or current calendar year are required to be licensed and remit South Dakota sales tax."
+   }
+  ],
+  "grounding_urls": [
+   "https://dor.sd.gov/businesses/taxes/",
+   "https://sdlegislature.gov/Statutes/10-43-2",
+   "https://dor.sd.gov/businesses/taxes/bank-franchise-tax/",
+   "https://dor.sd.gov/businesses/taxes/sales-use-tax/2023-legislative-updates/",
+   "https://sdlegislature.gov/Statutes/10-64-2",
+   "https://dor.sd.gov/media/yh0n3oc2/remote-seller-bulletin.pdf",
+   "https://sdlegislature.gov/Statutes/10-64",
+   "https://dor.sd.gov/individuals/taxes/sales-use-tax/",
+   "https://dor.sd.gov/businesses/taxes/sales-use-tax/",
+   "https://dor.sd.gov/individuals/motor-vehicle/motorcycles/military-motorcycle-plates/"
+  ],
+  "error": ""
+ },
+ {
+  "state": "SD",
+  "section": "rates",
+  "notes": "### 1. Individual Income Tax\n* **Status / Rates:** South Dakota does not impose a personal/individual income tax.\n* **Tax Years:** Applies to both tax years 2025 and 2026 (no change).\n* **Official Sources:** \n  * South Dakota Department of Revenue (Taxes): https://dor.sd.gov/individuals/taxes/\n  * South Dakota Department of Revenue (Sales and Use Tax Guide): https://dor.sd.gov/media/w3jdvh11/sales-and-use-tax-guide.pdf\n\n---\n\n### 2. Corporate Income or Franchise Tax\n* **Corporate Income Tax:** South Dakota does not impose a general corporate income tax.\n* **Bank Franchise Tax (Financial Institutions):** Imposed on financial institutions doing business in the state based on net income assignable to South Dakota (SDCL § 10-43-4):\n  * **6%** on net income of $400,000,000 or less\n  * **5%** on net income exceeding $400,000,000 up to $425,000,000\n  * **4%** on net income exceeding $425,000,000 up to $450,000,000\n  * **3%** on net income exceeding $450,000,000 up to $475,000,000\n  * **2%** on net income exceeding $475,000,000 up to $500,000,000\n  * **1%** on net income exceeding $500,000,000 up to $600,000,000\n  * **0.5%** on net income exceeding $600,000,000 up to $1,200,000,000\n  * **0.25%** on net income exceeding $1,200,000,000\n  * **Minimum Tax:** $200 per return (\"In no case may the tax be less than two hundred dollars\").\n* **Tax Years:** Applies to both tax years 2025 and 2026 (no change).\n* **Official Sources:**\n  * South Dakota Department of Revenue (Business Tax): https://dor.sd.gov/businesses/taxes/\n  * South Dakota Department of Revenue (Bank Franchise Tax): https://dor.sd.gov/businesses/taxes/bank-franchise-tax/\n  * South Dakota Legislature (SDCL § 10-43-4): https://sdlegislature.gov/Statutes/10-43-4\n\n---\n\n### 3. State Sales and Use Tax Rate & Local Rates\n* **State Rate:** **4.2%** on sales and use (reduced from 4.5% effective July 1, 2023, through June 30, 2027, under SDCL § 10-45-2 and Session Law HB 1137).\n* **Local Option Rates:** Yes; municipalities are authorized to impose a local option sales and use tax (SDCL Chapter 10-52). The rate is generally **1% to 2%**. Both state and municipal taxes are reported on the same return.\n* **Tax Years:** Applies to both tax years 2025 and 2026 (no change; the 4.2% rate sunsets June 30, 2027).\n* **Official Sources:**\n  * South Dakota Department of Revenue (Sales & Use Tax): https://dor.sd.gov/businesses/taxes/sales-use-tax/\n  * South Dakota Department of Revenue (Municipal Tax): https://dor.sd.gov/businesses/taxes/municipal-tax/\n  * South Dakota Department of Revenue (Rate Reduction Announcement): https://dor.sd.gov/newsroom/department-of-revenue-updates-tax-system-for-decrease-in-state-tax-rate/\n\n---\n\n### 4. Gross Receipts, Franchise, Margin, or Other Notable Business Taxes\n* **Contractor's Excise Tax:** Imposed at **2%** on the gross receipts of prime contractors engaged in construction services or realty improvement projects in South Dakota (SDCL Chapters 10-46A and 10-46B). (A bid factor of 2.041% may be used when preparing a customer bid/bill to recover the tax). Applies to 2025 and 2026.\n  * *Official Source:* https://dor.sd.gov/businesses/taxes/contractors-excise-tax/\n* **Municipal Gross Receipts Tax (MGRT):** Municipalities may impose a **1%** gross receipts tax in addition to general municipal sales tax on alcoholic beverages, eating establishments, lodging accommodations, and admissions to amusement/athletic/cultural events (SDCL Chapter 10-52A). Applies to 2025 and 2026.\n  * *Official Source:* https://dor.sd.gov/businesses/taxes/municipal-tax/\n* **Tourism Tax:** Imposed at **1.5%** on the gross receipts of lodging/hotels, campgrounds, motor vehicle rentals, recreational equipment rentals/services, spectator events, visitor attractions, and visitor-intensive businesses (SDCL Chapter 10-45D). Applies to 2025 and 2026.\n  * *Official Source:* https://dor.sd.gov/businesses/taxes/tourism-tax/\n* **Telecommunications Tax:** **4%** tax reported under the City & Special Jurisdiction return section. Applies to 2025 and 2026.\n  * *Official Source:* https://dor.sd.gov/businesses/taxes/municipal-tax/",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "South Dakota does not impose a personal or individual income tax.",
+    "source_url": "https://dor.sd.gov/individuals/taxes/",
+    "evidence": [
+     "individual income tax",
+     "personal income tax"
+    ],
+    "accepted": false,
+    "reason": "evidence not on dor.sd.gov (0/2); evidence not on dor.sd.gov (1/2); evidence not on sdlegislature.gov (0/2); evidence not on mylrc.sdlegislature.gov (0/2)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "South Dakota does not impose a general corporate income tax, but levies a bank franchise tax on financial institutions with rates graduated from 6% down to 0.25% depending on net income. The minimum tax for the bank franchise tax is $200 per return.",
+    "source_url": "https://sdlegislature.gov/Statutes/10-43-4",
+    "evidence": [
+     "two hundred dollars",
+     "net income",
+     "financial institutions"
+    ],
+    "accepted": false,
+    "reason": "figures not on sdlegislature.gov: ['0.25', '200', '6']; figures not on dor.sd.gov: ['0.25', '200', '6']; figures not on dor.sd.gov: ['0.25', '200']; figures not on mylrc.sdlegislature.gov: ['0.25', '200']; figures not on dor.sd.gov: ['0.25', '6']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The state sales and use tax rate is 4.2%. Municipalities may also impose local option sales and use taxes, generally ranging from 1% to 2%.",
+    "source_url": "https://dor.sd.gov/businesses/taxes/sales-use-tax/",
+    "evidence": [
+     "sales and use tax",
+     "4.2%"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://dor.sd.gov/businesses/taxes/sales-use-tax/",
+    "matched_title": "Sales & Use Tax | South Dakota Department of Revenue",
+    "matched_phrases": [
+     "sales and use tax",
+     "4.2%"
+    ],
+    "snippet": "The state sales and use tax rate is 4.2%."
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "A contractor's excise tax of 2% is imposed on the gross receipts of prime contractors engaged in construction services or realty improvement projects.",
+    "source_url": "https://dor.sd.gov/businesses/taxes/contractors-excise-tax/",
+    "evidence": [
+     "Contractor's Excise Tax",
+     "gross receipts",
+     "prime contractors"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://dor.sd.gov/businesses/taxes/contractors-excise-tax/",
+    "matched_title": "Contractor's Excise Tax | South Dakota Department of Revenue",
+    "matched_phrases": [
+     "Contractor's Excise Tax",
+     "gross receipts",
+     "prime contractors"
+    ],
+    "snippet": "Qualified Utility Projects A 2% contractor’s excise tax is imposed on the gross receipts of all prime contractors and subcontractors engaged in construction services or reality improvement projects."
+   }
+  ],
+  "grounding_urls": [
+   "https://dor.sd.gov/individuals/taxes/",
+   "https://dor.sd.gov/media/1gxpk4ck/2024-7_sales-use-tax-guide.pdf",
+   "https://dor.sd.gov/businesses/taxes/",
+   "https://sdlegislature.gov/Statutes/10-43-4",
+   "https://mylrc.sdlegislature.gov/api/Documents/SessionLaw/40677.html?Year=2016",
+   "https://dor.sd.gov/businesses/taxes/bank-franchise-tax/",
+   "https://dor.sd.gov/businesses/taxes/sales-use-tax/",
+   "https://dor.sd.gov/newsroom/department-of-revenue-updates-tax-system-for-decrease-in-state-tax-rate/",
+   "https://dor.sd.gov/businesses/taxes/sales-use-tax/2023-legislative-updates/",
+   "https://dor.sd.gov/businesses/taxes/municipal-tax/",
+   "https://dor.sd.gov/media/gsinydrd/landscaping.pdf",
+   "https://dor.sd.gov/businesses/taxes/contractors-excise-tax/",
+   "https://dor.sd.gov/businesses/taxes/municipal-tax/",
+   "https://dor.sd.gov/newsroom/city-of-clark-to-implement-new-1-municipal-gross-receipts-tax-starting-january-1-2026/",
+   "https://dor.sd.gov/businesses/taxes/tourism-tax/"
+  ],
+  "error": ""
+ },
+ {
+  "state": "SD",
+  "section": "filing",
+  "notes": "### South Dakota Income Tax Overview\nSouth Dakota does not impose a personal income tax, a general corporate income tax, or a unitary income tax. As a result, standard individual, corporate, and pass-through entity income tax return requirements do not exist in the state. \n\n---\n\n### 1. Individual Return Due Dates and Extensions (Calendar-Year Filers)\n* **Fact:** South Dakota does not impose a personal/individual income tax; therefore, there are no individual income tax returns, filing due dates, or extension rules.\n* **Applicable Tax Years:** 2025 and 2026 (no change).\n* **Official URL:** \n  * South Dakota Department of Revenue – General Public Tax Information: https://dor.sd.gov/individuals/taxes/\n  * South Dakota Department of Revenue – Sales and Use Tax Guide: https://dor.sd.gov/businesses/taxes/sales-use-tax/guidelines-bulletins/sales-and-use-tax-guide/\n\n---\n\n### 2. Corporate and Pass-Through Return Due Dates and Extensions\n* **Fact:** \n  * **General Corporations & Pass-Through Entities:** South Dakota does not levy a corporate income tax or a pass-through entity income tax. There are no return due dates or extension provisions for general business entities.\n  * **Financial Institutions Exception (Bank Franchise Tax):** Financial institutions doing business in the state are subject to the Bank Franchise Tax (SDCL Chapter 10-43).\n    * **Due Date:** Each taxpayer must file the franchise tax return within 15 days after their federal income tax return is due.\n    * **Extensions:** Requests to file an extension are due on or before the return's original due date. To qualify, the taxpayer must submit via email to `bankfranchise@state.sd.us`: (1) a cover letter requesting an extension, (2) a copy of the federal extension form, and (3) payment of the estimated tax by the original due date (minimum tax is $200 per return).\n* **Applicable Tax Years:** 2025 and 2026 (no change).\n* **Official URL:** \n  * South Dakota Department of Revenue – Bank Franchise Tax: https://dor.sd.gov/businesses/taxes/bank-franchise-tax/\n  * South Dakota Codified Law Chapter 10-43: https://sdlegislature.gov/Statutes/Codified_Laws/2042732\n\n---\n\n### 3. Elective Pass-Through Entity Tax (PTET)\n* **Fact:** Not found / Does not exist. South Dakota does not impose a personal or corporate income tax, and has enacted no pass-through entity tax legislation.\n* **Applicable Tax Years:** 2025 and 2026.\n* **Official URL:** \n  * https://dor.sd.gov/individuals/taxes/\n  * https://sdlegislature.gov/Statutes/Codified_Laws\n\n---\n\n### 4. Composite or Group Nonresident Returns for Pass-Through Entities\n* **Fact:** Not found / Does not exist. Because South Dakota does not levy income taxes on individuals or entities, composite or group nonresident returns do not exist.\n* **Applicable Tax Years:** 2025 and 2026.\n* **Official URL:** \n  * https://dor.sd.gov/individuals/taxes/\n\n---\n\n### 5. Estimated Tax Payments and Nonresident Withholding for Pass-Through Entities\n* **Fact:** \n  * **Pass-Through Entities:** Not found / Does not exist. South Dakota has no income tax withholding or estimated tax payment requirements for pass-through entities or their nonresident owners.\n  * **Bank Franchise Tax Note:** Under SDCL 10-43-30, financial institutions whose tax liability in the previous year exceeded $10,000 must make quarterly estimated payments (due the 15th day of January, April, July, and October for calendar-year filers).\n* **Applicable Tax Years:** 2025 and 2026.\n* **Official URL:** \n  * South Dakota Codified Law § 10-43-30: https://sdlegislature.gov/Statutes/Codified_Laws/2042732\n  * https://dor.sd.gov/individuals/taxes/\n\n---\n\n### 6. Main Individual, Corporate, and Pass-Through Return Forms\n* **Fact:** \n  * **Individual, General Corporate, and Pass-Through:** Not found / None exist, as South Dakota has no state income tax return forms.\n  * **Bank Franchise Tax:** Financial institutions file the Bank Franchise Tax return electronically through the Department of Revenue’s online Filing and Payment portal.\n* **Applicable Tax Years:** 2025 and 2026.\n* **Official URL:** \n  * South Dakota Department of Revenue – Individual Forms / Resources: https://dor.sd.gov/individuals/\n  * South Dakota Department of Revenue – Bank Franchise Tax: https://dor.sd.gov/businesses/taxes/bank-franchise-tax/",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "South Dakota does not impose a personal income tax, so there are no individual income tax returns, filing due dates, or extension rules.",
+    "source_url": "https://dor.sd.gov/individuals/taxes/",
+    "evidence": [
+     "personal income tax",
+     "state income tax"
+    ],
+    "accepted": false,
+    "reason": "evidence not on dor.sd.gov (1/2); evidence not on dor.sd.gov (0/2); evidence not on sdlegislature.gov (0/2)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "South Dakota levies no corporate or pass-through entity income tax, but financial institutions subject to the Bank Franchise Tax must file within 15 days after their federal return is due. Extension requests require submitting a cover letter, a copy of the federal extension form, and estimated tax payment by the original due date, with a minimum tax of $200 per return.",
+    "source_url": "https://dor.sd.gov/businesses/taxes/bank-franchise-tax/",
+    "evidence": [
+     "Bank Franchise Tax",
+     "15 days after",
+     "federal extension form",
+     "minimum tax is $200"
+    ],
+    "accepted": false,
+    "reason": "figure not stated beside the evidence on dor.sd.gov; figures not on dor.sd.gov: ['200']; figures not on dor.sd.gov: ['15', '200']; figures not on sdlegislature.gov: ['15', '200']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://dor.sd.gov/media/1gxpk4ck/2024-7_sales-use-tax-guide.pdf",
+   "https://dor.sd.gov/individuals/taxes/",
+   "https://dor.sd.gov/media/lshgztje/winter2022newsletter.pdf",
+   "https://dor.sd.gov/businesses/taxes/bank-franchise-tax/",
+   "https://sdlegislature.gov/Statutes/10-43",
+   "https://sdlegislature.gov/Statutes/Session_Laws/Chapter/3911",
+   "https://dor.sd.gov/individuals/"
+  ],
+  "error": ""
+ }
+]

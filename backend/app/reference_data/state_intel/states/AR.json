@@ -1,0 +1,183 @@
+{
+  "code": "AR",
+  "name": "Arkansas",
+  "sections": {
+    "apportionment": {
+      "fields": [
+        {
+          "key": "method",
+          "label": "Apportionment method",
+          "value": "Multistate businesses apportion business income to Arkansas using a single sales factor formula. Net income is multiplied by a fraction consisting of total sales in Arkansas divided by total sales everywhere.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.dfa.arkansas.gov/wp-content/uploads/CorporationIncomeTaxInstructions_2024.pdf",
+          "source_citation": "https://www.dfa.arkansas.gov/wp-content/uploads/CorporationIncomeTaxInstructions_2024.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Act 822 of 2019 amends Arkansas Code Annotated 26-5-101, Article IV and 26-51-709 through 26-51-718 to provide for a single sales factor to apportion income from within and without Arkansas for tax years beginning on or after January 1, 2021."
+        },
+        {
+          "key": "sourcing",
+          "label": "Sales sourcing (services and intangibles)",
+          "value": "Receipts from services and intangibles are sourced using the cost-of-performance method. Receipts are attributed to Arkansas if the income-producing activity is performed entirely within the state or based on the proportion of costs of performance.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.dfa.arkansas.gov/wp-content/uploads/PartnershipTaxInstructions_2025.pdf",
+          "source_citation": "https://www.dfa.arkansas.gov/wp-content/uploads/PartnershipTaxInstructions_2025.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Market-Based Sourcing - adopting market-based sourcing (MBS) to replace the current cost-of-performance (COP) sourcing methodology."
+        },
+        {
+          "key": "forms",
+          "label": "Forms",
+          "value": "Multistate apportionment is calculated on Schedule A of Form AR1100CT for C corporations, Form AR1100S for S corporations, Form AR1050, or Form AR1100PET. Entities utilizing special industry or approved alternative apportionment methods file Form AR-718.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.dfa.arkansas.gov/wp-content/uploads/PartnershipTaxInstructions_2025.pdf",
+          "source_citation": "https://www.dfa.arkansas.gov/wp-content/uploads/PartnershipTaxInstructions_2025.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "If the partnership is subject to special industry and alternative apportionment, check the box and enter the percentage from Form AR-718, Line 5, Column C."
+        }
+      ]
+    },
+    "nexus": {
+      "fields": [
+        {
+          "key": "income_nexus",
+          "label": "Income/franchise tax nexus",
+          "value": "Effective for tax years beginning on or after January 1, 2026, nonresident entities without a physical presence establish corporate income tax nexus if Arkansas gross receipts exceed $250,000 in the current or immediately preceding calendar year. Entities with physical presence engaging in unprotected activities continue to establish nexus even below this threshold.",
+          "years": [
+            2026
+          ],
+          "source_url": "https://www.dfa.arkansas.gov/office/taxes/income-tax-administration/corporation-income-tax/corporate-faqs/",
+          "source_citation": "Corporate FAQs – Arkansas Department of Finance and Administration",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "^ back to top What type of nexus standard does Arkansas adopt for Corporations? Act 719 of 2025 amended ACA §26-51-202 concerning the taxation of non-residents, adopting an economic corporate income tax nexus.  Effective January 1, 2026, Arkansas established a corporate economic nexus threshold of $250,000 in gross receipts for nonresident corporations or partnerships with no physical presence.  No physical presence is required to establish an income tax filing requirement."
+        },
+        {
+          "key": "sales_economic_nexus",
+          "label": "Sales/use tax: economic nexus",
+          "value": "Remote sellers establish economic nexus if sales of tangible personal property, taxable services, digital codes, or specified digital products for delivery into Arkansas exceed $100,000 or 200 taxable transactions. The threshold is measured during the current or previous calendar year.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.dfa.arkansas.gov/office/taxes/excise-tax-administration/sales-use-tax/remote-sellers/",
+          "source_citation": "Remote Sellers and Marketplace Facilitators – Arkansas Department of Finance and Administration",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "All remote sellers and marketplace facilitators are required to collect and remit Sales and Use tax to the State of Arkansas if within the current or previous year the sale of tangible personal property, taxable services, a digital code, or specified digital products for delivery into Arkansas exceeded one hundred thousand dollars ($100,000) or two hundred (200) taxable transactions."
+        },
+        {
+          "key": "pl_86_272",
+          "label": "P.L. 86-272",
+          "value": "Arkansas applies Public Law 86-272 protection solely to solicitation of orders for sales of tangible personal property that are approved and filled from outside the state. Nexus is created if activities exceed solicitation, such as making repairs, providing maintenance, or maintaining an office, warehouse, or stock of goods.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.dfa.arkansas.gov/wp-content/uploads/it1998_1.pdf",
+          "source_citation": "Microsoft Word - 1998-1 COMPREHENSIVE CORPORATION INCOME TAX REGULATIONS.doc",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "2.26-51-702 Nexus Generally Generally, a taxpayer has nexus with Arkansas if its business activity in Arkansas goes beyond the mere solicitation of orders for the sale of ta ngible personal property as set forth in Public Law 86-272, which is codified at 15 U.S.C."
+        }
+      ]
+    },
+    "rates": {
+      "fields": [
+        {
+          "key": "individual",
+          "label": "Individual income tax",
+          "value": "Arkansas applies graduated individual income tax rates ranging from 0.0% to a top marginal rate of 3.9% on net taxable income over $25,000. Brackets are subject to annual statutory indexing and upper-income adjustment formulas.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.dfa.arkansas.gov/wp-content/uploads/2025_AR1000F_and_AR1000NR_Instructions.pdf",
+          "source_citation": "https://www.dfa.arkansas.gov/wp-content/uploads/2025_AR1000F_and_AR1000NR_Instructions.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Individual Income Tax Rate Reduction (Act 1 of the Second Extraordinary Session of 2024) Marginal Income Tax rates for 2025 are 3.9%, as amended in 2024."
+        },
+        {
+          "key": "sales",
+          "label": "Sales and use tax",
+          "value": "The Arkansas state sales and compensating use tax rate is 6.50%. Local cities and counties levy additional sales and use taxes that generally range from 0% to over 5%.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.dfa.arkansas.gov/wp-content/uploads/2025_AR1000F_and_AR1000NR_Instructions.pdf",
+          "source_citation": "https://www.dfa.arkansas.gov/wp-content/uploads/2025_AR1000F_and_AR1000NR_Instructions.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "The use tax rate is the same as the sales tax rate, 6.50% for all transactions except food purchases which has a reduced rate of 0.125% plus the applicable city and/or county rates where the merchandise is delivered in the state."
+        }
+      ]
+    },
+    "filing": {
+      "fields": [
+        {
+          "key": "individual_due",
+          "label": "Individual due date and extension",
+          "value": "Individual income tax returns are due April 15 for calendar-year filers. An accepted federal extension automatically grants an Arkansas filing extension to November 15, or taxpayers can file Form AR1055-IT for an extension of up to 210 days.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.dfa.arkansas.gov/wp-content/uploads/2025_AR1000F_and_AR1000NR_Instructions.pdf",
+          "source_citation": "https://www.dfa.arkansas.gov/wp-content/uploads/2025_AR1000F_and_AR1000NR_Instructions.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "If you do not file a federal extension, you can file an Arkansas extension using Form AR1055-IT before the filing due date of April 15th."
+        },
+        {
+          "key": "ptet",
+          "label": "Pass-through entity tax (PTET)",
+          "value": "Arkansas provides an elective pass-through entity tax at a rate of 3.9% on ordinary income and 1.95% on net capital gains. The annual election requires approval by members holding more than 50% of voting rights and can be made via ATAP, Form AR362-E, or directly on Form AR1100PET by the due date or extended due date of the return.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.dfa.arkansas.gov/wp-content/uploads/CorporationIncomeTaxInstructions_2024.pdf",
+          "source_citation": "https://www.dfa.arkansas.gov/wp-content/uploads/CorporationIncomeTaxInstructions_2024.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Form AR362-E for registration, AR362-R for revocation, Form AR1100PET, the income tax return and vouchers for estimated payments for the Pass-through Entity Tax are available on the DFA website."
+        },
+        {
+          "key": "estimates",
+          "label": "Withholding and estimated payments",
+          "value": "Estimated payments are required for individuals and corporations with tax liabilities exceeding $1,000. Pass-through entities must withhold tax on nonresident members' distributive share of Arkansas income at 3.9% and file annual reporting on Form AR941PT by April 15.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.dfa.arkansas.gov/wp-content/uploads/CorporationIncomeTaxInstructions_2024.pdf",
+          "source_citation": "https://www.dfa.arkansas.gov/wp-content/uploads/CorporationIncomeTaxInstructions_2024.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "The tax rate for tax years beginning in 2024 is set at 3.9% on income and 1.95% on capital gains for the Pass-through Entity Tax."
+        },
+        {
+          "key": "key_forms",
+          "label": "Key forms",
+          "value": "Main return forms include AR1000F for resident individuals, AR1000NR for nonresidents/part-year residents, AR1100CT for C corporations, and AR1100S for S corporations. Partnerships file Form AR1050, elective pass-through entities file Form AR1100PET, and composite filers submit Form AR1000CR.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.dfa.arkansas.gov/wp-content/uploads/2025_AR1000F_and_AR1000NR_Instructions.pdf",
+          "source_citation": "https://www.dfa.arkansas.gov/wp-content/uploads/2025_AR1000F_and_AR1000NR_Instructions.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Photo courtesy of Arkansas Department of Parks, Heritage and Tourism https://www.arkansas.gov Arkansas 2025 Individual Income Tax Forms and Instructions Full Year Resident....................................AR1000F Nonresident..............................................AR1000NR Part Year Resident....................................AR1000NR Need help deciding which form to use? Contact our office for assistance at (501) 682-1100 or (800) 882-9275 or individual.income@dfa.arkansas.gov."
+        }
+      ]
+    }
+  }
+}

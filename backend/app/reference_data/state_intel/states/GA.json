@@ -1,0 +1,173 @@
+{
+  "code": "GA",
+  "name": "Georgia",
+  "sections": {
+    "apportionment": {
+      "fields": [
+        {
+          "key": "sourcing",
+          "label": "Sales sourcing (services and intangibles)",
+          "value": "Georgia uses market-based sourcing for gross receipts derived from business other than the sale of tangible personal property. Receipts are sourced to Georgia if received from customers within the state or otherwise attributable to the state's marketplace.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://dor.georgia.gov/document/document/2024-it611-corporate-income-tax-instruction-booklet/download",
+          "source_citation": "2024 Corporation Income Tax General Instructions",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "When receipts are derived from business other than the sale of tangible personal property, receipts shall be deemed to have been derived from business done in this State if re- ceived from customers within this State, or if the receipts are otherwise attributable to this State’s marketplace."
+        },
+        {
+          "key": "special_industries",
+          "label": "Special industry rules",
+          "value": "Financial institutions doing business within and outside the state apportion gross receipts for the Financial Institutions Business Occupation Tax using the single gross receipts factor.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://dor.georgia.gov/document/document/2024-it611-corporate-income-tax-instruction-booklet/download",
+          "source_citation": "2024 Corporation Income Tax General Instructions",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "All financial institutions that conduct business or own property in Georgia are required to file a Georgia Financial Institutions Business Occupation Tax Return, Form 900."
+        }
+      ]
+    },
+    "nexus": {
+      "fields": [
+        {
+          "key": "income_nexus",
+          "label": "Income/franchise tax nexus",
+          "value": "Corporations are subject to Georgia income and net worth tax if they own property, do business in Georgia, or receive income from Georgia sources. Georgia does not provide a bright-line factor-presence economic nexus dollar threshold for corporate income or net worth tax.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://dor.georgia.gov/taxes/corporate-income-and-net-worth-tax",
+          "source_citation": "Corporate Income and Net Worth Tax | Department of Revenue",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Corporations that own property, do business in Georgia, or receive income from Georgia sources are subject to corporate income tax The rate of taxation is 5.19% of a corporation's Georgia taxable net income."
+        },
+        {
+          "key": "sales_economic_nexus",
+          "label": "Sales/use tax: economic nexus",
+          "value": "A remote seller establishes economic nexus if it has gross revenue exceeding $100,000.00 from retail sales of tangible personal property delivered into Georgia, or conducts 200 or more separate retail sales into the state. This threshold is measured across the previous or current calendar year.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://dor.georgia.gov/document/document-sut-pb/sut-2019-02/download",
+          "source_citation": "policy bulletin SUT-2013-02 may 7, 2019 remote sellers- sales and use tax obligations (supersedes prior policy nulletin SUY-2018-07, dated october 1, 2018",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "• Obtained gross revenue, in an amount exceeding $100,000 in the previous or current calendar year, from conducting retail sales of tangible personal property to be delivered electronically or physically to a location within this state to be used, consumed, distributed, or stored for use or consumption in this state, OR • Conducted 200 or mo re separate retail sales of tangible personal property in the previous or current calendar year to be delivered electronically or physically to a location w"
+        },
+        {
+          "key": "pl_86_272",
+          "label": "P.L. 86-272",
+          "value": "P.L. 86-272 protects out-of-state corporations from Georgia income tax when activities are limited strictly to solicitation of orders for sales of tangible personal property filled from outside Georgia. However, P.L. 86-272 does not protect against the Georgia net worth tax, requiring qualifying corporations to still file returns and pay applicable net worth tax.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://dor.georgia.gov/document/document/2021-600-corporation-income-tax-return-blank-form-printing/download",
+          "source_citation": "600 Print",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Date admitted into GA Original Return Initial Net Worth Consolidated GA Parent Return (attach approval) GA Consolidated Subsidiary Consolidated Parent FEIN Address Change Name Change Final (attach explanation) PL 86-272 Amended Return UET Annualization Exception a ttached IRS Audit Amended due to IT-552 attached Extension attached 1."
+        }
+      ]
+    },
+    "rates": {
+      "fields": [
+        {
+          "key": "corporate",
+          "label": "Corporate income/franchise tax",
+          "value": "Georgia imposes a flat corporate income tax rate of 5.19% of taxable net income, and there is no minimum tax.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://dor.georgia.gov/taxes/corporate-income-and-net-worth-tax",
+          "source_citation": "Corporate Income and Net Worth Tax | Department of Revenue",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Corporations that own property, do business in Georgia, or receive income from Georgia sources are subject to corporate income tax The rate of taxation is 5.19% of a corporation's Georgia taxable net income."
+        },
+        {
+          "key": "sales",
+          "label": "Sales and use tax",
+          "value": "Georgia imposes a 4% state sales and use tax rate, with local jurisdictions adding taxes that typically bring combined rates between 6% and 9%.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://dor.georgia.gov/taxes/business-taxes/sales-use-tax/tax-rates",
+          "source_citation": "Tax Rates | Department of Revenue",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "** Effective October 1, 2018, the generally applicable tax rate in Ware County is 9% (state sales tax at the statewide rate of 4% plus 5 local sales taxes at a rate of 1% each)."
+        }
+      ]
+    },
+    "filing": {
+      "fields": [
+        {
+          "key": "ptet",
+          "label": "Pass-through entity tax (PTET)",
+          "value": "Eligible partnerships and S corporations can make an annual irrevocable election to pay tax at the entity level at a rate of 5.19% for tax year 2025. The election is made on Form 600S or Form 700 on or before the return's due date or extended due date.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://dor.georgia.gov/document/document/2025-it-711-partnership-income-tax-booklet/download",
+          "source_citation": "2025 IT-711 Partnership Income Tax Booklet",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "ADDITIONAL INFORMA TION 19 2025 IT-711 Instructions Booklet PARTNERSHIPS THAT MUST FILE ESTIMATED TAX The tax rate is 5.19% A partnership that elects to pay tax at the pass-through entity level must make estimated tax payments in the same manner as a corporation and using the Form 602-ES."
+        },
+        {
+          "key": "composite",
+          "label": "Composite returns",
+          "value": "Pass-through entities may file a composite return on Form IT-CR on behalf of eligible nonresident members, sharing the same April 15 statutory due date and extension rules as individual returns. A composite return is not filed or required if the entity elects into the pass-through entity tax.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://dor.georgia.gov/document/document/subjects-560-7-4-and-560-7-8-no-redlinespdf/download",
+          "source_citation": "Subject 560-7-4 and Subject 560-7-8",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "In lieu of withholding, the entity may elect to file a composite income tax return for one or all of its nonresident members using Form IT-CR."
+        },
+        {
+          "key": "estimates",
+          "label": "Withholding and estimated payments",
+          "value": "Electing pass-through entities must pay estimated taxes using Form 602-ES if net income is expected to exceed $25,000, while composite filers use Form CR-ES. Non-electing entities must withhold at a 4% rate on each nonresident member's Georgia taxable income exceeding $1,000, remitted on Form G-7 NRW by the entity's return due date without extensions.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://dor.georgia.gov/document/document/2025-it-711-partnership-income-tax-booklet/download",
+          "source_citation": "2025 IT-711 Partnership Income Tax Booklet",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "ADDITIONAL INFORMA TION 19 2025 IT-711 Instructions Booklet PARTNERSHIPS THAT MUST FILE ESTIMATED TAX The tax rate is 5.19% A partnership that elects to pay tax at the pass-through entity level must make estimated tax payments in the same manner as a corporation and using the Form 602-ES."
+        },
+        {
+          "key": "key_forms",
+          "label": "Key forms",
+          "value": "Key returns include Form 500 for individuals, Form 600 for C corporations, Form 600S for S corporations, and Form 700 for partnerships. Nonresident filings use Form IT-CR for composite returns and Form G-7 NRW for nonresident withholding.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://dor.georgia.gov/hb-149-pass-through-entity-tax-faq",
+          "source_citation": "HB 149 Pass-Through Entity Tax FAQ | Department of Revenue",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "However, if the owners have made estimated payments or otherwise have credits or other attributes that would reduce their liability, the entity may check the \"UET Annualization Exception Attached\" box on the Form 600S or Form 700 and compute the penalty on Form 600 UET as if the entity had made such payments or applied such credits or attributes."
+        }
+      ]
+    }
+  }
+}

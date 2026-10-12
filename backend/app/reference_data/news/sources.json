@@ -1,0 +1,57 @@
+{
+  "_comment": "Industry Updates sources. Public government sources are read from the agency's own pages; only the title, date, a short excerpt (at most 280 characters, taken from the agency's own summary) and the link are shown. Licensed sources (Bloomberg Tax, Thomson Reuters) are never scraped: they are reached only through the owner's licensed API, configured by environment variable, and are disabled until those are set. Topics are assigned by the keyword lists below - whole-word, case-insensitive matches; a trailing * makes a keyword a stem. Deterministic, no model involved.",
+  "version": "2026-10-07",
+  "sources": [
+    {
+      "key": "irs",
+      "name": "IRS",
+      "kind": "public",
+      "provider": "irs_newsroom",
+      "homepage": "https://www.irs.gov/newsroom",
+      "urls": [
+        "https://www.irs.gov/newsroom/news-releases-for-current-month",
+        "https://www.irs.gov/newsroom/news-releases-for-{prev_month_name}-{prev_month_year}"
+      ],
+      "terms_note": "IRS news releases are U.S. government works. The IRS does not publish a news RSS URL that could be confirmed on irs.gov (e-News is delivered by email), so the official monthly news-release listing pages are read. robots.txt permits /newsroom/ listing pages."
+    },
+    {
+      "key": "treasury",
+      "name": "U.S. Treasury",
+      "kind": "public",
+      "provider": "treasury_json",
+      "homepage": "https://home.treasury.gov/news/press-releases",
+      "urls": ["https://home.treasury.gov/news-data/widgets/latest.json"],
+      "terms_note": "Treasury press releases are U.S. government works. home.treasury.gov/rss.xml carries site content rather than press releases, so the JSON the Treasury site's own press-release widget loads is used. robots.txt allows all paths."
+    },
+    {
+      "key": "bloomberg_tax",
+      "name": "Bloomberg Tax",
+      "kind": "licensed",
+      "provider": "licensed_api",
+      "homepage": "https://pro.bloombergtax.com/",
+      "terms_note": "Copyrighted and paywalled. Never scraped. Available only through a licensed API under the app owner's agreement; headlines, dates and links only.",
+      "requires_settings": ["bloomberg_tax_api_url", "bloomberg_tax_api_key"],
+      "connect_message": "Connect your Bloomberg Tax account to enable"
+    },
+    {
+      "key": "thomson_reuters",
+      "name": "Thomson Reuters",
+      "kind": "licensed",
+      "provider": "licensed_api",
+      "homepage": "https://tax.thomsonreuters.com/",
+      "terms_note": "Copyrighted and paywalled. Never scraped. Available only through a licensed API under the app owner's agreement; headlines, dates and links only.",
+      "requires_settings": ["thomson_reuters_api_url", "thomson_reuters_api_key"],
+      "connect_message": "Connect your Thomson Reuters account to enable"
+    }
+  ],
+  "topics": [
+    {"key": "individual", "label": "Individual", "keywords": ["individual", "taxpayers", "filing season", "refund", "child tax", "earned income", "1040", "retirement", "ira", "iras", "tips", "overtime", "seniors"]},
+    {"key": "business", "label": "Business", "keywords": ["business", "corporat*", "partnership", "small business", "employer", "depreciation", "s corporation", "llc"]},
+    {"key": "international", "label": "International", "keywords": ["international", "foreign", "treaty", "fatca", "cross-border", "global", "oecd", "pillar", "sanction", "ofac", "country", "united kingdom", "uk"]},
+    {"key": "state_local", "label": "State and local", "keywords": ["state", "local", "disaster", "county", "counties", "salt"]},
+    {"key": "payroll", "label": "Payroll", "keywords": ["payroll", "employment tax", "withholding", "form 941", "w-2", "wage"]},
+    {"key": "exempt_organizations", "label": "Exempt organizations", "keywords": ["exempt organization", "charit*", "nonprofit", "non-profit", "501(c)", "foundation"]},
+    {"key": "legislation_regulation", "label": "Legislation and regulation", "keywords": ["regulation", "proposed rule", "final rule", "legislation", "law", "laws", "congress", "act", "bill", "statute"]},
+    {"key": "guidance_notices", "label": "Guidance and notices", "keywords": ["notice", "notices", "guidance", "revenue procedure", "rev. proc", "revenue ruling", "announcement", "faq", "frequently asked"]}
+  ]
+}

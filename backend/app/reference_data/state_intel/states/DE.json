@@ -1,0 +1,76 @@
+{
+  "code": "DE",
+  "name": "Delaware",
+  "sections": {
+    "apportionment": {
+      "fields": [
+        {
+          "key": "forms",
+          "label": "Forms",
+          "value": "Apportionment is computed on Form CIT-TAX using Schedule 3A and Schedule 3B. Schedule 3B determines the apportionment percentage that carries to line 8 on page 1 of the return.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://revenuefiles.delaware.gov/2025/BusinessTaxForms_Instructions/CIT-TAX_2025-01_Instructions.pdf",
+          "source_citation": "https://revenuefiles.delaware.gov/2025/BusinessTaxForms_Instructions/CIT-TAX_2025-01_Instructions.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Schedule 3B - Determination of Apportionment Percentage Enter in the numerator on Line 1 the total gross receipts within Delaware from Line 3 on Schedule 3A, enter in the denominator on Line 2 the total gross receipts from within and without Delaware on Line 3 on Schedule 3A and compute the respective percentage carried to at least six decimal places (do not round up)."
+        }
+      ]
+    },
+    "nexus": {
+      "fields": [
+        {
+          "key": "income_nexus",
+          "label": "Income/franchise tax nexus",
+          "value": "Every corporation doing business in Delaware must file Form CIT-TAX and pay the 8.7% corporate income tax on net income derived from business activities and property within the state. Domestic corporations incorporated in Delaware that do not conduct business in the state are not required to file a corporate income tax return.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://revenue.delaware.gov/frequently-asked-questions/corporate-income-tax-faqs/",
+          "source_citation": "Corporate Income Tax FAQs - Division of Revenue - State of Delaware",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Every domestic or foreign corporation doing business in Delaware, not specifically exempt under Section 1902(b), Title 30, Delaware Code, is required to file a corporate income tax return (Form CIT-TAX) and pay a tax of 8.7% on its federal taxable income allocated and apportioned to Delaware."
+        },
+        {
+          "key": "sales_economic_nexus",
+          "label": "Sales/use tax: economic nexus",
+          "value": "Delaware does not impose a state or local general sales tax and has no remote seller economic nexus threshold or measurement period. Internet retail dealers with no nexus in Delaware are not required to report and remit taxes on internet sales.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://revenue.delaware.gov/frequently-asked-questions/vapor-products-faqs/",
+          "source_citation": "Vapor Products FAQs - Division of Revenue - State of Delaware",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Internet retail dealers with no nexus in Delaware are not required to report and remit taxes on internet sales."
+        }
+      ]
+    },
+    "rates": {
+      "fields": [
+        {
+          "key": "corporate",
+          "label": "Corporate income/franchise tax",
+          "value": "Delaware imposes a corporate income tax rate of 8.7% on federal taxable income allocated and apportioned to the state. There is no minimum corporate income tax, and corporations that do not conduct business in Delaware are exempt.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://revenue.delaware.gov/frequently-asked-questions/corporate-income-tax-faqs/",
+          "source_citation": "Corporate Income Tax FAQs - Division of Revenue - State of Delaware",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Every domestic or foreign corporation doing business in Delaware, not specifically exempt under Section 1902(b), Title 30, Delaware Code, is required to file a corporate income tax return (Form CIT-TAX) and pay a tax of 8.7% on its federal taxable income allocated and apportioned to Delaware."
+        }
+      ]
+    },
+    "filing": {
+      "fields": []
+    }
+  }
+}

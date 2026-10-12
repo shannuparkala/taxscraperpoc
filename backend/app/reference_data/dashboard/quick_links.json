@@ -1,0 +1,11 @@
+{
+  "_comment": "Dashboard quick links, in display order. Reorder, add or remove entries here; the dashboard renders this list as-is. 'icon' is a lucide-react icon name from the set the dashboard maps (sparkle, calculator, file-text, newspaper, landmark, folder). 'path' must be a route in frontend/src/App.tsx - test_reference_data checks it against the known routes.",
+  "version": "2026-10-07",
+  "links": [
+    {"id": "assistant", "label": "Tax & audit assistant", "description": "Ask a grounded federal or state question", "path": "/assistant", "icon": "sparkle"},
+    {"id": "depreciation", "label": "Depreciation calculator", "description": "Federal and state schedules from published rules", "path": "/depreciation", "icon": "calculator"},
+    {"id": "forms", "label": "IRS Forms", "description": "Find and download official forms", "path": "/forms", "icon": "file-text"},
+    {"id": "updates", "label": "Industry Updates", "description": "IRS and Treasury news in one feed", "path": "/updates", "icon": "newspaper"},
+    {"id": "state-intel", "label": "State Intelligence", "description": "Apportionment, nexus, conformity, rates, filing", "path": "/states", "icon": "landmark"}
+  ]
+}

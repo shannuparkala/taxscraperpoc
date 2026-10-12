@@ -1,0 +1,166 @@
+# Render blueprint: the API and the SPA as two independent services.
+#
+#   https://dashboard.render.com  ->  New  ->  Blueprint  ->  pick this repo
+#
+# Everything marked `sync: false` is a secret. Render prompts for it once, in
+# the dashboard, and stores it encrypted; it is never written to this file and
+# never reaches the repository. Do not replace one with an inline `value` —
+# committing a Gemini key or a Fernet key is the leak this layout prevents.
+#
+# Two manual steps remain after the first deploy, because each service needs
+# the other's URL and neither exists until it has been created:
+#
+#   1. Set CORS_ORIGINS on taxscraper-api    to the web service's URL.
+#   2. Set VITE_API_BASE on taxscraper-web   to the API's URL, then redeploy.
+#
+# FREE TIER, KNOWN LIMITS — read before handing the link to anyone:
+#
+#   * No persistent disk. /app/data is wiped on every restart and deploy, so
+#     uploads, the token vault, the audit chain and the SQLite database do not
+#     survive. For a test deployment handling sensitive documents this is a
+#     feature, not a defect: nothing accumulates. Testers must download their
+#     output package in the same session that produced it.
+#   * The encryption keys, by contrast, are environment variables and DO
+#     survive. That is deliberate — a key that changed on restart would make
+#     every already-uploaded file undecryptable, which is the failure the
+#     persisted dev-key seed exists to prevent.
+#   * The service sleeps after ~15 minutes idle. The next request pays a cold
+#     start of roughly a minute, and the in-memory per-minute limiter resets.
+#     The daily quota does not: it lives in the database.
+#   * 512 MB RAM on the free instance. OCR of a long scanned workpaper at 300
+#     DPI is the memory peak; if runs are killed mid-pipeline, lower OCR_DPI
+#     to 200 or move to the 2 GB instance.
+
+services:
+  # ---------------------------------------------------------------- backend
+  - type: web
+    name: taxscraper-api
+    runtime: docker
+    plan: free
+    region: oregon
+    dockerfilePath: ./backend/Dockerfile
+    # Context is backend/, so Files/ and data/ at the repo root cannot be
+    # copied into the image even by accident.
+    dockerContext: ./backend
+    healthCheckPath: /api/health
+    autoDeployTrigger: commit
+
+    envVars:
+      # --- Posture ------------------------------------------------------
+      # production turns on validate_production_posture, which refuses to
+      # start if auth is disabled, the egress guard is off or in warn mode,
+      # or either encryption key is missing. That check is the reason this
+      # value is not "staging".
+      - key: APP_ENV
+        value: production
+      - key: AUTH_DISABLED
+        value: "false"
+      - key: LLM_EGRESS_GUARD_ENABLED
+        value: "true"
+      - key: LLM_EGRESS_GUARD_MODE
+        value: block
+      - key: ALLOW_CLOUD_OCR_FALLBACK
+        value: "false"
+      - key: LOG_LEVEL
+        value: INFO
+
+      # --- Secrets: set in the dashboard, never here ---------------------
+      # SECRET_KEY signs JWTs. Render generates it; rotating it invalidates
+      # every issued token, which is the correct behaviour.
+      - key: SECRET_KEY
+        generateValue: true
+
+      # Fernet keys. Generate each one locally and paste it in:
+      #   python -c "from cryptography.fernet import Fernet; \
+      #              print(Fernet.generate_key().decode())"
+      # They must differ from each other. Losing VAULT_ENCRYPTION_KEY makes
+      # rehydration impossible and every generated package unusable.
+      - key: FILE_ENCRYPTION_KEY
+        sync: false
+      - key: VAULT_ENCRYPTION_KEY
+        sync: false
+
+      # Accounts, as username:role:password separated by commas. Roles are
+      # admin | reviewer | preparer | readonly; passwords need 12+ characters.
+      # The environment is the source of truth — change a password here and
+      # restart, and the account is reset to it.
+      #   alice:preparer:correct-horse-battery,bob:admin:another-long-one
+      - key: BOOTSTRAP_USERS
+        sync: false
+
+      # Optional. Without it the pipeline runs on deterministic stubs, which
+      # is a legitimate way to demo the mechanics at zero API spend.
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_ENABLED
+        value: "true"
+
+      # Step 1 above: the web service's URL, e.g.
+      #   https://taxscraper-web.onrender.com
+      # An exact origin, never "*" — these endpoints return taxpayer data.
+      - key: CORS_ORIGINS
+        sync: false
+
+      # --- Daily quota: the spend guardrail -----------------------------
+      # Per-client caps stop one tester consuming the day; the global caps
+      # are what actually bound the API bill. Sized for a handful of
+      # colleagues on a shared key. 0 means unlimited.
+      - key: DAILY_QUOTA_ENABLED
+        value: "true"
+      - key: DAILY_QUOTA_UPLOAD_PER_CLIENT
+        value: "5"
+      - key: DAILY_QUOTA_UPLOAD_GLOBAL
+        value: "40"
+      - key: DAILY_QUOTA_CHAT_PER_CLIENT
+        value: "25"
+      - key: DAILY_QUOTA_CHAT_GLOBAL
+        value: "200"
+      - key: DAILY_QUOTA_DEFAULT_PER_CLIENT
+        value: "200"
+      - key: DAILY_QUOTA_DEFAULT_GLOBAL
+        value: "2000"
+
+      # --- Sizing -------------------------------------------------------
+      # Below the 50 MB default: the free instance has 512 MB of RAM and
+      # rendering a large scan at 300 DPI is what exhausts it.
+      - key: MAX_UPLOAD_MB
+        value: "25"
+      - key: OCR_DPI
+        value: "300"
+
+  # --------------------------------------------------------------- frontend
+  - type: web
+    name: taxscraper-web
+    runtime: static
+    plan: free
+    rootDir: frontend
+    buildCommand: npm ci && npm run build
+    staticPublishPath: dist
+    autoDeployTrigger: commit
+
+    envVars:
+      # Step 2 above: the API's URL, e.g. https://taxscraper-api.onrender.com
+      # Baked into the bundle at build time, so changing it needs a redeploy.
+      # SECURITY: everything in a VITE_* variable ships to the browser in
+      # readable form. This one is a public URL, which is fine. Never put an
+      # API key here — it would be readable by anyone who opens devtools.
+      - key: VITE_API_BASE
+        sync: false
+
+    routes:
+      # SPA history routing: /prepare and /dashboard are client-side routes
+      # with no file behind them, and a hard refresh must not 404.
+      - type: rewrite
+        source: /*
+        destination: /index.html
+
+    headers:
+      - path: /*
+        name: X-Frame-Options
+        value: DENY
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: Referrer-Policy
+        value: no-referrer

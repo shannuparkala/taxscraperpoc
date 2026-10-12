@@ -1,0 +1,300 @@
+{
+  "template": "f1040sb_2025.pdf",
+  "form_title": "SCHEDULE B  (Form 1040) 2025 Interest and Ordinary Dividends Department of the T",
+  "pages": 1,
+  "line_to_field": {
+    "1": "f1_14[0]",
+    "2": "f1_31[0]",
+    "2b": "f1_09[0]",
+    "3": "f1_32[0]",
+    "3b": "f1_48[0]",
+    "4": "f1_33[0]",
+    "5": "f1_49[0]",
+    "6": "f1_64[0]",
+    "a": "f1_13[0]"
+  },
+  "needs_review": {
+    "multi_box_lines": {
+      "1": [
+        "f1_14[0]",
+        "f1_16[0]"
+      ],
+      "2b": [
+        "f1_09[0]",
+        "f1_10[0]"
+      ],
+      "a": [
+        "f1_13[0]",
+        "f1_52[0]",
+        "f1_53[0]"
+      ]
+    },
+    "unlabelled_fields": [
+      {
+        "field": "f1_01[0]",
+        "page": 0,
+        "row": ""
+      },
+      {
+        "field": "f1_02[0]",
+        "page": 0,
+        "row": ""
+      },
+      {
+        "field": "f1_03[0]",
+        "page": 0,
+        "row": "(See instructions"
+      },
+      {
+        "field": "f1_04[0]",
+        "page": 0,
+        "row": "(See instructions"
+      },
+      {
+        "field": "f1_05[0]",
+        "page": 0,
+        "row": "and Instructions the for"
+      },
+      {
+        "field": "f1_06[0]",
+        "page": 0,
+        "row": "and Instructions the for"
+      },
+      {
+        "field": "f1_07[0]",
+        "page": 0,
+        "row": "Instructions Form 1040, for"
+      },
+      {
+        "field": "f1_08[0]",
+        "page": 0,
+        "row": "Instructions Form 1040, for"
+      },
+      {
+        "field": "f1_11[0]",
+        "page": 0,
+        "row": "Note: If you"
+      },
+      {
+        "field": "f1_12[0]",
+        "page": 0,
+        "row": "Note: If you"
+      },
+      {
+        "field": "f1_15[0]",
+        "page": 0,
+        "row": "Form Form 1099-INT, 1099-OID,"
+      },
+      {
+        "field": "f1_17[0]",
+        "page": 0,
+        "row": "or statement substitute from"
+      },
+      {
+        "field": "f1_18[0]",
+        "page": 0,
+        "row": "or statement substitute from"
+      },
+      {
+        "field": "f1_19[0]",
+        "page": 0,
+        "row": "statement a brokerage from firm,"
+      },
+      {
+        "field": "f1_20[0]",
+        "page": 0,
+        "row": "statement a brokerage from firm,"
+      },
+      {
+        "field": "f1_21[0]",
+        "page": 0,
+        "row": "list the firm\u2019s"
+      },
+      {
+        "field": "f1_22[0]",
+        "page": 0,
+        "row": "list the firm\u2019s"
+      },
+      {
+        "field": "f1_23[0]",
+        "page": 0,
+        "row": "name payer as and the enter"
+      },
+      {
+        "field": "f1_24[0]",
+        "page": 0,
+        "row": "name payer as and the enter"
+      },
+      {
+        "field": "f1_25[0]",
+        "page": 0,
+        "row": "payer the total and interest enter"
+      },
+      {
+        "field": "f1_26[0]",
+        "page": 0,
+        "row": "payer the total and interest enter"
+      },
+      {
+        "field": "f1_27[0]",
+        "page": 0,
+        "row": "shown on that"
+      },
+      {
+        "field": "f1_28[0]",
+        "page": 0,
+        "row": "shown on that"
+      },
+      {
+        "field": "f1_29[0]",
+        "page": 0,
+        "row": "form."
+      },
+      {
+        "field": "f1_30[0]",
+        "page": 0,
+        "row": "form."
+      },
+      {
+        "field": "f1_34[0]",
+        "page": 0,
+        "row": "Part II 5 List name of payer:"
+      },
+      {
+        "field": "f1_35[0]",
+        "page": 0,
+        "row": "Part II 5 List name of payer:"
+      },
+      {
+        "field": "f1_36[0]",
+        "page": 0,
+        "row": "Part Ordinary II"
+      },
+      {
+        "field": "f1_37[0]",
+        "page": 0,
+        "row": "Part Ordinary II"
+      },
+      {
+        "field": "f1_38[0]",
+        "page": 0,
+        "row": "Ordinary Dividends"
+      },
+      {
+        "field": "f1_39[0]",
+        "page": 0,
+        "row": "Ordinary Dividends"
+      },
+      {
+        "field": "f1_40[0]",
+        "page": 0,
+        "row": "Dividends"
+      },
+      {
+        "field": "f1_41[0]",
+        "page": 0,
+        "row": "Dividends"
+      },
+      {
+        "field": "f1_42[0]",
+        "page": 0,
+        "row": "(See instructions"
+      },
+      {
+        "field": "f1_43[0]",
+        "page": 0,
+        "row": "(See instructions"
+      },
+      {
+        "field": "f1_44[0]",
+        "page": 0,
+        "row": "and Instructions the for"
+      },
+      {
+        "field": "f1_45[0]",
+        "page": 0,
+        "row": "and Instructions the for"
+      },
+      {
+        "field": "f1_46[0]",
+        "page": 0,
+        "row": "Instructions Form 1040, for"
+      },
+      {
+        "field": "f1_47[0]",
+        "page": 0,
+        "row": "Instructions Form 1040, for"
+      },
+      {
+        "field": "f1_50[0]",
+        "page": 0,
+        "row": "Note: If you"
+      },
+      {
+        "field": "f1_51[0]",
+        "page": 0,
+        "row": "Note: If you"
+      },
+      {
+        "field": "f1_54[0]",
+        "page": 0,
+        "row": "Form or substitute 1099-DIV"
+      },
+      {
+        "field": "f1_55[0]",
+        "page": 0,
+        "row": "Form or substitute 1099-DIV"
+      },
+      {
+        "field": "f1_56[0]",
+        "page": 0,
+        "row": "statement a brokerage from firm,"
+      },
+      {
+        "field": "f1_57[0]",
+        "page": 0,
+        "row": "statement a brokerage from firm,"
+      },
+      {
+        "field": "f1_58[0]",
+        "page": 0,
+        "row": "a list brokerage the firm\u2019s firm,"
+      },
+      {
+        "field": "f1_59[0]",
+        "page": 0,
+        "row": "a list brokerage the firm\u2019s firm,"
+      },
+      {
+        "field": "f1_60[0]",
+        "page": 0,
+        "row": "name as the"
+      },
+      {
+        "field": "f1_61[0]",
+        "page": 0,
+        "row": "name as the"
+      },
+      {
+        "field": "f1_62[0]",
+        "page": 0,
+        "row": "payer the ordinary and enter"
+      },
+      {
+        "field": "f1_63[0]",
+        "page": 0,
+        "row": "payer the ordinary and enter"
+      },
+      {
+        "field": "f1_65[0]",
+        "page": 0,
+        "row": "to Statement file Form of 8938, financial account(s) is (are) located:"
+      },
+      {
+        "field": "f1_66[0]",
+        "page": 0,
+        "row": "Statement Specified Foreign of"
+      }
+    ]
+  }
+}

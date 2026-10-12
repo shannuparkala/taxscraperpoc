@@ -1,0 +1,360 @@
+[
+ {
+  "state": "OK",
+  "section": "apportionment",
+  "notes": "",
+  "proposals": [],
+  "grounding_urls": [],
+  "error": "LlmError"
+ },
+ {
+  "state": "OK",
+  "section": "nexus",
+  "notes": "### 1. Income Tax and Franchise Tax Nexus\n\n#### Franchise Tax Nexus (Tax Years 2025 and 2026)\n* **Status:** **Repealed / Eliminated**.\n* **Rule:** Under House Bill 1039 (2023), Oklahoma repealed its franchise tax effective for tax years beginning after December 31, 2023. Tax year 2023 was the final year for which franchise tax returns were required. Consequently, for tax years 2025 and 2026, there is no franchise tax nexus or filing requirement in Oklahoma.\n* **Official URL:** \n  * Oklahoma Tax Commission Newsroom: https://oklahoma.gov/tax/newsroom/2023/franchise-tax-ends-in-oklahoma.html\n\n#### Corporate Income Tax Nexus (Tax Years 2025 and 2026)\n* **Standard:** Oklahoma imposes corporate income tax on corporations \"doing business within or deriving income from sources within Oklahoma\" (68 O.S. § 2355(D); Okla. Admin. Code § 710:50-17-1(a)). A corporation is subject to tax if it has \"nexus\" with the state (Okla. Admin. Code § 710:50-17-1(b)).\n* **Economic Nexus / Bright-Line Factor Presence:** **Not found**. Oklahoma does not impose a bright-line dollar or transaction factor-presence economic nexus threshold for corporate income tax.\n* **Activities Creating Nexus:** Under Okla. Admin. Code § 710:50-17-3(a), nexus is established if a corporation engages in any of the following activities in Oklahoma:\n  1. Maintenance of any business location in Oklahoma (including an office, warehouse, or qualifying home office of an employee/representative).\n  2. Ownership of real estate in Oklahoma.\n  3. Ownership of a stock of goods in a public warehouse or on consignment in Oklahoma.\n  4. Ownership of a stock of goods held by a distributor or other non-employee representative to fill orders.\n  5. Usual or frequent activity in Oklahoma by an employee or representative soliciting orders with authority to accept them.\n  6. Usual or frequent purchasing activity or performance of services (e.g., construction, installation, assembly, equipment repair) by employees or representatives.\n  7. Operation of mobile stores in Oklahoma (e.g., trucks with driver-salespersons), regardless of frequency.\n  8. Miscellaneous in-state activities, such as credit investigations, collecting delinquent accounts, or conducting training seminars for customer personnel.\n  9. Leasing tangible property or licensing intangible rights for use in Oklahoma.\n  10. Sale of property other than tangible personal property (such as real estate, services, and intangibles).\n  11. Performance of construction contracts or service contracts in Oklahoma.\n* **Applicability:** Applies unchanged to both tax years 2025 and 2026.\n* **Official URLs:**\n  * Oklahoma Administrative Code Title 710, Chapter 50: https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/rules/2024/Rule-710-50.pdf\n  * OTC Form 512 Instructions: https://oklahoma.gov/tax/forms.html\n\n---\n\n### 2. Remote Seller Sales Tax Economic Nexus\n\n* **Statutory Authority:** 68 O.S. § 1392.\n* **Sales Amount Threshold:** More than **$100,000** in taxable Oklahoma sales.\n* **Transaction Count Threshold:** **None** (Oklahoma law does not impose a transaction count threshold for remote sellers).\n* **Measurement Period:** The **preceding calendar year** or **current calendar year** for delivery into Oklahoma (or delivered/sourced to an Oklahoma address).\n* **Applicability:** Applies unchanged to both tax years 2025 and 2026.\n* **Official URL:** \n  * Oklahoma Tax Commission Help Center (Businesses): https://oklahoma.gov/tax/help-center/businesses.html\n\n---\n\n### 3. State's Stated Position on P.L. 86-272 Protection\n\n* **Codified Position:** The Oklahoma Tax Commission explicitly incorporates and recognizes Public Law 86-272 (15 U.S.C. § 381) protection in its administrative rules (Okla. Admin. Code §§ 710:50-17-2 and 710:50-17-3).\n* **Protected Safe Harbor (Okla. Admin. Code § 710:50-17-3(c)):** A corporation selling tangible personal property is exempt from Oklahoma income tax if its only activities within the state consist of:\n  1. Usual or frequent solicitation of orders for tangible personal property by employees or representatives, where orders are sent outside the state for approval or rejection and filled by delivery from a point outside Oklahoma.\n  2. Solicitation activity by independent contractors conducted through their own office or business location in Oklahoma.\n* **Key Limitations & Unprotected Activities:**\n  * **Scope of Solicitation:** \"Solicitation\" is strictly limited to acts leading to the placing of an order and does not include acts following as a natural result of placing an order (Okla. Admin. Code § 710:50-17-2). If any in-state activity exceeds mere solicitation, immunity is lost.\n  * **Exclusions from Protection (Okla. Admin. Code § 710:50-17-3(b)):** P.L. 86-272 immunity does not extend to:\n    * Businesses selling services, real estate, or intangibles.\n    * Domestic (Oklahoma) corporations.\n    * Foreign nation corporations (entities organized outside the United States).\n* **Multistate Tax Commission (MTC) Revised Internet Guidance:** **Not adopted**. Oklahoma has not adopted the MTC's 2021 revised *Statement of Information Concerning Practices Under Public Law 86-272* addressing internet activities.\n* **Applicability:** Applies unchanged to both tax years 2025 and 2026.\n* **Official URL:**\n  * Oklahoma Administrative Code Title 710, Chapter 50: https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/rules/2024/Rule-710-50.pdf\n  * OTC Form 512 Instructions: https://oklahoma.gov/tax/forms.html",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Oklahoma imposes corporate income tax on corporations doing business within or deriving income from sources within the state, established through physical or representative activities with no bright-line dollar threshold.",
+    "source_url": "https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/rules/2024/Rule-710-50.pdf",
+    "evidence": [
+     "doing business within",
+     "deriving income from sources",
+     "Maintenance of any business location"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/rules-and-policies/agency-rules/2024/Chapter_50_Income_2024.pdf",
+    "matched_title": "Chapter 50. Income 2024",
+    "matched_phrases": [
+     "doing business within",
+     "deriving income from sources",
+     "Maintenance of any business location"
+    ],
+    "snippet": "Corporate returns (a) Any corporation doing business within or deriving income from sources within Oklahoma is required to fil e an Oklahoma Corporation Income Tax Return, whether or not a tax is due."
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Remote sellers establish economic nexus by having more than $100,000 in taxable Oklahoma sales during the preceding calendar year or current calendar year. Oklahoma does not impose a transaction count threshold.",
+    "source_url": "https://oklahoma.gov/tax/help-center/businesses.html",
+    "evidence": [
+     "more than $100,000",
+     "taxable Oklahoma sales",
+     "preceding calendar year"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://oklahoma.gov/tax/helpcenter/businesses.html",
+    "matched_title": "Businesses",
+    "matched_phrases": [
+     "more than $100,000",
+     "taxable Oklahoma sales",
+     "preceding calendar year"
+    ],
+    "snippet": "Remote sellers are only required to obtain a sales tax permit from OTC and collect Oklahoma state and local sales tax if they have more than $100,000 in taxable Oklahoma sales in the preceding calendar year or current calendar year for delivery into the state."
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Oklahoma recognizes immunity under P.L. 86-272 for corporations whose only in-state activity is solicitation of orders for tangible personal property filled from outside the state. Protection does not extend to domestic corporations, foreign nation corporations, or sellers of services, real estate, or intangibles.",
+    "source_url": "https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/rules/2024/Rule-710-50.pdf",
+    "evidence": [
+     "solicitation of orders",
+     "tangible personal property",
+     "Foreign nation corporations"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/rules/2024/Rule-710-50.pdf; figures not on oklahoma.gov: ['272', '86']; figure not stated beside the evidence on oklahoma.gov; figures not on oklahoma.gov: ['272']; not an official OK host: catchingnumbers.com; not an official OK host: www.law.cornell.edu; evidence not on oklahoma.gov (1/3); not an official OK host: www.mtc.gov",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://oklahoma.gov/tax/newsroom/2023/07-26-23.html",
+   "https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/rules-and-policies/agency-rules/2024/Chapter_50_Income_2024.pdf",
+   "https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/rules-and-policies/commission-decisions/corporate-income/2010-10-26-02.pdf",
+   "https://catchingnumbers.com/resources/state-income-tax-nexus-checker/",
+   "https://www.law.cornell.edu/regulations/oklahoma/OAC-710-50-17-2",
+   "https://www.law.cornell.edu/regulations/oklahoma/OAC-710-50-17-3",
+   "https://oklahoma.gov/tax/forms.html",
+   "https://oklahoma.gov/content/dam/ok/en/tax/documents/forms/businesses/corporate-income-tax/current/512-Pkt.pdf",
+   "https://oklahoma.gov/tax/helpcenter/businesses.html",
+   "https://oklahoma.gov/tax/helpcenter/businesses.html",
+   "https://oklahoma.gov/tax/helpcenter/businesses.html",
+   "https://www.law.cornell.edu/regulations/oklahoma/OAC-710-50-17-2",
+   "https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/rules-and-policies/agency-rules/2024/Chapter_50_Income_2024.pdf",
+   "https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/rules-and-policies/agency-rules/2024/Chapter_50_Income_2024.pdf",
+   "https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/rules-and-policies/agency-rules/2024/Chapter_50_Income_2024.pdf",
+   "https://www.mtc.gov/wp-content/uploads/2023/12/2013-Updated-Status-Report-Regarding-State-Adoption.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "OK",
+  "section": "rates",
+  "notes": "### 1. Individual Income Tax Rates and Brackets\n* **Tax Years:** 2025 and 2026 (rates remain unchanged).\n* **Rates and Brackets:**\n  * **Single or Married Filing Separately**:\n    * $0 up to $1,000: Pay $0.00 plus .25% over $0.00\n    * $1,001 up to $2,500: Pay $2.50 plus .75% over $1,000\n    * $2,501 up to $3,750: Pay $13.75 plus 1.75% over $2,500\n    * $3,751 up to $4,900: Pay $35.63 plus 2.75% over $3,750\n    * $4,901 up to $7,200: Pay $67.25 plus 3.75% over $4,900\n    * $7,201 and over: Pay $153.50 plus 4.75% over $7,200\n  * **Head of Household, Married Filing Jointly, or Qualifying Widow(er)**:\n    * $0 up to $2,000: Pay $0.00 plus .25% over $0.00\n    * $2,001 up to $5,000: Pay $5.00 plus .75% over $2,000\n    * $5,001 up to $7,500: Pay $27.50 plus 1.75% over $5,000\n    * $7,501 up to $9,800: Pay $71.25 plus 2.75% over $7,500\n    * $9,801 up to $14,400: Pay $134.50 plus 3.75% over $9,800\n    * $14,401 and over: Pay $307.00 plus 4.75% over $14,400\n* **Official URL:** https://oklahoma.gov/tax/individuals/pay-taxes.html\n\n---\n\n### 2. Corporate Income Tax and Minimum Tax\n* **Tax Years:** 2025 and 2026.\n* **Rate:** Corporations are taxed at a flat **4%** rate.\n* **Minimum Tax:** Not found (Oklahoma does not levy a corporate minimum income tax).\n* **Official URL:** https://oklahoma.gov/tax/businesses/other-taxes.html\n\n---\n\n### 3. State Sales and Use Tax Rates & Local Jurisdictions\n* **Tax Years:** 2025 and 2026.\n* **State Rate:** Oklahoma sales tax and use tax are levied at **4.5%** of gross receipts.\n* **Local Taxes:** Yes, local jurisdictions add rates. County and municipal sales and use taxes apply if the transaction or delivery occurs within their boundaries.\n* **Official URL:** https://oklahoma.gov/tax/businesses/sales-use-tax.html\n\n---\n\n### 4. Gross Receipts, Franchise, Margin, or Other Notable Business Taxes\n* **Franchise Tax:** **Eliminated**. Tax year 2023 was the final year franchise tax was assessed (per HB 1039X); starting with tax year 2024 and continuing through 2025 and 2026, there is no Oklahoma franchise tax filing requirement.\n  * **Official URLs:** \n    * https://oklahoma.gov/tax/news/franchise-tax-ends-in-oklahoma.html\n    * https://oklahoma.gov/tax/businesses/other-taxes.html\n* **General Gross Receipts / Margin Tax:** Not found (Oklahoma does not levy an entity-level margin tax or general commercial gross receipts tax).\n* **Gross Production Tax:** Oklahoma levies a Gross Production Tax on the production of oil and natural gas produced within the state, generally remitted monthly by the first purchaser.\n  * **Tax Years:** 2025 and 2026.\n  * **Official URL:** https://oklahoma.gov/tax/businesses/gross-production.html",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Oklahoma individual income tax rates range from .25% to 4.75%. The top rate of 4.75% applies to taxable income over $7,201 for single filers and over $14,401 for joint filers.",
+    "source_url": "https://oklahoma.gov/tax/individuals/pay-taxes.html",
+    "evidence": [
+     "Single or Married Filing Separately",
+     "Married Filing Jointly",
+     "4.75% over"
+    ],
+    "accepted": false,
+    "reason": "figure not stated beside the evidence on oklahoma.gov; figures not on oklahoma.gov: ['14401', '25', '4.75', '7201']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Corporations are taxed at a flat 4% rate.",
+    "source_url": "https://oklahoma.gov/tax/businesses/other-taxes.html",
+    "evidence": [
+     "flat 4% rate",
+     "Corporations are taxed"
+    ],
+    "accepted": false,
+    "reason": "evidence not on oklahoma.gov (1/2); evidence not on oklahoma.gov (0/2); figures not on oklahoma.gov: ['4']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The Oklahoma state sales and use tax rate is 4.5% of gross receipts. Local county and municipal jurisdictions add rates if the transaction or delivery occurs within their boundaries.",
+    "source_url": "https://oklahoma.gov/tax/businesses/sales-use-tax.html",
+    "evidence": [
+     "4.5% of gross receipts",
+     "sales and use taxes apply",
+     "municipal sales and use taxes"
+    ],
+    "accepted": false,
+    "reason": "evidence not on oklahoma.gov (0/3); figures not on oklahoma.gov: ['4.5']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Oklahoma eliminated its franchise tax beginning in tax year 2024, leaving no franchise tax filing requirement for 2025 and 2026.",
+    "source_url": "https://oklahoma.gov/tax/news/franchise-tax-ends-in-oklahoma.html",
+    "evidence": [
+     "Franchise Tax",
+     "HB 1039X",
+     "tax year 2024"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://oklahoma.gov/tax/businesses/other-taxes.html",
+    "matched_title": "Other Taxes",
+    "matched_phrases": [
+     "Franchise Tax",
+     "HB 1039X",
+     "tax year 2024"
+    ],
+    "snippet": "Starting with tax year 2024 and beyond, there will be no Oklahoma franchise tax filing requirement."
+   }
+  ],
+  "grounding_urls": [
+   "https://oklahoma.gov/tax/reporting-resources/publications.html",
+   "https://oklahoma.gov/tax/individuals/pay-taxes.html",
+   "https://oklahoma.gov/tax/businesses/other-taxes.html",
+   "https://oklahoma.gov/tax/businesses/sales-use-tax.html",
+   "https://oklahoma.gov/tax/businesses/other-taxes.html",
+   "https://oklahoma.gov/tax/newsroom/2023/07-26-23.html",
+   "https://oklahoma.gov/tax/businesses/gross-production.html"
+  ],
+  "error": ""
+ },
+ {
+  "state": "OK",
+  "section": "filing",
+  "notes": "### 1. Individual Income Tax Due Dates & Extensions (Calendar-Year Filers)\n\n* **Original Due Date:**\n  * **Paper / Standard Due Date:** April 15 (or the next business day if April 15 falls on a weekend or legal holiday).\n  * **Electronically Filed Return Extension:** If filed electronically (via the internet or an approved preparer), the due date is extended to **April 20**. Any tax due on April 20 must be remitted electronically; if not remitted electronically, penalty and interest accrue from the original April 15 due date.\n  * *Applicability:* Applies to tax years 2025 and 2026 without change.\n* **Extensions:**\n  * **Automatic Federal Extension:** If the taxpayer has a valid federal extension of time to file and **no Oklahoma tax is owed**, the federal extension automatically extends the Oklahoma return. A copy of the federal extension must be enclosed with the Oklahoma return.\n  * **Oklahoma Extension (Form 504-I):** If a federal extension was not requested or if Oklahoma income tax is owed, file **Form 504-I** (*Application for Extension of Time to File an Oklahoma Income Tax Return Individuals*) and remit the tentative tax due on or before the original return due date.\n  * **Nature of Extension & Penalties:** An extension extends the time to file, not the time to pay. If at least 90% of the tax liability is not paid by the original due date, a 5% delinquent penalty is assessed. Delinquent interest accrues at 1.25% per month on any unpaid tax.\n  * *Applicability:* Tax years 2025 and 2026.\n* **Official URL:** \n  * Help Center: `https://oklahoma.gov/tax/help-center/income-tax.html`\n  * Pay Taxes: `https://oklahoma.gov/tax/individuals/pay-taxes.html`\n\n---\n\n### 2. Corporate and Pass-Through Return Due Dates & Extension Rules\n\n* **Return Due Dates:**\n  * Oklahoma statutes provide that corporate and partnership returns are due no later than **30 days after the due date established under the Internal Revenue Code (IRC)**:\n    * **C Corporations (Form 512):** Due 30 days after the federal Form 1120 due date (generally **May 15** for calendar-year filers, since federal is due April 15).\n    * **S Corporations (Form 512-S) & Partnerships (Form 514):** Due 30 days after the federal Form 1120-S / Form 1065 due date (generally **April 14 / April 15** for calendar-year filers, since federal is due March 15).\n    * *Complete Liquidation/Dissolution:* The return is due on the 15th day of the fourth month following the month in which the corporation is completely liquidated.\n    * *Electronic Filing Mandate:* Partnerships are required to file Form 514 electronically pursuant to Rule 710:50-19-1.\n  * *Applicability:* Tax years 2025 and 2026.\n* **Extension Rules:**\n  * **Automatic Extension with Federal 7004:** If a valid federal extension (Federal Form 7004) is filed and **no Oklahoma tax is owed**, the federal extension automatically extends the Oklahoma return. A copy of Federal Form 7004 must be attached to the Oklahoma return.\n  * **Oklahoma Separate Extension:**\n    * **Corporations:** If tax is due or no federal extension was filed, file **Form 504-C** (*Corporation Application for Extension of Time to File*).\n    * **Electing Pass-Through Entities:** File **Form 504-PTE** (*Application for Extension of Time to File for an Electing Pass-Through Entity*).\n    * *Duration:* Extensions cannot exceed 6 months and do not extend the time to pay tax. Delinquent interest accrues at 1.25% per month and late penalty applies if unpaid.\n  * *Applicability:* Tax years 2025 and 2026.\n* **Official URL:**\n  * Businesses / Other Taxes: `https://oklahoma.gov/tax/businesses/other-taxes.html`\n  * Businesses: `https://oklahoma.gov/tax/businesses.html`\n\n---\n\n### 3. Elective Pass-Through Entity Tax (PTET)\n\n* **Existence:** Enacted under the **Pass-Through Entity Tax Equity Act of 2019** (68 O.S. §§ 2355.1P-1 through 2355.1P-4).\n* **Tax Rates:**\n  * **4.75%** on the distributive share of income of members who are individuals, trusts, or estates (the highest Oklahoma individual marginal tax rate).\n  * **4.0%** on the distributive share of income of members that are corporations, S corporations, or partnerships.\n  * *Applicability:* Tax years 2025 and 2026.\n* **How and When to Elect:**\n  * **Form:** Filed on **Form 586** (*Oklahoma Pass-Through Entity Election Form*) or electronically via OkTAP.\n  * **Deadlines:**\n    * *Stand-alone filing (Option 1):* At any time during the preceding tax year, or no later than **two (2) months and 15 days** after the beginning of the taxable year (e.g., March 15 for calendar-year filers).\n    * *Filing with Return (Option 2):* Allowed directly on the timely filed Oklahoma income tax return (including extensions) by attaching Form 586 to Form 514 or Form 512-S.\n  * **Revocation:** Must be submitted separately on Form 586 no later than two (2) months and 15 days after the beginning of the taxable year (revocations are not permitted on the annual tax return).\n  * **Reporting:** Computed on **Form 587-PTE** (*Oklahoma Pass-Through Entity Tax Supplement*) and carried to Form 514 or Form 512-S.\n  * *Applicability:* Tax years 2025 and 2026.\n* **Official URL:** \n  * Businesses: `https://oklahoma.gov/tax/businesses.html`\n  * Form 586: `https://oklahoma.gov/content/dam/ok/en/tax/documents/forms/pass-through/current/586.pdf`\n  * Form 587-PTE: `https://oklahoma.gov/content/dam/ok/en/tax/documents/forms/pass-through/current/587-PTE.pdf`\n\n---\n\n### 4. Composite or Group Nonresident Returns for Pass-Through Entities\n\n* **Partnership Composite Return:**\n  * Nonresident partners may elect to be included in a composite partnership return pursuant to **Oklahoma Administrative Code Rule 710:50-19-1**.\n  * Reported on **Form 514-PT** (*Partnership Composite Income Tax Supplement*) and attached to **Form 514**.\n  * If there are more than 15 nonresident partners included, **Form 514-PT-SUP** is used as a supplemental schedule.\n  * Nonresidents included in the composite return are relieved of the requirement to file an individual Form 511-NR.\n  * Estimated payments made on behalf of composite nonresident partners must be made under the partnership’s name and FEIN.\n* **S Corporation Nonresident Shareholder Treatment:**\n  * S corporations utilize **Form 512-SA** (*Nonresident Shareholder Agreement*).\n  * If a nonresident shareholder does not execute Form 512-SA, the S corporation must pay tax directly on the nonresident shareholder's distributive share of income on Form 512-S at the highest individual income tax rate (4.75%).\n* *Applicability:* Tax years 2025 and 2026.\n* **Official URL:**\n  * Income Tax Help Center: `https://oklahoma.gov/tax/help-center/income-tax.html`\n  * Form 514 Instructions: `https://oklahoma.gov/content/dam/ok/en/tax/documents/forms/pass-through/current/514-Pkt.pdf`\n\n---\n\n### 5. Estimated Tax Payment Requirements & Nonresident Withholding for Pass-Throughs\n\n* **Individual Estimated Tax:**\n  * Required if tax liability exceeds withholding by **$500 or more**, and withholding/credits will be less than the smaller of:\n    1. **70%** of current year tax liability, or\n    2. **100%** of prior year tax liability (for a 12-month year).\n  * Underpayment interest is computed at **20% per annum**. Underpayment interest is not imposed if tax liability shown on the return is less than **$1,000**.\n  * Form: **OW-8-ES**.\n* **Electing Pass-Through Entity Estimated Tax:**\n  * Electing PTEs utilize **Form OW-8-ESPTE** (*Estimated Tax Payments for Electing Pass-Through Entities*).\n* **Nonresident Withholding for Pass-Through Entities (Non-Electing):**\n  * **Withholding Requirement & Rate:** A pass-through entity must withhold tax at **5%** on the Oklahoma share of taxable distributed income to nonresident members (68 O.S. § 2385.30).\n  * **Exemptions:**\n    * Nonresident members can claim exemption by submitting **Form OW-15** (*Nonresident Member Withholding Exemption Affidavit*). The PTE compiles and transmits all OW-15 forms to OTC annually using **Form OW-15-A**.\n    * **Electing PTE Exemption:** An entity that makes the PTET election is exempt from nonresident withholding under 68 O.S. § 2385.30.\n  * **Estimated Quarterly Withholding:** If the PTE expects withholding tax to exceed **$500.00**, it must make quarterly estimated payments using **Form WTP-10005** (*Oklahoma Nonresident Distributed Income Estimated Withholding Tax Report*).\n  * **Annual Reporting & Reconciliation:**\n    * **Form WTP-10003:** Annual return to report and remit withholding, due no later than the due date (including extensions) of the PTE's income tax return.\n    * **Form 500-B & Form 501:** The PTE must issue **Form 500-B** (*Report of Nonresident Member Income Tax Withheld*) to each member and submit all copies to the OTC with summary **Form 501** by the due date (including extensions) of the PTE return.\n  * *Applicability:* Tax years 2025 and 2026.\n* **Official URL:**\n  * Businesses: `https://oklahoma.gov/tax/businesses.html`\n  * Form 500-B Instructions: `https://oklahoma.gov/content/dam/ok/en/tax/documents/forms/withholding/current/500-B-Pkt.pdf`\n\n---\n\n### 6. Main Return Forms (Tax Years 2025 and 2026)\n\n* **Individual Income Tax:**\n  * **Form 511:** *Oklahoma Resident Individual Income Tax Return*\n  * **Form 511-NR:** *Oklahoma Nonresident/Part-Year Individual Income Tax Return*\n  * **Form 504-I:** *Application for Extension of Time to File an Oklahoma Income Tax Return Individuals*\n  * **Form OW-8-ES:** *Oklahoma Estimated Tax Payment for Individuals*\n* **Corporate Income Tax:**\n  * **Form 512:** *Oklahoma Corporation Income Tax Return*\n  * **Form 512-E:** *Oklahoma Return of Organization Exempt from Income Tax*\n  * **Form 504-C:** *Corporation Application for Extension of Time to File*\n  * **Form OW-8-ESC:** *Estimated Tax Declaration for Corporations*\n* **Pass-Through Entities:**\n  * **Form 514:** *Oklahoma Partnership Income Tax Return*\n  * **Form 512-S:** *Oklahoma Small Business Corporation Income Tax Return* (S Corporations)\n  * **Form 514-PT & Form 514-PT-SUP:** *Partnership Composite Income Tax Supplement*\n  * **Form 586:** *Oklahoma Pass-Through Entity Election Form*\n  * **Form 587-PTE & Form 587-PTE-SUP:** *Oklahoma Pass-Through Entity Tax Supplement*\n  * **Form 504-PTE:** *Application for Extension of Time to File for an Electing Pass-Through Entity*\n  * **Form OW-8-ESPTE:** *Estimated Tax Payments for Electing Pass-Through Entities*\n  * **Form WTP-10003:** *Nonresident Distributed Income Withholding Tax Annual Return*\n  * **Form WTP-10005:** *Nonresident Distributed Income Estimated Withholding Tax Report*\n  * **Form 500-B / Form 501:** *Report of Nonresident Member Income Tax Withheld / Transmittal Summary*\n  * **Form OW-15 / Form OW-15-A:** *Nonresident Member Withholding Exemption Affidavit / Transmittal*\n* *Applicability:* Valid for tax years 2025 and 2026.\n* **Official URL:**\n  * Oklahoma Forms Catalog: `https://oklahoma.gov/tax/forms.html`",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Individual returns are due April 15, or extended to April 20 if filed and paid electronically. A valid federal extension automatically extends the Oklahoma return if no tax is owed, while filers owing tax must submit Form 504-I by the original due date.",
+    "source_url": "https://oklahoma.gov/tax/help-center/income-tax.html",
+    "evidence": [
+     "April 15",
+     "April 20",
+     "Form 504-I"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://oklahoma.gov/tax/help-center/income-tax.html; evidence not on oklahoma.gov (1/3); figures not on oklahoma.gov: ['15', '20', '504']; figures not on oklahoma.gov: ['15', '504']; evidence not on oklahoma.gov (0/3); figures not on oklahoma.gov: ['20', '504']; figures not on oklahoma.gov: ['504']; not an official OK host: www.law.cornell.edu; not an official OK host: www.zillionforms.com",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Corporate returns are due 30 days after the federal Form 1120 due date (generally May 15), while S corporation and partnership returns are due 30 days after federal Forms 1120-S and 1065 (generally April 15). Federal extensions apply automatically when no tax is due; otherwise, entities must file Form 504-C or Form 504-PTE for an extension of up to 6 months.",
+    "source_url": "https://oklahoma.gov/tax/businesses/other-taxes.html",
+    "evidence": [
+     "30 days after",
+     "Form 504-C",
+     "Form 504-PTE"
+    ],
+    "accepted": false,
+    "reason": "figures not on oklahoma.gov: ['1065', '1120', '6']; figures not on oklahoma.gov: ['1065', '1120', '30']; figures not on oklahoma.gov: ['1065', '1120', '15', '30', '504', '6']; figures not on oklahoma.gov: ['1065', '1120']; dates not on oklahoma.gov: ['May 15', 'April 15']; figures not on oklahoma.gov: ['1065', '1120', '30', '504', '6']; figures not on oklahoma.gov: ['1065', '1120', '30', '504']; not an official OK host: www.law.cornell.edu; not an official OK host: www.zillionforms.com; figures ",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Oklahoma provides an elective pass-through entity tax taxed at 4.75% on individual, trust, or estate distributive income and 4.0% on corporate or partnership income. The election is made on Form 586 within two months and 15 days of the tax year start or by attaching it to a timely filed return.",
+    "source_url": "https://oklahoma.gov/content/dam/ok/en/tax/documents/forms/pass-through/current/586.pdf",
+    "evidence": [
+     "Pass-Through Entity Tax",
+     "Form 586",
+     "4.75%",
+     "4.0%"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://oklahoma.gov/content/dam/ok/en/tax/documents/forms/businesses/corporate-income-tax/current/514-Pkt.pdf",
+    "matched_title": "2025 Form 514 Oklahoma Partnership Income Tax Return Packet & Instructions",
+    "matched_phrases": [
+     "Pass-Through Entity Tax",
+     "Form 586",
+     "4.75%"
+    ],
+    "snippet": "If You Are the Electing PTE Place an “X” in the “Electing PTE” box (4) located at the top of Form 514, page 1 and provide a copy of Form 586 if making a first-time election for the current tax year."
+   },
+   {
+    "key": "composite",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Nonresident partners may be included in a composite return using Form 514-PT attached to Form 514, relieving them from filing individual returns. For S corporations, nonresident shareholders must provide Form 512-SA, or the corporation must pay tax on their behalf at 4.75%.",
+    "source_url": "https://oklahoma.gov/content/dam/ok/en/tax/documents/forms/pass-through/current/514-Pkt.pdf",
+    "evidence": [
+     "Form 514-PT",
+     "Form 512-SA",
+     "4.75%"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://oklahoma.gov/content/dam/ok/en/tax/documents/forms/pass-through/current/514-Pkt.pdf; figures not on oklahoma.gov: ['4.75']; figures not on oklahoma.gov: ['4.75', '512', '514']; figures not on oklahoma.gov: ['4.75', '514']; figures not on oklahoma.gov: ['512', '514']; figures not on oklahoma.gov: ['512']; evidence not on oklahoma.gov (1/3); not an official OK host: www.law.cornell.edu; not an official OK host: www.zillionforms.com",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Individual estimated tax is required via Form OW-8-ES if tax liability exceeds withholding by $500 or more and safe harbor thresholds are not met. Non-electing pass-through entities must withhold 5% on distributed income to nonresident members, remitting quarterly estimates via Form WTP-10005 if withholding exceeds $500.",
+    "source_url": "https://oklahoma.gov/content/dam/ok/en/tax/documents/forms/withholding/current/500-B-Pkt.pdf",
+    "evidence": [
+     "OW-8-ES",
+     "Form WTP-10005",
+     "nonresident member"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://oklahoma.gov/content/dam/ok/en/tax/documents/forms/businesses/corporate-income-tax/current/514-Pkt.pdf",
+    "matched_title": "2025 Form 514 Oklahoma Partnership Income Tax Return Packet & Instructions",
+    "matched_phrases": [
+     "Form WTP-10005",
+     "nonresident member"
+    ],
+    "snippet": "Do not include on this line any withholding paid for your nonresident partners on Form WTP-10005 or Form WTP-10003."
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Key individual forms are Form 511 and Form 511-NR, corporate filers use Form 512, and pass-through entities file Form 512-S or Form 514. Key extension and election forms include Form 504-I, Form 504-C, Form 504-PTE, and Form 586.",
+    "source_url": "https://oklahoma.gov/tax/forms.html",
+    "evidence": [
+     "Form 511",
+     "Form 512",
+     "Form 514",
+     "Form 586"
+    ],
+    "accepted": false,
+    "reason": "figures not on oklahoma.gov: ['504', '511', '512', '514', '586']; figures not on oklahoma.gov: ['586']; figures not on oklahoma.gov: ['514', '586']; figures not on oklahoma.gov: ['504', '512', '514', '586']; figures not on oklahoma.gov: ['511', '514', '586']; figures not on oklahoma.gov: ['512']; figures not on oklahoma.gov: ['511']; figures not on oklahoma.gov: ['504', '511']; figures not on oklahoma.gov: ['504', '511', '586']; not an official OK host: www.law.cornell.edu; not an official OK ho",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://oklahoma.gov/tax/helpcenter.html",
+   "https://oklahoma.gov/tax/forms.html",
+   "https://oklahoma.gov/tax/helpcenter/income-tax.html",
+   "https://oklahoma.gov/tax/helpcenter.html",
+   "https://oklahoma.gov/tax/individuals/pay-taxes.html",
+   "https://oklahoma.gov/tax/businesses/other-taxes.html",
+   "https://oklahoma.gov/content/dam/ok/en/tax/documents/forms/businesses/corporate-income-tax/current/514-Pkt.pdf",
+   "https://oklahoma.gov/tax/helpcenter/businesses.html",
+   "https://oklahoma.gov/tax/businesses/other-taxes.html",
+   "https://oklahoma.gov/tax/helpcenter/businesses.html",
+   "https://oklahoma.gov/tax/helpcenter/businesses.html",
+   "https://oklahoma.gov/content/dam/ok/en/tax/documents/forms/businesses/corporate-income-tax/current/586.pdf",
+   "https://oklahoma.gov/content/dam/ok/en/tax/documents/forms/businesses/corporate-income-tax/current/587-PTE.pdf",
+   "https://www.law.cornell.edu/regulations/oklahoma/OAC-710-50-3-47",
+   "https://oklahoma.gov/tax/businesses/other-taxes.html",
+   "https://www.zillionforms.com/2020/I7084005410.PDF",
+   "https://oklahoma.gov/tax/helpcenter/taxdocs.html"
+  ],
+  "error": ""
+ }
+]

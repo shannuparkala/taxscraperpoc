@@ -1,0 +1,170 @@
+{
+  "template": "f1040sd_2025.pdf",
+  "form_title": "SCHEDULE D   (Form 1040) Department of the Treasury   Internal Revenue Service C",
+  "pages": 2,
+  "line_to_field": {
+    "1b": "f1_3[0]",
+    "4": "f1_19[0]",
+    "5": "f1_20[0]",
+    "6": "f1_21[0]",
+    "7": "f1_22[0]",
+    "8b": "f1_23[0]",
+    "11": "f1_39[0]",
+    "12": "f1_40[0]",
+    "13": "f1_41[0]",
+    "14": "f1_42[0]",
+    "15": "f1_43[0]",
+    "16": "f2_1[0]",
+    "18": "f2_2[0]",
+    "19": "f2_3[0]",
+    "21": "f2_4[0]"
+  },
+  "needs_review": {
+    "multi_box_lines": {
+      "1b": [
+        "f1_3[0]",
+        "f1_4[0]",
+        "f1_5[0]",
+        "f1_6[0]"
+      ],
+      "8b": [
+        "f1_23[0]",
+        "f1_24[0]",
+        "f1_25[0]",
+        "f1_26[0]"
+      ]
+    },
+    "unlabelled_fields": [
+      {
+        "field": "f1_1[0]",
+        "page": 0,
+        "row": ""
+      },
+      {
+        "field": "f1_2[0]",
+        "page": 0,
+        "row": ""
+      },
+      {
+        "field": "f1_7[0]",
+        "page": 0,
+        "row": "with Box A or Box G checked . . . . . . . ."
+      },
+      {
+        "field": "f1_8[0]",
+        "page": 0,
+        "row": "with Box A or Box G checked . . . . . . . ."
+      },
+      {
+        "field": "f1_9[0]",
+        "page": 0,
+        "row": "with Box A or Box G checked . . . . . . . ."
+      },
+      {
+        "field": "f1_10[0]",
+        "page": 0,
+        "row": "with Box A or Box G checked . . . . . . . ."
+      },
+      {
+        "field": "f1_11[0]",
+        "page": 0,
+        "row": "with Box B or Box H checked . . . . . . . ."
+      },
+      {
+        "field": "f1_12[0]",
+        "page": 0,
+        "row": "with Box B or Box H checked . . . . . . . ."
+      },
+      {
+        "field": "f1_13[0]",
+        "page": 0,
+        "row": "with Box B or Box H checked . . . . . . . ."
+      },
+      {
+        "field": "f1_14[0]",
+        "page": 0,
+        "row": "with Box B or Box H checked . . . . . . . ."
+      },
+      {
+        "field": "f1_15[0]",
+        "page": 0,
+        "row": "with Box C or Box I checked . . . . . . . ."
+      },
+      {
+        "field": "f1_16[0]",
+        "page": 0,
+        "row": "with Box C or Box I checked . . . . . . . ."
+      },
+      {
+        "field": "f1_17[0]",
+        "page": 0,
+        "row": "with Box C or Box I checked . . . . . . . ."
+      },
+      {
+        "field": "f1_18[0]",
+        "page": 0,
+        "row": "with Box C or Box I checked . . . . . . . ."
+      },
+      {
+        "field": "f1_27[0]",
+        "page": 0,
+        "row": "with Box D or Box J checked . . . . . . . ."
+      },
+      {
+        "field": "f1_28[0]",
+        "page": 0,
+        "row": "with Box D or Box J checked . . . . . . . ."
+      },
+      {
+        "field": "f1_29[0]",
+        "page": 0,
+        "row": "with Box D or Box J checked . . . . . . . ."
+      },
+      {
+        "field": "f1_30[0]",
+        "page": 0,
+        "row": "with Box D or Box J checked . . . . . . . ."
+      },
+      {
+        "field": "f1_31[0]",
+        "page": 0,
+        "row": "with Box E or Box K checked . . . . . . . ."
+      },
+      {
+        "field": "f1_32[0]",
+        "page": 0,
+        "row": "with Box E or Box K checked . . . . . . . ."
+      },
+      {
+        "field": "f1_33[0]",
+        "page": 0,
+        "row": "with Box E or Box K checked . . . . . . . ."
+      },
+      {
+        "field": "f1_34[0]",
+        "page": 0,
+        "row": "with Box E or Box K checked . . . . . . . ."
+      },
+      {
+        "field": "f1_35[0]",
+        "page": 0,
+        "row": "with Box F or Box L checked . . . . . . . ."
+      },
+      {
+        "field": "f1_36[0]",
+        "page": 0,
+        "row": "with Box F or Box L checked . . . . . . . ."
+      },
+      {
+        "field": "f1_37[0]",
+        "page": 0,
+        "row": "with Box F or Box L checked . . . . . . . ."
+      },
+      {
+        "field": "f1_38[0]",
+        "page": 0,
+        "row": "with Box F or Box L checked . . . . . . . ."
+      }
+    ]
+  }
+}

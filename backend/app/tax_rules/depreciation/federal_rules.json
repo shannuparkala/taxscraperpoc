@@ -1,0 +1,158 @@
+{
+ "_comment": "Federal depreciation rules by year. Every value carries source_url, source_citation and last_verified. Each figure was read from the cited IRS PDF (downloaded and parsed 2026-10-05); see docs/tax-research/depreciation-macrs-179-bonus-280f-2021-2026.md and docs/depreciation-calculator-PROGRESS.md. Update yearly: see README 'Depreciation calculator - yearly rule update'.",
+ "version": "2026.10.05",
+ "supported_years": [2021, 2022, 2023, 2024, 2025, 2026],
+ "assumptions": {
+  "calendar_tax_year": true,
+  "value": "Calendar-year taxpayer with a full 12-month tax year. The percentage tables cannot be used for a short tax year.",
+  "source_url": "https://www.irs.gov/pub/irs-pdf/p946.pdf",
+  "source_citation": "IRS Pub. 946 (2025), ch. 4, 'Rules Covering the Use of the Tables', rule 2",
+  "last_verified": "2026-10-05",
+  "verified": true
+ },
+ "mid_quarter_test": {
+  "threshold_pct": "40",
+  "value": "Mid-quarter convention applies if more than 40% of the depreciable basis of MACRS property placed in service in the year (excluding residential rental and nonresidential real property) is placed in service in the last 3 months. Basis reflects section 179 and personal use, but not the special depreciation allowance.",
+  "source_url": "https://www.irs.gov/pub/irs-pdf/p946.pdf",
+  "source_citation": "IRS Pub. 946 (2025), ch. 4, 'Which Convention Applies?', mid-quarter convention and Caution",
+  "last_verified": "2026-10-05",
+  "verified": true
+ },
+ "section_179": {
+  "2021": {"limit": 1050000, "phaseout_threshold": 2620000, "suv_cap": 26200,
+   "source_url": "https://www.irs.gov/pub/irs-prior/i4562--2021.pdf",
+   "source_citation": "2021 Instructions for Form 4562, What's New and Part I", "last_verified": "2026-10-05", "verified": true},
+  "2022": {"limit": 1080000, "phaseout_threshold": 2700000, "suv_cap": 27000,
+   "source_url": "https://www.irs.gov/pub/irs-prior/i4562--2022.pdf",
+   "source_citation": "2022 Instructions for Form 4562, What's New and Part I", "last_verified": "2026-10-05", "verified": true},
+  "2023": {"limit": 1160000, "phaseout_threshold": 2890000, "suv_cap": 28900,
+   "source_url": "https://www.irs.gov/pub/irs-prior/i4562--2023.pdf",
+   "source_citation": "2023 Instructions for Form 4562, What's New and Part I", "last_verified": "2026-10-05", "verified": true},
+  "2024": {"limit": 1220000, "phaseout_threshold": 3050000, "suv_cap": 30500,
+   "source_url": "https://www.irs.gov/pub/irs-prior/i4562--2024.pdf",
+   "source_citation": "2024 Instructions for Form 4562, What's New and Part I", "last_verified": "2026-10-05", "verified": true},
+  "2025": {"limit": 2500000, "phaseout_threshold": 4000000, "suv_cap": 31300,
+   "source_url": "https://www.irs.gov/pub/irs-pdf/i4562.pdf",
+   "source_citation": "2025 Instructions for Form 4562, What's New (P.L. 119-21 sec. 70306; supersedes Rev. Proc. 2024-40 amounts of $1,250,000 / $3,130,000)", "last_verified": "2026-10-05", "verified": true},
+  "2026": {"limit": 2560000, "phaseout_threshold": 4090000, "suv_cap": 32000,
+   "source_url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+   "source_citation": "Rev. Proc. 2025-32, sec. 4.24", "last_verified": "2026-10-05", "verified": true}
+ },
+ "section_179_income_limit": {
+  "value": "The section 179 deduction cannot exceed taxable income from the active conduct of any trade or business (computed without the section 179 deduction); the disallowed amount carries forward. Basis is reduced by the amount elected even when part of it carries forward.",
+  "source_url": "https://www.irs.gov/pub/irs-pdf/i4562.pdf",
+  "source_citation": "2025 Instructions for Form 4562, Lines 11-13; IRC 179(b)(3); Treas. Reg. 1.179-1(f)(2)",
+  "last_verified": "2026-10-05",
+  "verified": true
+ },
+ "bonus": {
+  "rules": [
+   {
+    "id": "tcja_phase_down",
+    "label": "Qualified property acquired after Sept. 27, 2017 and before Jan. 20, 2025",
+    "acquired_after": "2017-09-27",
+    "acquired_before": "2025-01-20",
+    "rate_by_placed_in_service_year": {"2021": 100, "2022": 100, "2023": 80, "2024": 60, "2025": 40, "2026": 20},
+    "rate_after_last_year": 0,
+    "source_url": "https://www.irs.gov/pub/irs-pdf/i4562.pdf",
+    "source_citation": "Instructions for Form 4562: 2021 ('100% ... placed in service before January 1, 2023'), 2022 (80% for 2023), 2023/2024 (60% for 2024), 2025 (40% for property acquired before Jan. 20, 2025); IRC 168(k)(6) as in effect before P.L. 119-21 (20% for 2026)",
+    "last_verified": "2026-10-05",
+    "verified": true
+   },
+   {
+    "id": "obbba_permanent",
+    "label": "Qualified property acquired after Jan. 19, 2025",
+    "acquired_after": "2025-01-19",
+    "rate": 100,
+    "reduced_rate_election": {"rate": 40, "tax_years": [2025],
+     "value": "Election to take 40% instead of 100% for property placed in service during the first taxable year ending after Jan. 19, 2025 (tax year 2025 for a calendar-year taxpayer)."},
+    "binding_contract_rule": "Property is not treated as acquired after Jan. 19, 2025 if a written binding contract for its acquisition was entered into before that date.",
+    "source_url": "https://www.irs.gov/pub/irs-drop/n-26-11.pdf",
+    "source_citation": "Notice 2026-11, sec. 2 (P.L. 119-21 sec. 70301); 2025 Instructions for Form 4562, What's New",
+    "last_verified": "2026-10-05",
+    "verified": true
+   }
+  ],
+  "eligibility": {
+   "value": "Qualified property is MACRS property with a recovery period of 20 years or less (including qualified improvement property). Buildings (27.5- and 39-year property) are not qualified property. Listed property must be used more than 50% for business. The election out applies to all property in a class placed in service in the year.",
+   "source_url": "https://www.irs.gov/pub/irs-pdf/i4562.pdf",
+   "source_citation": "Instructions for Form 4562, Line 14 (qualified property); IRC 168(k)(2), 168(k)(7)",
+   "last_verified": "2026-10-05",
+   "verified": true
+  }
+ },
+ "qualified_production_property": {
+  "rate": 100,
+  "construction_begins_after": "2025-01-19",
+  "construction_begins_before": "2029-01-01",
+  "placed_in_service_after": "2025-07-04",
+  "placed_in_service_before": "2031-01-01",
+  "recapture_years": 10,
+  "value": "Elective 100% allowance for the portion of nonresidential real property used as an integral part of a qualified production activity. Office, administrative, lodging, parking, sales and similar space is excluded. Recapture under section 1245 if the use changes within 10 years.",
+  "source_url": "https://www.irs.gov/pub/irs-drop/n-26-16.pdf",
+  "source_citation": "Notice 2026-16 (IRC 168(n), P.L. 119-21 sec. 70307); 2025 Instructions for Form 4562, What's New",
+  "last_verified": "2026-10-05",
+  "verified": true
+ },
+ "luxury_auto_caps": {
+  "_comment": "IRC 280F(a) limits for passenger automobiles (6,000 lb GVWR or less) by placed-in-service year: [1st year, 2nd year, 3rd year, each succeeding year]. with_bonus = Table 1 (168(k) applies), without_bonus = Table 2.",
+  "2021": {"with_bonus": [18200, 16400, 9800, 5860], "without_bonus": [10200, 16400, 9800, 5860],
+   "source_url": "https://www.irs.gov/pub/irs-drop/rp-21-31.pdf", "source_citation": "Rev. Proc. 2021-31, Tables 1 and 2", "last_verified": "2026-10-05", "verified": true},
+  "2022": {"with_bonus": [19200, 18000, 10800, 6460], "without_bonus": [11200, 18000, 10800, 6460],
+   "source_url": "https://www.irs.gov/pub/irs-drop/rp-22-17.pdf", "source_citation": "Rev. Proc. 2022-17, Tables 1 and 2", "last_verified": "2026-10-05", "verified": true},
+  "2023": {"with_bonus": [20200, 19500, 11700, 6960], "without_bonus": [12200, 19500, 11700, 6960],
+   "source_url": "https://www.irs.gov/pub/irs-drop/rp-23-14.pdf", "source_citation": "Rev. Proc. 2023-14, Tables 1 and 2", "last_verified": "2026-10-05", "verified": true},
+  "2024": {"with_bonus": [20400, 19800, 11900, 7160], "without_bonus": [12400, 19800, 11900, 7160],
+   "source_url": "https://www.irs.gov/pub/irs-drop/rp-24-13.pdf", "source_citation": "Rev. Proc. 2024-13, Tables 1 and 2", "last_verified": "2026-10-05", "verified": true},
+  "2025": {"with_bonus": [20200, 19600, 11800, 7060], "without_bonus": [12200, 19600, 11800, 7060],
+   "source_url": "https://www.irs.gov/pub/irs-drop/rp-25-16.pdf", "source_citation": "Rev. Proc. 2025-16, Tables 1 and 2 (unchanged by P.L. 119-21 per Rev. Proc. 2026-15)", "last_verified": "2026-10-05", "verified": true},
+  "2026": {"with_bonus": [20300, 19800, 11900, 7160], "without_bonus": [12300, 19800, 11900, 7160],
+   "source_url": "https://www.irs.gov/pub/irs-drop/rp-26-15.pdf", "source_citation": "Rev. Proc. 2026-15, Tables 1 and 2", "last_verified": "2026-10-05", "verified": true}
+ },
+ "luxury_auto_100pct_safe_harbor": {
+  "value": "When a passenger automobile takes 100% bonus and the first-year 280F limit applies, years 2-6 apply the MACRS table percentage for that year to the remaining adjusted depreciable basis (basis minus the first-year limit), each capped by that year's 280F limit; unrecovered basis is deducted after the recovery period at the succeeding-year limit.",
+  "source_url": "https://www.irs.gov/pub/irs-drop/rp-19-13.pdf",
+  "source_citation": "Rev. Proc. 2019-13, sec. 3",
+  "last_verified": "2026-10-05",
+  "verified": false,
+  "verify_note": "Rev. Proc. 2019-13 was not re-read in this research pass; mechanics are from its published example. Flagged for review."
+ },
+ "listed_property": {
+  "value": "Listed property (passenger automobiles and other property used for transportation) used 50% or less for qualified business use must use ADS straight line and cannot take section 179 or the special depreciation allowance.",
+  "source_url": "https://www.irs.gov/pub/irs-pdf/p946.pdf",
+  "source_citation": "IRS Pub. 946 (2025), ch. 5 and Table 4-1 ('ADS using SL: listed property used 50% or less for business')",
+  "last_verified": "2026-10-05",
+  "verified": true
+ },
+ "clean_vehicle_credit_basis": {
+  "value": "Basis of a vehicle is reduced by any clean vehicle credit claimed for it before depreciation is figured.",
+  "source_url": "https://www.law.cornell.edu/uscode/text/26/30D",
+  "source_citation": "IRC 30D(f)(1); IRC 45W(d)(3)",
+  "last_verified": "2026-10-05",
+  "verified": false,
+  "verify_note": "Statute cited from standing knowledge; not re-read in this research pass."
+ },
+ "recapture_note": {
+  "value": "On a sale, depreciation taken on personal property (including section 179 and bonus) is recaptured as ordinary income under section 1245 up to the gain. On buildings, gain attributable to straight-line depreciation is 'unrecaptured section 1250 gain', taxed at up to 25%. A state that disallowed bonus has a different basis, so the state gain differs too.",
+  "source_url": "https://www.irs.gov/pub/irs-pdf/p544.pdf",
+  "source_citation": "IRS Pub. 544, ch. 3 (Depreciation Recapture); IRC 1245, 1250, 1(h)(6)",
+  "last_verified": "2026-10-05",
+  "verified": false,
+  "verify_note": "Informational note; Pub. 544 not re-read in this pass."
+ },
+ "form_4562_lines": {
+  "_comment": "Form 4562 line references. The 2025 form added line 19h (50-year property), moving residential rental to 19i and nonresidential real to 19j. The 2026 form is not yet published; the 2025 layout is assumed.",
+  "layouts": [
+   {"years": [2021, 2022, 2023, 2024],
+    "lines": {"section_179_elected": "6 (col. c) / 7 (listed)", "section_179_deduction": "12", "section_179_carryover": "13",
+     "bonus": "14", "bonus_listed": "25", "macrs_current_year": {"3": "19a", "5": "19b", "7": "19c", "10": "19d", "15": "19e", "20": "19f", "27.5": "19h", "39": "19i"},
+     "macrs_prior_years": "17", "listed_over_50": "26", "listed_50_or_less": "27", "total": "22"},
+    "source_url": "https://www.irs.gov/pub/irs-prior/i4562--2024.pdf", "source_citation": "Form 4562 (2021-2024) and instructions", "last_verified": "2026-10-05", "verified": true},
+   {"years": [2025, 2026],
+    "lines": {"section_179_elected": "6 (col. c) / 7 (listed)", "section_179_deduction": "12", "section_179_carryover": "13",
+     "bonus": "14", "bonus_listed": "25", "macrs_current_year": {"3": "19a", "5": "19b", "7": "19c", "10": "19d", "15": "19e", "20": "19f", "27.5": "19i", "39": "19j"},
+     "macrs_prior_years": "17", "listed_over_50": "26", "listed_50_or_less": "27", "total": "22"},
+    "source_url": "https://www.irs.gov/pub/irs-pdf/f4562.pdf", "source_citation": "Form 4562 (2025), Parts I-V (2026 form assumed identical until published)", "last_verified": "2026-10-05", "verified": true}
+  ]
+ }
+}

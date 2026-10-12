@@ -1,0 +1,18 @@
+{
+  "id": "adv-missing-pages",
+  "tax_year": 2025,
+  "kind": "adversarial",
+  "source": {
+    "workpaper": "synthetic:missing-pages",
+    "filed_return": "none - invented"
+  },
+  "inputs": [],
+  "lines": [],
+  "expected_flags": [
+    {
+      "kind": "review_item",
+      "match": "missing page|pages? (is |are )?missing|page 2 of 3|gap in the pag|incomplete (statement|document)"
+    }
+  ],
+  "notes": "A 1099-B marked 'Page 1 of 3' and 'Page 3 of 3' with page 2 absent. The gap must be flagged. The pattern names the gap specifically: a generic 'missing' matched unrelated items (date of birth, prior-year return) on the first run and passed falsely."
+}

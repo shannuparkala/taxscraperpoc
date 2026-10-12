@@ -1,0 +1,527 @@
+[
+ {
+  "state": "NJ",
+  "section": "apportionment",
+  "notes": "### Apportionment Formula\n* **Fact:** New Jersey uses a **single sales factor** (a 100% weighted receipts fraction) to apportion multistate operational business income. The allocation factor is computed as New Jersey receipts divided by receipts everywhere and must be carried to six decimal places (e.g., `0.123456`).\n* **Applicability:** Applies to both tax year 2025 and tax year 2026 (no statutory change between these years).\n* **Official URL:** \n  * https://www.nj.gov/treasury/taxation/cbt/overview.shtml\n  * https://www.nj.gov/treasury/taxation/pdf/current/cbt/cbt100i.pdf\n  * https://www.nj.gov/treasury/taxation/pdf/pubs/tb/tb112r.pdf\n\n---\n\n### Sourcing for Services and Intangibles\n* **Services:** Sourced using **market-based sourcing**. Receipts from services are allocated to New Jersey if the benefit of the service is received in New Jersey (cost of performance is not used). \n* **Intangibles:** Sourced based on location of use or commercial domicile:\n  * Royalties from patents, copyrights, and trademarks are sourced to New Jersey if used within the State.\n  * Receipts from sales of intangible assets / capital assets are sourced based on the net gain recognized rather than gross selling price (or included at gross receipts if the business regularly buys and sells securities or intangible assets for trading purposes).\n* **Applicability:** Applies to both tax year 2025 and tax year 2026 (no change between these years).\n* **Official URL:** \n  * https://www.nj.gov/treasury/taxation/pdf/pubs/tb/tb112r.pdf\n  * https://www.nj.gov/treasury/taxation/pdf/pubs/tb/tb108r.pdf\n  * https://www.nj.gov/treasury/taxation/pdf/current/cbt/b&fi.pdf\n\n---\n\n### Industries with Their Own Apportionment Formula\nNew Jersey provides specific apportionment rules and sourcing formulas for several distinct industries:\n* **Airlines:** Pursuant to N.J.S.A. 54:10A-6.3, transportation revenues are apportioned based on the ratio of revenue miles in New Jersey to total revenue miles. If an airline engages in passenger transport, freight transport, and aircraft leasing, it calculates a weighted average of passenger, freight, and rental revenue mile fractions.\n* **Freight Transportation Companies (Air or Ground in Combined Groups):** Pursuant to N.J.S.A. 54:10A-4.7(b), if 50% or more of the combined group's entire net income is derived from freight transportation, income is apportioned based on **ton-miles** traveled in New Jersey divided by total ton-miles everywhere.\n* **Special Sourcing Rule Industries (N.J.A.C. 18:7-8.10A):** Specific market-sourcing rules govern:\n  * Asset management / financial services (sourced based on investor/customer domicile);\n  * Advertising services;\n  * Casino / gaming industries (net gaming receipts reported under GAAP).\n* **Regulated Investment Companies (RICs) & Investment Companies:** May qualify for special statutory apportionment percentages (e.g., fixed allocation percentages).\n* **Applicability:** Applies to both tax year 2025 and tax year 2026 (casinos updated June 2025; no changes between 2025 and 2026).\n* **Official URL:** \n  * https://www.nj.gov/treasury/taxation/pdf/current/cbt/cbt100ui.pdf\n  * https://www.nj.gov/treasury/taxation/pdf/pubs/tb/tb112r.pdf\n\n---\n\n### Apportionment Schedule / Form\n* **Fact:** \n  * **Schedule J (Computation of Allocation Factor):** Used on **Form CBT-100** (Corporation Business Tax Return for C corporations) and **Form CBT-100S** (for S corporations).\n  * **Schedule J (Computation of Group Allocation Factor):** Used on **Form CBT-100U** for combined groups.\n  * *(Unincorporated/pass-through entities use Form NJ-NR-A or Schedule J of Form NJ-1065).*\n* **Applicability:** Applies to both tax year 2025 and tax year 2026.\n* **Official URL:** \n  * https://www.nj.gov/treasury/taxation/pdf/current/cbt/cbt100.pdf\n  * https://www.nj.gov/treasury/taxation/pdf/current/cbt/cbt100i.pdf\n  * https://www.nj.gov/treasury/taxation/pdf/current/cbt/cbt100ui.pdf",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "New Jersey uses a single sales factor (a 100% weighted receipts fraction) to apportion multistate operational business income. The allocation factor is computed as New Jersey receipts divided by receipts everywhere and must be carried to six decimal places.",
+    "source_url": "https://www.nj.gov/treasury/taxation/cbt/overview.shtml",
+    "evidence": [
+     "single sales factor",
+     "receipts fraction",
+     "carried to six decimal places"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.nj.gov/treasury/taxation/cbt/overview.shtml; evidence not on www.nj.gov (1/3); figure not stated beside the evidence on www.nj.gov; evidence not on www.nj.gov (0/3); figures not on www.nj.gov: ['100']; evidence not on nj.gov (0/3)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Receipts from services are sourced using market-based sourcing if the benefit of the service is received in New Jersey. Intangible royalties are sourced to New Jersey if used within the State, and sales of intangible assets are sourced based on net gain recognized.",
+    "source_url": "https://www.nj.gov/treasury/taxation/pdf/pubs/tb/tb112r.pdf",
+    "evidence": [
+     "market-based sourcing",
+     "benefit of the service",
+     "net gain recognized"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.nj.gov/treasury/taxation/pdf/pubs/tb/tb112.pdf",
+    "matched_title": "https://www.nj.gov/treasury/taxation/pdf/pubs/tb/tb112.pdf",
+    "matched_phrases": [
+     "market-based sourcing",
+     "benefit of the service"
+    ],
+    "snippet": "Service Receipts and Special Industry Sourcing Rules Service receipts are sourced based on where the benefit of the service is received, which is commonly referred to as market-based sourcing."
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Special rules apply to airlines using revenue miles, combined freight transportation companies using ton-miles, and specific industries including asset management, advertising, and casinos. Regulated investment companies and investment companies may also qualify for special statutory apportionment percentages.",
+    "source_url": "https://www.nj.gov/treasury/taxation/pdf/current/cbt/cbt100ui.pdf",
+    "evidence": [
+     "revenue miles in New Jersey",
+     "ton-miles traveled",
+     "special sourcing rules"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.nj.gov/treasury/taxation/pdf/current/cbt/cbt100uins.pdf",
+    "matched_title": "2025 CBT-100U Instructions",
+    "matched_phrases": [
+     "ton-miles traveled",
+     "special sourcing rules"
+    ],
+    "snippet": "Airlines have special sourcing rules pursuant to N.J.S.A."
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Apportionment is computed on Schedule J (Computation of Allocation Factor) for Form CBT-100 and Form CBT-100S. Combined groups use Schedule J (Computation of Group Allocation Factor) on Form CBT-100U.",
+    "source_url": "https://www.nj.gov/treasury/taxation/pdf/current/cbt/cbt100i.pdf",
+    "evidence": [
+     "Schedule J",
+     "Computation of Allocation Factor",
+     "Form CBT-100"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.nj.gov/treasury/taxation/pdf/current/cbt/cbt100i.pdf",
+    "matched_title": "2019 CBT-100 Instructions",
+    "matched_phrases": [
+     "Schedule J",
+     "Computation of Allocation Factor",
+     "Form CBT-100"
+    ],
+    "snippet": "Schedule J Computation of Allocation Factor If taxpayer does not have receipts outside New Jersey, the allocation factor will be 100% (1.000000) and there is no need to complete this schedule."
+   }
+  ],
+  "grounding_urls": [
+   "https://www.nj.gov/treasury/taxation/pdf/pubs/tb/tb112.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/cbt/2018/cbt100ins.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/current/cbt/cbt100uins.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/current/cbt/cbt100uins.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/current/cbt/cbt100ins.pdf",
+   "https://www.nj.gov/treasury/taxation/corp_over.shtml",
+   "https://www.nj.gov/treasury/taxation/pdf/current/cbt/cbt100ins.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/cbt/2022/cbt100s.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/other_forms/bfc/2021/bfc1i.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/pubs/tb/tb108.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/pubs/tb/tb108.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/pubs/tb/tb117.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/cbt/00100infrm.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/current/cbt/cbt100.pdf",
+   "https://nj.gov/treasury/taxation/pdf/current/cbt/cbt100s.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/current/cbt/cbt100uins.pdf",
+   "https://www.nj.gov/treasury/taxation/2013NRA_Notice.shtml",
+   "https://www.nj.gov/treasury/taxation/pdf/pubs/tb/tb55.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/current/cbt/cbt100.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "NJ",
+  "section": "nexus",
+  "notes": "### 1. Corporation Business Tax (CBT / Income & Franchise Tax) Nexus\n\n* **Nexus Standards:**\n  * Domestic corporations are subject to CBT for the privilege of existing under the laws of New Jersey.\n  * Foreign corporations have nexus if they:\n    * Hold a Certificate of Authority or other department/agency authorization to engage in corporate activity in NJ;\n    * Do business in NJ;\n    * Employ or own capital or property in NJ;\n    * Maintain an office or a stock of goods in NJ;\n    * Derive receipts from NJ sources meeting bright-line economic nexus thresholds;\n    * Engage in contacts/contracts within NJ; or\n    * Act as a partner in a partnership doing business in NJ.\n* **Bright-Line Economic Nexus Threshold:**\n  * Enacted by P.L. 2023, c. 96 (N.J.S.A. 54:10A-2), a corporation is deemed to have bright-line economic nexus if during its tax year:\n    * Receipts derived from New Jersey sources exceed **$100,000**; **or**\n    * **200 or more separate transactions** are delivered to customers in New Jersey.\n  * A corporation that does not meet either threshold and does not establish nexus via physical/other contacts does not have CBT nexus, even if it has New Jersey receipts.\n* **Applicability:** Applies to privilege periods ending on and after July 31, 2023, including **Tax Years 2025 and 2026** (no change between 2025 and 2026).\n* **Official Sources:**\n  * NJ Division of Taxation Technical Bulletin TB-108(R): https://www.nj.gov/treasury/taxation/pdf/pubs/tb/tb-108.pdf\n  * NJ Form CBT-100 Instructions: https://www.nj.gov/treasury/taxation/pdf/current/cbt/cbt100i.pdf\n\n---\n\n### 2. Remote Seller Economic Nexus Threshold (Sales and Use Tax)\n\n* **Economic Nexus Threshold:**\n  A remote seller without physical presence that makes retail sales of tangible personal property, specified digital products, or taxable services delivered into New Jersey must register, collect, and remit NJ Sales Tax if it meets either criterion:\n  * Gross revenue from sales of tangible personal property, specified digital products, or taxable services delivered into New Jersey exceeds **$100,000**; **or**\n  * The seller makes **200 or more separate transactions** of tangible personal property, specified digital products, or taxable services delivered into New Jersey.\n* **Measurement Period:**\n  * Measured based on the **current or prior calendar year**.\n  * Once the threshold is met, the obligation to collect Sales Tax applies for the remainder of the current calendar year and the entirety of the following calendar year. (A grace period of up to 30 calendar days is allowed to complete registration and begin collection after the threshold is reached).\n* **Applicability:** Established under P.L. 2018, c. 131; fully applies to **Tax Years 2025 and 2026** without change.\n* **Official Sources:**\n  * NJ Sales Tax Remote Sellers Frequently Asked Questions: https://www.nj.gov/treasury/taxation/remotesellers.shtml\n  * NJ Division of Taxation Publication ANJ-27 (*Making Mail-Order and Internet Sales*): https://www.nj.gov/treasury/taxation/pdf/pubs/sales/anj27.pdf\n\n---\n\n### 3. State Position on Public Law 86-272 Protection\n\n* **General Rule & Protected Activities:**\n  * P.L. 86-272 (15 U.S.C. § 381) prohibits New Jersey from imposing the net income tax component of the CBT if a corporation’s sole activity within New Jersey consists of soliciting orders for sales of tangible personal property, provided orders are sent outside NJ for approval and filled from points outside the state.\n  * Protection applies strictly to sales of **tangible personal property**; it does not protect sales of services, intangibles, digital assets/financial products, or real estate.\n* **Adoption of Revised MTC Guidance on Internet Activities:**\n  * For privilege periods ending on and after July 31, 2023, New Jersey explicitly adopted the Multistate Tax Commission’s (MTC) revised statement of information regarding P.L. 86-272.\n  * Under Division guidance (TB-108(R)), business interactions via the internet frequently exceed P.L. 86-272 immunity (e.g., placing targeted advertising cookies/apps, transmitting electronic code/instructions to repair or upgrade products, offering online post-sale warranty service, interactive customer chat/assistance, or inventory placed in marketplace facilitator fulfillment centers in NJ). Maintaining a static website allowing customers to search, review, order, and pay for tangible goods remains protected.\n* **Return Filing and Minimum Tax Requirement:**\n  * Entities protected under P.L. 86-272 that have nexus (including economic nexus) or are registered in NJ are **not** exempt from CBT filing obligations and remain subject to the **statutory minimum tax**.\n  * Such corporations must file Form CBT-100 (or CBT-100S), check the P.L. 86-272 box, attach Schedule N (*Nexus – Immune Activity Declaration*), and include the Division's Nexus Questionnaire. P.L. 86-272 filers are exempt from the net income component and the Corporate Transit Fee.\n* **Combined Groups (Finnigan Rule):**\n  * For privilege periods ending on and after July 31, 2023, the combined group is treated as one taxpayer. If any member of the group exceeds P.L. 86-272 protection or engages in non-protected activities in New Jersey, the combined group loses P.L. 86-272 protection.\n* **Applicability:** Applies to **Tax Years 2025 and 2026** (no change between 2025 and 2026).\n* **Official Sources:**\n  * NJ Division of Taxation Technical Bulletin TB-108(R): https://www.nj.gov/treasury/taxation/pdf/pubs/tb/tb-108.pdf\n  * NJ Division of Taxation Bulletin TB-79(R): https://www.nj.gov/treasury/taxation/pdf/pubs/tb/tb-79.pdf\n  * NJ Division of Taxation Policy Notice on Combined Groups and P.L. 86-272: https://www.nj.gov/treasury/taxation/cbt-pl86-272.shtml",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Corporations have CBT nexus if they have physical contacts or meet bright-line economic nexus thresholds in New Jersey. A corporation establishes bright-line economic nexus if New Jersey source receipts exceed $100,000 or it delivers 200 or more separate transactions to customers in New Jersey during the tax year.",
+    "source_url": "https://www.nj.gov/treasury/taxation/pdf/pubs/tb/tb-108.pdf",
+    "evidence": [
+     "bright-line economic nexus",
+     "exceed $100,000",
+     "200 or more separate transactions"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.nj.gov/treasury/taxation/pdf/pubs/tb/tb108.pdf",
+    "matched_title": "https://www.nj.gov/treasury/taxation/pdf/pubs/tb/tb108.pdf",
+    "matched_phrases": [
+     "bright-line economic nexus",
+     "200 or more separate transactions"
+    ],
+    "snippet": "or (2) The corporation has 200 or more separate transactions delivered to customers in this State during the corporation’s fiscal or calendar year."
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Remote sellers must register and collect New Jersey sales tax if sales delivered into the state exceed $100,000 in gross revenue or consist of 200 or more separate transactions. This threshold is measured based on sales during the current or prior calendar year.",
+    "source_url": "https://www.nj.gov/treasury/taxation/remotesellers.shtml",
+    "evidence": [
+     "exceeds $100,000",
+     "200 or more separate transactions",
+     "current or prior calendar year"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.nj.gov/treasury/taxation/remotesellers.shtml",
+    "matched_title": "Remote Sellers",
+    "matched_phrases": [
+     "exceeds $100,000",
+     "200 or more separate transactions",
+     "current or prior calendar year"
+    ],
+    "snippet": "The remote seller's gross revenue from sales of tangible personal property, specified digital products, or taxable services delivered into New Jersey during the current or prior calendar year, exceeds $100,000 ;"
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "New Jersey limits P.L. 86-272 immunity strictly to solicitation of sales of tangible personal property and has adopted the Multistate Tax Commission's revised guidance treating many internet activities as exceeding protection. Protected corporations with nexus remain subject to filing obligations and the statutory minimum tax.",
+    "source_url": "https://www.nj.gov/treasury/taxation/pdf/pubs/tb/tb-108.pdf",
+    "evidence": [
+     "tangible personal property",
+     "statutory minimum tax",
+     "Schedule N"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.nj.gov/treasury/taxation/pdf/pubs/tb/tb108.pdf",
+    "matched_title": "https://www.nj.gov/treasury/taxation/pdf/pubs/tb/tb108.pdf",
+    "matched_phrases": [
+     "tangible personal property",
+     "statutory minimum tax"
+    ],
+    "snippet": "Section 381, “Public Law 86-272,” prohibits a state from imposing a net income based tax on income of a foreign corporation earned within its borders from interstate commerce, if the corporation’s only business activity within the state consists of the solicitation of orders by the corporation or its representatives of tangible personal property, the orders are sent outside the state for approval and, if approved, are filled by shipment or delivery from a point outside the state."
+   }
+  ],
+  "grounding_urls": [
+   "https://www.nj.gov/treasury/taxation/pdf/pubs/tb/tb108.pdf",
+   "https://www.nj.gov/treasury/taxation/corp_over.shtml",
+   "https://www.nj.gov/treasury/taxation/pdf/current/cbt/cbt100ins.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/current/cbt/cbt100uins.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/pubs/tb/tb108.pdf",
+   "https://www.nj.gov/treasury/taxation/remotesellersfaq.shtml",
+   "https://www.nj.gov/treasury/taxation/remotesellers.shtml",
+   "https://www.nj.gov/treasury/taxation/remotesellersfaq.shtml",
+   "https://www.nj.gov/treasury/taxation/pdf/pubs/sales/su5.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/pubs/tb/tb86.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/pubs/tb/tb79r.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/pubs/tb/tb79r.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/pubs/tb/tb108.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/current/cbt/cbt100sins.pdf",
+   "https://www.nj.gov/treasury/taxation/cbt/combinedgroupsrevision.shtml"
+  ],
+  "error": ""
+ },
+ {
+  "state": "NJ",
+  "section": "rates",
+  "notes": "### 1. Individual Income Tax Rates and Brackets\n\nNew Jersey imposes a graduated Gross Income Tax. The tax rates and brackets are unchanged between tax year 2025 and tax year 2026.\n\n#### **Table A: Single; Married/CU Partner Filing Separate Return**\n* **$0 to $20,000:** 1.4%\n* **$20,000 to $35,000:** 1.75%\n* **$35,000 to $40,000:** 3.5%\n* **$40,000 to $75,000:** 5.525%\n* **$75,000 to $500,000:** 6.37%\n* **$500,000 to $1,000,000:** 8.97%\n* **Over $1,000,000:** 10.75%\n\n#### **Table B: Married/CU Couple Filing Joint Return; Head of Household; Qualifying Widow(er)/Surviving CU Partner**\n* **$0 to $20,000:** 1.4%\n* **$20,000 to $50,000:** 1.75%\n* **$50,000 to $70,000:** 2.45%\n* **$70,000 to $80,000:** 3.5%\n* **$80,000 to $150,000:** 5.525%\n* **$150,000 to $500,000:** 6.37%\n* **$500,000 to $1,000,000:** 8.97%\n* **Over $1,000,000:** 10.75%\n\n*Note on Nonresident Composite Returns (Form NJ-1080-C):* Taxed at a flat rate of 10.75%.\n\n* **Applicable Tax Years:** 2025 and 2026.\n* **Official URL:** [https://www.nj.gov/treasury/taxation/njit_taxrates.shtml](https://www.nj.gov/treasury/taxation/njit_taxrates.shtml)\n\n---\n\n### 2. Corporate Income / Franchise Tax Rates & Minimum Tax\n\nThe New Jersey Corporation Business Tax (CBT) Act imposes a franchise tax measured by entire net income allocable to New Jersey. The rates and minimum tax schedules are unchanged between tax year 2025 and tax year 2026.\n\n#### **CBT Net Income Tax Rates**\n* **Entire Net Income over $100,000:** 9.0%\n* **Entire Net Income greater than $50,000 and up to $100,000:** 7.5%\n* **Entire Net Income of $50,000 or less:** 6.5%\n\n#### **Corporate Transit Fee (Surtax/Fee)**\n* **Rate:** 2.5%\n* **Threshold & Applicability:** Imposed on corporations with taxable net income exceeding $10,000,000. Public utility companies and New Jersey S corporations are exempt.\n* **Applicable Privilege Periods:** Tax years beginning on or after January 1, 2024 through December 31, 2028 (applies to both TY 2025 and TY 2026).\n\n#### **Minimum Tax Schedule (Based on New Jersey Gross Receipts)**\n* **Gross receipts less than $100,000:** $500\n* **Gross receipts equal to or greater than $100,000, but less than $250,000:** $750\n* **Gross receipts equal to or greater than $250,000, but less than $500,000:** $1,000\n* **Gross receipts equal to or greater than $500,000, but less than $1,000,000:** $1,500\n* **Gross receipts equal to or greater than $1,000,000:** $2,000\n* **Affiliated/controlled groups:** $2,000 for each member of a group with a total payroll of $5,000,000 or more.\n\n* **Applicable Tax Years:** 2025 and 2026.\n* **Official URLs:** \n  * [https://www.nj.gov/treasury/taxation/corprates.shtml](https://www.nj.gov/treasury/taxation/corprates.shtml)\n  * [https://www.nj.gov/treasury/taxation/transitfee.shtml](https://www.nj.gov/treasury/taxation/transitfee.shtml)\n\n---\n\n### 3. Sales and Use Tax Rate & Local Sales Taxes\n\n* **State Sales and Use Tax Rate:** 6.625% across the State. Unchanged for 2025 and 2026.\n* **Local Sales Taxes:** New Jersey has a single statewide sales tax rate, and local jurisdictions do not enact broad local sales taxes. However, specific statutory localized rates and adjustments apply to certain transactions:\n  * **Atlantic City:** Specific retail sales (entertainment, admission, rolling chairs, and room rentals) are subject to a 9% Atlantic City Luxury Tax and a reduced 3.625% New Jersey Sales Tax (12.625% combined rate). Alcoholic beverages sold by the drink are subject to a combined rate of 9.625% (3% Atlantic City Luxury Tax + 6.625% State Sales Tax).\n  * **Cape May County (Wildwood, Wildwood Crest, North Wildwood):** A 2% Tourism Sales Tax applies to tourism-related sales (predominantly restaurant dining, hotel/lodging, and amusement admissions) in addition to the 6.625% State Sales Tax.\n  * **Urban Enterprise Zones (UEZ) & Salem County:** Certain qualified retail sales of tangible personal property made in person by certified sellers are charged at 50% of the regular rate (3.3125%).\n\n* **Applicable Tax Years:** 2025 and 2026.\n* **Official URLs:** \n  * [https://www.nj.gov/treasury/taxation/salestaxrates.shtml](https://www.nj.gov/treasury/taxation/salestaxrates.shtml)\n  * [https://www.nj.gov/treasury/taxation/luxury.shtml](https://www.nj.gov/treasury/taxation/luxury.shtml)\n\n---\n\n### 4. Gross Receipts, Franchise, Margin, or Other Notable Business Taxes\n\n* **Corporation Business Tax Franchise Requirement:** CBT is legally structured as a franchise tax for the privilege of exercising a corporate franchise or doing business in the state.\n* **Pass-Through Business Alternative Income Tax (PTE/BAIT):** An elective entity-level tax on pass-through entities (partnerships, LLCs, S corporations). \n  * **Brackets & Rates:**\n    * $0 to $250,000: 5.675%\n    * $250,001 to $1,000,000: 6.52%\n    * Over $1,000,000: 10.9%\n  * *Applicable Tax Years:* 2025 and 2026.\n  * *Official URL:* [https://www.nj.gov/treasury/taxation/pba_it.shtml](https://www.nj.gov/treasury/taxation/pba_it.shtml)\n* **Partnership Filing Fee:** \n  * Partnerships and LLCs classified as partnerships with more than two partners and New Jersey source income/loss must pay a filing fee of $150 per owner/partner (capped at $250,000 per year), plus a mandatory 50% installment prepayment for the subsequent privilege period.\n  * *Applicable Tax Years:* 2025 and 2026.\n  * *Official URL:* [https://www.nj.gov/treasury/taxation/partnershipprepay.shtml](https://www.nj.gov/treasury/taxation/partnershipprepay.shtml)\n* **Petroleum Products Gross Receipts Tax (PPGRT):** \n  * Imposed on gross receipts/consideration and gallonage from the first sale of petroleum products in New Jersey.\n  * Rates include statutory gross receipts percentage assessments and cents-per-gallon equivalent components adjusted semi-annually/annually by the Division of Taxation.\n  * *Applicable Tax Years:* 2025 and 2026.\n  * *Official URL:* [https://www.nj.gov/treasury/taxation/petroleum.shtml](https://www.nj.gov/treasury/taxation/petroleum.shtml)",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "New Jersey Gross Income Tax rates range from 1.4% to 10.75% across graduated brackets depending on income and filing status. Nonresident composite returns are taxed at a flat rate of 10.75%.",
+    "source_url": "https://www.nj.gov/treasury/taxation/njit_taxrates.shtml",
+    "evidence": [
+     "Gross Income Tax",
+     "Over $1,000,000",
+     "Nonresident Composite Returns"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.nj.gov/treasury/taxation/njit_taxrates.shtml; figures not on www.nj.gov: ['1.4', '10.75']; figures not on www.nj.gov: ['1.4']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "New Jersey Corporation Business Tax rates are 6.5% on entire net income of $50,000 or less, 7.5% up to $100,000, and 9.0% over $100,000, with minimum taxes ranging from $500 to $2,000 based on gross receipts. An additional 2.5% Corporate Transit Fee applies to corporations with taxable net income exceeding $10,000,000.",
+    "source_url": "https://www.nj.gov/treasury/taxation/corprates.shtml",
+    "evidence": [
+     "Corporation Business Tax",
+     "Entire Net Income",
+     "Minimum Tax Schedule"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.nj.gov/treasury/taxation/corprates.shtml; figures not on www.nj.gov: ['100000', '10000000', '2000', '50000', '6.5', '7.5']; figures not on www.nj.gov: ['10000000', '2.5', '6.5', '7.5']; figures not on www.nj.gov: ['100000', '10000000', '2.5', '2000', '500', '6.5']; figures not on www.nj.gov: ['10000000', '2.5', '2000', '500', '6.5', '7.5']; figures not on www.nj.gov: ['10000000', '2.5']; figures not on www.nj.gov: ['10000000']; figures not on www.nj.gov: ['100000', '10000",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The New Jersey state sales and use tax rate is 6.625%, and local jurisdictions do not impose broad local sales taxes. However, specialized localized rates exist, including reduced rates in Urban Enterprise Zones and Salem County at 3.3125%, luxury tax adjustments in Atlantic City, and a 2% tourism tax in Cape May County.",
+    "source_url": "https://www.nj.gov/treasury/taxation/salestaxrates.shtml",
+    "evidence": [
+     "6.625%",
+     "Sales and Use Tax",
+     "Urban Enterprise Zones"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.nj.gov/treasury/taxation/emailfaqs.shtml",
+    "matched_title": "NJ Division of Taxation - Answers to Frequently Asked Questions",
+    "matched_phrases": [
+     "6.625%",
+     "Sales and Use Tax",
+     "Urban Enterprise Zones"
+    ],
+    "snippet": "What is the New Jersey Sales Tax rate? The State of New Jersey's Sales and Use Tax rate is (6.625%)."
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The elective Pass-Through Business Alternative Income Tax applies to pass-through entities at rates of 5.675% up to $250,000, 6.52% from $250,001 to $1,000,000, and 10.9% over $1,000,000.",
+    "source_url": "https://www.nj.gov/treasury/taxation/pba_it.shtml",
+    "evidence": [
+     "Pass-Through Business",
+     "Alternative Income Tax",
+     "Over $1,000,000"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.nj.gov/treasury/taxation/baitpte/index.shtml",
+    "matched_title": "NJ Division of Taxation - Pass-Through Business Alternative Income Tax (PTE/BAIT)",
+    "matched_phrases": [
+     "Pass-Through Business",
+     "Alternative Income Tax",
+     "Over $1,000,000"
+    ],
+    "snippet": "Credit flows to nonresident partners on NJ-source income Multi-member LLC Conditional Eligible if LLC is classified as a partnership or an S corporation for federal tax purposes and has at least one member who is an individual, estate, or trust subject to NJ Gross Income Tax Single-member LLC or sole proprietorship No Not eligible Tax Rates and Sourcing Rules Tax Rates Taxable Income Tax Rate $0-$250,000 5.675% $250,001-$1,000,000 6.52% Over $1,000,000 10.9% Sourcing Rules:"
+   }
+  ],
+  "grounding_urls": [
+   "https://www.nj.gov/treasury/taxation/pdf/current/cbt/cbt100.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/current/1041i.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/current/1040esi.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/current/1040xi.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/current/njtaxratesch.pdf",
+   "https://www.nj.gov/treasury/taxation/corp_over.shtml",
+   "https://www.nj.gov/treasury/taxation/pdf/current/cbt/cbt100uins.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/current/cbt/cbt100ins.pdf",
+   "https://www.nj.gov/treasury/taxation/ot4.shtml",
+   "https://www.nj.gov/treasury/taxation/cbt/corporatetransitfee.shtml",
+   "https://www.nj.gov/treasury/taxation/su_10.shtml",
+   "https://www.nj.gov/treasury/taxation/salestax.shtml",
+   "https://www.nj.gov/treasury/taxation/businesses/salestax/index.shtml",
+   "https://www.nj.gov/treasury/taxation/vendorpromoter.shtml",
+   "https://www.nj.gov/treasury/taxation/acluxury.shtml",
+   "https://www.nj.gov/treasury/taxation/pdf/pubs/sales/su4.pdf",
+   "https://www.nj.gov/treasury/taxation/emailfaqs.shtml",
+   "https://www.nj.gov/treasury/taxation/businesses/salestax/uez-over.shtml",
+   "https://www.nj.gov/treasury/taxation/vendorpromoter.shtml",
+   "https://www.nj.gov/treasury/taxation/baitpte/index.shtml",
+   "https://www.nj.gov/treasury/taxation/pdf/current/pte-bait/pte100instr.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/current/pte-bait/pte200t.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/pubs/tb/tb55.pdf",
+   "https://www.nj.gov/treasury/taxation/prepayment.shtml",
+   "https://www.nj.gov/treasury/taxation/pdf/current/part/1065i.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/other_forms/petroleum/ppt_in.pdf",
+   "https://www.nj.gov/treasury/taxation/petroleum/rates.shtml",
+   "https://www.nj.gov/treasury/taxation/petroleum.shtml"
+  ],
+  "error": ""
+ },
+ {
+  "state": "NJ",
+  "section": "filing",
+  "notes": "### Individual Returns (Calendar-Year Filers) & Extension Rules\n* **Due Date:** Calendar-year individual gross income tax returns are due on **April 15** following the close of the tax year (e.g., April 15, 2026, for tax year 2025; April 15, 2027, for tax year 2026).\n* **Extension Period:** A **6-month extension** to file is granted (to October 15). \n* **Extension Requirements:** \n  * Taxpayers must pay at least **80%** of their actual New Jersey tax liability by the original April 15 due date.\n  * If applying for a federal extension (Form 4868) and at least 80% of the NJ liability is satisfied by withholdings/estimated payments, a separate state extension is not required; enclose a copy of the federal application when filing.\n  * If a payment is needed to meet the 80% threshold, or if no federal extension was requested, file **Form NJ-630** (or file online) with payment by April 15.\n  * An extension grants extra time to file only, not to pay; late payment interest and penalties apply to unpaid tax after the original due date.\n* **Applicable Tax Years:** Tax years 2025 and 2026 (unchanged).\n* **Official URL:** https://www.nj.gov/treasury/taxation/when-file.shtml\n\n---\n\n### Corporate & Pass-Through Return Due Dates and Extension Rules\n* **C-Corporations (Form CBT-100 / CBT-100U):**\n  * *Due Date:* Due on the 15th day of the month following the federal due date—for calendar-year filers, this is **May 15**.\n  * *Extension:* A **6-month extension** (to November 15) is granted using **Form CBT-200-T** (filed and paid electronically). At least **90%** of the corporate tax liability must be paid by the original due date.\n* **S-Corporations (Form CBT-100S):**\n  * *Due Date:* Due 30 days after the federal S corporation deadline—for calendar-year filers, this is **April 15**.\n  * *Extension:* A **6-month extension** (to October 15) is requested using **Form CBT-200-T**. Requires at least **90%** of the tax liability to be paid by the original due date.\n* **Partnerships (Form NJ-1065 / NJ-CBT-1065):**\n  * *Due Date:* Due on the 15th day of the fourth month after the close of the tax year (**April 15** for calendar-year filers).\n  * *Extension:* A **5-month extension** (to September 15). If a federal extension (Form 7004) is granted, an automatic 5-month extension applies to Form NJ-1065. If a partnership filing fee is due, the entity must file **Form PART-200-T** and pay at least **80%** of the fee by April 15. If nonresident partner tax is owed on Form NJ-CBT-1065, file **Form CBT-206** with at least **90%** of the tax paid by April 15.\n* **Applicable Tax Years:** Tax years 2025 and 2026 (unchanged).\n* **Official URLs:** \n  * CBT Due Dates: https://www.nj.gov/treasury/taxation/cbt_due_date.shtml\n  * Partnership Rules: https://www.nj.gov/treasury/taxation/partnfee.shtml\n\n---\n\n### Elective Pass-Through Entity Tax (PTE/BAIT)\n* **Existence:** Yes; the New Jersey Pass-Through Business Alternative Income Tax (PTE/BAIT) allows partnerships, LLCs, and S corporations with at least one member subject to NJ Gross Income Tax to elect to pay tax at the entity level.\n* **Tax Rates (Graduated on Total Distributive Proceeds):**\n  * $0 – $250,000: **5.675%**\n  * $250,001 – $1,000,000: **6.52%**\n  * $1,000,001 – $5,000,000: **9.12%**\n  * Over $5,000,000: **10.9%**\n* **How and When to Elect:**\n  * Must register with the Division of Revenue and Enterprise Services and submit the election annually online through the Division of Taxation’s PTE File and Pay System.\n  * *Election Deadline:* Must be made annually on or before the original due date of the return (**March 15** for calendar-year filers); cannot be made retroactively.\n* **Return & Extension:** Annual return is filed on **Form PTE-100** by March 15. A **6-month extension** (to September 15) is requested via **Form PTE-200-T** online with at least **80%** of the tax liability paid.\n* **Applicable Tax Years:** Tax years 2025 and 2026 (unchanged).\n* **Official URL:** https://www.nj.gov/treasury/taxation/ptrp/bait.shtml\n\n---\n\n### Composite or Group Nonresident Returns\n* **Return Form & Election:** Qualified entities can file a composite return on **Form NJ-1080-C**. Each participant must execute **Form NJ-1080-E** (Election to Participate in a Composite Return), kept on file by the entity.\n* **Eligibility:** Nonresident individuals only who have no New Jersey-source income other than from the filing entity (or other composite filings), have no permanent place of abode in NJ, and waive deductions and exemptions.\n* **Tax Rate:** Computed at the highest personal Gross Income Tax rate: flat **10.75%**.\n* **Due Date & Extension:** Due **April 15** for calendar-year entities. A **6-month extension** (to October 15) is requested on **Form NJ-630** under the entity’s FEIN, provided at least **80%** of the tax is paid by the original due date.\n* **Filing Specifications:** Form NJ-1080-C is filed on paper; entities with **25 or more** participants must submit participant directories on rewritable CD/diskette or approved electronic medium.\n* **Applicable Tax Years:** Tax years 2025 and 2026 (unchanged).\n* **Official URL:** https://www.nj.gov/treasury/taxation/taxrates.shtml\n\n---\n\n### Estimated Tax Requirements & Nonresident Withholding for Pass-Throughs\n* **Individual Estimated Taxes (Form NJ-1040-ES):**\n  * Required if expected New Jersey Gross Income Tax liability exceeds withholdings and credits by more than **$400**.\n  * *Payment Schedule (Calendar Filers):* Four installments due **April 15, June 15, September 15**, and **January 15** of the following year.\n  * *Safe Harbor:* Underpayment interest is avoided if payments equal at least **80%** of the current tax liability or **100%** of the prior year's tax liability.\n* **PTE/BAIT Estimated Taxes (Form PTE-150):**\n  * Required if total estimated tax liability exceeds **$400**.\n  * Installments are due on the 15th day of the 4th, 6th, and 9th months of the tax year and the 1st month following year-end (April 15, June 15, September 15, and January 15).\n  * Safe harbor threshold to avoid interest: at least **80%** of current year tax or **100%** of prior year tax.\n* **Nonresident Partner Withholding / Remittance (Form NJ-CBT-1065):**\n  * Partnerships must remit tax on behalf of nonresident partners' allocable share of NJ income:\n    * Nonresident noncorporate partners (individuals, trusts, estates): **6.37%**.\n    * Nonresident corporate partners: **9%**.\n  * *Partnership Filing Fee:* Partnerships with more than 2 partners and NJ-source income/loss pay **$150 per owner** (up to a maximum of **$250,000**), plus a **50% prepayment** toward the next tax year.\n* **Applicable Tax Years:** Tax years 2025 and 2026 (unchanged).\n* **Official URLs:**\n  * Estimated Income Tax Bulletin (GIT-8): https://www.nj.gov/treasury/taxation/git-8.shtml\n  * Partnership Filing Fee & Tax: https://www.nj.gov/treasury/taxation/partnfee.shtml\n\n---\n\n### Main Return Forms\n* **Individual Forms:**\n  * **Form NJ-1040:** Resident Individual Gross Income Tax Return.\n  * **Form NJ-1040NR:** Nonresident Individual Gross Income Tax Return.\n  * **Form NJ-1040-ES:** Estimated Tax Payment Voucher.\n* **Corporate Forms:**\n  * **Form CBT-100:** Corporation Business Tax Return (separate filers).\n  * **Form CBT-100U:** Corporation Business Tax Unitary Combined Return.\n  * **Form CBT-100S:** S Corporation Business Tax Return.\n* **Pass-Through Entity Forms:**\n  * **Form NJ-1065:** Partnership Return and Filing Fee.\n  * **Form NJ-CBT-1065:** Partnership Return – Corporation Business Tax (nonresident partner tax).\n  * **Form PTE-100:** Pass-Through Business Alternative Income Tax Return.\n  * **Form NJ-1080-C:** Nonresident Composite Return.\n* **Applicable Tax Years:** Tax years 2025 and 2026 (unchanged).\n* **Official URL:** https://www.nj.gov/treasury/taxation/prntgit.shtml",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Calendar-year individual gross income tax returns are due on April 15 following the close of the tax year. A 6-month extension to October 15 is available if at least 80% of the tax liability is paid by April 15 via Form NJ-630 or federal Form 4868.",
+    "source_url": "https://www.nj.gov/treasury/taxation/when-file.shtml",
+    "evidence": [
+     "gross income tax",
+     "April 15",
+     "Form NJ-630",
+     "6-month extension"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.nj.gov/treasury/taxation/when-file.shtml; figures not on www.nj.gov: ['4868', '6']; figures not on www.nj.gov: ['4868', '80']; figures not on www.nj.gov: ['4868']; figures not on www.nj.gov: ['4868', '6', '630', '80']; figures not on nj.gov: ['15', '4868', '630', '80']; figures not on www.nj.gov: ['4868', '630']; figures not on www.nj.gov: ['4868', '6', '630']; figures not on www.nj.gov: ['15', '4868', '6', '630', '80']; figures not on www.nj.gov: ['4868', '630', '80']; f",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "C corporations file by May 15 and S corporations by April 15, with both eligible for a 6-month extension using Form CBT-200-T when 90% of the tax is paid. Partnerships file Form NJ-1065 by April 15 and receive a 5-month extension, requiring Form PART-200-T with 80% payment if filing fees apply.",
+    "source_url": "https://www.nj.gov/treasury/taxation/cbt_due_date.shtml",
+    "evidence": [
+     "CBT-100",
+     "CBT-200-T",
+     "May 15",
+     "Form CBT-100S"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.nj.gov/treasury/taxation/cbt_due_date.shtml; figures not on www.nj.gov: ['1065', '200', '5', '6', '90']; figures not on www.nj.gov: ['80', '90']; figures not on www.nj.gov: ['1065', '200', '90']; figures not on www.nj.gov: ['1065', '200', '5', '6', '80', '90']; figures not on nj.gov: ['1065', '15', '80']; dates not on www.nj.gov: ['April 15', 'April 15']; evidence not on www.nj.gov (1/4); evidence not on www.nj.gov (0/4); figures not on www.nj.gov: ['6', '90']; figures no",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "New Jersey offers an elective Pass-Through Business Alternative Income Tax with graduated rates from 5.675% to 10.9% on distributive proceeds. The annual election and Form PTE-100 return are due by March 15 online, with a 6-month extension available using Form PTE-200-T.",
+    "source_url": "https://www.nj.gov/treasury/taxation/ptrp/bait.shtml",
+    "evidence": [
+     "Business Alternative Income Tax",
+     "PTE-100",
+     "5.675%",
+     "March 15"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.nj.gov/treasury/taxation/baitpte/index.shtml",
+    "matched_title": "NJ Division of Taxation - Pass-Through Business Alternative Income Tax (PTE/BAIT)",
+    "matched_phrases": [
+     "Business Alternative Income Tax",
+     "PTE-100",
+     "5.675%",
+     "March 15"
+    ],
+    "snippet": "File Form PTE-100 by the original due date (March 15 of following year) Pay any balance electronically Request a 6-month extension using Form PTE-200-T (extension does not extend the time to pay;"
+   },
+   {
+    "key": "composite",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Eligible pass-through entities may file a composite return on Form NJ-1080-C for nonresident individuals at a flat tax rate of 10.75%. The return is due on April 15, and a 6-month extension to October 15 is available using Form NJ-630 with at least 80% of tax paid.",
+    "source_url": "https://www.nj.gov/treasury/taxation/taxrates.shtml",
+    "evidence": [
+     "NJ-1080-C",
+     "10.75%",
+     "composite return"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.nj.gov/treasury/taxation/taxrates.shtml; figures not on www.nj.gov: ['10.75', '1080', '6']; figures not on www.nj.gov: ['10.75', '80']; figures not on www.nj.gov: ['10.75']; figures not on www.nj.gov: ['10.75', '1080', '6', '630', '80']; figures not on nj.gov: ['10.75', '1080', '15', '630', '80']; figures not on www.nj.gov: ['1080', '630']; figures not on www.nj.gov: ['10.75', '1080', '630']; figures not on www.nj.gov: ['630']; figures not on www.nj.gov: ['10.75', '1080',",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Individual estimated taxes are required if expected liability exceeds withholdings and credits by more than $400, payable in four installments due April 15, June 15, September 15, and January 15. Underpayment interest is avoided if payments meet the 80% current-year or 100% prior-year safe harbor.",
+    "source_url": "https://www.nj.gov/treasury/taxation/git-8.shtml",
+    "evidence": [
+     "NJ-1040-ES",
+     "estimated tax",
+     "April 15, June 15"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.nj.gov/treasury/taxation/baitpte/index.shtml",
+    "matched_title": "NJ Division of Taxation - Pass-Through Business Alternative Income Tax (PTE/BAIT)",
+    "matched_phrases": [
+     "NJ-1040-ES",
+     "estimated tax"
+    ],
+    "snippet": "Form CBT-100S Members may still need NJ-1040-ES estimated tax payments for income not covered by BAIT."
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Key returns include Form NJ-1040 and NJ-1040NR for individuals, and Form CBT-100, CBT-100U, and CBT-100S for corporations. Pass-through entities file Form NJ-1065, Form NJ-CBT-1065, Form PTE-100, or Form NJ-1080-C.",
+    "source_url": "https://www.nj.gov/treasury/taxation/prntgit.shtml",
+    "evidence": [
+     "NJ-1040",
+     "NJ-1040NR",
+     "NJ-1065"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.nj.gov/treasury/taxation/pdf/alphasum26.pdf",
+    "matched_title": "Due Dates by Tax January 1, 2026 – December 31, 2026",
+    "matched_phrases": [
+     "NJ-1040",
+     "NJ-1040NR",
+     "NJ-1065"
+    ],
+    "snippet": "…SF-100 2 1 31 2 Gross Income Tax (Employer) NJ-500 17 16 15 15 17 15 16 15 NJ-927/927-W 30 30 30 30 NJ-927-H 2 NJ-W-3 17 1095 31 Gross Income Tax (Individual)3 NJ-1040-ES 15 15 15 15 NJ-1040/NJ-1040-HW 15 NJ-1040NR 15 NJ-1041 15 NJ-1080C 15 NJ-630 15 Hotel/Motel Occupancy Fee HM-100 20 20 20 20 20 22 20 20 21 20 20 21 Litter Control Fee LF-5 16 Meadowlands Regional…"
+   }
+  ],
+  "grounding_urls": [
+   "https://www.nj.gov/treasury/taxation/njit17.shtml",
+   "https://www.nj.gov/treasury/taxation/pdf/alphasum26.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/current/630.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/chronolist25.pdf",
+   "https://www.nj.gov/treasury/taxation/cbt/cbt2020ext.shtml",
+   "https://nj.gov/treasury/taxation//pdf/current/cbt/cbt-200-t.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/chronolist26.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/current/cbt/cbt100sins.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/chronolist25.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/pubs/tb/tb55.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/current/part/1065i.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/current/part/part200t.pdf",
+   "https://www.nj.gov/treasury/taxation/prntpart.shtml",
+   "https://www.nj.gov/treasury/taxation/pdf/pubs/tb/tb55.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/current/cbt/cbt100ins.pdf",
+   "https://www.nj.gov/treasury/taxation/baitpte/index.shtml",
+   "https://www.nj.gov/treasury/taxation/baitpte/index.shtml",
+   "https://www.nj.gov/treasury/taxation/baitpte.shtml",
+   "https://www.nj.gov/treasury/taxation/baitpte/index.shtml",
+   "https://www.nj.gov/treasury/taxation/pdf/current/pte-bait/pte100instr.pdf",
+   "https://www.nj.gov/treasury/taxation/baitpte/baitpte-faq.shtml",
+   "https://www.nj.gov/treasury/taxation/pdf/current/pte-bait/pte200t.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/current/pte-bait/pte-100.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/composit.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/current/1080e.pdf",
+   "https://www.nj.gov/treasury/taxation/taxtables.shtml",
+   "https://www.nj.gov/treasury/taxation/pdf/current/1080caein.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/current/1080caein.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/current/1040esi.pdf",
+   "https://www.nj.gov/treasury/taxation/njit20.shtml",
+   "https://www.nj.gov/treasury/taxation/pdf/pubs/tgi-ee/git8.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/current/pte-bait/pte150instr.pdf",
+   "https://www.nj.gov/treasury/taxation/partnotice.shtml",
+   "https://www.nj.gov/treasury/taxation/forms/index.shtml?taxType=Individual%20Income%20Tax",
+   "https://www.nj.gov/treasury/taxation/duedates.shtml",
+   "https://www.nj.gov/treasury/taxation/pdf/current/1040nri.pdf",
+   "https://www.nj.gov/treasury/taxation/forms/index.shtml",
+   "https://www.nj.gov/treasury/taxation/pdf/current/cbt/cbt100uins.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/current/1080cab.pdf",
+   "https://www.nj.gov/treasury/taxation/pdf/Tax_Press_Release.pdf"
+  ],
+  "error": ""
+ }
+]

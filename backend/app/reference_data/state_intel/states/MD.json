@@ -1,0 +1,89 @@
+{
+  "code": "MD",
+  "name": "Maryland",
+  "sections": {
+    "apportionment": {
+      "fields": [
+        {
+          "key": "method",
+          "label": "Apportionment method",
+          "value": "Multistate unitary corporations apportion Maryland modified income using a single sales factor formula (100% sales factor). A qualifying worldwide headquartered company may elect annually to apportion income using a three-factor double-weighted sales formula.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://mgaleg.maryland.gov/2018RS/Chapters_noln/CH_342_hb1794t.pdf",
+          "source_citation": "2018 Regular Session - House Bill 1794 Chapter",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "342 – 3 – attributable to trade or business carried on in the State shall be determined using a single sales factor apportionment formula, by multiplying its Maryland modified income by 100% of the sales factor."
+        },
+        {
+          "key": "special_industries",
+          "label": "Special industry rules",
+          "value": "Special apportionment formulas apply to financial institutions, transportation companies, airlines, motion picture and television producers, and rental or leasing companies.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/instructions/2025/pte-booklet-510.pdf",
+          "source_citation": "Tax Year 2025 PTE Booklet 510 Pass-Through Entity Income Tax Return",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Rental/ leasing companies, financial institutions, transportation companies, and worldwide headquartered companies must use a Special Apportionment Formula (see instruction 4 below), unless the Comptroller has accepted an Alternative Apportionment Formula (see instruction 5 below)."
+        },
+        {
+          "key": "forms",
+          "label": "Forms",
+          "value": "Corporations compute apportionment on Schedule A of Form 500. Pass-through entities compute apportionment on Schedule B of Form 510 or Form 511.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/instructions/2025/pte-booklet-510.pdf",
+          "source_citation": "Tax Year 2025 PTE Booklet 510 Pass-Through Entity Income Tax Return",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "In addition to filing Form 500 to calculate and pay the corporation income tax, also file Form 510."
+        }
+      ]
+    },
+    "nexus": {
+      "fields": []
+    },
+    "rates": {
+      "fields": [
+        {
+          "key": "sales",
+          "label": "Sales and use tax",
+          "value": "The Maryland state sales and use tax rate is 6.0%. Local jurisdictions do not levy local sales taxes.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/legal-publications/Sales_and_Use_Tax-List_of_TPP_and_Services.pdf",
+          "source_citation": "Sales and Use Tax List of Tangible Personal Property and Services",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "~ 43 ~ subject to the sales and use tax rate of 6%, applied to 94.5% of the gross receipts from the machine."
+        }
+      ]
+    },
+    "filing": {
+      "fields": [
+        {
+          "key": "key_forms",
+          "label": "Key forms",
+          "value": "Main business forms include Form 500 for corporations, Form 510 for standard pass-through entities, and Form 511 for electing pass-through entities. Additional key forms include composite return Form 510C, estimated tax forms Form 500D and Form 510/511D, and extension forms Form 500E and Form 510/511E.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://interactive.marylandtaxes.gov/Individuals/iFile_ChooseForm/PriorYearForms/Resident_Booklet_2022.pdf",
+          "source_citation": "2022 Resident Booklet",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "See Form 502CR Instructions and attach Maryland Schedule K-1 (Form 510/511) issued to you."
+        }
+      ]
+    }
+  }
+}

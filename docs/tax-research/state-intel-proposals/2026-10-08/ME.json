@@ -1,0 +1,538 @@
+[
+ {
+  "state": "ME",
+  "section": "apportionment",
+  "notes": "### Apportionment Formula\n* **Formula:** Single sales factor (100% sales factor). Multistate corporate business income is apportioned to Maine by multiplying the income by the sales factor. The sales factor is a fraction: total sales of the taxpayer in Maine divided by total sales everywhere.\n* **Applicability:** Applies to tax years 2025 and 2026 (unchanged).\n* **Official Sources:** \n  * Maine Revised Statutes Title 36, § 5211(8), (14): https://legislature.maine.gov/statutes/36/title36sec5211.html\n  * Maine Revenue Services Form 1120ME Instructions: https://www.maine.gov/revenue/taxes/income-estate-tax/corporate-income-tax-forms\n\n---\n\n### Sourcing of Services and Intangibles\n* **Services:** Market-based sourcing. Receipts from services are sourced to Maine if the services are received in Maine. \n  * *Cascading fallback rules:* If the state where services are received is not readily determinable, receipts are deemed received at the customer’s home, or for a business customer, the office from which the services were ordered. If the ordering location cannot be determined, they are deemed received at the home or office to which billed.\n  * *Federal government exception:* If the customer is the federal government, receipts are sourced under the **cost of performance** method (attributed to Maine if a greater proportion of the income-producing activity is performed in Maine than in any other state based on costs of performance).\n* **Intangibles:** Market-based sourcing (place of use). Gross receipts from the license, sale, or other disposition of patents, copyrights, trademarks, or similar items of intangible personal property are attributed to Maine if the property is used in Maine by the licensee. If used in multiple states, receipts are apportioned according to the portion of use in Maine.\n  * *Federal government exception:* If the purchaser or licensee is the federal government, receipts are sourced under the **cost of performance** method.\n* **Applicability:** Applies to tax years 2025 and 2026 (unchanged).\n* **Official Sources:** \n  * Maine Revised Statutes Title 36, § 5211(16-A): https://legislature.maine.gov/statutes/36/title36sec5211.html\n  * Maine Revenue Services Rule 801 (18-125 C.M.R. ch. 801, § .06): https://www.maine.gov/revenue/taxes/income-estate-tax/corporate-income-tax-forms\n\n---\n\n### Special Industry Apportionment Formulas\n* **Financial Institutions:** Governed by the Maine Franchise Tax under Title 36, Chapter 819 rather than the corporate income tax. Financial institutions use a four-part/three-factor formula:\n  $$\\frac{\\text{Property Factor} + \\text{Payroll Factor} + 2 \\times \\text{Receipts Factor}}{4}$$\n* **Other Industries:** No industry-specific statutory apportionment formulas exist for general corporate income tax (the former mutual fund service provider formula under 36 M.R.S. § 5212 was repealed). However, if standard apportionment provisions do not fairly represent the taxpayer's business activity in Maine, the taxpayer may petition for, or the State Tax Assessor may require, an alternate apportionment variation under 36 M.R.S. § 5211(17) and MRS Rule 801.08.\n* **Applicability:** Applies to tax years 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Maine Revised Statutes Title 36, § 5206-E: https://legislature.maine.gov/statutes/36/title36sec5206-E.html\n  * Maine Revised Statutes Title 36, § 5211(17): https://legislature.maine.gov/statutes/36/title36sec5211.html\n  * Maine Revised Statutes Title 36, § 5212: https://legislature.maine.gov/statutes/36/title36sec5212.html\n\n---\n\n### Apportionment Forms and Schedules\n* **Corporate Income Tax Return:** **Form 1120ME**, **Schedule A** (*Apportionment of Tax*) is used to compute the Maine sales apportionment factor.\n* **Unitary Combined Groups:** **Form CR** (*Unitary Business Combined Reporting*) is filed alongside Form 1120ME to report aggregate and entity-level apportionment sales.\n* **Financial Institutions:** **Form 1120B-ME** (*Maine Franchise Tax Return for Financial Institutions*), **Schedule A** is used to calculate the four-part apportionment formula.\n* **Applicability:** Applies to tax years 2025 and 2026 (unchanged).\n* **Official Source:**\n  * Maine Revenue Services Corporate Income Tax Forms: https://www.maine.gov/revenue/taxes/income-estate-tax/corporate-income-tax-forms",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Multistate corporate business income is apportioned to Maine using a single sales factor formula. The sales factor is total sales in Maine divided by total sales everywhere.",
+    "source_url": "https://legislature.maine.gov/statutes/36/title36sec5211.html",
+    "evidence": [
+     "sales factor",
+     "business income",
+     "total sales"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://legislature.maine.gov/statutes/36/title36sec5211.html",
+    "matched_title": "Title 36, §5211: General",
+    "matched_phrases": [
+     "sales factor",
+     "total sales"
+    ],
+    "snippet": "The sales factor is a fraction, the numerator of which is the total sales of the taxpayer in this State during the tax period, and the denominator of which is the total sales of the taxpayer everywhere during the tax period."
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Receipts from services and intangibles are sourced using market-based sourcing based on where services are received or intangibles are used. If the customer or licensee is the federal government, receipts are sourced under the cost of performance method.",
+    "source_url": "https://legislature.maine.gov/statutes/36/title36sec5211.html",
+    "evidence": [
+     "services are received",
+     "patents, copyrights, trademarks",
+     "costs of performance"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://legislature.maine.gov/statutes/36/title36sec5211.html",
+    "matched_title": "Title 36, §5211: General",
+    "matched_phrases": [
+     "services are received",
+     "patents, copyrights, trademarks",
+     "costs of performance"
+    ],
+    "snippet": "Except as otherwise provided by this subsection, receipts from the performance of services must be attributed to the state where the services are received."
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Financial institutions are subject to the Maine Franchise Tax and use a four-part apportionment formula based on property, payroll, and double-weighted receipts factors. There are no other industry-specific statutory formulas for general corporate income tax.",
+    "source_url": "https://legislature.maine.gov/statutes/36/title36sec5206-E.html",
+    "evidence": [
+     "property factor",
+     "payroll factor",
+     "receipts factor"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://legislature.maine.gov/statutes/36/title36sec5206-E.html",
+    "matched_title": "Title 36, §5206-E: Apportionment",
+    "matched_phrases": [
+     "property factor",
+     "payroll factor",
+     "receipts factor"
+    ],
+    "snippet": "All of a financial institution's net income and end-of-year assets are apportioned to this State by multiplying the income and the assets by a fraction, the numerator of which is the property factor plus the payroll factor plus 2 times the receipts factor and the denominator of which is 4."
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Form 1120ME, Schedule A is used to compute the corporate income tax apportionment factor, while unitary combined groups also file Form CR. Financial institutions report apportionment on Form 1120B-ME, Schedule A.",
+    "source_url": "https://www.maine.gov/revenue/taxes/income-estate-tax/corporate-income-tax-forms",
+    "evidence": [
+     "Form 1120ME",
+     "Schedule A",
+     "Form CR"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/24_1120me_all_instructions.pdf",
+    "matched_title": "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/24_1120me_all_instructions.pdf",
+    "matched_phrases": [
+     "Form 1120ME",
+     "Schedule A",
+     "Form CR"
+    ],
+    "snippet": "For all amended returns, Form 1120ME, Schedule A, Schedule 1S, Schedule 1A, and Schedule C, must be attached, if applicable, even if the amounts have not changed from the original return."
+   }
+  ],
+  "grounding_urls": [
+   "https://legislature.maine.gov/statutes/36/title36sec5211.html",
+   "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/24_1120me_all_instructions.pdf",
+   "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/Rule%20801%20-%20Amendment%20of%20Bureau%20of%20Revenue%20Services%20Rule_REV2%20%28002%29.pdf",
+   "https://legislature.maine.gov/statutes/36/title36sec5211.html",
+   "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/Rule_801_April_2022.pdf",
+   "https://legislature.maine.gov/statutes/36/title36sec5206-E.html",
+   "https://legislature.maine.gov/statutes/36/title36ch821sec0.html",
+   "https://legislature.maine.gov/statutes/36/title36sec5211.html",
+   "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/24_1120me_all_instructions.pdf",
+   "https://www.maine.gov/REVENUE/forms/corporate/2019/19_1120meFF.pdf",
+   "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/22_1120b_instructions.pdf",
+   "https://www.maine.gov/revenue/taxes/income-estate-tax/corporate-income-tax-1120me"
+  ],
+  "error": ""
+ },
+ {
+  "state": "ME",
+  "section": "nexus",
+  "notes": "### 1. Income or Franchise Tax Nexus (Including Economic / Bright-Line Nexus)\n\n* **Applicable Tax Years:** 2025 and 2026 (law took effect for tax years beginning on or after January 1, 2022, and applies unchanged to 2025 and 2026).\n* **General Nexus Standard:**\n  * Nexus with Maine is created by conducting business in Maine or owning or using property in Maine. Maine asserts jurisdiction to the full extent permitted by the U.S. Constitution and federal laws. Physical presence is not required.\n  * Financial institutions are subject to the Maine Franchise Tax (under 36 M.R.S. chapter 819) rather than the corporate income tax.\n* **Bright-Line Factor-Presence / Economic Nexus Thresholds:**\n  Under 36 M.R.S. § 5200-B and Maine Revenue Services (MRS) Rule 808, a corporation has nexus for Maine corporate income tax purposes if the corporation is organized or commercially domiciled in Maine, or if, in Maine, any of the following thresholds are exceeded during the tax year:\n  * **Property:** Exceeds **$250,000**;\n  * **Payroll:** Exceeds **$250,000**;\n  * **Sales:** Exceeds **$500,000**; or\n  * **Proportionate Presence:** Exceeds **25%** of the corporation’s total property, payroll, or sales.\n* **Corporate Partners:** A corporation holding an interest directly or indirectly in a partnership has Maine nexus if the partnership is organized or commercially domiciled in Maine, or if the partnership’s property, payroll, or sales in Maine exceed any of the above factor-presence thresholds.\n* **Official URLs:**\n  * Maine State Legislature (36 M.R.S. § 5200-B): https://legislature.maine.gov/statutes/36/title36sec5200-B.html\n  * Maine Revenue Services Corporate Income Tax FAQ: https://www.maine.gov/revenue/taxes/corporate-income-tax/faq\n  * Maine Revenue Services Form 1120ME Instructions: https://www.maine.gov/revenue/taxes/corporate-income-tax/forms-instructions\n\n---\n\n### 2. Remote Seller Economic Nexus Threshold & Measurement Period\n\n* **Applicable Tax Years:** 2025 and 2026 (threshold applies unchanged across both years).\n* **Sales Threshold:** Gross sales from delivery of tangible personal property, products transferred electronically, or taxable services into Maine exceeds **$100,000**.\n* **Transaction Count:** **None.** The previous 200-separate-transaction threshold was repealed (PL 2021, c. 181, Pt. B, § 5); current statute and MRS guidance mandate registration solely based on exceeding the $100,000 gross sales threshold.\n* **Measurement Period:** The **previous calendar year** or the **current calendar year**.\n* **Official URLs:**\n  * Maine State Legislature (36 M.R.S. § 1754-B): https://legislature.maine.gov/statutes/36/title36sec1754-B.html\n  * Maine Revenue Services Sales and Use Tax FAQ: https://www.maine.gov/revenue/taxes/sales-use-service-provider-tax/faq\n  * Maine Revenue Services Guidance for Remote Sellers: https://www.maine.gov/revenue/taxes/sales-use-service-provider-tax/guidance-remote-sellers\n  * Maine Revenue Services Marketplace FAQ: https://www.maine.gov/revenue/taxes/sales-use-service-provider-tax/marketplace-faq\n\n---\n\n### 3. State's Position on P.L. 86-272 Protection\n\n* **Applicable Tax Years:** 2025 and 2026 (applies unchanged).\n* **Stated Position:**\n  * **Interplay with Factor-Presence Nexus:** Maine statute expressly provides that a corporation protected from state net income taxation by 15 U.S.C. §§ 381–384 (P.L. 86-272) does not gain nexus simply because its property, payroll, or sales exceed the objective factor-presence thresholds (36 M.R.S. § 5200-B(4)).\n  * **Scope of Protection:** Under MRS Rule 808 (Corporate Income Tax Nexus), Section .04, and Form 1120ME instructions, a foreign corporation is exempt from Maine income tax if its sole activity in Maine is the solicitation of orders for sales of tangible personal property, provided the orders are sent outside Maine for approval/rejection and filled by shipment or delivery from a point outside Maine.\n  * **Filing Requirement:** Corporations claiming protection file Form 1120ME with the P.L. 86-272 exemption box checked and report zero Maine apportionable net income.\n  * **MTC Internet Activities Guidance Adoption:** **Not found** on official MRS publications or rules (Maine has not officially adopted the revised MTC statement on P.L. 86-272 and internet activities on its revenue agency website).\n* **Official URLs:**\n  * Maine State Legislature (36 M.R.S. § 5200-B): https://legislature.maine.gov/statutes/36/title36sec5200-B.html\n  * Maine Revenue Services Rule 808 (Corporate Income Tax Nexus): https://www.maine.gov/revenue/publications/rules\n  * Maine Revenue Services Corporate Income Tax Form 1120ME Instructions: https://www.maine.gov/revenue/taxes/corporate-income-tax/forms-instructions",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Under Maine's factor-presence nexus standard, a corporation has nexus if it is organized or commercially domiciled in Maine, or if its Maine property exceeds $250,000, payroll exceeds $250,000, sales exceed $500,000, or 25% of its total property, payroll, or sales are in Maine. General nexus is also created by doing business or owning/using property in Maine to the fullest extent permitted by federal law.",
+    "source_url": "https://legislature.maine.gov/statutes/36/title36sec5200-B.html",
+    "evidence": [
+     "property in this State exceeds $250,000",
+     "payroll in this State exceeds $250,000",
+     "sales in this State exceeds $500,000",
+     "commercially domiciled in this State"
+    ],
+    "accepted": false,
+    "reason": "figures not on legislature.maine.gov: ['25']; evidence not on www.maine.gov (0/4); figures not on www.maine.gov: ['25', '250000', '500000']; figures not on www.maine.gov: ['250000', '500000']; figures not on legislature.maine.gov: ['25', '250000', '500000']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "A remote seller establishes economic nexus if its gross sales from the delivery of tangible personal property, products transferred electronically, or taxable services into Maine exceed $100,000 in the previous or current calendar year. There is no transaction count threshold.",
+    "source_url": "https://legislature.maine.gov/statutes/36/title36sec1754-B.html",
+    "evidence": [
+     "gross sales",
+     "exceeds $100,000",
+     "previous calendar year",
+     "current calendar year"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://legislature.maine.gov/statutes/36/title36sec1754-B.html",
+    "matched_title": "Title 36, §1754-B: Registration of sellers",
+    "matched_phrases": [
+     "gross sales",
+     "exceeds $100,000",
+     "previous calendar year",
+     "current calendar year"
+    ],
+    "snippet": "Every person that makes sales of tangible personal property or taxable services in this State if the person's gross sales from delivery of tangible personal property or taxable services into this State in the previous calendar year or current calendar year exceeds $100,000;"
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Maine statute expressly provides that a corporation protected under P.L. 86-272 does not establish nexus simply by exceeding the state's factor-presence nexus thresholds. Protection applies if the corporation's in-state activities are limited to the solicitation of orders for sales of tangible personal property sent outside Maine for approval and filled from outside the state.",
+    "source_url": "https://legislature.maine.gov/statutes/36/title36sec5200-B.html",
+    "evidence": [
+     "15 United States Code",
+     "Sections 381 to 384",
+     "solicitation of orders",
+     "tangible personal property"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/24_1120me_all_instructions.pdf",
+    "matched_title": "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/24_1120me_all_instructions.pdf",
+    "matched_phrases": [
+     "solicitation of orders",
+     "tangible personal property"
+    ],
+    "snippet": "86-272 restricts a state’s tax jurisdiction with respect to sales solicitation activities only if the taxpayer’s activity is limited to solicitation of orders for the sale of tangible personal property."
+   }
+  ],
+  "grounding_urls": [
+   "https://www.maine.gov/revenue/faq/corporate-income-tax",
+   "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/24_1120me_all_instructions.pdf",
+   "https://www.maine.gov/revenue/taxes/income-estate-tax/corporate-income-tax-1120me",
+   "https://www.maine.gov/REVENUE/publications/alerts/2008/Feb2008Vol18Iss2.htm",
+   "https://legislature.maine.gov/statutes/36/title36sec5200-B.html",
+   "https://www.maine.gov/revenue/taxes/sales-use-service-provider-tax/guidance-documents/remote-sellers",
+   "https://www.maine.gov/revenue/faq/marketplace",
+   "https://legislature.maine.gov/statutes/36/title36sec1754-B.html",
+   "https://www.maine.gov/revenue/faq/sales-use-service-provider-tax",
+   "https://legislature.maine.gov/statutes/36/title36sec1754-B.html",
+   "https://www.maine.gov/REVENUE/rules/pdf/rule808.pdf",
+   "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/Corporate_Tax_Data_Report.pdf",
+   "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/22_1120me_ff.pdf",
+   "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/1996jul.pdf",
+   "https://www.maine.gov/REVENUE/publications/alerts/2008/Feb2008Vol18Iss2.htm",
+   "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/2000jan.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "ME",
+  "section": "rates",
+  "notes": "### Individual Income Tax Rates and Brackets\n\n* **Tax Year 2025:** Maine imposes a graduated individual income tax with three statutory brackets: **5.8%**, **6.75%**, and **7.15%**. The 2025 inflation-adjusted brackets are as follows:\n  * **Single and Married Filing Separately:**\n    * Less than $26,800: 5.8% of Maine taxable income\n    * $26,800 to $63,449: $1,554 plus 6.75% of the excess over $26,800\n    * $63,450 or more: $4,028 plus 7.15% of the excess over $63,450\n  * **Head of Household:**\n    * Less than $40,200: 5.8% of Maine taxable income\n    * $40,200 to $95,149: $2,332 plus 6.75% of the excess over $40,200\n    * $95,150 or more: $6,041 plus 7.15% of the excess over $95,150\n  * **Married Filing Jointly and Surviving Spouses:**\n    * Less than $53,600: 5.8% of Maine taxable income\n    * $53,600 to $126,899: $3,109 plus 6.75% of the excess over $53,600\n    * $126,900 or more: $8,057 plus 7.15% of the excess over $126,900\n* **Tax Year 2026:** The statutory rates of 5.8%, 6.75%, and 7.15% continue to apply under 36 M.R.S. § 5111, subject to annual inflation indexing under 36 M.R.S. § 5403. The specific 2026 inflation-adjusted dollar brackets are **not found** on the agency website at this time.\n* **Official Sources:**\n  * Maine Revenue Services 2025 Individual Income Tax Rate Schedules: https://www.maine.gov/revenue/sites/maine.gov.revenue/files/2026-02/25_sched.pdf\n  * Maine Revenue Services Individual Income Tax Page: https://www.maine.gov/revenue/taxes/income-estate-tax/individual-income-tax-1040me\n  * Maine Revised Statutes Title 36, § 5111: https://legislature.maine.gov/statutes/36/title36sec5111.html\n\n---\n\n### Corporate Income Tax Rates and Minimum Tax\n\n* **Rates (Tax Years 2025 and 2026):** Maine imposes a graduated corporate income tax on Maine net income (adjusted federal taxable income apportioned to Maine) under 36 M.R.S. § 5200; the bracket structure did not change between 2025 and 2026:\n  * $0 to $350,000: **3.5%**\n  * $350,001 to $1,050,000: **$12,250 plus 7.93%** of the excess over $350,000\n  * $1,050,001 to $3,500,000: **$67,760 plus 8.33%** of the excess over $1,050,000\n  * Over $3,500,000: **$271,840 plus 8.93%** of the excess over $3,500,000\n* **Minimum Tax:** None. Maine does not impose a minimum corporate tax; the corporate alternative minimum tax was repealed for tax years beginning on or after January 1, 2018 (Form 1120ME, Schedule B).\n* **Official Sources:**\n  * Maine Revenue Services Corporate Income Tax (Form 1120W-ME): https://www.maine.gov/revenue/sites/maine.gov.revenue/files/2025-04/25_1120w_me.pdf\n  * Maine Revenue Services Corporate Income Tax Page: https://www.maine.gov/revenue/taxes/income-estate-tax/corporate-income-tax-1120me\n  * Maine Revised Statutes Title 36, § 5200: https://legislature.maine.gov/statutes/36/title36sec5200.html\n\n---\n\n### State Sales and Use Tax Rate & Local Jurisdictions\n\n* **State Sales and Use Tax Rates (Tax Years 2025 and 2026):**\n  * **General Sales and Use Tax Rate:** **5.5%** for both 2025 and 2026.\n  * *Selective statutory rates:* Prepared food is taxed at **8%**; lodging rentals at **9%**; short-term automobile rentals at **10%**. Adult-use cannabis sales were taxed at **10%** in 2025 and increased to **14%** effective January 1, 2026.\n* **Local Jurisdictions:** Local jurisdictions do not add sales or use taxes. Maine operates a single statewide sales tax with no local sales and use taxes.\n* **Official Sources:**\n  * Maine Revenue Services Sales and Use Tax Rates & Due Dates: https://www.maine.gov/revenue/taxes/sales-use-service-provider-tax/rates-due-dates\n  * Maine Revised Statutes Title 36, § 1811: https://legislature.maine.gov/statutes/36/title36sec1811.html\n\n---\n\n### Gross Receipts, Franchise, Margin, or Other Notable Business Taxes\n\n* **Gross Receipts / Margin Tax:** Maine does not impose a general gross receipts tax or margin tax on general business entities.\n* **Financial Institution Franchise Tax (Tax Years 2025 and 2026):** Imposed on banks and other financial institutions operating in Maine under 36 M.R.S. c. 819 (Form 1120B-ME). Institutions choose between two calculation options:\n  * *Option 1:* **1%** of Maine net income plus **0.008%** of Maine assets.\n  * *Option 2:* **0.039%** of Maine assets only.\n* **Service Provider Tax:** Imposed at **6%** on the gross value/sales price of certain enumerated services (e.g., cable/satellite television, fabrication, video and furniture rentals) for tax year 2025; **repealed effective January 1, 2026** (transferred and integrated into the general Sales and Use Tax law under P.L. 2025, c. 388, Pt. G).\n* **Official Sources:**\n  * Maine Revenue Services Franchise Tax (1120B-ME): https://www.maine.gov/revenue/taxes/income-estate-tax/franchise-tax-1120b-me\n  * Maine Revenue Services Sales, Use & Service Provider Tax: https://www.maine.gov/revenue/taxes/sales-use-service-provider-tax/rates-due-dates\n  * Maine Revenue Services 2025 Legislative Changes Summary: https://www.maine.gov/revenue/sites/maine.gov.revenue/files/2025-09/2025_Leg_Changes_Summary.pdf",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025
+    ],
+    "value": "Maine imposes a graduated individual income tax with statutory rates of 5.8%, 6.75%, and 7.15%. For single filers in 2025, brackets apply at 5.8% up to $26,800, 6.75% from $26,800 to $63,449, and 7.15% for $63,450 or more.",
+    "source_url": "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/2026-02/25_sched.pdf",
+    "evidence": [
+     "tax rate schedules",
+     "taxable income",
+     "5.8% of Maine"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.maine.gov/revenue/sites/maine.gov.revenue/files/2026-02/25_sched.pdf; figures not on www.maine.gov: ['63449']; figures not on legislature.maine.gov: ['63449']; figures not on www.maine.gov: ['26800', '63449', '63450']; figures not on legislature.maine.gov: ['26800', '63449', '63450']; figures not on legislature.maine.gov: ['26800', '5.8', '6.75', '63449', '63450', '7.15']; figures not on www.maine.gov: ['26800', '6.75', '63449', '63450']; figures not on www.maine.gov: ['2",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Maine levies a graduated corporate income tax on Maine net income with rates of 3.5%, 7.93%, 8.33%, and 8.93%. The state imposes no minimum corporate tax.",
+    "source_url": "https://www.maine.gov/revenue/taxes/income-estate-tax/corporate-income-tax-1120me",
+    "evidence": [
+     "corporate income tax",
+     "Maine net income",
+     "tax rates"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://legislature.maine.gov/doc/12723",
+    "matched_title": "https://legislature.maine.gov/doc/12723",
+    "matched_phrases": [
+     "corporate income tax",
+     "Maine net income",
+     "tax rates"
+    ],
+    "snippet": "Corporate tax rates are progressive from 3.5% to 8.93% (see table below)."
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Maine imposes a general state sales and use tax rate of 5.5%. Local jurisdictions do not add local sales or use taxes.",
+    "source_url": "https://www.maine.gov/revenue/taxes/sales-use-service-provider-tax/rates-due-dates",
+    "evidence": [
+     "Sales and Use Tax",
+     "General Sales",
+     "Prepared food"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://legislature.maine.gov/doc/12723",
+    "matched_title": "https://legislature.maine.gov/doc/12723",
+    "matched_phrases": [
+     "Sales and Use Tax",
+     "General Sales",
+     "Prepared food"
+    ],
+    "snippet": "368, Part M increased the tax on sales of prepared food, lodging and liquor sold in bars and restaurants and similar licensed establishments to 8% and the general sales tax to 5.5% from October 1, 2013, to June 30, 2015."
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Maine does not impose a general gross receipts or margin tax, but levies a franchise tax on financial institutions. Institutions pay either 1% of Maine net income plus 0.008% of Maine assets, or alternatively 0.039% of Maine assets.",
+    "source_url": "https://www.maine.gov/revenue/taxes/income-estate-tax/franchise-tax-1120b-me",
+    "evidence": [
+     "financial institutions",
+     "Maine net income",
+     "Maine assets"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.maine.gov/revenue/taxes/income-estate-tax/franchise-tax-1120b-me",
+    "matched_title": "Franchise Tax (1120B-ME) | Maine Revenue Services",
+    "matched_phrases": [
+     "financial institutions",
+     "Maine assets"
+    ],
+    "snippet": "Option 1 is a two-part tax consisting of 1% of Maine income and 0.008% of Maine assets."
+   }
+  ],
+  "grounding_urls": [
+   "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/ind_tax_rate_sched_2025.pdf",
+   "https://legislature.maine.gov/doc/12723",
+   "https://www.maine.gov/revenue/taxes/income-estate-tax/fiduciary-income-tax-1041me",
+   "https://legislature.maine.gov/statutes/36/title36sec5111.html",
+   "https://legislature.maine.gov/statutes/36/title36sec5403.html",
+   "https://www.maine.gov/revenue/taxes/income-estate-tax/individual-income-tax-1040me",
+   "https://legislature.maine.gov/statutes/36/title36sec5111.html",
+   "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/25_1120w.pdf",
+   "https://legislature.maine.gov/statutes/36/title36sec5200.html",
+   "https://www.maine.gov/REVENUE/forms/corporate/2019/19_1120meFF.pdf",
+   "https://www.maine.gov/revenue/taxes/income-estate-tax/corporate-income-tax-1120me",
+   "https://www.maine.gov/revenue/taxes/sales-use-service-provider-tax/rates-due-dates",
+   "https://legislature.maine.gov/testimony/resources/TAX20240109Allen133492899198905797.pdf",
+   "https://www.legislature.maine.gov/statutes/36/title36ch921.pdf",
+   "https://www.maine.gov/revenue/taxes/income-estate-tax/franchise-tax-1120b-me",
+   "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/22_1120b_instructions.pdf",
+   "https://legislature.maine.gov/doc/11167",
+   "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/legischange25_1.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "ME",
+  "section": "filing",
+  "notes": "### 1. Individual Income Tax Return Due Dates and Extensions\n\n* **Due Date:** Calendar-year individual income tax returns are due on **April 15** following the close of the tax year (e.g., April 15, 2026 for tax year 2025, and April 15, 2027 for tax year 2026).\n* **Automatic Extension:** Maine allows an automatic **six-month extension** to file (moving the filing deadline to October 15). No application form is required to obtain this automatic extension. \n* **Extension to Pay:** An extension of time to file is not an extension to pay. Any tax liability must be paid by the original April 15 due date to avoid late payment penalties and interest. Taxpayers remitting payment by mail use **Form 1040EXT-ME** (Extension Payment Voucher for Individual Income Tax) or make payments electronically via the Maine Tax Portal.\n* **Additional Time Beyond Six Months:** Requests for an extension beyond six months must be submitted in writing prior to expiration of the six-month period; total extension time generally cannot exceed **8 months**.\n* **Applicability:** Applies to both Tax Years 2025 and 2026.\n* **Official Sources:**\n  * Maine Revenue Services (MRS) List of Forms and Due Dates: https://www.maine.gov/revenue/taxes/tax-forms-applications-due-dates/list-forms-and-due-dates\n  * MRS Individual Income Tax FAQ: https://www.maine.gov/revenue/taxes/income-estate-tax/individual-income-tax/faq\n\n---\n\n### 2. Corporate and Pass-Through Entity Return Due Dates and Extension Rules\n\n#### Corporate Income Tax (Form 1120ME)\n* **Due Date:** \n  * **Calendar-year filers:** Due on the **15th day of the 4th month** following the end of the tax year (**April 15**).\n  * **Fiscal-year filers:** Due the 15th day of the 4th month following year-end (except corporations with a fiscal year-end of June 30, which are due on **September 15**).\n* **Extension Rules:** Maine allows an automatic filing extension equal to any federal extension plus 30 days, or **7 months**, whichever expires later. No state extension request form is required. At least **90%** of the tax due must be remitted by the original due date using **Form 1120EXT-ME** or via the Maine Tax Portal to avoid penalties.\n* **Applicability:** Applies to both Tax Years 2025 and 2026.\n* **Official Sources:**\n  * MRS Corporate Income Tax FAQ: https://www.maine.gov/revenue/taxes/income-estate-tax/corporate-income-tax/faq\n  * MRS Corporate Income Tax Form 1120ME Instructions: https://www.maine.gov/revenue/taxes/income-estate-tax/corporate-income-tax\n\n#### Pass-Through Entities (General / Information Reporting & Withholding)\n* **General PTE Filing:** Maine does not mandate a separate informational partnership return (equivalent to federal Form 1065 or 1120-S) unless the entity has nonresident owners, files a composite return, or participates in the elective PTET.\n* **Pass-Through Entity Withholding Return (Form 941P-ME):** \n  * Due **March 15** following the end of the calendar year (March 16 when March 15 falls on a weekend).\n  * **Extension:** An IRS extension for federal Form 1065 or 1120-S automatically extends Form 941P-ME for an equivalent period (generally up to **6 months**, maximum **8 months**). Extension payments are due March 15 and remitted using voucher **Form 901ES-ME**.\n* **Composite Returns (Form 1040C-ME):** \n  * Due on or before **April 15** (the 15th day of the 4th month following year-end).\n  * Automatic **6-month extension** allowed; extension payments are remitted via **Form 1040C-EXT-ME**.\n* **Elective Pass-Through Entity Tax (PTET):** \n  * For electing entities starting in tax year 2026, the annual return and tax are due on the **15th day of the 3rd month** after year-end (**March 15**). A valid extension preserves the election window.\n* **Applicability:** Applies to Tax Years 2025 and 2026 (except PTET return rules, which take effect for tax year 2026).\n* **Official Sources:**\n  * MRS Pass-Through Entity Withholding (941P-ME) and Returns: https://www.maine.gov/revenue/taxes/income-estate-tax/pass-through-entity-withholding\n  * Form 941P-ME Instructions: https://www.maine.gov/revenue/taxes/income-estate-tax/pass-through-entity-withholding/tax-forms/2025\n  * Form 1040C-ME Instructions: https://www.maine.gov/revenue/taxes/income-estate-tax/pass-through-entity-withholding/tax-forms/2025\n\n---\n\n### 3. Elective Pass-Through Entity Tax (PTET)\n\n* **Existence and Effective Date:** \n  * **Tax Year 2025:** Did not exist.\n  * **Tax Year 2026:** **Enacted** for tax years beginning on or after **January 1, 2026** (36 M.R.S. Chapter 815, Subchapter 3; P.L. 2025, c. 650, Pt. N; P.L. 2025, c. 752).\n* **Tax Rate:** Equal to the distributive share of income of all qualified members multiplied by the highest marginal individual income tax rate, which is **7.15%**.\n* **Election Mechanism & Timing:**\n  * The election is made **annually directly on the PTET return** (not via a separate upfront online opt-in).\n  * The original return and tax payment are due on the **15th day of the third month** after the tax year ends (March 15).\n  * A valid extension preserves the election window; the election becomes irrevocable after the applicable extended due date.\n* **Member Credit:** Qualified members (individuals, trusts, estates) receive a **90% refundable income tax credit** for their distributive share of the entity tax paid.\n* **Official Sources:**\n  * MRS 2026 Income Tax Law Changes Guidance: https://www.maine.gov/revenue/sites/maine.gov.revenue/files/2026-07/2026_income_tax_law_changes.pdf\n  * MRS Pass-Through Entity Tax Symposium Materials: https://www.maine.gov/revenue/sites/maine.gov.revenue/files/2026-09/pass_through_entity_tax.pdf\n\n---\n\n### 4. Composite or Group Nonresident Returns for Pass-Through Entities\n\n* **Rules and Eligibility:** \n  * A pass-through entity may file a composite individual income tax return on behalf of two or more qualifying nonresident individual members on **Form 1040C-ME** (pursuant to 36 M.R.S. § 5192(5) and MRS Rule 805).\n  * Each participating nonresident member must sign and provide written authorization to the entity using **Form 941CF-ME** (*Nonresident Member Agreement to Participate in a Composite Filing of Maine Income Tax*), which the entity must retain on file.\n  * Eligible owners included in a composite return are exempt from standard PTE withholding, provided the entity lists them on **Schedule 3P** of Form 941P-ME and makes required estimated payments.\n* **Due Date & Extension:** Due on the **15th day of the fourth month** following year-end (**April 15** for calendar-year filers), with an automatic **6-month extension** to file.\n* **Applicability:** Applies to both Tax Years 2025 and 2026.\n* **Official Sources:**\n  * MRS Rule 805 (Composite Filing): https://www.maine.gov/revenue/rules/\n  * Form 1040C-ME Instructions: https://www.maine.gov/revenue/taxes/income-estate-tax/pass-through-entity-withholding/tax-forms/2025\n\n---\n\n### 5. Estimated Tax Payment Requirements and Nonresident Withholding for Pass-Throughs\n\n#### Individual Estimated Tax Requirements\n* **Threshold:** Estimated payments are required if the taxpayer's estimated Maine income tax liability (after withholding and allowable credits) is **$1,000 or more**, and the prior year's tax liability was also **$1,000 or more** (36 M.R.S. § 5228).\n* **Safe Harbor Calculations:** Total payments must equal at least the lesser of:\n  * **100%** of the prior year's tax liability (for a 12-month year); or\n  * **90%** of the current year's tax liability.\n* **Due Dates:** Paid in 4 equal installments on **April 15, June 15, September 15, and January 15** of the following year (using voucher **Form 1040ES-ME** or online).\n* **Special Rule:** An exception exists for \"unusual event income\" (non-wage Maine taxable income exceeding that of the same period in the prior year by $500,000 or more).\n\n#### Pass-Through Entity Nonresident Withholding (Form 941P-ME)\n* **Withholding Requirement:** Pass-through entities doing business in Maine or deriving Maine-source income must withhold tax from nonresident owners' allocable Maine-source income (36 M.R.S. § 5250-B; MRS Rule 803).\n* **Withholding Rates:** \n  * **7.15%** for non-corporate nonresident members (individuals, trusts, estates).\n  * **8.93%** for nonresident members taxed as C corporations.\n* **Estimated Payments:** If the entity is required to withhold more than **$1,000** in aggregate from nonresident members for the year, it must make quarterly estimated payments equal to **25%** of the lesser of:\n  * **90%** of the current year's required withholding; or\n  * **100%** of the prior year's required withholding.\n* **Estimated Due Dates:** Quarterly installments are due **April 30, July 31, October 31, and January 31**, remitted using voucher **Form 901ES-ME** or electronically via the Maine Tax Portal.\n* **Composite Group Estimated Tax:** An entity filing Form 1040C-ME must make quarterly estimated payments using voucher **Form 1040C-ES-ME** if aggregate composite tax liability is expected to exceed **$1,000**.\n* **Applicability:** Applies to both Tax Years 2025 and 2026.\n* **Official Sources:**\n  * MRS Title 36, § 5228: https://legislature.maine.gov/statutes/36/title36sec5228.html\n  * MRS Rule 803 (Pass-Through Entity Withholding): https://www.maine.gov/revenue/rules/\n  * MRS Pass-Through Withholding FAQ: https://www.maine.gov/revenue/taxes/income-estate-tax/pass-through-entity-withholding/faq\n\n---\n\n### 6. Main Return Forms\n\n| Tax Type | Primary Return Form | Key Associated Schedules & Vouchers |\n| :--- | :--- | :--- |\n| **Individual Income Tax** | **Form 1040ME** | • **Form 1040ES-ME** (Estimated Payments)<br>• **Form 1040EXT-ME** (Extension Payment Voucher)<br>• **Form 1040ME-PV** (Payment Voucher for E-filed Returns)<br>• **Schedule NR / NRH** (Nonresident / Part-Year Allocation) |\n| **Corporate Income Tax** | **Form 1120ME** | • **Form 1120ES-ME** (Estimated Payments)<br>• **Form 1120EXT-ME** (Extension Payment Voucher)<br>• **Form CR** (Combined Report for Unitary Members) |\n| **Pass-Through Entity Withholding** | **Form 941P-ME** | • **Schedule 1P** (Entity Apportionment)<br>• **Schedule 2P** (Withholding Listing)<br>• **Schedule 3P** (List of Exempt Members)<br>• **Form 901ES-ME** (Quarterly & Extension Withholding Payment Voucher)<br>• **Form 1099ME** (Summary of Amounts Withheld From Member) |\n| **Nonresident Composite Return** | **Form 1040C-ME** | • **Schedule 1040C-ME-1** (Listing of Owners Participating)<br>• **Form 1040C-ES-ME** (Estimated Payment Voucher)<br>• **Form 1040C-EXT-ME** (Extension Payment Voucher)<br>• **Form 941CF-ME** (Nonresident Agreement to Participate) |\n| **Elective Pass-Through Entity Tax (PTET)** *(TY 2026+)* | **PTET Return** (Filed electronically via Maine Tax Portal) | • PTET Member Statements / Reports<br>• PTET Estimated Payments (via Maine Tax Portal) |\n\n* **Official Sources:**\n  * MRS Individual Forms: https://www.maine.gov/revenue/taxes/income-estate-tax/individual-income-tax/tax-forms\n  * MRS Corporate Forms: https://www.maine.gov/revenue/taxes/income-estate-tax/corporate-income-tax/tax-forms\n  * MRS Pass-Through Forms: https://www.maine.gov/revenue/taxes/income-estate-tax/pass-through-entity-withholding/tax-forms/2025",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Individual returns for calendar-year filers are due on April 15. Maine grants an automatic six-month extension to file without requiring an application form, but tax payments must be paid by April 15 using Form 1040EXT-ME or online.",
+    "source_url": "https://www.maine.gov/revenue/taxes/income-estate-tax/individual-income-tax/faq",
+    "evidence": [
+     "automatic six-month extension",
+     "Form 1040EXT-ME",
+     "April 15",
+     "Maine Tax Portal"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.maine.gov/revenue/tax-return-forms/due-dates",
+    "matched_title": "List of Forms and Due Dates | Maine Revenue Services",
+    "matched_phrases": [
+     "April 15",
+     "Maine Tax Portal"
+    ],
+    "snippet": "…ue date is the next business day. * These due dates are based on calendar year filers. Income/Estate Tax Individual Income Tax Form Due Date 1040ME, 1040EXT-ME April 15* 1040ES-ME April 15*, June 15*, September 15*, January 15* Amended 1040ME Within 180 days of final federal determination or filing of federal Form 1040-X Income Tax Withholding for Nonresident Seller…"
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Calendar-year corporate returns on Form 1120ME are due April 15, with an automatic filing extension of 7 months or federal plus 30 days provided at least 90% of tax is paid. Pass-through withholding returns on Form 941P-ME are due March 15, while composite returns on Form 1040C-ME are due April 15.",
+    "source_url": "https://www.maine.gov/revenue/taxes/income-estate-tax/corporate-income-tax/faq",
+    "evidence": [
+     "15th day of the 4th month",
+     "7 months",
+     "Form 1120EXT-ME",
+     "90% of the tax due"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.maine.gov/revenue/taxes/income-estate-tax/corporate-income-tax/faq; figures not on www.maine.gov: ['90']; figures not on www.maine.gov: ['941']; figures not on www.maine.gov: ['1120', '30', '941']; figures not on www.maine.gov: ['1040', '941']; figures not on www.maine.gov: ['1120', '15', '30', '7', '90', '941']; figures not on www.maine.gov: ['1040', '15', '30', '7', '90', '941']; figures not on www.maine.gov: ['90', '941']; figures not on www.maine.gov: ['15', '30', '7'",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2025
+    ],
+    "value": "An elective pass-through entity tax did not exist in Maine for tax year 2025.",
+    "source_url": "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/2026-07/2026_income_tax_law_changes.pdf",
+    "evidence": [
+     "tax years beginning on or after",
+     "January 1, 2026",
+     "P.L. 2025, c. 650",
+     "Chapter 815"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.maine.gov/revenue/sites/maine.gov.revenue/files/2026-07/2026_income_tax_law_changes.pdf; evidence not on www.maine.gov (0/4); evidence not on www.maine.gov (1/4); figures not on www.maine.gov: ['2025']; figure not stated beside the evidence on www.maine.gov; evidence not on legislature.maine.gov (0/4)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2026
+    ],
+    "value": "Effective for tax years beginning on or after January 1, 2026, an elective PTET is available at a 7.15% rate on qualified members' distributive share. The annual election is made directly on the PTET return due March 15, yielding a 90% refundable credit for members.",
+    "source_url": "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/2026-07/2026_income_tax_law_changes.pdf",
+    "evidence": [
+     "January 1, 2026",
+     "7.15%",
+     "90% refundable income tax credit",
+     "third month"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/25_941p_instructions.pdf",
+    "matched_title": "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/25_941p_instructions.pdf",
+    "matched_phrases": [
+     "January 1, 2026",
+     "7.15%"
+    ],
+    "snippet": "Interest and penalties Beginning January 1, 2026, the interest rate is 9% per annum, compounded monthly."
+   },
+   {
+    "key": "composite",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "A pass-through entity may file a composite return on Form 1040C-ME for two or more qualifying nonresident individuals with signed Form 941CF-ME authorizations. Form 1040C-ME is due on April 15, with an automatic 6-month filing extension available.",
+    "source_url": "https://www.maine.gov/revenue/taxes/income-estate-tax/pass-through-entity-withholding/tax-forms/2025",
+    "evidence": [
+     "Form 1040C-ME",
+     "Form 941CF-ME",
+     "composite return",
+     "Schedule 3P"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/25_1040c_me_instructions.pdf",
+    "matched_title": "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/25_1040c_me_instructions.pdf",
+    "matched_phrases": [
+     "Form 1040C-ME",
+     "Form 941CF-ME",
+     "composite return",
+     "Schedule 3P"
+    ],
+    "snippet": "Who may be included in a composite return? A partnership/S corporation may file a composite return on behalf of its partners or shareholders who are eligible persons that have obtained a Nonresident Member Affidavit and Agreement to Participate in a Composite Filing of Maine Income Tax (Form 941CF-ME.) An “eligible person” is:"
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Estimated payments are required for individuals if tax liability is $1,000 or more, payable in four installments based on 100% of prior-year or 90% of current-year tax. Pass-through entities withholding over $1,000 must make quarterly payments by April 30, July 31, October 31, and January 31 at 7.15% for non-corporate members and 8.93% for corporate members.",
+    "source_url": "https://www.maine.gov/revenue/taxes/income-estate-tax/pass-through-entity-withholding/faq",
+    "evidence": [
+     "7.15%",
+     "8.93%",
+     "Form 901ES-ME",
+     "Form 941P-ME"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.maine.gov/revenue/taxes/income-estate-tax/pass-through-entity-withholding/faq; figures not on www.maine.gov: ['100', '1000', '7.15', '8.93', '90']; figures not on www.maine.gov: ['8.93']; figures not on www.maine.gov: ['100', '30', '7.15', '8.93']; figures not on www.maine.gov: ['31', '7.15']; figures not on www.maine.gov: ['100', '1000', '30', '31', '7.15', '8.93']; figures not on www.maine.gov: ['100', '1000', '31', '7.15', '90']; figures not on www.maine.gov: ['100', '",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Main forms include Form 1040ME for individuals, Form 1120ME for corporate income tax, and Form 941P-ME for pass-through entity withholding. Composite filers use Form 1040C-ME.",
+    "source_url": "https://www.maine.gov/revenue/taxes/tax-forms-applications-due-dates/list-forms-and-due-dates",
+    "evidence": [
+     "Form 1040ME",
+     "Form 1120ME",
+     "Form 941P-ME",
+     "Form 1040C-ME"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/25_941p_instructions.pdf",
+    "matched_title": "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/25_941p_instructions.pdf",
+    "matched_phrases": [
+     "Form 1120ME",
+     "Form 941P-ME",
+     "Form 1040C-ME"
+    ],
+    "snippet": "Also, a financial institution organized as a partnership, LLC, or S corporation is not required to file Form 941P-ME (see instructions for Form 1120B-ME available at maine.gov/revenue/ tax-return-forms)."
+   }
+  ],
+  "grounding_urls": [
+   "https://www.maine.gov/revenue/tax-return-forms/due-dates",
+   "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/25_1040me_gen_instr_w_cover_pg.pdf",
+   "https://www.maine.gov/revenue/faq/individual-income-tax",
+   "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/24_1120me_all_instructions.pdf",
+   "https://www.maine.gov/REVENUE/faq/income_faq.html",
+   "https://www.maine.gov/revenue/tax-return-forms/individual-income-tax-2026",
+   "https://www.maine.gov/revenue/tax-return-forms/corporate-income-tax-2025",
+   "https://www.maine.gov/revenue/faq/corporate-income-tax",
+   "https://www.maine.gov/revenue/taxes/income-estate-tax/corporate-income-tax-1120me",
+   "https://www.maine.gov/revenue/taxes/income-estate-tax/pass-through-entity-withholding-941p-me-returns",
+   "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/Pass%20Through%20Entity%20Tax%20(PTET)%20Updates.pdf",
+   "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/25_941p_instructions.pdf",
+   "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/25_1040c_me_instructions.pdf",
+   "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/Rule%20805_DRAFT%202-12-24.pdf",
+   "https://www.maine.gov/revenue/tax-return-forms/pass-through-entity-withholding-2025",
+   "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/Pass%20Through%20Entity%20Tax%20(PTET)%20Updates.pdf",
+   "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/legischange26.pdf",
+   "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/legischange26.pdf",
+   "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/Income%20Tax%20Law%20Changes.pdf",
+   "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/Rule%20805_DRAFT%202-12-24.pdf",
+   "https://www.maine.gov/REVENUE/rules/html/Rule80320161008.htm",
+   "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/25_1040c_me_instructions.pdf",
+   "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/21_1040c_me_ff.pdf",
+   "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/26_1040es_fillable.pdf",
+   "https://www.maine.gov/revenue/tax-return-forms/due-dates",
+   "https://www.maine.gov/REVENUE/faq/ptwith_faq.html",
+   "https://www.maine.gov/REVENUE/rules/html/Rule80320161008.htm",
+   "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/23_1040c_me_instructions.pdf",
+   "https://legislature.maine.gov/statutes/36/title36sec5228.html",
+   "https://www.maine.gov/revenue/faq/passthrough-entity-withholding",
+   "https://www.maine.gov/REVENUE/faq/covid19_faq.html",
+   "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/24_941p_downloadable_ff.pdf",
+   "https://www.maine.gov/revenue/publications/maine-tax-alerts/2026-2028",
+   "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/Pass%20Through%20Entity%20Tax%20(PTET)%20Updates.pdf"
+  ],
+  "error": ""
+ }
+]

@@ -1,0 +1,40 @@
+{
+  "id": "adv-duplicate-w2",
+  "tax_year": 2025,
+  "kind": "adversarial",
+  "source": {
+    "workpaper": "synthetic:duplicate-w2",
+    "filed_return": "none - invented"
+  },
+  "inputs": [
+    {
+      "field": "wages",
+      "amount": "52340.00",
+      "verified": true
+    },
+    {
+      "field": "federal_withheld_w2",
+      "amount": "6120.00",
+      "verified": true
+    }
+  ],
+  "lines": [
+    {
+      "node": "f1040.l1a",
+      "amount": "52340",
+      "verified": true
+    },
+    {
+      "node": "f1040.l25a",
+      "amount": "6120",
+      "verified": true
+    }
+  ],
+  "expected_flags": [
+    {
+      "kind": "review_item",
+      "match": "duplicate"
+    }
+  ],
+  "notes": "The same W-2 twice. Wages must be counted once, and the dropped duplicate must be surfaced to a reviewer, not only logged."
+}

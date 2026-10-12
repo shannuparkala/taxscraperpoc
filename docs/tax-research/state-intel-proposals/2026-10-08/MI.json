@@ -1,0 +1,512 @@
+[
+ {
+  "state": "MI",
+  "section": "apportionment",
+  "notes": "### 1. Apportionment Formula\n* **Fact:** Michigan uses a **single sales factor** (100% sales factor) to apportion multistate business income. The sales factor is a fraction consisting of Michigan sales in the numerator divided by total sales everywhere in the denominator.\n* **Statutory Basis:** MCL § 206.661(2); MCL § 206.663(1). *(See also Revenue Administrative Bulletin (RAB) 2024-24).*\n* **Applicable Tax Years:** Tax years 2025 and 2026 (no change between years).\n* **Official URL:** \n  * https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-206-661\n  * https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-206-663\n\n---\n\n### 2. Sourcing of Services and Intangibles\n* **Fact:** \n  * **Corporate Income Tax (CIT - Part 2):** Uses **market-based sourcing**.\n    * *Services:* Receipts from the performance of services are sourced to Michigan if the recipient of the services receives all of the benefit in Michigan, or pro rata to the extent the recipient receives the benefit of the service in Michigan (MCL § 206.665(2)(a)).\n    * *Intangibles:* Royalties and income received for the use of or the privilege of using intangible property are attributed to the state in which the property is used by the purchaser in the regular course of its business operations (MCL § 206.665(1)(e)).\n  * *Note on Individual Income Tax & Electing Flow-Through Entities (Part 1):* Sourcing of services and intangibles for individual business income and flow-through entity tax under Part 1 remains based on **costs of performance** (MCL § 206.123).\n* **Applicable Tax Years:** Tax years 2025 and 2026 (no change between years).\n* **Official URL:** \n  * https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-206-665\n\n---\n\n### 3. Special Industry Apportionment Formulas\n* **Fact:** Special statutory rules and apportionment methods apply to specific industries:\n  * **Financial Institutions:** Apportion their net capital franchise tax base using a single **gross business factor** (Michigan gross business divided by total gross business everywhere) under Chapter 13 (MCL § 206.657; MCL § 206.659).\n  * **Insurance Companies:** Subject to tax directly on gross direct premiums written on property or risk located or to be performed in Michigan; they do not use standard apportionment (MCL § 206.635).\n  * **Transportation Services:** Receipts are apportioned based on specialized ratios under MCL § 206.665(11)–(14):\n    * *Carriers (passengers/freight):* Sourced based on the ratio of revenue miles in Michigan to revenue miles everywhere.\n    * *Oil pipeline transportation:* Sourced based on the ratio of barrel miles in Michigan to barrel miles everywhere (MCL § 206.665(1)(d)).\n    * *Gas pipeline transportation:* Sourced based on the ratio of thousand-cubic-feet miles (or MMBtu miles) in Michigan to everywhere (MCL § 206.665(1)(e)).\n* **Applicable Tax Years:** Tax years 2025 and 2026 (no change between years).\n* **Official URL:** \n  * https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-206-657\n  * https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-206-635\n  * https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-206-665\n\n---\n\n### 4. Forms and Schedules Used to Compute Apportionment\n* **Fact:** \n  * **Standard C-Corporations:** Apportionment is computed directly on **Form 4891** (*Corporate Income Tax Annual Return*), Lines 9a–9e (\"Apportionment Calculation\"). \n    * Unitary Business Groups (UBGs) compile member apportionment data on **Form 4897**.\n    * Unitary flow-through entities report sales on **Form 4900**.\n  * **Financial Institutions:** Apportionment (gross business factor) is computed on **Form 4908** (*Corporate Income Tax Annual Return for Financial Institutions*), Line 9 (supported by Form 4910 for UBGs).\n  * **Insurance Companies:** Report directly on **Form 4905** (*Insurance Company Annual Return for Michigan Corporate Income and Retaliatory Taxes*).\n  * **Electing Flow-Through Entities (PTE Tax):** Apportionment is computed on **Form 5772** (*Michigan Flow-Through Entity Tax Annual Return*), Part 1.\n  * **Individuals with Multistate Business Income:** Apportionment is computed on **Schedule MI-1040H** (*Schedule of Apportionment*).\n* **Applicable Tax Years:** Tax years 2025 and 2026 (no change between years).\n* **Official URL:** \n  * https://www.michigan.gov/taxes/business-taxes/cit",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Michigan uses a single sales factor (100% sales factor) to apportion multistate business income. The sales factor is calculated as Michigan sales divided by total sales everywhere.",
+    "source_url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-206-661",
+    "evidence": [
+     "single sales factor",
+     "total sales everywhere",
+     "numerator divided by"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-206-661; unreadable: https://www.michigan.gov/taxes/rep-legal/rab/2024-revenue-administrative-bulletins/revenue-administrative-bulletin-2024-24; unreadable: https://www.legislature.mi.gov/documents/mcl/pdf/mcl-206-661-amended.pdf; unreadable: https://www.legislature.mi.gov/Home/GetObject?ObjectName=mcl-206-663; unreadable: https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/CIT/TY2025/4891_ty2025.pdf; unreadable: ",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Corporate Income Tax applies market-based sourcing where receipts from services are sourced based on where the recipient receives the benefit and intangibles are sourced where the property is used. Individual business income and electing flow-through entities under Part 1 determine sourcing based on costs of performance.",
+    "source_url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-206-665",
+    "evidence": [
+     "receives the benefit",
+     "performance of services",
+     "regular course of its business"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-206-665; unreadable: https://www.michigan.gov/taxes/rep-legal/rab/2024-revenue-administrative-bulletins/revenue-administrative-bulletin-2024-24; unreadable: https://www.legislature.mi.gov/documents/mcl/pdf/mcl-206-661-amended.pdf; unreadable: https://www.legislature.mi.gov/Home/GetObject?ObjectName=mcl-206-663; unreadable: https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/CIT/TY2025/4891_ty2025.pdf; unreadable: ",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Financial institutions apportion their net capital franchise tax base using a gross business factor, while insurance companies are taxed directly on gross direct premiums written rather than standard apportionment. Transportation services apportion receipts using specialized ratios such as revenue miles, barrel miles, or thousand-cubic-feet miles.",
+    "source_url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-206-657",
+    "evidence": [
+     "gross business factor",
+     "financial institutions",
+     "gross business everywhere"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.michigan.gov/taxes/rep-legal/rab/2019-revenue-administrative-bulletins/revenue-administrative-bulletin-2019-22",
+    "matched_title": "Revenue Administrative Bulletin 2019-22",
+    "matched_phrases": [
+     "gross business factor",
+     "financial institutions"
+    ],
+    "snippet": "are curative and intended to clarify existing law and accurately reflect the interpretation and application of those provisions in accordance with the notice to taxpayers dated November 21, 2016, regarding 5-year averaging calculation of ne",
+    "checked_in": "browser"
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Standard C-corporations compute apportionment on Form 4891, supported by Form 4897 for unitary business groups. Financial institutions use Form 4908, insurance companies use Form 4905, electing flow-through entities file Form 5772, and individuals use Schedule MI-1040H.",
+    "source_url": "https://www.michigan.gov/taxes/business-taxes/cit",
+    "evidence": [
+     "Form 4891",
+     "Corporate Income Tax Annual Return",
+     "Form 4908"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.michigan.gov/taxes/business-taxes/cit; unreadable: https://www.michigan.gov/taxes/rep-legal/rab/2024-revenue-administrative-bulletins/revenue-administrative-bulletin-2024-24; unreadable: https://www.legislature.mi.gov/documents/mcl/pdf/mcl-206-661-amended.pdf; unreadable: https://www.legislature.mi.gov/Home/GetObject?ObjectName=mcl-206-663; unreadable: https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/CIT/TY2025/4891_ty2025.pdf; unreadable: https://legis",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://www.michigan.gov/taxes/rep-legal/rab/2024-revenue-administrative-bulletins/revenue-administrative-bulletin-2024-24",
+   "https://www.legislature.mi.gov/documents/mcl/pdf/mcl-206-661-amended.pdf",
+   "https://www.legislature.mi.gov/Home/GetObject?ObjectName=mcl-206-663",
+   "https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/CIT/TY2025/4891_ty2025.pdf",
+   "https://legislature.mi.gov/documents/2011-2012/billintroduced/Senate/pdf/2011-SIB-0656.pdf",
+   "https://www.michigan.gov/taxes/questions/iit/biz-iit",
+   "https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/MTO/TY2025/5772_ty2025-instructions.pdf",
+   "https://www.legislature.mi.gov/Laws/Index?ObjectName=mcl-chap206",
+   "https://www.michigan.gov/taxes/rep-legal/rab/2019-revenue-administrative-bulletins/revenue-administrative-bulletin-2019-22",
+   "https://www.michigan.gov/taxes/questions/cit/nexus/nexus-apportionment-3--does-the-cit-provide-for-throw-back-sales",
+   "https://www.michigan.gov/taxes/questions/cit",
+   "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-5484.htm",
+   "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-206-665",
+   "https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/CIT/TY2025/4891_ty2025-instructions.pdf",
+   "https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/CIT/TY2018/4900_ty2018.pdf",
+   "https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/CIT/TY2024/4890_ty24.pdf",
+   "https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/CIT/TY2024/4908_ty24.pdf?rev=1e2eb662c806400e940150f80d180cb2&hash=72E92C3FAEADAD6787ECA385F432BD70",
+   "https://www.michigan.gov/taxes/business-taxes/cit/accordion",
+   "https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/MI-1040H.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "MI",
+  "section": "nexus",
+  "notes": "### 1. Income or Franchise Tax Nexus\n\n* **Nexus Standard & Bright-Line / Economic Thresholds:**\n  Under the Michigan Corporate Income Tax (CIT) and the Financial Institution Franchise Tax, a taxpayer has substantial nexus if any of the following apply:\n  1. **Physical Presence:** The taxpayer has a physical presence in Michigan for more than 1 day during the tax year.\n  2. **Economic / Bright-Line Presence:** The taxpayer actively solicits sales in Michigan **and** has gross receipts of **$350,000.00 or more** sourced to Michigan.\n  3. **Flow-Through Interest:** The taxpayer holds an ownership or beneficial interest (directly, or indirectly through one or more flow-through entities) in a flow-through entity that has substantial nexus in Michigan.\n* **Filing Threshold:** Standard taxpayers with apportioned or allocated gross receipts of less than **$350,000** (annualized for tax periods under 12 months) and an annual liability of $100 or less are not required to file a return or pay the tax.\n* **Applicability:** Applies to both tax years **2025 and 2026** (no statutory changes enacted between the two years).\n* **Official Sources:**\n  * Michigan Legislature (MCL 206.621): https://legislature.mi.gov/Laws/MCL?objectName=mcl-206-621\n  * Michigan Department of Treasury (CIT Nexus and Apportionment): https://www.michigan.gov/taxes/business-taxes/cit/detail/nexus-and-apportionment-2\n  * Michigan Department of Treasury (Revenue Administrative Bulletin 2014-5): https://www.michigan.gov/taxes/reference/rab/rab-2014-5\n\n---\n\n### 2. Remote Seller Economic Nexus Threshold (Sales and Use Tax)\n\n* **Threshold Amounts:**\n  A remote seller establishes economic nexus in Michigan if, during the measurement period, it meets either of the following criteria:\n  * Gross sales into Michigan exceeding **$100,000** (including taxable and nontaxable sales); **or**\n  * **200 or more** separate transactions into Michigan (taxable and nontaxable).\n* **Measurement Period:** The **previous calendar year** (e.g., for 2025 nexus, sales and transactions from calendar year 2024 are evaluated; for 2026, calendar year 2025 is evaluated).\n* **Applicability:** Applies to both tax years **2025 and 2026** without change.\n* **Official Sources:**\n  * Michigan Department of Treasury (Remote Seller FAQ): https://www.michigan.gov/taxes/business-taxes/sales-use-tax/remote-sellers/remote-seller-faq\n  * Michigan Department of Treasury (Revenue Administrative Bulletin 2021-21): https://www.michigan.gov/taxes/reference/rab/rab-2021-21\n  * Michigan Legislature (MCL 205.52c & MCL 205.95b): https://legislature.mi.gov/Laws/MCL?objectName=mcl-205-52c\n\n---\n\n### 3. Stated Position on Public Law 86-272 Protection\n\n* **Corporate Income Tax (CIT):**\n  * P.L. 86-272 serves as a **safe harbor**, not an exclusion or exemption from nexus. A business that meets nexus standards is exempt from CIT liability if its only activity in Michigan is the solicitation of orders for sales of tangible personal property sent outside the state for approval and filled from outside the state. Any activity conducted beyond protected solicitation causes the business to forfeit the safe harbor.\n  * Maintaining an internet site through which sales transactions occur with persons in Michigan is classified as \"active solicitation\".\n* **Unitary Business Groups (UBGs):**\n  * If at least one member of a UBG has nexus and exceeds P.L. 86-272 protections, **all** members (including those individually protected under P.L. 86-272) must be included when determining the UBG’s CIT tax base and apportionment formula. P.L. 86-272 only removes income from the UBG tax base if every member is protected.\n* **Financial Institution Franchise Tax:**\n  * P.L. 86-272 **does not apply** to financial institutions subject to the franchise tax under Chapter 13 (MCL 206.653), because the tax is imposed on net capital/equity capital rather than net income.\n* **Non-U.S. Corporations:**\n  * Michigan Department of Treasury administratively extends P.L. 86-272 protections to **non-U.S. corporations and foreign entities**, despite the federal statutory text only mentioning interstate commerce.\n* **Applicability:** Applies to both tax years **2025 and 2026** without change.\n* **Official Sources:**\n  * Michigan Department of Treasury (Revenue Administrative Bulletin 2014-5): https://www.michigan.gov/taxes/reference/rab/rab-2014-5\n  * Michigan Department of Treasury (CIT Nexus FAQs): https://www.michigan.gov/taxes/business-taxes/cit/faq/nexus-and-apportionment\n  * Michigan Department of Treasury (Form 4891 Instructions): https://www.michigan.gov/taxes/business-taxes/cit/forms-instructions/cit-forms-instructions-2024",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Under the Michigan Corporate Income Tax, substantial nexus is established by physical presence for more than 1 day, active solicitation of sales combined with gross receipts of $350,000.00 or more sourced to Michigan, or an ownership interest in a flow-through entity with substantial nexus. Taxpayers with apportioned gross receipts under $350,000 and annual liability of $100 or less are not required to file or pay.",
+    "source_url": "https://legislature.mi.gov/Laws/MCL?objectName=mcl-206-621",
+    "evidence": [
+     "actively solicits sales",
+     "gross receipts of $350,000.00 or more",
+     "more than 1 day",
+     "physical presence"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.michigan.gov/taxes/questions/cit",
+    "matched_title": "Corporate Income Tax",
+    "matched_phrases": [
+     "actively solicits sales",
+     "more than 1 day",
+     "physical presence"
+    ],
+    "snippet": "Under the CIT, a taxpayer “has substantial nexus in this state and is subject to the tax imposed under [the CIT] if the taxpayer has a physical presence in this state for a period of more than 1 day during the tax year, if the taxpayer acti",
+    "checked_in": "browser"
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "A remote seller establishes economic nexus in Michigan if gross sales into the state exceed $100,000 or if the seller has 200 or more separate transactions into Michigan during the previous calendar year. Both taxable and nontaxable sales and transactions are included.",
+    "source_url": "https://www.michigan.gov/taxes/business-taxes/sales-use-tax/remote-sellers/remote-seller-faq",
+    "evidence": [
+     "exceeding $100,000",
+     "200 or more separate transactions",
+     "previous calendar year"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.michigan.gov/taxes/business-taxes/sales-use-tax/information/remote-seller-faq",
+    "matched_title": "Remote Seller FAQ",
+    "matched_phrases": [
+     "exceeding $100,000",
+     "200 or more separate transactions",
+     "previous calendar year"
+    ],
+    "snippet": "What gives a remote seller nexus with Michigan that requires it to register and report and pay sales or use tax to Michigan? A remote seller has nexus with Michigan and is required to report and pay sales or use tax if, in the previous cale",
+    "checked_in": "browser"
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Michigan treats P.L. 86-272 as a safe harbor exempting qualifying businesses from Corporate Income Tax liability rather than excluding them from nexus. The protection does not apply to the financial institution franchise tax, extends administratively to non-U.S. corporations, and cannot be used to exclude individual members from a unitary business group if at least one member lacks protection.",
+    "source_url": "https://www.michigan.gov/taxes/reference/rab/rab-2014-5",
+    "evidence": [
+     "safe harbor",
+     "active solicitation",
+     "Unitary Business Groups",
+     "tangible personal property"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.michigan.gov/taxes/questions/cit",
+    "matched_title": "Corporate Income Tax",
+    "matched_phrases": [
+     "safe harbor",
+     "active solicitation",
+     "Unitary Business Groups",
+     "tangible personal property"
+    ],
+    "snippet": "However, the corporate income tax is limited by federal statutory provisions commonly referred to as PL 86-272, which prohibits Michigan from imposing an income tax if the only in-state business activity of the out-of-state person is the so",
+    "checked_in": "browser"
+   }
+  ],
+  "grounding_urls": [
+   "https://www.michigan.gov/taxes/business-taxes/cit/detail/nexus-and-apportionment-2",
+   "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-206-621",
+   "https://www.michigan.gov/taxes/questions/cit/nexus/nexus-apportionment-10--does-the-protection-of-public-law-86-272-apply-to-financial-institutions",
+   "https://www.michigan.gov/taxes/questions/cit",
+   "https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/CIT/TY2025/4891_ty2025-instructions.pdf",
+   "https://www.michigan.gov/taxes/business-taxes/sales-use-tax/information/remote-seller-faq",
+   "https://www.michigan.gov/taxes/rep-legal/rab/rabhtml/2021/revenue-administrative-bulletin-2021-22",
+   "https://www.michigan.gov/taxes/business-taxes/sales-use-tax/information/marketplace-facilitator-seller-faqs",
+   "https://www.michigan.gov/taxes/rep-legal/rab/2014-revenue-administrative-bulletins/revenue-administrative-bulletin-2014-5",
+   "https://www.michigan.gov/taxes/questions/cit",
+   "https://www.michigan.gov/taxes/rep-legal/rab/2014-revenue-administrative-bulletins/revenue-administrative-bulletin-2014-5",
+   "https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/CIT/TY2024/4891_ty24.pdf?rev=71f224d1211842bb89afdc765f6f748f&hash=03FC6FC7EA814DF6CDAE57F3C60AB847",
+   "https://www.michigan.gov/taxes/questions/cit/nexus/nexus-apportionment-10--does-the-protection-of-public-law-86-272-apply-to-financial-institutions",
+   "https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/MBT/MBT_FAQs.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "MI",
+  "section": "rates",
+  "notes": "### Individual Income Tax\n* **Rate:** Flat rate of 4.25%.\n* **Applicability:** Applies to both tax year 2025 and tax year 2026. (The statutory rate returned to 4.25% on January 1, 2024, after a temporary trigger-based reduction to 4.05% for tax year 2023 only).\n* **Official Sources:**\n  * Michigan Department of Treasury - Tax Year 2025 Information: https://www.michigan.gov/taxes/iit/tax-year-2025-information\n  * Michigan Department of Treasury - Current Tax Rate and Exemption Amounts FAQ: https://www.michigan.gov/taxes/questions/iit/what-are-the-current-tax-rate-and-exemption-amounts\n  * Michigan Legislature - MCL 206.51: https://www.legislature.mi.gov/mileg.aspx?page=GetObject&objectname=mcl-206-51\n\n---\n\n### Corporate Income and Franchise Tax\n* **Rate:** 6.0% corporate income tax levied on C corporations and entities taxed as corporations federally. Eligible small businesses may qualify for the Small Business Alternative Credit, providing an alternate effective rate of 1.8% of adjusted business income. \n* **Minimum Tax:** No minimum tax is imposed. Taxpayers with apportioned gross receipts of less than $350,000 or an annual tax liability of $100 or less are not required to file a return or pay the tax.\n* **Applicability:** Applies to both tax year 2025 and tax year 2026.\n* **Official Sources:**\n  * Michigan Department of Treasury - Corporate Income Tax Overview: https://www.michigan.gov/taxes/business-taxes/cit\n  * Michigan Department of Treasury - CIT Filing Requirements: https://www.michigan.gov/taxes/business-taxes/cit/filing-requirements\n  * Michigan Legislature - MCL 206.623: https://www.legislature.mi.gov/mileg.aspx?page=GetObject&objectname=mcl-206-623\n\n---\n\n### Sales and Use Tax\n* **State Rate:** 6.0% on retail sales or purchases of tangible personal property and certain taxable services. (A 4.0% rate applies to residential sales of electricity, natural or artificial gas, and home heating fuel).\n* **Local Rates:** 0%. Michigan does not authorize cities, counties, or other local jurisdictions to levy local sales or use taxes.\n* **Applicability:** Applies to both tax year 2025 and tax year 2026.\n* **Official Sources:**\n  * Michigan Department of Treasury - Sales and Use Taxes: https://www.michigan.gov/taxes/business-taxes/sales-use\n  * Michigan Department of Treasury - Sales Tax License FAQ: https://www.michigan.gov/taxes/questions/sales-use/sales-tax-license-faq\n\n---\n\n### Gross Receipts, Franchise, Margin, or Other Notable Business Taxes\n* **General Business / Margin Taxes:** Michigan does not levy a general capital stock tax, franchise tax, or margin tax on general corporations.\n* **Elective Flow-Through Entity (FTE) Tax:** An entity-level income tax that eligible partnerships and S corporations can elect to pay at a rate equal to the individual income tax rate (4.25%), providing owners with a refundable credit.\n  * *Applicability:* Applies to tax years 2025 and 2026.\n  * *Official Source:* https://www.michigan.gov/taxes/business-taxes/fte\n* **Michigan Business Tax (MBT) (Legacy Gross Receipts Tax):** Imposed a 0.8% modified gross receipts tax and a 4.95% business income tax, but it was repealed effective January 1, 2012, and remains available only to taxpayers electing to file under MBT to claim pre-existing certificated credits.\n  * *Applicability:* Restricted to qualifying electing filers for tax years 2025 and 2026.\n  * *Official Source:* https://www.michigan.gov/taxes/business-taxes/mbt\n* **Special Industry Business Taxes (CIT):**\n  * *Financial Institutions:* Subject to a franchise tax of 0.29% of net capital in lieu of the standard CIT.\n  * *Insurance Companies:* Subject to a tax of 1.25% of gross direct premiums written in lieu of the standard CIT.\n  * *Applicability:* Applies to tax years 2025 and 2026.\n  * *Official Source:* https://www.michigan.gov/taxes/business-taxes/cit",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025
+    ],
+    "value": "Michigan imposes a flat individual income tax rate of 4.25%.",
+    "source_url": "https://www.michigan.gov/taxes/iit/tax-year-2025-information",
+    "evidence": [
+     "individual income tax",
+     "4.25%",
+     "flat rate"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.michigan.gov/taxes/questions/iit/accordion/filing/what-are-the-current-tax-rate-and-exemption-amounts-1",
+    "matched_title": "What are the current tax rate and exemption amounts?",
+    "matched_phrases": [
+     "individual income tax",
+     "4.25%"
+    ],
+    "snippet": "The tax rate for the 2025 tax year is 4.25%. The personal exemption for the 2025 tax year is $5,800.",
+    "checked_in": "browser"
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Michigan levies a 6.0% corporate income tax on C corporations and entities taxed as corporations federally, with an alternate effective rate of 1.8% for eligible small businesses. No minimum tax is imposed.",
+    "source_url": "https://www.michigan.gov/taxes/business-taxes/cit",
+    "evidence": [
+     "Corporate Income Tax",
+     "6.0%",
+     "Small Business Alternative Credit"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.michigan.gov/taxes/business-taxes/cit; unreadable: https://www.michigan.gov/taxes/questions/iit/accordion/filing/what-are-the-current-tax-rate-and-exemption-amounts-1; unreadable: https://www.michigan.gov/taxes/iit/tax-guidance/tax-year-info/tax-year-2025-guidance; unreadable: https://www.michigan.gov/taxes/questions/tax-faqs/income-tax-rate-change/income-tax-rate-change-overview; unreadable: https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-206-51; unreadable: https",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The state sales and use tax rate is 6.0%. Michigan does not authorize local jurisdictions to levy local sales or use taxes.",
+    "source_url": "https://www.michigan.gov/taxes/business-taxes/sales-use",
+    "evidence": [
+     "Sales and Use Taxes",
+     "6.0%",
+     "tangible personal property"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.michigan.gov/taxes/business-taxes/sales-use-tax",
+    "matched_title": "Sales and Use Taxes",
+    "matched_phrases": [
+     "Sales and Use Taxes",
+     "tangible personal property"
+    ],
+    "snippet": "Individuals or businesses that sell tangible personal property to the final consumer are required to remit a 6% sales tax on the total price of their taxable retail sales to the State of Michigan.",
+    "checked_in": "browser"
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Eligible flow-through entities can elect to pay an entity-level tax at the individual rate of 4.25%. Special industry franchise taxes apply to financial institutions at 0.29% of net capital and insurance companies at 1.25% of gross direct premiums.",
+    "source_url": "https://www.michigan.gov/taxes/business-taxes/fte",
+    "evidence": [
+     "Flow-Through Entity",
+     "4.25%",
+     "refundable credit"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.michigan.gov/taxes/business-taxes/fte; unreadable: https://www.michigan.gov/taxes/questions/iit/accordion/filing/what-are-the-current-tax-rate-and-exemption-amounts-1; unreadable: https://www.michigan.gov/taxes/iit/tax-guidance/tax-year-info/tax-year-2025-guidance; unreadable: https://www.michigan.gov/taxes/questions/tax-faqs/income-tax-rate-change/income-tax-rate-change-overview; unreadable: https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-206-51; unreadable: https",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://www.michigan.gov/taxes/questions/iit/accordion/filing/what-are-the-current-tax-rate-and-exemption-amounts-1",
+   "https://www.michigan.gov/taxes/iit/tax-guidance/tax-year-info/tax-year-2025-guidance",
+   "https://www.michigan.gov/taxes/questions/tax-faqs/income-tax-rate-change/income-tax-rate-change-overview",
+   "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-206-51",
+   "https://www.michigan.gov/taxes/business-taxes/cit",
+   "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-206-623",
+   "https://www.michigan.gov/taxes/business-taxes/cit/detail/filing-requirements",
+   "https://www.michigan.gov/taxes/business-taxes/sales-use-tax",
+   "https://www.michigan.gov/taxes/business-taxes/sales-use-tax/information/sales-tax-license-faq",
+   "https://www.michigan.gov/taxes/business-taxes/mbt",
+   "https://www.michigan.gov/taxes/business-taxes/flowthrough-entity-tax",
+   "https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Delete/Register-for-and-Connect-to-FTE-Tax---2023.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "MI",
+  "section": "filing",
+  "notes": "### 1. Individual Returns: Calendar-Year Due Dates & Extensions\n* **Filing Due Date:** Calendar-year individual income tax returns are due on or before **April 15** following the close of the tax year. If April 15 falls on a weekend or state-recognized holiday, the deadline moves to the next business day. Applies to tax years 2025 and 2026.\n* **Extension Rules:**\n  * **Automatic with Federal Extension:** An extension of time to file the federal return automatically extends the Michigan filing deadline to the federal extended due date (6 months, to **October 15**), provided no additional Michigan tax is due.\n  * **Form 4 Application & Payments:** If additional Michigan income tax is expected to be due, taxpayers must submit **Form 4** (*Application for Extension of Time to File Michigan Tax Returns*) with the payment on or before the original return due date. \n  * **Without a Federal Extension:** Taxpayers who did not request a federal extension must file Form 4 by the original due date; the Department of Treasury will grant a 6-month extension.\n  * **Payment Rule:** An extension of time to file is not an extension of time to pay. Late-filing penalty and interest accrue from the original due date on any unpaid balance.\n* **Official Sources:**\n  * Michigan Department of Treasury - Form 4 Instructions: https://www.michigan.gov/taxes/business-taxes/suw/forms/instructions/form-4-instructions\n  * Michigan Department of Treasury - What is an extension?: https://www.michigan.gov/taxes/questions/iit/common/what-is-an-extension\n\n---\n\n### 2. Corporate & Pass-Through Return Due Dates & Extension Rules\n* **Corporate Income Tax (CIT):**\n  * **Due Date:** Annual returns are due on or before **April 30** following the close of the calendar year, or the last day of the 4th month following the close of the fiscal tax year. Applies to tax years 2025 and 2026.\n  * **Extensions:** An extension of time to file is granted to the last day of the 8th month following the original due date (e.g., **December 31** for calendar-year filers). CIT filers must submit **Form 4** along with payment of estimated liability postmarked on or before the original return due date; an IRS federal extension does *not* automatically grant a Michigan CIT extension.\n* **Elective Flow-Through Entity (FTE) Tax:**\n  * **Due Date:** Form 5772 is due on or before the last day of the 3rd month following the close of the tax year (**March 31** for calendar-year filers). Applies to tax years 2025 and 2026.\n  * **Extensions:** An extension grants an additional 6 months to file (until **September 30** for calendar-year filers). The extension request and payment of estimated tax must be submitted electronically via **Michigan Treasury Online (MTO)** on or before the original due date; paper extension requests are not accepted.\n* **Composite Returns (Form 807):**\n  * **Due Date:** Due on the same date as the individual return (**April 15** for calendar-year filers). Applies to tax years 2025 and 2026.\n  * **Extensions:** A 6-month extension (to **October 15**) is requested by filing **Form 4** on or before the original due date. Composite filers must submit Form 4 even if a federal extension was filed.\n* **Official Sources:**\n  * Michigan Department of Treasury - CIT Due Dates: https://www.michigan.gov/taxes/business-taxes/cit/filing/cit-due-dates\n  * Michigan Department of Treasury - Flow-Through Entity Tax Due Dates: https://www.michigan.gov/taxes/business-taxes/flowthrough-entity-tax/report-and-pay-fte/fte-due-dates\n  * Michigan Department of Treasury - Form 5772 Instructions: https://www.michigan.gov/taxes/business-taxes/flowthrough-entity-tax/forms-and-instructions/instructions-for-form-5772\n  * Michigan Department of Treasury - Composite Return FAQs: https://www.michigan.gov/taxes/questions/iit/composite\n\n---\n\n### 3. Elective Pass-Through Entity Tax (FTE Tax)\n* **Existence:** Yes; enacted under Public Act 135 of 2021 (MCL 206.801 to 206.847).\n* **Tax Rate:** Equal to the individual income tax rate under MCL 206.51, which is **4.25%** for tax years 2025 and 2026.\n* **How to Elect:** The election must be made electronically through **Michigan Treasury Online (MTO)** by submitting an electronic payment designated for the applicable initial tax year. There is no separate paper election form.\n* **When to Elect:** \n  * The election is irrevocable and binds the entity for **three tax years**.\n  * For calendar-year filers, the initial election payment must be submitted through MTO on or before the **15th day of the 3rd month** of the entity's tax year (March 15) to make timely quarterly estimated payments, or by the statutory deadline established under MCL 206.813 (by the end of the 9th month following the tax year).\n* **Official Sources:**\n  * Michigan Department of Treasury - Flow-Through Entity Tax: https://www.michigan.gov/taxes/business-taxes/flowthrough-entity-tax\n  * Michigan Legislature - MCL 206.813: https://www.legislature.mi.gov/Bills/Bill?ObjectName=mcl-206-813\n  * Michigan Legislature - MCL 206.815: https://www.legislature.mi.gov/Bills/Bill?ObjectName=mcl-206-815\n\n---\n\n### 4. Composite / Group Nonresident Returns for Pass-Through Entities\n* **Form & Availability:** A pass-through entity may file an elective **Form 807** (*Michigan Composite Individual Income Tax Return*) on behalf of two or more participating nonresident individual, estate, or trust members who have no other Michigan-source income.\n* **Rules:**\n  * Participation is optional for each nonresident member; members who opt out file individual return Form MI-1040.\n  * Filing Form 807 satisfies the individual Michigan income tax filing requirement for participating members who have no other Michigan sources of income. If a participant has other Michigan-source income, they must file Form MI-1040 and claim a credit for their share of tax paid on Form 807.\n  * The tax rate applied to composite taxable income is **4.25%** for tax years 2025 and 2026.\n* **Official Sources:**\n  * Michigan Department of Treasury - Composite Return Guidelines: https://www.michigan.gov/taxes/questions/iit/composite\n  * Michigan Department of Treasury - Form 807 Instructions: https://www.michigan.gov/taxes/iit-forms/instructions/instructions-for-form-807\n\n---\n\n### 5. Estimated Payments & Nonresident Withholding for Pass-Through Entities\n* **Nonresident Withholding:**\n  * **Eliminated:** Flow-through entity withholding on nonresident members was eliminated by **Public Act 158 of 2016** (amending MCL 206.703) for tax years beginning on or after July 1, 2016. Pass-through entities do not have a mandatory nonresident member withholding requirement for tax years 2025 and 2026.\n* **Estimated Tax Payments:**\n  * **Electing FTE Tax Filers (Form 5772):** If the entity's annual FTE tax liability is reasonably expected to exceed **$800**, it must make quarterly estimated payments through MTO. For calendar-year filers, installments are due:\n    * 1st Quarter: **April 15**\n    * 2nd Quarter: **June 15**\n    * 3rd Quarter: **September 15**\n    * 4th Quarter: **January 15** of the following calendar year.\n  * **Composite Filers (Form 807):** If a participant's annual share of tax liability is expected to exceed **$500** after exemptions and credits, the entity must make combined quarterly estimated payments using **Form MI-1041ES**. Calendar-year due dates are:\n    * 1st Quarter: **April 15**\n    * 2nd Quarter: **June 15** (or next business day)\n    * 3rd Quarter: **September 15**\n    * 4th Quarter: **January 15** of the following calendar year.\n* **Official Sources:**\n  * Michigan Legislature - MCL 206.703: https://www.legislature.mi.gov/Bills/Bill?ObjectName=mcl-206-703\n  * Michigan Department of Treasury - MI-1041ES Instructions: https://www.michigan.gov/taxes/iit-forms/instructions/instructions-for-form-mi-1041es\n  * Michigan Department of Treasury - Flow-Through Entity Tax Payments: https://www.michigan.gov/taxes/business-taxes/flowthrough-entity-tax/report-and-pay-fte\n\n---\n\n### 6. Main Tax Return Forms\n* **Individual Income Tax:**\n  * **Form MI-1040:** *Michigan Individual Income Tax Return* (annual return).\n  * **Form MI-1040ES:** *Michigan Estimated Individual Income Tax Voucher*.\n  * **Form 4:** *Application for Extension of Time to File Michigan Tax Returns*.\n  * **Form 6072:** *Michigan Schedule FTE* (attached to MI-1040 to report and reconcile elective FTE credits/adjustments).\n* **Corporate Income Tax (CIT):**\n  * **Form 4891:** *Corporate Income Tax Annual Return* (standard C corporations).\n  * **Form 4913:** *Corporate Income Tax Quarterly Return* (for quarterly estimates).\n  * **Form 4:** *Application for Extension of Time to File Michigan Tax Returns*.\n  * *(Note: Financial institutions file Form 4908; insurance companies file Form 4905)*.\n* **Pass-Through Entities:**\n  * **Form 5772:** *Michigan Flow-Through Entity Tax Annual Return* (for electing PTEs, submitted exclusively via MTO).\n  * **Form 5774:** *Schedule for Reporting Member Information for a Flow-Through Entity* (required supporting schedule attached to Form 5772).\n  * **Form 807:** *Michigan Composite Individual Income Tax Return* (for electing nonresident group filings).\n  * **Form MI-1041ES:** *Michigan Estimated Income Tax Voucher for Fiduciary and Composite Filers*.\n  * *(Note: Michigan does not prescribe a separate informational income return like a federal Form 1065 or 1120-S for non-electing pass-throughs unless requested by Treasury)*.\n* **Official Sources:**\n  * Michigan Department of Treasury - IIT Forms: https://www.michigan.gov/taxes/iit-forms\n  * Michigan Department of Treasury - CIT Forms: https://www.michigan.gov/taxes/business-taxes/cit/forms-and-instructions\n  * Michigan Department of Treasury - Flow-Through Entity Forms: https://www.michigan.gov/taxes/business-taxes/flowthrough-entity-tax/forms-and-instructions",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Calendar-year individual income tax returns are due on or before April 15. A federal extension automatically grants a six-month Michigan extension to October 15 if no tax is due, but taxpayers expecting to owe tax or lacking a federal extension must file Form 4 by the original due date.",
+    "source_url": "https://www.michigan.gov/taxes/questions/iit/common/what-is-an-extension",
+    "evidence": [
+     "April 15",
+     "federal extension",
+     "Form 4",
+     "extension of time to file"
+    ],
+    "accepted": false,
+    "reason": "dropped on re-check",
+    "matched_url": "https://www.michigan.gov/taxes/rep-legal/rab/rabhtml/2020/revenue-administrative-bulletin-2020-24",
+    "matched_title": "Revenue Administrative Bulletin 2020-24",
+    "matched_phrases": [
+     "federal extension",
+     "Form 4",
+     "extension of time to file"
+    ],
+    "snippet": "[4] If a federal extension has not been obtained, a Michigan extension can be requested by filing Form 4, Application for Extension of Time to file Michigan Tax Returns .",
+    "checked_in": ""
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Corporate Income Tax returns are due April 30 for calendar-year filers, with an eight-month extension to December 31 available upon filing Form 4 with payment. Elective Flow-Through Entity Tax returns on Form 5772 are due March 31, and a six-month extension to September 30 must be requested electronically via Michigan Treasury Online.",
+    "source_url": "https://www.michigan.gov/taxes/business-taxes/cit/filing/cit-due-dates",
+    "evidence": [
+     "April 30",
+     "last day of the 8th month",
+     "Form 4"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.michigan.gov/taxes/business-taxes/cit/filing/cit-due-dates; unreadable: https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/All-Years/4.pdf; unreadable: https://www.michigan.gov/taxes/questions/iit/accordion/filing/what-are-the-state-of-michigan-individual-income-tax-filing-requirements-1; unreadable: https://www.michigan.gov/taxes/business-taxes/flowthrough-entity-tax; unreadable: https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Michigan provides an elective flow-through entity tax assessed at the individual income tax rate of 4.25%. The election is irrevocable for three tax years and must be made electronically via Michigan Treasury Online by submitting an electronic payment designated for the initial tax year.",
+    "source_url": "https://www.michigan.gov/taxes/business-taxes/flowthrough-entity-tax",
+    "evidence": [
+     "Flow-Through Entity Tax",
+     "Michigan Treasury Online",
+     "4.25%"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.michigan.gov/taxes/business-taxes/flowthrough-entity-tax",
+    "matched_title": "Flow-Through Entity Tax",
+    "matched_phrases": [
+     "Flow-Through Entity Tax",
+     "Michigan Treasury Online",
+     "4.25%"
+    ],
+    "snippet": "4.25% Tax Rate for Flow-Through Entity Tax Years Beginning in 2024 Notice:",
+    "checked_in": "browser"
+   },
+   {
+    "key": "composite",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "A pass-through entity may file an elective Form 807 composite return on behalf of two or more qualifying nonresident individuals, trusts, or estates taxed at 4.25%. Filing Form 807 satisfies the Michigan individual income tax return requirement for participants with no other Michigan-source income.",
+    "source_url": "https://www.michigan.gov/taxes/iit-forms/instructions/instructions-for-form-807",
+    "evidence": [
+     "Composite Individual Income Tax Return",
+     "Form 807",
+     "4.25%"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.michigan.gov/taxes/iit-forms/instructions/instructions-for-form-807; unreadable: https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/All-Years/4.pdf; unreadable: https://www.michigan.gov/taxes/questions/iit/accordion/filing/what-are-the-state-of-michigan-individual-income-tax-filing-requirements-1; unreadable: https://www.michigan.gov/taxes/business-taxes/flowthrough-entity-tax; unreadable: https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Form",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Mandatory pass-through withholding on nonresident members has been eliminated. Electing flow-through entities expecting annual liability to exceed $800 must remit quarterly estimated payments via Michigan Treasury Online, while composite filers use Form MI-1041ES when a participant's tax liability exceeds $500.",
+    "source_url": "https://www.michigan.gov/taxes/business-taxes/flowthrough-entity-tax/report-and-pay-fte",
+    "evidence": [
+     "quarterly estimated payments",
+     "Michigan Treasury Online",
+     "exceed $800"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.michigan.gov/taxes/business-taxes/flowthrough-entity-tax/report-and-pay-fte; unreadable: https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/All-Years/4.pdf; unreadable: https://www.michigan.gov/taxes/questions/iit/accordion/filing/what-are-the-state-of-michigan-individual-income-tax-filing-requirements-1; unreadable: https://www.michigan.gov/taxes/business-taxes/flowthrough-entity-tax; unreadable: https://www.michigan.gov/taxes/-/media/Project/Websites/ta",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Key forms include Form MI-1040 for individuals, Form 4891 for Corporate Income Tax, Form 5772 for electing flow-through entities, and Form 807 for composite filers. Additional forms include Form 4 for extension requests and Form 5774 for reporting flow-through member information.",
+    "source_url": "https://www.michigan.gov/taxes/business-taxes/flowthrough-entity-tax/forms-and-instructions",
+    "evidence": [
+     "Form 5772",
+     "Form 5774",
+     "Flow-Through Entity Tax Annual Return"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.michigan.gov/taxes/business-taxes/flowthrough-entity-tax/forms-and-instructions; unreadable: https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/All-Years/4.pdf; unreadable: https://www.michigan.gov/taxes/questions/iit/accordion/filing/what-are-the-state-of-michigan-individual-income-tax-filing-requirements-1; unreadable: https://www.michigan.gov/taxes/business-taxes/flowthrough-entity-tax; unreadable: https://www.michigan.gov/taxes/-/media/Project/Website",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/All-Years/4.pdf",
+   "https://www.michigan.gov/taxes/questions/iit/accordion/filing/what-are-the-state-of-michigan-individual-income-tax-filing-requirements-1",
+   "https://www.michigan.gov/taxes/business-taxes/flowthrough-entity-tax",
+   "https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/MI-1040ES-(2026).pdf",
+   "https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2024/MI-1040ES_2025.pdf?rev=096ca4908bea4e6b98e62a7e35ab490b&hash=FC10B7865AED08728678EF343B8D3ADD",
+   "https://www.michigan.gov/taxes/rep-legal/rab/rabhtml/2020/revenue-administrative-bulletin-2020-24",
+   "https://www.michigan.gov/taxes/questions/iit/accordion/filing/what-is-an-extension",
+   "https://www.michigan.gov/taxes/business-taxes/mbt/details/filing-due-dates",
+   "https://www.michigan.gov/taxes/business-taxes/cit",
+   "https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/CIT/CIT-Due-Dates-2025.pdf?rev=c5e7a6b39ae24f1aa3adaacc25398bda&hash=4314DC065D31781F14CABEE7906DA3DB",
+   "https://www.michigan.gov/taxes/business-taxes/mbt/details/filing-due-dates",
+   "https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/CIT/TY2024/4890_ty24.pdf",
+   "https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/MTO/TY2024/5772-Instructions_2024.pdf?rev=1f798ec0cf434e989477afbe136c356c&hash=C5D796AD3A93FB791551211A43866459",
+   "https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/MTO/TY2025/5772_ty2025-instructions.pdf",
+   "https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/MTO/TY2025/5772_ty2025-instructions.pdf",
+   "https://www.michigan.gov/taxes/business-taxes/flowthrough-entity-tax/frequently-asked-questions",
+   "https://www.michigan.gov/taxes/questions/iit/composite",
+   "https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/807.pdf",
+   "https://www.michigan.gov/taxes/business-taxes/cit/cit-due-dates/2025",
+   "https://www.michigan.gov/taxes/business-taxes/flowthrough-entity-tax/frequently-asked-questions",
+   "https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Delete/Register-for-and-Connect-to-FTE-Tax---2023.pdf",
+   "https://www.michigan.gov/taxes/business-taxes/flowthrough-entity-tax",
+   "https://www.michigan.gov/taxes/questions/iit/accordion/filing/what-are-the-current-tax-rate-and-exemption-amounts-1",
+   "https://www.michigan.gov/taxes/business-taxes/flowthrough-entity-tax/report-and-pay-fte",
+   "https://www.legislature.mi.gov/Home/GetObject?ObjectName=mcl-281-1967-4-21",
+   "https://legislature.mi.gov/documents/mcl/pdf/MCL-281-1967-4.pdf",
+   "https://www.michigan.gov/taxes/rep-legal/rab/2004-revenue-administrative-bulletins/revenue-administrative-bulletin-2004-1",
+   "https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/807.pdf",
+   "https://www.michigan.gov/taxes/questions/iit/composite",
+   "https://legislature.mi.gov/Search/ExecuteSearch?printerFriendly=true&docTypes=Bills&sessions=2015-2016&detailedCategory=Individual%20income%20tax:%20withholding%20requirements&contentFullText=",
+   "https://legislature.mi.gov/doc.aspx?mcl-206-703",
+   "https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/Fiduciary/TY2026/MI-1041ES-(2026).pdf",
+   "https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/Fiduciary/TY2025/MI-1041ES_2025.pdf",
+   "https://www.michigan.gov/taxes/business-taxes/flowthrough-entity-tax/report-and-pay-fte",
+   "https://www.michigan.gov/taxes/news/notice-paid-preparer-return-requirements-for-returns-prepared-on-behalf-of-individuals-fiduciaries-",
+   "https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/MI-1040-Book.pdf",
+   "https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/CIT/TY2025/4891_ty2025.pdf",
+   "https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/CIT/TY2025/4891_ty2025-instructions.pdf",
+   "https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/CIT/TY2025/4913_ty25.pdf",
+   "https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/All-Years/4.pdf",
+   "https://www.michigan.gov/taxes/business-taxes/flowthrough-entity-tax/frequently-asked-questions",
+   "https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/MTO/TY2025/5774_ty2025-instructions.pdf",
+   "https://www.legislature.mi.gov/documents/2017-2018/billintroduced/House/pdf/2017-HIB-5091.pdf",
+   "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-206-711",
+   "https://www.michigan.gov/taxes/business-taxes/cit"
+  ],
+  "error": ""
+ }
+]

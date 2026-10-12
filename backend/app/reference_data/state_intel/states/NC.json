@@ -1,0 +1,154 @@
+{
+  "code": "NC",
+  "name": "North Carolina",
+  "sections": {
+    "apportionment": {
+      "fields": [
+        {
+          "key": "sourcing",
+          "label": "Sales sourcing (services and intangibles)",
+          "value": "North Carolina uses market-based sourcing for receipts from both services and intangibles. Taxpayers with an existing State net loss balance as of the end of the 2019 tax year who made a binding election may continue to apportion service receipts based on income-producing activities.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.ncdor.gov/documents/bulletins/2025-corporate-income-franchise-and-insurance-tax-bulletin/open",
+          "source_citation": "2025 Corporate Income, Franchise, and Insurance Tax Bulletin",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "§ 105-130.4(t3)) Corporate taxpayers that have a “State net loss balance” as of the end of the 2019 tax year may elect to apportion receipts from services based on the percentage of its income-producing activities performed in this State on their 2020 tax return."
+        },
+        {
+          "key": "special_industries",
+          "label": "Special industry rules",
+          "value": "Special apportionment formulas or rules apply to railroad companies, motor carriers, air and water transportation corporations, pipeline companies, wholesale content distributors, and banks.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.ncdor.gov/documents/bulletins/2025-corporate-income-franchise-and-insurance-tax-bulletin/open",
+          "source_citation": "2025 Corporate Income, Franchise, and Insurance Tax Bulletin",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Railroad Companies All apportionable income of a railroad company must be apportioned to North Carolina by multiplying the income by a fraction, the numerator of which is the railway operating revenue from business done within North Carolina and the denominator of which is the total railway operating revenue everywhere."
+        },
+        {
+          "key": "forms",
+          "label": "Forms",
+          "value": "Apportionment is computed on Schedule O of Form CD-405 for C-corporations or Form CD-401S for S-corporations. Partnerships report apportionment on Form D-403, Part 2.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.ncdor.gov/documents/bulletins/2025-corporate-income-franchise-and-insurance-tax-bulletin/open",
+          "source_citation": "2025 Corporate Income, Franchise, and Insurance Tax Bulletin",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Forms to be used for Filing The franchise tax is filed on Form CD -405 for C corporations and Form CD -401S for S corporations."
+        }
+      ]
+    },
+    "nexus": {
+      "fields": [
+        {
+          "key": "sales_economic_nexus",
+          "label": "Sales/use tax: economic nexus",
+          "value": "Remote seller economic nexus is triggered by having gross sales sourced to North Carolina in excess of $100,000 during the previous or current calendar year. There is no transaction count threshold.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.ncdor.gov/taxes-forms/sales-and-use-tax/other-sales-and-use-tax-resources/remote-sales",
+          "source_citation": "Remote Sales | NCDOR",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "This includes when the remote seller has gross sales in excess of one hundred thousand dollars ($100,000) sourced to North Carolina in the previous or current calendar year (“Threshold”), including sales as a marketplace seller and marketplace-facilitated sales."
+        },
+        {
+          "key": "pl_86_272",
+          "label": "P.L. 86-272",
+          "value": "North Carolina recognizes Public Law 86-272 protection against corporate income tax for businesses whose in-state activities are restricted to soliciting sales of tangible personal property. However, the Department takes the position that P.L. 86-272 does not apply to the corporate franchise tax, meaning protected corporations doing business in the state remain liable for franchise tax.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-taxes-directives-technical-advice-memoranda/directive-cd-98-4",
+          "source_citation": "Directive CD-98-4 | NCDOR",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "That subdivision defines doing business as \"[e]ach and every act, power, or privilege exercised or enjoyed in this state, as an incident to, or by virtue of the powers and privileges granted by the laws of this state.\" Public Law 86-272 does not apply to the franchise tax."
+        }
+      ]
+    },
+    "rates": {
+      "fields": [
+        {
+          "key": "individual",
+          "label": "Individual income tax",
+          "value": "For tax year 2025, North Carolina imposes a flat individual income tax rate of 4.25% on North Carolina taxable income.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.ncdor.gov/taxes-forms/individual-income-tax/tax-rate-schedules",
+          "source_citation": "Tax Rate Schedules | NCDOR",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "For Taxable Years beginning in 2025, the North Carolina individual income tax rate is 4.25% (0.0425)."
+        },
+        {
+          "key": "individual",
+          "label": "Individual income tax",
+          "value": "For tax year 2026, North Carolina imposes a flat individual income tax rate of 3.99% on North Carolina taxable income.",
+          "years": [
+            2026
+          ],
+          "source_url": "https://www.ncdor.gov/taxes-forms/individual-income-tax/tax-rate-schedules",
+          "source_citation": "Tax Rate Schedules | NCDOR",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "For Taxable Years after 2025, the North Carolina individual income tax rate is 3.99% (0.0399)."
+        },
+        {
+          "key": "corporate",
+          "label": "Corporate income/franchise tax",
+          "value": "The corporate income tax rate is a flat 2.25% on net taxable income, with no minimum corporate income tax.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-income-and-franchise-tax-rates",
+          "source_citation": "Corporate Income and Franchise Tax Rates | NCDOR",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Tax Year Tax Rate 2026 2.00% 2025 2.25% 2019 through 2024 2.50% 2017 and 2018 3.00% 2016 4.00% Franchise Tax Rates Franchise Tax Rate for General Business Corporations C Corporations:"
+        },
+        {
+          "key": "corporate",
+          "label": "Corporate income/franchise tax",
+          "value": "The corporate income tax rate is a flat 2.00% on net taxable income, with no minimum corporate income tax.",
+          "years": [
+            2026
+          ],
+          "source_url": "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-income-and-franchise-tax-rates",
+          "source_citation": "Corporate Income and Franchise Tax Rates | NCDOR",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Tax Year Tax Rate 2026 2.00% 2025 2.25% 2019 through 2024 2.50% 2017 and 2018 3.00% 2016 4.00% Franchise Tax Rates Franchise Tax Rate for General Business Corporations C Corporations:"
+        },
+        {
+          "key": "other_business",
+          "label": "Other notable business taxes",
+          "value": "North Carolina levies a corporate franchise tax based on apportioned net worth, including a $1.50 per $1,000 rate for C-corporations and an annual minimum tax of $200. There is no general gross receipts or margin tax.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-income-and-franchise-tax-rates",
+          "source_citation": "Corporate Income and Franchise Tax Rates | NCDOR",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Effective for tax years beginning on or after January 1, 2019, and applicable to the calculation of franchise tax reported on the 2018 and later corporate tax return, the franchise tax rate for S corporations is $200 for the first $1,000,000 of the corporation’s tax base and $1.50 per $1,000 of its tax base that exceeds $1,000,000 and is applied as set forth in the law."
+        }
+      ]
+    },
+    "filing": {
+      "fields": []
+    }
+  }
+}

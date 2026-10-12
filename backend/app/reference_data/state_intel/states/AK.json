@@ -1,0 +1,62 @@
+{
+  "code": "AK",
+  "name": "Alaska",
+  "sections": {
+    "apportionment": {
+      "fields": [
+        {
+          "key": "method",
+          "label": "Apportionment method",
+          "value": "Alaska uses an equally weighted three-factor apportionment formula consisting of the property factor, the payroll factor, and the sales factor. If one or more factors are absent, the denominator is reduced to the number of factors present.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://aws.state.ak.us/OAH/Decision/Display?rec=4796",
+          "source_citation": "Alaska Supreme Court Opinion sp-6838",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Per AS 43.19.010, article IV, section 9, the portion of a business’s total income apportioned to Alaska is determined by “multiplying the income by a fraction, the numerator of which is the property factor plus the payroll factor plus the sales factor, and the denominator of which is three.” The property factor is the fraction of the taxpayer’s total property and the property attributable to the taxpayer’s business in Alaska;"
+        },
+        {
+          "key": "special_industries",
+          "label": "Special industry rules",
+          "value": "Specialized apportionment rules apply to oil and gas production and pipeline transportation, financial organizations, airlines, land transportation, water transportation, and construction contractors. Oil and gas entities use formulas based on combinations of property, sales, and extraction.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://aws.state.ak.us/OAH/Decision/Display?rec=4796",
+          "source_citation": "Alaska Supreme Court Opinion sp-6838",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Under AS 43.20.144(c)(2), a taxpayer that only produces oil or gas in Alaska is instead subject to a two-factor formula based on property and extraction."
+        }
+      ]
+    },
+    "nexus": {
+      "fields": []
+    },
+    "rates": {
+      "fields": [
+        {
+          "key": "other_business",
+          "label": "Other notable business taxes",
+          "value": "Alaska does not impose a general statewide gross receipts, margin, or franchise tax. The state levies industry-specific taxes such as oil and gas taxes, a mining license tax, and fisheries taxes, and requires a general business license with an annual fee of $50.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://tax.alaska.gov/programs/index.aspx",
+          "source_citation": "Alaska Department of Revenue - Tax Division - Tax Types Page",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "…Cooperative Tax Employment Security Tax Estate Tax Fisheries Related Taxes Large Passenger Vessel Gambling Tax Marijuana Tax Mining License Tax Motor Fuel Tax Oil and Gas Production Tax Oil and Gas Property Tax Partnerships Personal Income Tax Regulatory Cost Charges Sales and Use Tax Telephone Cooperative Tax Tire Fees Tobacco Tax Vehicle Rental Tax Withholding Tax Tax WebAuthor Ta…"
+        }
+      ]
+    },
+    "filing": {
+      "fields": []
+    }
+  }
+}

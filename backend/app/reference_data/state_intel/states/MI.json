@@ -1,0 +1,119 @@
+{
+  "code": "MI",
+  "name": "Michigan",
+  "sections": {
+    "apportionment": {
+      "fields": [
+        {
+          "key": "special_industries",
+          "label": "Special industry rules",
+          "value": "Financial institutions apportion their net capital franchise tax base using a gross business factor, while insurance companies are taxed directly on gross direct premiums written rather than standard apportionment. Transportation services apportion receipts using specialized ratios such as revenue miles, barrel miles, or thousand-cubic-feet miles.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.michigan.gov/taxes/rep-legal/rab/2019-revenue-administrative-bulletins/revenue-administrative-bulletin-2019-22",
+          "source_citation": "Revenue Administrative Bulletin 2019-22",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "are curative and intended to clarify existing law and accurately reflect the interpretation and application of those provisions in accordance with the notice to taxpayers dated November 21, 2016, regarding 5-year averaging calculation of ne"
+        }
+      ]
+    },
+    "nexus": {
+      "fields": [
+        {
+          "key": "income_nexus",
+          "label": "Income/franchise tax nexus",
+          "value": "Under the Michigan Corporate Income Tax, substantial nexus is established by physical presence for more than 1 day, active solicitation of sales combined with gross receipts of $350,000.00 or more sourced to Michigan, or an ownership interest in a flow-through entity with substantial nexus. Taxpayers with apportioned gross receipts under $350,000 and annual liability of $100 or less are not required to file or pay.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.michigan.gov/taxes/questions/cit",
+          "source_citation": "Corporate Income Tax",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Under the CIT, a taxpayer “has substantial nexus in this state and is subject to the tax imposed under [the CIT] if the taxpayer has a physical presence in this state for a period of more than 1 day during the tax year, if the taxpayer acti"
+        },
+        {
+          "key": "sales_economic_nexus",
+          "label": "Sales/use tax: economic nexus",
+          "value": "A remote seller establishes economic nexus in Michigan if gross sales into the state exceed $100,000 or if the seller has 200 or more separate transactions into Michigan during the previous calendar year. Both taxable and nontaxable sales and transactions are included.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.michigan.gov/taxes/business-taxes/sales-use-tax/information/remote-seller-faq",
+          "source_citation": "Remote Seller FAQ",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "What gives a remote seller nexus with Michigan that requires it to register and report and pay sales or use tax to Michigan? A remote seller has nexus with Michigan and is required to report and pay sales or use tax if, in the previous cale"
+        },
+        {
+          "key": "pl_86_272",
+          "label": "P.L. 86-272",
+          "value": "Michigan treats P.L. 86-272 as a safe harbor exempting qualifying businesses from Corporate Income Tax liability rather than excluding them from nexus. The protection does not apply to the financial institution franchise tax, extends administratively to non-U.S. corporations, and cannot be used to exclude individual members from a unitary business group if at least one member lacks protection.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.michigan.gov/taxes/questions/cit",
+          "source_citation": "Corporate Income Tax",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "However, the corporate income tax is limited by federal statutory provisions commonly referred to as PL 86-272, which prohibits Michigan from imposing an income tax if the only in-state business activity of the out-of-state person is the so"
+        }
+      ]
+    },
+    "rates": {
+      "fields": [
+        {
+          "key": "individual",
+          "label": "Individual income tax",
+          "value": "Michigan imposes a flat individual income tax rate of 4.25%.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.michigan.gov/taxes/questions/iit/accordion/filing/what-are-the-current-tax-rate-and-exemption-amounts-1",
+          "source_citation": "What are the current tax rate and exemption amounts?",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "The tax rate for the 2025 tax year is 4.25%. The personal exemption for the 2025 tax year is $5,800."
+        },
+        {
+          "key": "sales",
+          "label": "Sales and use tax",
+          "value": "The state sales and use tax rate is 6.0%. Michigan does not authorize local jurisdictions to levy local sales or use taxes.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.michigan.gov/taxes/business-taxes/sales-use-tax",
+          "source_citation": "Sales and Use Taxes",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Individuals or businesses that sell tangible personal property to the final consumer are required to remit a 6% sales tax on the total price of their taxable retail sales to the State of Michigan."
+        }
+      ]
+    },
+    "filing": {
+      "fields": [
+        {
+          "key": "ptet",
+          "label": "Pass-through entity tax (PTET)",
+          "value": "Michigan provides an elective flow-through entity tax assessed at the individual income tax rate of 4.25%. The election is irrevocable for three tax years and must be made electronically via Michigan Treasury Online by submitting an electronic payment designated for the initial tax year.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.michigan.gov/taxes/business-taxes/flowthrough-entity-tax",
+          "source_citation": "Flow-Through Entity Tax",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "4.25% Tax Rate for Flow-Through Entity Tax Years Beginning in 2024 Notice:"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,536 @@
+[
+ {
+  "state": "OH",
+  "section": "apportionment",
+  "notes": "### Formula Used to Apportion Multistate Business Income\n* **Formula:** Ohio apportions multistate business income using a **three-factor weighted formula** consisting of property, payroll, and sales:\n  * **Property Factor:** Weighted at **20%** (factor multiplied by 20)\n  * **Payroll Factor:** Weighted at **20%** (factor multiplied by 20)\n  * **Sales Factor:** Weighted at **60%** (factor multiplied by 60)\n  * The sum of the weighted factors is divided by 100. If the denominator of any factor is zero, the weights of the remaining factors are proportionately increased so that the total weight equals 100%.\n* **Applicable Tax Years:** Applies to both tax years 2025 and 2026 (no statutory changes between them).\n* **Official Sources:**\n  * Ohio Revised Code (R.C.) § 5747.21: https://codes.ohio.gov/ohio-revised-code/section-5747.21\n  * R.C. § 5733.05(B)(2): https://codes.ohio.gov/ohio-revised-code/section-5733.05\n  * Ohio Department of Taxation – Instructions for Schedule IT BUS: https://tax.ohio.gov/individual/resources/forms-and-instructions\n\n---\n\n### Sourcing of Receipts from Services and Intangibles\n* **Services:** Sourced using **cost of performance**. Receipts from services are included in the numerator of the sales factor if the service is performed in Ohio. If the service is performed both within and without Ohio, receipts are sourced to Ohio if a greater proportion of the income-producing activity is performed in Ohio than in any other state, based on costs of performance.\n* **Intangibles:** Sourced using **cost of performance** / location of the income-producing activity. Receipts from intangibles (including patents, copyrights, trademarks, and investment/trading activities) are included in the Ohio sales factor numerator if the income-producing activity is performed solely in Ohio, or if performed both within and without Ohio and a greater proportion of the activity is performed in Ohio than in any other state based on costs of performance.\n* *(Note: While Ohio uses market-based sourcing for the Commercial Activity Tax [CAT] gross receipts tax under R.C. § 5751.033, cost of performance governs business income tax apportionment.)*\n* **Applicable Tax Years:** Applies to both tax years 2025 and 2026.\n* **Official Sources:**\n  * R.C. § 5733.05(B)(2)(c)(ii): https://codes.ohio.gov/ohio-revised-code/section-5733.05\n  * R.C. § 5747.21(B): https://codes.ohio.gov/ohio-revised-code/section-5747.21\n\n---\n\n### Industries with Their Own Apportionment Formula\n* **Motor Carriers:** Common or contract motor carriers apportion compensation/payroll for traveling employees based on the ratio of vehicle mileage traveled within Ohio to total vehicle mileage traveled everywhere during the taxable year (R.C. § 5733.05(B)(2)(b)(iii)).\n* **Financial Institutions:** Apportioned under specialized rules; for the Ohio Financial Institutions Tax (FIT), net equity capital is apportioned using a **single gross receipts factor** (Ohio gross receipts divided by total gross receipts, sitused based on customer benefit) (R.C. Chapter 5726; R.C. § 5733.056).\n* **Electric Light & Local Exchange Telephone Companies:** Subject to municipal income tax under Chapter 5745 administered by the state, apportioned using an **equally weighted three-factor formula** (1/3 property, 1/3 payroll, 1/3 sales) (R.C. § 5745.02(B)), with specialized situsing for transmission/distribution of electricity (R.C. § 5733.059) and alternative rules for telecommunications companies (R.C. § 5745.02(G); R.C. § 5733.05(B)(2)(e)).\n* **Applicable Tax Years:** Applies to both tax years 2025 and 2026.\n* **Official Sources:**\n  * R.C. § 5733.05(B)(2)(b)(iii) & (e): https://codes.ohio.gov/ohio-revised-code/section-5733.05\n  * R.C. § 5733.056: https://codes.ohio.gov/ohio-revised-code/section-5733.056\n  * R.C. § 5745.02: https://codes.ohio.gov/ohio-revised-code/section-5745.02\n  * Ohio Department of Taxation – Financial Institutions Tax: https://tax.ohio.gov/business/ohio-business-taxes/financial-institutions\n\n---\n\n### Form or Schedule Used to Compute Apportionment\n* **Ohio Schedule IT BUS (Business Income Schedule):** Completed by individuals filing Form IT 1040 to report and apportion multistate business income.\n* **Form IT 4708, Schedule IV:** Used by pass-through entities filing the composite income tax return on behalf of investors to calculate the entity's apportionment ratio.\n* **Form IT 4738:** Used by electing pass-through entities (EPTEs) to calculate entity-level tax and report apportionment.\n* **Form IT 1140, Schedule C:** Used by pass-through entities and trusts for withholding tax apportionment.\n* **Form IT NRC / IT NRCE:** Income Credit Calculation for Nonresident Individuals and Estates (used to apportion and allocate business income to Ohio).\n* **Form MNP 10:** Municipal Net Profit Tax Return (Schedule of Apportionment) for businesses electing centralized municipal filing.\n* **Applicable Tax Years:** Applies to both tax years 2025 and 2026.\n* **Official Sources:**\n  * Ohio Department of Taxation – Pass-Through Entity and Fiduciary Income Tax: https://tax.ohio.gov/business/ohio-business-taxes/pass-through-entities/pass-through-entity-and-fiduciary-income-tax\n  * Ohio Department of Taxation – IT 4738 Return: https://tax.ohio.gov/business/ohio-business-taxes/pass-through-entities/it-4738\n  * Ohio Department of Taxation Forms Index: https://tax.ohio.gov/individual/resources/forms-and-instructions",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Ohio apportions multistate business income using a three-factor formula weighting property at 20%, payroll at 20%, and sales at 60%. The sum of the weighted factors is divided by 100.",
+    "source_url": "https://codes.ohio.gov/ohio-revised-code/section-5747.21",
+    "evidence": [
+     "property factor",
+     "payroll factor",
+     "sales factor"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://codes.ohio.gov/ohio-revised-code/section-5747.21; figure not stated beside the evidence on tax.ohio.gov; unreadable: https://codes.ohio.gov/ohio-revised-code/section-5733.05; unreadable: https://codes.ohio.gov/ohio-revised-code/chapter-5747; unreadable: https://codes.ohio.gov/ohio-revised-code/chapter-5733; unreadable: https://codes.ohio.gov/ohio-revised-code/search?pageSize=25&sort=BestMatch&keywords=royalty&start=26; unreadable: https://codes.ohio.gov/ohio-revised-code/sear",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Receipts from services and intangibles are sourced under cost of performance rules based on the location of the income-producing activity. Receipts are sourced to Ohio if the activity is performed in the state or if a greater proportion is performed in Ohio than in any other state based on costs of performance.",
+    "source_url": "https://codes.ohio.gov/ohio-revised-code/section-5733.05",
+    "evidence": [
+     "income-producing activity",
+     "costs of performance",
+     "greater proportion"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://codes.ohio.gov/ohio-revised-code/section-5733.05; evidence not on tax.ohio.gov (0/3); unreadable: https://codes.ohio.gov/ohio-revised-code/chapter-5747; unreadable: https://codes.ohio.gov/ohio-revised-code/section-5747.21; unreadable: https://codes.ohio.gov/ohio-revised-code/chapter-5733; unreadable: https://codes.ohio.gov/ohio-revised-code/search?pageSize=25&sort=BestMatch&keywords=royalty&start=26; unreadable: https://codes.ohio.gov/ohio-revised-code/search?pageSize=25&sort",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Special rules apply to motor carriers, which apportion traveling employee compensation based on vehicle mileage, and financial institutions, which apportion net equity capital using a single gross receipts factor. Additionally, electric light and local exchange telephone companies use an equally weighted three-factor formula.",
+    "source_url": "https://codes.ohio.gov/ohio-revised-code/section-5745.02",
+    "evidence": [
+     "electric light",
+     "telephone companies",
+     "three-factor formula"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/communications/publications/annual_reports/2017AnnualReport/AR2017.pdf",
+    "matched_title": "2017 AR",
+    "matched_phrases": [
+     "electric light",
+     "telephone companies",
+     "three-factor formula"
+    ],
+    "snippet": "112 Municipal Income Tax for Electric Light and Telephone Companies ................................................................115 Property Tax –Manufactured Home Tax ........................................................................................................................"
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Individuals compute apportionment using Schedule IT BUS, while pass-through entities use Form IT 4708 Schedule IV or Form IT 4738. Withholding tax apportionment is reported on Form IT 1140 Schedule C.",
+    "source_url": "https://tax.ohio.gov/individual/resources/forms-and-instructions",
+    "evidence": [
+     "Schedule IT BUS",
+     "IT 4708",
+     "IT 4738",
+     "IT 1140"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.ohio.gov/business/pass-through-entity-and-fiduciary-income-tax",
+    "matched_title": "Pass-Through Entity and Fiduciary Income Tax",
+    "matched_phrases": [
+     "IT 4708",
+     "IT 4738",
+     "IT 1140"
+    ],
+    "snippet": "IT 1140 Pass-Through Entity and Trust Withholding Tax Return IT 4708 Pass-Through Entity Composite Income Tax Return IT 4738 Electing Pass-Through Entity Income Tax Return The Pass-Through Entity Tax is required to be filed by qualifying pass-through entities that:"
+   }
+  ],
+  "grounding_urls": [
+   "https://tax.ohio.gov/static/forms/ohio_individual/individual/2020/pit-it1040-booklet.pdf",
+   "https://codes.ohio.gov/ohio-revised-code/section-5733.05",
+   "https://codes.ohio.gov/ohio-revised-code/chapter-5747",
+   "https://codes.ohio.gov/ohio-revised-code/section-5747.21",
+   "https://codes.ohio.gov/ohio-revised-code/chapter-5733",
+   "https://codes.ohio.gov/ohio-revised-code/chapter-5747",
+   "https://codes.ohio.gov/ohio-revised-code/search?pageSize=25&sort=BestMatch&keywords=royalty&start=26",
+   "https://codes.ohio.gov/ohio-revised-code/search?pageSize=25&sort=BestMatch&keywords=schedule+k-1+income&start=226",
+   "https://codes.ohio.gov/ohio-revised-code/section-5733.05",
+   "https://tax.ohio.gov/wps/portal/gov/tax/business/financial-institutions-tax/financial-institutions-tax",
+   "https://tax.ohio.gov/portals/0/forms/FIT/2015/FIT_FIT_Instructions.pdf",
+   "https://codes.ohio.gov/ohio-revised-code/section-5745.02",
+   "https://codes.ohio.gov/ohio-revised-code/search?pageSize=25&sort=BestMatch&keywords=municipal+tax&start=26",
+   "https://codes.ohio.gov/ohio-revised-code/search?pageSize=25&sort=BestMatch&keywords=purchasing&start=2251",
+   "https://codes.ohio.gov/ohio-revised-code/section-5733.056",
+   "https://www.tax.ohio.gov/Portals/0/communications/publications/annual_reports/2017AnnualReport/AR2017.pdf",
+   "https://tax.ohio.gov/portals/0/forms/pass-through_entities/2011/PIT_IT4708.pdf",
+   "https://tax.ohio.gov/portals/0/forms/ohio_individual/individual/2001/4708-2001.pdf",
+   "https://tax.ohio.gov/business/pass-through-entity-and-fiduciary-income-tax",
+   "https://tax.ohio.gov/help-center/faqs/pass-through-entities-fiduciaries-electing-pass-through-entities-epte-it4738",
+   "https://tax.ohio.gov/static/forms/pass-through_entities/2021/it1140-instructions.pdf",
+   "https://tax.ohio.gov/portals/0/forms/pass-through_entities/2001/pit_1140return_2001_fi_012907.pdf",
+   "https://tax.ohio.gov/portals/0/forms/pass-through_entities/2006/PIT_IT1140.pdf",
+   "https://tax.ohio.gov/Portals/0/research/VTA/May2019/session1.pdf",
+   "https://tax.ohio.gov/portals/0/forms/Municipal-Net-Profit/2019/MNP_10_Instructions.pdf",
+   "https://tax.ohio.gov/business/pass-through-entity-and-fiduciary-income-tax",
+   "https://tax.ohio.gov/wps/portal/gov/tax/business/pass-through-entity-and-fiduciary-income-tax/it-k-1"
+  ],
+  "error": ""
+ },
+ {
+  "state": "OH",
+  "section": "nexus",
+  "notes": "### 1. Income or Franchise Tax Nexus (Commercial Activity Tax & Income Taxes)\n\n#### Commercial Activity Tax (CAT) Bright-Line Nexus\nOhio does not levy a general corporate franchise or net income tax on general corporations (the Corporate Franchise Tax was phased out and repealed for non-financial corporations under R.C. Chapter 5733). Ohio instead imposes the **Commercial Activity Tax (CAT)**—a privilege tax measured by gross receipts—under R.C. Chapter 5751.\n\nUnder **R.C. 5751.01(I)** and Ohio Department of Taxation guidance, an out-of-state person or business has a \"bright-line presence\" (substantial nexus) in Ohio for a reporting period and the remainder of the calendar year if any of the following tests are met at any time during the calendar year:\n* **Property:** Aggregate value of owned or rented property in Ohio of at least **$50,000** (owned property valued at original cost; rented property valued at 8 times net annual rental charge).\n* **Payroll:** Total payroll in Ohio of at least **$50,000**.\n* **Gross Receipts:** Taxable gross receipts sitused to Ohio of at least **$500,000**.\n* **Percentage of Total:** At least **25%** of the person's total property, total payroll, or total gross receipts is located within Ohio.\n* **Domicile:** The person is domiciled in Ohio.\n\n**Tax Years 2025 and 2026 Threshold Change (Exclusion Amount):**\n* Although the bright-line presence standard under R.C. 5751.01(I) establishes nexus, statutory taxable gross receipts exclusion changes enacted in House Bill 33 govern filing and payment obligations:\n  * Prior to 2024, taxpayers with nexus owed CAT once receipts exceeded $150,000.\n  * For **Tax Years 2025 and 2026**, the exclusion amount is **$6,000,000** (increased from $3,000,000 in 2024). Businesses with Ohio taxable gross receipts of $6 million or less owe no CAT and are not required to file.\n* **Official URLs:**\n  * Ohio Revised Code § 5751.01: https://codes.ohio.gov/ohio-revised-code/section-5751.01\n  * Ohio Department of Taxation Commercial Activity Tax: https://tax.ohio.gov/business/ohio-business-taxes/commercial-activity-tax\n  * Information Release CAT 2005-02: https://tax.ohio.gov/business/ohio-business-taxes/commercial-activity-tax/information-releases/cat-2005-02\n\n#### Pass-Through Entity / Income Tax Nexus\n* Pass-through entities (PTEs) and nonresidents establish nexus if they have property, payroll, or business activity in the state, or if they directly or indirectly hold an ownership interest in a PTE that conducts business in Ohio (R.C. 5733.40 / Information Release IT 2001-02).\n* **Official URL:**\n  * Information Release IT 2001-02: https://tax.ohio.gov/business/ohio-business-taxes/pass-through-entities/information-releases/it200102\n\n---\n\n### 2. Remote Seller Sales & Use Tax Economic Nexus\n\nUnder **R.C. 5741.01(I)(2)(g)–(h)** and Ohio Department of Taxation rules, an out-of-state remote seller is deemed to have substantial nexus and must register to collect and remit Ohio seller's use tax if either of the following conditions is met:\n* **Sales Threshold:** Gross receipts in excess of **$100,000** from the sale of tangible personal property for storage, use, or consumption in Ohio or from providing services the benefit of which is realized in Ohio; **OR**\n* **Transaction Count Threshold:** **200 or more** separate transactions selling tangible personal property or providing services into Ohio.\n* **Measurement Period:** The **current or preceding calendar year**.\n* **Application to Tax Years 2025 and 2026:** Applies uniformly to both tax years 2025 and 2026 (no statutory changes between them).\n* **Official URLs:**\n  * Ohio Revised Code § 5741.01: https://codes.ohio.gov/ohio-revised-code/section-5741.01\n  * Ohio Department of Taxation Sales and Use Tax: https://tax.ohio.gov/business/ohio-business-taxes/sales-and-use/sales-and-use-tax\n\n---\n\n### 3. Ohio's Stated Position on P.L. 86-272 Protection\n\n* **Commercial Activity Tax (CAT):**\n  * Under **R.C. 5751.02(A)**, the CAT is an annual privilege tax levied on gross receipts and **\"is not subject to Public Law No. 86-272\"**. P.L. 86-272 offers no protection against the CAT.\n  * **Official URL:** https://codes.ohio.gov/ohio-revised-code/section-5751.02\n* **Taxes On or Measured by Net Income (Pass-Through Entity / Individual Income):**\n  * The Ohio Department of Taxation states in **Information Release IT 2001-02** (and historical CFT 2001-02) that P.L. 86-272 only restricts the imposition of a tax on or measured by net income where the business's sole activity within Ohio consists of the solicitation of orders for sales of tangible personal property, provided the orders are approved and filled from points outside Ohio.\n  * Ohio explicitly follows the **Multistate Tax Commission (MTC)** *Statement of Information Concerning Practices of Multistate Tax Commission and Signatory States under Public Law 86-272* (revision dated July 27, 2001) to distinguish protected from unprotected activities.\n  * The Department's position is that P.L. 86-272 does not defeat nexus itself (implicit in the statute is that nexus exists), but rather provides statutory immunity from net income-based tax liability.\n  * **Application to Tax Years 2025 and 2026:** Applies to both years.\n  * **Official URL:**\n    * Information Release IT 2001-02: https://tax.ohio.gov/business/ohio-business-taxes/pass-through-entities/information-releases/it200102",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Commercial Activity Tax bright-line presence is established if a person has at least $50,000 in property, $50,000 in payroll, $500,000 in taxable gross receipts, or 25% of total property, payroll, or gross receipts in Ohio. For tax years 2025 and 2026, an exclusion applies so that businesses with Ohio taxable gross receipts of $6,000,000 or less owe no tax and are not required to file.",
+    "source_url": "https://codes.ohio.gov/ohio-revised-code/section-5751.01",
+    "evidence": [
+     "bright-line presence",
+     "taxable gross receipts",
+     "at least $50,000",
+     "at least $500,000"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://codes.ohio.gov/ohio-revised-code/section-5751.01; figures not on tax.ohio.gov: ['2025', '2026', '25', '50000', '500000', '6000000']; unreadable: https://codes.ohio.gov/ohio-revised-code/chapter-5733; figures not on tax.ohio.gov: ['6000000']; unreadable: https://codes.ohio.gov/ohio-revised-code/search?pageSize=25&sort=SectionNumber&keywords=non-profit&start=651; figures not on tax.ohio.gov: ['2025', '2026', '50000', '6000000']; figures not on www.tax.ohio.gov: ['2025', '2026',",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "An out-of-state seller establishes economic nexus if gross receipts from sales into Ohio exceed $100,000 or if the seller engages in 200 or more separate transactions into the state. The threshold is measured during the current or preceding calendar year.",
+    "source_url": "https://codes.ohio.gov/ohio-revised-code/section-5741.01",
+    "evidence": [
+     "gross receipts in excess of",
+     "200 or more separate transactions",
+     "current or preceding calendar year"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://codes.ohio.gov/ohio-revised-code/section-5741.01; figures not on tax.ohio.gov: ['100000', '200']; unreadable: https://codes.ohio.gov/ohio-revised-code/chapter-5733; unreadable: https://codes.ohio.gov/ohio-revised-code/search?pageSize=25&sort=SectionNumber&keywords=non-profit&start=651; unreadable: https://codes.ohio.gov/ohio-revised-code/section-5751.01; evidence not on www.tax.ohio.gov (0/3); figures not on tax.ohio.gov: ['200']; evidence not on tax.ohio.gov (0/3); evidence ",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Ohio specifies that the Commercial Activity Tax is a privilege tax levied on gross receipts and is not subject to Public Law No. 86-272. For net income-based taxes, Ohio restricts protection to the solicitation of orders for sales of tangible personal property filled from outside the state following MTC guidelines.",
+    "source_url": "https://codes.ohio.gov/ohio-revised-code/section-5751.02",
+    "evidence": [
+     "not subject to Public Law",
+     "Public Law No. 86-272",
+     "privilege of doing business",
+     "taxable gross receipts"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://codes.ohio.gov/ohio-revised-code/section-5751.02; evidence not on tax.ohio.gov (0/4); unreadable: https://codes.ohio.gov/ohio-revised-code/chapter-5733; figures not on tax.ohio.gov: ['272', '86']; unreadable: https://codes.ohio.gov/ohio-revised-code/search?pageSize=25&sort=SectionNumber&keywords=non-profit&start=651; unreadable: https://codes.ohio.gov/ohio-revised-code/section-5751.01; figures not on www.tax.ohio.gov: ['272']; unreadable: https://codes.ohio.gov/ohio-revised-c",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://tax.ohio.gov/wps/portal/gov/tax/business/ohio-business-taxes/corporation-franchise/information-releases/cft-2001-02-information-release",
+   "https://codes.ohio.gov/ohio-revised-code/chapter-5733",
+   "https://tax.ohio.gov/business/commercial-activity-tax",
+   "https://codes.ohio.gov/ohio-revised-code/search?pageSize=25&sort=SectionNumber&keywords=non-profit&start=651",
+   "https://codes.ohio.gov/ohio-revised-code/section-5751.01",
+   "https://tax.ohio.gov/Portals/0/research/VTA/Feb2017/session3.pdf",
+   "https://www.tax.ohio.gov/Portals/0/communications/publications/annual_reports/2017AnnualReport/AR2017.pdf",
+   "https://tax.ohio.gov/portals/0/commercial_activities/information_releases/cat200502.pdf",
+   "https://tax.ohio.gov/business/commercial-activity-tax",
+   "https://tax.ohio.gov/portals/0/forms/ohio_individual/individual/2004/pit_it1040%20instructions.pdf",
+   "https://tax.ohio.gov/Portals/0/ohio_individual/individual/information_releases/2001-02PTENexusIR-NexusQuestionnaire.pdf",
+   "https://tax.ohio.gov/business/sales-and-use-tax",
+   "https://codes.ohio.gov/ohio-revised-code/section-5741.01",
+   "https://codes.ohio.gov/ohio-revised-code/chapter-5751",
+   "https://tax.ohio.gov/Portals/0/ohio_individual/individual/information_releases/2001-02PTENexusIR-NexusQuestionnaire.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "OH",
+  "section": "rates",
+  "notes": "### 1. Individual Income Tax Rates and Brackets\n\n* **Tax Year 2025**:\n  * **Nonbusiness Income Brackets & Rates** (R.C. § 5747.02(A)(3)(b)):\n    * **$0 to $26,050:** $0 (0.000%)\n    * **$26,050 to $100,000:** $342.00 + 2.75% of the amount in excess of $26,050\n    * **Over $100,000:** $2,394.32 + 3.125% of the amount in excess of $100,000\n  * **Taxable Business Income** (R.C. § 5747.02(A)(4)(a)):\n    * Taxed at a flat rate of **3.0%** after applying the Business Income Deduction (which allows an exemption of up to $250,000 for Single/MFJ or up to $125,000 for MFS).\n* **Tax Year 2026**:\n  * **Nonbusiness Income Brackets & Rates** (R.C. § 5747.02(A)(3)(c)):\n    * **$0 to $26,050:** $0 (No tax)\n    * **Over $26,050:** $332.00 + 2.75% of the amount in excess of $26,050\n    * *(Change from 2025: The top bracket rate of 3.125% for income over $100,000 is eliminated, flattening nonbusiness taxable income above $26,050 to a single 2.75% rate).*\n  * **Taxable Business Income:** Remains taxed at a flat rate of **3.0%**.\n* **Official Sources:**\n  * Ohio Department of Taxation Annual Tax Rates: https://tax.ohio.gov/individual/resources/annual-tax-rates\n  * Ohio Department of Taxation Business Income Deduction: https://tax.ohio.gov/individual/business-income-deduction\n  * Ohio Revised Code § 5747.02 (Tax rates): https://codes.ohio.gov/ohio-revised-code/section-5747.02\n\n---\n\n### 2. Corporate Income / Franchise Tax\n\n* **Tax Years 2025 and 2026:**\n  * Ohio **does not impose a general corporate income tax or corporate franchise tax** on regular business corporations.\n  * The Ohio Corporation Franchise Tax was phased out, with tax year 2013 (based on 2012 income) being the final tax year. Franchise tax reports are no longer required for 2014 and forward.\n  * **Minimum Tax:** None (tax repealed/phased out).\n* **Official Source:**\n  * Ohio Department of Taxation Corporation Franchise Tax: https://tax.ohio.gov/business/ohio-business-taxes/corporation-franchise\n\n---\n\n### 3. Sales and Use Tax\n\n* **Tax Years 2025 and 2026:**\n  * **State Sales and Use Tax Rate:** **5.75%**.\n  * **Local Additions:** **Yes.** Counties and regional transit authorities (RTAs) are authorized to levy additional permissive local sales and use taxes in multiples of 0.05% up to a local maximum of 3.00%. Total combined state and local sales and use tax rates typically range between 6.50% and 8.00% across Ohio jurisdictions.\n* **Official Sources:**\n  * Ohio Department of Taxation Sales and Use Tax: https://tax.ohio.gov/business/ohio-business-taxes/sales-and-use\n  * Ohio Department of Taxation Sales and Use Tax Rates: https://tax.ohio.gov/business/ohio-business-taxes/sales-and-use/rate-changes\n\n---\n\n### 4. Gross Receipts, Franchise, or Other Notable Business Taxes\n\n* **Commercial Activity Tax (CAT)**:\n  * **Application:** Applies to all business types (corporations, LLCs, partnerships, sole proprietorships) for the privilege of doing business in Ohio, measured by Ohio taxable gross receipts (TGR).\n  * **Tax Rate (Years 2025 and 2026):** **0.26%** (0.0026) on Ohio taxable gross receipts exceeding the exclusion amount.\n  * **Exclusion Threshold (Years 2025 and 2026):** Businesses with **$6 million or less** in Ohio TGR are exempt. Businesses with greater than $6 million in Ohio TGR pay 0.26% on receipts exceeding $6,000,000.\n  * **Annual Minimum Tax (AMT):** **$0 / Eliminated.** The AMT was completely eliminated beginning in tax year 2024 and does not apply to tax years 2025 or 2026.\n* **Other Notable Entity Taxes:**\n  * **Financial Institutions Tax (FIT):** An excise/privilege tax on financial institutions operating in Ohio, measured by apportioned total equity capital (replaces the former franchise tax for banks).\n  * **Petroleum Activity Tax (PAT):** A **0.65%** excise tax on calculated gross receipts from the first sale or distribution of motor fuel in Ohio (excluded from CAT).\n* **Official Sources:**\n  * Ohio Department of Taxation Commercial Activity Tax: https://tax.ohio.gov/business/ohio-business-taxes/commercial-activity-tax\n  * Ohio Department of Taxation Financial Institutions Tax: https://tax.ohio.gov/business/ohio-business-taxes/financial-institutions\n  * Ohio Department of Taxation Petroleum Activity Tax: https://tax.ohio.gov/business/ohio-business-taxes/petroleum-activity-tax",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025
+    ],
+    "value": "For 2025, nonbusiness income is taxed at 0% up to $26,050, 2.75% from $26,050 to $100,000, and 3.125% over $100,000. Taxable business income is taxed at a flat rate of 3.0% after the Business Income Deduction.",
+    "source_url": "https://tax.ohio.gov/individual/resources/annual-tax-rates",
+    "evidence": [
+     "Nonbusiness Income Brackets",
+     "2.75%",
+     "3.125%",
+     "taxable business income"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.ohio.gov/individual/resources/annual-tax-rates",
+    "matched_title": "Annual Tax Rates",
+    "matched_phrases": [
+     "2.75%",
+     "3.125%",
+     "taxable business income"
+    ],
+    "snippet": "Ohio Taxable Income Tax Calculation More than      Up to $0       -       $26,050 0.000% of Ohio taxable nonbusiness income $26,050 -    $100,000 $342 + 2.75% of excess over $26,050 $100,000 - $2,394.32 + 3.125% of excess over $100,000 For taxable years beginning in 2024:"
+   },
+   {
+    "key": "individual",
+    "years": [
+     2026
+    ],
+    "value": "For 2026, nonbusiness income is taxed at 0% up to $26,050 and 2.75% for income over $26,050, eliminating the top 3.125% bracket. Taxable business income remains taxed at a flat rate of 3.0%.",
+    "source_url": "https://codes.ohio.gov/ohio-revised-code/section-5747.02",
+    "evidence": [
+     "2.75%",
+     "taxable business income",
+     "in excess of $26,050"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://codes.ohio.gov/ohio-revised-code/section-5747.02; figures not on tax.ohio.gov: ['2026']; unreadable: https://codes.ohio.gov/ohio-revised-code/section-5747.02/9-29-2017; figures not on tax.ohio.gov: ['0', '2.75', '2026', '26050', '3.125']; figures not on tax.ohio.gov: ['0', '2.75', '2026', '26050', '3', '3.125']; figures not on tax.ohio.gov: ['0', '2.75', '26050', '3.125']; figures not on tax.ohio.gov: ['0', '2.75', '26050', '3', '3.125']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Ohio does not levy a general corporate income tax or corporate franchise tax on regular business corporations. The Corporation Franchise Tax was phased out after tax year 2013 and has no minimum tax.",
+    "source_url": "https://tax.ohio.gov/business/ohio-business-taxes/corporation-franchise",
+    "evidence": [
+     "Corporation Franchise Tax",
+     "phased out",
+     "final tax year"
+    ],
+    "accepted": false,
+    "reason": "figures not on tax.ohio.gov: ['2013']; evidence not on tax.ohio.gov (0/3); unreadable: https://codes.ohio.gov/ohio-revised-code/section-5747.02; unreadable: https://codes.ohio.gov/ohio-revised-code/section-5747.02/9-29-2017; evidence not on tax.ohio.gov (1/3)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The state sales and use tax rate is 5.75%. Counties and regional transit authorities may levy additional permissive local taxes, resulting in combined rates typically between 6.50% and 8.00%.",
+    "source_url": "https://tax.ohio.gov/business/ohio-business-taxes/sales-and-use",
+    "evidence": [
+     "Sales and Use Tax",
+     "5.75%",
+     "permissive local sales"
+    ],
+    "accepted": false,
+    "reason": "figures not on tax.ohio.gov: ['6.5']; figures not on tax.ohio.gov: ['5.75', '6.5', '8']; unreadable: https://codes.ohio.gov/ohio-revised-code/section-5747.02; unreadable: https://codes.ohio.gov/ohio-revised-code/section-5747.02/9-29-2017; figures not on tax.ohio.gov: ['6.5', '8']; figure not stated beside the evidence on tax.ohio.gov; figures not on tax.ohio.gov: ['5.75', '6.5']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The Commercial Activity Tax (CAT) is imposed at 0.26% on taxable gross receipts exceeding $6 million, with receipts of $6 million or less exempt. The annual minimum tax has been eliminated.",
+    "source_url": "https://tax.ohio.gov/business/ohio-business-taxes/commercial-activity-tax",
+    "evidence": [
+     "Commercial Activity Tax",
+     "0.26%",
+     "taxable gross receipts",
+     "exclusion amount"
+    ],
+    "accepted": false,
+    "reason": "figures not on tax.ohio.gov: ['0.26', '6']; unreadable: https://codes.ohio.gov/ohio-revised-code/section-5747.02; unreadable: https://codes.ohio.gov/ohio-revised-code/section-5747.02/9-29-2017; figures not on tax.ohio.gov: ['0.26']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://tax.ohio.gov/individual/resources/annual-tax-rates",
+   "https://codes.ohio.gov/ohio-revised-code/section-5747.02",
+   "https://codes.ohio.gov/ohio-revised-code/section-5747.02/9-29-2017",
+   "https://tax.ohio.gov/wps/portal/gov/tax/individual/resources/businessincomededuction",
+   "https://codes.ohio.gov/ohio-revised-code/section-5747.02",
+   "https://codes.ohio.gov/ohio-revised-code/section-5747.02",
+   "https://tax.ohio.gov/wps/portal/gov/tax/business/corporation-franchise-tax",
+   "https://tax.ohio.gov/business/sales-and-use-tax",
+   "https://tax.ohio.gov/business/ohio-business-taxes/sales-and-use/",
+   "https://tax.ohio.gov/wps/portal/gov/tax/business/sales-and-use-tax/rate-tables/by-county-q3-2025",
+   "https://tax.ohio.gov/wps/portal/gov/tax/business/sales-and-use-tax/rate-tables/by-county-q4-2025",
+   "https://tax.ohio.gov/business/commercial-activity-tax",
+   "https://tax.ohio.gov/wps/portal/gov/tax/business/financial-institutions-tax/financial-institutions-tax",
+   "https://tax.ohio.gov/business/petroleum-activity-tax"
+  ],
+  "error": ""
+ },
+ {
+  "state": "OH",
+  "section": "filing",
+  "notes": "### 1. Individual Income Tax: Return Due Dates and Extensions\n\n* **Calendar-Year Return Due Date:**\n  * **Tax Year 2025:** Due April 15, 2026. \n  * **Tax Year 2026:** Due April 15, 2027 (if a due date falls on a weekend or legal holiday, it moves to the next business day).\n  * **Source:** [Ohio Department of Taxation – Due Dates](https://tax.ohio.gov/individual/due-dates); [Ohio Department of Taxation – Individual Filing Season Tips](https://tax.ohio.gov/individual/filing-season-tips)\n\n* **Extension Rules:**\n  * Ohio does not offer a separate state income tax extension application form for individuals; Ohio automatically honors the federal filing extension (IRS Form 4868).\n  * **Extended Due Date:** October 15 following the close of the calendar tax year (October 15, 2026 for TY 2025; October 15, 2027 for TY 2026).\n  * **Payment Rule:** The extension grants extra time to file the return only, not extra time to pay. All tax payments remain due by the original April 15 deadline to avoid interest and penalties. Payments can be made online via OH|TAX eServices or with an Ohio Universal Payment Coupon (OUPC / IT 40P).\n  * **Source:** [Ohio Department of Taxation – Individual Filing Season Tips](https://tax.ohio.gov/individual/filing-season-tips)\n\n---\n\n### 2. Corporate and Pass-Through Entity Return Due Dates and Extensions\n\n* **Corporate Income Tax:**\n  * Ohio does **not** levy a general corporate income tax (the Ohio Corporation Franchise Tax was phased out and has not applied since tax year 2013). \n  * Most corporate businesses are subject to the gross-receipts-based Commercial Activity Tax (CAT). \n  * For corporations opting into centralized state administration for municipal taxes, the **Municipal Net Profit Tax return (Form MNP 10)** is due on the 15th day of the 4th month following the end of the tax year (April 15 for calendar-year filers). An IRS extension extends the MNP 10 filing deadline to the 15th day of the 10th month (October 15 for calendar-year filers), but does not extend time to pay.\n  * **Source:** [Ohio Department of Taxation – Corporation Franchise Tax](https://tax.ohio.gov/business/ohio-business-taxes/corporation-franchise); [Ohio Department of Taxation – Municipal Net Profit Tax Instructions (MNP 10)](https://tax.ohio.gov/business/ohio-business-taxes/municipal-net-profit-tax/forms-instructions)\n\n* **Pass-Through Entity (PTE) Return Due Dates:**\n  * **IT 1140 (Withholding Tax Return):** Due on or before the 15th day of the 4th month following the close of the entity's taxable year (April 15 for calendar-year filers).\n  * **IT 4708 (Composite Income Tax Return):** Due April 15 after the close of the entity’s tax year.\n  * **IT 4738 (Electing Pass-Through Entity Income Tax Return):** Due on or before the 15th day of the 4th month after the close of the entity's tax year (April 15 for calendar-year filers).\n  * Applies to both TY 2025 and TY 2026.\n  * **Source:** [Ohio Department of Taxation – Pass-Through Entity and Fiduciary Income Tax](https://tax.ohio.gov/business/ohio-business-taxes/pass-through-entities); [Ohio Department of Taxation – Due Dates](https://tax.ohio.gov/individual/due-dates)\n\n* **PTE Extension Rules:**\n  * Ohio allows filers the same extended deadline as the federal extension (IRS Form 7004). A copy of the federal extension must be attached to the Ohio PTE return.\n  * An extension extends the time to file only; tax payment is due by the original statutory due date without extension.\n  * Applies to both TY 2025 and TY 2026.\n  * **Source:** [Ohio Department of Taxation – IT 4708 Composite Return](https://tax.ohio.gov/business/ohio-business-taxes/pass-through-entities/it-4708); [Ohio Department of Taxation – IT 1140 Withholding Return](https://tax.ohio.gov/business/ohio-business-taxes/pass-through-entities/it-1140)\n\n---\n\n### 3. Elective Pass-Through Entity Tax (PTET)\n\n* **Existence:** Yes; enacted under Ohio Revised Code (R.C.) 5747.38 (effective starting tax year 2022).\n* **Tax Rate:** **3%** for reporting periods beginning on or after January 1, 2023 (applies to both TY 2025 and TY 2026, matching the business income tax rate under R.C. 5747.02(A)(4)(a)).\n* **How to Elect:** Elect by filing the **Ohio IT 4738** return, or by submitting the **Electing PTE Election Form (EPTE-ELEC)**.\n* **When to Elect:** The election must be made annually on or before the filing deadline (including extensions).\n* **Binding Effect:** The election applies for one tax year, is irrevocable once filed for that tax year, and is binding on all owners.\n* **Source:** [Ohio Department of Taxation – IT 4738 Electing Pass-Through Entity Return](https://tax.ohio.gov/business/ohio-business-taxes/pass-through-entities/it-4738); [Ohio Department of Taxation – Pass-Through Entity & Fiduciary Income Tax Rates](https://tax.ohio.gov/business/ohio-business-taxes/pass-through-entities/rates); [Ohio Revised Code Section 5747.38](https://codes.ohio.gov/ohio-revised-code/section-5747.38)\n\n---\n\n### 4. Composite / Group Nonresident Returns for Pass-Through Entities\n\n* **Composite Return Mechanism:** Form **IT 4708** (Pass-Through Entity Composite Income Tax Return).\n* **Eligibility & Scope:**\n  * A pass-through entity may elect to file Form IT 4708 on behalf of one or more of its direct and indirect investors (nonresident and resident individuals, trusts, estates, and other PTEs; C corporations cannot participate).\n  * Nonresident investors whose only Ohio-sourced income is included on the IT 4708 are exempt from filing an individual Ohio return (Form IT 1040). (Resident investors must still file Form IT 1040).\n  * The election to file IT 4708 is annual and irrevocable once made.\n* **Tax Rate:** \n  * **3.125%** for reporting periods beginning on or after January 1, 2025 (applies to both TY 2025 and TY 2026; decreased from 3.5% in TY 2024).\n* **Source:** [Ohio Department of Taxation – IT 4708 Composite Income Tax Return](https://tax.ohio.gov/business/ohio-business-taxes/pass-through-entities/it-4708); [Ohio Department of Taxation – Pass-Through Entity & Fiduciary Income Tax Rates](https://tax.ohio.gov/business/ohio-business-taxes/pass-through-entities/rates)\n\n---\n\n### 5. Estimated Tax Requirements and Nonresident Withholding for Pass-Throughs\n\n* **Nonresident Withholding (Form IT 1140):**\n  * **Filing Requirement:** Mandatory for qualifying PTEs doing business in Ohio with at least one qualifying investor if the entity's adjusted qualifying amount exceeds **$1,000**.\n  * **Withholding Tax Rate:** **3%** for reporting periods beginning on or after January 1, 2023 (applies to both TY 2025 and TY 2026).\n  * **Source:** [Ohio Department of Taxation – IT 1140 Return](https://tax.ohio.gov/business/ohio-business-taxes/pass-through-entities/it-1140); [Ohio Department of Taxation – Pass-Through Entity & Fiduciary Income Tax Rates](https://tax.ohio.gov/business/ohio-business-taxes/pass-through-entities/rates)\n\n* **PTE Estimated Tax Payments:**\n  * **Safe Harbor Installment Rule:** Required quarterly installments equal 25% of the lesser of 90% of the current year tax liability or 100% of the prior year tax liability (R.C. 5747.43(A)(4)).\n  * **Composite (IT 4708) Estimated Due Dates:** Required if combined tax after credits exceeds **$500**; calendar-year due dates are:\n    * Quarter 1: April 15; Quarter 2: June 15; Quarter 3: September 15; Quarter 4: January 15. (Applies to TY 2025 and TY 2026).\n  * **Withholding (IT 1140) and PTET (IT 4738) Estimated Due Dates (Statutory Change):**\n    * **Tax Year 2025:** Due the 15th day of the month following each calendar quarter: **April 15, July 15, October 15, and January 15**.\n    * **Tax Year 2026 (Changed):** Under R.C. 5747.43 as amended, calendar-year due dates align to: **April 15, June 15, September 15, and January 15**.\n  * **Source:** [Ohio Department of Taxation – IT 1140 Return](https://tax.ohio.gov/business/ohio-business-taxes/pass-through-entities/it-1140); [Ohio Department of Taxation – IT 4738 Return](https://tax.ohio.gov/business/ohio-business-taxes/pass-through-entities/it-4738); [Ohio Revised Code Section 5747.43](https://codes.ohio.gov/ohio-revised-code/section-5747.43)\n\n* **Individual Estimated Tax Rule (IT 1040):**\n  * Required if tax liability after withholding is more than **$500**. Safe harbor is 90% of current year tax or 100% of prior year tax. Due April 15, June 15, September 15, and January 15 of the following year.\n  * **Source:** [Ohio Department of Taxation – Estimated Payments FAQs](https://tax.ohio.gov/help-center/faqs/income-estimated-income-school-district-taxes-and-the-2210-interest-penalty)\n\n---\n\n### 6. Main Tax Forms\n\n* **Individual Income Tax:**\n  * **IT 1040:** Individual Income Tax Return.\n  * **IT 10:** Zero Liability / No Refund Individual Income Tax Return.\n  * **SD 100:** School District Income Tax Return.\n  * **OUPC:** Ohio Universal Payment Coupon (used for individual estimated payments [formerly IT ES] and extension/return payments [formerly IT 40P]).\n  * **Source:** [Ohio Department of Taxation – Tax Forms](https://tax.ohio.gov/forms)\n\n* **Corporate / Business Entities:**\n  * Ohio has **no** corporate net income tax return form (CFT 1120 is discontinued/phased out).\n  * **CAT Q:** Commercial Activity Tax quarterly return (gross receipts tax filed via the Ohio Business Gateway).\n  * **MNP 10:** Municipal Net Profit Tax Annual Return (for businesses electing centralized state administration).\n  * **FIT 10:** Financial Institutions Tax Return (for financial institutions).\n  * **Source:** [Ohio Department of Taxation – Business Taxes](https://tax.ohio.gov/business)\n\n* **Pass-Through Entities:**\n  * **IT 1140:** Pass-Through Entity and Trust Withholding Tax Return.\n  * **IT 4708:** Pass-Through Entity Composite Income Tax Return.\n  * **IT 4738:** Electing Pass-Through Entity Income Tax Return (PTET).\n  * **Ohio IT K-1:** Investor's / Beneficiary's Share of Income, Deductions, Credits, and Apportionment.\n  * **OUPC / PTE UPC:** Ohio Universal Payment Coupon (used for PTE estimated, extension, and return payments).\n  * **EPTE-ELEC:** Electing PTE Election Form.\n  * **Source:** [Ohio Department of Taxation – Tax Forms](https://tax.ohio.gov/forms); [Ohio Department of Taxation – Pass-Through Entities](https://tax.ohio.gov/business/ohio-business-taxes/pass-through-entities)",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Ohio individual income tax returns are due April 15 following the close of the calendar year. Ohio automatically honors federal extensions (IRS Form 4868) through October 15, but an extension grants extra time to file only, not to pay.",
+    "source_url": "https://tax.ohio.gov/individual/filing-season-tips",
+    "evidence": [
+     "honors the federal",
+     "filing extension",
+     "extra time to file",
+     "October 15"
+    ],
+    "accepted": false,
+    "reason": "figures not on tax.ohio.gov: ['15', '4868']; figures not on tax.ohio.gov: ['4868']; evidence not on tax.ohio.gov (1/4); unreadable: https://codes.ohio.gov/ohio-revised-code/section-5747.38; unreadable: https://codes.ohio.gov/ohio-revised-code/section-5747.43; figures not on www.tax.ohio.gov: ['4868']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Ohio does not levy a corporate income tax. Pass-through entity returns (IT 1140, IT 4708, and IT 4738) are due on or before April 15 for calendar-year filers, and Ohio honors federal extension Form 7004 to extend the filing deadline only.",
+    "source_url": "https://tax.ohio.gov/business/ohio-business-taxes/pass-through-entities",
+    "evidence": [
+     "15th day of the 4th month",
+     "federal extension",
+     "time to file only"
+    ],
+    "accepted": false,
+    "reason": "figures not on tax.ohio.gov: ['7004']; figures not on tax.ohio.gov: ['1140', '4708', '4738', '7004']; figures not on tax.ohio.gov: ['1140', '15', '4708', '4738', '7004']; figures not on tax.ohio.gov: ['15', '7004']; unreadable: https://codes.ohio.gov/ohio-revised-code/section-5747.38; figures not on tax.ohio.gov: ['4738', '7004']; unreadable: https://codes.ohio.gov/ohio-revised-code/section-5747.43; figures not on tax.ohio.gov: ['1140', '4738', '7004']; figures not on www.tax.ohio.gov: ['4738', ",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Ohio has an elective pass-through entity tax levied at a rate of 3%. Entities elect annually by filing Form IT 4738 or submitting Form EPTE-ELEC on or before the filing deadline including extensions, which is irrevocable once made.",
+    "source_url": "https://tax.ohio.gov/business/ohio-business-taxes/pass-through-entities/it-4738",
+    "evidence": [
+     "Electing Pass-Through Entity",
+     "IT 4738",
+     "irrevocable once filed"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.ohio.gov/business/pass-through-entity-and-fiduciary-income-tax/it-4708",
+    "matched_title": "IT 4708 Pass-Through Entity Composite Income Tax Return",
+    "matched_phrases": [
+     "Electing Pass-Through Entity",
+     "IT 4738"
+    ],
+    "snippet": "Share this odx-more-information Additional Resources Pass-Through Entity and Fiduciary Income Tax Information on Pass-Through Entity & Fiduciary Income Tax Returns/Forms Pass-Through Entity & Fiduciary Income Tax Rates IT 1140 Pass-Through Entity (PTE) and Trust Withholding Tax Return IT 4708 Pass-Through Entity Composite Income Tax Return IT 4738 Electing Pass-Through Entity Income Tax Return IT 1041 Fiduciary Income Tax Return (Trusts/Estates) Ohio IT K-1 Contact Us OH|TAX eServices Web Messag"
+   },
+   {
+    "key": "composite",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "A pass-through entity may file an annual composite return using Form IT 4708 on behalf of direct and indirect investors at a tax rate of 3.125%. Nonresident investors whose only Ohio-sourced income is included on Form IT 4708 are exempt from filing an individual return.",
+    "source_url": "https://tax.ohio.gov/business/ohio-business-taxes/pass-through-entities/it-4708",
+    "evidence": [
+     "Composite Income Tax Return",
+     "IT 4708",
+     "exempt from filing"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.ohio.gov/business/pass-through-entity-and-fiduciary-income-tax",
+    "matched_title": "Pass-Through Entity and Fiduciary Income Tax",
+    "matched_phrases": [
+     "Composite Income Tax Return",
+     "IT 4708",
+     "exempt from filing"
+    ],
+    "snippet": "IT 1140 Pass-Through Entity and Trust Withholding Tax Return IT 4708 Pass-Through Entity Composite Income Tax Return IT 4738 Electing Pass-Through Entity Income Tax Return The Pass-Through Entity Tax is required to be filed by qualifying pass-through entities that:"
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025
+    ],
+    "value": "For tax year 2025, estimated payments for withholding (IT 1140) and PTET (IT 4738) are due April 15, July 15, October 15, and January 15, while composite (IT 4708) payments are due April 15, June 15, September 15, and January 15. Form IT 1140 withholding is mandatory at a 3% rate if an entity's adjusted qualifying amount exceeds $1,000.",
+    "source_url": "https://tax.ohio.gov/business/ohio-business-taxes/pass-through-entities/it-1140",
+    "evidence": [
+     "adjusted qualifying amount",
+     "exceeds $1,000",
+     "April 15",
+     "July 15"
+    ],
+    "accepted": false,
+    "reason": "figures not on tax.ohio.gov: ['1000', '15', '2025', '3', '4708', '4738']; figures not on tax.ohio.gov: ['1000', '1140', '2025', '3', '4708', '4738']; figures not on tax.ohio.gov: ['1000']; figures not on tax.ohio.gov: ['1000', '1140', '15', '3', '4708', '4738']; figures not on tax.ohio.gov: ['1000', '3']; figures not on tax.ohio.gov: ['1140', '15', '4708', '4738']; figures not on tax.ohio.gov: ['1000', '1140', '2025', '4708', '4738']; dates not on tax.ohio.gov: ['July 15', 'October 15']; figures",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2026
+    ],
+    "value": "For tax year 2026, estimated tax due dates for IT 1140, IT 4738, and IT 4708 align to April 15, June 15, September 15, and January 15. Form IT 1140 withholding applies at a 3% rate when an entity's adjusted qualifying amount exceeds $1,000.",
+    "source_url": "https://codes.ohio.gov/ohio-revised-code/section-5747.43",
+    "evidence": [
+     "estimated tax",
+     "April 15",
+     "September 15"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.ohio.gov/business/pass-through-entity-and-fiduciary-income-tax",
+    "matched_title": "Pass-Through Entity and Fiduciary Income Tax",
+    "matched_phrases": [
+     "estimated tax",
+     "April 15",
+     "September 15"
+    ],
+    "snippet": "Ability to claim business credits or refundable PTE credits Investors’ residency Investors’ filing requirement Topic IT 4738 Electing Pass-Through Entity (EPTE) Income Tax Return IT 4708 PTE Composite Income Tax Return IT 1140 PTE & Trust Withholding Tax Return Filing Date April 15 after the year in which the entity’s taxable year ends April 15 after the year in which the entity’s taxable year ends 15th day of fourth month after close of fiscal year Can the Return Include Resident Investors? Yes"
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Key individual tax forms include IT 1040 and SD 100, while Ohio levies no general corporate net income tax. Core pass-through entity forms include Form IT 1140 for withholding, Form IT 4708 for composite filers, Form IT 4738 for elective PTET, and Ohio IT K-1.",
+    "source_url": "https://tax.ohio.gov/forms",
+    "evidence": [
+     "IT 1040",
+     "IT 1140",
+     "IT 4708",
+     "IT 4738"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.ohio.gov/home/forms",
+    "matched_title": "Tax Forms",
+    "matched_phrases": [
+     "IT 1040",
+     "IT 1140",
+     "IT 4708",
+     "IT 4738"
+    ],
+    "snippet": "Top Individual Forms IT 1040/SD 100 Instructions Tax Year:"
+   }
+  ],
+  "grounding_urls": [
+   "https://tax.ohio.gov/individual/who-must-file/filing-season-tip",
+   "https://tax.ohio.gov/help-center/resources/duedates",
+   "https://tax.ohio.gov/wps/portal/gov/tax/individual/resources/self-help-library/make-and-schedule-payments",
+   "https://tax.ohio.gov/home/forms",
+   "https://tax.ohio.gov/wps/portal/gov/tax/business/corporation-franchise-tax",
+   "https://tax.ohio.gov/business/commercial-activity-tax",
+   "https://tax.ohio.gov/help-center/resources/duedates",
+   "https://tax.ohio.gov/portals/0/forms/Municipal-Net-Profit/2019/MNP_10_Instructions.pdf",
+   "https://tax.ohio.gov/wps/portal/gov/tax/business/pass-through-entity-and-fiduciary-income-tax/it-4708",
+   "https://tax.ohio.gov/business/pass-through-entity-and-fiduciary-income-tax",
+   "https://tax.ohio.gov/help-center/faqs/pass-through-entities-fiduciaries-electing-pass-through-entities-epte-it4738",
+   "https://tax.ohio.gov/help-center/faqs/pass-through-entities-fiduciaries-electing-pass-through-entities-epte-it4738",
+   "https://tax.ohio.gov/help-center/faqs/pass-through-entities-fiduciaries-withholding-income-tax-return-it-1140",
+   "https://tax.ohio.gov/business/ohio-business-taxes/pass-through-entities/pte-and-fiduciary-income-tax-rates",
+   "https://codes.ohio.gov/ohio-revised-code/section-5747.38",
+   "https://tax.ohio.gov/portals/0/forms/pass-through_entities/2014/pit_it4708_instructions.pdf",
+   "https://tax.ohio.gov/business/pass-through-entity-and-fiduciary-income-tax",
+   "https://tax.ohio.gov/business/ohio-business-taxes/pass-through-entities/pte-and-fiduciary-income-tax-rates",
+   "https://codes.ohio.gov/ohio-revised-code/section-5747.43",
+   "https://tax.ohio.gov/portals/0/forms/pass-through_entities/2014/PTE_IT4708ES_Arrow.pdf",
+   "https://tax.ohio.gov/portals/0/communications/publications/brief_summaries/2009_brief_summary/pass_through_enity_and_trust_withholding_tax.pdf",
+   "https://codes.ohio.gov/ohio-revised-code/section-5747.43",
+   "https://tax.ohio.gov/faq-IncomeEstimated",
+   "https://www.tax.ohio.gov/Portals/0/communications/publications/annual_reports/2017AnnualReport/AR2017.pdf",
+   "https://tax.ohio.gov/portals/0/communications/publications/annual_reports/2004_annual_report/tax_ar_2004.pdf",
+   "https://tax.ohio.gov/wps/portal/gov/tax/business/pass-through-entity-and-fiduciary-income-tax/it-k-1"
+  ],
+  "error": ""
+ }
+]

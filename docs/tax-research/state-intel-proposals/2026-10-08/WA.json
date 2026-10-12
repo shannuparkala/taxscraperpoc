@@ -1,0 +1,495 @@
+[
+ {
+  "state": "WA",
+  "section": "apportionment",
+  "notes": "*Note: Washington does not have a corporate income tax. Multistate business apportionment applies to the Business and Occupation (B&O) tax on gross income from apportionable activities.*\n\n---\n\n### 1. Apportionment Formula\n* **Fact / Formula:** Washington uses a **single factor receipts apportionment** formula (single sales factor).\n  * $\\text{Washington Taxable Income} = \\text{Apportionable Income} \\times \\text{Receipts Factor}$\n  * $\\text{Receipts Factor} = \\frac{\\text{Gross apportionable income attributed to Washington}}{\\text{Worldwide gross apportionable income} - \\text{Throw-out income}}$\n* **Applicability:** Applies to both tax years 2025 and 2026 (no changes).\n* **Official Sources:**\n  * Washington Department of Revenue - Apportionment Formula (Receipts Factor): https://dor.wa.gov/education/industry-guides/apportionment/apportionment-formula-receipts-factor\n  * RCW 82.04.462 (Apportionable income): https://app.leg.wa.gov/rcw/default.aspx?cite=82.04.462\n  * WAC 458-20-19402 (Single factor receipts apportionment): https://app.leg.wa.gov/wac/default.aspx?cite=458-20-19402\n\n---\n\n### 2. Sourcing of Receipts from Services and Intangibles\n* **Fact / Method:** Washington uses **market-based sourcing** for both services and intangibles via a cascading hierarchy:\n  * **Services:** Gross income is attributed to the state where the customer receives the benefit of the service. If the benefit is received in multiple states, it is proportionally attributed using a reasonable method. If that cannot be determined, receipts are attributed sequentially to: (1) the customer's office from which the service was ordered/related; (2) the customer's billing address; (3) the customer's commercial domicile; and (4) the taxpayer's commercial domicile.\n  * **Intangibles (Royalties):** Gross royalty receipts are attributed to the state where the customer uses the intangible property. If use occurs in multiple states and cannot be reasonably apportioned, it is attributed to the state where the property is primarily used, followed by the remaining steps in the statutory cascading hierarchy.\n* **Applicability:** Applies to both tax years 2025 and 2026 (no changes).\n* **Official Sources:**\n  * Washington Department of Revenue - Attributing Service Income: https://dor.wa.gov/education/industry-guides/apportionment/attributing-service-income\n  * RCW 82.04.462(3)(b): https://app.leg.wa.gov/rcw/default.aspx?cite=82.04.462\n  * WAC 458-20-19402 (Attributing service receipts): https://app.leg.wa.gov/wac/default.aspx?cite=458-20-19402\n  * WAC 458-20-19403 (Apportionable royalty receipts attribution): https://app.leg.wa.gov/wac/default.aspx?cite=458-20-19403\n\n---\n\n### 3. Industries with Their Own Apportionment Formula\n* **Fact:** \n  * **Financial Institutions:** Governed by a specialized apportionment rule based on the Multistate Tax Commission (MTC) model formula. While financial institutions still use a single receipts factor, they have industry-specific sourcing rules for items such as interest, fees, credit card receivables, service charges, and sales of loans and securities.\n* **Applicability:** Applies to both tax years 2025 and 2026 (no changes).\n* **Official Sources:**\n  * RCW 82.04.460(2): https://app.leg.wa.gov/rcw/default.aspx?cite=82.04.460\n  * WAC 458-20-19404 (Single factor receipts apportionment—Financial institutions): https://app.leg.wa.gov/wac/default.aspx?cite=458-20-19404\n\n---\n\n### 4. Form or Schedule Used to Compute Apportionment\n* **Fact:**\n  * **Periodic Reporting:** Apportionment is reported directly on the periodic excise tax return (monthly, quarterly, or annual return) by entering gross income and taking an **Apportionment (Interstate & Foreign Sales)** deduction based on the calculated receipts factor.\n  * **Annual Reconciliation / Form:** Taxpayers apportioning income must compute and reconcile their factor using the **Annual Reconciliation of Apportionable Income (ARAI)**, filed using **Form REV 40 2433** (Form 40-2433) or completed electronically via My DOR. The ARAI is due by October 31 of the calendar year following the reconciled year.\n* **Applicability:** Applies to both tax years 2025 and 2026 (no changes).\n* **Official Sources:**\n  * Washington Department of Revenue - Annual Reconciliation of Apportionable Income (ARAI): https://dor.wa.gov/education/industry-guides/apportionment/annual-reconciliation-apportionable-income-arai\n  * Washington Department of Revenue - Form 40 2433 (Annual Reconciliation of Apportionable Income): https://dor.wa.gov/sites/default/files/2021-10/40-2433.pdf\n  * Washington Department of Revenue - My DOR Help (Apportionment Reconciliation): https://dor.wa.gov/file-pay-taxes/file-or-amend-my-return/annual-reconciliation-apportionable-income",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Washington uses a single factor receipts apportionment formula to calculate taxable income. The receipts factor is gross apportionable income attributed to Washington divided by worldwide gross apportionable income minus throw-out income.",
+    "source_url": "https://dor.wa.gov/education/industry-guides/apportionment/apportionment-formula-receipts-factor",
+    "evidence": [
+     "single factor receipts apportionment",
+     "Receipts Factor",
+     "Gross apportionable income"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://dor.wa.gov/education/industry-guides/apportionment/apportionment-formula-receipts-factor",
+    "matched_title": "Apportionment formula (receipts factor) | Washington Department of Revenue",
+    "matched_phrases": [
+     "single factor receipts apportionment",
+     "Receipts Factor",
+     "Gross apportionable income"
+    ],
+    "snippet": "Receipts factor = Gross apportionable income attributed to Washington / (Worldwide gross apportionable income – Throw-out income) Reporting current periods When filing your excise tax returns, you can estimate Washington taxable income based on information from the most recent complete calendar year, or you may use the current year."
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Washington uses market-based sourcing with a cascading hierarchy for attributing receipts from services and intangibles. Service receipts are sourced to where the customer receives the benefit, and royalty receipts are sourced to where the customer uses the intangible property.",
+    "source_url": "https://dor.wa.gov/education/industry-guides/apportionment/attributing-service-income",
+    "evidence": [
+     "receives the benefit",
+     "cascading hierarchy",
+     "customer's billing address"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://dor.wa.gov/sites/default/files/2023-05/20-19402cr2frmdraftMay23.pdf?uid=645541e034bf9",
+    "matched_title": "CR-102 WAC 458-20-19402 Single factor receipts apportionment",
+    "matched_phrases": [
+     "receives the benefit",
+     "customer's billing address"
+    ],
+    "snippet": "((When)) (ii) If a taxpayer is unable to attribute an apportionable re- ceipt under (a)(i) of this subsection, and a customer receives the benefit of the taxpayer's services in this and one or more other states and the amount of gross income of the business that was re- ceived by the taxpayer in return for the services received by the cus- tomer in this state can be reasonably determined by the taxpayer, such amount of gross income must be attributed to this state."
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Financial institutions are subject to specialized apportionment rules based on the Multistate Tax Commission model formula. They utilize industry-specific sourcing rules for items such as interest, fees, credit card receivables, and loan sales.",
+    "source_url": "https://app.leg.wa.gov/wac/default.aspx?cite=458-20-19404",
+    "evidence": [
+     "Financial institutions",
+     "receipts apportionment",
+     "credit card receivables"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://app.leg.wa.gov/wac/default.aspx?cite=458-20-19404",
+    "matched_title": "WAC 458-20-19404:",
+    "matched_phrases": [
+     "Financial institutions",
+     "receipts apportionment",
+     "credit card receivables"
+    ],
+    "snippet": "This rule describes the application of single factor receipts apportionment to gross income for financial institutions during the period June 1, 2010, through December 31, 2015."
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Apportionment is claimed via an Apportionment deduction on periodic excise tax returns and reconciled using the Annual Reconciliation of Apportionable Income (Form REV 40 2433). The reconciliation must be completed or filed by October 31 of the calendar year following the reconciled year.",
+    "source_url": "https://dor.wa.gov/education/industry-guides/apportionment/annual-reconciliation-apportionable-income-arai",
+    "evidence": [
+     "Annual Reconciliation of Apportionable Income",
+     "Form REV 40 2433",
+     "October 31"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://dor.wa.gov/sites/default/files/2022-03/AnnualRecApportionIncome.pdf",
+    "matched_title": "Annual Reconciliation of Apportionable Income - Form 40-2433",
+    "matched_phrases": [
+     "Annual Reconciliation of Apportionable Income",
+     "October 31"
+    ],
+    "snippet": "Annual Reconciliation of Apportionable Income Form Instructions REV 40 2433 (2/4/26) Page 1 Year to be reconciled:"
+   }
+  ],
+  "grounding_urls": [
+   "https://dor.wa.gov/education/industry-guides/apportionment/apportionment-basics",
+   "https://dor.wa.gov/education/industry-guides/apportionment-old",
+   "https://dor.wa.gov/sites/default/files/2022-02/Model-Review-Value-Added-Tax-Margins-Tax.pdf",
+   "https://dor.wa.gov/sites/default/files/2023-05/20-19402cr2frmdraftMay23.pdf?uid=645541e034bf9",
+   "https://app.leg.wa.gov/rcw/default.aspx?cite=82.04.220",
+   "https://dor.wa.gov/book/export/html/95253",
+   "https://dor.wa.gov/book/export/html/181769",
+   "https://app.leg.wa.gov/rcw/default.aspx?cite=82.04.462",
+   "https://app.leg.wa.gov/rcw/default.aspx?cite=82.04.460",
+   "https://dor.wa.gov/education/industry-guides/apportionment/apportionment-formula-receipts-factor",
+   "https://app.leg.wa.gov/wac/default.aspx?cite=458-20-19402",
+   "https://dor.wa.gov/education/industry-guides/apportionment/attributing-service-income",
+   "https://app.leg.wa.gov/ReportsToTheLegislature/Home/GetPDF?fileName=Local%20BO%20Tax%20Apportionment%20Task%20Force%20Report%20(002)_8ca43a70-3ee7-4219-85e5-0361f1d25dff.pdf",
+   "https://app.leg.wa.gov/ReportsToTheLegislature/Home/GetPDF?fileName=Local%20Royalty%20Apportionment%20Study_Final_12.23.24_bf62eea0-ec11-4945-ba18-b881ddc042e4.pdf",
+   "https://app.leg.wa.gov/wac/default.aspx?cite=458-20-19403",
+   "https://app.leg.wa.gov/wac/default.aspx?cite=458-20-19404",
+   "https://app.leg.wa.gov/rcw/default.aspx?cite=82.04.460",
+   "https://app.leg.wa.gov/wac/default.aspx?cite=458-20-19404",
+   "https://dor.wa.gov/sites/default/files/2022-03/AnnualRecApportionIncome.pdf",
+   "https://dor.wa.gov/sites/default/files/2022-03/AnnualRecApportionIncome.pdf",
+   "https://dor.wa.gov/education/industry-guides/apportionment/annual-reconciliation-apportionable-income-arai",
+   "https://dor.wa.gov/manage-business/my-dor-help/annual-reconciliation-apportionable-income"
+  ],
+  "error": ""
+ },
+ {
+  "state": "WA",
+  "section": "nexus",
+  "notes": "### 1. Income or Franchise Tax Nexus\n* **Fact:** Washington does not have a corporate income tax or a franchise tax. The state's primary business tax is the Business and Occupation (B&O) tax, which is an excise tax measured by gross receipts/gross income. Substantial nexus for B&O tax is established if a business meets any of the following criteria in the current or immediately preceding calendar year:\n  * Is organized or commercially domiciled in Washington;\n  * Has physical presence in the state (demonstrably more than the slightest presence); or\n  * Has more than $100,000 of cumulative gross receipts sourced or attributed to Washington (including retailing, wholesaling, service, and other apportionable activities).\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official URLs:** \n  * Washington Department of Revenue (Forms & Publications): https://dor.wa.gov/forms-publications\n  * Washington Department of Revenue (Out-of-State Business Nexus Guide): https://dor.wa.gov/education/industry-guides/out-state-businesses-reporting-thresholds-and-nexus\n  * Revised Code of Washington (RCW 82.04.067): https://app.leg.wa.gov/rcw/default.aspx?cite=82.04.067\n\n---\n\n### 2. Remote Seller Economic Nexus Threshold and Measurement Period\n* **Fact:** \n  * **Threshold:** More than $100,000 in combined gross receipts sourced or attributed to Washington.\n  * **Transaction Count:** None (the 200-transaction threshold was repealed effective March 14, 2019).\n  * **Measurement Period:** The current or prior calendar year. Once the threshold is met, the seller must collect and report for the remainder of the current calendar year and the entire following calendar year. A remote seller that did not meet the threshold in the prior year must begin collecting on the first day of the month starting at least 30 days after meeting the threshold.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official URLs:**\n  * Washington Department of Revenue (Remote Sellers): https://dor.wa.gov/taxes-rates/retail-sales-tax/marketplace-fairness-leveling-playing-field/remote-sellers\n  * Washington Department of Revenue (SSB 5581 Implementation Timeline): https://dor.wa.gov/taxes-rates/retail-sales-tax/marketplace-fairness-leveling-playing-field/bill-implementation-timeline-substitute-senate-bill-ssb-5581\n  * Revised Code of Washington (RCW 82.04.067): https://app.leg.wa.gov/rcw/default.aspx?cite=82.04.067\n\n---\n\n### 3. State's Stated Position on P.L. 86-272 Protection\n* **Fact:** Washington DOR's stated position is that Public Law 86-272 (15 U.S.C. § 381 et seq.) applies solely to taxes imposed on or measured by net income. Because Washington's B&O tax is measured by gross receipts, Public Law 86-272 does not apply and provides no protection from the tax.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official URLs:**\n  * Washington Administrative Code (WAC 458-20-193(107)): https://app.leg.wa.gov/wac/default.aspx?cite=458-20-193\n  * Washington Department of Revenue (Tax Determination No. 16-0342, 36 WTD 301): https://dor.wa.gov/sites/default/files/2022-03/36WTD301.pdf",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Washington does not impose a corporate income or franchise tax, but levies a Business and Occupation (B&O) gross receipts tax. Nexus is established if a business is organized or domiciled in the state, has physical presence, or has more than $100,000 of cumulative gross receipts sourced to Washington in the current or immediately preceding calendar year.",
+    "source_url": "https://dor.wa.gov/education/industry-guides/out-state-businesses-reporting-thresholds-and-nexus",
+    "evidence": [
+     "more than $100,000",
+     "cumulative gross receipts",
+     "immediately preceding calendar year"
+    ],
+    "accepted": false,
+    "reason": "evidence not on dor.wa.gov (1/3); figures not on dor.wa.gov: ['100000']; figure not stated beside the evidence on dor.wa.gov; figures not on app.leg.wa.gov: ['100000']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "A remote seller establishes economic nexus if it has more than $100,000 in combined gross receipts sourced or attributed to Washington, with no transaction count requirement. The measurement period is the current or prior calendar year.",
+    "source_url": "https://dor.wa.gov/taxes-rates/retail-sales-tax/marketplace-fairness-leveling-playing-field/remote-sellers",
+    "evidence": [
+     "more than $100,000",
+     "combined gross receipts",
+     "current or prior calendar year"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://dor.wa.gov/taxes-rates/retail-sales-tax/marketplace-fairness-leveling-playing-field/remote-sellers",
+    "matched_title": "Remote sellers | Washington Department of Revenue",
+    "matched_phrases": [
+     "more than $100,000",
+     "combined gross receipts"
+    ],
+    "snippet": "Has more than $100,000 in combined gross receipts sourced or attributed to Washington."
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Washington's position is that Public Law 86-272 applies exclusively to taxes imposed on or measured by net income. Because the Business and Occupation (B&O) tax is measured by gross receipts, Public Law 86-272 does not apply.",
+    "source_url": "https://app.leg.wa.gov/wac/default.aspx?cite=458-20-193",
+    "evidence": [
+     "measured by net income",
+     "gross receipts",
+     "Public Law 86-272"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://app.leg.wa.gov/wac/default.aspx?cite=458-20-193",
+    "matched_title": "WAC 458-20-193:",
+    "matched_phrases": [
+     "measured by net income",
+     "gross receipts",
+     "Public Law 86-272"
+    ],
+    "snippet": "Consequently, Public Law 86-272 does not apply."
+   }
+  ],
+  "grounding_urls": [
+   "https://dor.wa.gov/forms-publications",
+   "https://dor.wa.gov/sites/default/files/2023-03/20-193%20221cr3frmdraftmar23.pdf",
+   "https://app.leg.wa.gov/rcw/default.aspx?cite=82.04.220",
+   "https://dor.wa.gov/education/industry-guides/out-state-businesses-reporting-thresholds-and-nexus",
+   "https://app.leg.wa.gov/RCW/default.aspx?cite=82.04.067&pdf=true",
+   "https://dor.wa.gov/forms-publications/publications-subject/tax-topics/businesses-import-goods-washington-state",
+   "https://dor.wa.gov/taxes-rates/retail-sales-tax/marketplace-fairness-leveling-playing-field/remote-sellers",
+   "https://dor.wa.gov/about/news-releases/2019/new-law-updates-washington-state-tax-requirements-out-state-businesses",
+   "https://dor.wa.gov/taxes-rates/retail-sales-tax/marketplace-fairness-leveling-playing-field/bill-implementation-timeline-substitute-senate-bill-ssb-5581",
+   "https://app.leg.wa.gov/wac/default.aspx?cite=458-20-193&pdf=true",
+   "https://dor.wa.gov/sites/default/files/2021-10/36WTD301.pdf",
+   "https://dor.wa.gov/sites/default/files/2021-10/36WTD301.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "WA",
+  "section": "rates",
+  "notes": "### 1. Individual Income Tax Rate(s)\n* **Fact:** Washington has no individual income tax for tax years 2025 and 2026. *(Note: In 2026, the legislature enacted a 9.9% tax on individual/joint adjusted gross income over $1 million, but it does not take effect until January 1, 2028).*\n  * *Related Individual Tax (Capital Gains Excise Tax, RCW 82.87):* Washington levies a tax on the sale or exchange of long-term capital assets by individuals. Beginning in tax year 2025 (and continuing for 2026), the tax is tiered:\n    * First $1,000,000 in taxable capital gains: **7%**\n    * Taxable capital gains exceeding $1,000,000: **9.9%** (7% base + 2.9% additional tax)\n    * Standard deduction: **$278,000** for tax year 2025 (adjusted annually for inflation); 2026 inflation adjustment not yet published.\n* **Tax Years:** Applies to tax years 2025 and 2026 (tiered capital gains rate took effect beginning tax year 2025).\n* **Official URLs:**\n  * https://dor.wa.gov/taxes-rates/income-tax\n  * https://dor.wa.gov/taxes-rates/other-taxes/capital-gains-tax\n\n---\n\n### 2. Corporate Income or Franchise Tax Rate(s) and Minimum Tax\n* **Fact:** Washington does not impose a corporate income tax, corporate franchise tax based on net income, or corporate minimum tax.\n* **Tax Years:** Applies to tax years 2025 and 2026 (unchanged).\n* **Official URLs:**\n  * https://dor.wa.gov/forms-publications\n  * https://dor.wa.gov/education/industry-guides/mortgage-brokers/business-tax-structure-washington-state\n\n---\n\n### 3. State Sales and Use Tax Rate & Local Jurisdictions\n* **Fact:** \n  * State sales and use tax rate: **6.5%**.\n  * Local jurisdictions: Local cities, counties, and transit authorities add local sales and use taxes to the state rate. Total combined rates vary by jurisdiction.\n* **Tax Years:** Applies to tax years 2025 and 2026 (unchanged).\n* **Official URLs:**\n  * https://dor.wa.gov/taxes-rates/retail-sales-tax\n  * https://dor.wa.gov/taxes-rates/sales-use-tax-rates\n\n---\n\n### 4. Gross Receipts, Franchise, Margin, or Other Notable Business Taxes\n* **Fact:** Washington imposes the **Business and Occupation (B&O) Tax** (RCW Chapter 82.04), a gross receipts tax levied on gross income/proceeds with no deductions for labor, materials, or other business expenses.\n  * *Core Classifications & Rates:*\n    * **Retailing:** 0.471% (.00471)\n    * **Wholesaling:** 0.484% (.00484)\n    * **Manufacturing:** 0.484% (.00484)\n    * **Service & Other Activities:** \n      * Through September 30, 2025: 1.5% (.015).\n      * Effective October 1, 2025 (and for 2026), tiered by prior calendar year taxable income:\n        * Less than $1,000,000: **1.5%** (.015)\n        * $1,000,000 to $4,999,999: **1.75%** (.0175)\n        * $5,000,000 or more: **2.1%** (.021)\n  * *Notable Additions/Surcharges for 2026:*\n    * **Payment Card Processing Activities:** New classification taxed at **3.1%**, effective January 1, 2026.\n    * **Surcharge on High Grossing Businesses:** **0.5%** surcharge on certain Washington taxable income exceeding $250,000,000 in a calendar year, effective January 1, 2026 through December 31, 2029.\n* **Tax Years:** Applies to tax years 2025 and 2026 (Service & Other Activities tiered rate effective October 1, 2025; Payment Card Processing classification and High Grossing Surcharge effective January 1, 2026).\n* **Official URLs:**\n  * https://dor.wa.gov/taxes-rates/business-occupation-tax\n  * https://dor.wa.gov/taxes-rates/business-occupation-tax/business-occupation-tax-classifications",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Washington does not impose an individual income tax. However, it levies an excise tax on long-term capital gains of 7% up to $1,000,000 and 9.9% over $1,000,000, with a standard deduction of $278,000 for tax year 2025.",
+    "source_url": "https://dor.wa.gov/taxes-rates/other-taxes/capital-gains-tax",
+    "evidence": [
+     "capital gains excise tax",
+     "taxable capital gains",
+     "standard deduction"
+    ],
+    "accepted": false,
+    "reason": "figures not on dor.wa.gov: ['1000000', '9.9']; figures not on dor.wa.gov: ['1000000', '2025', '278000', '7']; figures not on dor.wa.gov: ['1000000', '2025', '278000', '7', '9.9']; figures not on dor.wa.gov: ['1000000', '278000']; figures not on dor.wa.gov: ['1000000', '2025', '278000', '9.9']; figures not on dor.wa.gov: ['278000']; figures not on dor.wa.gov: ['1000000', '278000', '7', '9.9']; figures not on dor.wa.gov: ['2025', '278000', '7', '9.9']; figures not on dor.wa.gov: ['278000', '7', '9",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Washington does not impose a corporate income tax, corporate franchise tax based on net income, or corporate minimum tax.",
+    "source_url": "https://dor.wa.gov/education/industry-guides/mortgage-brokers/business-tax-structure-washington-state",
+    "evidence": [
+     "corporate income tax",
+     "Business tax structure",
+     "Washington State"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://dor.wa.gov/education/industry-guides/mortgage-brokers/business-tax-structure-washington-state",
+    "matched_title": "Business tax structure in Washington State | Washington Department of Revenue",
+    "matched_phrases": [
+     "Business tax structure",
+     "Washington State"
+    ],
+    "snippet": "Business tax structure in Washington State | Washington Department of Revenue Skip to main content English Español 简体中文 한국어 Русский Tiếng Việt Language Help Important! Our Tumwater office moved."
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The state sales and use tax rate is 6.5%. Local jurisdictions add local sales and use taxes to the state rate, making total combined rates vary.",
+    "source_url": "https://dor.wa.gov/taxes-rates/retail-sales-tax",
+    "evidence": [
+     "retail sales tax",
+     "state sales and use tax",
+     "Local sales and use taxes"
+    ],
+    "accepted": false,
+    "reason": "evidence not on dor.wa.gov (1/3); figures not on dor.wa.gov: ['6.5']; figure not stated beside the evidence on dor.wa.gov; evidence not on dor.wa.gov (0/3)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025
+    ],
+    "value": "Washington imposes a gross receipts Business and Occupation (B&O) tax, with core rates of 0.471% for retailing and 0.484% for wholesaling and manufacturing. Service and other activities are taxed at 1.5% through September 30, 2025, transitioning to tiered rates of 1.5%, 1.75%, and 2.1% on October 1, 2025.",
+    "source_url": "https://dor.wa.gov/taxes-rates/business-occupation-tax",
+    "evidence": [
+     "Business and Occupation",
+     "gross receipts tax",
+     "Service & Other Activities"
+    ],
+    "accepted": false,
+    "reason": "figures not on dor.wa.gov: ['0.471', '0.484', '1', '1.5', '1.75', '2.1']; figures not on dor.wa.gov: ['0.471', '0.484', '1.5', '1.75', '2.1', '2025']; figures not on dor.wa.gov: ['0.471', '0.484', '1.5', '1.75', '2.1', '30']; figures not on dor.wa.gov: ['0.471', '0.484', '1.5', '1.75', '2.1']; figures not on dor.wa.gov: ['0.471', '0.484', '1', '1.75', '2.1', '2025']; figures not on dor.wa.gov: ['2.1', '2025', '30']; figures not on dor.wa.gov: ['1.75', '2.1', '2025']; figures not on dor.wa.gov: [",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2026
+    ],
+    "value": "Washington imposes a Business and Occupation (B&O) tax with rates of 0.471% for retailing, 0.484% for wholesaling and manufacturing, and service rates tiered at 1.5%, 1.75%, and 2.1%. Effective January 1, 2026, payment card processing activities are taxed at 3.1%, and a 0.5% surcharge applies to taxable income exceeding $250,000,000.",
+    "source_url": "https://dor.wa.gov/taxes-rates/business-occupation-tax",
+    "evidence": [
+     "Business and Occupation",
+     "Payment Card Processing",
+     "surcharge"
+    ],
+    "accepted": false,
+    "reason": "figures not on dor.wa.gov: ['0.471', '0.484', '0.5', '1', '1.5', '1.75']; figures not on dor.wa.gov: ['0.471', '0.484', '0.5', '1.5', '1.75', '2.1']; figures not on dor.wa.gov: ['0.471', '0.484', '0.5', '1', '1.75', '2.1']; figures not on dor.wa.gov: ['0.5', '2.1', '2026', '250000000', '3.1']; figures not on dor.wa.gov: ['0.5', '1.75', '2.1', '2026', '250000000', '3.1']; figures not on dor.wa.gov: ['0.471', '0.484', '0.5', '2026', '250000000', '3.1']; figures not on dor.wa.gov: ['0.471', '0.484'",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://dor.wa.gov/taxes-rates/income-tax",
+   "https://dor.wa.gov/forms-publications/forms-name-i",
+   "https://dor.wa.gov/taxes-rates/income-tax",
+   "https://dor.wa.gov/about/news-releases/2025/tax-year-2024-initial-capital-gains-collections-exceed-5606-million",
+   "https://dor.wa.gov/sites/default/files/2023-08/TRM_07_CapitalGainsTax.pdf",
+   "https://dor.wa.gov/forms-publications/publications-subject/special-notices/new-tiered-rates-washingtons-capital-gains-tax",
+   "https://dor.wa.gov/forms-publications/publications-subject/special-notices/new-tiered-rates-washingtons-capital-gains-tax",
+   "https://dor.wa.gov/taxes-rates/other-taxes/capital-gains-tax",
+   "https://dor.wa.gov/education/industry-guides/mortgage-brokers/business-tax-structure-washington-state",
+   "https://dor.wa.gov/forms-publications",
+   "https://dor.wa.gov/taxes-rates/retail-sales-tax",
+   "https://dor.wa.gov/file-pay-taxes/file-or-amend-my-return/instructions-completing-combined-excise-tax-return/combined-excise-tax-return-state-sales-and-use-tax",
+   "https://dor.wa.gov/sites/default/files/2025-11/Q126_LSU_flyer.pdf",
+   "https://dor.wa.gov/sites/default/files/2026-05/Q326_LSU-flyer-by-county.pdf",
+   "https://dor.wa.gov/education/industry-guides/interior-decorators-designers-consultants-guide/business-and-occupation-tax",
+   "https://dor.wa.gov/sites/default/files/2023-08/TRM_05_B&O.pdf",
+   "https://dor.wa.gov/education/industry-guides/private-mailing-business-tax-guide/business-and-occupation-bo-tax",
+   "https://dor.wa.gov/taxes-rates/business-occupation-tax/business-occupation-tax-classifications",
+   "https://dor.wa.gov/forms-publications/publications-subject/special-notices/service-and-other-activities-rate-changes",
+   "https://dor.wa.gov/forms-publications/publications-subject/special-notices/new-tax-rate-and-classification-payment-card-processing-activities",
+   "https://dor.wa.gov/forms-publications/publications-subject/special-notices/surcharge-high-grossing-businesses"
+  ],
+  "error": ""
+ },
+ {
+  "state": "WA",
+  "section": "filing",
+  "notes": "### 1. Individual Return Due Dates and Extensions\n* **Fact:** Washington does not impose a personal or individual income tax. However, Washington imposes an individual Capital Gains Tax (7% excise tax on long-term capital gains allocated to Washington exceeding the statutory standard deduction).\n  * **Due Date:** Under RCW 82.87.110(1)(a), the capital gains tax return and payment are due on or before the date the taxpayer’s federal individual income tax return is required to be filed (generally April 15). For calendar year 2025, the return is due April 15, 2026; for calendar year 2026, it is due April 15, 2027.\n  * **Extensions:** Taxpayers who receive a federal income tax filing extension are entitled to the same 6-month extension to file their Washington capital gains return (extended deadline is October 15). Taxpayers must submit an extension request and federal confirmation electronically through My DOR on or before the original April due date. A filing extension does **not** extend the time to pay; estimated tax due must be remitted by the original April due date to avoid penalties and interest.\n* **Tax Years:** Applies to tax years 2025 and 2026 without structural change.\n* **URLs:** \n  * https://dor.wa.gov/taxes-rates/income-tax\n  * https://dor.wa.gov/taxes-rates/other-taxes/capital-gains-tax\n  * https://app.leg.wa.gov/RCW/default.aspx?cite=82.87.110\n\n---\n\n### 2. Corporate and Pass-Through Return Due Dates and Extensions\n* **Fact:** Washington does not have a corporate net income tax or pass-through entity income tax. Instead, all business entities (corporations, partnerships, LLCs, etc.) operating in Washington are subject to gross receipts taxes—primarily the Business and Occupation (B&O) tax—reported on the Combined Excise Tax Return.\n  * **Due Dates:** Assigned by the Department based on gross revenue/tax liability:\n    * *Monthly filers:* Due the 25th of the month following the reporting period.\n    * *Quarterly filers:* Due the last day of the month following the calendar quarter (Q1 due April 30; Q2 due July 31; Q3 due October 31; Q4 due January 31).\n    * *Annual filers:* Due April 15 of the following year (e.g., TY 2025 annual return is due April 15, 2026; TY 2026 annual return is due April 15, 2027).\n    *(If a due date falls on a weekend or legal holiday, it rolls to the next business day).*\n  * **Extensions:** Income-tax-style extensions do not exist. There is no automatic filing extension for excise tax returns; penalty waivers are only available under very limited circumstances (e.g., documented events beyond the taxpayer's control or a one-time 24-month timely filing waiver under RCW 82.32.105 and WAC 458-20-228).\n* **Tax Years:** 2025 and 2026.\n* **URLs:**\n  * https://dor.wa.gov/file-pay-taxes/filing-frequencies-due-dates\n  * https://dor.wa.gov/education/industry-guides/mortgage-brokers/business-tax-structure-washington-state\n  * https://dor.wa.gov/file-pay-taxes/late-filing/penalty-waivers\n\n---\n\n### 3. Elective Pass-Through Entity Tax (PTET)\n* **Fact:** Does not exist. Because Washington does not levy a personal or corporate income tax, Washington does not have an elective pass-through entity tax.\n* **Tax Years:** 2025 and 2026.\n* **URL:** https://dor.wa.gov/taxes-rates/income-tax\n\n---\n\n### 4. Composite or Group Nonresident Returns for Pass-Through Entities\n* **Fact:** Does not exist. Because Washington has no individual or pass-through entity income tax, composite or group nonresident returns do not exist and are not accepted in Washington.\n* **Tax Years:** 2025 and 2026.\n* **URL:** https://dor.wa.gov/taxes-rates/income-tax\n\n---\n\n### 5. Estimated Tax Payments and Nonresident Withholding for Pass-Through Entities\n* **Fact:** Does not exist. Washington imposes no nonresident withholding and no estimated tax requirements on pass-through entities. \n  *(Note: For the individual Capital Gains Tax, taxpayers submitting an extension request must pay their estimated tax liability by the original April due date, and under RCW 82.87.115, taxpayers may prepay taxes up to six months prior to the due date).*\n* **Tax Years:** 2025 and 2026.\n* **URLs:** \n  * https://dor.wa.gov/taxes-rates/income-tax\n  * https://app.leg.wa.gov/RCW/default.aspx?cite=82.87.115\n\n---\n\n### 6. Main Individual, Corporate, and Pass-Through Return Forms\n* **Fact:** \n  * **Individual:** No individual income tax return form exists. For individuals subject to the Washington capital gains tax, the return is filed electronically via the **Capital Gains Return** portal within **My DOR** (mandatory electronic filing).\n  * **Corporate & Pass-Through Entities:** No corporate or pass-through net income tax return forms exist. Business entities report state tax obligations (B&O, sales/use tax) on the **Combined Excise Tax Return** (Multi-purpose Combined Excise Tax Return, filed electronically via My DOR, or on Monthly, Quarterly, and Annual paper versions).\n* **Tax Years:** 2025 and 2026.\n* **URLs:**\n  * https://dor.wa.gov/forms-publications/forms-subject/excise-tax-returns-and-addendums/multi-purpose-combined-excise-tax-returns\n  * https://dor.wa.gov/file-pay-taxes/my-dor-help/capital-gains-my-dor-help",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Washington does not impose an individual income tax, but its individual capital gains tax return and payment are due on or before the federal filing due date (generally April 15). Taxpayers with a federal extension receive a 6-month extension to file (to October 15) by submitting a request via My DOR, but payment must still be remitted by the original April deadline.",
+    "source_url": "https://dor.wa.gov/taxes-rates/other-taxes/capital-gains-tax",
+    "evidence": [
+     "federal income tax filing extension",
+     "electronic filing extension request",
+     "does not extend the due date"
+    ],
+    "accepted": false,
+    "reason": "evidence not on dor.wa.gov (1/3); figures not on dor.wa.gov: ['15', '6']; figures not on dor.wa.gov: ['15']; figures not on app.leg.wa.gov: ['15']; figures not on dor.wa.gov: ['6']; evidence not on dor.wa.gov (0/3); figures not on app.leg.wa.gov: ['15', '6']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Washington does not have corporate or pass-through net income tax; businesses report gross receipts excise taxes with due dates based on filing frequency: monthly returns are due the 25th of the following month, quarterly returns are due the last day of the following month, and annual returns are due April 15. Automatic income-tax-style extensions do not exist for excise tax returns.",
+    "source_url": "https://dor.wa.gov/file-pay-taxes/filing-frequencies-due-dates",
+    "evidence": [
+     "Monthly filers",
+     "Quarterly filers",
+     "Annual filers"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://dor.wa.gov/sites/default/files/2022-03/BusinessTaxBasics_0.pdf",
+    "matched_title": "Business Tax Basics Workbook",
+    "matched_phrases": [
+     "Monthly filers",
+     "Quarterly filers",
+     "Annual filers"
+    ],
+    "snippet": "Due dates If a due date falls on a weekend or legal holiday, the due date is extended to the next business day Monthly filers:"
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Washington does not levy a personal or corporate income tax and does not have an elective pass-through entity tax.",
+    "source_url": "https://dor.wa.gov/taxes-rates/income-tax",
+    "evidence": [
+     "does not have a personal",
+     "corporate income tax"
+    ],
+    "accepted": false,
+    "reason": "evidence not on dor.wa.gov (0/2); evidence not on app.leg.wa.gov (0/2)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "composite",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Because Washington does not impose an individual or pass-through entity income tax, composite or group nonresident returns do not exist.",
+    "source_url": "https://dor.wa.gov/taxes-rates/income-tax",
+    "evidence": [
+     "does not have a personal",
+     "corporate income tax"
+    ],
+    "accepted": false,
+    "reason": "evidence not on dor.wa.gov (0/2); evidence not on app.leg.wa.gov (0/2)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Washington imposes no estimated tax payment requirements or nonresident withholding on pass-through entities.",
+    "source_url": "https://dor.wa.gov/taxes-rates/income-tax",
+    "evidence": [
+     "does not have a personal",
+     "corporate income tax"
+    ],
+    "accepted": false,
+    "reason": "evidence not on dor.wa.gov (0/2); evidence not on app.leg.wa.gov (0/2)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "There are no individual, corporate, or pass-through income tax returns. Capital gains returns are filed electronically through My DOR, and business entities report their tax obligations using the Combined Excise Tax Return.",
+    "source_url": "https://dor.wa.gov/forms-publications/forms-subject/excise-tax-returns-and-addendums/multi-purpose-combined-excise-tax-returns",
+    "evidence": [
+     "Combined Excise Tax Return",
+     "Multi-Purpose"
+    ],
+    "accepted": false,
+    "reason": "evidence not on dor.wa.gov (1/2); evidence not on dor.wa.gov (0/2); evidence not on app.leg.wa.gov (0/2)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://dor.wa.gov/education/industry-guides/mortgage-brokers/business-tax-structure-washington-state",
+   "https://dor.wa.gov/sites/default/files/2023-08/TRM_07_CapitalGainsTax.pdf",
+   "https://dor.wa.gov/laws-rules/interim-statement-regarding-capital-gains-excise-tax-and-calculation-credit-taxes-paid-another",
+   "https://app.leg.wa.gov/RCW/default.aspx?cite=82.87.110",
+   "https://dor.wa.gov/about/statistics-reports/capital-gains-tax-tax-year-2025-initial-collections",
+   "https://dor.wa.gov/about/news-releases/2026/capital-gains-excise-tax-returns-due-date-moved-may-1-2026",
+   "https://dor.wa.gov/manage-business/my-dor-help/capital-gains-my-dor-help",
+   "https://dor.wa.gov/sites/default/files/2022-03/BusinessTaxBasics_0.pdf",
+   "https://dor.wa.gov/file-pay-taxes/filing-frequencies-due-dates",
+   "https://dor.wa.gov/file-pay-taxes/filing-frequencies-due-dates/2025-excise-tax-return-due-dates",
+   "https://dor.wa.gov/file-pay-taxes/late-filing/penalty-waivers",
+   "https://app.leg.wa.gov/RCW/default.aspx?cite=82.87.115",
+   "https://dor.wa.gov/taxes-rates/income-tax",
+   "https://dor.wa.gov/taxes-rates/other-taxes/capital-gains-tax",
+   "https://dor.wa.gov/forms-publications/forms-subject/excise-tax-returns-and-addendums/multi-purpose-combined-excise-tax-returns",
+   "https://dor.wa.gov/file-pay-taxes/file-or-amend-my-return/instructions-completing-combined-excise-tax-return"
+  ],
+  "error": ""
+ }
+]

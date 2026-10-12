@@ -1,0 +1,90 @@
+{
+  "code": "NH",
+  "name": "New Hampshire",
+  "sections": {
+    "apportionment": {
+      "fields": []
+    },
+    "nexus": {
+      "fields": [
+        {
+          "key": "income_nexus",
+          "label": "Income/franchise tax nexus",
+          "value": "New Hampshire determines nexus based on constitutional due process minimum connection standards without bright-line factor-presence thresholds. For both 2025 and 2026, filing thresholds require gross business income everywhere exceeding $109,000 for the Business Profits Tax, or gross business receipts or enterprise value tax base exceeding $298,000 for the Business Enterprise Tax.",
+          "years": [
+            2026
+          ],
+          "source_url": "https://www.revenue.nh.gov/news-and-media/nh-department-revenue-administration-shares-2026-tax-tips-and-filing-guidance",
+          "source_citation": "NH Department of Revenue Administration Shares 2026 Tax Tips and Filing Guidance",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "The filing threshold for the Business Enterprise Tax (BET) was increased to gross business receipts over $298,000, or an enterprise value tax base over $298,000."
+        }
+      ]
+    },
+    "rates": {
+      "fields": [
+        {
+          "key": "individual",
+          "label": "Individual income tax",
+          "value": "New Hampshire does not impose a general individual income tax on earned wages, and the Interest and Dividends Tax was repealed effective January 1, 2025.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.revenue.nh.gov/news-and-media/repeal-nh-interest-and-dividends-tax-now-effect",
+          "source_citation": "Repeal of NH Interest and Dividends Tax Now in Effect | NH Department of Revenue",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "January 23, 2025 Contact Department of Revenue Administration (603) 230-5000 Repeal of NH Interest and Dividends Tax Now in Effect Repeal of NH Interest and Dividends Tax Now in Effect Taxpayers no longer required to pay 3% levy for tax per"
+        },
+        {
+          "key": "corporate",
+          "label": "Corporate income/franchise tax",
+          "value": "New Hampshire imposes a Business Profits Tax at a rate of 7.5% on taxable business profits for businesses with gross business income exceeding $109,000. No statutory minimum tax is imposed.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.revenue.nh.gov/taxes-glance/business-taxes",
+          "source_citation": "Business Taxes | NH Department of Revenue Administration",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "The tax rate is 7.6% for taxable periods ending on or after December 31, 2022, and 7.5% for taxable periods ending on or after December 31, 2023."
+        }
+      ]
+    },
+    "filing": {
+      "fields": [
+        {
+          "key": "individual_due",
+          "label": "Individual due date and extension",
+          "value": "New Hampshire does not impose a general personal income tax, and the Interest and Dividends Tax was repealed effective for taxable periods beginning on or after January 1, 2025. Consequently, calendar-year individuals have no state return filing requirement or extension procedure for tax years 2025 and 2026.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.revenue.nh.gov/news-and-media/repeal-nh-interest-and-dividends-tax-now-effect",
+          "source_citation": "Repeal of NH Interest and Dividends Tax Now in Effect | NH Department of Revenue",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "January 23, 2025 Contact Department of Revenue Administration (603) 230-5000 Repeal of NH Interest and Dividends Tax Now in Effect Repeal of NH Interest and Dividends Tax Now in Effect Taxpayers no longer required to pay 3% levy for tax per"
+        },
+        {
+          "key": "key_forms",
+          "label": "Key forms",
+          "value": "Primary business returns include Form NH-1120 for corporations, Form NH-1065 for partnerships, and Form NH-1040 for sole proprietorships, all submitted with transmittal Form BT-Summary. Form DP-10 for individuals is discontinued beginning with tax year 2025.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.revenue.nh.gov/resource-center/current-year-forms-and-instructions",
+          "source_citation": "Current Year Forms and Instructions | NH Department of Revenue Administration",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "…0-ES Instructions NH-1041 Fiduciary Business Profits Tax Return NH-1041 Instructions NH-1041-ES Fiduciary Business Profits Tax Estimate NH-1041-ES Instructions NH-1065 Partnership Business Profits Tax Return NH-1065 Instructions NH-1065-ES"
+        }
+      ]
+    }
+  }
+}

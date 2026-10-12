@@ -1,0 +1,51 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "backend",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "uvicorn", "app.main:app", "--host", "127.0.0.1", "--port", "8000", "--reload"],
+      "cwd": "backend",
+      "port": 8000
+    },
+    {
+      "name": "backend-preview",
+      "runtimeExecutable": "../.venv/Scripts/python.exe",
+      "runtimeArgs": ["-m", "uvicorn", "app.main:app", "--host", "127.0.0.1", "--port", "8000"],
+      "cwd": "backend",
+      "port": 8000,
+      "env": {
+        "DATABASE_URL": "sqlite:///../data/evals/preview/preview.db",
+        "AUTH_DISABLED": "true"
+      }
+    },
+    {
+      "name": "frontend",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "cwd": "frontend",
+      "port": 5173
+    },
+    {
+      "name": "backend-alt",
+      "runtimeExecutable": "../.venv/Scripts/python.exe",
+      "runtimeArgs": ["-m", "uvicorn", "app.main:app", "--host", "127.0.0.1", "--port", "8010"],
+      "cwd": "backend",
+      "port": 8010,
+      "env": {
+        "DATABASE_URL": "sqlite:///../data/evals/preview/preview.db",
+        "AUTH_DISABLED": "true"
+      }
+    },
+    {
+      "name": "frontend-alt",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--", "--port", "5180", "--strictPort"],
+      "cwd": "frontend",
+      "port": 5180,
+      "env": {
+        "API_PROXY_TARGET": "http://127.0.0.1:8010"
+      }
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+[
+ {
+  "state": "DC",
+  "section": "rates",
+  "notes": "### 1. Individual Income Tax Rate(s) and Brackets\n* **Tax Years:** Applies to both **Tax Year 2025** and **Tax Year 2026** (no rate or bracket changes between them).\n* **Brackets and Rates:**\n  * **Not over $10,000:** 4% of taxable income\n  * **Over $10,000 but not over $40,000:** $400, plus 6% of the excess over $10,000\n  * **Over $40,000 but not over $60,000:** $2,200, plus 6.5% of the excess over $40,000\n  * **Over $60,000 but not over $250,000:** $3,500, plus 8.5% of the excess over $60,000\n  * **Over $250,000 but not over $500,000:** $19,650, plus 9.25% of the excess over $250,000\n  * **Over $500,000 but not over $1,000,000:** $42,775, plus 9.75% of the excess above $500,000\n  * **Over $1,000,000:** $91,525, plus 10.75% of the excess above $1,000,000\n* **Official URL:** https://otr.cfo.dc.gov/page/dc-individual-and-fiduciary-income-tax-rates\n\n---\n\n### 2. Corporate Income / Franchise Tax Rate(s) and Minimum Tax\n* **Tax Years:** Applies to both **Tax Year 2025** and **Tax Year 2026** (unchanged).\n* **Rates:**\n  * **Corporation Franchise Tax:** 8.25% on net income of corporations in the District on a combined reporting basis.\n  * **Unincorporated Business Franchise Tax:** 8.25% on net income on a combined reporting basis (with gross receipts over $12,000, after a 30% salary allowance and $5,000 exemption).\n* **Minimum Tax:**\n  * **$250 minimum tax** if DC gross receipts are $1 million or less.\n  * **$1,000 minimum tax** if DC gross receipts are greater than $1 million (payable even if the entity has a loss).\n* **Official URL:** https://otr.cfo.dc.gov/page/dc-business-franchise-tax-rates\n\n---\n\n### 3. Sales and Use Tax Rate and Local Jurisdictions\n* **Tax Years:** Applies to both **Tax Year 2025** and **Tax Year 2026**.\n* **General Rate:**\n  * The general sales and use tax rate is **6.0%** on gross receipts from sales of or charges for tangible personal property, digital goods, and taxable services.\n  * *Note on scheduled increase:* The planned increase to 7.0% has been postponed; the general sales tax rate remains 6% through September 30, 2027.\n* **Local Additions:** The District of Columbia is a single, unified taxing jurisdiction; there are no separate city or county local jurisdictions, and no local sales taxes are added.\n* **Official URLs:** \n  * https://otr.cfo.dc.gov/page/sales-use-tax\n  * https://cfo.dc.gov/page/tax-rates-and-revenues-sales-and-use-taxes-alcoholic-beverage-taxes-and-tobacco-taxes\n\n---\n\n### 4. Gross Receipts, Franchise, Margin, or Other Notable Business Taxes\n* **Tax Years:** Applies to **Tax Year 2025** and **Tax Year 2026**.\n* **Notable Taxes:**\n  * **Gross Receipts Tax:** Imposed on gross revenue received by specific industries for services and deliveries in the District (monthly Form FR-27 series filers), including:\n    * Providers of Cable Television, Satellite Relay, or Distribution of video/radio transmissions (Form FR-27C)\n    * Commercial Mobile Service Providers (Form FR-27M)\n    * Electricity Providers (Form FR-27E)\n    * Heating Oil Providers (Form FR-27H)\n    * Natural Gas Utilities (Form FR-27NU)\n    * Telephone Providers for local calls (Form FR-27U)\n    * Toll Telecommunication Service Providers (Form FR-27T)\n  * **Sports Facilities Fee (formerly Ballpark Fee):** Renamed to the *Sports Facilities Fee* effective October 1, 2025. Imposed annually (Form FR-1500) on businesses with $5,000,000 or more in annual DC gross receipts that are subject to DC franchise taxes or DC unemployment compensation:\n    * Gross receipts $5,000,000.00 to $8,000,000.00: **$5,500.00**\n    * Gross receipts $8,000,001.00 to $12,000,000.00: **$10,800.00**\n    * Gross receipts $12,000,001.00 to $16,000,000.00: **$14,000.00**\n    * Gross receipts $16,000,001.00 and greater: **$16,500.00**\n* **Official URLs:**\n  * Gross Receipts Tax: https://otr.cfo.dc.gov/page/gross-receipts-tax\n  * Sports Facilities Fee: https://otr.cfo.dc.gov/page/sports-facilities-fee\n  * Notice of October 1, 2025 Tax Changes: https://otr.cfo.dc.gov/release/notice-oct-1-2025-tax-changes",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "District of Columbia individual income tax rates range from 4% on taxable income not over $10,000 up to 10.75% on taxable income over $1,000,000 across seven brackets. Intermediate bracket rates include 6%, 6.5%, 8.5%, 9.25%, and 9.75%.",
+    "source_url": "https://otr.cfo.dc.gov/page/dc-individual-and-fiduciary-income-tax-rates",
+    "evidence": [
+     "4% of taxable income",
+     "Over $1,000,000",
+     "10.75% of the excess",
+     "individual and fiduciary income"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://otr.cfo.dc.gov/page/dc-individual-and-fiduciary-income-tax-rates",
+    "matched_title": "DC Individual and Fiduciary Income Tax Rates | otr",
+    "matched_phrases": [
+     "Over $1,000,000",
+     "10.75% of the excess",
+     "individual and fiduciary income"
+    ],
+    "snippet": "Over $1,000,000 $91,525, plus 10.75% of the excess above $1,000,000."
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The corporation franchise tax and unincorporated business franchise tax rate is 8.25% on net income. The minimum tax is $250 if DC gross receipts are $1 million or less, or $1,000 if DC gross receipts are greater than $1 million.",
+    "source_url": "https://otr.cfo.dc.gov/page/dc-business-franchise-tax-rates",
+    "evidence": [
+     "Corporation Franchise Tax",
+     "8.25%",
+     "combined reporting basis",
+     "minimum tax"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://otr.cfo.dc.gov/page/dc-business-franchise-tax-rates",
+    "matched_title": "DC Business Franchise Tax Rates | otr",
+    "matched_phrases": [
+     "8.25%",
+     "combined reporting basis",
+     "minimum tax"
+    ],
+    "snippet": "$250 minimum tax, if DC gross receipts are $1 million or less $1000 minimum tax, if DC gross receipts are more than $1 million * Note - Corporations or financial institutions, including International Banking Facilities, shall not be exempt from the minimum tax payable even if the business or source income is exempt under other provisions of the DC Code."
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The District of Columbia general sales and use tax rate is 6.0%. There are no separate city or county local jurisdictions and no local sales taxes are added.",
+    "source_url": "https://otr.cfo.dc.gov/page/sales-use-tax",
+    "evidence": [
+     "sales and use tax",
+     "general sales and use",
+     "tangible personal property",
+     "taxable services"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://otr.cfo.dc.gov/release/notice-oct-1-2025-tax-changes",
+    "matched_title": "Notice of Oct. 1, 2025 Tax Changes | otr",
+    "matched_phrases": [
+     "sales and use tax",
+     "tangible personal property",
+     "taxable services"
+    ],
+    "snippet": "The general sales tax rate on the gross receipts from the sale of or charges for tangible personal property, digital goods and taxable services, will remain 6.0% through Sept."
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "DC imposes gross receipts taxes on specific industries such as utilities and telecommunications providers. Additionally, businesses with $5,000,000 or more in annual DC gross receipts pay an annual Sports Facilities Fee ranging from $5,500.00 to $16,500.00.",
+    "source_url": "https://otr.cfo.dc.gov/page/sports-facilities-fee",
+    "evidence": [
+     "Sports Facilities Fee",
+     "annual DC gross receipts",
+     "FR-1500",
+     "franchise taxes"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://otr.cfo.dc.gov/page/sports-facilities-fee",
+    "matched_title": "Sports Facilities Fee | otr",
+    "matched_phrases": [
+     "Sports Facilities Fee",
+     "FR-1500"
+    ],
+    "snippet": "What tax form must be filed? FR-1500 Who Must File? The entities subject to the Sports Facilities Fee (“feepayers”) are businesses that have income of $5,000,000.00 or more in annual District gross receipts and either are subject to filing franchise tax returns (whether Corporate or Unincorporated) or are employers required to make unemployment insurance contributions."
+   }
+  ],
+  "grounding_urls": [
+   "https://otr.cfo.dc.gov/release/notice-oct-1-2025-tax-changes",
+   "https://otr.cfo.dc.gov/release/district-columbia-tax-filing-season-starts-today",
+   "https://otr.cfo.dc.gov/fr/page/dc-individual-and-fiduciary-income-tax-rates",
+   "https://otr.cfo.dc.gov/page/dc-business-franchise-tax-rates",
+   "https://otr.cfo.dc.gov/page/dc-individual-and-fiduciary-income-tax-rates",
+   "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/fr-379_2010.pdf",
+   "https://otr.cfo.dc.gov/page/participate-vendor-during-2025-presidential-inauguration",
+   "https://otr.cfo.dc.gov/page/sales-use-tax",
+   "https://cfo.dc.gov/page/tax-rates-and-revenues-sales-and-use-taxes-alcoholic-beverage-taxes-and-tobacco-taxes",
+   "https://otr.cfo.dc.gov/page/gross-receipts-tax",
+   "https://otr.cfo.dc.gov/release/notice-oct-1-2025-tax-changes",
+   "https://otr.cfo.dc.gov/page/sports-facilities-fee"
+  ],
+  "error": ""
+ }
+]

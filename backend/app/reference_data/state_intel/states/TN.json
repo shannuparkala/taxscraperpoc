@@ -1,0 +1,144 @@
+{
+  "code": "TN",
+  "name": "Tennessee",
+  "sections": {
+    "apportionment": {
+      "fields": [
+        {
+          "key": "method",
+          "label": "Apportionment method",
+          "value": "For tax years ending on or after December 31, 2025, Tennessee uses a 100% single sales factor apportionment formula. Taxpayers may elect to use a three-factor formula with property, payroll, and triple-weighted sales if it results in a higher apportionment ratio and the taxpayer has net earnings.",
+          "years": [
+            2026
+          ],
+          "source_url": "https://www.tn.gov/content/dam/tn/revenue/documents/tax_manuals/june-2026/franchise-tax.pdf",
+          "source_citation": "Franchise and Excise Tax Manual",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": " For tax years ending on or after December 31, 2025, the standard apportionment formula will consist of the sales factor only."
+        },
+        {
+          "key": "special_industries",
+          "label": "Special industry rules",
+          "value": "Specific apportionment formulas apply to common carriers, air carriers, air express carriers, financial institutions, captive REITs, and qualified telecommunications sellers. Common and air carriers apportion based on miles or originating revenue, while financial institutions use a specialized gross receipts formula.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.tn.gov/content/dam/tn/revenue/documents/forms/fae/fae170instructions2025.pdf",
+          "source_citation": "Instructions for Franchise and Excise Tax Return",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Schedule O – Apportionment – Common Carriers Line 1:"
+        },
+        {
+          "key": "forms",
+          "label": "Forms",
+          "value": "Apportionment is reported on Form FAE170 using Schedule N for standard single sales factor apportionment, Schedule N1 for the alternative three-factor election, and Schedules O, P, and R for specialized transportation carriers. Financial institutions and captive REITs report apportionment on Form FAE174.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.tn.gov/revenue/taxes/franchise---excise-tax/forms.html",
+          "source_citation": "Forms",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "…, 2025 and after For corporations, LLCs, & LPs. This kit does not include financial institutions or captive REIT.  All schedules and instructions are included. Form FAE170 Franchise and Excise Tax Return, includes Schedules A-F, H-K, M, N-P, R-V Form FAE170 Instructions Form IE - Intangible Expense Disclosure Schedule 170NC & 170SF Consolidated  Net Worth Apportionment…"
+        }
+      ]
+    },
+    "nexus": {
+      "fields": [
+        {
+          "key": "income_nexus",
+          "label": "Income/franchise tax nexus",
+          "value": "Tennessee asserts franchise and excise tax jurisdiction to the fullest extent permitted by the U.S. Constitution, establishing bright-line presence if Tennessee receipts exceed $500,000 or 25% of total receipts, or if Tennessee property or payroll exceeds $50,000 or 25%. Substantial nexus may also exist without physical presence if contacts are systematic and continuous even when bright-line thresholds are not met.",
+          "years": [
+            2026
+          ],
+          "source_url": "https://www.tn.gov/content/dam/tn/revenue/documents/tax_manuals/june-2026/franchise-tax.pdf",
+          "source_citation": "Franchise and Excise Tax Manual",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "However, for tax years beginning on or after January 1, 2016, this taxpayer would be subject to the tax if its sales into the state exceed the lesser of $500,000 or 25% of the taxpayer’s total receipts, or if any other contact with the state is sufficient to create substantial nexus."
+        },
+        {
+          "key": "sales_economic_nexus",
+          "label": "Sales/use tax: economic nexus",
+          "value": "Tennessee requires remote sellers to register and collect sales tax if sales to Tennessee customers exceed $100,000 during the previous 12-month period. Tennessee does not impose a transaction count threshold.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.tn.gov/revenue/taxes/sales-and-use-tax/out-of-state-dealers-marketplace-facilitators.html",
+          "source_citation": "Out of State Dealers Marketplace Facilitators",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Beginning on October 1, 2020, marketplace facilitators that make or facilitate more than $100,000 in sales to Tennessee customers in the previous 12-month period are required to collect and remit Tennessee sales tax."
+        },
+        {
+          "key": "pl_86_272",
+          "label": "P.L. 86-272",
+          "value": "Public Law 86-272 protects qualifying out-of-state businesses solely from Tennessee's net income-based excise tax, but provides no protection against the franchise tax. Taxpayers with substantial nexus must still register, file Form FAE170, and calculate and pay the franchise tax.",
+          "years": [
+            2026
+          ],
+          "source_url": "https://www.tn.gov/content/dam/tn/revenue/documents/tax_manuals/june-2026/franchise-tax.pdf",
+          "source_citation": "Franchise and Excise Tax Manual",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "58 Public Law 86-272 .................................................................................................................................."
+        }
+      ]
+    },
+    "rates": {
+      "fields": [
+        {
+          "key": "sales",
+          "label": "Sales and use tax",
+          "value": "The state sales and use tax rate is 7% (4% on food and food ingredients). Local jurisdictions may levy an additional tax up to 2.75%, which generally applies only to the first $1,600 of a single article.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.tn.gov/revenue/taxes/sales-and-use-tax/due-dates-and-tax-rates.html",
+          "source_citation": "Due Dates and Tax Rates",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "State Single Article Rates 2.75% on any single item sold in excess of $1,600, but not more than $3,200."
+        }
+      ]
+    },
+    "filing": {
+      "fields": [
+        {
+          "key": "individual_due",
+          "label": "Individual due date and extension",
+          "value": "Tennessee does not impose a general individual income tax, as the Hall Income Tax was fully repealed for tax periods beginning on or after January 1, 2021. Taxpayers are instructed not to file a return, meaning there are no calendar-year return due dates or extension procedures.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.tn.gov/revenue/taxes/hall-income-tax.html",
+          "source_citation": "Hall Income Tax",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "The Hall Income tax was repealed for tax periods that begin on January 1, 2021 , or later."
+        },
+        {
+          "key": "key_forms",
+          "label": "Key forms",
+          "value": "The primary franchise and excise tax return is Form FAE170, and financial institutions file Form FAE174. Extensions are requested on Form FAE173, while estimated payments are remitted using Form FAE172.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.tn.gov/revenue/taxes/franchise---excise-tax/forms.html",
+          "source_citation": "Forms",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "…, 2025 and after For corporations, LLCs, & LPs. This kit does not include financial institutions or captive REIT.  All schedules and instructions are included. Form FAE170 Franchise and Excise Tax Return, includes Schedules A-F, H-K, M, N-P, R-V Form FAE170 Instructions Form IE - Intangible Expense Disclosure Schedule 170NC & 170SF Consolidated  Net Worth Apportionment…"
+        }
+      ]
+    }
+  }
+}

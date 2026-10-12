@@ -1,0 +1,143 @@
+{
+  "code": "OR",
+  "name": "Oregon",
+  "sections": {
+    "apportionment": {
+      "fields": [
+        {
+          "key": "sourcing",
+          "label": "Sales sourcing (services and intangibles)",
+          "value": "Oregon uses market-based sourcing for receipts other than sales of tangible personal property. Receipts from services are sourced to Oregon if the service is delivered to a location in the state, and intangible property receipts are sourced based on use in Oregon.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.oregon.gov/dor/forms/FormsPubs/schedule-or-21-ap-instr_107-111-1_2025.pdf",
+          "source_citation": "2025 Schedule OR-21-AP Instructions, Oregon Pass-through Entity Elective Tax Apportionment of Income 150-107-111-1",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "• Charges for a service, if the service is delivered to a loca - tion in Oregon."
+        },
+        {
+          "key": "forms",
+          "label": "Forms",
+          "value": "Apportionment is computed on Schedule OR-AP, Apportionment of Income for Corporations and Partnerships. Electing pass-through entities filing Form OR-21 use Schedule OR-21-AP.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.oregon.gov/dor/forms/FormsPubs/schedule-or-ap-instructions_102-171-1_2025.pdf",
+          "source_citation": "2025 Schedule OR-AP Instructions, Apportionment of Income for Corporations and Partnerships, 150-102-171-1",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Schedule OR-AP Instructions Apportionment of Income for Corporations and Partnerships 2025 This publication is a guide, not a complete statement, of Oregon Revised Statutes (ORS) and Oregon Administrative Rules (OAR)."
+        }
+      ]
+    },
+    "nexus": {
+      "fields": [
+        {
+          "key": "income_nexus",
+          "label": "Income/franchise tax nexus",
+          "value": "Corporation excise tax applies to corporations doing business in Oregon, while corporation income tax applies to those deriving income from Oregon sources. Oregon asserts nexus based on a significant economic presence and maintains no bright-line factor nexus thresholds.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.oregon.gov/dor/programs/businesses/pages/foreign-corps.aspx",
+          "source_citation": "Oregon Department of Revenue : Foreign Corporations : Businesses : State of Oregon",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "\"Doing business\" means being engaged in any profit-seeking activity in Oregon."
+        },
+        {
+          "key": "sales_economic_nexus",
+          "label": "Sales/use tax: economic nexus",
+          "value": "Oregon does not impose a general state sales or use tax. As a result, there is no remote seller economic nexus threshold, transaction count, or measurement period.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.oregon.gov/dor/programs/businesses/Pages/sales-tax.aspx",
+          "source_citation": "Oregon Department of Revenue : Sales Tax in Oregon : Businesses : State of Oregon",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Impacts to Oregonians shopping online The Wayfair decision doesn't affect Oregonians purchasing goods or services online because Oregon doesn't have a general sales tax."
+        },
+        {
+          "key": "pl_86_272",
+          "label": "P.L. 86-272",
+          "value": "P.L. 86-272 protects businesses whose Oregon activity is limited strictly to solicitation of orders for sales of tangible personal property approved and filled from outside the state. Oregon adheres to a narrow interpretation following Multistate Tax Commission guidance, and the protection does not apply to the Corporate Activity Tax.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.oregon.gov/dor/programs/businesses/pages/foreign-corps.aspx",
+          "source_citation": "Oregon Department of Revenue : Foreign Corporations : Businesses : State of Oregon",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "86-272 prohibits Oregon from imposing net income taxes on out-of-state companies selling tangible personal property whose business activities in Oregon are limited to the solicitation of orders by their employees or representatives."
+        }
+      ]
+    },
+    "rates": {
+      "fields": [
+        {
+          "key": "sales",
+          "label": "Sales and use tax",
+          "value": "Oregon does not impose a general state sales or use tax, and local jurisdictions do not add general sales taxes.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.oregon.gov/dor/programs/businesses/Pages/sales-tax.aspx",
+          "source_citation": "Oregon Department of Revenue : Sales Tax in Oregon : Businesses : State of Oregon",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "However, Oregon does have a vehicle use tax that applies to new vehicles purchased outside of the state."
+        }
+      ]
+    },
+    "filing": {
+      "fields": [
+        {
+          "key": "individual_due",
+          "label": "Individual due date and extension",
+          "value": "Individual returns are due on April 15 following the close of the tax year. Oregon honors the federal automatic 6-month extension to October 15, but state-only extensions require an extension payment by April 15 using Form OR-40-V or Revenue Online.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.oregon.gov/dor/forms/FormsPubs/publication-or-40-ext_101-165.pdf",
+          "source_citation": "2025 Publication OR-40-EXT, Instructions for Automatic Extension of Time to File Oregon Individual Income Tax Return, 150-101-165",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "If you’re using Form OR-40-V , be sure to include the begin- ning and ending dates of your fiscal year on the voucher."
+        },
+        {
+          "key": "composite",
+          "label": "Composite returns",
+          "value": "Pass-through entities may file a composite return on Form OR-OC on behalf of eligible electing nonresident owners. For calendar-year entities, the return is due April 15, or October 15 on extension.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.oregon.gov/dor/forms/FormsPubs/publication-or-40-ext_101-165.pdf",
+          "source_citation": "2025 Publication OR-40-EXT, Instructions for Automatic Extension of Time to File Oregon Individual Income Tax Return, 150-101-165",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Are you filing a composite return? If so, follow the exten- sion payment instructions but use Form OR-OC-V to send your payment."
+        },
+        {
+          "key": "key_forms",
+          "label": "Key forms",
+          "value": "Key individual tax forms include Form OR-40, Form OR-40-P, and Form OR-40-N, while corporate returns include Form OR-20, Form OR-20-INC, and Form OR-CAT. Pass-through entities file Form OR-65, Form OR-20-S, Form OR-21, Form OR-OC, and Form OR-19.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.oregon.gov/dor/forms/FormsPubs/publication-or-17_101-431_2025.pdf",
+          "source_citation": "2025 Publication OR-17, Oregon Individual Income Tax Guide, 150-101-431",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Enter your 2024 Oregon taxable income (Form OR-40, line 19;"
+        }
+      ]
+    }
+  }
+}

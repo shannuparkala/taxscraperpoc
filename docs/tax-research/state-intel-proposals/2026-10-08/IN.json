@@ -1,0 +1,524 @@
+[
+ {
+  "state": "IN",
+  "section": "apportionment",
+  "notes": "### 1. Apportionment Formula\n* **Rule:** Indiana uses a **single-factor sales (receipts) apportionment formula**. Multistate business income derived from sources within Indiana is apportioned by multiplying business income by the sales factor (Indiana receipts divided by total receipts everywhere). Property and payroll factors are not included.\n* **Applicability:** Applies to both tax years 2025 and 2026 (no change).\n* **Statutory / Agency References:** Ind. Code § 6-3-2-2(b); Indiana Department of Revenue, *Income Tax Information Bulletin #12* (Corporate Income Tax Overview).\n* **Official URL:** \n  * https://www.in.gov/dor/files/ib12.pdf\n  * https://iga.in.gov/laws/2026/ic/titles/6#6-3-2-2\n\n---\n\n### 2. Sourcing of Receipts from Services and Intangibles\n* **Rule:** Indiana uses **market-based sourcing**. \n  * Receipts from the provision of services and most intangible personal property (other than telecommunications and broadcast services) are apportioned based on the extent the market for those sales is in Indiana.\n  * Detailed guidance and definitions follow 45 IAC 3.1-1-55.5 (incorporating Multistate Tax Commission model market-sourcing provisions). \n  * Cost of performance applies only to legacy tax periods (ending before January 1, 2019) or to specifically carved-out service categories such as telecommunications and broadcast services.\n* **Applicability:** Applies to both tax years 2025 and 2026 (no change).\n* **Statutory / Regulatory References:** Ind. Code § 6-3-2-2(f); 45 IAC 3.1-1-55.5; *Income Tax Information Bulletin #12*.\n* **Official URL:** \n  * https://www.in.gov/dor/files/ib12.pdf\n  * http://iac.iga.in.gov/iac//iac_title?iact=45 (45 IAC 3.1-1-55.5)\n\n---\n\n### 3. Industries with Their Own Apportionment Formula\n* **Domestic Insurance Companies:** Apportion income using a single-factor premiums formula: Indiana gross direct premiums divided by total gross direct premiums everywhere (Ind. Code § 6-3-2-2(b); *Income Tax Information Bulletin #12*).\n* **Interstate Transportation Entities (Trucking, Railroads, Airlines):** Apportion business income based on transportation miles/activity (e.g., Indiana mileage to total mileage) pursuant to Schedule E-7 instructions, 45 IAC 3.1-1-63, and 45 IAC 3.1-1-55.5 (incorporating Multistate Tax Commission special industry rules for Airlines, Railroads, and Trucking Companies).\n* **Financial Institutions:** Governed under the Financial Institutions Tax (FIT) rather than the Adjusted Gross Income Tax (Ind. Code § 6-5.5-1 et seq.). They use a specialized single receipts factor with financial-asset receipts sourcing rules set forth under Ind. Code § 6-5.5-4-1 through § 6-5.5-4-15.\n* **Telecommunications and Broadcast Services:** Excluded from standard market-based sourcing under Ind. Code § 6-3-2-2(f) and governed by specific statutory/regulatory rules under Ind. Code §§ 6-3-1-37, 6-3-1-38, and 45 IAC 3.1-1-55.5.\n* **Applicability:** Applies to both tax years 2025 and 2026 (no change).\n* **Official URL:** \n  * https://www.in.gov/dor/files/ib12.pdf\n  * https://iga.in.gov/laws/2026/ic/titles/6#6-3-2-2\n  * http://iac.iga.in.gov/iac//iac_title?iact=45 (45 IAC 3.1-1-55.5)\n\n---\n\n### 4. Forms and Schedules Used to Compute Apportionment\n* **Standard Business Entities (C Corporations, S Corporations, Partnerships):**\n  * **Schedule E (State Form 49105)**, *Apportionment of Income for Indiana* (filed with Form IT-20, Form IT-20S, or Form IT-65).\n* **Interstate Transportation Entities:**\n  * **Schedule E-7 (State Form 49192)**, *Apportionment for Interstate Transportation* (filed with Form IT-20).\n* **Financial Institutions:**\n  * **Form FIT-20 (State Form 44754)**, *Indiana Financial Institution Tax Return* (includes Schedule FIT-20A for apportionment).\n* **Nonresident Individuals / Pass-Through Owners:**\n  * **Schedule IT-40PNRA (State Form 49059)**, *Indiana Apportionment Schedule for Nonresident Individuals*.\n* **Applicability:** Applies to both tax years 2025 and 2026 (no change).\n* **Official URL:** \n  * https://www.in.gov/dor/tax-forms/corporate-tax-forms/current-year-corporatepartnership-tax-forms/",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Indiana uses a single-factor sales (receipts) apportionment formula. Business income is apportioned by multiplying income by the sales factor, with property and payroll factors excluded.",
+    "source_url": "https://www.in.gov/dor/files/ib12.pdf",
+    "evidence": [
+     "single-factor sales",
+     "sales factor",
+     "total receipts everywhere"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.in.gov/dor/files/ib12.pdf; evidence not on iar.iga.in.gov (0/3); unreadable: https://archive.iga.in.gov/2001/bills/IN/IN1625.1.html; unreadable: https://archive.iga.in.gov/2001/bills/PDF/IN/IN1625.1.pdf; evidence not on iga.in.gov (0/3); unreadable: https://archive.iga.in.gov/2002/bills/SAMF/MO100493.029.html; unreadable: https://www.in.gov/dor/tax-forms/corporate/current-corporatepartnership/; unreadable: https://www.in.gov/dor/tax-forms/corporate/corporate-prior-year/20",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Indiana applies market-based sourcing to receipts from services and intangibles. Receipts are apportioned according to the extent the market for those sales is in Indiana.",
+    "source_url": "https://www.in.gov/dor/files/ib12.pdf",
+    "evidence": [
+     "market-based sourcing",
+     "provision of services",
+     "market for those sales"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.in.gov/dor/files/ib12.pdf; evidence not on iar.iga.in.gov (0/3); unreadable: https://archive.iga.in.gov/2001/bills/IN/IN1625.1.html; unreadable: https://archive.iga.in.gov/2001/bills/PDF/IN/IN1625.1.pdf; evidence not on iga.in.gov (0/3); unreadable: https://archive.iga.in.gov/2002/bills/SAMF/MO100493.029.html; unreadable: https://www.in.gov/dor/tax-forms/corporate/current-corporatepartnership/; unreadable: https://www.in.gov/dor/tax-forms/corporate/corporate-prior-year/20",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Special apportionment rules apply to domestic insurance companies, interstate transportation entities, financial institutions, and telecommunications and broadcast services.",
+    "source_url": "https://www.in.gov/dor/files/ib12.pdf",
+    "evidence": [
+     "Domestic Insurance Companies",
+     "gross direct premiums",
+     "Interstate Transportation Entities"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.in.gov/dor/files/ib12.pdf; evidence not on iar.iga.in.gov (0/3); unreadable: https://archive.iga.in.gov/2001/bills/IN/IN1625.1.html; unreadable: https://archive.iga.in.gov/2001/bills/PDF/IN/IN1625.1.pdf; evidence not on iga.in.gov (0/3); unreadable: https://archive.iga.in.gov/2002/bills/SAMF/MO100493.029.html; unreadable: https://www.in.gov/dor/tax-forms/corporate/current-corporatepartnership/; unreadable: https://www.in.gov/dor/tax-forms/corporate/corporate-prior-year/20",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Standard business entities compute apportionment using Schedule E (State Form 49105) filed with Form IT-20, IT-20S, or IT-65. Interstate transportation entities use Schedule E-7 (State Form 49192), and financial institutions use Form FIT-20.",
+    "source_url": "https://www.in.gov/dor/tax-forms/corporate-tax-forms/current-year-corporatepartnership-tax-forms/",
+    "evidence": [
+     "Schedule E",
+     "State Form 49105",
+     "Schedule E-7",
+     "Form FIT-20"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.in.gov/dor/tax-forms/corporate-tax-forms/current-year-corporatepartnership-tax-forms/; figures not on iar.iga.in.gov: ['20', '49105', '49192', '65', '7']; unreadable: https://www.in.gov/dor/files/ib12.pdf; unreadable: https://archive.iga.in.gov/2001/bills/IN/IN1625.1.html; unreadable: https://archive.iga.in.gov/2001/bills/PDF/IN/IN1625.1.pdf; figures not on iga.in.gov: ['20', '49105', '49192', '65', '7']; unreadable: https://archive.iga.in.gov/2002/bills/SAMF/MO100493.029",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://iar.iga.in.gov/register/20240124-IR-045240039NRA",
+   "https://www.in.gov/dor/files/ib12.pdf",
+   "https://archive.iga.in.gov/2001/bills/IN/IN1625.1.html",
+   "https://archive.iga.in.gov/2001/bills/PDF/IN/IN1625.1.pdf",
+   "https://iga.in.gov/laws/current/ic/titles/9",
+   "https://iar.iga.in.gov/register/20240124-IR-045240039NRA",
+   "https://iar.iga.in.gov/register/20250226-IR-045240432FRA",
+   "https://iar.iga.in.gov/latestArticle/45/3.1",
+   "https://iar.iga.in.gov/register/20150429-IR-045150101NRA",
+   "https://archive.iga.in.gov/2002/bills/SAMF/MO100493.029.html",
+   "https://www.in.gov/dor/files/ib12.pdf",
+   "https://iar.iga.in.gov/register/20260930-IR-045260330NRA",
+   "https://iga.in.gov/ic/2026/Title_6/Article_3/Chapter_1.pdf",
+   "https://www.in.gov/dor/tax-forms/corporate/current-corporatepartnership/",
+   "https://www.in.gov/dor/tax-forms/corporate/corporate-prior-year/2021-corporatepartnership-income-tax-forms/",
+   "https://iar.iga.in.gov/register/20160127-IR-045160035NRA",
+   "https://www.in.gov/dor/tax-forms/individual/individual-prior-year/2020-individual-income-tax-forms/",
+   "https://www.in.gov/dor/tax-forms/individual/current/"
+  ],
+  "error": ""
+ },
+ {
+  "state": "IN",
+  "section": "nexus",
+  "notes": "### 1. Income / Franchise Tax Nexus & Economic / Bright-Line Thresholds\n\n* **Corporate Adjusted Gross Income Tax (AGIT) (IC 6-3)**:\n  * **What creates nexus:** A corporation has nexus if it is \"doing business\" in Indiana. This includes traditional physical presence (maintaining an office, warehouse, construction site, place of business, or inventory; having employees or representatives; performing services; etc.).\n  * **Economic Nexus:** Effective for tax years beginning on or after January 1, 2019, income derived from Indiana is taxable to the fullest extent permitted under the U.S. Constitution and federal law, regardless of physical presence. A filing obligation may be established based on an economic presence in Indiana, provided that the economic presence is **\"more than of a de minimis nature.\"**\n  * **Bright-Line Factor Presence Threshold:** **Not found**. Indiana has not established a bright-line dollar amount or factor-presence percentage threshold for corporate income tax nexus.\n  * **Applicability:** Applies unchanged to both tax years **2025 and 2026**.\n  * **Official Sources:**\n    * Indiana DOR *Income Tax Information Bulletin #12*: `https://www.in.gov/dor/files/reference/ib12.pdf`\n    * Indiana Code § 6-3-2-2: `https://iga.in.gov/laws/2024/ic/titles/6#6-3-2-2`\n\n* **Financial Institutions Tax (FIT / Franchise Tax) (IC 6-5.5)**:\n  * **Scope:** An excise/franchise tax imposed at a rate of 4.9% on corporations that derive 80% or more of gross income from activities encompassing the business of a financial institution.\n  * **Economic Nexus / Presumptions:** Under IC 6-5.5-3-1 and IC 6-5.5-3-4 (45 IAC 17-2-9), a nonresident entity transacts business in Indiana for FIT purposes if it meets specific statutory activities, including:\n    * Assets and Deposits Threshold: Presumed to regularly solicit business if at any time during the taxable year the sum of the taxpayer's assets (including loan transactions) and the absolute value of deposits attributable to Indiana equals at least **$5,000,000**.\n    * Customer Count Threshold: Performs services outside Indiana consumed within Indiana by **twenty (20) or more customers**; or engages in transactions with **twenty (20) or more Indiana customers** involving intangible property (including loans) resulting in receipts flowing to the entity.\n    * Regularly solicits and receives deposits from Indiana customers.\n  * **Applicability:** Applies unchanged to both tax years **2025 and 2026**.\n  * **Official Sources:**\n    * Indiana General Assembly, 45 IAC 17-2-9 / IC 6-5.5-3: `https://iga.in.gov/information-advisories/administrative-code`\n    * Indiana DOR *General Tax Information Bulletin #200*: `https://www.in.gov/dor/files/reference/gb200.pdf`\n\n---\n\n### 2. Remote Seller Economic Nexus Threshold & Measurement Period\n\n* **Gross Revenue Threshold:** Exceeds **$100,000** in gross revenue from sales into Indiana (including tangible personal property, digital products, and services delivered into Indiana).\n* **Transaction Count:** **None**. Indiana previously maintained an alternative threshold of 200 or more separate transactions, but the 200-transaction count threshold was eliminated effective January 1, 2024 (enacted by SEA 228 (2024)).\n* **Measurement Period:** The calendar year in which the transaction occurs or the preceding calendar year (\"in the previous or current calendar year\").\n* **Marketplace Facilitators:** Marketplace sales facilitated on behalf of third-party sellers count toward the marketplace facilitator's $100,000 threshold. Remote marketplace sellers exclude sales made through certified marketplace facilitators from their own threshold calculation.\n* **Applicability:** Applies unchanged to both tax years **2025 and 2026**.\n* **Official Sources:**\n  * Indiana DOR *Remote Seller* Guidance: `https://www.in.gov/dor/business-tax/remote-seller/`\n  * Indiana DOR *Sales Tax Information Bulletin #89*: `https://www.in.gov/dor/files/reference/sbib89.pdf`\n  * Indiana Code § 6-2.5-2-1(d): `https://iga.in.gov/laws/2024/ic/titles/6#6-2.5-2-1`\n\n---\n\n### 3. State Position on Public Law 86-272 Protection\n\n* **Recognition & Applicability:** Indiana DOR expressly recognizes the statutory protections of P.L. 86-272 (15 U.S.C. § 381). Indiana income tax filing obligations based on economic presence remain explicitly \"subject to the limitations of P.L. 86-272.\"\n* **Standard Scope:** An out-of-state business is protected from Indiana corporate adjusted gross income tax if its only business activity within the state consists of the solicitation of orders for sales of tangible personal property, provided that such orders are sent outside Indiana for approval or rejection and are filled by shipment or delivery from a point outside Indiana.\n* **Combined Reporting (*Finnigan* Rule):** Indiana follows the *Finnigan* apportionment method for unitary groups. Under this rule, Indiana sales of all unitary group members are included in the sales factor numerator, even if an individual affiliate is individually protected from taxation under P.L. 86-272. However, apportioned net income is assigned only among members that independently possess Indiana tax nexus.\n* **MTC Revised Interpretation on Internet Activities:** **Not found**. Indiana DOR has not published administrative guidance, rules, or bulletins adopting the Multistate Tax Commission's (MTC) revised interpretation regarding internet activities and P.L. 86-272.\n* **Applicability:** Applies unchanged to both tax years **2025 and 2026**.\n* **Official Sources:**\n  * Indiana DOR *Income Tax Information Bulletin #12*: `https://www.in.gov/dor/files/reference/ib12.pdf`\n  * Indiana Administrative Code (45 IAC 3.1-1-38): `https://iga.in.gov/information-advisories/administrative-code`",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "A corporation establishes nexus by doing business in Indiana, which includes physical presence as well as an economic presence that is more than of a de minimis nature. Indiana does not impose a bright-line dollar or factor-presence threshold for corporate adjusted gross income tax.",
+    "source_url": "https://www.in.gov/dor/files/reference/ib12.pdf",
+    "evidence": [
+     "doing business in Indiana",
+     "more than of a de minimis nature",
+     "economic presence"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.in.gov/dor/files/reference/ib12.pdf; unreadable: https://www.in.gov/dor/files/ib12.pdf; evidence not on iar.iga.in.gov (0/3); unreadable: https://forms.in.gov/Download.aspx?id=15089; unreadable: https://forms.in.gov/Download.aspx?id=16945; unreadable: https://www.in.gov/dor/i-am-a/business-corp/remote-sellers/; evidence not on iga.in.gov (0/3); unreadable: https://www.in.gov/dor/i-am-a/business-corp/business-faq/remote-seller-faqs/; unreadable: https://www.in.gov/dor/file",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "A remote seller has economic nexus if gross revenue from sales into Indiana exceeds $100,000 in the current or previous calendar year. Indiana does not have a transaction count threshold.",
+    "source_url": "https://www.in.gov/dor/business-tax/remote-seller/",
+    "evidence": [
+     "exceeds $100,000",
+     "previous or current calendar year",
+     "gross revenue"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.in.gov/dor/business-tax/remote-seller/; unreadable: https://www.in.gov/dor/files/ib12.pdf; figures not on iar.iga.in.gov: ['100000']; unreadable: https://forms.in.gov/Download.aspx?id=15089; unreadable: https://forms.in.gov/Download.aspx?id=16945; unreadable: https://www.in.gov/dor/i-am-a/business-corp/remote-sellers/; figures not on iga.in.gov: ['100000']; unreadable: https://www.in.gov/dor/i-am-a/business-corp/business-faq/remote-seller-faqs/; unreadable: https://www.in",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Indiana expressly recognizes P.L. 86-272 protection for businesses whose only in-state activity is the solicitation of orders for sales of tangible personal property sent outside Indiana for approval and filled from outside the state. Economic presence filing obligations remain subject to the limitations of P.L. 86-272.",
+    "source_url": "https://www.in.gov/dor/files/reference/ib12.pdf",
+    "evidence": [
+     "limitations of P.L. 86-272",
+     "solicitation of orders",
+     "tangible personal property"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.in.gov/dor/files/reference/ib12.pdf; unreadable: https://www.in.gov/dor/files/ib12.pdf; figures not on iar.iga.in.gov: ['272', '86']; unreadable: https://forms.in.gov/Download.aspx?id=15089; unreadable: https://forms.in.gov/Download.aspx?id=16945; unreadable: https://www.in.gov/dor/i-am-a/business-corp/remote-sellers/; figures not on iga.in.gov: ['272', '86']; unreadable: https://www.in.gov/dor/i-am-a/business-corp/business-faq/remote-seller-faqs/; unreadable: https://www",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://www.in.gov/dor/files/ib12.pdf",
+   "https://iar.iga.in.gov/register/20250423-IR-045250206NRA",
+   "https://forms.in.gov/Download.aspx?id=15089",
+   "https://www.in.gov/dor/files/ib12.pdf",
+   "https://iar.iga.in.gov/latestArticle/45/17",
+   "https://iar.iga.in.gov/latestArticle/45/17",
+   "https://iar.iga.in.gov/register/20171129-IR-045170546NRA",
+   "https://forms.in.gov/Download.aspx?id=16945",
+   "https://www.in.gov/dor/i-am-a/business-corp/remote-sellers/",
+   "https://iar.iga.in.gov/register/20240417-IR-045240131NRA",
+   "https://iga.in.gov/ic/2026/Title_6/Article_2.5/Chapter_2.pdf",
+   "https://www.in.gov/dor/i-am-a/business-corp/business-faq/remote-seller-faqs/",
+   "https://www.in.gov/dor/files/ib12.pdf",
+   "https://www.in.gov/dor/files/ib39.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "IN",
+  "section": "rates",
+  "notes": "### 1. Individual Income Tax Rate\n* **Tax Year 2025:** 3.00% (flat rate on adjusted gross income).\n* **Tax Year 2026:** 2.95% (flat rate on adjusted gross income; lowers from 3.00% in 2025).\n* *Note on Local Taxes:* Indiana counties impose separate local income taxes under IC 6-3.6, with rates varying by county.\n* **Official Sources:**\n  * Indiana Department of Revenue (DOR) Rates, Fees & Penalties: https://www.in.gov/dor/tax-rates-fees-penalties/rates-fees-and-penalties/\n  * DOR Pass Through Entity Tax FAQ: https://www.in.gov/dor/individual-income-taxes/pass-through-entity-tax-ptet/ptet-faqs/\n\n---\n\n### 2. Corporate Income Tax Rate & Minimum Tax\n* **Tax Years 2025 and 2026:** \n  * **Corporate Adjusted Gross Income Tax Rate:** 4.90% (effective July 1, 2021 – present; unchanged between 2025 and 2026).\n  * **Minimum Corporate Tax:** Not found (Indiana does not impose a corporate minimum tax under the Adjusted Gross Income Tax Act).\n* **Official Sources:**\n  * DOR Corporate & Sales Tax History: https://www.in.gov/dor/tax-rates-fees-penalties/corporate-and-sales-tax-history/\n  * DOR Business FAQ: https://www.in.gov/dor/business-tax/business-faq/\n\n---\n\n### 3. Sales and Use Tax Rate & Local Rates\n* **Tax Years 2025 and 2026:**\n  * **State Sales and Use Tax Rate:** 7% (unchanged).\n  * **Local Jurisdictions:** Local jurisdictions do not impose local sales taxes. DOR explicitly notes: *\"The sales tax for the entire State of Indiana is 7%\"* and *\"Indiana only imposes a state sales tax.\"* (Separate local excise taxes exist for specific items, such as Food & Beverage and Innkeeper's taxes, but not general sales tax).\n* **Official Sources:**\n  * DOR Business FAQ: https://www.in.gov/dor/business-tax/business-faq/\n  * DOR Tax Types: https://www.in.gov/dor/about-dor/news-and-publications/our-team/tax-types/\n  * DOR County Tax Rates: Businesses: https://www.in.gov/dor/tax-rates-fees-penalties/county-tax-rates-businesses/\n  * DOR RV's & Cargo Trailers FAQs: https://www.in.gov/dor/individual-income-taxes/rvs-and-cargo-trailers-faqs/\n\n---\n\n### 4. Gross Receipts, Franchise, Margin, or Other Notable Business Taxes\n* **Financial Institutions Tax (FIT):** An excise/franchise tax imposed at a rate of 4.9% on adjusted gross income of corporations conducting the business of a financial institution (extends to entities where 80% or more of gross income is derived from financial institution activities). Applies to both 2025 and 2026.\n* **Pass Through Entity Tax (PTET):** An elective entity-level tax for partnerships and S corporations; the rate equals the individual income tax rate (3.00% for 2025; 2.95% for 2026).\n* **General Gross Receipts Tax / Utility Receipts Tax:** \n  * The general corporate Gross Income Tax was repealed effective January 1, 2003.\n  * The Utility Receipts Tax (URT) and Utility Services Use Tax were repealed effective July 1, 2022.\n  * General corporations are not subject to a gross receipts, franchise, or margin tax.\n* **Official Sources:**\n  * DOR Tax Types: https://www.in.gov/dor/about-dor/news-and-publications/our-team/tax-types/\n  * DOR Income Tax Information Bulletin #12: https://www.in.gov/dor/resources/tax-library/information-bulletins/income-tax-information-bulletins/\n  * DOR Corporate & Sales Tax History: https://www.in.gov/dor/tax-rates-fees-penalties/corporate-and-sales-tax-history/\n  * DOR Pass Through Entity Tax FAQ: https://www.in.gov/dor/individual-income-taxes/pass-through-entity-tax-ptet/ptet-faqs/",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025
+    ],
+    "value": "Indiana imposes a flat individual income tax rate of 3.00% on adjusted gross income for tax year 2025.",
+    "source_url": "https://www.in.gov/dor/tax-rates-fees-penalties/rates-fees-and-penalties/",
+    "evidence": [
+     "individual income tax rate",
+     "adjusted gross income",
+     "3.00%"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.in.gov/dor/tax-rates-fees-penalties/rates-fees-and-penalties/; unreadable: https://www.in.gov/dor/files/tax-chapter.pdf; unreadable: https://www.in.gov/dor/tax-forms/other-forms/ptet/faq/; unreadable: https://www.in.gov/dor/resources/tax-rates-and-reports/rates-fees-and-penalties/; figures not on iar.iga.in.gov: ['2025', '3']; unreadable: https://www.in.gov/dor/resources/tax-rates-and-reports/rates-fees-and-penalties/corporate-sales-tax-history/; unreadable: https://www.i",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "individual",
+    "years": [
+     2026
+    ],
+    "value": "Indiana's flat individual income tax rate decreases to 2.95% on adjusted gross income for tax year 2026.",
+    "source_url": "https://www.in.gov/dor/tax-rates-fees-penalties/rates-fees-and-penalties/",
+    "evidence": [
+     "individual income tax rate",
+     "adjusted gross income",
+     "2.95%"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.in.gov/dor/tax-rates-fees-penalties/rates-fees-and-penalties/; unreadable: https://www.in.gov/dor/files/tax-chapter.pdf; unreadable: https://www.in.gov/dor/tax-forms/other-forms/ptet/faq/; unreadable: https://www.in.gov/dor/resources/tax-rates-and-reports/rates-fees-and-penalties/; figures not on iar.iga.in.gov: ['2.95', '2026']; unreadable: https://www.in.gov/dor/resources/tax-rates-and-reports/rates-fees-and-penalties/corporate-sales-tax-history/; unreadable: https://ww",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Indiana levies a corporate adjusted gross income tax rate of 4.90%, with no corporate minimum tax.",
+    "source_url": "https://www.in.gov/dor/tax-rates-fees-penalties/corporate-and-sales-tax-history/",
+    "evidence": [
+     "Adjusted Gross Income Tax Rate",
+     "4.90%",
+     "Corporate Adjusted Gross Income"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.in.gov/dor/tax-rates-fees-penalties/corporate-and-sales-tax-history/; unreadable: https://www.in.gov/dor/files/tax-chapter.pdf; unreadable: https://www.in.gov/dor/tax-forms/other-forms/ptet/faq/; unreadable: https://www.in.gov/dor/resources/tax-rates-and-reports/rates-fees-and-penalties/; figures not on iar.iga.in.gov: ['4.9']; unreadable: https://www.in.gov/dor/resources/tax-rates-and-reports/rates-fees-and-penalties/corporate-sales-tax-history/; unreadable: https://www.",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Indiana imposes a 7% state sales and use tax, and local jurisdictions do not add local sales taxes.",
+    "source_url": "https://www.in.gov/dor/business-tax/business-faq/",
+    "evidence": [
+     "entire State of Indiana is 7%",
+     "only imposes a state sales tax"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.in.gov/dor/business-tax/business-faq/; unreadable: https://www.in.gov/dor/files/tax-chapter.pdf; unreadable: https://www.in.gov/dor/tax-forms/other-forms/ptet/faq/; unreadable: https://www.in.gov/dor/resources/tax-rates-and-reports/rates-fees-and-penalties/; figures not on iar.iga.in.gov: ['7']; unreadable: https://www.in.gov/dor/resources/tax-rates-and-reports/rates-fees-and-penalties/corporate-sales-tax-history/; unreadable: https://www.in.gov/dor/i-am-a/business-corp/b",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Indiana imposes a Financial Institutions Tax franchise tax at a rate of 4.9% on adjusted gross income of financial institutions, but general corporations are not subject to a gross receipts, franchise, or margin tax.",
+    "source_url": "https://www.in.gov/dor/about-dor/news-and-publications/our-team/tax-types/",
+    "evidence": [
+     "Financial Institutions Tax",
+     "financial institution",
+     "gross income"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.in.gov/dor/about-dor/news-and-publications/our-team/tax-types/; unreadable: https://www.in.gov/dor/files/tax-chapter.pdf; unreadable: https://www.in.gov/dor/tax-forms/other-forms/ptet/faq/; unreadable: https://www.in.gov/dor/resources/tax-rates-and-reports/rates-fees-and-penalties/; figures not on iar.iga.in.gov: ['4.9']; unreadable: https://www.in.gov/dor/resources/tax-rates-and-reports/rates-fees-and-penalties/corporate-sales-tax-history/; unreadable: https://www.in.gov",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://www.in.gov/dor/files/tax-chapter.pdf",
+   "https://www.in.gov/dor/tax-forms/other-forms/ptet/faq/",
+   "https://www.in.gov/dor/resources/tax-rates-and-reports/rates-fees-and-penalties/",
+   "https://iar.iga.in.gov/register/20260225-IR-045260032NRA",
+   "https://www.in.gov/dor/resources/tax-rates-and-reports/rates-fees-and-penalties/corporate-sales-tax-history/",
+   "https://www.in.gov/dor/i-am-a/business-corp/business-faq/",
+   "https://www.in.gov/dor/i-am-a/business-corp/business-faq/",
+   "https://www.in.gov/dor/about/news-publications/our-team/tax-types/",
+   "https://www.in.gov/dor/i-am-a/business-corp/county-tax-information/",
+   "https://www.in.gov/dor/business-tax/dealer-information/sales-tax-exemption-for-rvs-and-cargo-trailers-faqs/",
+   "https://www.in.gov/dor/about/news-publications/our-team/tax-types/",
+   "https://www.in.gov/dor/files/ib12.pdf",
+   "https://www.in.gov/dor/files/legislative-synopsis-2026.pdf",
+   "https://www.in.gov/dor/files/reference/ib72b.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "IN",
+  "section": "filing",
+  "notes": "### 1. Individual Return Due Dates & Extensions (Calendar-Year Filers)\n\n* **Original Due Date:**\n  * **Tax Year 2025:** Wednesday, April 15, 2026.\n  * **Tax Year 2026:** April 15, 2027.\n* **Extension of Time to File:**\n  * **Federal Extension Alignment:** If granted a federal extension of time to file (Form 4868), Indiana automatically grants an extension to file; a separate state extension request is not required, but a copy of the federal extension must be included with the state return.\n  * **State Extension Request:** If no federal extension was obtained, taxpayers can request an extension through INTIME or by mailing Form IT-9 on or before the original April deadline.\n  * **Extended Due Date:** Extends filing deadline by seven months to November 16, 2026 (for TY 2025) / November 15, 2027 (for TY 2026).\n  * **Payment & Penalty Rules:** An extension extends the time to *file*, not to *pay*. Interest is assessed on any tax paid after the April due date. Penalties are waived if:\n    1. At least 90% of the total tax expected to be owed is paid by the original April due date; and\n    2. The remaining balance (with interest) is paid in full by the extended due date.\n* **Official URLs:** \n  * https://www.in.gov/dor/individual-income-taxes/extension-of-time-to-file/\n  * https://www.in.gov/dor/i-am-a/individual/individual-income-tax-overview/\n  * https://www.in.gov/dor/news-and-publications/publications/tax-chapter/\n\n---\n\n### 2. Corporate and Pass-Through Due Dates & Extension Rules (Calendar-Year Filers)\n\n* **Original Due Dates:**\n  * **C Corporations (Form IT-20):** Due the 15th day of the 5th month following the close of the tax year—**May 15** (e.g., May 15, 2026 for TY 2025; May 17, 2027 for TY 2026 if May 15 falls on a weekend).\n  * **S Corporations (Form IT-20S):** Due the 15th day of the 4th month following the close of the tax year—**April 15**.\n  * **Partnerships (Form IT-65):** Due the 15th day of the 4th month following the close of the tax year—**April 15**.\n* **Extended Due Dates:**\n  * **Form IT-20:** 15th day of the 11th month after the end of the tax year—**November 15** (extended to Monday, November 16, 2026 for TY 2025).\n  * **Form IT-20S & Form IT-65:** 15th day of the 10th month after the end of the tax year—**October 15**.\n* **Extension Rules:**\n  * **Federal Extension:** Filing a federal extension automatically grants an Indiana extension; submit a copy of the federal extension with the Indiana return.\n  * **State-Specific Extension:** If no federal extension was filed, submit an extension request online via INTIME or mail a written request / extension payment voucher (Form E-6 for IT-20; written request/INTIME for IT-20S and IT-65) by the original due date.\n  * An extension does not extend the deadline to pay tax liabilities or composite tax. To avoid late-payment penalties, at least 90% of the tax due must be remitted by the original return due date.\n* **Official URLs:**\n  * https://www.in.gov/dor/legal-resources/tax-library/information-bulletins/general-tax-information-bulletins/ (General Tax Information Bulletin #303)\n  * https://www.in.gov/dor/tax-forms/ptet/pass-through-entity-tax-faq/\n  * https://www.in.gov/dor/news-and-publications/publications/tax-chapter/\n\n---\n\n### 3. Elective Pass-Through Entity Tax (PTET)\n\n* **Existence:** Indiana enacted an elective Pass Through Entity Tax under IC 6-3-2.1.\n* **Tax Rates:**\n  * **Tax Year 2025:** **3.00%** (matches the individual income tax rate for 2025).\n  * **Tax Year 2026:** **2.95%** (matches the lowered individual income tax rate for 2026).\n  * *Note on Nonresident Corporate Owners:* If the electing entity includes nonresident corporate owners subject to the 4.9% corporate rate, the entity owes PTET at the individual rate, with the remaining excess up to 4.9% remitted via corporate composite withholding.\n* **How to Elect:**\n  * Must be made annually by an authorized person.\n  * Made on **Form IN-PTET** or directly on the entity’s annual return (**Form IT-20S** or **Form IT-65**, Schedule PTET).\n  * The election is irrevocable once made.\n* **When to Elect:**\n  * For TY 2023 and subsequent years (applicable to TY 2025 and TY 2026), the election can be made at any time during the taxable year, prior to filing the return, or on the entity’s timely filed annual return (including extensions).\n* **Official URLs:**\n  * https://www.in.gov/dor/tax-forms/other-forms/pass-through-entity-tax/\n  * https://www.in.gov/dor/tax-forms/ptet/pass-through-entity-tax-faq/\n  * https://www.in.gov/dor/legal-resources/tax-library/information-bulletins/income-tax-information-bulletins/ (Income Tax Information Bulletin #72B)\n  * https://www.in.gov/dor/news-and-publications/publications/tax-chapter/\n\n---\n\n### 4. Composite / Group Nonresident Returns for Pass-Through Entities\n\n* **Mandatory Requirement:** S corporations, partnerships, and trusts doing business in Indiana are required to file a composite return on behalf of all nonresident partners, members, shareholders, or beneficiaries.\n* **Included Owners:** Must include all nonresident individuals, trusts, partnerships, and corporate partners.\n* **Mandatory Inclusion Penalty:** Entities must include **all** nonresident owners even if reporting zero income or an overall loss. Failure to include all nonresident owners automatically incurs a **$500 penalty** per pass-through entity.\n* **Relief from Individual Filing:** Nonresident owners whose only Indiana-source income is from pass-through entities filing composite returns are relieved of the requirement to file an individual return (Form IT-40PNR).\n* **Interaction with PTET:** PTET supplants state composite tax requirements for nonresident individual owners (as the rates match), but PTET does not supplant any county tax due or the excess corporate rate liability for corporate owners.\n* **Official URLs:**\n  * https://www.in.gov/dor/legal-resources/tax-library/information-bulletins/income-tax-information-bulletins/ (Income Tax Information Bulletin #72)\n  * https://www.in.gov/dor/news-and-publications/publications/tax-chapter/\n  * https://www.in.gov/dor/business-or-corporation/withholding-income/nonresident-withholding-faq/\n\n---\n\n### 5. Estimated Tax Payment Requirements & Nonresident Withholding\n\n* **Pass-Through Nonresident Withholding (Composite):**\n  * Withholding on nonresident owners is remitted via **Form IT-6WTH** or electronically via INTIME.\n  * Due on the 15th day of the 4th month after the close of the taxable year (April 15 for calendar filers).\n* **PTET Estimated Payments (TY 2025 and TY 2026):**\n  * *Change beginning TY 2025:* Prior to 2025, PTET estimated payments were made annually. Beginning in TY 2025 and continuing in TY 2026, electing entities must make **four quarterly estimated payments**.\n  * **Due Dates:** April 20, June 20, September 20, and December 20.\n  * **Underpayment Penalty:** DOR assesses a **10% penalty** on a quarterly basis if payments are less than 25% of the prior year's PTET or 20% of the current year's PTET, whichever is less.\n  * **Safe Harbor:** 90% of the combined PTET and composite withholding tax reasonably expected to be due.\n* **Corporate Estimated Income Tax:**\n  * Required if annual gross tax liability exceeds $2,500.\n  * Installments due on or before April 20, June 20, September 20, and December 20. Electronic payment is mandatory via INTIME if the average quarterly liability is $5,000 or more.\n* **Individual Estimated Income Tax:**\n  * Required if unpaid state and county tax is $1,000 or more.\n  * Installments due April 15, June 15, September 15, and January 15 of the following year.\n* **Official URLs:**\n  * https://www.in.gov/dor/news-and-publications/publications/tax-chapter/\n  * https://www.in.gov/dor/legal-resources/tax-library/information-bulletins/income-tax-information-bulletins/ (Bulletin #72B)\n  * https://www.in.gov/dor/individual-income-taxes/payments-and-billing/estimated-payments/\n  * https://www.in.gov/dor/business-or-corporation/withholding-income/nonresident-withholding-faq/\n\n---\n\n### 6. Main Return Forms\n\n* **Individual Income Tax:**\n  * **Form IT-40:** Indiana Full-Year Resident Individual Income Tax Return\n  * **Form IT-40PNR:** Indiana Part-Year or Full-Year Nonresident Individual Income Tax Return\n  * **Form IT-40RNR:** Reciprocal Nonresident Individual Income Tax Return\n  * **Form IT-9:** Application for Extension of Time to File\n  * **Form ES-40 / IT-40ES:** Individual Estimated Tax Voucher\n* **Corporate Income Tax:**\n  * **Form IT-20:** Corporate Adjusted Gross Income Tax Return\n  * **Form IT-20X:** Amended Corporation Income Tax Return\n  * **Form FIT-20:** Financial Institution Tax Return\n  * **Form E-6:** Corporate Estimate Quarterly Income Tax Return / Extension Payment\n* **Pass-Through Entities:**\n  * **Form IT-20S:** Indiana S Corporation Income Tax Return\n  * **Form IT-65:** Indiana Partnership Return\n  * **Schedule IN K-1 (IT-20S/IT-65):** Shareholder’s / Partner’s Share of Indiana AGI, Deductions, Modifications, and Credits\n  * **Schedule Composite:** Entity's Composite Indiana AGI Tax Return (for individuals/fiduciary owners)\n  * **Schedule Composite-COR:** Composite Indiana AGI Tax Return for Corporate Entities\n  * **Form IN-PTET / Schedule PTET:** Pass Through Entity Tax Election and Computation Schedule\n  * **Form IT-6WTH:** Pass-Through Entity Withholding / PTET Payment Voucher\n* **Official URLs:**\n  * https://www.in.gov/dor/tax-forms/individual-income-tax-forms/\n  * https://www.in.gov/dor/tax-forms/corporate-forms/current-year-corporate-partnership-tax-forms/\n  * https://www.in.gov/dor/tax-forms/other-forms/pass-through-entity-tax/",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025
+    ],
+    "value": "Individual returns for tax year 2025 are due April 15, 2026. A federal extension automatically grants an Indiana extension to November 16, 2026, or taxpayers may request a seven-month extension using Form IT-9 if at least 90% of tax owed is paid by the April due date.",
+    "source_url": "https://www.in.gov/dor/individual-income-taxes/extension-of-time-to-file/",
+    "evidence": [
+     "extension of time to file",
+     "Form IT-9",
+     "seven months",
+     "90% of the total tax"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.in.gov/dor/individual-income-taxes/extension-of-time-to-file/; unreadable: https://www.in.gov/dor/files/NP-Individual_Income_tax_filings_opens_Jan._26.pdf; unreadable: https://www.in.gov/dor/files/tax-chapter.pdf; unreadable: https://www.in.gov/dor/i-am-a/individual/tax-filing-deadlines/; unreadable: https://www.in.gov/dor/i-am-a/individual/first-time-filer/; unreadable: https://www.in.gov/dor/i-am-a/individual/file-extension/; unreadable: https://www.in.gov/dor/files/202",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "individual_due",
+    "years": [
+     2026
+    ],
+    "value": "Individual returns for tax year 2026 are due April 15, 2027. A federal extension automatically provides a state filing extension to November 15, 2027, or taxpayers may request one via Form IT-9 provided 90% of the tax liability is paid by the original deadline.",
+    "source_url": "https://www.in.gov/dor/individual-income-taxes/extension-of-time-to-file/",
+    "evidence": [
+     "extension of time to file",
+     "Form IT-9",
+     "seven months",
+     "90% of the total tax"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.in.gov/dor/individual-income-taxes/extension-of-time-to-file/; unreadable: https://www.in.gov/dor/files/NP-Individual_Income_tax_filings_opens_Jan._26.pdf; unreadable: https://www.in.gov/dor/files/tax-chapter.pdf; unreadable: https://www.in.gov/dor/i-am-a/individual/tax-filing-deadlines/; unreadable: https://www.in.gov/dor/i-am-a/individual/first-time-filer/; unreadable: https://www.in.gov/dor/i-am-a/individual/file-extension/; unreadable: https://www.in.gov/dor/files/202",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "C corporation returns (Form IT-20) are due May 15, while S corporations (IT-20S) and partnerships (IT-65) are due April 15. Federal extensions automatically grant Indiana extensions to November 15 for IT-20 and October 15 for IT-20S and IT-65, though at least 90% of tax must be paid by the original due date.",
+    "source_url": "https://www.in.gov/dor/news-and-publications/publications/tax-chapter/",
+    "evidence": [
+     "Form IT-20",
+     "Form IT-20S",
+     "Form IT-65",
+     "90% of the tax"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.in.gov/dor/news-and-publications/publications/tax-chapter/; unreadable: https://www.in.gov/dor/files/NP-Individual_Income_tax_filings_opens_Jan._26.pdf; unreadable: https://www.in.gov/dor/files/tax-chapter.pdf; unreadable: https://www.in.gov/dor/i-am-a/individual/tax-filing-deadlines/; unreadable: https://www.in.gov/dor/i-am-a/individual/first-time-filer/; unreadable: https://www.in.gov/dor/i-am-a/individual/file-extension/; unreadable: https://www.in.gov/dor/files/2026-o",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2025
+    ],
+    "value": "Indiana provides an elective PTET at a rate of 3.00% for tax year 2025. The annual irrevocable election is made on Form IN-PTET or on Form IT-20S/IT-65 (Schedule PTET) during the taxable year or on a timely filed return.",
+    "source_url": "https://www.in.gov/dor/tax-forms/ptet/pass-through-entity-tax-faq/",
+    "evidence": [
+     "Pass Through Entity Tax",
+     "Form IN-PTET",
+     "irrevocable once made",
+     "Schedule PTET"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.in.gov/dor/tax-forms/ptet/pass-through-entity-tax-faq/; unreadable: https://www.in.gov/dor/files/NP-Individual_Income_tax_filings_opens_Jan._26.pdf; unreadable: https://www.in.gov/dor/files/tax-chapter.pdf; unreadable: https://www.in.gov/dor/i-am-a/individual/tax-filing-deadlines/; unreadable: https://www.in.gov/dor/i-am-a/individual/first-time-filer/; unreadable: https://www.in.gov/dor/i-am-a/individual/file-extension/; unreadable: https://www.in.gov/dor/files/2026-octob",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2026
+    ],
+    "value": "Indiana provides an elective PTET at a rate of 2.95% for tax year 2026. The annual irrevocable election is made on Form IN-PTET or directly on the entity's timely filed return (Form IT-20S or IT-65, Schedule PTET).",
+    "source_url": "https://www.in.gov/dor/tax-forms/ptet/pass-through-entity-tax-faq/",
+    "evidence": [
+     "Pass Through Entity Tax",
+     "Form IN-PTET",
+     "irrevocable once made",
+     "Schedule PTET"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.in.gov/dor/tax-forms/ptet/pass-through-entity-tax-faq/; unreadable: https://www.in.gov/dor/files/NP-Individual_Income_tax_filings_opens_Jan._26.pdf; unreadable: https://www.in.gov/dor/files/tax-chapter.pdf; unreadable: https://www.in.gov/dor/i-am-a/individual/tax-filing-deadlines/; unreadable: https://www.in.gov/dor/i-am-a/individual/first-time-filer/; unreadable: https://www.in.gov/dor/i-am-a/individual/file-extension/; unreadable: https://www.in.gov/dor/files/2026-octob",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "composite",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Pass-through entities doing business in Indiana are required to file a composite return covering all nonresident owners, with a $500 penalty assessed if an entity fails to include all eligible nonresidents. Nonresident owners with no other Indiana-source income are relieved from filing an individual Form IT-40PNR.",
+    "source_url": "https://www.in.gov/dor/business-or-corporation/withholding-income/nonresident-withholding-faq/",
+    "evidence": [
+     "composite return",
+     "nonresident partners",
+     "$500 penalty",
+     "IT-40PNR"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.in.gov/dor/business-or-corporation/withholding-income/nonresident-withholding-faq/; unreadable: https://www.in.gov/dor/files/NP-Individual_Income_tax_filings_opens_Jan._26.pdf; unreadable: https://www.in.gov/dor/files/tax-chapter.pdf; unreadable: https://www.in.gov/dor/i-am-a/individual/tax-filing-deadlines/; unreadable: https://www.in.gov/dor/i-am-a/individual/first-time-filer/; unreadable: https://www.in.gov/dor/i-am-a/individual/file-extension/; unreadable: https://www",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Beginning in tax year 2025, electing PTET entities must make four quarterly estimated payments due April 20, June 20, September 20, and December 20, subject to a 10% underpayment penalty. Pass-through nonresident withholding is remitted on Form IT-6WTH by April 15 for calendar-year filers.",
+    "source_url": "https://www.in.gov/dor/news-and-publications/publications/tax-chapter/",
+    "evidence": [
+     "estimated payments",
+     "Form IT-6WTH",
+     "10% penalty",
+     "quarterly basis"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.in.gov/dor/news-and-publications/publications/tax-chapter/; unreadable: https://www.in.gov/dor/files/NP-Individual_Income_tax_filings_opens_Jan._26.pdf; unreadable: https://www.in.gov/dor/files/tax-chapter.pdf; unreadable: https://www.in.gov/dor/i-am-a/individual/tax-filing-deadlines/; unreadable: https://www.in.gov/dor/i-am-a/individual/first-time-filer/; unreadable: https://www.in.gov/dor/i-am-a/individual/file-extension/; unreadable: https://www.in.gov/dor/files/2026-o",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Key individual forms include Form IT-40, Form IT-40PNR, and Form IT-9 for extensions. Primary business and pass-through forms include Form IT-20 for C corporations, Form IT-20S for S corporations, Form IT-65 for partnerships, and Form IN-PTET/Schedule PTET.",
+    "source_url": "https://www.in.gov/dor/tax-forms/current-year-corporate-partnership-tax-forms/",
+    "evidence": [
+     "Form IT-20",
+     "Form IT-20S",
+     "Form IT-65",
+     "Schedule PTET"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.in.gov/dor/tax-forms/current-year-corporate-partnership-tax-forms/; unreadable: https://www.in.gov/dor/files/NP-Individual_Income_tax_filings_opens_Jan._26.pdf; unreadable: https://www.in.gov/dor/files/tax-chapter.pdf; unreadable: https://www.in.gov/dor/i-am-a/individual/tax-filing-deadlines/; unreadable: https://www.in.gov/dor/i-am-a/individual/first-time-filer/; unreadable: https://www.in.gov/dor/i-am-a/individual/file-extension/; unreadable: https://www.in.gov/dor/file",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://www.in.gov/dor/files/NP-Individual_Income_tax_filings_opens_Jan._26.pdf",
+   "https://www.in.gov/dor/files/tax-chapter.pdf",
+   "https://www.in.gov/dor/i-am-a/individual/tax-filing-deadlines/",
+   "https://www.in.gov/dor/i-am-a/individual/first-time-filer/",
+   "https://www.in.gov/dor/i-am-a/individual/file-extension/",
+   "https://www.in.gov/dor/files/2026-october-tax-bulletin.pdf",
+   "https://www.in.gov/dor/files/intime-guide-extension-time-to-file.pdf",
+   "https://www.in.gov/dor/i-am-a/individual/individual-income-tax-overview/",
+   "https://www.in.gov/dor/files/gb303.pdf",
+   "https://www.in.gov/dor/tax-forms/other-forms/ptet/faq/",
+   "https://www.in.gov/dor/i-am-a/business-corp/withholding/nonresident-withholding-faq/",
+   "https://www.in.gov/dor/files/reference/ib72b.pdf",
+   "https://www.in.gov/dor/files/reference/ib72.pdf",
+   "https://www.in.gov/dor/files/reference/ib72b.pdf",
+   "https://www.in.gov/dor/files/tax-chapter.pdf",
+   "https://www.in.gov/dor/resources/tax-rates-and-reports/rates-fees-and-penalties/",
+   "https://iar.iga.in.gov/register/20241030-IR-045240423NRA",
+   "https://www.in.gov/dor/files/ptet-instructions.pdf",
+   "https://iar.iga.in.gov/register/20250827-IR-045250425NRA",
+   "https://www.in.gov/dor/tax-forms/other-forms/ptet/",
+   "https://www.in.gov/dor/files/reference/ib72b.pdf",
+   "https://www.in.gov/dor/files/ib39.pdf",
+   "https://www.in.gov/dor/files/ib12.pdf",
+   "https://www.in.gov/dor/i-am-a/business-corp/business-faq/",
+   "https://www.in.gov/dor/files/2026-september-tax-bulletin.pdf",
+   "https://www.in.gov/dor/files/reference/ib72.pdf",
+   "https://www.in.gov/dor/i-need-to/make-a-payment/estimated-payments/",
+   "https://www.in.gov/dor/files/eft-100.pdf.pdf",
+   "https://www.in.gov/dor/files/ib03.pdf",
+   "https://www.in.gov/dor/tax-forms/corporate/current-corporatepartnership/",
+   "https://www.in.gov/dor/tax-forms/corporate/corporate-prior-year/2021-corporatepartnership-income-tax-forms/",
+   "https://www.in.gov/dor/tax-forms/corporate/corporate-prior-year/2022-corporatepartnership-income-tax-forms/",
+   "https://www.in.gov/dor/tax-forms/corporate/corporate-prior-year/2022-corporatepartnership-income-tax-forms/",
+   "https://www.in.gov/dor/tax-forms/corporate/current-corporatepartnership/"
+  ],
+  "error": ""
+ }
+]

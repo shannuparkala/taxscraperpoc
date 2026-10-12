@@ -1,0 +1,29 @@
+# The build context is `backend/`, so `Files/` and `data/` at the repository
+# root are already outside it. This file covers what is inside.
+
+# Secrets. .env.example is committed and safe; .env never is.
+.env
+.env.*
+!.env.example
+
+# Local state that must never enter an image.
+data/
+venv/
+.venv/
+*.db
+*.db-shm
+*.db-wal
+
+# Build and tooling noise.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# Not needed at runtime. Tests import from `app`, so shipping them would only
+# enlarge the image and widen what a compromised container can read.
+tests/
+scripts/

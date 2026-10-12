@@ -1,0 +1,91 @@
+[
+ {
+  "state": "MS",
+  "section": "nexus",
+  "notes": "### Mississippi (MS) Tax Nexus & P.L. 86-272 Guidance\n\n---\n\n### 1. Income and Franchise Tax Nexus\n\n* **Income Tax Nexus Standard:** \n  * Mississippi defines income tax nexus as \"the operation of any enterprise or activity in Mississippi for financial profit or economic gain\" (also referred to as \"doing business\").\n  * Activities establishing nexus include (Miss. Admin. Code Title 35, Part III, Subpart 08, Chapter 06, Rule 203.01):\n    * Having even a single employee or agent in Mississippi;\n    * Regular maintenance of an office or other place of business;\n    * Regular maintenance of inventory/merchandise for sale, distribution, or manufacture;\n    * Directly distributing goods from company-owned or operated vehicles where title passes in Mississippi;\n    * Regular rendering of services to customers in the state;\n    * Owning, renting, or operating business or income-producing real or personal property;\n    * Performing construction, repair, or renovation contracts.\n* **Franchise Tax Nexus Standard:**\n  * Imposed on corporations for the privilege of doing business, being incorporated, or being domesticated/qualified to do business in Mississippi (Miss. Code Ann. § 27-13-1 et seq.). Every corporation domesticated or qualified to do business in the state must file a return even if inactive.\n  * *Phaseout Note:* The franchise tax rate is phasing down annually (e.g., $0.75 per $1,000 of taxable capital exceeding $100,000 in tax year 2025; minimum tax of $25) toward complete elimination.\n* **Bright-Line / Factor Presence Economic Nexus Threshold for Income/Franchise Tax:** \n  * **Not found.** Mississippi has not enacted a factor-presence or bright-line dollar/transaction economic threshold for corporate income or franchise tax.\n* **Applicability:** Applies to tax years 2025 and 2026.\n* **Official URLs:** \n  * https://www.dor.ms.gov/business/business-tax-frequently-asked-questions\n  * https://www.dor.ms.gov/business/corporate-income-and-franchise-tax\n\n---\n\n### 2. Remote Seller Economic Nexus Threshold (Sales/Use Tax)\n\n* **Sales Threshold:** Sales into Mississippi exceeding **$250,000**.\n* **Transaction Count Threshold:** **None** (Mississippi does not impose a transaction count threshold).\n* **Measurement Period:** Over **any twelve-month period** (consecutive 12-month period).\n* **Applicability:** Applies to tax years 2025 and 2026 without change (effective since July 1, 2018; Miss. Code Ann. § 27-67-4; Miss. Admin. Code Title 35, Part IV, Subpart 03, Chapter 09).\n* **Official URLs:** \n  * https://www.dor.ms.gov/business/business-tax-frequently-asked-questions\n  * https://www.dor.ms.gov/business/sales-and-use-tax\n\n---\n\n### 3. State Position on Public Law 86-272 Protection\n\n* **Narrow Interpretation:** Under Miss. Admin. Code Title 35, Part III, Subpart 08, Chapter 06, Rule 203.03, the Department of Revenue explicitly maintains an intent to \"adopt a narrow interpretation of the immunity afforded by Public Law 86-272\".\n* **Scope of Protection:**\n  * Protection is limited solely to the solicitation of orders for sales of **tangible personal property** sent outside the state for approval and filled from points outside the state (Rule 203.02 & 203.03).\n  * The selling or providing of services, and the selling, leasing, renting, licensing, or disposition of real property or intangible property, are not protected (Rule 203.04).\n  * Maintaining an office, owning income-producing property, or engaging in any non-solicitation business activity in Mississippi removes immunity (Rule 203.02).\n* **Applicability:** Applies to tax years 2025 and 2026.\n* **Official URLs:** \n  * https://www.dor.ms.gov/business/business-tax-frequently-asked-questions *(references Title 35, Part III, Subpart 08, Chapter 06)*\n  * https://www.dor.ms.gov/forms-resources/mississippi-tax-laws-rules-and-regulations",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Mississippi establishes income tax nexus through doing business, defined as the operation of any enterprise or activity in the state for financial profit or economic gain. Franchise tax nexus is established by doing business, being incorporated, or being domesticated or qualified to do business in the state.",
+    "source_url": "https://www.dor.ms.gov/business/corporate-income-and-franchise-tax",
+    "evidence": [
+     "operation of any enterprise",
+     "financial profit or economic gain",
+     "doing business",
+     "qualified to do business"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.dor.ms.gov/business/business-tax-frequently-asked-questions",
+    "matched_title": "BUSINESS TAX FREQUENTLY ASKED QUESTIONS | Mississippi Department of Revenue",
+    "matched_phrases": [
+     "operation of any enterprise",
+     "financial profit or economic gain",
+     "doing business",
+     "qualified to do business"
+    ],
+    "snippet": "Every corporation, domesticated or qualified to do business in Mississippi must file a return even if the corporation is inactive or not engaged in business. ​ Back to Top What is franchise tax? A franchise tax is imposed on corporations for the privilege of doing business in the State of Mississippi."
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Remote sellers establish economic nexus if sales into Mississippi exceed $250,000 over any twelve-month period. There is no transaction count threshold.",
+    "source_url": "https://www.dor.ms.gov/business/sales-and-use-tax",
+    "evidence": [
+     "exceeding $250,000",
+     "any twelve-month period"
+    ],
+    "accepted": false,
+    "reason": "figures not on www.dor.ms.gov: ['250000']; evidence not on www.dor.ms.gov (1/2); not an official MS host: www.law.cornell.edu; not an official MS host: law-db.mc.edu; evidence not on www.dor.ms.gov (0/2); not an official MS host: www.taxconnex.com; not an official MS host: www.wolterskluwer.com",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Mississippi maintains a narrow interpretation of the immunity afforded by Public Law 86-272, restricting protection strictly to the solicitation of orders for sales of tangible personal property. Immunity does not extend to the sale or provision of services, or transactions involving real or intangible property.",
+    "source_url": "https://www.dor.ms.gov/forms-resources/mississippi-tax-laws-rules-and-regulations",
+    "evidence": [
+     "narrow interpretation",
+     "Public Law 86-272",
+     "tangible personal property",
+     "solicitation of orders"
+    ],
+    "accepted": false,
+    "reason": "figures not on www.dor.ms.gov: ['272', '86']; not an official MS host: www.law.cornell.edu; not an official MS host: law-db.mc.edu; not an official MS host: www.taxconnex.com; not an official MS host: www.wolterskluwer.com",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://www.dor.ms.gov/business/business-tax-frequently-asked-questions",
+   "https://www.law.cornell.edu/regulations/mississippi/title-35/part-3/subpart-08/chapter-06/section-35-3-08-06-203",
+   "https://law-db.mc.edu/judicial/briefs/2010-CA-01857-COAE.PDF",
+   "https://www.dor.ms.gov/business/business-tax-frequently-asked-questions",
+   "https://www.dor.ms.gov/business/corporate-income-and-franchise-tax",
+   "https://www.dor.ms.gov/business/business-tax-frequently-asked-questions",
+   "https://www.dor.ms.gov/sites/default/files/tax-forms/business/2025%20CIT%20INSTRUCTIONS%2083-100%20-%20Final%20%2001.14.2026.pdf",
+   "https://www.dor.ms.gov/business/business-tax-frequently-asked-questions",
+   "https://www.dor.ms.gov/business/corporate-income-and-franchise-tax",
+   "https://www.taxconnex.com/economic-nexus-states",
+   "https://www.wolterskluwer.com/en/expert-insights/whole-ball-of-tax-sales-and-use-tax-post-wayfair-decision-economic-nexus",
+   "https://www.law.cornell.edu/regulations/mississippi/35-Miss-Code-R-SS-3-08-06-203-02",
+   "https://www.dor.ms.gov/forms-resources/mississippi-tax-laws-rules-and-regulations"
+  ],
+  "error": ""
+ }
+]

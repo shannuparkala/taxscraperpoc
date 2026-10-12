@@ -1,0 +1,76 @@
+{
+  "code": "RI",
+  "name": "Rhode Island",
+  "sections": {
+    "apportionment": {
+      "fields": [
+        {
+          "key": "method",
+          "label": "Apportionment method",
+          "value": "Multistate C corporations and unitary combined groups apportion business income using a single sales factor formula. Pass-through entities use a three-factor apportionment formula based on equally weighted property, payroll, and sales divided by 3.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://rules.sos.ri.gov/regulations/Part/280-20-25-9",
+          "source_citation": "Apportionment of Net Income (280-RICR-20-25-9) - Rhode Island Department of State",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Under the three-factor apportionment formula applicable in § 9.9 of this Part, taxpayers determining sales attributable to Rhode Island for transactions other than sales of tangible personal property shall adhere to cost of performance sourcing principles, and not the market-based sourcing principles that apply in the context of single sales factor apportionment."
+        },
+        {
+          "key": "sourcing",
+          "label": "Sales sourcing (services and intangibles)",
+          "value": "For C corporations, receipts from services are sourced using market-based sourcing based on where the benefit is received, and intangibles are sourced where used. Pass-through entities source service receipts to Rhode Island if the services are performed in Rhode Island.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://rules.sos.ri.gov/regulations/Part/280-20-25-9",
+          "source_citation": "Apportionment of Net Income (280-RICR-20-25-9) - Rhode Island Department of State",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "“Market based sourcing” means the sourcing method used for gross receipts from transactions other than sales of tangible personal property under the single sales factor apportionment formula set forth in § 9.8 of this Part."
+        },
+        {
+          "key": "special_industries",
+          "label": "Special industry rules",
+          "value": "Specific apportionment formulas or rules apply to regulated investment companies, securities brokerage services, credit card banks, retirement and pension plans, international investment management services, motor carriers, airlines, and manufacturers.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://rules.sos.ri.gov/regulations/part/280-20-25-9",
+          "source_citation": "Apportionment of Net Income (280-RICR-20-25-9) - Rhode Island Department of State",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Regulated investment companies and securities brokerage services;"
+        }
+      ]
+    },
+    "nexus": {
+      "fields": [
+        {
+          "key": "pl_86_272",
+          "label": "P.L. 86-272",
+          "value": "Rhode Island provides Public Law 86-272 immunity to out-of-state corporations whose in-state presence is limited to the solicitation of orders for sales of tangible personal property approved and filled from outside the state. Immunity does not extend to intangibles, real property, or services, and engaging in any non-protected activity voids protection for the entire tax year.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://rules.sos.ri.gov/regulations/part/280-20-25-8",
+          "source_citation": "Nexus (280-RICR-20-25-8) - Rhode Island Department of State",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "§§ 381-384 (Public Law 86-272) unless entirely ancillary to solicitation for an order for tangible personal property, de minimis, or otherwise protected under this regulation."
+        }
+      ]
+    },
+    "rates": {
+      "fields": []
+    },
+    "filing": {
+      "fields": []
+    }
+  }
+}

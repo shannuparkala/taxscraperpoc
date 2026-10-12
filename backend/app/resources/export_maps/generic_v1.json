@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "fact_set_version": 1,
+  "target": "generic",
+  "label": "Generic Tax Data",
+  "format": "csv",
+  "extension": "csv",
+  "money": "exact",
+  "notes": [
+    "Vendor-neutral: every fact the export vocabulary declares, named as we",
+    "name it, with the engine's own unrounded amounts. This is the target to",
+    "hand someone who has not yet said what their tax package imports.",
+    "A real vendor map adds a sibling file here with an explicit 'fields'",
+    "table; it needs no Python change. Omitting 'fields' means the full",
+    "vocabulary, which is why this file does not restate it."
+  ]
+}

@@ -1,0 +1,449 @@
+[
+ {
+  "state": "MS",
+  "section": "apportionment",
+  "notes": "### 1. Apportionment Formula for Multistate Business Income\n* **Rule & Formula**: Mississippi does not utilize a single uniform apportionment formula for all multistate businesses. The formula depends on the industry/activity of the taxpayer pursuant to Miss. Code Ann. § 27-7-23 and Miss. Admin. Code Title 35, Part III, Subpart 08, Ch. 06:\n  * **Single Sales Factor**: Applies to retailing, renting, servicing, merchandising, or wholesaling.\n  * **Double-Weighted Sales Factor**: Applies to manufacturers that sell principally at retail. Formula: Property factor + Payroll factor + (2 × Sales factor), divided by 4 (calculated on the return as `[(Property Factor + Payroll Factor) / 2 + Sales Factor] / 2`).\n  * **Equally Weighted Three-Factor**: Applies to financial institutions, pipelines, or manufacturers that sell principally at wholesale. Formula: `(Property Factor + Payroll Factor + Sales Factor) / 3`.\n  * **Special 5-Factor Formula**: Applies to qualifying major medical or pharmaceutical suppliers of a Mississippi distribution facility. Formula: `(2 × Property Factor + 2 × Payroll Factor + 1 × Sales Factor) / 5`.\n* **Applicability**: Applies to both tax years 2025 and 2026 (unchanged).\n* **Official URL**: \n  * https://www.dor.ms.gov/sites/default/files/forms/83100248.pdf (Corporate Income and Franchise Tax Instructions)\n  * https://www.dor.ms.gov/sites/default/files/forms/83125228.pdf (Form 83-125)\n\n---\n\n### 2. Sourcing of Receipts from Services and Intangibles\n* **Rule**: Mississippi follows **cost of performance / place of performance (income-producing activity)**, not market-based sourcing.\n  * **Services**: Under Miss. Admin. Code Title 35, Part III, Subpart 08, Ch. 06, Rule 402.09(3), gross receipts from transactions other than sales of tangible personal property are sourced to Mississippi if the income-producing activity is performed wholly within Mississippi. If the activity is performed both within and without Mississippi, receipts are sourced to Mississippi only to the extent of such gross receipts that represent services or activities actually performed within the state. For financial institutions under Miss. Code Ann. § 27-7-24.3(12), service receipts performed within and without the state are included in the numerator if a greater proportion of the income-producing activity is performed in Mississippi based on costs of performance.\n  * **Intangibles**: Gross receipts from intangible property (royalties, licenses, patents) are sourced based on the location of use, commercial domicile, or cost of performance under Miss. Admin. Code Title 35, Part III, Subpart 08, Ch. 06, Rule 402.09 and Miss. Code Ann. § 27-7-23. Nonbusiness income is allocated directly under Miss. Code Ann. § 27-7-23.\n* **Applicability**: Applies to both tax years 2025 and 2026 (unchanged).\n* **Official URL**:\n  * https://www.dor.ms.gov/sites/default/files/forms/83100248.pdf\n  * https://www.dor.ms.gov/laws-rules-regulations\n\n---\n\n### 3. Industries with Their Own Apportionment Formula or Method\n* **Rule**: Mississippi prescribes industry-specific apportionment formulas or separate accounting requirements for multiple industries:\n  * **Construction Contractors**: Required to use the **direct / separate accounting method** rather than formula apportionment (Miss. Admin. Code Title 35, Part III, Subpart 08, Ch. 06).\n  * **Producers of Mineral or Natural Resource Products**: Required to use the **direct / separate accounting method**.\n  * **Manufacturers Selling Principally at Wholesale**: 3-factor formula (Property, Payroll, Sales divided by 3).\n  * **Manufacturers Selling Principally at Retail**: Double-weighted sales factor formula.\n  * **Financial Institutions**: Statutory 3-factor formula (Receipts factor, Property factor, and Payroll factor divided by 3) under Miss. Code Ann. § 27-7-24.\n  * **Pipelines**: Standard 3-factor formula (Property, Payroll, Sales divided by 3).\n  * **Major Medical or Pharmaceutical Suppliers**: 5-factor formula (2 × Property + 2 × Payroll + Sales divided by 5).\n  * **Airlines, Motor Carriers, Express Companies, Telephone and Telegraph Companies**: Required to use special apportionment formulas (e.g., mileage or revenue miles).\n  * **Medical Laboratory Services**: Industry apportionment formula authorized under Miss. Code Ann. § 27-7-23 / HB 1699.\n* **Applicability**: Applies to both tax years 2025 and 2026 (unchanged).\n* **Official URL**: \n  * https://www.dor.ms.gov/sites/default/files/forms/83100248.pdf\n  * https://www.dor.ms.gov/business/corporate-income-franchise-tax\n\n---\n\n### 4. Forms and Schedules Used to Compute Apportionment\n* **Forms/Schedules**:\n  * **Form 83-125** (*Mississippi Business Income Apportionment Schedule*): Completed by corporate multistate taxpayers apportioning income; attached to **Form 83-105** (*Corporate Income and Franchise Tax Return*) along with **Form 83-122** (*Computation of Net Taxable Income Schedule*).\n  * **Form 84-125** (*Mississippi Business Income Apportionment Schedule*): Completed by multistate pass-through entities (partnerships, S corporations, LLCs); attached to **Form 84-105** and **Form 84-122**.\n  * **Form 83-124** (Corporations) / **Form 84-124** (Pass-Through Entities) (*Direct Accounting Income Statement*): Used by contractors and mineral producers reporting under direct accounting.\n* **Applicability**: Applies to both tax years 2025 and 2026 (unchanged).\n* **Official URL**: \n  * https://www.dor.ms.gov/forms/corporate-income-and-franchise-tax-forms\n  * https://www.dor.ms.gov/sites/default/files/forms/83125228.pdf",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Mississippi uses different apportionment formulas depending on industry, including a single sales factor for retail, service, and merchandising businesses, double-weighted sales for retail manufacturers, and equally weighted three-factor apportionment for wholesale manufacturers, pipelines, and financial institutions. Qualifying major medical or pharmaceutical suppliers use a special five-factor formula.",
+    "source_url": "https://www.dor.ms.gov/sites/default/files/forms/83100248.pdf",
+    "evidence": [
+     "single sales factor",
+     "three-factor",
+     "double-weighted sales",
+     "apportionment formula"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.dor.ms.gov/sites/default/files/forms/83100248.pdf; evidence not on www.dor.ms.gov (0/4); not an official MS host: law.justia.com; not an official MS host: regulations.justia.com; unreadable: https://www.dor.ms.gov/sites/default/files/Forms/ProviderProgram/CorporateIncome/prov_corp831001111000.pdf; evidence not on www.dor.ms.gov (1/4)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Receipts from services and intangibles are sourced using the cost of performance or place of performance method based on where the income-producing activity is performed, rather than market-based sourcing.",
+    "source_url": "https://www.dor.ms.gov/sites/default/files/forms/83100248.pdf",
+    "evidence": [
+     "income-producing activity",
+     "costs of performance",
+     "actually performed within"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.dor.ms.gov/sites/default/files/forms/83100248.pdf; evidence not on www.dor.ms.gov (0/3); not an official MS host: law.justia.com; not an official MS host: regulations.justia.com; unreadable: https://www.dor.ms.gov/sites/default/files/Forms/ProviderProgram/CorporateIncome/prov_corp831001111000.pdf",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Construction contractors and natural resource producers are required to use direct or separate accounting rather than formula apportionment. Specific apportionment formulas are prescribed for financial institutions, pipelines, wholesale manufacturers, airlines, motor carriers, and medical laboratory services.",
+    "source_url": "https://www.dor.ms.gov/sites/default/files/forms/83100248.pdf",
+    "evidence": [
+     "direct accounting",
+     "financial institutions",
+     "separate accounting"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.dor.ms.gov/sites/default/files/tax-forms/business/2025%20CIT%20INSTRUCTIONS%2083-100%20-%20Final%20%2001.14.2026.pdf",
+    "matched_title": "Microsoft Word - CIT 2016  CIT INSTRUCTIONS.docx",
+    "matched_phrases": [
+     "direct accounting",
+     "financial institutions",
+     "separate accounting"
+    ],
+    "snippet": "Other taxpayers may not employ a direct accounting or separate accounting method unless they have obtained written authority from the Commissioner to do so."
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Multistate corporations compute apportionment using Form 83-125 (Mississippi Business Income Apportionment Schedule) attached to Form 83-105, while pass-through entities file Form 84-125. Taxpayers using direct accounting file Form 83-124 or Form 84-124.",
+    "source_url": "https://www.dor.ms.gov/sites/default/files/forms/83125228.pdf",
+    "evidence": [
+     "Form 83-125",
+     "Business Income Apportionment Schedule",
+     "Form 83-105"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.dor.ms.gov/sites/default/files/tax-forms/business/2025%20CIT%20INSTRUCTIONS%2083-100%20-%20Final%20%2001.14.2026.pdf",
+    "matched_title": "Microsoft Word - CIT 2016  CIT INSTRUCTIONS.docx",
+    "matched_phrases": [
+     "Form 83-125",
+     "Form 83-105"
+    ],
+    "snippet": "Examples of the required general information are complete name, current address, FEIN, officer information and signature and other information relating to the filing entity as requested on page 2 of Form 83-105."
+   }
+  ],
+  "grounding_urls": [
+   "https://www.dor.ms.gov/sites/default/files/tax-forms/business/84125218.pdf",
+   "https://www.dor.ms.gov/sites/default/files/tax-forms/business/2025%20CIT%20INSTRUCTIONS%2083-100%20-%20Final%20%2001.14.2026.pdf",
+   "https://law.justia.com/codes/mississippi/title-27/chapter-7/article-1/section-27-7-24/",
+   "https://www.dor.ms.gov/sites/default/files/business/2025CorporateApprovedProvidersRev2.04.26.pdf",
+   "https://www.dor.ms.gov/sites/default/files/tax-forms/business/83100248.pdf",
+   "https://www.dor.ms.gov/sites/default/files/tax-forms/business/83125228.pdf",
+   "https://law.justia.com/codes/mississippi/title-27/chapter-7/article-1/section-27-7-24-3/",
+   "https://regulations.justia.com/states/mississippi/title-35/part-3/subpart-08/chapter-06/section-35-3-08-06-402/section-35-3-08-06-402-09/",
+   "https://www.dor.ms.gov/sites/default/files/tax-forms/business/83100248.pdf",
+   "https://www.dor.ms.gov/sites/default/files/Forms/ProviderProgram/CorporateIncome/prov_corp831001111000.pdf",
+   "https://www.dor.ms.gov/2019-legislation",
+   "https://www.dor.ms.gov/forms-resources/form-search?page=7",
+   "https://www.dor.ms.gov/sites/default/files/tax-forms/business/2025%20PTE%20INSTRUCTIONS%2084-100%20-%20Final%20%2001.14.2026.pdf",
+   "https://www.dor.ms.gov/sites/default/files/tax-forms/business/84122218.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "MS",
+  "section": "nexus",
+  "notes": "",
+  "proposals": [],
+  "grounding_urls": [],
+  "error": ""
+ },
+ {
+  "state": "MS",
+  "section": "rates",
+  "notes": "### 1. Individual Income Tax Rates and Brackets\n* **Tax Year 2025**:\n  * **0%** on the first $10,000 of taxable income.\n  * **4.4%** on taxable income in excess of $10,000.\n* **Tax Year 2026**:\n  * **0%** on the first $10,000 of taxable income.\n  * **4.0%** on taxable income in excess of $10,000.\n* **Change**: The marginal rate on income exceeding $10,000 decreases from **4.4%** in 2025 to **4.0%** in 2026.\n* **Official Sources**:\n  * Mississippi Department of Revenue – General Information:  \n    https://www.dor.ms.gov/individual/general-information\n  * Mississippi Department of Revenue – Individual Income Tax FAQs:  \n    https://www.dor.ms.gov/individual/individual-income-tax-frequently-asked-questions\n\n---\n\n### 2. Corporate Income Tax and Corporate Franchise Tax\n#### Corporate Income Tax\n* **Rates & Brackets (Tax Years 2025 and 2026)**:\n  * **0%** on the first $5,000 of taxable income.\n  * **4%** on the next $5,000 of taxable income (over $5,000 up to $10,000).\n  * **5%** on all taxable income in excess of $10,000.\n  * *Applies to both 2025 and 2026 (no rate changes between these years).*\n* **Minimum Tax**: Mississippi does **not** have a minimum corporate income tax.\n\n#### Corporate Franchise Tax\n* **Phase-out Rates**:\n  * **Tax Year 2025**: **$0.75** per $1,000 (or fraction thereof) of capital/taxable base in excess of $100,000.\n  * **Tax Year 2026**: **$0.50** per $1,000 (or fraction thereof) of capital/taxable base in excess of $100,000.\n* **Minimum Franchise Tax**: **$25** (applies to both 2025 and 2026).\n* **Change**: The franchise tax rate is reduced from **$0.75 per $1,000** in 2025 to **$0.50 per $1,000** in 2026.\n* **Official Sources**:\n  * Mississippi Department of Revenue – Business Tax FAQs:  \n    https://www.dor.ms.gov/business/business-tax-frequently-asked-questions\n  * Mississippi Department of Revenue – Corporate Income and Franchise Tax Instructions:  \n    https://www.dor.ms.gov/business/corporate-income-and-franchise-tax\n\n---\n\n### 3. State Sales and Use Tax & Local Additions\n* **State Sales Tax Rate**:\n  * The general state retail sales tax rate is **7.0%**.\n  * *Note on Groceries*: Under House Bill 1, sales tax on eligible groceries decreases from 7% to **5.0%** effective July 1, 2025 (in effect for 2025 and 2026).\n* **State Use Tax Rate**:\n  * Assessed at the same rate as the sales tax (general rate is **7.0%**).\n* **Local Jurisdictions**:\n  * Mississippi does not impose general county-level sales taxes.\n  * Only two cities levy general/infrastructure sales taxes:\n    * **City of Jackson**: Additional **1.0%** infrastructure tax on certain retail sales and services.\n    * **City of Tupelo**: Additional **0.25%** tax on all retail sales and services.\n  * Various municipalities and counties levy special local **Tourism and Economic Development Taxes** (typically 1% to 2% on restaurant sales, alcoholic beverages, and hotel/motel gross proceeds).\n* **Official Sources**:\n  * Mississippi Department of Revenue – Sales Tax Rates:  \n    https://www.dor.ms.gov/business/sales-use-tax/sales-tax-rates\n  * Mississippi Department of Revenue – Sales and Use Tax:  \n    https://www.dor.ms.gov/business/sales-and-use-tax\n  * Mississippi Department of Revenue – Tourism and Economic Development Taxes:  \n    https://www.dor.ms.gov/business/sales-and-use-tax/tourism-and-economic-development-taxes\n\n---\n\n### 4. Gross Receipts, Franchise, Margin, or Other Notable Business Taxes\n* **Contractor’s Tax (Gross Receipts)**:\n  * Imposes a **3.5%** tax on the gross contracts/gross receipts of non-residential construction projects exceeding **$10,000.00** (Miss. Code Ann. § 27-65-21).\n  * Applies to both tax years 2025 and 2026.\n* **Corporate Franchise Tax**:\n  * Assessed on the value of capital employed or assessed property value in Mississippi in excess of $100,000 ($0.75 per $1,000 in 2025; $0.50 per $1,000 in 2026; minimum tax $25).\n* **Insurance Premium Tax**:\n  * **3%** privilege tax on gross premiums received for risks located in Mississippi, plus an additional **1%** on fire risk premiums (plus an extra fire premium tax in Jackson).\n* **Finance Company Privilege Tax**:\n  * Privilege tax imposed on persons and businesses acquiring consumer indebtedness secured by tangible personal property in Mississippi.\n* **Official Sources**:\n  * Mississippi Department of Revenue – Guide for Construction Contractors:  \n    https://www.dor.ms.gov/business/sales-use-tax/guide-construction-contractors\n  * Mississippi Department of Revenue – Insurance Premium Tax:  \n    https://www.dor.ms.gov/business/insurance-premium-tax\n  * Mississippi Department of Revenue – Business Tax FAQs:  \n    https://www.dor.ms.gov/business/business-tax-frequently-asked-questions",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025
+    ],
+    "value": "Individual income tax is 0% on the first $10,000 of taxable income and 4.4% on taxable income in excess of $10,000.",
+    "source_url": "https://www.dor.ms.gov/individual/general-information",
+    "evidence": [
+     "0%",
+     "4.4%",
+     "taxable income"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.dor.ms.gov/general-information",
+    "matched_title": "GENERAL INFORMATION | Mississippi Department of Revenue",
+    "matched_phrases": [
+     "0%",
+     "4.4%",
+     "taxable income"
+    ],
+    "snippet": "0% on the first $10,000 of taxable income.​ 4.4% on the remaining taxable income in excess of $10,000."
+   },
+   {
+    "key": "individual",
+    "years": [
+     2026
+    ],
+    "value": "Individual income tax is 0% on the first $10,000 of taxable income and 4.0% on taxable income in excess of $10,000.",
+    "source_url": "https://www.dor.ms.gov/individual/general-information",
+    "evidence": [
+     "0%",
+     "4.0%",
+     "taxable income"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.dor.ms.gov/general-information",
+    "matched_title": "GENERAL INFORMATION | Mississippi Department of Revenue",
+    "matched_phrases": [
+     "0%",
+     "taxable income"
+    ],
+    "snippet": "0% on the first $10,000 of taxable income.​ 4.4% on the remaining taxable income in excess of $10,000."
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025
+    ],
+    "value": "Corporate income tax rates are 0% on the first $5,000, 4% on the next $5,000, and 5% on taxable income over $10,000, with no minimum income tax. The franchise tax rate is $0.75 per $1,000 of taxable capital exceeding $100,000, with a $25 minimum tax.",
+    "source_url": "https://www.dor.ms.gov/business/corporate-income-and-franchise-tax",
+    "evidence": [
+     "taxable income",
+     "$0.75 per $1,000",
+     "minimum tax"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.dor.ms.gov/sites/default/files/tax-forms/business/2025%20CIT%20INSTRUCTIONS%2083-100%20-%20Final%20%2001.14.2026.pdf",
+    "matched_title": "Microsoft Word - CIT 2016  CIT INSTRUCTIONS.docx",
+    "matched_phrases": [
+     "taxable income",
+     "$0.75 per $1,000",
+     "minimum tax"
+    ],
+    "snippet": "For tax year 2025, the franchise tax rate is $0.75 per $1,000 of capital in excess of $100,000 (minimum tax of $25)."
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2026
+    ],
+    "value": "Corporate income tax rates are 0% on the first $5,000, 4% on the next $5,000, and 5% on taxable income over $10,000, with no minimum income tax. The franchise tax rate is $0.50 per $1,000 of taxable capital exceeding $100,000, with a $25 minimum tax.",
+    "source_url": "https://www.dor.ms.gov/business/corporate-income-and-franchise-tax",
+    "evidence": [
+     "taxable income",
+     "$0.50 per $1,000",
+     "minimum tax"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.dor.ms.gov/sites/default/files/tax-forms/business/2025%20CIT%20INSTRUCTIONS%2083-100%20-%20Final%20%2001.14.2026.pdf",
+    "matched_title": "Microsoft Word - CIT 2016  CIT INSTRUCTIONS.docx",
+    "matched_phrases": [
+     "taxable income",
+     "$0.50 per $1,000",
+     "minimum tax"
+    ],
+    "snippet": "0% on the first $5,000 of taxable income and 4% on the next $5,000 of taxable income and 5% on all taxable income in excess of $10,000."
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The state general sales and use tax rate is 7.0%. Local jurisdictions do not impose general county taxes, but Jackson adds a 1.0% tax, Tupelo adds a 0.25% tax, and certain areas levy special tourism taxes.",
+    "source_url": "https://www.dor.ms.gov/business/sales-use-tax/sales-tax-rates",
+    "evidence": [
+     "7.0%",
+     "sales tax",
+     "infrastructure tax"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.dor.ms.gov/business/business-tax-frequently-asked-questions",
+    "matched_title": "BUSINESS TAX FREQUENTLY ASKED QUESTIONS | Mississippi Department of Revenue",
+    "matched_phrases": [
+     "sales tax",
+     "infrastructure tax"
+    ],
+    "snippet": "Sales or transfers between siblings, cousins, aunts, uncles or in-laws are taxable.​ Effective July 1, 2019, sales of motor vehicles between siblings are not subject to the casual sales tax."
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "A 3.5% contractor's tax applies to gross receipts from non-residential construction projects exceeding $10,000.00.",
+    "source_url": "https://www.dor.ms.gov/business/sales-use-tax/guide-construction-contractors",
+    "evidence": [
+     "3.5%",
+     "gross contracts",
+     "non-residential construction"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.dor.ms.gov/business/sales-use-tax/guide-construction-contractors",
+    "matched_title": "Guide for Construction Contractors | Mississippi Department of Revenue",
+    "matched_phrases": [
+     "3.5%",
+     "non-residential construction"
+    ],
+    "snippet": "The Sales Tax Law levies a 3.5% contractor's tax on all non-residential construction activities when the total contract price or compensation received exceeds $10,000.00."
+   }
+  ],
+  "grounding_urls": [
+   "https://www.dor.ms.gov/general-information",
+   "https://www.dor.ms.gov/individual/individual-income-tax-frequently-asked-questions",
+   "https://www.dor.ms.gov/general-information",
+   "https://www.dor.ms.gov/sites/default/files/tax-forms/business/2025%20CIT%20INSTRUCTIONS%2083-100%20-%20Final%20%2001.14.2026.pdf",
+   "https://www.dor.ms.gov/business/business-tax-frequently-asked-questions",
+   "https://www.dor.ms.gov/business/corporate-income-and-franchise-tax",
+   "https://www.dor.ms.gov/business/business-tax-frequently-asked-questions",
+   "https://www.dor.ms.gov/business/sales-use-tax/sales-tax-rates",
+   "https://www.dor.ms.gov/news/reduced-sales-tax-groceries-begins-july-1",
+   "https://www.dor.ms.gov/business/sales-use-tax/guide-construction-contractors",
+   "https://www.dor.ms.gov/business/sales-and-use-tax/tourism-and-economic-development-taxes",
+   "https://www.dor.ms.gov/sales-and-use-tax",
+   "https://www.dor.ms.gov/business/sales-use-tax/guide-construction-contractors",
+   "https://www.dor.ms.gov/business/insurance-premium-tax",
+   "https://www.dor.ms.gov/search"
+  ],
+  "error": ""
+ },
+ {
+  "state": "MS",
+  "section": "filing",
+  "notes": "### 1. Individual Return Due Dates & Extensions (Calendar-Year Filers)\n\n* **Due Date:** Calendar-year individual income tax returns are due on or before **April 15** following the close of the calendar year (e.g., April 15, 2026, for tax year 2025; April 15, 2027, for tax year 2026). If the due date falls on a Saturday, Sunday, or legal holiday, the return is due the next business day.\n* **Extension Rules:** \n  * Mississippi grants an extension of time to file until **October 15**.\n  * If no additional tax is owed or the taxpayer expects a refund, Mississippi automatically allows the federal extension period; the taxpayer attaches a copy of federal Form 4868 to the Mississippi return when filed.\n  * If additional tax is due, the extension of time to file does *not* extend the time to pay. Taxpayers must remit the estimated tax due on or before April 15 using payment voucher **Form 80-106**. Interest applies at 1/2 of 1% (0.5%) per month and late-payment penalty at 1/2 of 1% (0.5%) per month (up to a 25% maximum) on unpaid taxes.\n* **Applicability:** Applies to both tax years 2025 and 2026.\n* **Official Sources:**\n  * MS DOR Individual Income Tax FAQs: https://www.dor.ms.gov/individual/individual-income-tax-frequently-asked-questions\n  * MS DOR Form 80-106: https://www.dor.ms.gov/forms/form-80-106\n  * MS DOR Individual Income Tax Instructions: https://www.dor.ms.gov/sites/default/files/forms/80100258.pdf\n\n---\n\n### 2. Corporate & Pass-Through Return Due Dates & Extensions\n\n* **Due Dates:**\n  * **Corporate Income and Franchise Tax Returns:** Due on or before the **15th day of the 4th month** following the close of the tax year (April 15 for calendar-year filers).\n  * **Pass-Through Entity Returns (Partnerships, LLCs, LLPs, S Corporations):** Due on or before the **15th day of the 3rd month** following the close of the tax year (March 15 for calendar-year filers).\n  * Returns falling on a weekend or legal holiday are due the next business day.\n* **Extension Rules:**\n  * Mississippi follows federal return extended due dates (granting up to a 6-month extension).\n  * If tax is due, corporations and pass-through entities must submit **Form 83-180** (*Application for Automatic Extension*) with the payment on or before the original return due date to receive an automatic extension.\n  * If no tax liability exists on the due date, Mississippi recognizes an extension granted by the IRS.\n  * An extension of time to file does not extend the time for payment. Unpaid tax incurs interest at 1/2 of 1% (0.5%) per month and a penalty of 1/2 of 1% (0.5%) per month up to 25%.\n* **Applicability:** Applies to both tax years 2025 and 2026.\n* **Official Sources:**\n  * MS DOR General FAQs: https://www.dor.ms.gov/general-frequently-asked-questions\n  * MS DOR Pass-Through Entity Instructions: https://www.dor.ms.gov/sites/default/files/forms/2025%20PTE%20INSTRUCTIONS%2084-100%20-%20Final%2001.14.2026.pdf\n  * MS DOR Corporate Instructions: https://www.dor.ms.gov/sites/default/files/forms/83100248.pdf\n  * MS DOR Form 83-180: https://www.dor.ms.gov/sites/default/files/forms/83180218.pdf\n\n---\n\n### 3. Elective Pass-Through Entity Tax (PTET)\n\n* **Existence:** Yes. Under Miss. Code Ann. § 27-7-26, any partnership, S corporation, or similar pass-through entity may elect to pay tax at the entity level as an \"Electing Pass-Through Entity\" (Electing PTE).\n* **Rate:**\n  * **0%** on the first $5,000 of taxable income.\n  * **4%** on the next $5,000 of taxable income.\n  * **5%** on taxable income in excess of $10,000.\n* **How and When to Elect:**\n  * **How:** By submitting **Form 84-381** (*Pass-Through Entity Election Form*) either by paper or online through the Taxpayer Access Point (TAP). The election requires approval according to the entity's governing documents; if silent, by vote or written consent of owners holding >50% of voting control (and the governing body, if applicable).\n  * **When:** Form 84-381 must be submitted at any time during the tax year for which the election applies, or by the due date of the return, or by the date the return is filed, **whichever is latest**. (An entity *cannot* elect simply by filing the return or by amending a return after filing).\n* **Applicability:** Applies to both tax years 2025 and 2026.\n* **Official Sources:**\n  * MS DOR Updated Electing PTE FAQs: https://www.dor.ms.gov/news/updated-electing-pass-through-entity-faqs\n  * MS DOR Pass-Through Entity Instructions: https://www.dor.ms.gov/sites/default/files/forms/2025%20PTE%20INSTRUCTIONS%2084-100%20-%20Final%2001.14.2026.pdf\n  * MS DOR Form 84-381: https://www.dor.ms.gov/node/1335\n\n---\n\n### 4. Composite or Group Nonresident Returns for Pass-Through Entities\n\n* **Rules:**\n  * Nonresident individual owners or partners who have no Mississippi activity other than the pass-through entity may elect to be included in a composite return filing.\n  * The election is made by checking the **Composite Return** box on **Form 84-105**. Once an individual elects composite filing, they must continue to file in this manner.\n  * **Income Computation:** Taxable net income for composite members is computed on Form 84-122. A composite return filing deduction equal to the lesser of **$5,000.00** or **10%** of composite net income is allowed in lieu of individual personal exemptions and standard deductions.\n  * **Tax Rate:** Computed on the combined composite taxable income using the entity tax rates: 0% on the first $5,000; 4% on the next $5,000; and 5% on taxable income in excess of $10,000.\n* **Applicability:** Applies to both tax years 2025 and 2026.\n* **Official Sources:**\n  * MS DOR Pass-Through Entity Instructions: https://www.dor.ms.gov/sites/default/files/forms/2025%20PTE%20INSTRUCTIONS%2084-100%20-%20Final%2001.14.2026.pdf\n  * MS DOR Form 84-105: https://www.dor.ms.gov/pass-through-entity-tax-return\n\n---\n\n### 5. Estimated Tax Requirements & Nonresident Withholding for Pass-Throughs\n\n* **Estimated Taxes:**\n  * Required for any entity filing a composite return or an electing pass-through entity return with an annual income tax liability exceeding **$200**.\n  * At least **90%** of the current tax liability must be prepaid through quarterly estimates.\n  * Due dates are the **15th day of the 4th, 6th, 9th, and 12th months** after year-end (April 15, June 15, September 15, and December 15 for calendar-year filers) using voucher **Form 84-300** or online via TAP.\n  * Underestimation penalty is 10% plus interest of 1/2 of 1% (0.5%) per month on the underpayment.\n* **Nonresident Withholding:**\n  * **Partnerships:** Individual partners are required to report and pay tax; however, if individual partners fail to pay, the partnership and general partners become jointly and severally liable unless the partnership withholds **5%** of the Mississippi net gain or profit attributable to the partner for the tax year and remits it with **Form 84-387**.\n  * **S Corporations:** Nonresident shareholders must sign an agreement to file and pay Mississippi tax; if not secured, the corporation is liable to remit/pay tax on the shareholder's pro rata share of Mississippi source income at the highest statutory rate under Miss. Code Ann. § 27-7-5 (**5%**).\n* **Applicability:** Applies to both tax years 2025 and 2026.\n* **Official Sources:**\n  * MS DOR Pass-Through Entity Instructions: https://www.dor.ms.gov/sites/default/files/forms/2025%20PTE%20INSTRUCTIONS%2084-100%20-%20Final%2001.14.2026.pdf\n  * MS DOR Updated Electing PTE FAQs: https://www.dor.ms.gov/news/updated-electing-pass-through-entity-faqs\n\n---\n\n### 6. Main Return Forms\n\n* **Individual Returns:**\n  * **Form 80-105:** Resident Individual Income Tax Return.\n  * **Form 80-205:** Non-Resident / Part-Year Resident Individual Income Tax Return.\n* **Corporate Return:**\n  * **Form 83-105:** Corporate Income and Franchise Tax Return.\n* **Pass-Through Entity Return:**\n  * **Form 84-105:** Pass-Through Entity Tax Return (used for S Corporations, Partnerships, LLCs, LLPs, Composite filers, and Electing Pass-Through Entities).\n* **Applicability:** Tax years 2025 and 2026.\n* **Official Sources:**\n  * Form 80-105: https://www.dor.ms.gov/resident-individual-income-tax-return\n  * Form 80-205: https://www.dor.ms.gov/form-80-205\n  * Form 83-105 / Form Search: https://www.dor.ms.gov/forms/form-search\n  * Form 84-105: https://www.dor.ms.gov/pass-through-entity-tax-return",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Individual returns for calendar-year filers are due on or before April 15. Mississippi allows an extension until October 15, which is granted automatically if no tax is owed, but taxpayers owing additional tax must remit payment with Form 80-106 by April 15.",
+    "source_url": "https://www.dor.ms.gov/individual/individual-income-tax-frequently-asked-questions",
+    "evidence": [
+     "April 15",
+     "Form 80-106",
+     "extension of time"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.dor.ms.gov/sites/default/files/tax-forms/individual/80100251%202.pdf",
+    "matched_title": "https://www.dor.ms.gov/sites/default/files/tax-forms/individual/80100251%202.pdf",
+    "matched_phrases": [
+     "Form 80-106",
+     "extension of time"
+    ],
+    "snippet": "However, if you owe additional taxes, you must remit the tax due with Form 80-106, on or before the due date of the return."
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Corporate returns are due by the 15th day of the 4th month (April 15 for calendar filers), and pass-through returns are due by the 15th day of the 3rd month (March 15). Mississippi recognizes IRS extensions if no tax liability exists, but filers owing tax must submit Form 83-180 with payment by the original due date.",
+    "source_url": "https://www.dor.ms.gov/sites/default/files/forms/2025%20PTE%20INSTRUCTIONS%2084-100%20-%20Final%2001.14.2026.pdf",
+    "evidence": [
+     "15th day of the 3rd month",
+     "Form 83-180",
+     "Application for Automatic Extension"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.dor.ms.gov/sites/default/files/forms/2025%20PTE%20INSTRUCTIONS%2084-100%20-%20Final%2001.14.2026.pdf; figures not on www.dor.ms.gov: ['180', '83']; figures not on www.dor.ms.gov: ['180']; figures not on www.dor.ms.gov: ['180', '3', '4', '83']; figures not on www.dor.ms.gov: ['15', '180', '3', '83']; dates not on www.dor.ms.gov: ['April 15']; dates not on www.dor.ms.gov: ['April 15', 'March 15']; unreadable: https://www.dor.ms.gov/sites/default/files/Forms/ProviderProgram/",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Eligible pass-through entities can elect to pay entity-level tax at rates of 0% on the first $5,000, 4% on the next $5,000, and 5% on taxable income over $10,000. The election is made by submitting Form 84-381 during the tax year, by the return due date, or by the date the return is filed, whichever is latest.",
+    "source_url": "https://www.dor.ms.gov/news/updated-electing-pass-through-entity-faqs",
+    "evidence": [
+     "Form 84-381",
+     "Pass-Through Entity Election Form",
+     "whichever is latest"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.dor.ms.gov/sites/default/files/tax-forms/business/2025%20PTE%20INSTRUCTIONS%2084-100%20-%20Final%20%2001.14.2026.pdf",
+    "matched_title": "Microsoft Word - Pass Through Entity 2015 Instructions.pdf",
+    "matched_phrases": [
+     "Form 84-381",
+     "Pass-Through Entity Election Form",
+     "whichever is latest"
+    ],
+    "snippet": "Both the election to become an electing pass -through entity (“electing PTE”) and the revocation of that election is made by submitting the Pass-Through Entity Election Form, form 84- 381, to the Department of Revenue at any time during the tax year for which the entity elects to be taxed as an electing PTE, or for which the entity elects to no longer be taxed as an electing PTE, or by the due date or the extended due date of the Pass-Through Entity Tax Return for that year, or by the date such "
+   },
+   {
+    "key": "composite",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Nonresident individuals with no Mississippi activity other than the pass-through entity may be included in a composite return by checking the box on Form 84-105. A filing deduction equal to the lesser of $5,000.00 or 10% of composite net income is allowed, and tax is computed at graduated entity rates up to 5%.",
+    "source_url": "https://www.dor.ms.gov/sites/default/files/forms/2025%20PTE%20INSTRUCTIONS%2084-100%20-%20Final%2001.14.2026.pdf",
+    "evidence": [
+     "Composite Return",
+     "Form 84-105",
+     "Form 84-122"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.dor.ms.gov/sites/default/files/forms/2025%20PTE%20INSTRUCTIONS%2084-100%20-%20Final%2001.14.2026.pdf; figures not on www.dor.ms.gov: ['84']; figures not on www.dor.ms.gov: ['105', '5000', '84']; figures not on www.dor.ms.gov: ['10', '5', '5000', '84']; figures not on www.dor.ms.gov: ['10', '105', '5', '5000', '84']; figure not stated beside the evidence on www.dor.ms.gov; evidence not on www.dor.ms.gov (1/3); unreadable: https://www.dor.ms.gov/sites/default/files/Forms/Pr",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Quarterly estimated tax payments using Form 84-300 are required if composite or electing pass-through liability exceeds $200, requiring at least 90% prepayment. If nonresident owners fail to pay, entities may face liability unless 5% tax is withheld or agreements are secured.",
+    "source_url": "https://www.dor.ms.gov/sites/default/files/forms/2025%20PTE%20INSTRUCTIONS%2084-100%20-%20Final%2001.14.2026.pdf",
+    "evidence": [
+     "Form 84-300",
+     "exceeding $200",
+     "Form 84-387"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.dor.ms.gov/sites/default/files/tax-forms/business/2025%20PTE%20INSTRUCTIONS%2084-100%20-%20Final%20%2001.14.2026.pdf",
+    "matched_title": "Microsoft Word - Pass Through Entity 2015 Instructions.pdf",
+    "matched_phrases": [
+     "Form 84-300",
+     "Form 84-387"
+    ],
+    "snippet": "To pay by check or money order, complete the payment voucher (Form 84-300), make the check or money order payable to the Department of Revenue and mail both to P.O."
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Individual filers use Form 80-105 (residents) or Form 80-205 (non-residents and part-year residents). Corporate returns are filed on Form 83-105, and pass-through entities file on Form 84-105.",
+    "source_url": "https://www.dor.ms.gov/pass-through-entity-tax-return",
+    "evidence": [
+     "Pass-Through Entity Tax Return",
+     "Form 84-105"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.dor.ms.gov/pass-through-entity-tax-return; figures not on www.dor.ms.gov: ['83', '84']; figures not on www.dor.ms.gov: ['105', '205', '80', '83', '84']; figures not on www.dor.ms.gov: ['84']; figures not on www.dor.ms.gov: ['205']; unreadable: https://www.dor.ms.gov/sites/default/files/Forms/ProviderProgram/CorporateIncome/prov_corp831001111000.pdf; figures not on www.dor.ms.gov: ['105', '205', '80', '83']; figures not on www.dor.ms.gov: ['105', '205', '80', '84']; figure",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://www.dor.ms.gov/individual/individual-income-tax-frequently-asked-questions",
+   "https://www.dor.ms.gov/forms-resources/general-frequently-asked-questions",
+   "https://www.dor.ms.gov/individual/individual-income-tax-frequently-asked-questions",
+   "https://www.dor.ms.gov/sites/default/files/tax-forms/individual/80100251%202.pdf",
+   "https://www.dor.ms.gov/sites/default/files/tax-forms/individual/80106248.pdf",
+   "https://www.dor.ms.gov/general-information",
+   "https://www.dor.ms.gov/sites/default/files/tax-forms/business/2025%20PTE%20INSTRUCTIONS%2084-100%20-%20Final%20%2001.14.2026.pdf",
+   "https://www.dor.ms.gov/sites/default/files/tax-forms/business/83100248.pdf",
+   "https://www.dor.ms.gov/sites/default/files/Forms/ProviderProgram/CorporateIncome/prov_corp831001111000.pdf",
+   "https://www.dor.ms.gov/sites/default/files/tax-forms/business/2025%20PTE%20INSTRUCTIONS%2084-100%20-%20Final%20%2001.14.2026.pdf",
+   "https://www.dor.ms.gov/sites/default/files/tax-forms/business/2025%20PTE%20INSTRUCTIONS%2084-100%20-%20Final%20%2001.14.2026.pdf",
+   "https://www.dor.ms.gov/node/6399",
+   "https://www.dor.ms.gov/sites/default/files/tax-forms/business/83180218.pdf",
+   "https://www.dor.ms.gov/news/pass-through-entity-election-notice",
+   "https://www.dor.ms.gov/sites/default/files/tax-forms/business/2025%20PTE%20INSTRUCTIONS%2084-100%20-%20Final%20%2001.14.2026.pdf",
+   "https://www.dor.ms.gov/sites/default/files/business/Updated%20EPTE%20FAQ.pdf",
+   "https://www.dor.ms.gov/sites/default/files/business/Updated%20EPTE%20FAQ.pdf",
+   "https://www.dor.ms.gov/node/5914",
+   "https://www.dor.ms.gov/sites/default/files/tax-forms/business/84105248.pdf",
+   "https://www.dor.ms.gov/sites/default/files/tax-forms/business/84122238.pdf",
+   "https://www.dor.ms.gov/sites/default/files/business/Updated%20EPTE%20FAQ.pdf",
+   "https://www.dor.ms.gov/sites/default/files/tax-forms/business/83100248.pdf",
+   "https://www.dor.ms.gov/sites/default/files/tax-forms/individual/80105258%201.pdf",
+   "https://www.dor.ms.gov/sites/default/files/tax-forms/individual/80205258%201.pdf",
+   "https://www.dor.ms.gov/business/corporate-income-franchise-tax/combined-income-filing",
+   "https://www.dor.ms.gov/forms-resources/form-search?division=business_forms&page=2&search=&form_number=&form_year=All&category=All&items_per_page=25&order=field_form_year&sort=asc"
+  ],
+  "error": ""
+ }
+]

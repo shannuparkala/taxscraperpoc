@@ -1,0 +1,512 @@
+[
+ {
+  "state": "CO",
+  "section": "apportionment",
+  "notes": "### 1. Apportionment Formula\n* **Fact:** Multistate business income is apportioned to Colorado using a **single sales factor (receipts factor)**. A taxpayer’s apportionable income is multiplied by a fraction, the numerator of which is total receipts of the taxpayer in Colorado during the tax period and the denominator of which is total receipts of the taxpayer everywhere during the tax period. \n  * *Note for combined groups:* The numerator includes all receipts sourced to Colorado regardless of whether the specific affiliated member has separate entity nexus in Colorado.\n* **Applicability:** Applies to both tax years 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Colorado Department of Revenue — Corporate Income Tax Guide: https://tax.colorado.gov/corporate-income-tax-guide\n  * Colorado Department of Revenue — C Corporation Apportionment: https://tax.colorado.gov/c-corporation-apportionment\n  * Colorado Revised Statutes: C.R.S. § 39-22-303.6(4)(a)\n\n---\n\n### 2. Sourcing of Receipts from Services and Intangibles\n* **Fact:** Colorado uses **market-based sourcing** (not cost of performance):\n  * **Services:** Receipts from the sale of services are sourced to Colorado if and to the extent that the service is delivered to a location in Colorado (the location of the taxpayer's market for the service, regardless of where employees or property performing the service are located).\n  * **Intangibles:** Receipts from the license, lease, or rental of intangible property are sourced to Colorado to the extent the intangible property is used in Colorado. Intangible property used in marketing a good or service is deemed used in Colorado if the good or service is purchased by a consumer in Colorado. Receipts from sales/licensing conveying substantial rights in intangible property authorizing business in a specific geographic area are sourced to Colorado to the extent used in the state.\n* **Applicability:** Applies to both tax years 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Colorado Department of Revenue — Corporate Income Tax Guide: https://tax.colorado.gov/corporate-income-tax-guide\n  * Colorado Code of Regulations: 1 CCR 201-2, Rule 39-22-303.6-10 (Services), Rule 39-22-303.6-11 (License/Lease of Intangibles), and Rule 39-22-303.6-12 (Sale of Intangibles)\n  * Colorado Revised Statutes: C.R.S. § 39-22-303.6(6)\n\n---\n\n### 3. Industries with Their Own Apportionment Formula\n* **Fact:** Colorado prescribes industry-specific apportionment and sourcing rules under statute and Department regulations (1 CCR 201-2) when general apportionment does not fairly represent business activity:\n  * **Banks and Financial Institutions / Lenders:** Special rules under C.R.S. § 39-22-303.6(10) and 1 CCR 201-2, Special Regulation 7A.\n  * **Mutual Fund Service Corporations:** Special sourcing rules under C.R.S. § 39-22-303.7 and 1 CCR 201-2, Rule 39-22-303.7-1 & 39-22-303.7-2.\n  * **Airlines:** 1 CCR 201-2, Special Regulation 1A.\n  * **Contractors (Construction):** 1 CCR 201-2, Special Regulation 2A.\n  * **Railroads:** 1 CCR 201-2, Special Regulation 3A.\n  * **Publishing Companies:** 1 CCR 201-2, Special Regulation 4A.\n  * **Television and Radio Broadcasting:** 1 CCR 201-2, Special Regulation 5A.\n  * **Trucking Companies:** 1 CCR 201-2, Special Regulation 6A.\n  * **Telecommunications:** 1 CCR 201-2, Special Regulation 8A.\n  * **Energy Companies (Commodity Swaps):** 1 CCR 201-2, Special Rule 9A.\n* **Applicability:** Applies to both tax years 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Colorado Department of Revenue — Corporate Income Tax Guide: https://tax.colorado.gov/corporate-income-tax-guide\n  * Colorado Code of Regulations: 1 CCR 201-2 (Special Regulations 1A–8A, Special Rule 9A, and Rule 39-22-303.6-13)\n  * Colorado Revised Statutes: C.R.S. § 39-22-303.6(9)–(10) and § 39-22-303.7\n\n---\n\n### 4. Form or Schedule Used to Compute Apportionment\n* **Fact:** \n  * **C Corporations:** Computed on **Form DR 0112RF** (*Schedule RF — Receipts Factor Apportionment Schedule*), attached to the annual corporate return **Form DR 0112** (*Colorado C Corporation Income Tax Return*).\n  * **Partnerships and S Corporations:** Computed on **Form DR 0106, Part V** (*Receipts-Factor Apportionment*).\n* **Applicability:** Applies to both tax years 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Colorado Department of Revenue — DR 0112RF Apportionment Schedule: https://tax.colorado.gov/DR-0112RF\n  * Colorado Department of Revenue — Form DR 0112 Return & Instructions: https://tax.colorado.gov/business-income-tax-forms",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Multistate business income is apportioned to Colorado using a single sales factor (receipts factor). The factor is calculated as total receipts in Colorado divided by total receipts everywhere.",
+    "source_url": "https://tax.colorado.gov/corporate-income-tax-guide",
+    "evidence": [
+     "single sales factor",
+     "receipts factor",
+     "total receipts of the taxpayer"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.colorado.gov/corporate-income-tax-guide",
+    "matched_title": "Corporate Income Tax Guide | Department of Revenue - Taxation",
+    "matched_phrases": [
+     "receipts factor",
+     "total receipts of the taxpayer"
+    ],
+    "snippet": "The numerator in the fraction is the total receipts of the taxpayer in Colorado during the tax year and the denominator is the total receipts of the taxpayer everywhere during the tax year."
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Colorado applies market-based sourcing to receipts from services and intangibles. Service receipts are sourced to Colorado if delivered to a location in Colorado, and receipts from intangibles are sourced to the extent used in the state.",
+    "source_url": "https://tax.colorado.gov/corporate-income-tax-guide",
+    "evidence": [
+     "market-based sourcing",
+     "delivered to a location",
+     "intangible property is used"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.colorado.gov/corporate-income-tax-guide",
+    "matched_title": "Corporate Income Tax Guide | Department of Revenue - Taxation",
+    "matched_phrases": [
+     "delivered to a location",
+     "intangible property is used"
+    ],
+    "snippet": "Receipts from sales of services Receipts from the sale of services are included in the numerator of the apportionment fraction if and to the extent that the service is delivered to a location in Colorado."
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Colorado prescribes special apportionment rules for banks and financial institutions, mutual fund service corporations, airlines, contractors, railroads, publishing, television and radio broadcasting, trucking, telecommunications, and energy companies.",
+    "source_url": "https://tax.colorado.gov/corporate-income-tax-guide",
+    "evidence": [
+     "Financial Institutions",
+     "Mutual Fund Service Corporations",
+     "Special Regulation"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.colorado.gov/sites/tax/files/documents/PLR-17-001.pdf",
+    "matched_title": "PLR-17-001",
+    "matched_phrases": [
+     "Financial Institutions",
+     "Special Regulation"
+    ],
+    "snippet": "Members of the Affiliated Group that provide this service are required to use the apportionment methodology outlined in 1 CCR 201-3, Special Regulation 7A (“Financial Institutions”)."
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "C corporations compute apportionment on Form DR 0112RF (Schedule RF — Receipts Factor Apportionment Schedule) filed with Form DR 0112. Partnerships and S corporations compute apportionment on Form DR 0106, Part V.",
+    "source_url": "https://tax.colorado.gov/DR-0112RF",
+    "evidence": [
+     "Form DR 0112RF",
+     "Schedule RF",
+     "Receipts Factor Apportionment Schedule"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.colorado.gov/DR-0112RF; figure not stated beside the evidence on tax.colorado.gov; figures not on tax.colorado.gov: ['0106']; figures not on tax.colorado.gov: ['0112']; evidence not on tax.colorado.gov (1/3); not an official CO host: www.law.cornell.edu; figures not on tax.colorado.gov: ['0106', '0112']; unreadable: https://cdor.colorado.gov/sites/revenue/files/CDOR2021Agenda.pdf",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://tax.colorado.gov/sites/tax/files/documents/DR0112_Book_2024.pdf",
+   "https://tax.colorado.gov/c-corporation-apportionment",
+   "https://tax.colorado.gov/sites/tax/files/documents/PLR-26-002.pdf",
+   "https://tax.colorado.gov/DR0112RF",
+   "https://tax.colorado.gov/sites/tax/files/documents/DR0112RF_2025.pdf",
+   "https://tax.colorado.gov/sites/tax/files/documents/DR0112_2025.pdf",
+   "https://tax.colorado.gov/corporate-income-tax-guide",
+   "https://tax.colorado.gov/sites/tax/files/documents/PLR-23-002.pdf",
+   "https://tax.colorado.gov/corporate-income-tax-guide",
+   "https://www.law.cornell.edu/regulations/colorado/39-22-303.6-12",
+   "https://tax.colorado.gov/corporate-income-tax-guide",
+   "https://www.law.cornell.edu/regulations/colorado/39-22-303.6-10",
+   "https://tax.colorado.gov/corporate-income-tax-guide",
+   "https://tax.colorado.gov/sites/tax/files/documents/PLR-17-001.pdf",
+   "https://www.law.cornell.edu/regulations/colorado/department-200/division-201/1-CCR-201-2",
+   "https://tax.colorado.gov/corporate-income-tax-letter-rulings",
+   "https://www.law.cornell.edu/regulations/colorado/department-200/division-201/1-CCR-201-2",
+   "https://www.law.cornell.edu/regulations/colorado/39-22-303.6-3",
+   "https://cdor.colorado.gov/sites/revenue/files/CDOR2021Agenda.pdf",
+   "https://tax.colorado.gov/sites/tax/files/2021TaxationDivisionRegulatoryAgenda.pdf",
+   "https://tax.colorado.gov/sites/tax/files/documents/2026_Taxation_Rulemaking_Agenda.pdf",
+   "https://www.law.cornell.edu/regulations/colorado/department-200/division-201/1-CCR-201-2",
+   "https://tax.colorado.gov/sites/tax/files/documents/DR0106_2025.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "CO",
+  "section": "nexus",
+  "notes": "### 1. Corporate Income / Franchise Tax Nexus\n\n* **Tax Type:** Colorado imposes a corporate income tax (C.R.S. § 39-22-301); it does not levy a separate corporate franchise tax.\n* **General Nexus Standards:** \n  * Any C corporation organized under Colorado law or commercially domiciled in Colorado has substantial nexus.\n  * A foreign C corporation (and pass-through entity) is subject to tax if it is \"doing business in Colorado,\" which occurs when it exceeds the protections of P.L. 86-272 and establishes substantial nexus under Department Rule 39-22-301(1) (1 CCR 201-2).\n* **Bright-Line Factor-Presence / Economic Nexus Thresholds:**\n  Substantial nexus is established for any tax period in which the corporation’s property, payroll, or sales within Colorado exceed any of the following:\n  * **$50,000** of property;\n  * **$50,000** of payroll;\n  * **$500,000** of sales; or\n  * **25%** or more of the corporation’s total property, total payroll, or total sales are in Colorado.\n* **Applicable Tax Years:** Applies to both tax years 2025 and 2026 (no statutory or regulatory changes between these years).\n* **Official Sources:**\n  * Colorado Department of Revenue, *Corporate Income Tax Guide (Part 1: Corporations Subject to Tax)*: https://tax.colorado.gov/corporate-income-tax-guide\n  * Colorado General Information Letter GIL-21-004: https://tax.colorado.gov/corporate-income-tax-letter-rulings\n\n---\n\n### 2. Remote Seller Economic Nexus Threshold (Sales Tax)\n\n* **Sales Amount Threshold:** Retail sales into Colorado exceeding **$100,000**.\n* **Transaction Count:** **None**. Colorado does not have a transaction volume threshold.\n* **Measurement Period:** The **previous calendar year** or the **current calendar year** (C.R.S. § 39-26-102(3)(c)).\n  * An out-of-state retailer with no physical presence qualifies for the small retailer exception only if annual retail sales of tangible personal property, commodities, and/or services into Colorado are less than $100,000 in *both* the current and previous calendar years.\n  * If a retailer did not exceed $100,000 in the previous calendar year, it must obtain a license and begin collecting sales tax once sales exceed $100,000 in the current calendar year (the retailer has 90 days after meeting the threshold to register, with collection beginning on the first day of the month following registration).\n* **Applicable Tax Years:** Applies to both tax years 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Colorado Department of Revenue, *Sales Tax Guide (Part 1: Retailers with No Physical Location in Colorado)*: https://tax.colorado.gov/sales-tax-guide\n  * Colorado Department of Revenue, *Sales & Use Tax FAQs (Out-of-State Retailers)*: https://tax.colorado.gov/sales-use-tax-frequently-asked-questions\n  * Colorado General Assembly, C.R.S. § 39-26-102(3): https://leg.colorado.gov/\n\n---\n\n### 3. Public Law 86-272 Position\n\n* **Scope and Protection:** Colorado respects P.L. 86-272 (15 U.S.C. § 381), which prohibits the state from imposing a net income tax on foreign businesses whose only business activity in Colorado consists of the solicitation of orders for sales of tangible personal property, provided orders are sent outside the state for approval/rejection and filled by shipment or delivery from an out-of-state point. P.L. 86-272 does not protect the sale of services or intangibles.\n* **Multistate Tax Commission (MTC) Position:** \n  * In published guidance letters (e.g., GIL-16-001), the Department confirmed that Colorado is a signatory state to the MTC's *Statement of Information Concerning Practices of Multistate Tax Commission and Signatory States Under Public Law 86-272* and adheres to its interpretations regarding protected versus unprotected solicitation activities.\n  * *Specific formal adoption of MTC Revised 2021 Statement on Internet/Website Activities:* **Not found** on official Department guidance pages for tax years 2025–2026.\n* **Filing Obligation for Protected Taxpayers:** Out-of-state C corporations with substantial nexus that claim P.L. 86-272 protection are still required to complete and file a Colorado C Corporation Income Tax Return (Form DR 0112) with applicable schedules and report **$0** tax on the tax liability line.\n* **Applicable Tax Years:** Applies to both tax years 2025 and 2026.\n* **Official Sources:**\n  * Colorado Department of Revenue, *Corporate Income Tax Guide (Part 1)*: https://tax.colorado.gov/corporate-income-tax-guide\n  * Colorado Department of Revenue, *Form DR 0112 C Corporation Income Tax Instructions*: https://tax.colorado.gov/corporate-income-tax-forms\n  * Colorado Department of Revenue, GIL-16-001: https://tax.colorado.gov/corporate-income-tax-letter-rulings",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Substantial nexus for Colorado corporate income tax is established if a corporation is commercially domiciled in Colorado or exceeds bright-line thresholds of $50,000 in property, $50,000 in payroll, $500,000 in sales, or 25% of total property, payroll, or sales. There is no separate corporate franchise tax.",
+    "source_url": "https://tax.colorado.gov/corporate-income-tax-guide",
+    "evidence": [
+     "substantial nexus",
+     "doing business in Colorado",
+     "50,000 of property",
+     "500,000 of sales"
+    ],
+    "accepted": false,
+    "reason": "figure not stated beside the evidence on tax.colorado.gov; figures not on tax.colorado.gov: ['50000']; figures not on tax.colorado.gov: ['50000', '500000']; figures not on tax.colorado.gov: ['25', '50000', '500000']; figures not on tax.colorado.gov: ['25']; unreadable: https://leg.colorado.gov/sites/default/files/images/2019-te26_vendor_allowance.pdf; figures not on tax.colorado.gov: ['25', '50000']; figures not on tax.colorado.gov: ['500000']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Remote sellers establish economic nexus in Colorado if retail sales into the state exceed $100,000 in the previous calendar year or the current calendar year. Colorado does not impose a transaction volume threshold.",
+    "source_url": "https://tax.colorado.gov/sales-tax-guide",
+    "evidence": [
+     "retail sales into Colorado",
+     "previous calendar year",
+     "small retailer exception",
+     "no physical location"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.colorado.gov/sales-use-tax-FAQ",
+    "matched_title": "Sales & Use Tax | Frequently Asked Questions | Department of Revenue - Taxation",
+    "matched_phrases": [
+     "retail sales into Colorado",
+     "previous calendar year"
+    ],
+    "snippet": "What if a small out-of-state retailer grows and is no longer eligible for the small business exception? A retailer that did not make retail sales in excess of $100,000 during the previous calendar year must begin collecting once their retail sales into Colorado exceed $100,000 during the current calendar year."
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Colorado recognizes P.L. 86-272 protection exclusively for the solicitation of orders for sales of tangible personal property, adhering as a signatory to the Multistate Tax Commission's statement of information. Protected corporations with nexus must still file a Colorado return and report $0 tax liability.",
+    "source_url": "https://tax.colorado.gov/corporate-income-tax-guide",
+    "evidence": [
+     "Public Law 86-272",
+     "tangible personal property",
+     "solicitation of orders",
+     "Form DR 0112"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.colorado.gov/corporate-income-tax-guide",
+    "matched_title": "Corporate Income Tax Guide | Department of Revenue - Taxation",
+    "matched_phrases": [
+     "Public Law 86-272",
+     "tangible personal property",
+     "Form DR 0112"
+    ],
+    "snippet": "Doing business in Colorado For Colorado corporate income tax purposes, a C corporation is doing business in Colorado whenever the minimum standards of Public Law 86-272 are exceeded and the C corporation has substantial nexus with the State of Colorado."
+   }
+  ],
+  "grounding_urls": [
+   "https://tax.colorado.gov/corporate-income-tax-guide",
+   "https://tax.colorado.gov/corporate-income-tax-guide",
+   "https://tax.colorado.gov/sites/tax/files/documents/GIL-21-004.pdf",
+   "https://tax.colorado.gov/sites/tax/files/documents/DR0112_2025.pdf",
+   "https://tax.colorado.gov/sites/tax/files/documents/GIL-21-004.pdf",
+   "https://tax.colorado.gov/sales-use-tax-FAQ",
+   "https://tax.colorado.gov/sales-tax-guide",
+   "https://leg.colorado.gov/sites/default/files/images/2019-te26_vendor_allowance.pdf",
+   "https://tax.colorado.gov/retail-delivery-fee-retailers",
+   "https://tax.colorado.gov/2026-tax-policy-updates/april-2026-tax-policy-updates",
+   "https://tax.colorado.gov/sales-use-tax-letter-rulings",
+   "https://tax.colorado.gov/sales-tax-guide",
+   "https://tax.colorado.gov/sites/tax/files/documents/GIL-16-001.pdf",
+   "https://tax.colorado.gov/corporate-income-tax-letter-rulings",
+   "https://tax.colorado.gov/sites/tax/files/documents/GIL-16-001.pdf",
+   "https://tax.colorado.gov/sites/tax/files/documents/DR0112_2025.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "CO",
+  "section": "rates",
+  "notes": "### 1. Individual Income Tax Rate\n* **Tax Rate**: Flat rate of **4.4%** (or **4.40%**). (Colorado's rate was temporarily reduced to 4.25% for tax year 2024 due to TABOR surplus mechanisms, but returns to the statutory permanent flat rate of 4.4% for subsequent years).\n* **Applicable Tax Years**: 2025 and 2026.\n* **Official Sources**:\n  * Colorado Department of Revenue – Individual Income Tax Glossary: https://tax.colorado.gov/individual-income-tax-glossary\n  * Form DR 0104EZ (2025 Colorado Simplified Individual Income Tax Return): https://tax.colorado.gov/sites/tax/files/documents/DR0104EZ_2025.pdf\n  * Colorado General Assembly – C.R.S. § 39-22-104: https://leg.colorado.gov/agencies/legislative-council-staff/individual-income-tax\n\n---\n\n### 2. Corporate Income / Franchise Tax Rate and Minimum Tax\n* **Tax Rate**: Flat rate of **4.4%** on Colorado net taxable income.\n* **Minimum Tax**: None (Colorado does not impose a corporate minimum tax).\n* **Franchise Tax**: None (Colorado does not levy a corporate franchise tax).\n* **Applicable Tax Years**: 2025 and 2026 (confirmed on Form DR 0112EP instructions for both 2025 and 2026).\n* **Official Sources**:\n  * Form DR 0112EP (2025 Corporate Estimated Income Tax): https://tax.colorado.gov/sites/tax/files/documents/DR0112EP_2025.pdf\n  * Form DR 0112EP (2026 Corporate Estimated Income Tax): https://tax.colorado.gov/sites/tax/files/documents/DR0112EP_2026.pdf\n  * Colorado Department of Revenue – Corporate Income Tax Guide: https://tax.colorado.gov/corporate-income-tax-guide\n\n---\n\n### 3. State Sales and Use Tax Rate & Local Jurisdictions\n* **State Sales Tax Rate**: **2.9%**.\n* **State Consumer Use Tax Rate**: **2.9%**.\n* **Local Add-On Rates**: **Yes**. Local jurisdictions (cities, counties, and special districts such as the Regional Transportation District (RTD) and Scientific and Cultural Facilities District (CD)) levy additional sales and use taxes.\n* **Applicable Tax Years**: 2025 and 2026 (state base rate remains 2.9%).\n* **Official Sources**:\n  * Colorado Department of Revenue – Consumer Use Tax Guide: https://tax.colorado.gov/consumer-use-tax-guide\n  * Colorado Department of Revenue – DR 1002 (Colorado Sales/Use Tax Rates): https://tax.colorado.gov/dr-1002-colorado-sales-use-tax-rates-publication\n  * Colorado Department of Revenue – Sales & Use Tax: https://tax.colorado.gov/sales-use-tax\n\n---\n\n### 4. Gross Receipts, Franchise, Margin, or Other Notable Business Taxes\n* **Gross Receipts / Franchise / Margin Tax**: Not imposed statewide.\n  * *Note on alternative gross receipts tax*: The former election under C.R.S. § 39-22-301(2) allowing certain small businesses to pay a 0.5% tax on gross receipts in lieu of income tax was repealed for tax years commencing on or after January 1, 2023 (HB 22-1025).\n* **Pass-Through Entity (PTE) Tax (SALT Parity Act)**: Elective pass-through entity tax for partnerships and S corporations at the income tax rate of **4.4%** for tax years 2025 and 2026 (C.R.S. § 39-22-340 et seq.).\n* **Retail Delivery Fee**: A statewide flat fee imposed on retail deliveries made by motor vehicle to a Colorado purchaser that include at least one item subject to state sales/use tax. Retailers with $500,000 or less in prior-year Colorado retail sales are exempt.\n* **Official Sources**:\n  * Colorado Department of Revenue – SALT Parity Act Guidance: https://tax.colorado.gov/income-tax-topics-salt-parity-act\n  * Colorado Department of Revenue – Retail Delivery Fee: https://tax.colorado.gov/retail-delivery-fee\n  * Colorado General Assembly – HB 22-1025 (Repeal of Alternative Gross Receipts Tax): https://leg.colorado.gov/bills/hb22-1025",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Colorado levies a flat individual income tax rate of 4.4%.",
+    "source_url": "https://tax.colorado.gov/individual-income-tax-glossary",
+    "evidence": [
+     "individual income tax",
+     "flat rate",
+     "4.4%"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.colorado.gov/sites/tax/files/documents/DR0104EZ_2025.pdf",
+    "matched_title": "DR 0104EZ 2025 Colorado Simplified Individual Income Tax Return",
+    "matched_phrases": [
+     "individual income tax",
+     "4.4%"
+    ],
+    "snippet": "Line 2 Colorado Tax from tax table The income tax rate is currently 4.4%."
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Colorado imposes a flat corporate income tax rate of 4.4% on net taxable income, with no franchise tax or corporate minimum tax.",
+    "source_url": "https://tax.colorado.gov/corporate-income-tax-guide",
+    "evidence": [
+     "corporate income tax",
+     "net taxable income",
+     "4.4%"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.colorado.gov/corporate-income-tax-guide",
+    "matched_title": "Corporate Income Tax Guide | Department of Revenue - Taxation",
+    "matched_phrases": [
+     "corporate income tax",
+     "4.4%"
+    ],
+    "snippet": "Income Tax Rates Tax Year 2022 2023 2024 2025 Tax Rate 4.4% 4.4% 4.25% 4.4% Additional resources The following is a list of statutes, regulations, forms, and guidance pertaining to the calculation of Colorado corporate income tax."
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Colorado levies a state sales and use tax rate of 2.9%. Local jurisdictions, including cities, counties, and special districts, add their own local sales and use taxes.",
+    "source_url": "https://tax.colorado.gov/sales-use-tax",
+    "evidence": [
+     "sales and use tax",
+     "2.9%",
+     "special districts"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.colorado.gov/consumer-use-tax-guide",
+    "matched_title": "Consumer Use Tax Guide | Department of Revenue - Taxation",
+    "matched_phrases": [
+     "2.9%",
+     "special districts"
+    ],
+    "snippet": "The Colorado use tax rate is 2.9%, the same as the sales tax rate in Colorado, and use tax is calculated in the same manner as sales tax."
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Colorado does not impose a statewide gross receipts or franchise tax. It provides an elective pass-through entity tax at 4.4% and imposes a statewide retail delivery fee on qualifying retail deliveries.",
+    "source_url": "https://tax.colorado.gov/income-tax-topics-salt-parity-act",
+    "evidence": [
+     "SALT Parity Act",
+     "pass-through entity tax",
+     "4.4%"
+    ],
+    "accepted": false,
+    "reason": "figures not on tax.colorado.gov: ['4.4']; evidence not on tax.colorado.gov (1/3); unreadable: https://content.leg.colorado.gov/agencies/legislative-council-staff/individual-income-tax%C2%A0; unreadable: https://content.leg.colorado.gov/sites/default/files/2022a_1025_signed.pdf; unreadable: https://tax.colorado.gov/news-article/notice-of-proposed-rulemaking-miscellaneous-tax-rules",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://tax.colorado.gov/sites/tax/files/documents/DR0104EZ_2025.pdf",
+   "https://content.leg.colorado.gov/agencies/legislative-council-staff/individual-income-tax%C2%A0",
+   "https://tax.colorado.gov/colorado-individual-income-tax-glossary",
+   "https://tax.colorado.gov/sites/tax/files/documents/DR0112EP_2025.pdf",
+   "https://tax.colorado.gov/corporate-income-tax-guide",
+   "https://tax.colorado.gov/sites/tax/files/documents/ITT_Credit_for_Tax_Paid_to_Another_State_Jan_2024.pdf",
+   "https://tax.colorado.gov/sites/tax/files/documents/DR0112EP_2026.pdf",
+   "https://tax.colorado.gov/consumer-use-tax-for-businesses",
+   "https://tax.colorado.gov/consumer-use-tax-guide",
+   "https://tax.colorado.gov/sales-tax-rate-changes",
+   "https://tax.colorado.gov/DR1002",
+   "https://tax.colorado.gov/sales-use-tax",
+   "https://content.leg.colorado.gov/sites/default/files/2022a_1025_signed.pdf",
+   "https://tax.colorado.gov/news-article/notice-of-proposed-rulemaking-miscellaneous-tax-rules",
+   "https://tax.colorado.gov/income-tax-topics-salt-parity-act",
+   "https://tax.colorado.gov/retail-delivery-fee-deliveries",
+   "https://tax.colorado.gov/retail-delivery-fee-retailers",
+   "https://tax.colorado.gov/retail-delivery-fee"
+  ],
+  "error": ""
+ },
+ {
+  "state": "CO",
+  "section": "filing",
+  "notes": "### 1. Individual Income Tax Return Due Dates & Extension Rules\n* **Due Date:** Calendar-year individual returns are due on **April 15** of the following year. If the due date falls on a weekend or legal holiday, it is due the next business day.\n* **Extension Rules:** Colorado grants an automatic **six-month extension** to file (until **October 15**) without requiring a separate extension application form. \n* **Payment Requirement:** The extension applies only to filing, not to payment. Taxpayers must pay any tax due in full by April 15 via Revenue Online or by submitting **Form DR 0158-I** (*Extension Payment for Colorado Individual Income Tax*) to avoid penalties and interest. \n* **Tax Years:** Applies to both **TY 2025** and **TY 2026**.\n* **Official URLs:** \n  * https://tax.colorado.gov/individual-income-tax-due-dates-and-filing-extension\n  * https://tax.colorado.gov/DR-0158-I\n\n---\n\n### 2. Corporate and Pass-Through Entity Return Due Dates & Extension Rules\n* **C Corporations:**\n  * **Due Date:** Due on the **15th day of the fifth month** following the close of the tax year (**May 15** for calendar-year filers).\n  * **Extension:** Automatic **six-month extension** of time to file (until **November 15** for calendar-year filers). \n  * **Payment Rules:** Automatic; no extension application is filed unless making an extension payment via Revenue Online or **Form DR 0158-C**. At least **90%** of the tax liability must be paid by the original due date (May 15) to avoid delinquent payment penalties.\n* **Pass-Through Entities (Partnerships & S Corporations):**\n  * **Due Date:** Due on the **15th day of the fourth month** following the close of the tax year (**April 15** for calendar-year filers).\n  * **Extension:** Automatic **six-month extension** of time to file (until **October 15** for calendar-year filers).\n  * **Payment Rules:** Extension is automatic. If the entity owes composite tax or tax under the SALT Parity Act, payments must be remitted by April 15 online or with **Form DR 0158-N**.\n* **Tax Years:** Applies to both **TY 2025** and **TY 2026**.\n* **Official URLs:**\n  * https://tax.colorado.gov/DR-0158-C\n  * https://tax.colorado.gov/DR-0158-N\n  * https://tax.colorado.gov/c-corporation-filing-information\n\n---\n\n### 3. Elective Pass-Through Entity Tax (SALT Parity Act)\n* **Existence:** Yes. Under the Colorado SALT Parity Act (C.R.S. § 39-22-340 et seq.), partnerships and S corporations may make an annual election to be taxed at the entity level.\n* **Tax Rate:** The applicable Colorado income tax rate for the tax year multiplied by the entity’s Colorado taxable income. The rate is **4.4%** for both **TY 2025** and **TY 2026**.\n* **How and When to Elect:**\n  * The annual election is made on an original, timely filed return by checking the applicable election box on **Form DR 0106** (*Colorado Partnership and S Corporation and Composite Nonresident Income Tax Return*).\n  * An entity may also make the election prior to filing by submitting **Form DR 1705** (*SALT Parity Act Election Form*).\n  * Once made, the election is irrevocable for that tax year and binding on all partners/shareholders (except unitary C corporation partners).\n* **Tax Years:** Applies to both **TY 2025** and **TY 2026**.\n* **Official URLs:**\n  * https://tax.colorado.gov/SALT-parity-act-election\n  * https://tax.colorado.gov/salt-parity-act-reporting-2022-2025\n  * https://tax.colorado.gov/income-tax-topics-salt-parity-act\n\n---\n\n### 4. Composite or Group Nonresident Returns for Pass-Through Entities\n* **Mandatory Composite Filing Requirement:** Under HB 23-1277 (effective for tax years 2024 and later), every partnership and S corporation required to file Form DR 0106 that does **not** make an election under the SALT Parity Act **must file a nonresident composite return** (Part II of Form DR 0106) and remit composite income tax for its nonresident owners.\n* **Exclusions / Agreements:** Nonresident individuals, estates, and trusts must be included unless the nonresident owner submits an executed **Form DR 0107** (*Colorado Nonresident Partner or Shareholder Agreement*) agreeing to file and pay tax individually. Corporations and partnership partners are not included in the composite return.\n* **Interaction with PTET:** Electing pass-through entities under the SALT Parity Act are **prohibited** from filing a composite return.\n* **Tax Years:** Applies to both **TY 2025** and **TY 2026**.\n* **Official URLs:**\n  * https://tax.colorado.gov/changes-to-composite-filing\n  * https://tax.colorado.gov/elimination-of-form-dr-0108\n  * https://tax.colorado.gov/nonresident-partners-shareholders\n\n---\n\n### 5. Estimated Tax Payments and Nonresident Withholding for Pass-Throughs\n* **Nonresident Withholding:** Form DR 0108 (*Statement of Colorado Tax Remittance for Nonresident Partner or Shareholder*) was **eliminated** effective tax year 2024. Standalone pass-through withholding is no longer remitted on Form DR 0108; it was replaced by mandatory composite return remittances under Form DR 0106 (unless Form DR 0107 is executed or the SALT Parity Act election is made).\n* **PTE Estimated Payments:**\n  * **Composite Return Filers:** Partnerships and S corporations filing composite returns must make quarterly estimated payments if their net Colorado composite tax liability exceeds **$5,000**. Payments are remitted online or via **Form DR 0106EP**.\n  * **SALT Parity Act Electing Entities:** Entities electing under the SALT Parity Act are subject to estimated tax payment rules mirroring C corporations (required if net Colorado tax liability exceeds **$5,000**).\n  * **Due Dates (Calendar-Year filers):** April 15, June 15, September 15, and December 15.\n* **Tax Years:** Applies to both **TY 2025** and **TY 2026**.\n* **Official URLs:**\n  * https://tax.colorado.gov/composite-estimated-payments\n  * https://tax.colorado.gov/business-income-tax-estimated-payments\n  * https://tax.colorado.gov/elimination-of-form-dr-0108\n\n---\n\n### 6. Main Return Forms\n* **Individual Return:** **Form DR 0104** (*Colorado Individual Income Tax Return*).\n* **Corporate Return:** **Form DR 0112** (*Colorado C Corporation Income Tax Return*).\n* **Pass-Through Return:** \n  * **Form DR 0106** (*Colorado Partnership and S Corporation and Composite Nonresident Income Tax Return*).\n  * **Form DR 0106K** (*Colorado K-1 – Partner's / Shareholder's Share of Income, Deductions, Modifications, and Credits*).\n* **Tax Years:** Applies to both **TY 2025** and **TY 2026**.\n* **Official URLs:**\n  * https://tax.colorado.gov/DR-0104 (or https://tax.colorado.gov/individual-income-tax-forms)\n  * https://tax.colorado.gov/DR-0112\n  * https://tax.colorado.gov/DR-0106\n  * https://tax.colorado.gov/DR-0106K",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Calendar-year individual returns are due on April 15, with an automatic six-month extension to file until October 15. The extension applies only to filing, and any tax due must be paid by April 15 online or with Form DR 0158-I to avoid penalties and interest.",
+    "source_url": "https://tax.colorado.gov/individual-income-tax-due-dates-and-filing-extension",
+    "evidence": [
+     "automatic six-month extension",
+     "due on April 15",
+     "Extension Payment"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.colorado.gov/sites/tax/files/documents/DR0158_2025.pdf",
+    "matched_title": "DR 0158-I 2025 Extension Payment for Colorado Individual Income Tax",
+    "matched_phrases": [
+     "automatic six-month extension",
+     "Extension Payment"
+    ],
+    "snippet": "*DO=NOT=SEND* DR 0158 (07/03/25) COLORADO DEPARTMENT OF REVENUE Denver CO 80261-0008 Tax.Colorado.gov 2025 Extension Payment for Colorado Individual Income Tax Instructions Automatic Filing Extension Colorado offers an automatic six-month extension to file your income tax return if you cannot submit your return by the April 15 due date."
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Calendar-year C corporation returns are due May 15 with an automatic six-month extension to November 15, provided at least 90% of tax liability is paid by the original due date. Calendar-year pass-through entity returns are due April 15 with an automatic six-month extension to October 15, with any composite or elective tax due by April 15.",
+    "source_url": "https://tax.colorado.gov/c-corporation-filing-information",
+    "evidence": [
+     "15th day of the fifth month",
+     "automatic six-month extension",
+     "90% of the tax liability"
+    ],
+    "accepted": false,
+    "reason": "evidence not on tax.colorado.gov (0/3); figures not on tax.colorado.gov: ['90']; dates not on tax.colorado.gov: ['May 15', 'November 15']; evidence not on tax.colorado.gov (1/3); figures not on tax.colorado.gov: ['15', '90']; dates not on tax.colorado.gov: ['November 15']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Under the SALT Parity Act, partnerships and S corporations can elect to pay tax at the entity level at a 4.4% rate. The election is made annually on an original timely filed Form DR 0106 or prior to filing via Form DR 1705, and is irrevocable for that tax year.",
+    "source_url": "https://tax.colorado.gov/SALT-parity-act-election",
+    "evidence": [
+     "SALT Parity Act",
+     "Form DR 1705",
+     "irrevocable for that tax year"
+    ],
+    "accepted": false,
+    "reason": "figures not on tax.colorado.gov: ['0106', '1705', '4.4']; figures not on tax.colorado.gov: ['1705', '4.4']; figures not on tax.colorado.gov: ['1705']; figures not on tax.colorado.gov: ['4.4']; figures not on tax.colorado.gov: ['0106', '1705']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "composite",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Partnerships and S corporations that do not make a SALT Parity Act election must file a nonresident composite return on Form DR 0106 and remit composite income tax for nonresident owners. Eligible nonresident owners must be included unless they submit an executed Form DR 0107 agreeing to file and pay tax individually.",
+    "source_url": "https://tax.colorado.gov/changes-to-composite-filing",
+    "evidence": [
+     "Form DR 0107",
+     "SALT Parity Act",
+     "composite income tax"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.colorado.gov/changes-to-composite-filing",
+    "matched_title": "Changes to Composite Filing | Department of Revenue - Taxation",
+    "matched_phrases": [
+     "Form DR 0107",
+     "SALT Parity Act"
+    ],
+    "snippet": "Additionally, any nonresident partner or shareholder that timely files a Nonresident Partner or Shareholder Agreement (form DR 0107) is excluded from the composite return."
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Nonresident withholding on Form DR 0108 was eliminated and replaced by composite return remittances under Form DR 0106. Pass-through entities filing composite returns or electing under the SALT Parity Act must make quarterly estimated tax payments if net Colorado tax liability exceeds $5,000.",
+    "source_url": "https://tax.colorado.gov/composite-estimated-payments",
+    "evidence": [
+     "exceeds $5,000",
+     "Form DR 0106EP",
+     "quarterly estimated payments"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.colorado.gov/sites/tax/files/documents/Book_106_2024.pdf",
+    "matched_title": "2024 106 Book, Partnership and S Corporation",
+    "matched_phrases": [
+     "exceeds $5,000",
+     "Form DR 0106EP",
+     "quarterly estimated payments"
+    ],
+    "snippet": "Composite Estimated Payments For tax years beginning on or after January 1, 2024, partnerships and S corporations must remit quarterly estimated payments if its net Colorado tax liability for the year with a composite nonresident return exceeds $5,000."
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The primary return forms are Form DR 0104 for individuals, Form DR 0112 for C corporations, and Form DR 0106 along with Form DR 0106K for partnerships and S corporations.",
+    "source_url": "https://tax.colorado.gov/DR-0106",
+    "evidence": [
+     "DR 0106",
+     "Partnership and S Corporation",
+     "Composite Nonresident Income Tax"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.colorado.gov/DR-0106; evidence not on tax.colorado.gov (1/3); figures not on tax.colorado.gov: ['0104', '0106', '0112']; figures not on tax.colorado.gov: ['0106', '0112']; figures not on tax.colorado.gov: ['0112']; figures not on tax.colorado.gov: ['0104', '0106']; figures not on tax.colorado.gov: ['0104', '0112']; figures not on tax.colorado.gov: ['0104']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://tax.colorado.gov/due-date-guide",
+   "https://tax.colorado.gov/sites/tax/files/documents/DR0158_2025.pdf",
+   "https://tax.colorado.gov/income-tax-due-dates-filing-extension",
+   "https://tax.colorado.gov/colorado-individual-income-tax-glossary",
+   "https://tax.colorado.gov/press-release/2025-income-tax-returns",
+   "https://tax.colorado.gov/DR0158I",
+   "https://tax.colorado.gov/sites/tax/files/documents/DR0158-C_2025.pdf",
+   "https://tax.colorado.gov/c-corporation-filing-information",
+   "https://tax.colorado.gov/sites/tax/files/documents/DR0158-N_2025.pdf",
+   "https://tax.colorado.gov/DR0158C",
+   "https://tax.colorado.gov/SALT-parity-act-election",
+   "https://tax.colorado.gov/sites/tax/files/documents/ITT_SALT_Parity_Act_Feb_2024.pdf",
+   "https://tax.colorado.gov/income-tax-topics-salt-parity-act",
+   "https://tax.colorado.gov/corporate-income-tax-guide",
+   "https://tax.colorado.gov/colorado-individual-income-tax-glossary",
+   "https://tax.colorado.gov/sites/tax/files/documents/DR0112EP_2026.pdf",
+   "https://tax.colorado.gov/salt-parity-act-reporting-2022-2025",
+   "https://tax.colorado.gov/2025-tax-policy-updates/october-tax-policy-updates",
+   "https://tax.colorado.gov/salt-parity-act-reporting-2022-2025",
+   "https://tax.colorado.gov/changes-for-pass-through-entities-for-2024",
+   "https://tax.colorado.gov/sites/tax/files/documents/Book_106_2024.pdf",
+   "https://tax.colorado.gov/changes-to-composite-filing",
+   "https://tax.colorado.gov/DR0106Book",
+   "https://tax.colorado.gov/elimination-of-form-dr-0108",
+   "https://tax.colorado.gov/nonresident-partners-shareholders",
+   "https://tax.colorado.gov/composite-estimated-payments",
+   "https://tax.colorado.gov/business-income-tax-estimated-payments",
+   "https://tax.colorado.gov/corporate-income-tax-guide",
+   "https://tax.colorado.gov/2025-individual-income-tax-forms",
+   "https://tax.colorado.gov/sites/tax/files/documents/DR0112_2025.pdf",
+   "https://tax.colorado.gov/DR0106",
+   "https://tax.colorado.gov/sites/tax/files/documents/DR0106K_2024_2.pdf",
+   "https://tax.colorado.gov/DR0106K",
+   "https://tax.colorado.gov/2025-income-tax-forms-partnerships-s-corporations",
+   "https://tax.colorado.gov/press-release/department-of-revenue-accepting-tax-returns-for-partnerships-s-and-c-corporations"
+  ],
+  "error": ""
+ }
+]

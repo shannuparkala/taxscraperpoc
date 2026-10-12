@@ -1,0 +1,212 @@
+{
+  "code": "VA",
+  "name": "Virginia",
+  "sections": {
+    "apportionment": {
+      "fields": [
+        {
+          "key": "method",
+          "label": "Apportionment method",
+          "value": "Multistate corporations generally apportion income using a three-factor formula with property, payroll, and double-weighted sales. The factor is calculated as property plus payroll plus twice the sales factor, divided by 4.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.tax.virginia.gov/sites/default/files/vatax-pdf/2025-500-instructions.pdf",
+          "source_citation": "2025 Instructions for Virginia Form 500 - Corporation Income Tax Return",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Standard Apportionment Method for Corporations A double-weighted sales factor is used for corporate apportionment."
+        },
+        {
+          "key": "sourcing",
+          "label": "Sales sourcing (services and intangibles)",
+          "value": "Virginia applies a cost-of-performance standard for sales other than tangible personal property, sourcing receipts to Virginia if the income-producing activity is performed in the state or the greater proportion is performed in Virginia based on costs of performance. Specific statutory exceptions apply market-based sourcing to debt buyers, qualifying property information and analytics firms, and internet root infrastructure providers.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://law.lis.virginia.gov/vacode/title58.1/chapter3/section58.1-416/",
+          "source_citation": "§ 58.1-416. (Contingent effective date — See Editor's note) When certain other sales deemed in the Commonwealth",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "The income-producing activity is performed both in and outside the Commonwealth and a greater proportion of the income-producing activity is performed in the Commonwealth than in any other state, based on costs of performance."
+        },
+        {
+          "key": "special_industries",
+          "label": "Special industry rules",
+          "value": "Special apportionment rules apply to retail companies, manufacturing companies, motor carriers, financial corporations, construction corporations, railway companies, debt buyers, and enterprise data center operations. Formulas vary, including single sales factor treatments and industry-specific single-factor metrics like vehicle miles or revenue car miles.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://law.lis.virginia.gov/vacode/title58.1/chapter3/",
+          "source_citation": "Code of Virginia Code - Chapter 3. Income Tax",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "apportionment § 58.1-418 Financial corporations;"
+        },
+        {
+          "key": "forms",
+          "label": "Forms",
+          "value": "Corporations compute apportionment on Schedule 500A enclosed with Form 500, while pass-through entities use Schedule 502A with Form 502. Additional supplemental schedules include Schedule 500AC and Schedule 500AP.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.tax.virginia.gov/sites/default/files/vatax-pdf/2025-500-instructions.pdf",
+          "source_citation": "2025 Instructions for Virginia Form 500 - Corporation Income Tax Return",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "05 Capital loss carryback 10 Allocation and apportionment changes – Enclose Schedule 500A 11 Schedule 500AB Changes 12 Other income reported on Schedule 500A 30 Other – Enclose Explanation Complete Form 500, Schedule 500ADJ, Schedule 500CR, and all other applicable forms and schedules."
+        }
+      ]
+    },
+    "nexus": {
+      "fields": [
+        {
+          "key": "income_nexus",
+          "label": "Income/franchise tax nexus",
+          "value": "Virginia imposes corporate income tax on corporations organized under Virginia law or foreign corporations having income from Virginia sources, which is established by having sufficient business activity to produce a positive Virginia apportionment factor. Foreign corporations registered with the Virginia State Corporation Commission must file a return even if having no Virginia-source income and no tax is due.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.tax.virginia.gov/laws-rules-decisions/rulings-tax-commissioner/16-15",
+          "source_citation": "16-15 | Virginia Tax",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "The existence of a positive Virginia apportionment factor establishes income from Virginia sources."
+        },
+        {
+          "key": "sales_economic_nexus",
+          "label": "Sales/use tax: economic nexus",
+          "value": "Remote seller economic nexus is triggered by more than $100,000 in gross revenue from retail sales into Virginia or 200 or more separate retail sales transactions into Virginia. The measurement period is the previous or current calendar year.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.tax.virginia.gov/remote-sellers-marketplace-facilitators-economic-nexus",
+          "source_citation": "Remote Sellers, Marketplace Facilitators, Economic Nexus | Virginia Tax",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Do you need to register? If you are a marketplace facilitator that sold or facilitated the sale of more than $100,000 in annual gross revenue or 200 or more transactions to Virginia customers in the previous or current calendar year, you must register to collect and pay Virginia sales tax."
+        },
+        {
+          "key": "pl_86_272",
+          "label": "P.L. 86-272",
+          "value": "Virginia restricts P.L. 86-272 protection in line with Wrigley to solicitation and ancillary activities, but explicitly extends this solicitation test to sales of services and intangible personal property. Corporations with Virginia-source income or registered with the State Corporation Commission must file a return even if claiming exemption under P.L. 86-272.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.tax.virginia.gov/laws-rules-decisions/rulings-tax-commissioner/15-144",
+          "source_citation": "15-144 | Virginia Tax",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "86-272 to situations involving the sales of services."
+        }
+      ]
+    },
+    "rates": {
+      "fields": [
+        {
+          "key": "individual",
+          "label": "Individual income tax",
+          "value": "Virginia individual income tax rates are graduated across four brackets: 2% on taxable income up to $3,000, 3% from $3,001 to $5,000, 5% from $5,001 to $17,000, and 5.75% on taxable income over $17,000.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.tax.virginia.gov/sites/default/files/2016-12/TAXTABLE.pdf",
+          "source_citation": "Q:\\FORMS\\2000\\PM6FORMS\\taxtable",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "but not your tax of excess over— over— is— over— $ 3,000 $ 5,000 $ 60 + 3 % $ 3,000 $ 5,000 $ 17,000 $ 120 + 5 % $ 5,000 $17,000 $ 720 + 5.75 % $17,000 TAX TABLE The tax table can be used if your Virginia taxable income is listed in the table."
+        },
+        {
+          "key": "sales",
+          "label": "Sales and use tax",
+          "value": "The state base sales and use tax rate is 4.3%, with an additional 1.0% local option tax levied across all localities bringing the baseline combined rate to 5.3%. Additional regional and local taxes can increase total combined rates to 6.0%, 6.3%, or 7.0% in specific areas.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.tax.virginia.gov/sites/default/files/taxforms/retail-sales-and-use/any/st-50-any.pdf",
+          "source_citation": "ST-50 - Temporary Sales Tax Certificate/Return",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "The general sales tax rate for Virginia is 5.3% (4.3% state tax and 1% local tax)."
+        }
+      ]
+    },
+    "filing": {
+      "fields": [
+        {
+          "key": "individual_due",
+          "label": "Individual due date and extension",
+          "value": "Individual calendar-year returns are due May 1, with an automatic 6-month extension granted to November 1 without requiring an application. Taxpayers must pay at least 90% of the final tax liability by May 1 to avoid an extension penalty.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.tax.virginia.gov/sites/default/files/taxforms/individual-income-tax/2025/770ip-2025.pdf",
+          "source_citation": "2025 Form 770IP, Virginia Fiduciary and Unified Nonresident Automatic Extension Payment Voucher",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Box 1478 Richmond, VA 23218-1478 Penalty for Failure to Timely File and Pay the Tax Due Virginia law provides for an automatic 6-month filing extension, but you must pay at least 90% of your tax liability by the due date, which is May 1 for calendar year filers."
+        },
+        {
+          "key": "business_due",
+          "label": "Business due dates and extensions",
+          "value": "Corporate returns (Form 500) and pass-through entity returns (Form 502/502PTET) are due April 15 for calendar-year filers. C corporations receive an automatic 7-month extension, while pass-through entities receive an automatic 6-month extension, though tax payments remain due April 15.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.tax.virginia.gov/sites/default/files/taxforms/corporation-and-pass-through-entity-tax/2025/502ptet-instruction-package-2025.pdf",
+          "source_citation": "2025 502PTET Package",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Due Date Form 502PTET return and any tax payments due must be submitted on or before the 15th day of the 4th month after the close of the entity’s taxable year."
+        },
+        {
+          "key": "ptet",
+          "label": "Pass-through entity tax (PTET)",
+          "value": "Virginia offers a permanent elective pass-through entity tax at a rate of 5.75% of eligible taxable income. The annual election is made on or before the due date of Form 502PTET (including extensions) by timely filing the return or making an estimated or extension payment.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.tax.virginia.gov/sites/default/files/vatax-pdf/2025-502-instructions.pdf",
+          "source_citation": "2025 Form 502 Instructions, Virginia Pass-Through Entity Return Of Income And Return Of Nonresident Withholding Tax",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Eligible owners of an electing PTE that files Form 502PTET may claim a corresponding refundable credit, as reflected on their Virginia Schedule VK-1, for their portion of the tax paid by the PTE."
+        },
+        {
+          "key": "composite",
+          "label": "Composite returns",
+          "value": "Pass-through entities with two or more qualified nonresident individual owners may file a composite return on Form 765, taxed at 5.75% without deductions or credits. The return is due May 1 with an automatic 6-month extension, but PTEs electing PTET cannot file Form 765.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.tax.virginia.gov/sites/default/files/2016-12/765Instr-2011.pdf",
+          "source_citation": "765 instr 11 WEB 12 21 11.indd",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "An owner, officer or 2011 Virginia Form 765 Instructions for Filing Unified Nonresident Individual Income Tax Return GENERAL INSTRUCTIONS employee of the PTE who is authorized to act on behalf of the PTE in tax matters (authorized representative) must sign the unified return."
+        },
+        {
+          "key": "key_forms",
+          "label": "Key forms",
+          "value": "Virginia's primary tax forms are Form 760 for resident individuals, Form 760PY for part-year residents, Form 763 for nonresidents, and Form 500 for corporations. Pass-through entities file Form 502, Form 502PTET for the elective tax, or Form 765 for composite filings.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.tax.virginia.gov/sites/default/files/vatax-pdf/2025-502-instructions.pdf",
+          "source_citation": "2025 Form 502 Instructions, Virginia Pass-Through Entity Return Of Income And Return Of Nonresident Withholding Tax",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "For grantor trusts where no Form 770 is being filed, enter “RES” if the owner will file an individual Form 760 or Form 760PY resident return and “NON” if the owner will file an individual Form 763 return."
+        }
+      ]
+    }
+  }
+}

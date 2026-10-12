@@ -1,0 +1,210 @@
+[
+ {
+  "state": "OR",
+  "section": "filing",
+  "notes": "### 1. Individual Income Tax Due Dates and Extensions\n\n* **Calendar-Year Due Date:** Individual income tax returns are due on **April 15** following the close of the tax year (e.g., April 15, 2026, for tax year 2025; April 15, 2027, for tax year 2026; or the next business day if falling on a weekend or holiday).\n* **Extension Rules:** \n  * Oregon honors the federal automatic 6-month extension of time to file (federal Form 4868). \n  * If a federal extension was requested, no separate Oregon extension is required; filers mark the \"Extension filed\" box on their Oregon return.\n  * The extended filing deadline is **October 15** (e.g., October 15, 2026, for tax year 2025).\n  * A state-only extension is needed only if the taxpayer did not file a federal extension, owes Oregon tax, and cannot file by the due date. To request one, the taxpayer makes an extension payment by April 15 via Revenue Online or by mail using Form OR-40-V marked \"Original return or extension\".\n  * An extension of time to file is **not** an extension of time to pay. Taxes unpaid by April 15 accrue interest (the 2026 interest rate is 8% per year) and late-payment penalties (5%).\n* **Applicability:** Tax years 2025 and 2026.\n* **Official Sources:**\n  * Oregon Department of Revenue – Apply for an Extension (Individuals): https://www.oregon.gov/dor/programs/individuals/Pages/apply-for-an-extension.aspx\n  * Publication OR-40-EXT: https://www.oregon.gov/dor/forms/Pages/default.aspx\n\n---\n\n### 2. Corporate and Pass-Through Return Due Dates and Extensions\n\n* **Corporate Returns (C Corporations – Form OR-20 / OR-20-INC):**\n  * **Due Date:** Due on the **15th day of the month following the federal return due date**. For calendar-year C corporations (whose federal Form 1120 is due April 15), the Oregon return is due **May 15** (e.g., May 15, 2026, for tax year 2025).\n  * **Extensions:** Oregon honors federal extensions (Form 7004). The extended due date is the **15th day of the month following the federal extended due date** (e.g., **November 15** for calendar-year C corporations). For an Oregon-only extension, taxpayers mark \"For Oregon only\" on Form 7004 and submit extension payments by the original due date using Form OR-20-V or Revenue Online.\n* **S Corporations (Form OR-20-S):**\n  * **Due Date:** Due on the **15th day of the month following the federal due date**. For calendar-year S corporations (whose federal Form 1120-S is due March 15), the Oregon return is due **April 15**.\n  * **Extensions:** Extended due date is the 15th day of the month following the federal extended due date (**October 15** for calendar-year filers).\n* **Partnerships (Form OR-65):**\n  * **Due Date:** Calendar-year returns are due on **March 15** (e.g., March 16, 2026, for tax year 2025, since March 15 falls on a Sunday). Fiscal-year returns are due the 15th day of the 3rd month after fiscal year-end.\n  * **Extensions:** Oregon honors federal extensions (no state application needed). The extended due date for calendar-year filers is **September 15**. For an Oregon-only extension, filers pay any tax due by the original deadline using Form OR-65-V and check checkbox (f) on Form OR-65.\n* **Applicability:** Tax years 2025 and 2026.\n* **Official Sources:**\n  * Oregon Department of Revenue – Corporation Excise and Income Tax: https://www.oregon.gov/dor/programs/businesses/Pages/corporation.aspx\n  * Oregon Department of Revenue – Partnership Information: https://www.oregon.gov/dor/programs/businesses/Pages/partnership.aspx\n  * Oregon Form OR-20 Instructions: https://www.oregon.gov/dor/forms/Pages/default.aspx\n  * Oregon Form OR-65 Instructions: https://www.oregon.gov/dor/forms/Pages/default.aspx\n\n---\n\n### 3. Elective Pass-Through Entity Tax (PTE-E Tax)\n\n* **Existence:** Yes. Enacted under Oregon Revised Statutes (ORS 314.775–314.784, SB 727, as amended by SB 1510 in 2026, which extends the program through tax years beginning before January 1, 2028).\n* **Rates:**\n  * **9.0%** on the first $250,000 of distributive proceeds.\n  * **9.9%** on distributive proceeds exceeding $250,000.\n* **How and When to Elect:**\n  * The election is made **annually** by filing **Form OR-21** (Oregon Pass-Through Entity Elective Return).\n  * **Filing Due Date:** Form OR-21 is filed on a calendar-year basis and is due **April 15**, or by the extended due date of **October 15**. Returns filed after the due date (including extensions) will not be accepted, and no election is deemed made.\n  * **Eligibility:** Partnerships and S corporations whose members are all individuals subject to Oregon personal income tax, or tiered pass-through entities whose ultimate members are individuals.\n* **Applicability:** Tax years 2025 and 2026 (extended through tax years beginning before January 1, 2028).\n* **Official Source:**\n  * Oregon Department of Revenue – Pass-Through Entity Elective (PTE-E) Tax: https://www.oregon.gov/dor/programs/businesses/Pages/pte-e.aspx\n\n---\n\n### 4. Composite or Group Nonresident Returns for Pass-Through Entities\n\n* **Existence and Form:** Pass-through entities with Oregon-source distributive income may file a composite return on **Form OR-OC** (Oregon Composite Return) on behalf of electing nonresident owners.\n* **Eligible Members:** Nonresident individuals, disregarded entities owned by a nonresident individual, non-domiciled C corporations, non-resident trusts, and non-resident estates whose only Oregon-source income is from the pass-through entity. PTE owners cannot participate.\n* **Due Date & Extension:** Form OR-OC follows the tax year of the majority of electing owners (calendar-year due date is **April 15**; extended due date is **October 15**). Extensions are indicated on Form OR-OC with payments made via Form OR-OC-V.\n* **Applicability:** Tax years 2025 and 2026.\n* **Official Sources:**\n  * Oregon Department of Revenue – Publication OR-OC: https://www.oregon.gov/dor/forms/Pages/default.aspx\n  * Oregon Department of Revenue – Individuals: What Form Do I Use?: https://www.oregon.gov/dor/programs/individuals/Pages/what-form-do-i-use.aspx\n\n---\n\n### 5. Estimated Tax Payments and Nonresident Withholding for Pass-Throughs\n\n* **Corporate Estimated Tax Requirements:** \n  * Required if expected tax liability is **$500 or more**.\n  * Due dates for calendar-year corporations: **April 15, June 15, September 15, and December 15**.\n* **PTE-E Estimated Tax Requirements:**\n  * Entities electing the PTE-E tax must make quarterly estimated payments.\n  * Standard deadlines: **April 15, June 15, September 15, and January 15** following the close of the tax year.\n  * *2026 Special Rule:* For tax year 2026 only, the 1st and 2nd quarterly payments are both due on **June 15, 2026**.\n* **Partnership Entity-Level Estimated Tax:** \n  * Not required for the partnership minimum tax ($150) on Form OR-65.\n* **Pass-Through Nonresident Withholding:**\n  * A pass-through entity must withhold tax on Oregon-source distributive income for nonresident owners (individuals or C corporations) who do not join a composite return (Form OR-OC) and have not filed an affidavit (**Form OR-19-AF**).\n  * **Withholding Rates:** Calculated at the highest marginal individual rate (**9.9%** for individuals) and corporate excise tax rate (**6.6%** for corporations).\n  * **Remittance & Reporting:**\n    * Withholding payments are remitted quarterly across four periods (April 15, June 15, September 15, January 15 for calendar-year entities) via Revenue Online or with voucher **Form OR-19-V**.\n    * The entity must file an annual reconciliation report on **Form OR-19** by the **last day of the second month** following the close of the entity’s tax year (e.g., March 2, 2026, for calendar year 2025; March 1, 2027, for calendar year 2026).\n* **Applicability:** Tax years 2025 and 2026.\n* **Official Sources:**\n  * Oregon Department of Revenue – PTE-E Tax: https://www.oregon.gov/dor/programs/businesses/Pages/pte-e.aspx\n  * Oregon Department of Revenue – Form OR-19 Instructions & OR-19-AF: https://www.oregon.gov/dor/forms/Pages/default.aspx\n\n---\n\n### 6. Main Return Forms\n\n* **Individual Income Tax:**\n  * **Form OR-40:** Oregon Individual Income Tax Return (Full-Year Resident)\n  * **Form OR-40-P:** Oregon Individual Income Tax Return (Part-Year Resident)\n  * **Form OR-40-N:** Oregon Individual Income Tax Return (Nonresident)\n* **Corporate Tax:**\n  * **Form OR-20:** Oregon Corporation Excise Tax Return (doing business in Oregon)\n  * **Form OR-20-INC:** Oregon Corporation Income Tax Return (Oregon-source income without excise nexus)\n  * **Form OR-20-INS:** Oregon Insurance Excise Tax Return\n  * **Form OR-CAT:** Oregon Corporate Activity Tax Return\n* **Pass-Through Entities:**\n  * **Form OR-65:** Oregon Partnership Income Return\n  * **Form OR-20-S:** Oregon S Corporation Tax Return\n  * **Form OR-21:** Oregon Pass-Through Entity Elective Return\n  * **Form OR-OC:** Oregon Composite Return\n  * **Form OR-19:** Annual Report of Pass-Through Entity Owner Tax Payments\n* **Applicability:** Tax years 2025 and 2026.\n* **Official Sources:**\n  * Oregon Department of Revenue – Forms and Publications: https://www.oregon.gov/dor/forms/Pages/default.aspx\n  * Oregon Department of Revenue – What Form Do I Use?: https://www.oregon.gov/dor/programs/individuals/Pages/what-form-do-i-use.aspx",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Individual returns are due on April 15 following the close of the tax year. Oregon honors the federal automatic 6-month extension to October 15, but state-only extensions require an extension payment by April 15 using Form OR-40-V or Revenue Online.",
+    "source_url": "https://www.oregon.gov/dor/programs/individuals/Pages/apply-for-an-extension.aspx",
+    "evidence": [
+     "Apply for an Extension",
+     "automatic 6-month extension",
+     "Form OR-40-V",
+     "Extension filed"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.oregon.gov/dor/forms/FormsPubs/publication-or-40-ext_101-165.pdf",
+    "matched_title": "2025 Publication OR-40-EXT, Instructions for Automatic Extension of Time to File Oregon Individual Income Tax Return, 150-101-165",
+    "matched_phrases": [
+     "Form OR-40-V",
+     "Extension filed"
+    ],
+    "snippet": "If you’re using Form OR-40-V , be sure to include the begin- ning and ending dates of your fiscal year on the voucher."
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Calendar-year C corporation returns are due May 15 and S corporation returns are due April 15, with both receiving extensions to November 15 and October 15 respectively. Partnerships are due March 15, with an extended filing deadline of September 15.",
+    "source_url": "https://www.oregon.gov/dor/programs/businesses/Pages/corporation.aspx",
+    "evidence": [
+     "Corporation Excise and Income Tax",
+     "federal return due date",
+     "Form OR-20-V",
+     "Form OR-65"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.oregon.gov/dor/programs/businesses/Pages/corporation.aspx; evidence not on www.oregon.gov (0/4); figures not on www.oregon.gov: ['15']; evidence not on www.oregon.gov (1/4); dates not on www.oregon.gov: ['November 15', 'March 15']; dates not on www.oregon.gov: ['November 15', 'October 15']; dates not on www.oregon.gov: ['May 15', 'April 15', 'November 15', 'October 15']; dates not on www.oregon.gov: ['May 15', 'November 15', 'March 15']; dates not on www.oregon.gov: ['May",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Oregon imposes an elective pass-through entity tax at 9.0% on the first $250,000 of distributive proceeds and 9.9% on proceeds exceeding $250,000. The annual election is made by filing Form OR-21 by April 15 or the extended due date of October 15.",
+    "source_url": "https://www.oregon.gov/dor/programs/businesses/Pages/pte-e.aspx",
+    "evidence": [
+     "Pass-Through Entity Elective",
+     "distributive proceeds",
+     "Form OR-21",
+     "annual election"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.oregon.gov/dor/programs/businesses/Pages/pte-e.aspx; figures not on www.oregon.gov: ['21', '250000', '9', '9.9']; figures not on www.oregon.gov: ['21', '250000', '9.9']; figures not on www.oregon.gov: ['15', '21', '9.9']; figure not stated beside the evidence on www.oregon.gov; figures not on www.oregon.gov: ['15', '21', '250000', '9.9']; figures not on www.oregon.gov: ['250000', '9.9']; dates not on www.oregon.gov: ['October 15']; figures not on www.oregon.gov: ['15', '2",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "composite",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Pass-through entities may file a composite return on Form OR-OC on behalf of eligible electing nonresident owners. For calendar-year entities, the return is due April 15, or October 15 on extension.",
+    "source_url": "https://www.oregon.gov/dor/programs/individuals/Pages/what-form-do-i-use.aspx",
+    "evidence": [
+     "Oregon Composite Return",
+     "Form OR-OC",
+     "nonresident owners",
+     "Form OR-OC-V"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.oregon.gov/dor/forms/FormsPubs/publication-or-40-ext_101-165.pdf",
+    "matched_title": "2025 Publication OR-40-EXT, Instructions for Automatic Extension of Time to File Oregon Individual Income Tax Return, 150-101-165",
+    "matched_phrases": [
+     "Form OR-OC",
+     "Form OR-OC-V"
+    ],
+    "snippet": "Are you filing a composite return? If so, follow the exten- sion payment instructions but use Form OR-OC-V to send your payment."
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025
+    ],
+    "value": "Estimated tax payments are required for corporations expecting $500 or more in tax liability and quarterly for electing PTE-E entities on April 15, June 15, September 15, and January 15. Nonresident pass-through withholding is remitted quarterly at 9.9% for individuals and 6.6% for corporations, reconciled annually on Form OR-19.",
+    "source_url": "https://www.oregon.gov/dor/programs/businesses/Pages/pte-e.aspx",
+    "evidence": [
+     "estimated payments",
+     "distributive income",
+     "Form OR-19"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.oregon.gov/dor/programs/businesses/Pages/pte-e.aspx; figures not on www.oregon.gov: ['19', '500', '6.6', '9.9']; figures not on www.oregon.gov: ['15', '19', '500', '6.6', '9.9']; figures not on www.oregon.gov: ['6.6']; figures not on www.oregon.gov: ['500', '6.6', '9.9']; figures not on www.oregon.gov: ['9.9']; figures not on www.oregon.gov: ['19', '6.6', '9.9']; figures not on www.oregon.gov: ['19', '500', '6.6']; figures not on www.oregon.gov: ['500', '6.6']; figures no",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2026
+    ],
+    "value": "For tax year 2026, PTE-E first and second quarterly estimated payments are both due on June 15, 2026, followed by September 15 and January 15. Pass-through withholding on nonresidents is required at 9.9% for individuals and 6.6% for corporations, reported annually on Form OR-19.",
+    "source_url": "https://www.oregon.gov/dor/programs/businesses/Pages/pte-e.aspx",
+    "evidence": [
+     "estimated payments",
+     "June 15, 2026",
+     "Form OR-19"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.oregon.gov/dor/programs/businesses/Pages/pte-e.aspx; figures not on www.oregon.gov: ['19', '6.6', '9.9']; figures not on www.oregon.gov: ['15', '19', '6.6', '9.9']; figures not on www.oregon.gov: ['6.6']; figures not on www.oregon.gov: ['6.6', '9.9']; figures not on www.oregon.gov: ['2026', '9.9']; figures not on www.oregon.gov: ['19', '2026', '6.6', '9.9']; figures not on www.oregon.gov: ['9.9']; figures not on www.oregon.gov: ['2026', '6.6', '9.9']; figures not on www.o",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Key individual tax forms include Form OR-40, Form OR-40-P, and Form OR-40-N, while corporate returns include Form OR-20, Form OR-20-INC, and Form OR-CAT. Pass-through entities file Form OR-65, Form OR-20-S, Form OR-21, Form OR-OC, and Form OR-19.",
+    "source_url": "https://www.oregon.gov/dor/forms/Pages/default.aspx",
+    "evidence": [
+     "Form OR-40",
+     "Form OR-20",
+     "Form OR-65",
+     "Form OR-21"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.oregon.gov/dor/forms/FormsPubs/publication-or-17_101-431_2025.pdf",
+    "matched_title": "2025 Publication OR-17, Oregon Individual Income Tax Guide, 150-101-431",
+    "matched_phrases": [
+     "Form OR-40",
+     "Form OR-20",
+     "Form OR-65",
+     "Form OR-21"
+    ],
+    "snippet": "Enter your 2024 Oregon taxable income (Form OR-40, line 19;"
+   }
+  ],
+  "grounding_urls": [
+   "https://www.oregon.gov/dor/forms/FormsPubs/publication-or-40-ext_101-165.pdf",
+   "https://www.oregon.gov/dor/programs/individuals/pages/extension.aspx",
+   "https://www.oregon.gov/dor/programs/individuals/pages/pit.aspx",
+   "https://www.oregon.gov/dor/forms/FormsPubs/publication-or-17_101-431_2025.pdf",
+   "https://www.oregon.gov/dor/programs/individuals/pages/penalties.aspx",
+   "https://www.oregon.gov/dor/pages/tax-calendar.aspx",
+   "https://www.oregon.gov/dor/programs/businesses/pages/corp-requirements.aspx",
+   "https://www.oregon.gov/dor/forms/FormsPubs/publication-or-corp-tax_102-401_2017.pdf",
+   "https://www.oregon.gov/dor/programs/businesses/pages/corp-requirements.aspx",
+   "https://www.oregon.gov/DOR/forms/FormsPubs/form-or-20-instructions_102-020-1_2025.pdf",
+   "https://www.oregon.gov/dor/forms/FormsPubs/publication-or-corp-tax_102-401_2022.pdf",
+   "https://www.oregon.gov/dor/forms/FormsPubs/form-OR-20-S-instructions_102-025-1_2024.pdf",
+   "https://www.oregon.gov/dor/programs/businesses/pages/partnership.aspx",
+   "https://www.oregon.gov/dor/forms/FormsPubs/form-or-65_101-065-1_2024.pdf",
+   "https://www.oregon.gov/dor/forms/FormsPubs/form-or-65_101-065-1_2022.pdf",
+   "https://www.oregon.gov/dor/forms/FormsPubs/form-or-65_101-065-1_2024.pdf",
+   "https://www.oregon.gov/dor/forms/FormsPubs/form-or-65_101-065-1_2024.pdf",
+   "https://www.oregon.gov/DOR/forms/FormsPubs/form-or-20-s_102-025_2025.pdf",
+   "https://www.oregon.gov/dor/programs/businesses/Pages/Pass-Through-Entity-Elective-Tax.aspx/1000",
+   "https://www.oregon.gov/dor/forms/FormsPubs/form-or-21-instr_107-114-1_2025.pdf",
+   "https://www.oregon.gov/dor/programs/businesses/pages/pass-through-entity-elective-tax.aspx",
+   "https://www.oregon.gov/dor/forms/FormsPubs/schedule-or-21-md-instr_107-112-1_2024.pdf",
+   "https://www.oregon.gov/dor/forms/FormsPubs/form-or-19-af-instructions_101-175-1_2025.pdf",
+   "https://www.oregon.gov/dor/forms/FormsPubs/pub%20or-oc_101-155_2023.pdf",
+   "https://www.oregon.gov/dor/programs/individuals/pages/what-form.aspx",
+   "https://www.oregon.gov/dor/pages/tax-calendar.aspx",
+   "https://www.oregon.gov/dor/forms/FormsPubs/publication-or-40-ext_101-165.pdf",
+   "https://www.oregon.gov/dor/forms/FormsPubs/form-or-oc-v_101-150.pdf",
+   "https://www.oregon.gov/dor/forms/FormsPubs/form-or-20-inc-instructions_102-021-1_2022.pdf",
+   "https://www.oregon.gov/dor/forms/FormsPubs/form-or-19-instructions_101-182-1_2024.pdf",
+   "https://www.oregon.gov/dor/about/Documents/PTE-E%20notice%2010252022.pdf",
+   "https://www.oregon.gov/dor/forms/FormsPubs/form-or-19-v-instructions_101-185-1.pdf",
+   "https://www.oregon.gov/dor/forms/FormsPubs/form-or-19_101-182_2025.pdf",
+   "https://www.oregon.gov/dor/forms/FormsPubs/form-or-19-af-instructions_101-175-1_2026.pdf",
+   "https://www.oregon.gov/dor/forms/FormsPubs/form-or-20-v-instructions_102-172-1.pdf",
+   "https://www.oregon.gov/DOR/forms/FormsPubs/form-or-20_102-020_2025.pdf",
+   "https://www.oregon.gov/dor/forms/FormsPubs/form-or-20-inc-instructions_102-021-1_2022.pdf",
+   "https://www.oregon.gov/DOR/forms/FormsPubs/form-OR-20-INS-instructions_102-129-1_2024.pdf",
+   "https://www.oregon.gov/dor/programs/businesses/pages/corporate-activity-tax.aspx",
+   "https://www.oregon.gov/dor/forms/FormsPubs/form-or-cat-instr_106-003-1_2025.pdf",
+   "https://www.oregon.gov/dor/forms/FormsPubs/form-or-65_101-065_2022.pdf",
+   "https://www.oregon.gov/dor/forms/FormsPubs/Pub%20OR-OC_101-155_2022.pdf",
+   "https://www.oregon.gov/dor/forms/FormsPubs/form-or-oc_101-154_2022.pdf",
+   "https://www.oregon.gov/dor/forms/pages/2025.aspx"
+  ],
+  "error": ""
+ }
+]

@@ -1,0 +1,218 @@
+{
+  "code": "TX",
+  "name": "Texas",
+  "sections": {
+    "apportionment": {
+      "fields": [
+        {
+          "key": "method",
+          "label": "Apportionment method",
+          "value": "Texas apportions margin using a single-factor apportionment formula based entirely on gross receipts. The apportionment factor is calculated by dividing Texas gross receipts by gross receipts everywhere and rounded to four decimal places.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://comptroller.texas.gov/forms/05-158-a-20.pdf",
+          "source_citation": "05-158 Texas Franchise Tax 2020 Annual Report",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Gross receipts in Texas (Whole dollars only) 0 0 25.25."
+        },
+        {
+          "key": "special_industries",
+          "label": "Special industry rules",
+          "value": "Texas prescribes specialized apportionment rules for broadcasters, investment management services, internet hosting, financial institutions, transportation companies, and telecommunications providers.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://comptroller.texas.gov/transparency/reports/tax-exemptions-and-incidence/2025/96-463.pdf",
+          "source_citation": "96-463 Tax Exemptions and Tax Incidence",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Section 171.106(b) sources receipts from regulated investment company services to the domicile of the owners of the investment funds."
+        },
+        {
+          "key": "forms",
+          "label": "Forms",
+          "value": "Apportionment is computed on Form 05-158 (Page 2, Form 05-158-B) for standard filers or Form 05-169 for E-Z Computation filers. Combined groups report each affiliate's receipts on Form 05-166.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://comptroller.texas.gov/forms/05-914.pdf",
+          "source_citation": "Form 05-914, 2025 Franchise Tax Instructions",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Form 05-158-B Texas Franchise Tax Report – Page 2 Item 19."
+        }
+      ]
+    },
+    "nexus": {
+      "fields": [
+        {
+          "key": "income_nexus",
+          "label": "Income/franchise tax nexus",
+          "value": "Texas franchise tax nexus is established through physical presence, holding an active use tax permit, or having gross receipts from business done in Texas of $500,000 or more during a federal income tax accounting period. Gross receipts include all reportable federal revenue without deduction for costs.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://comptroller.texas.gov/taxes/sales/remote-sellers.php",
+          "source_citation": "Remote Sellers",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "A foreign (i.e., out-of-state) taxable entity with annual gross receipts of $500,000 or more from business in Texas has economic nexus even if the entity has no physical presence in this state."
+        },
+        {
+          "key": "sales_economic_nexus",
+          "label": "Sales/use tax: remote seller safe harbor",
+          "value": "Remote sellers with total Texas revenue under $500,000 in the preceding twelve calendar months need not obtain a permit or collect state and local use tax. Total Texas revenue includes taxable and nontaxable sales of tangible personal property and services into Texas, including sales for resale and to exempt entities.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://comptroller.texas.gov/taxes/sales/remote-sellers.php",
+          "source_citation": "Texas Comptroller, Remote Sellers",
+          "last_verified": "2026-10-07"
+        }
+      ]
+    },
+    "rates": {
+      "fields": [
+        {
+          "key": "corporate",
+          "label": "Franchise (margin) tax",
+          "value": "Report years 2026 and 2027: 0.75% (0.375% for retail or wholesale); no tax due at or below $2,650,000 of total revenue; compensation deduction limit $480,000; EZ computation 0.331% for total revenue up to $20 million.",
+          "years": [
+            2026
+          ],
+          "source_url": "https://comptroller.texas.gov/taxes/franchise/",
+          "source_citation": "Texas Comptroller, Franchise Tax - Tax Rates, Thresholds and Deduction Limits (2026 and 2027)",
+          "last_verified": "2026-10-07"
+        },
+        {
+          "key": "sales",
+          "label": "Sales and use tax",
+          "value": "State rate 6.25%. Cities, counties, special purpose districts and transit authorities may add up to 2%, for a maximum combined rate of 8.25%.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://comptroller.texas.gov/taxes/sales/",
+          "source_citation": "Texas Comptroller, Sales and Use Tax",
+          "last_verified": "2026-10-07"
+        },
+        {
+          "key": "corporate_prior",
+          "label": "Franchise (margin) tax",
+          "value": "Report years 2024 and 2025: 0.75% (0.375% for retail or wholesale); no tax due at or below $2,470,000 of total revenue; compensation deduction limit $450,000; EZ computation 0.331% for total revenue up to $20 million.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://comptroller.texas.gov/taxes/franchise/",
+          "source_citation": "Texas Comptroller, Franchise Tax - Tax Rates, Thresholds and Deduction Limits for Prior Years (2024 and 2025)",
+          "last_verified": "2026-10-07"
+        }
+      ]
+    },
+    "filing": {
+      "fields": [
+        {
+          "key": "business_due",
+          "label": "Business due dates and extensions",
+          "value": "Annual franchise tax reports are due on May 15. Filing Form 05-164 extends the filing deadline to November 15 for non-EFT filers who remit at least 90% of the current year tax or 100% of the prior year tax by May 15.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://comptroller.texas.gov/forms/05-392.pdf",
+          "source_citation": "05-392 Texas Franchise Tax Report Information and Instructions",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "ELECTRONIC FUNDS TRANSFER (EFT) An EFT filer may extend the filing due date from May 15 to August 15 by timely requesting an extension on Form 05- 164 and by remitting at least 90 percent of the tax that will be due with the report or 100 percent of the tax reported as due on the prior franchise tax report."
+        },
+        {
+          "key": "key_forms",
+          "label": "Key forms",
+          "value": "Key franchise tax forms include Form 05-158-A, Form 05-158-B, Form 05-169 EZ Computation Report, Form 05-102 Public Information Report, and Form 05-167 Ownership Information Report. Entities at or below the $2,470,000 No Tax Due threshold do not file a franchise tax report but must still file Form 05-102 or Form 05-167.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://comptroller.texas.gov/forms/05-914.pdf",
+          "source_citation": "Form 05-914, 2025 Franchise Tax Instructions",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "• All taxable entities involved in the tiered partnership election must file a franchise tax report, a Public Information Report (Form 05-102) or Ownership Information Report (Form 05- 167), and the Tiered Partnership Report (Form 05-175)."
+        },
+        {
+          "key": "franchise_due",
+          "label": "Franchise tax report due date and extension",
+          "value": "The annual franchise tax report is due May 15 (next business day if on a weekend or holiday). With a timely extension request and payment, the extended due date is November 15; entities required to pay by EFT follow a separate extension schedule.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://comptroller.texas.gov/taxes/franchise/filing-extensions.php",
+          "source_citation": "Texas Comptroller, Franchise Tax - Due Dates; Filing Extensions",
+          "last_verified": "2026-10-07"
+        },
+        {
+          "key": "report_year_note",
+          "label": "Report year vs. tax year",
+          "value": "Franchise tax figures are stated by report year. A report is filed in the year after the accounting period it is based on, so check which report year a client's period falls in before applying a threshold.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://comptroller.texas.gov/taxes/franchise/",
+          "source_citation": "Texas Comptroller, Franchise Tax ('rates, thresholds and deduction limits vary by report year')",
+          "last_verified": "2026-10-07"
+        }
+      ],
+      "due_rules": {
+        "years": [
+          2025,
+          2026
+        ],
+        "source_url": "https://comptroller.texas.gov/taxes/franchise/filing-extensions.php",
+        "source_citation": "Texas Comptroller, Franchise Tax - Due Dates; Filing Extensions",
+        "last_verified": "2026-10-07",
+        "entities": {
+          "c_corp": {
+            "form": "Franchise Tax Report",
+            "due": {
+              "fixed_month": 5,
+              "day": 15
+            },
+            "extended_due": {
+              "fixed_month": 11,
+              "day": 15
+            }
+          },
+          "s_corp": {
+            "form": "Franchise Tax Report",
+            "due": {
+              "fixed_month": 5,
+              "day": 15
+            },
+            "extended_due": {
+              "fixed_month": 11,
+              "day": 15
+            }
+          },
+          "partnership": {
+            "form": "Franchise Tax Report",
+            "due": {
+              "fixed_month": 5,
+              "day": 15
+            },
+            "extended_due": {
+              "fixed_month": 11,
+              "day": 15
+            },
+            "note": "Applies to taxable entities such as limited partnerships and LLCs; general partnerships owned entirely by natural persons are not taxable entities."
+          }
+        }
+      }
+    }
+  }
+}

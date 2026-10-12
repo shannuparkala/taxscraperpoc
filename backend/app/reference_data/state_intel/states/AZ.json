@@ -1,0 +1,48 @@
+{
+  "code": "AZ",
+  "name": "Arizona",
+  "sections": {
+    "apportionment": {
+      "fields": [
+        {
+          "key": "sourcing",
+          "label": "Sales sourcing (services and intangibles)",
+          "value": "Receipts from services and intangibles are sourced under the default cost of performance method based on where the income-producing activity is performed. Qualifying multistate service providers may elect market-based sourcing based on where the purchaser receives the benefit of the service.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.azleg.gov/ars/43/01147.htm",
+          "source_citation": "43-1147 - Situs of sales of other than tangible personal property; definitions",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "The income-producing activity is performed both in and outside this state and a greater proportion of the income-producing activity is performed in this state than in any other state, based on costs of performance."
+        }
+      ]
+    },
+    "nexus": {
+      "fields": [
+        {
+          "key": "sales_economic_nexus",
+          "label": "Sales/use tax: economic nexus",
+          "value": "Remote sellers establish economic nexus if gross proceeds of sales or gross income derived from remote retail sales to Arizona customers not facilitated by a marketplace facilitator exceed $100,000 in the previous or current calendar year. There is no transaction count threshold.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.azleg.gov/ars/42/05044.htm",
+          "source_citation": "42-5044 - Nexus; out-of-state businesses; threshold; applicability; rulemaking; reporting; definition",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "If the person is a marketplace facilitator, the gross proceeds of sales or gross income derived from the marketplace facilitator's business on its own behalf or on behalf of at least one marketplace seller with customers in this state pursuant to section 42-5061 is more than $100,000."
+        }
+      ]
+    },
+    "rates": {
+      "fields": []
+    },
+    "filing": {
+      "fields": []
+    }
+  }
+}

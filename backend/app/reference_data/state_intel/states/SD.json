@@ -1,0 +1,134 @@
+{
+  "code": "SD",
+  "name": "South Dakota",
+  "sections": {
+    "apportionment": {
+      "fields": [
+        {
+          "key": "method",
+          "label": "Apportionment method",
+          "value": "Financial institutions subject to the Bank Franchise Tax apportion net income using an equally weighted three-factor formula consisting of property, payroll, and receipts factors divided by 3. South Dakota imposes no general corporate income tax on other multistate business corporations.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://sdlegislature.gov/api/Statutes/10-43.html",
+          "source_citation": "SDLRC - Codified Law 10-43 - INCOME TAX ON BANKS AND FINANCIAL CORPORATIONS",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "…3-22.1 Tax limited to income from business within state--Formula for net income apportionment. 10-43-23 10-43-23 . Repealed by SL 1977, ch 96, § 20. 10-43-23.1 Property factor. 10-43-23.2 Valuation of property owned or rented--Net annual rental rate. 10-43-23.3 Average value determination. 10-43-24 10-43-24 . Repealed by SL 1977, ch 96, § 20. 10-43-24.1 Payroll factor. 10-…"
+        },
+        {
+          "key": "forms",
+          "label": "Forms",
+          "value": "Financial institutions calculate and report apportionment on the Bank Franchise Tax Return filed electronically through the Department of Revenue's online portal. Taxpayers must attach work papers calculating the apportionment factors to the return.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://dor.sd.gov/businesses/taxes/",
+          "source_citation": "Taxes | South Dakota Department of Revenue",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Learn More Taxes Telecommunication Emergency Surcharges & Fees Alcohol Amusement Machines Bank Franchise Tax Cigarette, Tobacco & Nicotine Products Coin Operated Washers & Dryers Contractor's Excise Tax Motor Fuel Municipal Tax Precious Metal & Energy Mineral Severance Taxes & Conservation Tax Property Tax Sales & Use Tax Tourism Tax Sturgis Motorcycle Rally Sturgis Motor Cycle Rally Find information, tax applications, licensing instructions and municipal tax rates for the Sturgis Motorcycle Ral"
+        }
+      ]
+    },
+    "nexus": {
+      "fields": [
+        {
+          "key": "income_nexus",
+          "label": "Income/franchise tax nexus",
+          "value": "South Dakota does not impose a general corporate income tax or general corporate franchise tax, meaning there are no corporate income economic nexus thresholds. A bank franchise tax applies only to financial institutions doing business or licensed to do business in the state.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://dor.sd.gov/businesses/taxes/bank-franchise-tax/",
+          "source_citation": "Bank Franchise Tax | South Dakota Department of Revenue",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "A financial institution is defined as any banking institution, production credit association, or savings and loan association organized under the laws of the United States and located or doing business in this state."
+        },
+        {
+          "key": "sales_economic_nexus",
+          "label": "Sales/use tax: economic nexus",
+          "value": "Remote sellers have economic nexus if gross revenue from sales delivered into South Dakota exceeds $100,000 in the previous or current calendar year. There is no transaction count threshold.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://dor.sd.gov/businesses/taxes/sales-use-tax/2023-legislative-updates/",
+          "source_citation": "2023 Legislative Updates | South Dakota Department of Revenue",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Only remote sellers with more than $100,000 in gross sales in South Dakota in the previous or current calendar year are required to be licensed and remit South Dakota sales tax."
+        }
+      ]
+    },
+    "rates": {
+      "fields": [
+        {
+          "key": "sales",
+          "label": "Sales and use tax",
+          "value": "The state sales and use tax rate is 4.2%. Municipalities may also impose local option sales and use taxes, generally ranging from 1% to 2%.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://dor.sd.gov/businesses/taxes/sales-use-tax/",
+          "source_citation": "Sales & Use Tax | South Dakota Department of Revenue",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "The state sales and use tax rate is 4.2%."
+        },
+        {
+          "key": "other_business",
+          "label": "Other notable business taxes",
+          "value": "A contractor's excise tax of 2% is imposed on the gross receipts of prime contractors engaged in construction services or realty improvement projects.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://dor.sd.gov/businesses/taxes/contractors-excise-tax/",
+          "source_citation": "Contractor's Excise Tax | South Dakota Department of Revenue",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Qualified Utility Projects A 2% contractor’s excise tax is imposed on the gross receipts of all prime contractors and subcontractors engaged in construction services or reality improvement projects."
+        }
+      ]
+    },
+    "filing": {
+      "fields": [
+        {
+          "key": "business_due",
+          "label": "Business due dates and extensions",
+          "value": "South Dakota imposes no general corporate or pass-through income tax, but financial institutions subject to the Bank Franchise Tax must file returns within 15 days after the federal return is due. An extension of up to 6 months may be granted if requested by the original due date with a federal extension copy and estimated tax payment.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://dor.sd.gov/media/1gxpk4ck/2024-7_sales-use-tax-guide.pdf",
+          "source_citation": "https://dor.sd.gov/media/1gxpk4ck/2024-7_sales-use-tax-guide.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "A controlled group is defined as any corporations or other entities eligible to file a consolidated federal income tax return, or entitled to only a single surtax exemption for federal corporate income tax purposes, and includes a controlled group of corporations as defined at 26 U.S.C."
+        },
+        {
+          "key": "key_forms",
+          "label": "Key forms",
+          "value": "South Dakota does not have individual, corporate, or pass-through income tax return forms. Financial institutions file the Bank Franchise Tax return electronically through the Department of Revenue's online Filing and Payment portal.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://dor.sd.gov/businesses/taxes/bank-franchise-tax/",
+          "source_citation": "Bank Franchise Tax | South Dakota Department of Revenue",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Bank Franchise Tax | South Dakota Department of Revenue Skip to main content What Can We Do For You Today? Search DOR.GOV.SD Choose a filter to refine your search All dor.sd.gov Pages Forms / Resources Close search Pages Forms / Resources All dor.sd.gov Site navigation Individuals Gaming Gaming for Individuals Find information about the South Dakota Commission on Gaming, laws, regulations and the seven types of gaming licenses issued to the general public."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "code": "PA",
+  "name": "Pennsylvania",
+  "sections": {
+    "apportionment": {
+      "fields": [
+        {
+          "key": "special_industries",
+          "label": "Special industry rules",
+          "value": "Special apportionment formulas apply to railroad, truck, bus, airline, and inland water transportation companies based on revenue miles, and to pipeline and natural gas companies based on revenue ton, barrel, or cubic feet miles. Satellite television service providers are also subject to special statutory provisions.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/corporationtax/documents/2024/2024_rev-1200.pdf",
+          "source_citation": "2024 PA Corporate Net Income Tax - CT-1 Instructions (REV-1200)",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "14 Water Transportation Companies Operating on High Seas ."
+        },
+        {
+          "key": "forms",
+          "label": "Forms",
+          "value": "Apportionment is reported on Form RCT-101, Page 2, Section B: Schedule C-1. Form RCT-106 is attached as a supporting insert schedule detailing the apportionment calculation.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/corporationtax/documents/2024/2024_rev-1200.pdf",
+          "source_citation": "2024 PA Corporate Net Income Tax - CT-1 Instructions (REV-1200)",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Specifically, entities claiming exemption from the tax may enter zeros on Page 2, Section C, a zero on Line 1A of Schedule C-1 and a “1” on Line 1B of Schedule C-1 of the RCT-101."
+        }
+      ]
+    },
+    "nexus": {
+      "fields": [
+        {
+          "key": "income_nexus",
+          "label": "Income/franchise tax nexus",
+          "value": "Corporate Net Income Tax nexus is established by doing business, employing capital or owning property in Pennsylvania, or having substantial nexus. There is a rebuttable presumption of substantial nexus without regard to physical presence for corporations with $500,000 or more of Pennsylvania-sourced sales in the current tax year.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/news-and-statistics/reportsstats/taxcompendium/documents/2025_tax_compendium.pdf",
+          "source_citation": "The Tax Compendium - March 2025 (DOP-03)",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Corporation Tax Bulletin 2019-04 introduced a rebuttable presumption that corporations without any physical presence in Pennsylvania, but with $500,000 or more of gross receipts per year sourced to Pennsylvania, are subject to Corporate Net Income Tax."
+        },
+        {
+          "key": "pl_86_272",
+          "label": "P.L. 86-272",
+          "value": "P.L. 86-272 protects corporations whose in-state activities are limited to solicitation of orders for sales of tangible personal property approved and filled from outside the Commonwealth, even if sales meet or exceed $500,000. However, exempt entities retain a filing nexus requirement and must submit Form RCT-101 and Form REV-986 to claim the exemption.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/corporationtax/documents/2025/2025_rev-1200.pdf",
+          "source_citation": "2025 PA Corporate Net Income Tax - CT-1 Instructions (REV-1200)",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "86-272 Protection – Corporations which sell tangible personal property and meet the activity limitations contained in P.L."
+        }
+      ]
+    },
+    "rates": {
+      "fields": [
+        {
+          "key": "corporate",
+          "label": "Corporate income/franchise tax",
+          "value": "The Corporate Net Income Tax rate is 7.99% for tax year 2025, and there is no minimum tax. The Capital Stock and Foreign Franchise Tax has been eliminated.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.pa.gov/agencies/revenue/resources/tax-rates/corporation-tax-rates",
+          "source_citation": "Corporation Tax Rates | Department of Revenue | Commonwealth of Pennsylvania",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "…ntary Compliance and Taxpayer Confidentiality Agencies Department of Revenue Resources Tax Rates Corporation Tax Rates Tax Rates Corporation Tax Rates Tax Rate Corporate Net Income Tax ​January 1, 2023 through December 31, 2023 ​8.99 percent ​January 1, 2024 through December 31, 2024 ​8.49 percent ​​January 1, 2025 through December 31, 2025 ​7.99 percent ​​January 1, 2026 through D…"
+        },
+        {
+          "key": "corporate",
+          "label": "Corporate income/franchise tax",
+          "value": "The Corporate Net Income Tax rate is 7.49% for tax year 2026, and there is no minimum tax.",
+          "years": [
+            2026
+          ],
+          "source_url": "https://www.pa.gov/agencies/revenue/resources/tax-rates/corporation-tax-rates",
+          "source_citation": "Corporation Tax Rates | Department of Revenue | Commonwealth of Pennsylvania",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "…ntary Compliance and Taxpayer Confidentiality Agencies Department of Revenue Resources Tax Rates Corporation Tax Rates Tax Rates Corporation Tax Rates Tax Rate Corporate Net Income Tax ​January 1, 2023 through December 31, 2023 ​8.99 percent ​January 1, 2024 through December 31, 2024 ​8.49 percent ​​January 1, 2025 through December 31, 2025 ​7.99 percent ​​January 1, 2026 through D…"
+        },
+        {
+          "key": "sales",
+          "label": "Sales and use tax",
+          "value": "The state sales and use tax rate is 6%. Local jurisdictions add rates in Allegheny County (1% local tax, 7% total) and Philadelphia (2% local tax, 8% total).",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/news-and-statistics/reportsstats/taxcompendium/documents/2017_tax_compendium.pdf",
+          "source_citation": "The Tax Compendium - March 2017",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "In addition, Act 44 of 2009 increased the Philadelphia sales and use tax rate from 1 percent to 2 percent from October 8, 2009 to June 30, 2014."
+        },
+        {
+          "key": "other_business",
+          "label": "Other notable business taxes",
+          "value": "Pennsylvania levies a Gross Receipts Tax on electric suppliers (59 mills), telecommunications (50 mills), and transportation (50 mills). Additionally, a 2% Gross Premiums Tax applies to insurance companies.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/news-and-statistics/reportsstats/taxcompendium/documents/2017_tax_compendium.pdf",
+          "source_citation": "The Tax Compendium - March 2017",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Report is due by the 10th day after the month for which they are prepared Corporate Net Income 9.99% Corporations doing business in Pennsylvania Due 30 days after the Federal report is due or would be due if required to file federally Insurance Premiums 2% of gross premiums, with certain exceptions Domestic and foreign insurance companies April 15th of each year Gross Receipts 50 mills, except electric companies at 59 mills Certain electric, telecommunications, and transportation companies and M"
+        }
+      ]
+    },
+    "filing": {
+      "fields": [
+        {
+          "key": "key_forms",
+          "label": "Key forms",
+          "value": "The main Pennsylvania individual income tax return is Form PA-40.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/pit/documents/2025/2025_pa-40in.pdf",
+          "source_citation": "2025 Pennsylvania Personal Income Tax Return Instructions (PA-40 IN)",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "• Using PA Payment Voucher (Form PA-40 V) and payment."
+        }
+      ]
+    }
+  }
+}

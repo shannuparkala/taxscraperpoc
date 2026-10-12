@@ -1,0 +1,783 @@
+{
+  "year": 2024,
+  "_comment": "Generated from app/services/tax_engine/tax_authority.py. Every figure carries an authority key into 'authorities'. 'verify': true means the value was not read out of the cited document and must be confirmed against the 2025 IRS instructions before it is relied on.",
+  "authorities": {
+    "RP_2023_34": {
+      "citation": "Rev. Proc. 2023-34 (2024 inflation adjustments)",
+      "url": "https://www.irs.gov/pub/irs-drop/rp-23-34.pdf",
+      "kind": "Revenue Procedure"
+    },
+    "SSA_WAGE_BASE": {
+      "citation": "Social Security Administration, Contribution and Benefit Base",
+      "url": "https://www.ssa.gov/oact/cola/cbb.html",
+      "kind": "Agency"
+    },
+    "I1040_2025": {
+      "citation": "2025 Instructions for Form 1040",
+      "url": "https://www.irs.gov/instructions/i1040gi",
+      "kind": "Form Instruction"
+    }
+  },
+  "ordinary_brackets": {
+    "single": [
+      [
+        "0.10",
+        "0",
+        "11600"
+      ],
+      [
+        "0.12",
+        "11600",
+        "47150"
+      ],
+      [
+        "0.22",
+        "47150",
+        "100525"
+      ],
+      [
+        "0.24",
+        "100525",
+        "191950"
+      ],
+      [
+        "0.32",
+        "191950",
+        "243725"
+      ],
+      [
+        "0.35",
+        "243725",
+        "609350"
+      ],
+      [
+        "0.37",
+        "609350",
+        null
+      ]
+    ],
+    "married_joint": [
+      [
+        "0.10",
+        "0",
+        "23200"
+      ],
+      [
+        "0.12",
+        "23200",
+        "94300"
+      ],
+      [
+        "0.22",
+        "94300",
+        "201050"
+      ],
+      [
+        "0.24",
+        "201050",
+        "383900"
+      ],
+      [
+        "0.32",
+        "383900",
+        "487450"
+      ],
+      [
+        "0.35",
+        "487450",
+        "731200"
+      ],
+      [
+        "0.37",
+        "731200",
+        null
+      ]
+    ],
+    "married_separate": [
+      [
+        "0.10",
+        "0",
+        "11600"
+      ],
+      [
+        "0.12",
+        "11600",
+        "47150"
+      ],
+      [
+        "0.22",
+        "47150",
+        "100525"
+      ],
+      [
+        "0.24",
+        "100525",
+        "191950"
+      ],
+      [
+        "0.32",
+        "191950",
+        "243725"
+      ],
+      [
+        "0.35",
+        "243725",
+        "365600"
+      ],
+      [
+        "0.37",
+        "365600",
+        null
+      ]
+    ],
+    "head_of_household": [
+      [
+        "0.10",
+        "0",
+        "16550"
+      ],
+      [
+        "0.12",
+        "16550",
+        "63100"
+      ],
+      [
+        "0.22",
+        "63100",
+        "100500"
+      ],
+      [
+        "0.24",
+        "100500",
+        "191950"
+      ],
+      [
+        "0.32",
+        "191950",
+        "243700"
+      ],
+      [
+        "0.35",
+        "243700",
+        "609350"
+      ],
+      [
+        "0.37",
+        "609350",
+        null
+      ]
+    ]
+  },
+  "bracket_authority": "RP_2023_34",
+  "capital_gain_brackets": {
+    "single": [
+      [
+        "0.00",
+        "47025"
+      ],
+      [
+        "0.15",
+        "518900"
+      ],
+      [
+        "0.20",
+        null
+      ]
+    ],
+    "married_joint": [
+      [
+        "0.00",
+        "94050"
+      ],
+      [
+        "0.15",
+        "583750"
+      ],
+      [
+        "0.20",
+        null
+      ]
+    ],
+    "married_separate": [
+      [
+        "0.00",
+        "47025"
+      ],
+      [
+        "0.15",
+        "291850"
+      ],
+      [
+        "0.20",
+        null
+      ]
+    ],
+    "head_of_household": [
+      [
+        "0.00",
+        "63000"
+      ],
+      [
+        "0.15",
+        "551350"
+      ],
+      [
+        "0.20",
+        null
+      ]
+    ]
+  },
+  "capital_gain_authority": "RP_2023_34",
+  "standard_deduction": {
+    "single": {
+      "value": "14600",
+      "authority": "RP_2023_34",
+      "imposed_by": "63(c)(2)"
+    },
+    "married_joint": {
+      "value": "29200",
+      "authority": "RP_2023_34",
+      "imposed_by": "63(c)(2)"
+    },
+    "married_separate": {
+      "value": "14600",
+      "authority": "RP_2023_34",
+      "imposed_by": "63(c)(2)"
+    },
+    "head_of_household": {
+      "value": "21900",
+      "authority": "RP_2023_34",
+      "imposed_by": "63(c)(2)"
+    }
+  },
+  "additional_standard_deduction": {
+    "single_or_hoh": {
+      "value": "1950",
+      "authority": "RP_2023_34",
+      "imposed_by": "63(f)"
+    },
+    "married": {
+      "value": "1550",
+      "authority": "RP_2023_34",
+      "imposed_by": "63(f)"
+    }
+  },
+  "dependent_standard_deduction_floor": {
+    "value": "1300",
+    "authority": "RP_2023_34",
+    "imposed_by": "63(c)(5)"
+  },
+  "dependent_standard_deduction_earned_addition": {
+    "value": "450",
+    "authority": "RP_2023_34",
+    "imposed_by": "63(c)(5)"
+  },
+  "scalars": {
+    "actc_earned_income_floor": {
+      "value": "2500",
+      "authority": {
+        "citation": "IRC \u00a724",
+        "url": "https://www.law.cornell.edu/uscode/text/26/24",
+        "kind": "IRC"
+      },
+      "imposed_by": "24(h)(6)"
+    },
+    "actc_rate": {
+      "value": "0.15",
+      "authority": {
+        "citation": "IRC \u00a724",
+        "url": "https://www.law.cornell.edu/uscode/text/26/24",
+        "kind": "IRC"
+      },
+      "imposed_by": "24(d)(1)(B)(i)"
+    },
+    "additional_medicare_rate": {
+      "value": "0.009",
+      "authority": {
+        "citation": "IRC \u00a73101",
+        "url": "https://www.law.cornell.edu/uscode/text/26/3101",
+        "kind": "IRC"
+      },
+      "imposed_by": "3101(b)(2)"
+    },
+    "additional_medicare_threshold_joint": {
+      "value": "250000",
+      "authority": {
+        "citation": "IRC \u00a73101",
+        "url": "https://www.law.cornell.edu/uscode/text/26/3101",
+        "kind": "IRC"
+      },
+      "imposed_by": "3101(b)(2)"
+    },
+    "additional_medicare_threshold_mfs": {
+      "value": "125000",
+      "authority": {
+        "citation": "IRC \u00a73101",
+        "url": "https://www.law.cornell.edu/uscode/text/26/3101",
+        "kind": "IRC"
+      },
+      "imposed_by": "3101(b)(2)"
+    },
+    "additional_medicare_threshold_single": {
+      "value": "200000",
+      "authority": {
+        "citation": "IRC \u00a73101",
+        "url": "https://www.law.cornell.edu/uscode/text/26/3101",
+        "kind": "IRC"
+      },
+      "imposed_by": "3101(b)(2)"
+    },
+    "capital_loss_deduction": {
+      "value": "3000",
+      "authority": {
+        "citation": "IRC \u00a71211",
+        "url": "https://www.law.cornell.edu/uscode/text/26/1211",
+        "kind": "IRC"
+      },
+      "imposed_by": "1211(b)"
+    },
+    "capital_loss_deduction_mfs": {
+      "value": "1500",
+      "authority": {
+        "citation": "IRC \u00a71211",
+        "url": "https://www.law.cornell.edu/uscode/text/26/1211",
+        "kind": "IRC"
+      },
+      "imposed_by": "1211(b)"
+    },
+    "charitable_agi_ceiling_cash": {
+      "value": "0.60",
+      "authority": {
+        "citation": "IRC \u00a7170",
+        "url": "https://www.law.cornell.edu/uscode/text/26/170",
+        "kind": "IRC"
+      },
+      "imposed_by": "170(b)(1)(G)"
+    },
+    "child_tax_credit": {
+      "value": "2000",
+      "authority": {
+        "citation": "IRC \u00a724",
+        "url": "https://www.law.cornell.edu/uscode/text/26/24",
+        "kind": "IRC"
+      },
+      "imposed_by": "24(h)(2)"
+    },
+    "child_tax_credit_refundable_cap": {
+      "value": "1700",
+      "authority": "RP_2023_34",
+      "imposed_by": "24(h)(5)"
+    },
+    "ctc_max_age": {
+      "value": "17",
+      "authority": {
+        "citation": "IRC \u00a724",
+        "url": "https://www.law.cornell.edu/uscode/text/26/24",
+        "kind": "IRC"
+      },
+      "imposed_by": "24(c)(1)",
+      "note": "Child must be under 17 at the close of the year."
+    },
+    "ctc_phaseout_joint": {
+      "value": "400000",
+      "authority": {
+        "citation": "IRC \u00a724",
+        "url": "https://www.law.cornell.edu/uscode/text/26/24",
+        "kind": "IRC"
+      },
+      "imposed_by": "24(b)(2)"
+    },
+    "ctc_phaseout_rate": {
+      "value": "50",
+      "authority": {
+        "citation": "IRC \u00a724",
+        "url": "https://www.law.cornell.edu/uscode/text/26/24",
+        "kind": "IRC"
+      },
+      "imposed_by": "24(b)(1)"
+    },
+    "ctc_phaseout_single": {
+      "value": "200000",
+      "authority": {
+        "citation": "IRC \u00a724",
+        "url": "https://www.law.cornell.edu/uscode/text/26/24",
+        "kind": "IRC"
+      },
+      "imposed_by": "24(b)(2)"
+    },
+    "educator_expense_cap": {
+      "value": "300",
+      "authority": "RP_2023_34",
+      "imposed_by": "62(a)(2)(D)"
+    },
+    "eitc_investment_income_limit": {
+      "value": "11600",
+      "authority": "RP_2023_34",
+      "imposed_by": "32(i)"
+    },
+    "medical_agi_floor": {
+      "value": "0.075",
+      "authority": {
+        "citation": "IRC \u00a7213",
+        "url": "https://www.law.cornell.edu/uscode/text/26/213",
+        "kind": "IRC"
+      },
+      "imposed_by": "213(a)"
+    },
+    "medicare_rate": {
+      "value": "0.0145",
+      "authority": {
+        "citation": "IRC \u00a73101",
+        "url": "https://www.law.cornell.edu/uscode/text/26/3101",
+        "kind": "IRC"
+      },
+      "imposed_by": "3101(b)(1)"
+    },
+    "niit_rate": {
+      "value": "0.038",
+      "authority": {
+        "citation": "IRC \u00a71411",
+        "url": "https://www.law.cornell.edu/uscode/text/26/1411",
+        "kind": "IRC"
+      },
+      "imposed_by": "1411(a)(1)"
+    },
+    "niit_threshold_joint": {
+      "value": "250000",
+      "authority": {
+        "citation": "IRC \u00a71411",
+        "url": "https://www.law.cornell.edu/uscode/text/26/1411",
+        "kind": "IRC"
+      },
+      "imposed_by": "1411(b)"
+    },
+    "niit_threshold_mfs": {
+      "value": "125000",
+      "authority": {
+        "citation": "IRC \u00a71411",
+        "url": "https://www.law.cornell.edu/uscode/text/26/1411",
+        "kind": "IRC"
+      },
+      "imposed_by": "1411(b)"
+    },
+    "niit_threshold_single": {
+      "value": "200000",
+      "authority": {
+        "citation": "IRC \u00a71411",
+        "url": "https://www.law.cornell.edu/uscode/text/26/1411",
+        "kind": "IRC"
+      },
+      "imposed_by": "1411(b)"
+    },
+    "other_dependent_credit": {
+      "value": "500",
+      "authority": {
+        "citation": "IRC \u00a724",
+        "url": "https://www.law.cornell.edu/uscode/text/26/24",
+        "kind": "IRC"
+      },
+      "imposed_by": "24(h)(4)"
+    },
+    "qbi_phasein_range_joint": {
+      "value": "100000",
+      "authority": {
+        "citation": "IRC \u00a7199A",
+        "url": "https://www.law.cornell.edu/uscode/text/26/199A",
+        "kind": "IRC"
+      },
+      "imposed_by": "199A(b)(3)(B)"
+    },
+    "qbi_phasein_range_single": {
+      "value": "50000",
+      "authority": {
+        "citation": "IRC \u00a7199A",
+        "url": "https://www.law.cornell.edu/uscode/text/26/199A",
+        "kind": "IRC"
+      },
+      "imposed_by": "199A(b)(3)(B)"
+    },
+    "qbi_rate": {
+      "value": "0.20",
+      "authority": {
+        "citation": "IRC \u00a7199A",
+        "url": "https://www.law.cornell.edu/uscode/text/26/199A",
+        "kind": "IRC"
+      },
+      "imposed_by": "199A(a)"
+    },
+    "qbi_threshold_joint": {
+      "value": "383900",
+      "authority": "RP_2023_34",
+      "imposed_by": "199A(e)(2)"
+    },
+    "qbi_threshold_single": {
+      "value": "191950",
+      "authority": "RP_2023_34",
+      "imposed_by": "199A(e)(2)"
+    },
+    "salt_cap": {
+      "value": "10000",
+      "authority": {
+        "citation": "IRC \u00a7164",
+        "url": "https://www.law.cornell.edu/uscode/text/26/164",
+        "kind": "IRC"
+      },
+      "imposed_by": "164(b)(6)"
+    },
+    "salt_cap_floor": {
+      "value": "10000",
+      "authority": {
+        "citation": "IRC \u00a7164",
+        "url": "https://www.law.cornell.edu/uscode/text/26/164",
+        "kind": "IRC"
+      },
+      "imposed_by": "164(b)(6)"
+    },
+    "salt_cap_married_separate": {
+      "value": "5000",
+      "authority": {
+        "citation": "IRC \u00a7164",
+        "url": "https://www.law.cornell.edu/uscode/text/26/164",
+        "kind": "IRC"
+      },
+      "imposed_by": "164(b)(6)"
+    },
+    "salt_phasedown_rate": {
+      "value": "0",
+      "authority": {
+        "citation": "IRC \u00a7164",
+        "url": "https://www.law.cornell.edu/uscode/text/26/164",
+        "kind": "IRC"
+      },
+      "imposed_by": "164(b)(6)"
+    },
+    "salt_phasedown_threshold": {
+      "value": "0",
+      "authority": {
+        "citation": "IRC \u00a7164",
+        "url": "https://www.law.cornell.edu/uscode/text/26/164",
+        "kind": "IRC"
+      },
+      "imposed_by": "164(b)(6)",
+      "note": "No phase-down before 2025."
+    },
+    "se_minimum_earnings": {
+      "value": "400",
+      "authority": {
+        "citation": "IRC \u00a71402",
+        "url": "https://www.law.cornell.edu/uscode/text/26/1402",
+        "kind": "IRC"
+      },
+      "imposed_by": "1402(b)(2)"
+    },
+    "se_net_earnings_rate": {
+      "value": "0.9235",
+      "authority": {
+        "citation": "IRC \u00a71402",
+        "url": "https://www.law.cornell.edu/uscode/text/26/1402",
+        "kind": "IRC"
+      },
+      "imposed_by": "1402(a)(12)"
+    },
+    "senior_deduction_amount": {
+      "value": "0",
+      "authority": {
+        "citation": "IRC \u00a763",
+        "url": "https://www.law.cornell.edu/uscode/text/26/63",
+        "kind": "IRC"
+      },
+      "note": "Did not exist before 2025."
+    },
+    "social_security_rate": {
+      "value": "0.062",
+      "authority": {
+        "citation": "IRC \u00a73101",
+        "url": "https://www.law.cornell.edu/uscode/text/26/3101",
+        "kind": "IRC"
+      },
+      "imposed_by": "3101(a)"
+    },
+    "social_security_wage_base": {
+      "value": "168600",
+      "authority": "SSA_WAGE_BASE",
+      "imposed_by": "3121(a)(1)"
+    },
+    "student_loan_interest_cap": {
+      "value": "2500",
+      "authority": {
+        "citation": "IRC \u00a7221",
+        "url": "https://www.law.cornell.edu/uscode/text/26/221",
+        "kind": "IRC"
+      },
+      "imposed_by": "221(b)(1)"
+    },
+    "tax_table_ceiling": {
+      "value": "100000",
+      "authority": "I1040_2025",
+      "imposed_by": "3",
+      "note": "Below this, the Tax Table is mandatory."
+    }
+  },
+  "eitc": {
+    "0": {
+      "credit_rate": {
+        "value": "0.0765",
+        "authority": {
+          "citation": "IRC \u00a732",
+          "url": "https://www.law.cornell.edu/uscode/text/26/32",
+          "kind": "IRC"
+        },
+        "imposed_by": "32(b)(1)"
+      },
+      "earned_income_amount": {
+        "value": "8260",
+        "authority": "RP_2023_34",
+        "imposed_by": "32(b)"
+      },
+      "max_credit": {
+        "value": "632",
+        "authority": "RP_2023_34",
+        "imposed_by": "32(b)"
+      },
+      "phaseout_rate": {
+        "value": "0.0765",
+        "authority": {
+          "citation": "IRC \u00a732",
+          "url": "https://www.law.cornell.edu/uscode/text/26/32",
+          "kind": "IRC"
+        },
+        "imposed_by": "32(b)(1)"
+      },
+      "threshold_joint": {
+        "value": "17250",
+        "authority": "RP_2023_34",
+        "imposed_by": "32(b)"
+      },
+      "threshold_single": {
+        "value": "10330",
+        "authority": "RP_2023_34",
+        "imposed_by": "32(b)"
+      }
+    },
+    "1": {
+      "credit_rate": {
+        "value": "0.34",
+        "authority": {
+          "citation": "IRC \u00a732",
+          "url": "https://www.law.cornell.edu/uscode/text/26/32",
+          "kind": "IRC"
+        },
+        "imposed_by": "32(b)(1)"
+      },
+      "earned_income_amount": {
+        "value": "12390",
+        "authority": "RP_2023_34",
+        "imposed_by": "32(b)"
+      },
+      "max_credit": {
+        "value": "4213",
+        "authority": "RP_2023_34",
+        "imposed_by": "32(b)"
+      },
+      "phaseout_rate": {
+        "value": "0.1598",
+        "authority": {
+          "citation": "IRC \u00a732",
+          "url": "https://www.law.cornell.edu/uscode/text/26/32",
+          "kind": "IRC"
+        },
+        "imposed_by": "32(b)(1)"
+      },
+      "threshold_joint": {
+        "value": "29640",
+        "authority": "RP_2023_34",
+        "imposed_by": "32(b)"
+      },
+      "threshold_single": {
+        "value": "22720",
+        "authority": "RP_2023_34",
+        "imposed_by": "32(b)"
+      }
+    },
+    "2": {
+      "credit_rate": {
+        "value": "0.40",
+        "authority": {
+          "citation": "IRC \u00a732",
+          "url": "https://www.law.cornell.edu/uscode/text/26/32",
+          "kind": "IRC"
+        },
+        "imposed_by": "32(b)(1)"
+      },
+      "earned_income_amount": {
+        "value": "17400",
+        "authority": "RP_2023_34",
+        "imposed_by": "32(b)"
+      },
+      "max_credit": {
+        "value": "6960",
+        "authority": "RP_2023_34",
+        "imposed_by": "32(b)"
+      },
+      "phaseout_rate": {
+        "value": "0.2106",
+        "authority": {
+          "citation": "IRC \u00a732",
+          "url": "https://www.law.cornell.edu/uscode/text/26/32",
+          "kind": "IRC"
+        },
+        "imposed_by": "32(b)(1)"
+      },
+      "threshold_joint": {
+        "value": "29640",
+        "authority": "RP_2023_34",
+        "imposed_by": "32(b)"
+      },
+      "threshold_single": {
+        "value": "22720",
+        "authority": "RP_2023_34",
+        "imposed_by": "32(b)"
+      }
+    },
+    "3": {
+      "credit_rate": {
+        "value": "0.45",
+        "authority": {
+          "citation": "IRC \u00a732",
+          "url": "https://www.law.cornell.edu/uscode/text/26/32",
+          "kind": "IRC"
+        },
+        "imposed_by": "32(b)(1)"
+      },
+      "earned_income_amount": {
+        "value": "17400",
+        "authority": "RP_2023_34",
+        "imposed_by": "32(b)"
+      },
+      "max_credit": {
+        "value": "7830",
+        "authority": "RP_2023_34",
+        "imposed_by": "32(b)"
+      },
+      "phaseout_rate": {
+        "value": "0.2106",
+        "authority": {
+          "citation": "IRC \u00a732",
+          "url": "https://www.law.cornell.edu/uscode/text/26/32",
+          "kind": "IRC"
+        },
+        "imposed_by": "32(b)(1)"
+      },
+      "threshold_joint": {
+        "value": "29640",
+        "authority": "RP_2023_34",
+        "imposed_by": "32(b)"
+      },
+      "threshold_single": {
+        "value": "22720",
+        "authority": "RP_2023_34",
+        "imposed_by": "32(b)"
+      }
+    }
+  }
+}

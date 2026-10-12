@@ -1,0 +1,41 @@
+{
+  "_comment": "Legal holidays that move a federal tax due date. IRC 7503: a deadline falling on a Saturday, Sunday or legal holiday moves to the next day that is none of those, and 'legal holiday' means a legal holiday in the District of Columbia (plus, for returns filed at an office outside DC, a statewide holiday of that state - not modelled here; state holidays belong to the state's own rules). DC legal holidays are the federal holidays of 5 U.S.C. 6103 plus DC Emancipation Day (DC Code 1-612.02). Observed-day rule: Saturday -> preceding Friday, Sunday -> following Monday (5 U.S.C. 6103(b); EO 11582 s.3(a); DC Code 1-612.02(b)(1)). The IRS has applied the observed day: in 2011 Emancipation Day (Sat 16 Apr) was observed Fri 15 Apr and the filing deadline moved to Mon 18 Apr. Rules, not dates, so the file never runs out; tests pin the generated dates for several years against OPM's published schedules.",
+  "version": "2026-10-07",
+  "last_verified": "2026-10-07",
+  "sources": [
+    {
+      "id": "irc7503",
+      "title": "26 U.S.C. 7503 - Time for performance of acts where last day falls on Saturday, Sunday, or legal holiday",
+      "url": "https://www.law.cornell.edu/uscode/text/26/7503"
+    },
+    {
+      "id": "opm",
+      "title": "OPM - Federal Holidays (schedules and the Saturday/Sunday in-lieu-of rule, 5 U.S.C. 6103(b), EO 11582)",
+      "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+    },
+    {
+      "id": "dc1-612.02",
+      "title": "DC Code 1-612.02 - Legal public holidays (adds DC Emancipation Day, April 16)",
+      "url": "https://code.dccouncil.gov/us/dc/council/code/sections/1-612.02"
+    }
+  ],
+  "observance": {
+    "saturday": "previous_friday",
+    "sunday": "next_monday"
+  },
+  "holidays": [
+    {"id": "new_years_day", "name": "New Year's Day", "rule": {"type": "fixed", "month": 1, "day": 1}, "observed": true, "source_id": "opm"},
+    {"id": "mlk_day", "name": "Birthday of Martin Luther King, Jr.", "rule": {"type": "nth_weekday", "month": 1, "weekday": 0, "n": 3}, "observed": false, "source_id": "opm"},
+    {"id": "inauguration_day", "name": "Inauguration Day (DC area)", "rule": {"type": "fixed", "month": 1, "day": 20, "every_years": 4, "base_year": 2025}, "observed": "sunday_only", "source_id": "opm", "note": "A DC legal holiday in inauguration years only (5 U.S.C. 6103(c)); moved to Monday when it falls on a Sunday."},
+    {"id": "washingtons_birthday", "name": "Washington's Birthday", "rule": {"type": "nth_weekday", "month": 2, "weekday": 0, "n": 3}, "observed": false, "source_id": "opm"},
+    {"id": "dc_emancipation_day", "name": "District of Columbia Emancipation Day", "rule": {"type": "fixed", "month": 4, "day": 16}, "observed": true, "effective_from": 2007, "source_id": "dc1-612.02", "note": "Why the April deadline sometimes moves past the 15th even on a weekday (e.g. 2016, 2017, 2022)."},
+    {"id": "memorial_day", "name": "Memorial Day", "rule": {"type": "nth_weekday", "month": 5, "weekday": 0, "n": -1}, "observed": false, "source_id": "opm"},
+    {"id": "juneteenth", "name": "Juneteenth National Independence Day", "rule": {"type": "fixed", "month": 6, "day": 19}, "observed": true, "effective_from": 2021, "source_id": "opm"},
+    {"id": "independence_day", "name": "Independence Day", "rule": {"type": "fixed", "month": 7, "day": 4}, "observed": true, "source_id": "opm"},
+    {"id": "labor_day", "name": "Labor Day", "rule": {"type": "nth_weekday", "month": 9, "weekday": 0, "n": 1}, "observed": false, "source_id": "opm"},
+    {"id": "columbus_day", "name": "Columbus Day", "rule": {"type": "nth_weekday", "month": 10, "weekday": 0, "n": 2}, "observed": false, "source_id": "opm"},
+    {"id": "veterans_day", "name": "Veterans Day", "rule": {"type": "fixed", "month": 11, "day": 11}, "observed": true, "source_id": "opm"},
+    {"id": "thanksgiving_day", "name": "Thanksgiving Day", "rule": {"type": "nth_weekday", "month": 11, "weekday": 3, "n": 4}, "observed": false, "source_id": "opm"},
+    {"id": "christmas_day", "name": "Christmas Day", "rule": {"type": "fixed", "month": 12, "day": 25}, "observed": true, "source_id": "opm"}
+  ]
+}

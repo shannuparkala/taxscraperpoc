@@ -1,0 +1,30 @@
+{
+  "_comment": "LLM token prices. Edit this file, not code. Rates are USD per 1,000,000 tokens, Gemini API paid tier, Standard. 'output' includes thinking tokens, as the provider bills them. Context-cache storage (per token-hour) is not listed: this app creates no explicit caches, so only the cached-input read rate applies. A model missing here is reported as unpriced, never estimated.",
+  "source": "https://ai.google.dev/gemini-api/docs/pricing",
+  "page_updated": "2026-09-22",
+  "retrieved": "2026-09-23",
+  "currency": "USD",
+  "per_tokens": 1000000,
+  "models": {
+    "gemini-3.5-flash-lite": [
+      {"input": "0.30", "output": "2.50", "cached_input": "0.03"}
+    ],
+    "gemini-3.6-flash": [
+      {"to": "2026-12-31", "input": "0.75", "output": "3.75", "cached_input": "0.075"},
+      {"from": "2027-01-01", "input": "1.50", "output": "7.50", "cached_input": "0.15"}
+    ],
+    "gemini-3.1-pro-preview": [
+      {
+        "input": "2.00",
+        "output": "12.00",
+        "cached_input": "0.20",
+        "long_context": {
+          "over_prompt_tokens": 200000,
+          "input": "4.00",
+          "output": "18.00",
+          "cached_input": "0.40"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,525 @@
+[
+ {
+  "state": "CA",
+  "section": "apportionment",
+  "notes": "### Multistate Business Income Apportionment Formula\n* **Rule & Formula:** Most apportioning trades or businesses must apportion business income to California using the **single-sales factor** formula. Under this formula, business income is multiplied by the sales factor (total sales in California divided by total sales everywhere).\n* **Exception (Three-Factor Formula):** An apportioning trade or business that derives more than 50 percent (>50%) of its gross business receipts from conducting a \"qualified business activity\" (QBA) must use an equally weighted **three-factor formula** consisting of the property, payroll, and sales factors.\n* **Application to Tax Years 2025 and 2026:**\n  * Applies to both tax years 2025 and 2026 without change between them.\n  * *Law change effective for tax years beginning on or after January 1, 2025 (SB 132):* California removed \"savings and loan\" and \"banking or financial business activities\" from the definition of a QBA under California Revenue and Taxation Code (R&TC) § 25128(c). Consequently, banks and financial institutions are required to use the single-sales factor formula for tax years 2025 and 2026. Only taxpayers deriving >50% of gross receipts from **agricultural** or **extractive** business activities remain subject to the three-factor formula.\n* **Official URLs:** \n  * https://www.ftb.ca.gov/file/business/income-apportionment-and-allocation.html\n  * https://www.ftb.ca.gov/forms/2025/2025-schedule-r-instructions.html\n\n---\n\n### Sourcing of Receipts from Services and Intangibles\n* **Method:** California requires **market-based sourcing** (\"market assignment\") under R&TC § 25136 and California Code of Regulations (CCR), Title 18, § 25136-2. Cost of performance is obsolete and not applicable for general corporate apportionment.\n* **Receipts from Services:** Sourced to California to the extent the purchaser of the service receives the benefit of the service in California. Detailed cascading rules apply depending on whether the customer is an individual or a business/governmental entity.\n* **Receipts from Intangibles:** Sourced to California to the extent the intangible property is used in California. For marketing intangibles, manufacturing intangibles, and other licensing, receipts follow where the property is used; specific assignment rules apply to dividends, sales of stock, or pass-through entity interests.\n* **Application to Tax Years 2025 and 2026:** Applies to both tax years 2025 and 2026 without change.\n* **Official URLs:**\n  * https://www.ftb.ca.gov/forms/2025/2025-schedule-r-instructions.html\n  * https://www.ftb.ca.gov/help/business/apportionment-and-allocation.html\n\n---\n\n### Industries with Their Own Apportionment Formula\n* **Special Industry Regulations:** Under R&TC § 25137 and 18 CCR §§ 25137-1 through 25137-15, special apportionment/allocation rules apply to specific industries:\n  * **Air Transportation Companies (Airlines):** 18 CCR § 25137-7\n  * **Motion Picture and Television Film Producers, Distributors, and Television Networks:** 18 CCR §§ 25137-8.1, 25137-8.2\n  * **Trucking Companies:** 18 CCR § 25137-11\n  * **Print Media:** 18 CCR § 25137-12\n  * **Mutual Fund Service Providers and Asset Management Service Providers:** 18 CCR § 25137-14\n  * **Franchisors:** 18 CCR § 25137-3\n  * **Commercial / Long-Term Construction Contractors:** 18 CCR § 25137-2\n  * **Banks and Financial Corporations:** 18 CCR §§ 25137-4.2 and 25137-10\n  * **Commercial Fishing:** 18 CCR § 25137-5\n  * **Railroads:** 18 CCR § 25137-9\n  * **Space Transportation Companies:** 18 CCR § 25137-15\n  * **Partnerships:** 18 CCR § 25137-1\n* **Interaction with Single-Sales Factor:** Unless an entity qualifies for the three-factor QBA formula (agricultural or extractive), businesses under 18 CCR §§ 25137-1 through 25137-14 use the single-sales factor formula, applying the special industry regulation to determine their sales/receipts factor while disregarding property and payroll factors.\n* **Statutory Exception for Cable Operators:** Under R&TC § 25136.1, a qualified taxpayer (certain cable system operators) assigns 50 percent (50%) of qualified sales to California.\n* **Application to Tax Years 2025 and 2026:** Applies to both tax years 2025 and 2026 without change.\n* **Official URLs:**\n  * https://www.ftb.ca.gov/help/business/apportionment-and-allocation.html\n  * https://www.ftb.ca.gov/forms/2025/2025-schedule-r-instructions.html\n\n---\n\n### Form or Schedule Used to Compute Apportionment\n* **Primary Schedule:** **Schedule R**, *Apportionment and Allocation of Income* (filed with Forms 100, 100W, 100S, 109, 565, or 568):\n  * **Schedule R, Part A:** Standard Method – Single-Sales Factor Formula.\n  * **Schedule R, Part B:** Three-Factor Formula (used only for businesses eligible for the QBA formula).\n* **Supporting Schedules:**\n  * **Schedule R-1:** Factor Computation Worksheet.\n  * **Schedule R-2:** Sales and General Questionnaire.\n  * **Schedule R-3:** Net Nonbusiness Income (Loss) by Source.\n  * **Schedule R-4:** Income (Loss) from a Separate Trade or Business.\n  * **Schedule R-7:** Election to File a Unitary Taxpayers' Group Return and List of Affiliated Corporations.\n* **Application to Tax Years 2025 and 2026:** Applies to both tax years 2025 and 2026 without change.\n* **Official URLs:**\n  * https://www.ftb.ca.gov/forms/2025/2025-schedule-r-instructions.html\n  * https://www.ftb.ca.gov/file/business/income-apportionment-and-allocation.html",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Most apportioning businesses must apportion business income to California using the single-sales factor formula. Businesses deriving more than 50 percent of gross business receipts from agricultural or extractive qualified business activities must use an equally weighted three-factor formula.",
+    "source_url": "https://www.ftb.ca.gov/file/business/income-apportionment-and-allocation.html",
+    "evidence": [
+     "single-sales factor formula",
+     "qualified business activity",
+     "three-factor formula"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.ftb.ca.gov/file/business/income-apportionment-and-allocation.html; unreadable: https://www.ftb.ca.gov/forms/2025/2025-100r-instructions.html; unreadable: https://www.ftb.ca.gov/tax-pros/law/final-regulations/25128-Final-Statement-of-Reasons.pdf; unreadable: https://www.ftb.ca.gov/forms/2025/2025-109.pdf; unreadable: https://www.ftb.ca.gov/file/business/income/help-with-apportionment-and-allocation.html; unreadable: https://www.ftb.ca.gov/forms/2026/2026-100-es-instruction",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "California requires market-based sourcing for receipts from services and intangibles under market assignment rules. Receipts from services are sourced to California where the purchaser receives the benefit of the service, and receipts from intangibles are sourced to where the intangible property is used.",
+    "source_url": "https://www.ftb.ca.gov/forms/2025/2025-schedule-r-instructions.html",
+    "evidence": [
+     "benefit of the service",
+     "intangible property is used",
+     "market assignment"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.ftb.ca.gov/forms/2025/2025-schedule-r-instructions.html; unreadable: https://www.ftb.ca.gov/forms/2025/2025-100r-instructions.html; unreadable: https://www.ftb.ca.gov/tax-pros/law/final-regulations/25128-Final-Statement-of-Reasons.pdf; unreadable: https://www.ftb.ca.gov/forms/2025/2025-109.pdf; unreadable: https://www.ftb.ca.gov/file/business/income/help-with-apportionment-and-allocation.html; unreadable: https://www.ftb.ca.gov/forms/2026/2026-100-es-instructions.html; un",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Special apportionment regulations apply to specific industries including air transportation, trucking, motion pictures, railroads, franchisors, and commercial contractors. Unless qualifying for the three-factor formula, these industries apply their special regulation to determine their sales factor under the single-sales factor formula.",
+    "source_url": "https://www.ftb.ca.gov/forms/2025/2025-schedule-r-instructions.html",
+    "evidence": [
+     "Air Transportation Companies",
+     "Motion Picture and Television",
+     "Trucking Companies"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.ftb.ca.gov/forms/2025/2025-schedule-r-instructions.html; unreadable: https://www.ftb.ca.gov/forms/2025/2025-100r-instructions.html; unreadable: https://www.ftb.ca.gov/tax-pros/law/final-regulations/25128-Final-Statement-of-Reasons.pdf; unreadable: https://www.ftb.ca.gov/forms/2025/2025-109.pdf; unreadable: https://www.ftb.ca.gov/file/business/income/help-with-apportionment-and-allocation.html; unreadable: https://www.ftb.ca.gov/forms/2026/2026-100-es-instructions.html; un",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Taxpayers compute apportionment on Schedule R, Apportionment and Allocation of Income. Schedule R includes Part A for the standard single-sales factor method and Part B for the three-factor formula.",
+    "source_url": "https://www.ftb.ca.gov/forms/2025/2025-schedule-r-instructions.html",
+    "evidence": [
+     "Schedule R",
+     "Apportionment and Allocation of Income",
+     "Single-Sales Factor Formula"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.ftb.ca.gov/forms/2025/2025-schedule-r-instructions.html; unreadable: https://www.ftb.ca.gov/forms/2025/2025-100r-instructions.html; unreadable: https://www.ftb.ca.gov/tax-pros/law/final-regulations/25128-Final-Statement-of-Reasons.pdf; unreadable: https://www.ftb.ca.gov/forms/2025/2025-109.pdf; unreadable: https://www.ftb.ca.gov/file/business/income/help-with-apportionment-and-allocation.html; unreadable: https://www.ftb.ca.gov/forms/2026/2026-100-es-instructions.html; un",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://www.ftb.ca.gov/forms/2025/2025-100r-instructions.html",
+   "https://www.ftb.ca.gov/tax-pros/law/final-regulations/25128-Final-Statement-of-Reasons.pdf",
+   "https://www.ftb.ca.gov/forms/2025/2025-109.pdf",
+   "https://www.ftb.ca.gov/file/business/income/help-with-apportionment-and-allocation.html",
+   "https://www.ftb.ca.gov/forms/2026/2026-100-es-instructions.html",
+   "https://www.ftb.ca.gov/tax-pros/procedures/multistate-audit-technical-manual/chapter-7115.pdf",
+   "https://www.ftb.ca.gov/file/business/income/apportionment-and-allocation.html",
+   "https://www.ftb.ca.gov/tax-pros/procedures/residency-and-sourcing-technical-manual-disclosure.pdf",
+   "https://www.ftb.ca.gov/tax-pros/procedures/multistate-audit-technical-manual/chapter-7500.pdf",
+   "https://www.ftb.ca.gov/tax-pros/law/regulatory-activity/25136-2%20draft%20text.pdf",
+   "https://www.ftb.ca.gov/forms/2026/2026-100-es-instructions.html",
+   "https://www.ftb.ca.gov/tax-pros/law/regulatory-activity/06162017-draft-text.pdf",
+   "https://www.law.cornell.edu/regulations/california/18-CCR-25137-8.1",
+   "https://govt.westlaw.com/calregs/Browse/Home/California/CaliforniaCodeofRegulations?guid=I0333E7504C8411EC89E5000D3A7C4BC3",
+   "https://www.law.cornell.edu/regulations/california/18-CCR-25137-11",
+   "https://www.ftb.ca.gov/tax-pros/law/regulatory-activity/11082023-Meeting-Notice.pdf",
+   "https://www.ftb.ca.gov/about-ftb/meetings/board-meetings/2025/may-2025/25137-FTB-Petition-Hearing.pdf",
+   "https://www.ftb.ca.gov/about-ftb/meetings/board-meetings/2025/may-2025/1a3-FTB-Opening-Brief.pdf",
+   "https://www.ftb.ca.gov/tax-pros/law/legal-rulings/2019-01.pdf",
+   "https://www.ftb.ca.gov/forms/2025/2025-100r-instructions.html",
+   "https://www.ftb.ca.gov/tax-pros/procedures/bank-and-financial-handbook/bank-and-financial-section-0300.pdf",
+   "https://www.ftb.ca.gov/tax-pros/procedures/bank-and-financial-handbook/bank-and-financial-section-0300.pdf",
+   "https://www.law.cornell.edu/regulations/california/18-CCR-25137-5",
+   "https://www.ftb.ca.gov/tax-pros/law/final-regulations/122017-15-Day-Notice.pdf",
+   "https://www.ftb.ca.gov/file/business/income/help-with-apportionment-and-allocation.html",
+   "https://www.ftb.ca.gov/forms/2025/2025-100r-instructions.html",
+   "https://www.ftb.ca.gov/file/business/types/limited-liability-company/index.html",
+   "https://www.ftb.ca.gov/forms/2025/2025-100-r.pdf",
+   "https://www.ftb.ca.gov/forms/2025/2025-100-r.pdf",
+   "https://www.ftb.ca.gov/file/business/income/apportionment-and-allocation.html",
+   "https://www.ftb.ca.gov/forms/2017/17-3809-booklet.html",
+   "https://www.ftb.ca.gov/tax-pros/procedures/multistate-audit-technical-manual/chapter-7500.pdf",
+   "https://www.ftb.ca.gov/forms/2024/2024-100r-instructions.html",
+   "https://www.ftb.ca.gov/forms/2025/2025-100r-instructions.html",
+   "https://www.ftb.ca.gov/tax-pros/law/legal-rulings/1995-2.html"
+  ],
+  "error": ""
+ },
+ {
+  "state": "CA",
+  "section": "nexus",
+  "notes": "### 1. California Income and Franchise Tax Nexus & Factor-Presence Thresholds\n\n* **General Nexus Rules**: Under California Revenue and Taxation Code (R&TC) § 23101, an entity is considered \"doing business\" in California and subject to the franchise tax (including the $800 minimum franchise tax) if it:\n  * Actively engages in any transaction for the purpose of financial or pecuniary gain or profit within California;\n  * Is organized or commercially domiciled in California; or\n  * Exceeds the statutory bright-line property, payroll, or sales thresholds.\n  *(Note: A corporation not \"doing business\" but deriving income from California sources is subject to the California corporate income tax under R&TC § 23501, which has no minimum tax requirement).*\n\n* **Bright-Line Factor-Presence Thresholds (R&TC § 23101(b))**:\n  * **Tax Year 2025**:\n    * **Sales**: California sales exceed the lesser of **$757,070** or **25%** of the taxpayer's total sales.\n    * **Property**: California real and tangible personal property exceeds the lesser of **$75,707** or **25%** of the taxpayer's total property.\n    * **Payroll**: California payroll compensation exceeds the lesser of **$75,707** or **25%** of the taxpayer's total payroll.\n  * **Tax Year 2026**: **Not found** (the 2026 indexed threshold amounts have not yet been published by the FTB on its official doing-business schedule).\n* **Official URL**: \n  * Franchise Tax Board – Doing Business in California: `https://www.ftb.ca.gov/file/business/doing-business-in-california.html`\n  * California Legislative Information (R&TC § 23101): `https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=23101.`\n\n---\n\n### 2. Remote Seller Economic Nexus Threshold (Sales & Use Tax)\n\n* **Agency**: California Department of Tax and Fee Administration (CDTFA) (R&TC § 6203; Cal. Code Regs. tit. 18, § 1684).\n* **Sales Threshold**: Total combined sales of tangible personal property for delivery in California by the retailer and all related persons exceed **$500,000**.\n* **Transaction Count**: **None** (California does not have a transaction-count threshold for state remote sellers).\n* **Measurement Period**: The **preceding or current calendar year**.\n* **Applicability**: Applies to both **Tax Year 2025** and **Tax Year 2026** (unchanged).\n* **Official URL**: \n  * CDTFA Out-of-State Retailers Registration: `https://www.cdtfa.ca.gov/industry/out-of-state-retailers/registration.htm`\n  * CDTFA Use Tax Collection Requirements (Wayfair Guide): `https://www.cdtfa.ca.gov/industry/wayfair.htm`\n\n---\n\n### 3. California's Stated Position on P.L. 86-272 Protection\n\n* **General Rule**: Public Law 86-272 protects an out-of-state corporation from taxes measured by net income if its only activity in California is the solicitation of orders for sales of tangible personal property, provided orders are sent outside the state for approval and filled from points outside California.\n* **Minimum Franchise Tax**: FTB maintains that an out-of-state corporation exceeding the \"doing business\" thresholds (such as the sales threshold) is still doing business in California; while protected from net income taxes under P.L. 86-272, it remains subject to the annual California minimum franchise tax ($800) because that tax is not measured by net income.\n* **Position on Internet Activities & Legal Challenge**:\n  * The FTB issued Technical Advice Memorandum (TAM) 2022-01 and revised FTB Publication 1050, adopting the Multistate Tax Commission (MTC) interpretation that various standard interactive internet activities (e.g., post-sales customer support via website, online job applications, non-ancillary browser cookies) exceed P.L. 86-272 immunity.\n  * *Litigation Status*: In *American Catalog Mailers Association v. Franchise Tax Board* (San Francisco Superior Court No. CGC-22-601363), the court held TAM 2022-01 and Publication 1050 invalid as underground regulations. The California Court of Appeal affirmed the judgment in February 2025, and the California Supreme Court denied review in April 2025, closing the case on FTB's litigation roster.\n* **Applicability**: The statutory framework applies to both **Tax Year 2025** and **Tax Year 2026**.\n* **Official URL**: \n  * Franchise Tax Board – Doing Business in California: `https://www.ftb.ca.gov/file/business/doing-business-in-california.html`\n  * Franchise Tax Board – Litigation Roster: `https://www.ftb.ca.gov/tax-pros/law/litigation/roster.html`\n  * Franchise Tax Board – Audit Technical Manual (MATM 1000 Series): `https://www.ftb.ca.gov/tax-pros/manuals/audit-technical-manual/1000.pdf`",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025
+    ],
+    "value": "An entity is doing business in California if it is organized or commercially domiciled in the state, actively engages in transactions for profit, or exceeds factor-presence thresholds. For 2025, the bright-line thresholds are California sales exceeding the lesser of $757,070 or 25% of total sales, or California property or payroll exceeding the lesser of $75,707 or 25% of total property or payroll.",
+    "source_url": "https://www.ftb.ca.gov/file/business/doing-business-in-california.html",
+    "evidence": [
+     "doing business in California",
+     "25% of the taxpayer's total sales",
+     "tangible personal property"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.ftb.ca.gov/file/business/doing-business-in-california.html; unreadable: https://www.ftb.ca.gov/forms/misc/1060.html; unreadable: https://www.ftb.ca.gov/forms/2024/2024-109-booklet.html; unreadable: https://www.ftb.ca.gov/forms/2025/2025-100-es-instructions.html; unreadable: https://www.ftb.ca.gov/tax-pros/procedures/multistate-audit-technical-manual/chapter-1000.pdf; unreadable: https://www.ftb.ca.gov/forms/2025/2025-109-booklet.html; figures not on cdtfa.ca.gov: ['75707'",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Remote sellers have economic nexus if total combined sales of tangible personal property for delivery in California by the retailer and related persons exceed $500,000 in the preceding or current calendar year. California does not impose a transaction count threshold.",
+    "source_url": "https://www.cdtfa.ca.gov/industry/out-of-state-retailers/registration.htm",
+    "evidence": [
+     "tangible personal property",
+     "exceed $500,000",
+     "preceding or current calendar year"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://cdtfa.ca.gov/industry/out-of-state-retailers/registration.htm",
+    "matched_title": "Registration — Tax Guide for Out-of-State Retailers",
+    "matched_phrases": [
+     "tangible personal property",
+     "preceding or current calendar year"
+    ],
+    "snippet": "Beginning April 1, 2019, you have total combined sales of tangible personal property for delivery in California exceeding $500,000 during the preceding or current calendar year."
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "P.L. 86-272 protects out-of-state corporations from net income tax if California activities are limited to solicitation of orders for sales of tangible personal property approved and filled from outside the state. However, the FTB maintains that corporations exceeding doing-business thresholds remain subject to the $800 minimum franchise tax because it is not measured by net income.",
+    "source_url": "https://www.ftb.ca.gov/file/business/doing-business-in-california.html",
+    "evidence": [
+     "tangible personal property",
+     "minimum franchise tax",
+     "measured by net income"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.ftb.ca.gov/file/business/doing-business-in-california.html; unreadable: https://www.ftb.ca.gov/forms/misc/1060.html; unreadable: https://www.ftb.ca.gov/forms/2024/2024-109-booklet.html; unreadable: https://www.ftb.ca.gov/forms/2025/2025-100-es-instructions.html; unreadable: https://www.ftb.ca.gov/tax-pros/procedures/multistate-audit-technical-manual/chapter-1000.pdf; unreadable: https://www.ftb.ca.gov/forms/2025/2025-109-booklet.html; figures not on cdtfa.ca.gov: ['272', ",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://www.ftb.ca.gov/file/business/doing-business-in-california.html",
+   "https://www.ftb.ca.gov/forms/misc/1060.html",
+   "https://www.ftb.ca.gov/forms/2024/2024-109-booklet.html",
+   "https://www.ftb.ca.gov/forms/2025/2025-100-es-instructions.html",
+   "https://www.ftb.ca.gov/tax-pros/procedures/multistate-audit-technical-manual/chapter-1000.pdf",
+   "https://www.ftb.ca.gov/forms/2025/2025-109-booklet.html",
+   "https://cdtfa.ca.gov/industry/wayfair/general-information.htm",
+   "https://cdtfa.ca.gov/industry/out-of-state-retailers/registration.htm",
+   "https://cdtfa.ca.gov/industry/MPFAct.htm",
+   "https://cdtfa.ca.gov/formspubs/pub77/examples.htm",
+   "https://cdtfa.ca.gov/industry/wayfair/",
+   "https://www.ftb.ca.gov/tax-pros/procedures/multistate-audit-technical-manual/chapter-0500.pdf",
+   "https://www.ftb.ca.gov/forms/2026/2026-100-es-instructions.html",
+   "https://www.ftb.ca.gov/about-ftb/meetings/board-meetings/2022/june-2022/4.pdf",
+   "https://www.ftb.ca.gov/about-ftb/meetings/taxpayer-bill-of-rights/2025-CalTax-FTB-TBOR-Reply.pdf",
+   "https://www.ftb.ca.gov/tax-pros/law/litigation-roster.html",
+   "https://www.ftb.ca.gov/forms/2025/2025-100r-instructions.html",
+   "https://www.ftb.ca.gov/tax-pros/procedures/multistate-audit-technical-manual/chapter-1000.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "CA",
+  "section": "rates",
+  "notes": "### 1. Individual Income Tax Rates and Brackets\n\n* **Tax Rates & Structure:** California imposes a graduated personal income tax with 9 standard brackets: **1.0%, 2.0%, 4.0%, 6.0%, 8.0%, 9.3%, 10.3%, 11.3%, and 12.3%**. In addition, an extra **1.0% Behavioral Health Services Tax** (formerly the Mental Health Services Tax) applies to taxable income exceeding $1,000,000, creating an effective top marginal rate of **13.3%**.\n* **Tax Year 2025 Brackets (Single / Married Filing Separately – Schedule X):**\n  * $0 to $11,079: 1.00%\n  * $11,079 to $26,264: 2.00%\n  * $26,264 to $41,452: 4.00%\n  * $41,452 to $57,542: 6.00%\n  * $57,542 to $72,724: 8.00%\n  * $72,724 to $371,479: 9.30%\n  * $371,479 to $445,771: 10.30%\n  * $445,771 to $742,953: 11.30%\n  * $742,953 and over: 12.30%\n  * Over $1,000,000: +1.00% Behavioral Health Services Tax (13.3% total)\n  *(Brackets are doubled for Married/RDP Filing Jointly.)*\n* **Tax Year 2026:** The statutory rates (1.0% to 12.3%, plus 1.0% over $1,000,000) remain unchanged. California indexes bracket thresholds annually by the California Consumer Price Index (CCPI) (3.4% indexing adjustment factor announced for 2026; complete final schedules are released each December).\n* **Official URLs:**\n  * https://www.ftb.ca.gov/about-ftb/newsroom/tax-news/october-2025/index.html\n  * https://www.ftb.ca.gov/forms/2025/2025-California-Tax-Rate-Schedules.pdf\n  * https://www.ftb.ca.gov/forms/2026/2026-540-es-instructions.html\n\n---\n\n### 2. Corporate Income and Franchise Tax Rates & Minimum Tax\n\n* **Franchise / Corporate Income Tax Rates:**\n  * **C Corporations (general):** **8.84%** of net income.\n  * **Financial Institutions & Banks:** **10.84%**.\n  * **S Corporations:** **1.5%** (banks and financial S corporations: **3.5%**).\n  * **Corporate Alternative Minimum Tax (AMT):** **6.65%**.\n* **Minimum Franchise Tax:** **$800** per year. \n  * Imposed on every corporation doing business in California or qualified/registered with the California Secretary of State.\n  * *Exception:* Qualified newly incorporated or qualified corporations are exempt from the $800 minimum franchise tax in their first taxable year.\n* **Applicability:** Applies to both **tax year 2025 and tax year 2026** (no rate change).\n* **Official URLs:**\n  * https://www.ftb.ca.gov/file/business/tax-rates.html\n  * https://www.ftb.ca.gov/forms/2026/2026-100-es-instructions.html\n\n---\n\n### 3. State Sales and Use Tax Rate & Local Jurisdiction Additions\n\n* **Statewide Base Rate:** **7.25%** across California.\n  * Composed of:\n    * 6.00% State tax\n    * 1.00% Local jurisdiction (Bradley-Burns Uniform Local Sales and Use Tax)\n    * 0.25% County Local Transportation Fund\n* **Local Additions:** **Yes.** Cities, counties, and special districts impose voter-approved and local government-approved district taxes (transactions and use taxes). District rates generally add between **0.10% and 2.00%+** per district tax, leading to total combined sales and use tax rates exceeding 10% in multiple jurisdictions.\n* **Applicability:** Applies to both **tax year 2025 and tax year 2026**.\n* **Official URLs:**\n  * https://www.cdtfa.ca.gov/taxes-and-fees/know-your-rate.htm\n  * https://www.cdtfa.ca.gov/industry/retailers-getting-started.htm\n\n---\n\n### 4. Gross Receipts, Franchise, Margin, or Other Notable Business Taxes\n\n* **Statewide Gross Receipts / Margin Tax:** California does not levy a statewide general gross receipts or margin tax (municipalities such as Los Angeles and San Francisco impose their own local gross receipts taxes).\n* **Corporate Franchise Tax:** California levies a franchise tax on corporations for the privilege of exercising their franchise within the state, measured by net income, at **8.84%** with a minimum tax of **$800**.\n* **LLC Annual Tax:** **$800** flat annual tax for every LLC that is doing business in California, or organized/registered with the California Secretary of State, regardless of activity or profit.\n* **LLC Fee (Based on Total Income / California Gross Receipts):** In addition to the $800 annual tax, LLCs pay a graduated fee based on total income from all sources reportable to California (Cal. Rev. & Tax Code § 17942):\n  * Total Income under $250,000: **$0**\n  * $250,000 to $499,999: **$900**\n  * $500,000 to $999,999: **$2,500**\n  * $1,000,000 to $4,999,999: **$6,000**\n  * $5,000,000 and over: **$11,790**\n* **Pass-Through Entity (PTE) Elective Tax:** Qualifying pass-through entities (S corporations, partnerships, LLCs taxed as partnerships) may elect to pay an entity-level tax of **9.3%** on qualified net income attributable to consenting owners. Consenting owners claim a corresponding credit against their personal income tax.\n* **Applicability:** Applies to both **tax year 2025 and tax year 2026**.\n* **Official URLs:**\n  * https://www.ftb.ca.gov/forms/misc/1123.html\n  * https://www.ftb.ca.gov/file/business/credits/pass-through-entity-elective-tax/index.html\n  * https://www.ftb.ca.gov/forms/2025/2025-568-booklet.pdf",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "California personal income tax rates range from 1.0% to 12.3% across nine graduated brackets, with an additional 1.0% Behavioral Health Services Tax on taxable income exceeding $1,000,000 for an effective top rate of 13.3%. Brackets are indexed annually for inflation.",
+    "source_url": "https://www.ftb.ca.gov/forms/2026/2026-540-es-instructions.html",
+    "evidence": [
+     "12.30%",
+     "Behavioral Health Services Tax",
+     "taxable income",
+     "Schedule X"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.ftb.ca.gov/forms/2026/2026-540-es-instructions.html; unreadable: https://www.ftb.ca.gov/about-ftb/newsroom/tax-news/2025/10.html; unreadable: https://www.ftb.ca.gov/about-ftb/data-reports-plans/Summary-of-Federal-Income-Tax-Changes/index.html; unreadable: https://www.ftb.ca.gov/about-ftb/newsroom/tax-news/index.html; unreadable: https://www.ftb.ca.gov/file/business/tax-rates.html; unreadable: https://www.ftb.ca.gov/tax-pros/law/legislation/2019-2020/SB37-040319.pdf; unrea",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "California imposes an 8.84% corporate tax on C corporations (10.84% for financial institutions and banks, and 1.5% for S corporations). Corporations doing business in California are also subject to an $800 minimum franchise tax, with qualified new corporations exempt in their first taxable year.",
+    "source_url": "https://www.ftb.ca.gov/file/business/tax-rates.html",
+    "evidence": [
+     "8.84%",
+     "minimum franchise tax",
+     "$800",
+     "1.5%"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.ftb.ca.gov/file/business/tax-rates.html; unreadable: https://www.ftb.ca.gov/about-ftb/newsroom/tax-news/2025/10.html; unreadable: https://www.ftb.ca.gov/about-ftb/data-reports-plans/Summary-of-Federal-Income-Tax-Changes/index.html; unreadable: https://www.ftb.ca.gov/forms/2026/2026-540-es-instructions.html; unreadable: https://www.ftb.ca.gov/about-ftb/newsroom/tax-news/index.html; unreadable: https://www.ftb.ca.gov/tax-pros/law/legislation/2019-2020/SB37-040319.pdf; unrea",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The California statewide base sales and use tax rate is 7.25%. Cities, counties, and special districts may add local district taxes, resulting in combined rates exceeding 10% in some jurisdictions.",
+    "source_url": "https://www.cdtfa.ca.gov/taxes-and-fees/know-your-rate.htm",
+    "evidence": [
+     "7.25%",
+     "district taxes",
+     "sales and use tax"
+    ],
+    "accepted": false,
+    "reason": "figures not on www.cdtfa.ca.gov: ['10']; unreadable: https://www.ftb.ca.gov/about-ftb/newsroom/tax-news/2025/10.html; unreadable: https://www.ftb.ca.gov/about-ftb/data-reports-plans/Summary-of-Federal-Income-Tax-Changes/index.html; unreadable: https://www.ftb.ca.gov/forms/2026/2026-540-es-instructions.html; unreadable: https://www.ftb.ca.gov/about-ftb/newsroom/tax-news/index.html; unreadable: https://www.ftb.ca.gov/file/business/tax-rates.html; unreadable: https://www.ftb.ca.gov/tax-pros/law/leg",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Limited liability companies are subject to an $800 annual tax plus a graduated fee ranging from $0 up to $11,790 based on total California income. Qualifying pass-through entities may also elect to pay a 9.3% entity-level elective tax on qualified net income.",
+    "source_url": "https://www.ftb.ca.gov/forms/misc/1123.html",
+    "evidence": [
+     "annual tax",
+     "$800",
+     "total income",
+     "$11,790"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.ftb.ca.gov/forms/misc/1123.html; unreadable: https://www.ftb.ca.gov/about-ftb/newsroom/tax-news/2025/10.html; unreadable: https://www.ftb.ca.gov/about-ftb/data-reports-plans/Summary-of-Federal-Income-Tax-Changes/index.html; unreadable: https://www.ftb.ca.gov/forms/2026/2026-540-es-instructions.html; unreadable: https://www.ftb.ca.gov/about-ftb/newsroom/tax-news/index.html; unreadable: https://www.ftb.ca.gov/file/business/tax-rates.html; unreadable: https://www.ftb.ca.gov/",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://www.ftb.ca.gov/about-ftb/newsroom/tax-news/2025/10.html",
+   "https://www.ftb.ca.gov/about-ftb/data-reports-plans/Summary-of-Federal-Income-Tax-Changes/index.html",
+   "https://www.ftb.ca.gov/forms/2026/2026-540-es-instructions.html",
+   "https://www.ftb.ca.gov/about-ftb/newsroom/tax-news/index.html",
+   "https://www.ftb.ca.gov/file/business/tax-rates.html",
+   "https://www.ftb.ca.gov/tax-pros/law/legislation/2019-2020/SB37-040319.pdf",
+   "https://www.ftb.ca.gov/file/when-to-file/due-dates-business.html",
+   "https://www.ftb.ca.gov/forms/misc/5949.pdf",
+   "https://www.ftb.ca.gov/file/business/tax-rates.html",
+   "https://cdtfa.ca.gov/taxes-and-fees/know-your-rate.htm",
+   "https://cdtfa.ca.gov/industry/local-jurisdictions-and-districts/getting-started.htm",
+   "https://www.ftb.ca.gov/tax-pros/law/legislation/2021-2022/AB71-011221.pdf",
+   "https://www.ftb.ca.gov/file/when-to-file/due-dates-business.html",
+   "https://www.ftb.ca.gov/tax-pros/law/ftb-notices/2001-7.pdf",
+   "https://www.ftb.ca.gov/forms/misc/1123.html",
+   "https://www.ftb.ca.gov/file/business/credits/pass-through-entity-elective-tax/index.html",
+   "https://www.ftb.ca.gov/forms/2025/2025-3893-instructions.pdf",
+   "https://www.ftb.ca.gov/forms/2025/2025-568-booklet.html",
+   "https://www.ftb.ca.gov/file/business/credits/pass-through-entity-elective-tax/help.html"
+  ],
+  "error": ""
+ },
+ {
+  "state": "CA",
+  "section": "filing",
+  "notes": "### 1. Individual Return Due Dates and Extensions\n\n* **Calendar-Year Due Date:** Individual returns and payments are due on **April 15** following the close of the taxable year (e.g., April 15, 2026 for tax year 2025; April 15, 2027 for tax year 2026).\n* **Extension Period:** California grants an **automatic 6-month extension** to file (until **October 15**). \n* **Rules & Forms:** No application or form is required to receive the filing extension. The extension applies only to filing, not to payment. Any tax liability owed must be paid by April 15 to avoid penalties and interest. \n  * If paying by mail with an extension, taxpayers submit **Form FTB 3519** (*Payment for Automatic Extension for Individuals*). If no tax is owed or payment is made electronically (e.g., Web Pay), Form FTB 3519 is not filed.\n* **Applicability:** Applies to both **Tax Year 2025** and **Tax Year 2026** (no changes).\n* **Official Sources:**\n  * https://www.ftb.ca.gov/file/when-to-file/due-dates-personal.html\n  * https://www.ftb.ca.gov/file/when-to-file/extension-to-file.html\n\n---\n\n### 2. Corporate and Pass-Through Return Due Dates and Extensions\n\n* **C Corporations (Form 100 / Form 100W):**\n  * **Due Date:** 15th day of the 4th month after the close of the tax year (**April 15** for calendar-year filers).\n  * **Extension:** Automatic **7-month extension** to file (**November 15** for calendar-year filers). \n  * **Payment & Extension Form:** Taxes must be paid by the original due date. Extension payments by mail use **Form FTB 3539** (*Payment for Automatic Extension for Corporations and Exempt Organizations*).\n* **S Corporations (Form 100S):**\n  * **Due Date:** 15th day of the 3rd month after the close of the tax year (**March 15** for calendar-year filers).\n  * **Extension:** Automatic **6-month extension** to file (**September 15** for calendar-year filers). \n  * **Payment & Extension Form:** Taxes must be paid by the original due date. Extension payments by mail use **Form FTB 3539**.\n* **Partnerships (Form 565):**\n  * **Due Date:** 15th day of the 3rd month after the close of the tax year (**March 15** for calendar-year filers).\n  * **Extension:** Automatic **7-month extension** to file (**October 15** for calendar-year filers). \n  * **Extension Form:** Limited partnerships (LPs), Limited Liability Partnerships (LLPs), and REMICs remitting an extension payment use **Form FTB 3538**.\n* **Limited Liability Companies (Form 568):**\n  * **Due Date (Classified as Partnership):** 15th day of the 3rd month after the close of the tax year (**March 15** for calendar-year filers).\n  * **Due Date (Single-Member LLC owned by an Individual):** 15th day of the 4th month after the close of the tax year (**April 15**).\n  * **Extension:** Automatic **7-month extension** to file (**October 15** for calendar-year filers) (*SMLLCs owned by an individual receive an automatic 6-month extension to October 15*). \n  * **Extension Form:** LLCs making an extension payment use **Form FTB 3537**.\n* **Applicability:** Applies to both **Tax Year 2025** and **Tax Year 2026** (no changes).\n* **Official Sources:**\n  * https://www.ftb.ca.gov/file/when-to-file/due-dates-business.html\n  * https://www.ftb.ca.gov/file/when-to-file/extension-to-file.html\n\n---\n\n### 3. Elective Pass-Through Entity (PTE) Tax\n\n* **Existence and Rate:** California allows qualifying partnerships, LLCs treated as partnerships, and S corporations to elect to pay an entity-level tax at a rate of **9.3%** of qualified net income (QNI).\n* **How and When to Elect:**\n  * The election is made annually on an **original, timely filed return** by filing **Form FTB 3804** (*Pass-Through Entity Elective Tax Calculation*) and reporting the tax on the return. Once made, the election is irrevocable for that tax year.\n  * **Prepayment (June 15):** The entity must pay the required initial payment on or before **June 15** of the taxable year of the election via Web Pay or **Form FTB 3893** (*Pass-Through Entity Elective Tax Payment Voucher*). The required payment is the greater of **50% of the elective tax paid the prior year** or **$1,000**.\n  * **Final Payment:** The remaining balance is due on or before the original return due date without regard to extensions.\n* **Changes Between Tax Years 2025 and 2026 (SB 132):**\n  * **Tax Year 2025:** Governed by Part 10.4 of Division 2 of the Revenue and Taxation Code (R&TC). Making the full required June 15 prepayment is a strict condition to make a valid election.\n  * **Tax Year 2026:** Extended under SB 132 through taxable years beginning before January 1, 2031 (R&TC Part 10.4.1, § 19910 et seq.). Starting in tax year 2026, if a qualified entity fails to make or underpays the June 15 prepayment, it **can still make a valid election** on a timely filed return; however, the PTE credit allowable to consenting partners/shareholders is **reduced by 12.5%** of their pro rata share of the unpaid June 15 amount.\n* **Official Sources:**\n  * https://www.ftb.ca.gov/file/business/credits/pass-through-entity-elective-tax/index.html\n  * https://www.ftb.ca.gov/file/business/credits/pass-through-entity-elective-tax/help-with-pte-tax.html\n\n---\n\n### 4. Composite or Group Nonresident Returns for Pass-Through Entities\n\n* **Existence:** California allows qualifying partnerships, LLCs, and S corporations to file a single group nonresident return (composite return) on behalf of electing nonresident individual partners, members, or shareholders. The return may include fewer than two nonresident individuals.\n* **Forms Used:** \n  * Filed on **Form 540NR** (*California Nonresident or Part-Year Resident Income Tax Return*).\n  * Must attach **Schedule 1067A** (*Nonresident Group Return Schedule*) and **Form FTB 3864** (*Group Nonresident Return Election*).\n* **Tax Rate:** Income reported on the group return is taxed at California’s highest individual marginal rate of **12.3%**, plus the **1% Mental Health Services Tax** on an individual's California taxable income in excess of **$1,000,000** (totaling **13.3%**).\n* **Due Date & Extension:** Always filed on a calendar-year basis. The return is due **April 15**, with an automatic 6-month extension to **October 15**. Extension payments are remitted using **Form FTB 3519**.\n* **Applicability:** Applies to both **Tax Year 2025** and **Tax Year 2026** (no changes).\n* **Official Sources:**\n  * https://www.ftb.ca.gov/file/business/filing-information/california-group-nonresident-tax-return.html\n  * https://www.ftb.ca.gov/forms/misc/1067.html\n\n---\n\n### 5. Estimated Tax Payments and Nonresident Withholding for Pass-Through Entities\n\n#### Estimated Tax Requirements for Entities\n* **S Corporations (Form 100S):** Must make quarterly estimated tax payments via **Form 100-ES** due on the 15th day of the 4th, 6th, 9th, and 12th months of the taxable year (percentages: 30%, 40%, 0%, 30%). The first installment must include at least the **$800** minimum franchise tax.\n* **LLCs (Form 568):**\n  * **Annual Tax:** An **$800** annual tax is due by the 15th day of the 4th month of the taxable year via **Form FTB 3522**.\n  * **Estimated LLC Fee:** LLCs with total California gross income equal to or exceeding $250,000 must estimate and pay their annual fee by the 15th day of the 6th month (**June 15** for calendar-year LLCs) using **Form FTB 3536**. A **10% penalty** applies to underpayments. Statutory fee brackets:\n    * $250,000 – $499,999: **$900**\n    * $500,000 – $999,999: **$2,500**\n    * $1,000,000 – $4,999,999: **$6,000**\n    * $5,000,000 or more: **$11,790**\n* **LPs and LLPs (Form 565):** Pay an **$800** annual tax due on the 15th day of the 3rd month of the taxable year. General partnerships do not owe the $800 annual tax or estimated tax payments.\n\n#### Nonresident Withholding for Pass-Through Entities\n* **Domestic Nonresidents (R&TC § 18662):** Pass-through entities making nonwage distributions of California-source income exceeding **$1,500** in a calendar year to domestic nonresident owners must withhold **7%**.\n  * **Payment Voucher:** Remitted quarterly with **Form 592-Q** (*Payment Voucher for Pass-Through Entity Withholding*) on April 15, June 15, September 15, and January 15.\n  * **Annual Withholding Return:** The PTE files **Form 592-PTE** (*Pass-Through Entity Annual Withholding Return*) annually by **January 31** following the close of the calendar year.\n  * **Withholding Statement:** The PTE must furnish **Form 592-B** (*Resident and Nonresident Withholding Tax Statement*) to payees by **January 31**.\n* **Foreign (Non-U.S.) Partners/Members (R&TC § 18666):** \n  * Withholding is required on California-source effectively connected taxable income at the highest marginal rate: **8.84%** for corporate partners (10.84% for financial foreign corporations) and **12.3%** for noncorporate partners.\n  * *Additional 1% Rate:* Beginning **January 1, 2025**, an additional **1% withholding tax rate** applies to a noncorporate foreign partner’s distributive share of effectively connected income exceeding **$1,000,000** (totaling **13.3%**).\n  * Remitted in four installments with **Form 592-A**; reported annually on **Form 592-F** by the 15th day of the 3rd month after year-end.\n* **Applicability:** The additional 1% foreign noncorporate rate on income over $1,000,000 applies to both **Tax Year 2025** and **Tax Year 2026**; general withholding rules are unchanged.\n* **Official Sources:**\n  * https://www.ftb.ca.gov/pay/withholding/withholding-on-nonresidents.html\n  * https://www.ftb.ca.gov/pay/withholding/pass-through-entity-withholding.html\n  * https://www.ftb.ca.gov/forms/misc/1017.html\n  * https://www.ftb.ca.gov/file/business/types/limited-liability-company/index.html\n\n---\n\n### 6. Main Return Forms\n\n* **Individual:**\n  * **Form 540:** *California Resident Income Tax Return*\n  * **Form 540 2EZ:** *California Resident Income Tax Return (Simplified)*\n  * **Form 540NR:** *California Nonresident or Part-Year Resident Income Tax Return*\n* **Corporate:**\n  * **Form 100:** *California Corporation Franchise or Income Tax Return* (C corporations)\n  * **Form 100W:** *California Corporation Franchise or Income Tax Return – Water's-Edge Filers*\n* **Pass-Through Entities:**\n  * **Form 100S:** *California S Corporation Franchise or Income Tax Return* (with Schedule K-1 (100S))\n  * **Form 565:** *Partnership Return of Income* (with Schedule K-1 (565))\n  * **Form 568:** *Limited Liability Company Return of Income* (with Schedule K-1 (568))\n* **Applicability:** Applies to both **Tax Year 2025** and **Tax Year 2026** (no changes).\n* **Official Sources:**\n  * https://www.ftb.ca.gov/file/when-to-file/due-dates-personal.html\n  * https://www.ftb.ca.gov/file/when-to-file/due-dates-business.html",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "California individual returns and payments are due on April 15 following the close of the tax year. Filers receive an automatic 6-month extension until October 15 to file, though tax liabilities must be paid by April 15 using Form FTB 3519 if remitting by mail.",
+    "source_url": "https://www.ftb.ca.gov/file/when-to-file/due-dates-personal.html",
+    "evidence": [
+     "April 15",
+     "automatic 6-month extension",
+     "Form FTB 3519",
+     "October 15"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.ftb.ca.gov/file/when-to-file/due-dates-personal.html; unreadable: https://www.ftb.ca.gov/file/when-to-file/extension-to-file.html; unreadable: https://www.ftb.ca.gov/forms/2025/2025-3519.pdf; figures not on webapp.ftb.ca.gov: ['3519']; unreadable: https://www.ftb.ca.gov/about-ftb/newsroom/tax-news/index.html; unreadable: https://www.ftb.ca.gov/about-ftb/newsroom/tax-news/2022/09.html; unreadable: https://www.ftb.ca.gov/forms/2025/2025-100s-booklet.html; unreadable: https:",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "C corporations are due April 15 with an automatic 7-month extension to November 15, while S corporations are due March 15 with an automatic 6-month extension to September 15. Partnerships and LLCs classified as partnerships are due March 15 with an automatic 7-month extension to October 15.",
+    "source_url": "https://www.ftb.ca.gov/file/when-to-file/due-dates-business.html",
+    "evidence": [
+     "April 15",
+     "March 15",
+     "Form FTB 3539",
+     "7-month extension"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.ftb.ca.gov/file/when-to-file/due-dates-business.html; unreadable: https://www.ftb.ca.gov/file/when-to-file/due-dates-personal.html; unreadable: https://www.ftb.ca.gov/file/when-to-file/extension-to-file.html; unreadable: https://www.ftb.ca.gov/forms/2025/2025-3519.pdf; figures not on webapp.ftb.ca.gov: ['7']; unreadable: https://www.ftb.ca.gov/about-ftb/newsroom/tax-news/index.html; unreadable: https://www.ftb.ca.gov/about-ftb/newsroom/tax-news/2022/09.html; unreadable: h",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2025
+    ],
+    "value": "Eligible pass-through entities can elect to pay a 9.3% tax on qualified net income on an original, timely filed return using Form FTB 3804. A required prepayment of the greater of 50% of the prior year elective tax or $1,000 must be paid by June 15 to make a valid election.",
+    "source_url": "https://www.ftb.ca.gov/file/business/credits/pass-through-entity-elective-tax/index.html",
+    "evidence": [
+     "9.3%",
+     "qualified net income",
+     "Form FTB 3804",
+     "June 15"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.ftb.ca.gov/file/business/credits/pass-through-entity-elective-tax/index.html; unreadable: https://www.ftb.ca.gov/file/when-to-file/due-dates-personal.html; unreadable: https://www.ftb.ca.gov/file/when-to-file/extension-to-file.html; unreadable: https://www.ftb.ca.gov/forms/2025/2025-3519.pdf; figures not on webapp.ftb.ca.gov: ['1000', '3804', '50', '9.3']; unreadable: https://www.ftb.ca.gov/about-ftb/newsroom/tax-news/index.html; unreadable: https://www.ftb.ca.gov/about-f",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2026
+    ],
+    "value": "Qualifying entities can elect to pay a 9.3% tax on qualified net income by filing Form FTB 3804 with their timely filed return. Under SB 132, underpaying or failing to make the June 15 prepayment does not invalidate the election, but the PTE credit to consenting owners is reduced by 12.5% of the unpaid amount.",
+    "source_url": "https://www.ftb.ca.gov/file/business/credits/pass-through-entity-elective-tax/index.html",
+    "evidence": [
+     "9.3%",
+     "Form FTB 3804",
+     "reduced by 12.5%",
+     "SB 132"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.ftb.ca.gov/file/business/credits/pass-through-entity-elective-tax/index.html; unreadable: https://www.ftb.ca.gov/file/when-to-file/due-dates-personal.html; unreadable: https://www.ftb.ca.gov/file/when-to-file/extension-to-file.html; unreadable: https://www.ftb.ca.gov/forms/2025/2025-3519.pdf; figures not on webapp.ftb.ca.gov: ['12.5', '132', '3804', '9.3']; unreadable: https://www.ftb.ca.gov/about-ftb/newsroom/tax-news/index.html; unreadable: https://www.ftb.ca.gov/about-",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "composite",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Pass-through entities may file a group nonresident return on Form 540NR with Schedule 1067A and Form FTB 3864 by April 15, with an automatic 6-month extension to October 15. Group return income is taxed at the highest individual marginal rate of 12.3%, plus the 1% Mental Health Services Tax on taxable income exceeding $1,000,000.",
+    "source_url": "https://www.ftb.ca.gov/file/business/filing-information/california-group-nonresident-tax-return.html",
+    "evidence": [
+     "Form 540NR",
+     "Schedule 1067A",
+     "Form FTB 3864",
+     "12.3%"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.ftb.ca.gov/file/business/filing-information/california-group-nonresident-tax-return.html; unreadable: https://www.ftb.ca.gov/file/when-to-file/due-dates-personal.html; unreadable: https://www.ftb.ca.gov/file/when-to-file/extension-to-file.html; unreadable: https://www.ftb.ca.gov/forms/2025/2025-3519.pdf; figures not on webapp.ftb.ca.gov: ['1000000', '1067', '12.3', '3864', '540']; unreadable: https://www.ftb.ca.gov/about-ftb/newsroom/tax-news/index.html; unreadable: https",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Entities must withhold 7% on gross California-source nonwage distributions exceeding $1,500 to domestic nonresident owners, remitted quarterly with Form 592-Q and filed annually on Form 592-PTE. S corporations make quarterly estimated payments using Form 100-ES, and LLCs pay an $800 annual tax along with an estimated LLC fee by June 15 via Form FTB 3536.",
+    "source_url": "https://www.ftb.ca.gov/pay/withholding/pass-through-entity-withholding.html",
+    "evidence": [
+     "Form 592-Q",
+     "Form 592-PTE",
+     "7%",
+     "Form 592-B"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.ftb.ca.gov/pay/withholding/pass-through-entity-withholding.html; unreadable: https://www.ftb.ca.gov/file/when-to-file/due-dates-personal.html; unreadable: https://www.ftb.ca.gov/file/when-to-file/extension-to-file.html; unreadable: https://www.ftb.ca.gov/forms/2025/2025-3519.pdf; figures not on webapp.ftb.ca.gov: ['1500', '3536', '592', '7', '800']; unreadable: https://www.ftb.ca.gov/about-ftb/newsroom/tax-news/index.html; unreadable: https://www.ftb.ca.gov/about-ftb/news",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Individual taxpayers file Form 540, 540 2EZ, or 540NR, and C corporations file Form 100 or Form 100W. Pass-through entities file Form 100S for S corporations, Form 565 for partnerships, and Form 568 for limited liability companies.",
+    "source_url": "https://www.ftb.ca.gov/file/when-to-file/due-dates-business.html",
+    "evidence": [
+     "Form 100",
+     "Form 100S",
+     "Form 565",
+     "Form 568"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.ftb.ca.gov/file/when-to-file/due-dates-business.html; unreadable: https://www.ftb.ca.gov/file/when-to-file/due-dates-personal.html; unreadable: https://www.ftb.ca.gov/file/when-to-file/extension-to-file.html; unreadable: https://www.ftb.ca.gov/forms/2025/2025-3519.pdf; figures not on webapp.ftb.ca.gov: ['2', '540', '565', '568']; unreadable: https://www.ftb.ca.gov/about-ftb/newsroom/tax-news/index.html; unreadable: https://www.ftb.ca.gov/about-ftb/newsroom/tax-news/2022/0",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://www.ftb.ca.gov/file/when-to-file/due-dates-personal.html",
+   "https://www.ftb.ca.gov/file/when-to-file/extension-to-file.html",
+   "https://www.ftb.ca.gov/forms/2025/2025-3519.pdf",
+   "https://webapp.ftb.ca.gov/webpay/help/corp100",
+   "https://www.ftb.ca.gov/about-ftb/newsroom/tax-news/index.html",
+   "https://www.ftb.ca.gov/about-ftb/newsroom/tax-news/2022/09.html",
+   "https://www.ftb.ca.gov/forms/2025/2025-100s-booklet.html",
+   "https://www.ftb.ca.gov/file/when-to-file/due-dates-business.html",
+   "https://www.ftb.ca.gov/tax-pros/law/legislation/2017-2018/ab119-FINAL.pdf",
+   "https://www.ftb.ca.gov/file/when-to-file/due-dates-business.html",
+   "https://www.ftb.ca.gov/forms/misc/1123.html",
+   "https://www.ftb.ca.gov/forms/2025/2025-3893-instructions.pdf",
+   "https://www.ftb.ca.gov/about-ftb/newsroom/tax-news/2025/12.html",
+   "https://www.ftb.ca.gov/file/business/credits/pass-through-entity-elective-tax/index.html",
+   "https://www.ftb.ca.gov/about-ftb/newsroom/tax-news/flash/index.html",
+   "https://www.ftb.ca.gov/about-ftb/newsroom/tax-news/2026/05.html",
+   "https://www.ftb.ca.gov/about-ftb/newsroom/tax-news/september-2021/pass-through-entity-elective-tax.html",
+   "https://www.ftb.ca.gov/file/business/credits/pass-through-entity-elective-tax/help.html",
+   "https://www.ftb.ca.gov/file/business/credits/pass-through-entity-elective-tax/index.html",
+   "https://www.ftb.ca.gov/file/business/credits/pass-through-entity-elective-tax/help.html",
+   "https://www.ftb.ca.gov/file/business/california-group-nonresident-tax-return.html",
+   "https://www.ftb.ca.gov/forms/2019/2019-1067-publication.pdf",
+   "https://www.ftb.ca.gov/forms/2025/2025-540nr-booklet.pdf",
+   "https://www.ftb.ca.gov/forms/2022/2022-3864.pdf",
+   "https://www.ftb.ca.gov/forms/2017/17-1067-instructions.html",
+   "https://www.ftb.ca.gov/forms/2022/2022-1067a.pdf",
+   "https://www.ftb.ca.gov/forms/2026/2026-100-es-instructions.html",
+   "https://www.ftb.ca.gov/forms/misc/1060.html",
+   "https://www.ftb.ca.gov/file/business/types/limited-liability-company/index.html",
+   "https://www.ftb.ca.gov/file/when-to-file/due-dates-business.html",
+   "https://www.ftb.ca.gov/forms/2025/2025-3536.pdf",
+   "https://www.ftb.ca.gov/about-ftb/newsroom/tax-news/2026/06.html",
+   "https://www.ftb.ca.gov/pay/withholding/withholding-on-nonresidents.html",
+   "https://www.ftb.ca.gov/pay/withholding/pass-through-entity-withholding.html",
+   "https://www.ftb.ca.gov/about-ftb/newsroom/tax-news/may-2022/ftb-form-592-submissions.html",
+   "https://www.ftb.ca.gov/forms/2026/2026-592-b.pdf",
+   "https://www.ftb.ca.gov/pay/withholding/pass-through-entity-withholding.html",
+   "https://www.ftb.ca.gov/forms/misc/1017.html",
+   "https://www.ftb.ca.gov/forms/2026/2026-592-f-instructions.html",
+   "https://www.ftb.ca.gov/forms/2026/2026-592-f-instructions.html",
+   "https://www.ftb.ca.gov/forms/2025/2025-100s-booklet.pdf"
+  ],
+  "error": ""
+ }
+]

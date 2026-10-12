@@ -1,0 +1,290 @@
+"""Build the depreciation calculator's generated rule files from their sources.
+
+Two outputs, both under ``app/tax_rules/depreciation/``:
+
+* ``macrs_tables.json`` - the IRS Pub. 946 Appendix A percentage tables,
+  taken from the raw ``find_tables()`` extract of the PDF stored in
+  ``docs/tax-research/sources/``. The tables are copied, not computed: the
+  IRS rounding (16.67 / 16.66 alternation and so on) cannot be reproduced by
+  formula, and a "close enough" table is a wrong table.
+* ``state_conformity.json`` - one entry per jurisdiction and tax year, built
+  from the cited research rows in ``docs/tax-research/state-depreciation-
+  conformity-batch*.json`` plus the hand-reviewed mechanics in
+  ``state_conformity_overrides.json``.
+
+Run from ``backend/``::
+
+    python -m scripts.build_depreciation_rules
+
+The script refuses to write a table that does not sum to 100% or a state
+file that is missing a jurisdiction-year, so a bad source fails here rather
+than inside a user's schedule.
+"""
+
+from __future__ import annotations
+
+import json
+import sys
+from decimal import Decimal
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[2]
+RULES = ROOT / "backend" / "app" / "tax_rules" / "depreciation"
+RAW_TABLES = ROOT / "docs" / "tax-research" / "sources" / "p946-2025-appendix-a-raw-tables.json"
+RESEARCH = ROOT / "docs" / "tax-research"
+
+P946_URL = "https://www.irs.gov/pub/irs-pdf/p946.pdf"
+LAST_VERIFIED = "2026-10-05"
+
+# Raw extract key -> (table id, Pub. 946 table name, columns wanted).
+_HY_MQ = ("3", "5", "7", "10", "15", "20")
+_SL = ("5", "15")
+TABLE_SOURCES: list[tuple[str, str, str, tuple[str, ...]]] = [
+    ("p70_t0", "gds_hy", "Table A-1 (GDS, half-year convention)", _HY_MQ),
+    ("p70_t1", "gds_mq1", "Table A-2 (GDS, mid-quarter, placed in service in 1st quarter)", _HY_MQ),
+    ("p71_t0", "gds_mq2", "Table A-3 (GDS, mid-quarter, 2nd quarter)", _HY_MQ),
+    ("p71_t1", "gds_mq3", "Table A-4 (GDS, mid-quarter, 3rd quarter)", _HY_MQ),
+    ("p72_t0", "gds_mq4", "Table A-5 (GDS, mid-quarter, 4th quarter)", _HY_MQ),
+    ("p74_t0", "sl_hy", "Table A-8 (straight line, half-year convention)", ("5",)),
+    ("p74_t1", "sl_hy", "Table A-8 (straight line, half-year convention)", ("15",)),
+    ("p76_t0", "sl_mq1", "Table A-9 (straight line, mid-quarter, 1st quarter)", ("5",)),
+    ("p76_t1", "sl_mq1", "Table A-9 (straight line, mid-quarter, 1st quarter)", ("15",)),
+    ("p78_t0", "sl_mq2", "Table A-10 (straight line, mid-quarter, 2nd quarter)", ("5",)),
+    ("p78_t1", "sl_mq2", "Table A-10 (straight line, mid-quarter, 2nd quarter)", ("15",)),
+    ("p80_t0", "sl_mq3", "Table A-11 (straight line, mid-quarter, 3rd quarter)", ("5",)),
+    ("p80_t1", "sl_mq3", "Table A-11 (straight line, mid-quarter, 3rd quarter)", ("15",)),
+    ("p82_t0", "sl_mq4", "Table A-12 (straight line, mid-quarter, 4th quarter)", ("5",)),
+    ("p82_t1", "sl_mq4", "Table A-12 (straight line, mid-quarter, 4th quarter)", ("15",)),
+]
+MID_MONTH_SOURCES = [
+    ("p72_t1", "residential_mm", "Table A-6 (residential rental property, mid-month, straight line 27.5 years)", 29, "2–9", range(2, 10)),
+    ("p73_t1", "nonresidential_mm", "Table A-7a (nonresidential real property, mid-month, straight line 39 years)", 40, "2–39", range(2, 40)),
+]
+
+
+def _values(cell: str) -> list[str]:
+    return [v.strip().rstrip("%") for v in cell.split("\n") if v.strip()]
+
+
+def build_macrs_tables() -> dict:
+    raw = json.loads(RAW_TABLES.read_text(encoding="utf-8"))
+    tables: dict[str, dict] = {}
+
+    for key, table_id, name, wanted in TABLE_SOURCES:
+        rows = raw[key]
+        header = [h.replace("-year", "") if h else h for h in rows[1]]
+        entry = tables.setdefault(table_id, {"citation": f"IRS Pub. 946 (2025), {name}", "periods": {}})
+        for period in wanted:
+            column = header.index(period)
+            entry["periods"][period] = _values(rows[2][column])
+
+    for key, table_id, name, years, span_label, span in MID_MONTH_SOURCES:
+        rows = raw[key]
+        labels = rows[2][0].split("\n")
+        months: dict[str, list[str]] = {}
+        for column in range(1, 13):
+            cells = _values(rows[2][column])
+            # The table prints one row for a span of identical years ("2–9").
+            # Expand it so year N is always index N-1.
+            expanded: list[str] = []
+            for label, value in zip(labels, cells):
+                if label == span_label:
+                    expanded.extend([value] * len(span))
+                else:
+                    expanded.append(value)
+            # A trailing year with no entry (month 1-6 of Table A-6 ends in year 28).
+            months[str(column)] = expanded
+        tables[table_id] = {
+            "citation": f"IRS Pub. 946 (2025), {name}",
+            "recovery_years": years,
+            "months": months,
+        }
+
+    _check_tables(tables)
+    return {
+        "_comment": (
+            "Generated by backend/scripts/build_depreciation_rules.py from the PyMuPDF "
+            "extract of IRS Pub. 946 (2025) Appendix A. Percentages of unadjusted basis, "
+            "as strings so they load as exact Decimals. Do not edit by hand."
+        ),
+        "source_url": P946_URL,
+        "source_citation": "IRS Publication 946 (2025), Appendix A, MACRS Percentage Tables",
+        "last_verified": LAST_VERIFIED,
+        "verified": True,
+        "tables": tables,
+    }
+
+
+def _check_tables(tables: dict) -> None:
+    hundred = Decimal(100)
+    for table_id, table in tables.items():
+        columns = table.get("periods") or table.get("months")
+        for column, values in columns.items():
+            total = sum((Decimal(v) for v in values), Decimal(0))
+            if total != hundred:
+                raise SystemExit(f"{table_id}[{column}] sums to {total}, not 100")
+            if "periods" in table:
+                expected = int(column) + 1
+                if len(values) != expected:
+                    raise SystemExit(f"{table_id}[{column}] has {len(values)} rows, expected {expected}")
+
+
+# ---------------------------------------------------------------------------
+# State conformity
+# ---------------------------------------------------------------------------
+
+SUPPORTED_YEARS = (2021, 2022, 2023, 2024, 2025, 2026)
+
+
+def build_state_conformity() -> dict:
+    sys.path.insert(0, str(ROOT / "backend"))
+    from app.services.assistant import state_registry
+
+    research: dict[tuple[str, int], dict] = {}
+    for path in sorted(RESEARCH.glob("state-depreciation-conformity-batch*.json")):
+        for row in json.loads(path.read_text(encoding="utf-8")):
+            research[(row["state"], int(row["tax_year"]))] = row
+
+    overrides = json.loads((RULES / "state_conformity_overrides.json").read_text(encoding="utf-8"))
+
+    states: dict[str, dict] = {}
+    for jurisdiction in state_registry.JURISDICTIONS:
+        if jurisdiction.kind == "territory":
+            continue
+        years: dict[str, dict] = {}
+        for year in SUPPORTED_YEARS:
+            row = research.get((jurisdiction.code, year))
+            override = overrides.get(jurisdiction.code, {}).get(str(year), {})
+            years[str(year)] = _entry(row, override, year)
+        states[jurisdiction.code] = {
+            "name": jurisdiction.name,
+            "agency": jurisdiction.agency.name,
+            "agency_url": jurisdiction.agency.url,
+            "business_tax": jurisdiction.business_tax,
+            "years": years,
+        }
+
+    missing = [code for code, s in states.items() if len(s["years"]) != len(SUPPORTED_YEARS)]
+    if len(states) != 51 or missing:
+        raise SystemExit(f"state table incomplete: {len(states)} jurisdictions, missing {missing}")
+    return {
+        "_comment": (
+            "Generated by backend/scripts/build_depreciation_rules.py from the cited research "
+            "rows in docs/tax-research/state-depreciation-conformity-batch*.json and the "
+            "reviewed mechanics in state_conformity_overrides.json. Edit those, then rebuild."
+        ),
+        "supported_years": list(SUPPORTED_YEARS),
+        "states": states,
+    }
+
+
+def _bonus(row: dict) -> dict:
+    kind = row.get("bonus")
+    if kind == "full":
+        return {"mode": "follow"}
+    if kind in ("none", "partial"):
+        addback, years = row.get("addback_pct"), row.get("recovery_years")
+        if addback and years:
+            return {"mode": "addback", "addback_pct": addback, "recovery_years": years}
+        if kind == "partial" and row.get("bonus_allowed_pct") is not None:
+            return {"mode": "percent", "allowed_pct": row["bonus_allowed_pct"]}
+        if kind == "none":
+            return {"mode": "none"}
+    return {"mode": "unknown"}
+
+
+def _section_179(row: dict) -> dict:
+    conforms = row.get("sec179_conforms")
+    if conforms is True:
+        return {"mode": "follow"}
+    if conforms is False and row.get("sec179_limit") is not None:
+        return {
+            "mode": "own",
+            "limit": row["sec179_limit"],
+            "phaseout_threshold": row.get("sec179_phaseout"),
+        }
+    return {"mode": "unknown"}
+
+
+def _entry(row: dict | None, override: dict, year: int) -> dict:
+    if row is None:
+        entry = {
+            "status": "unverified",
+            "income_tax": None,
+            "bonus": {"mode": "unknown"},
+            "section_179": {"mode": "unknown"},
+            "decouples_168n": None,
+            "summary": "No researched entry for this year yet.",
+            "source_url": "",
+            "source_citation": "",
+            "last_verified": None,
+            "verify_note": "Not yet researched.",
+            "changed_recently": False,
+            "change_note": "",
+            "special_rules": "",
+            "conformity": {"type": "unknown", "date": None},
+        }
+    else:
+        income_tax = bool(row.get("income_tax"))
+        entry = {
+            "status": (
+                "no_income_tax" if not income_tax and row.get("verified")
+                else "verified" if row.get("verified")
+                else "unverified"
+            ),
+            "income_tax": income_tax,
+            "bonus": _bonus(row) if income_tax else {"mode": "not_applicable"},
+            "section_179": _section_179(row) if income_tax else {"mode": "not_applicable"},
+            "decouples_168n": row.get("decouples_168n"),
+            "summary": row.get("bonus_mechanics", ""),
+            "source_url": row.get("source_url", ""),
+            "source_citation": row.get("source_citation", ""),
+            "last_verified": LAST_VERIFIED if row.get("verified") else None,
+            "research_date": LAST_VERIFIED,
+            "verify_note": row.get("verify_note", ""),
+            "changed_recently": bool(row.get("changed_recently")),
+            "change_note": row.get("change_note", ""),
+            "special_rules": row.get("special_rules", ""),
+            "conformity": {
+                "type": row.get("conformity_type") or "unknown",
+                "date": row.get("conformity_date"),
+            },
+        }
+        if not income_tax:
+            # The absence of an individual income tax is the fact the
+            # calculator relies on. A row marked unverified here is unverified
+            # about entity-level taxes (franchise, B&O, excise), which this
+            # calculator does not compute - so say "no income tax" and carry
+            # the caveat, rather than "not verified" for a tax that does not exist.
+            entry["status"] = "no_income_tax"
+            if not row.get("verified"):
+                entry["entity_tax_caveat"] = row.get("verify_note", "")
+    # Overrides are deep-merged one level: {"bonus": {...}} replaces bonus.
+    for key, value in override.items():
+        if key.startswith("_"):
+            continue
+        entry[key] = value
+    if override:
+        entry["override_note"] = override.get("_why", "")
+    entry["tax_year"] = year
+    return entry
+
+
+def main() -> None:
+    RULES.mkdir(parents=True, exist_ok=True)
+    tables = build_macrs_tables()
+    (RULES / "macrs_tables.json").write_text(json.dumps(tables, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+    print("macrs_tables.json:", ", ".join(sorted(tables["tables"])))
+    if "--tables-only" in sys.argv:
+        return
+    conformity = build_state_conformity()
+    (RULES / "state_conformity.json").write_text(json.dumps(conformity, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+    counts: dict[str, int] = {}
+    for state in conformity["states"].values():
+        for entry in state["years"].values():
+            counts[entry["status"]] = counts.get(entry["status"], 0) + 1
+    print("state_conformity.json:", counts)
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,496 @@
+[
+ {
+  "state": "CT",
+  "section": "apportionment",
+  "notes": "### 1. Apportionment Formula\n\n* **Fact:** Connecticut uses a **single sales (receipts) factor** apportionment formula to apportion net income for multistate corporations. The apportionment fraction consists of the taxpayer’s gross receipts from sales or other sources attributable to the taxpayer’s market in Connecticut (numerator) divided by total gross receipts everywhere (denominator). \n* **Applicable Tax Years:** Applies to both tax years **2025 and 2026** (effective for income years beginning on or after January 1, 2016; unchanged between 2025 and 2026).\n* **Official Sources:** \n  * Connecticut Department of Revenue Services (DRS) – *2016 Legislative Summary*: https://portal.ct.gov/drs/legislative-summaries/2016-legislative-summary\n  * Connecticut General Assembly – *Conn. Gen. Stat. § 12-218(b)*: https://www.cga.ct.gov/current/pub/chap_208.htm#sec_12-218\n  * DRS – *Corporation Business Tax Information*: https://portal.ct.gov/drs/corporations/corporation-business-tax/corporation-business-tax-information\n\n---\n\n### 2. Sourcing of Receipts from Services and Intangibles\n\n* **Fact:** Connecticut mandates **market-based sourcing** for gross receipts from services and intangibles:\n  * **Services:** Receipts are sourced to Connecticut if the market for the service is in Connecticut, which is defined as \"if and to the extent the service is used at a location in this state\" (Conn. Gen. Stat. § 12-218(b)(2)).\n  * **Intangible Property:** \n    * Rental, lease, or license of intangible property is sourced to Connecticut if and to the extent the property is used in Connecticut (Conn. Gen. Stat. § 12-218(b)(4)).\n    * Receipts from the sale of intangible property are sourced to Connecticut if and to the extent the intangible property is used in Connecticut; if used in more than one state, receipts are apportioned proportionally (Conn. Gen. Stat. § 12-218(b)(5)).\n* **Applicable Tax Years:** Applies to both tax years **2025 and 2026** (unchanged between 2025 and 2026).\n* **Official Sources:**\n  * Connecticut General Assembly – *Conn. Gen. Stat. § 12-218(b)*: https://www.cga.ct.gov/current/pub/chap_208.htm#sec_12-218\n  * DRS – *2016 Legislative Summary*: https://portal.ct.gov/drs/legislative-summaries/2016-legislative-summary\n  * DRS – *Special Notice 2017(1), Legislative Changes Regarding Single-Sales Factor Apportionment and Market-Based Sourcing*: https://portal.ct.gov/drs/bulletins-and-notices/special-notices/2017/sn-20171\n\n---\n\n### 3. Special Industry Apportionment Formulas\n\n* **Fact:** Connecticut provides industry-specific apportionment rules and formulas under statute for specific businesses:\n  * **Air Carriers:** Apportioned based on flight operations factors (arrivals/departures, revenue ton-miles, originating passenger metrics) under Conn. Gen. Stat. § 12-244.\n  * **Motor Bus and Motor Carrier Companies:** Apportioned based on passenger miles or vehicle miles under Conn. Gen. Stat. § 12-218(c).\n  * **Broadcasters and Production Entities:** Apportioned based on audience and subscriber ratios under Conn. Gen. Stat. § 12-218(f).\n  * **Financial Service Companies:** Apportioned under specific receipts apportionment rules under Conn. Gen. Stat. § 12-218b.\n  * **Income from Services to Regulated Investment Companies (RICs):** Apportioned based on the proportion of RIC shareholders located in Connecticut under Conn. Gen. Stat. § 12-218(e).\n  * **Credit Card Companies, Securities Brokerage Services, and Limited Partnership Interests:** Governed by specialized statutory/regulatory apportionment rules and schedules.\n* **Applicable Tax Years:** Applies to both tax years **2025 and 2026** (unchanged between 2025 and 2026).\n* **Official Sources:**\n  * DRS – *Corporation Business Tax Information*: https://portal.ct.gov/drs/corporations/corporation-business-tax/corporation-business-tax-information\n  * Connecticut General Assembly – *Conn. Gen. Stat. §§ 12-218, 12-218b, 12-244*: https://www.cga.ct.gov/current/pub/chap_208.htm\n\n---\n\n### 4. Forms and Schedules Used to Compute Apportionment\n\n* **Fact:** \n  * **General Separate Filers:** **Form CT-1120A**, *Corporation Business Tax Return Apportionment Computation*, is completed and attached to Form CT-1120 (the resulting apportionment fraction is entered on Form CT-1120, Schedule A, Line 2).\n  * **Combined Unitary Filers:** **Form CT-1120A-CU**, *Apportionment Computation for Combined Unitary Filers*, is completed and attached to Form CT-1120CU.\n  * **Industry-Specific Apportionment Forms:**\n    * **Form CT-1120A-A**: Air Carriers\n    * **Form CT-1120 A-BMC**: Motor Bus and Motor Carrier Companies\n    * **Form CT-1120 A-BPE**: Broadcasters and Production Entities\n    * **Form CT-1120 A-CCA**: Credit Card Activities\n    * **Form CT-1120 A-FS**: Financial Service Companies\n    * **Form CT-1120 A-IRIC**: Services to Regulated Investment Companies\n    * **Form CT-1120 A-LP**: Limited Partnership Interests\n    * **Form CT-1120 A-SBC**: Securities Brokerage Services\n* **Applicable Tax Years:** Applies to both tax years **2025 and 2026** (unchanged between 2025 and 2026).\n* **Official Sources:**\n  * DRS – *Current Corporation Tax Forms*: https://portal.ct.gov/drs/forms/corporation-forms/current-corporation-tax-forms\n  * DRS – *Corporation Business Tax Information*: https://portal.ct.gov/drs/corporations/corporation-business-tax/corporation-business-tax-information",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Connecticut uses a single sales (receipts) factor apportionment formula to apportion net income for multistate corporations. The fraction consists of gross receipts attributable to the taxpayer's market in Connecticut divided by total gross receipts everywhere.",
+    "source_url": "https://www.cga.ct.gov/current/pub/chap_208.htm#sec_12-218",
+    "evidence": [
+     "apportionment fraction",
+     "gross receipts",
+     "market in this state"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.cga.ct.gov/current/pub/chap_208.htm#sec_12-218; evidence not on portal.ct.gov (0/3); unreadable: https://www.cga.ct.gov/2016/FC/2016SB-00448-R000715-FC.htm; unreadable: https://www.cga.ct.gov/2025/pub/chap_208.htm; evidence not on portal.ct.gov (1/3)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Connecticut mandates market-based sourcing for gross receipts from services and intangibles. Receipts from services or the rental, lease, license, or sale of intangibles are sourced to Connecticut if and to the extent the service or property is used at a location in the state.",
+    "source_url": "https://portal.ct.gov/drs/bulletins-and-notices/special-notices/2017/sn-20171",
+    "evidence": [
+     "Market-Based Sourcing",
+     "Single-Sales Factor Apportionment",
+     "used at a location"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://portal.ct.gov/drs/legislative-summaries/2016-legislative-update/2016-legislative-summary",
+    "matched_title": "2016 Legislative Summary",
+    "matched_phrases": [
+     "Market-Based Sourcing",
+     "Single-Sales Factor Apportionment"
+    ],
+    "snippet": "Beginning with the 2017 tax year, pass-through entities and other filers subject to the income tax will use single sales factor apportionment with market based sourcing to compute their liability."
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Special apportionment formulas apply to air carriers, motor bus and motor carrier companies, broadcasters and production entities, financial service companies, services to regulated investment companies, credit card companies, and securities brokerage services.",
+    "source_url": "https://portal.ct.gov/drs/corporations/corporation-business-tax/corporation-business-tax-information",
+    "evidence": [
+     "Air Carriers",
+     "Motor Bus",
+     "Financial Service Companies",
+     "Broadcasters"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://portal.ct.gov/drs/corporation-tax/tax-information",
+    "matched_title": "Corporation Welcome Page",
+    "matched_phrases": [
+     "Air Carriers",
+     "Motor Bus",
+     "Financial Service Companies",
+     "Broadcasters"
+    ],
+    "snippet": "Air Carriers Broadcasters and Production Entities Credit Card Companies Financial Service Companies Limited Partners Manufacturing Companies Motor Bus and Motor Carrier Companies Security Brokerage Companies Income from Services to Regulated Investment Companies."
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "General separate filers use Form CT-1120A, and combined unitary filers complete Form CT-1120A-CU. Special industries compute apportionment using specific schedules such as Forms CT-1120A-A, CT-1120 A-BMC, CT-1120 A-BPE, and CT-1120 A-FS.",
+    "source_url": "https://portal.ct.gov/drs/forms/corporation-forms/current-corporation-tax-forms",
+    "evidence": [
+     "Form CT-1120A",
+     "Form CT-1120A-CU",
+     "Apportionment Computation"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://portal.ct.gov/drs/corporation-tax/tax-information",
+    "matched_title": "Corporation Welcome Page",
+    "matched_phrases": [
+     "Form CT-1120A",
+     "Form CT-1120A-CU",
+     "Apportionment Computation"
+    ],
+    "snippet": "Use Form CT-1120A-CU , Apportionment Computation for Combined Unitary Filers for more information."
+   }
+  ],
+  "grounding_urls": [
+   "https://portal.ct.gov/drs/legislative-summaries/2016-legislative-update/2016-legislative-summary",
+   "https://www.cga.ct.gov/2016/FC/2016SB-00448-R000715-FC.htm",
+   "https://www.cga.ct.gov/2016/FC/2016SB-00448-R000715-FC.htm",
+   "https://www.cga.ct.gov/2025/pub/chap_208.htm",
+   "https://portal.ct.gov/drs/corporation-tax/tax-information",
+   "https://portal.ct.gov/drs/publications/special-notices/2017/sn-17-1?archived=true",
+   "https://portal.ct.gov/drs/drs-forms/current-year-forms/corporation-forms",
+   "https://portal.ct.gov/DRS/Businesses/S-corporation/-/media/979B0F5F6CE54147ABC52271CFD9EBCA.ashx",
+   "https://portal.ct.gov/drs/drs-forms/2014-forms/2014-corporation-forms?archived=true"
+  ],
+  "error": ""
+ },
+ {
+  "state": "CT",
+  "section": "nexus",
+  "notes": "### Income and Franchise Tax Nexus & Economic Nexus Threshold\n\n* **Nexus Standard:** Connecticut imposes the Corporation Business Tax on any company carrying on business in the state, having the right to carry on business, owning or leasing property, maintaining an office, or having a \"substantial economic presence within this state, evidenced by a purposeful direction of business toward this state, examined in light of the frequency, quantity and systematic nature of a company's economic contacts with this state, without regard to physical presence\".\n* **Bright-Line Economic Nexus Threshold:** A company, partnership, or S corporation is **not** deemed to have economic nexus for a taxable year if it has receipts from business activities of **less than $500,000** attributable to Connecticut sources during such taxable year. Conversely, purposeful direction of business generating Connecticut-sourced receipts exceeding $500,000 establishes economic nexus.\n* **Applicability:** Applies to tax years 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Connecticut Department of Revenue Services (DRS) IP 2010(29.1): https://portal.ct.gov/drs/publications/informational-publications/2010/ip-2010291-q-a-on-economic-nexus\n  * Connecticut General Assembly, Conn. Gen. Stat. § 12-216a: https://www.cga.ct.gov/current/pub/chap_208.htm\n  * DRS Corporation Business Tax Information: https://portal.ct.gov/drs/corporation-business-tax/corporation-business-tax-information\n\n---\n\n### Remote Seller Economic Nexus Threshold (Sales and Use Tax)\n\n* **Threshold Amounts:** An out-of-state retailer must register for and collect Connecticut sales and use tax if it meets **both** of the following criteria:\n  * **200 or more** retail sales into Connecticut, **and**\n  * At least **$100,000** in gross receipts from sales into Connecticut.\n* **Measurement Period:** The 12-month period ending on September 30 immediately preceding the monthly or quarterly period for which liability for tax is determined.\n* **Applicability:** Applies to tax years 2025 and 2026 (unchanged; effective since July 1, 2019).\n* **Official Sources:**\n  * DRS Registering Your Business with DRS: https://portal.ct.gov/drs/businesses/new-business/registering-your-business-with-drs\n  * DRS 2019 Regular Session Legislation Overview: https://portal.ct.gov/drs/legislative-summaries/2019-regular-session---state-tax-legislation-overview\n\n---\n\n### Public Law 86-272 Position\n\n* **Stated Policy:** \n  * DRS recognizes Public Law 86-272 (15 U.S.C. §§ 381–384) as restricting Connecticut from imposing a net income tax if the out-of-state business's sole activity within Connecticut consists of the solicitation of orders for sales of tangible personal property, provided the orders are approved/rejected outside the state and filled by shipment or delivery from outside the state.\n  * P.L. 86-272 protection does **not** apply to sales of services, intangibles, or transactions other than tangible personal property.\n  * P.L. 86-272 applies solely to net income taxes; it does **not** protect a corporation from taxes not based on net income. Corporations immune under P.L. 86-272 remain subject to the Connecticut Corporation Business Tax assessed on the **capital base** (and are treated as taxable members for capital base purposes in combined unitary groups).\n  * *Internet Activity Guidance:* DRS has not published official guidance or adoption of the Multistate Tax Commission (MTC) revised statement regarding internet activities.\n* **Applicability:** Applies to tax years 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * DRS IP 2010(29.1): https://portal.ct.gov/drs/publications/informational-publications/2010/ip-2010291-q-a-on-economic-nexus\n  * DRS Special Notice SN 2016(1): https://portal.ct.gov/drs/publications/special-notices/2016/sn-20161-combined-unitary-legislation---corporation-business-tax",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Connecticut imposes the Corporation Business Tax on entities carrying on business, having property, or establishing a substantial economic presence through purposeful direction of business toward the state. A company is not deemed to have economic nexus if it has receipts from business activities of less than $500,000 attributable to Connecticut sources during the taxable year.",
+    "source_url": "https://portal.ct.gov/drs/publications/informational-publications/2010/ip-2010291-q-a-on-economic-nexus",
+    "evidence": [
+     "substantial economic presence",
+     "purposeful direction of business",
+     "less than $500,000"
+    ],
+    "accepted": false,
+    "reason": "figures not on portal.ct.gov: ['500000']; unreadable: https://www.cga.ct.gov/2015/jnl/s/2015SJL01208-R00SS2-JNL.htm; figure not stated beside the evidence on portal.ct.gov; unreadable: https://www.cga.ct.gov/2025/pub/chap_208.htm; evidence not on portal.ct.gov (1/3); evidence not on portal.ct.gov (0/3)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "An out-of-state retailer must collect sales and use tax if it has both 200 or more retail sales into Connecticut and at least $100,000 in gross receipts from sales into the state. This is determined over the 12-month period ending on September 30 immediately preceding the monthly or quarterly tax period.",
+    "source_url": "https://portal.ct.gov/drs/businesses/new-business/registering-your-business-with-drs",
+    "evidence": [
+     "200 or more",
+     "at least $100,000",
+     "ending on September 30"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://portal.ct.gov/drs/businesses/new-business-resource-center/registering-with-drs",
+    "matched_title": "Registering with DRS",
+    "matched_phrases": [
+     "200 or more",
+     "at least $100,000",
+     "ending on September 30"
+    ],
+    "snippet": "200 or more retail sales into Connecticut and has at least $100,000 in gross receipts from sales into Connecticut."
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Connecticut recognizes Public Law 86-272 as restricting the imposition of net income tax when in-state activity is limited to soliciting orders for sales of tangible personal property. However, it does not apply to non-net income taxes, leaving immune corporations subject to the Corporation Business Tax assessed on the capital base.",
+    "source_url": "https://portal.ct.gov/drs/publications/informational-publications/2010/ip-2010291-q-a-on-economic-nexus",
+    "evidence": [
+     "Public Law 86-272",
+     "tangible personal property",
+     "capital base"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://portal.ct.gov/drs/publications/informational-publications/2010/ip-2010291-q--a-on-economic-nexus?archived=true",
+    "matched_title": "IP 2010291 Q  A on Economic Nexus",
+    "matched_phrases": [
+     "Public Law 86-272",
+     "tangible personal property"
+    ],
+    "snippet": "Does federal Public Law 86-272 provide protection to businesses that have economic nexus in Connecticut against Connecticut taxation? Yes."
+   }
+  ],
+  "grounding_urls": [
+   "https://www.cga.ct.gov/2015/jnl/s/2015SJL01208-R00SS2-JNL.htm",
+   "https://portal.ct.gov/drs/publications/informational-publications/2010/ip-2010291-q--a-on-economic-nexus?archived=true",
+   "https://portal.ct.gov/drs/publications/informational-publications/2010/ip-2010291-q--a-on-economic-nexus?archived=true",
+   "https://portal.ct.gov/drs/miscellaneous-taxes/other-tax-page/state-tax-developments/2025-developments/corporation-business-tax-credits",
+   "https://www.cga.ct.gov/2025/pub/chap_208.htm",
+   "https://www.cga.ct.gov/2025/pub/chap_208.htm",
+   "https://portal.ct.gov/drs/corporation-tax/tax-information",
+   "https://portal.ct.gov/drs/businesses/new-business-resource-center/registering-with-drs",
+   "https://portal.ct.gov/drs/legislative-summaries/2019-legislative-updates/regular-session-state-tax-legislation-overview?archived=true",
+   "https://portal.ct.gov/DRS/Businesses/S-corporation/-/media/EF8926D1445B4E61B858F891264694F9.ashx",
+   "https://portal.ct.gov/DRS/Businesses/S-corporation/-/media/EF8926D1445B4E61B858F891264694F9.ashx"
+  ],
+  "error": ""
+ },
+ {
+  "state": "CT",
+  "section": "rates",
+  "notes": "### Individual Income Tax Rates and Brackets\n* **Applicable Tax Years:** 2025 and 2026 (effective for taxable years beginning on or after January 1, 2024; rates and bracket thresholds remain unchanged for 2025 and 2026).\n* **Brackets and Rates (Conn. Gen. Stat. § 12-700(a)(10)):**\n  * **Unmarried Individuals (Single) & Married Filing Separately:**\n    * Not over $10,000: 2.0%\n    * Over $10,000 but not over $50,000: $200.00, plus 4.5% of the excess over $10,000\n    * Over $50,000 but not over $100,000: $2,000.00, plus 5.5% of the excess over $50,000\n    * Over $100,000 but not over $200,000: $4,750.00, plus 6.0% of the excess over $100,000\n    * Over $200,000 but not over $250,000: $10,750.00, plus 6.5% of the excess over $200,000\n    * Over $250,000 but not over $500,000: $14,000.00, plus 6.9% of the excess over $250,000\n    * Over $500,000: $31,250.00, plus 6.99% of the excess over $500,000\n  * **Married Individuals Filing Jointly & Qualifying Surviving Spouse:**\n    * Not over $20,000: 2.0%\n    * Over $20,000 but not over $100,000: $400.00, plus 4.5% of the excess over $20,000\n    * Over $100,000 but not over $200,000: $4,000.00, plus 5.5% of the excess over $100,000\n    * Over $200,000 but not over $400,000: $9,500.00, plus 6.0% of the excess over $200,000\n    * Over $400,000 but not over $500,000: $21,500.00, plus 6.5% of the excess over $400,000\n    * Over $500,000 but not over $1,000,000: $28,000.00, plus 6.9% of the excess over $500,000\n    * Over $1,000,000: $62,500.00, plus 6.99% of the excess over $1,000,000\n  * **Head of Household:**\n    * Not over $16,000: 2.0%\n    * Over $16,000 but not over $80,000: $320.00, plus 4.5% of the excess over $16,000\n    * Over $80,000 but not over $160,000: $3,200.00, plus 5.5% of the excess over $80,000\n    * Over $160,000 but not over $320,000: $7,600.00, plus 6.0% of the excess over $160,000\n    * Over $320,000 but not over $400,000: $17,200.00, plus 6.5% of the excess over $320,000\n    * Over $400,000 but not over $800,000: $22,400.00, plus 6.9% of the excess over $400,000\n    * Over $800,000: $50,000.00, plus 6.99% of the excess over $800,000\n  * **Trusts and Estates:** Flat rate of 6.99%.\n  * *Note:* Higher earners are subject to statutory benefit recapture calculations phasing out the benefit of the lower 2.0% and 4.5% tax brackets.\n* **Official Pages:**\n  * https://www.cga.ct.gov/current/pub/chap_229.htm\n  * https://portal.ct.gov/drs/calculators/calculators-home\n\n---\n\n### Corporate Income or Franchise Tax Rate(s) and Minimum Tax\n* **Applicable Tax Years:** 2025 and 2026 (both base rates and the 10% surtax apply to both years).\n* **Tax Rates and Calculation:**\n  * **Net Income Base Rate:** 7.5%.\n  * **Minimum Tax:** $250.\n  * **Capital Base Tax (Alternative Method):** Corporations calculate tax on both the net income base and capital base, remitting the higher amount. The capital base tax rate for 2025 is 0.0021 (2.1 mills per dollar), subject to a phaseout schedule (maximum capital base tax is $1,000,000).\n  * **Surtax:** A 10% surtax applies to corporations whose federal gross income (federal Form 1120, Line 11) equals or exceeds $100 million, or that file as part of a combined unitary group. The 10% surtax does not apply to the $250 minimum tax. Connecticut enacted legislation extending the 10% surtax through income year 2028 (covering both 2025 and 2026).\n* **Official Pages:**\n  * https://portal.ct.gov/drs/businesses/corporation-business-tax/corporation-business-tax-information\n  * https://portal.ct.gov/drs/legislative-summaries/2025-legislative-overview---corporation-business-tax-and-tax-credits\n\n---\n\n### State Sales and Use Tax Rate & Local Taxes\n* **Applicable Tax Years:** 2025 and 2026.\n* **General Statewide Rate:** 6.35%.\n* **Local Taxes:** No local jurisdictions impose additional sales and use taxes in Connecticut (statewide rate is uniform).\n* **Special Statewide Sales and Use Tax Rates:**\n  * **1%:** Computer and data processing services; electronically accessed/transferred business canned software.\n  * **2.99%:** Vessels, motors for vessels, and boat trailers.\n  * **7.75%:** Luxury goods (e.g., motor vehicles > $50,000; jewelry > $5,000; clothing/footwear, handbags, luggage, and watches > $1,000).\n  * **9.35%:** Passenger motor vehicle rentals or leases of 30 consecutive days or less.\n* **Official Pages:**\n  * https://portal.ct.gov/drs/sales-and-use-taxes/sales-and-use-tax-information\n  * https://portal.ct.gov/drs/individuals/individual-use-tax-information\n\n---\n\n### Gross Receipts, Franchise, Margin, or Other Notable Business Taxes\n* **Pass-Through Entity Tax (PET) (Conn. Gen. Stat. § 12-699):**\n  * **Tax Years:** 2025 and 2026.\n  * **Rate:** 6.99% flat entity-level tax.\n  * **Rules:** Made an optional annual election effective January 1, 2024 (through 2025 and 2026). Pass-through entity members/owners receive an 87.5% credit against their Connecticut personal income tax or corporation business tax liability.\n  * **Official Pages:**\n    * https://portal.ct.gov/drs/businesses/pass-through-entity-tax/connecticut-pass-through-entity-tax-information\n    * https://www.cga.ct.gov/current/pub/chap_228z.htm\n* **Petroleum Products Gross Earnings Tax (Conn. Gen. Stat. § 12-587):**\n  * **Tax Years:** 2025 and 2026.\n  * **Rate:** 8.1% quarterly tax on gross earnings derived from the first sale or importation for sale/use/consumption of petroleum products in Connecticut.\n  * **Official Page:** https://portal.ct.gov/drs/businesses/petroleum-products-gross-earnings-tax/petroleum-product-gross-earnings-tax-information\n* **Highway Use Fee (Conn. Pub. Acts 21-177):**\n  * **Tax Years:** 2025 and 2026.\n  * **Rate:** Mileage tax ranging from $0.025 to $0.175 per mile on eligible heavy motor vehicles (gross weight 26,000 lbs or more, FHWA Classes 8 through 13) operated on Connecticut highways.\n  * **Official Page:** https://portal.ct.gov/drs/businesses/highway-use-fee/highway-use-fee-information\n* **Business Entity Tax (BET):**\n  * Repealed: Public Act 19-117 terminated the former $250 biennial Business Entity Tax for all taxable years beginning after December 31, 2018 (does not apply to 2025 or 2026).\n  * **Official Page:** https://portal.ct.gov/drs/businesses/business-entity-tax/business-entity-tax",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Connecticut individual income tax rates range from 2.0% to 6.99% across seven brackets, with higher earners subject to benefit recapture calculations phasing out lower brackets. Trusts and estates are taxed at a flat rate of 6.99%.",
+    "source_url": "https://www.cga.ct.gov/current/pub/chap_229.htm",
+    "evidence": [
+     "Not over $10,000",
+     "excess over $500,000",
+     "benefit recapture",
+     "Trusts and Estates"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.cga.ct.gov/current/pub/chap_229.htm; figures not on portal.ct.gov: ['6.99']; unreadable: https://www.cga.ct.gov/2026/TOB/H/PDF/2026HB-05444-R00-HB.PDF; unreadable: https://www.cga.ct.gov/2025/TOB/H/PDF/2025HB-07272-R00-HB.PDF; unreadable: https://www.cga.ct.gov/2024/rpt/pdf/2024-R-0130.pdf; unreadable: https://www.cga.ct.gov/2021/pub/chap_229.htm; figures not on portal.ct.gov: ['2', '6.99']; unreadable: https://www.cga.ct.gov/2025/pub/chap_228z.htm; unreadable: https://ww",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The corporate business tax net income base rate is 7.5% with a minimum tax of $250, and corporations pay the higher of the net income base or capital base tax. A 10% surtax applies to corporations with federal gross income equal to or exceeding $100 million or those filing as part of a combined unitary group.",
+    "source_url": "https://portal.ct.gov/drs/businesses/corporation-business-tax/corporation-business-tax-information",
+    "evidence": [
+     "7.5%",
+     "minimum tax",
+     "10% surtax",
+     "capital base"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://portal.ct.gov/drs/corporation-tax/tax-information",
+    "matched_title": "Corporation Welcome Page",
+    "matched_phrases": [
+     "7.5%",
+     "minimum tax",
+     "10% surtax",
+     "capital base"
+    ],
+    "snippet": "Net Income Base Tax Capital Base Tax Companies whose total income reported on line 11 of federal Form 1120 equals or exceeds $100 million, or who file as part of a combined unitary group must pay a surtax of 10% of the tax without regard to credits and tax credit recapture."
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The statewide general sales and use tax rate is 6.35%, and no local jurisdictions add sales taxes. Special rates include 1% for computer and data processing services, 2.99% for vessels, 7.75% for luxury items, and 9.35% for short-term passenger motor vehicle rentals.",
+    "source_url": "https://portal.ct.gov/drs/sales-and-use-taxes/sales-and-use-tax-information",
+    "evidence": [
+     "6.35%",
+     "Computer and data processing services",
+     "Luxury goods",
+     "passenger motor vehicle rentals"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://portal.ct.gov/drs/sales-tax/tax-information",
+    "matched_title": "Tax Information",
+    "matched_phrases": [
+     "6.35%",
+     "Computer and data processing services"
+    ],
+    "snippet": "Tax Rates The sales tax rate of 6.35% applies to the retail sale, lease, or rental of most goods (including digital goods, which are described in Special Notice 2019(8) , Sales and Use Taxes on Digital Goods and Canned or Prewritten Software ) and taxable services."
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Connecticut imposes an optional pass-through entity tax of 6.99%, for which members receive an 87.5% credit. The state also levies an 8.1% gross earnings tax on petroleum products and a heavy motor vehicle highway use fee ranging from $0.025 to $0.175 per mile.",
+    "source_url": "https://portal.ct.gov/drs/businesses/pass-through-entity-tax/connecticut-pass-through-entity-tax-information",
+    "evidence": [
+     "6.99%",
+     "Pass-Through Entity Tax",
+     "87.5% credit"
+    ],
+    "accepted": false,
+    "reason": "figures not on portal.ct.gov: ['0.025', '0.175', '6.99', '8.1', '87.5']; unreadable: https://www.cga.ct.gov/2026/TOB/H/PDF/2026HB-05444-R00-HB.PDF; unreadable: https://www.cga.ct.gov/2025/TOB/H/PDF/2025HB-07272-R00-HB.PDF; unreadable: https://www.cga.ct.gov/2024/rpt/pdf/2024-R-0130.pdf; unreadable: https://www.cga.ct.gov/2021/pub/chap_229.htm; unreadable: https://www.cga.ct.gov/2025/pub/chap_228z.htm; unreadable: https://www.cga.ct.gov/ofa/Documents/year/TER/2024TER-20240201_Tax%20Expenditure%20",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://portal.ct.gov/drs/miscellaneous-taxes/other-tax-page/state-tax-developments/2023-developments",
+   "https://www.cga.ct.gov/2026/TOB/H/PDF/2026HB-05444-R00-HB.PDF",
+   "https://www.cga.ct.gov/2025/TOB/H/PDF/2025HB-07272-R00-HB.PDF",
+   "https://www.cga.ct.gov/2024/rpt/pdf/2024-R-0130.pdf",
+   "https://www.cga.ct.gov/2021/pub/chap_229.htm",
+   "https://www.cga.ct.gov/2025/TOB/H/PDF/2025HB-07272-R00-HB.PDF",
+   "https://www.cga.ct.gov/2024/rpt/pdf/2024-R-0130.pdf",
+   "https://www.cga.ct.gov/2021/pub/chap_229.htm",
+   "https://portal.ct.gov/drs/drs-forms/current-year-forms/calculators-and-tables",
+   "https://portal.ct.gov/drs/corporation-tax/tax-information",
+   "https://portal.ct.gov/drs/miscellaneous-taxes/other-tax-page/state-tax-developments/2025-developments/corporation-business-tax-credits",
+   "https://portal.ct.gov/drs/publications/informational-publications/2010/ip-201020-business-taxes?archived=true",
+   "https://portal.ct.gov/drs/corporation-tax/tax-information",
+   "https://portal.ct.gov/drs/publications/informational-publications/2003/ip-200334-business-taxes",
+   "https://portal.ct.gov/drs/corporation-tax/tax-information",
+   "https://portal.ct.gov/drs/miscellaneous-taxes/other-tax-page/state-tax-developments/2025-developments/corporation-business-tax-credits",
+   "https://portal.ct.gov/drs/sales-tax/tax-information",
+   "https://portal.ct.gov/drs/individuals/individual-income-tax-portal/individual-use-tax/tax-information",
+   "https://portal.ct.gov/drs/taxes/pass-through-entity/tax-information",
+   "https://portal.ct.gov/drs/miscellaneous-taxes/other-tax-page/state-tax-developments/2023-developments",
+   "https://www.cga.ct.gov/2025/pub/chap_228z.htm",
+   "https://www.cga.ct.gov/ofa/Documents/year/TER/2024TER-20240201_Tax%20Expenditure%20Report%20FY%2024.pdf",
+   "https://www.cga.ct.gov/2025/pub/chap_228z.htm",
+   "https://portal.ct.gov/drs/legislative-summaries/2019-legislative-updates/regular-session-state-tax-legislation-overview?archived=true",
+   "https://portal.ct.gov/drs/taxes/petroleum-products-tax/tax-information",
+   "https://portal.ct.gov/drs/businesses/highway-use-fee/huf",
+   "https://portal.ct.gov/drs/drs-forms/current-year-forms/business-entity-tax-return?archived=true"
+  ],
+  "error": ""
+ },
+ {
+  "state": "CT",
+  "section": "filing",
+  "notes": "### 1. Individual Income Tax Return Due Dates and Extension Rules\n* **Due Date (Calendar-Year Filers):** April 15 (or the next business day if April 15 falls on a Saturday, Sunday, or legal holiday).\n* **Extension to File:** Filing **Form CT-1040 EXT** grants a 6-month extension of time to file (to October 15 for calendar-year filers).\n* **Extension to Pay:** An extension to file does not extend the time to pay. Taxpayers experiencing undue hardship may request a 6-month extension to pay by filing **Form CT-1127** on or before the original due date of the return. \n* **Applicable Tax Years:** 2025 and 2026.\n* **Official Sources:**\n  * CT DRS Individual Tax Information: https://portal.ct.gov/drs/individuals/tax-information\n  * CT DRS 2025 Filing Season FAQs: https://portal.ct.gov/drs/faqs/faqs-tax-season-2025\n\n---\n\n### 2. Corporate and Pass-Through Entity Return Due Dates and Extensions\n\n#### A. Corporation Business Tax\n* **Due Date:** 15th day of the 5th month following the close of the income year (May 15 for calendar-year filers). *(Exception: Entities with a June 30 year-end must file by the 15th day of the 4th month—October 15).*\n* **Extension of Time to File:** Filed using **Form CT-1120 EXT**. An approved extension grants 6 months (to November 15 for calendar-year filers), or 7 months for corporations with a June 30 year-end. Extension of time to file does not extend the time to pay.\n* **Applicable Tax Years:** 2025 and 2026.\n* **Official Sources:** \n  * CT DRS Corporation Business Tax FAQs: https://portal.ct.gov/drs/corporation/corporation-business-tax-faqs\n  * CT DRS Corporation Business Tax Information: https://portal.ct.gov/drs/corporation/corporation-business-tax-information\n\n#### B. Pass-Through Entities (PEs)\n* **Due Dates:** \n  * Mandatory composite/informational return (**Form CT-1065/CT-1120SI**): Due on or before the 15th day of the 3rd month following the close of the taxable year (March 15 for calendar-year filers).\n  * Elective Pass-Through Entity Tax Return (**Form CT-PET**): Due on or before the 15th day of the 3rd month following the close of the taxable year (March 15 for calendar-year filers).\n* **Extensions:**\n  * For Form CT-1065/CT-1120SI: Request an extension using **Form CT-1065/CT-1120SI EXT** (extends filing and Schedule CT K-1 issuance to the 15th day of the 9th month—September 15 for calendar-year filers).\n  * For Form CT-PET: Request an extension using **Form CT-PET EXT**.\n  * An extension to pay must be requested separately using **Form CT-1127**.\n* **Applicable Tax Years:** 2025 and 2026.\n* **Official Sources:**\n  * CT DRS Composite Income Tax Information: https://portal.ct.gov/drs/pass-through-entities/composite-income-tax-information\n  * CT DRS Pass-Through Entity Tax Information: https://portal.ct.gov/drs/pass-through-entities/pass-through-entity-tax-information\n\n---\n\n### 3. Elective Pass-Through Entity Tax (PTET), Rate, and Election Mechanics\n* **Existence:** Yes. Beginning with taxable years starting on or after January 1, 2024, the Connecticut Pass-Through Entity Tax is elective/optional.\n* **Tax Rate:** 6.99% (applied to the tax base, which equals the resident portion of unsourced income plus modified Connecticut source income).\n* **How and When to Elect:** \n  * The election must be made annually and is irrevocable.\n  * Made by providing written notice no later than the due date (or extended due date) of the return, which is accomplished by checking the election box on a timely filed **Form CT-1065/CT-1120SI** and filing **Form CT-PET**.\n* **Member Credit:** Eligible members receive a credit against their CT tax equal to 87.5% of their share of the tax paid.\n* **Applicable Tax Years:** 2025 and 2026.\n* **Official Sources:**\n  * CT DRS Pass-Through Entity Tax Information: https://portal.ct.gov/drs/pass-through-entities/pass-through-entity-tax-information\n  * Conn. Gen. Stat. § 12-699: https://www.cga.ct.gov/current/pub/chap_228z.htm#sec_12-699\n  * CT DRS 2023 Tax Developments: https://portal.ct.gov/drs/legislative-summaries/2023-connecticut-state-tax-developments\n\n---\n\n### 4. Composite or Group Nonresident Returns for Pass-Through Entities\n* **Mandatory Composite Reporting:** Every PE doing business in Connecticut or having Connecticut-sourced income must file **Form CT-1065/CT-1120SI** (Connecticut Composite Income Tax Return). \n* **Composite Remittance for Nonresidents:** PEs must remit composite income tax payments on behalf of nonresident noncorporate members (nonresident individuals, trusts, and estates) and member pass-through entities.\n* **Group Nonresident Returns (Form CT-G):** Repealed/discontinued effective for taxable years beginning on or after January 1, 2006 (Form CT-G is no longer available).\n* **Applicable Tax Years:** 2025 and 2026.\n* **Official Sources:**\n  * CT DRS Composite Income Tax Information: https://portal.ct.gov/drs/pass-through-entities/composite-income-tax-information\n  * CT DRS IP 2006(22): https://portal.ct.gov/drs/publications/informational-publications/2006/ip-200622\n\n---\n\n### 5. Estimated Taxes and Nonresident Withholding for Pass-Throughs\n* **PTET (Form CT-PET) Estimated Taxes:**\n  * Required if the annual tax is $1,000 or greater.\n  * Four equal installments due on:\n    * 1st Installment: 15th day of the 4th month of the taxable year (April 15 for calendar-year filers) — 25% of prior year tax or 22.5% of current year tax.\n    * 2nd Installment: 15th day of the 6th month (June 15) — 50% of prior year tax or 45% of current year tax.\n    * 3rd Installment: 15th day of the 9th month (September 15) — 75% of prior year tax or 67.5% of current year tax.\n    * 4th Installment: 15th day of the 1st month after the close of the taxable year (January 15) — 100% of prior year tax or 90% of current year tax.\n  * Remitted using **Form CT-PET ES** (must be paid electronically).\n* **Form CT-1065/CT-1120SI Estimated Taxes:**\n  * \"Estimated tax payments are not required for Form CT-1065/CT-1120SI\".\n* **Nonresident Withholding / Composite Payment Calculation:**\n  * Remitted annually with Form CT-1065/CT-1120SI at the highest individual marginal rate (6.99%) on each nonresident noncorporate member's share of Connecticut-sourced income, offset by any PE Tax credit.\n* **Applicable Tax Years:** 2025 and 2026.\n* **Official Sources:**\n  * CT DRS Pass-Through Entity Tax Information: https://portal.ct.gov/drs/pass-through-entities/pass-through-entity-tax-information\n  * CT DRS Composite Income Tax Information: https://portal.ct.gov/drs/pass-through-entities/composite-income-tax-information\n  * Conn. Gen. Stat. § 12-699a: https://www.cga.ct.gov/current/pub/chap_228z.htm#sec_12-699a\n\n---\n\n### 6. Main Return Forms\n* **Individuals:**\n  * **Form CT-1040:** Connecticut Resident Income Tax Return.\n  * **Form CT-1040NR/PY:** Connecticut Nonresident and Part-Year Resident Income Tax Return.\n* **Corporations:**\n  * **Form CT-1120:** Corporation Business Tax Return.\n  * **Form CT-1120CU:** Combined Unitary Corporation Business Tax Return.\n* **Pass-Through Entities:**\n  * **Form CT-1065/CT-1120SI:** Connecticut Composite Income Tax Return (mandatory for all PEs doing business in CT or with CT-sourced income).\n  * **Form CT-PET:** Connecticut Pass-Through Entity Tax Return (filed if electing into PTET).\n* **Applicable Tax Years:** 2025 and 2026.\n* **Official Sources:**\n  * CT DRS Individual Income Tax Forms: https://portal.ct.gov/drs/individuals/individual-income-tax-forms\n  * CT DRS Corporation Business Tax Information: https://portal.ct.gov/drs/corporation/corporation-business-tax-information\n  * CT DRS Pass Through Entity Tax Forms: https://portal.ct.gov/drs/pass-through-entities/pass-through-entity-tax-forms",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Individual returns for calendar-year filers are due on April 15. Filing Form CT-1040 EXT grants a 6-month extension to file, though an extension to pay requires Form CT-1127.",
+    "source_url": "https://portal.ct.gov/drs/individuals/tax-information",
+    "evidence": [
+     "April 15",
+     "Form CT-1040 EXT",
+     "Form CT-1127"
+    ],
+    "accepted": false,
+    "reason": "figures not on portal.ct.gov: ['1040', '1127', '15', '6']; figures not on portal.ct.gov: ['1127', '6']; figures not on portal.ct.gov: ['1127']; figures not on portal.ct.gov: ['6']; figures not on portal.ct.gov: ['1040', '1127', '6']; evidence not on portal.ct.gov (1/3); figures not on portal.ct.gov: ['1040', '6']; unreadable: https://www.cga.ct.gov/2025/pub/chap_228z.htm; unreadable: https://www.cga.ct.gov/2022/act/Pa/pdf/2022PA-00117-R00HB-05473-PA.PDF; figures not on portal.ct.gov: ['15', '6']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Corporation Business Tax returns are due the 15th day of the 5th month after year-end (May 15 for calendar filers), with a 6-month extension requested via Form CT-1120 EXT. Pass-through returns (Forms CT-1065/CT-1120SI and CT-PET) are due March 15 for calendar filers, with extensions available using Form CT-1065/CT-1120SI EXT or Form CT-PET EXT.",
+    "source_url": "https://portal.ct.gov/drs/corporation/corporation-business-tax-information",
+    "evidence": [
+     "Form CT-1120 EXT",
+     "15th day of the 5th month",
+     "extension of time to file"
+    ],
+    "accepted": false,
+    "reason": "figures not on portal.ct.gov: ['1065', '1120', '15', '5', '6']; figures not on portal.ct.gov: ['5', '6']; figures not on portal.ct.gov: ['1065', '1120']; figures not on portal.ct.gov: ['1065', '1120', '6']; figures not on portal.ct.gov: ['1065', '6']; figures not on portal.ct.gov: ['1065', '15', '5', '6']; evidence not on portal.ct.gov (1/3); unreadable: https://www.cga.ct.gov/2025/pub/chap_228z.htm; unreadable: https://www.cga.ct.gov/2022/act/Pa/pdf/2022PA-00117-R00HB-05473-PA.PDF; figures not ",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Connecticut has an elective pass-through entity tax with a 6.99% rate. The annual irrevocable election is made by checking the box on a timely filed Form CT-1065/CT-1120SI and filing Form CT-PET by the due date or extended due date.",
+    "source_url": "https://portal.ct.gov/drs/pass-through-entities/pass-through-entity-tax-information",
+    "evidence": [
+     "6.99%",
+     "Form CT-PET",
+     "Form CT-1065/CT-1120SI"
+    ],
+    "accepted": false,
+    "reason": "figures not on portal.ct.gov: ['1065', '1120', '6.99']; figures not on portal.ct.gov: ['6.99']; figures not on portal.ct.gov: ['1065', '6.99']; unreadable: https://www.cga.ct.gov/2025/pub/chap_228z.htm; unreadable: https://www.cga.ct.gov/2022/act/Pa/pdf/2022PA-00117-R00HB-05473-PA.PDF",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "composite",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Pass-through entities doing business in Connecticut or with Connecticut-sourced income must file Form CT-1065/CT-1120SI and remit composite payments on behalf of nonresident noncorporate members. Group nonresident returns under Form CT-G have been discontinued.",
+    "source_url": "https://portal.ct.gov/drs/pass-through-entities/composite-income-tax-information",
+    "evidence": [
+     "Form CT-1065/CT-1120SI",
+     "Composite Income Tax Return",
+     "nonresident noncorporate members"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://portal.ct.gov/drs/taxes/composite-income-tax/tax-information",
+    "matched_title": "Tax Information",
+    "matched_phrases": [
+     "Form CT-1065/CT-1120SI",
+     "Composite Income Tax Return",
+     "nonresident noncorporate members"
+    ],
+    "snippet": "Electing to file Form CT-PET, Pass-Through Entity Tax Return The entity may elect to file Form CT-PET , Connecticut Pass-Through Entity Tax Return, in addition to Form CT-1065/CT-1120SI , Connecticut Composite Income Tax Return, by checking the box at the bottom of the first page of Form CT-1065/CT-1120SI and filing Form CT‑PET."
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Pass-through entities electing PTET must make four equal estimated tax installments via Form CT-PET ES if annual tax is $1,000 or greater, but estimated payments are not required for Form CT-1065/CT-1120SI. Nonresident composite tax is remitted annually with Form CT-1065/CT-1120SI at a 6.99% rate on CT-sourced income.",
+    "source_url": "https://portal.ct.gov/drs/pass-through-entities/pass-through-entity-tax-information",
+    "evidence": [
+     "Form CT-PET ES",
+     "estimated tax payments",
+     "annual tax is $1,000"
+    ],
+    "accepted": false,
+    "reason": "figures not on portal.ct.gov: ['1000', '1065', '1120', '6.99']; figures not on portal.ct.gov: ['1000', '6.99']; figures not on portal.ct.gov: ['1065', '1120', '6.99']; figures not on portal.ct.gov: ['1065', '6.99']; figures not on portal.ct.gov: ['1000', '1065', '6.99']; figures not on portal.ct.gov: ['6.99']; unreadable: https://www.cga.ct.gov/2025/pub/chap_228z.htm; unreadable: https://www.cga.ct.gov/2022/act/Pa/pdf/2022PA-00117-R00HB-05473-PA.PDF",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Primary individual tax forms are Form CT-1040 and Form CT-1040NR/PY. Primary corporate returns include Form CT-1120 and Form CT-1120CU, while pass-through returns include Form CT-1065/CT-1120SI and Form CT-PET.",
+    "source_url": "https://portal.ct.gov/drs/individuals/individual-income-tax-forms",
+    "evidence": [
+     "Form CT-1040",
+     "Form CT-1040NR/PY",
+     "Resident Income Tax Return"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://portal.ct.gov/drs/electronic/fed-and-state-electronic-filing",
+    "matched_title": "Fed and State Electronic Filing",
+    "matched_phrases": [
+     "Form CT-1040",
+     "Form CT-1040NR/PY",
+     "Resident Income Tax Return"
+    ],
+    "snippet": "Form CT ‑ 1040 , Connecticut Resident Income Tax Return ;"
+   }
+  ],
+  "grounding_urls": [
+   "https://portal.ct.gov/drs/electronic/fed-and-state-electronic-filing",
+   "https://portal.ct.gov/drs/individuals/income-tax-filing-alerts/ct-income-tax-filing-season-faq",
+   "https://portal.ct.gov/drs/individuals/resident-income-tax/tax-information",
+   "https://portal.ct.gov/drs/publications/informational-publications/1992/ip-9225-connecticut-income-tax-information-for-military-personnel-and-veterans?archived=true",
+   "https://portal.ct.gov/drs/individuals/income-tax-filing-alerts/ct-income-tax-filing-season-faq",
+   "https://portal.ct.gov/drs/corporation-tax/corp-faqs",
+   "https://portal.ct.gov/drs/corporation-tax/corp-faqs",
+   "https://portal.ct.gov/drs/drs-forms/current-year-forms/ct-1120-cu-e-filing-notification",
+   "https://portal.ct.gov/drs/corporation-tax/tax-information",
+   "https://portal.ct.gov/drs/taxes/composite-income-tax/tax-information",
+   "https://portal.ct.gov/drs/taxes/pass-through-entity/tax-information",
+   "https://portal.ct.gov/drs/taxes/composite-income-tax/tax-information",
+   "https://portal.ct.gov/drs/miscellaneous-taxes/other-tax-page/state-tax-developments/2023-developments",
+   "https://www.cga.ct.gov/2025/pub/chap_228z.htm",
+   "https://portal.ct.gov/drs/taxes/pass-through-entity/tax-information",
+   "https://portal.ct.gov/drs/legislative-summaries/2019-legislative-updates/regular-session-state-tax-legislation-overview?archived=true",
+   "https://www.cga.ct.gov/2025/pub/chap_228z.htm",
+   "https://portal.ct.gov/drs/taxes/composite-income-tax/tax-information",
+   "https://portal.ct.gov/drs/publications/informational-publications/2006/ip-2006-22-connecticut-income-tax-changes-affecting-passthrough-entities?archived=true",
+   "https://portal.ct.gov/drs/taxes/pass-through-entity/tax-information",
+   "https://www.cga.ct.gov/2022/act/Pa/pdf/2022PA-00117-R00HB-05473-PA.PDF",
+   "https://www.cga.ct.gov/2025/pub/chap_228z.htm",
+   "https://portal.ct.gov/drs/publications/informational-publications/2007/ip-200726-business-taxes",
+   "https://portal.ct.gov/drs/publications/informational-publications/2005/ip-2005-28-estimated-connecticut-income-taxes?archived=true",
+   "https://portal.ct.gov/drs/individuals/nonresident-part-year/tax-information",
+   "https://portal.ct.gov/drs/drs-forms/current-year-forms/individual-income-tax-forms",
+   "https://portal.ct.gov/drs/drs-forms/current-year-forms/pass-through-entity-tax-forms",
+   "https://portal.ct.gov/drs/drs-forms/2024-forms/pass-through-entity-tax-forms"
+  ],
+  "error": ""
+ }
+]

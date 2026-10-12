@@ -1,0 +1,159 @@
+{
+  "code": "MT",
+  "name": "Montana",
+  "sections": {
+    "apportionment": {
+      "fields": [
+        {
+          "key": "method",
+          "label": "Apportionment method",
+          "value": "Montana uses a single sales factor (receipts factor) apportionment formula to apportion business income. Property and payroll factors are excluded.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://revenue.mt.gov/files/Forms/Montana-Form-CIT-Instructions/2025_Montana_Form_CIT_Instructions.pdf",
+          "source_citation": "2025 Montana Form CIT Corporate Income Tax Instructions",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Senate Bill 124 from the 2023 Montana Legislative session changed the apportionment of income from the three-factor, double-weighed sales method to the single-sales factor method."
+        },
+        {
+          "key": "forms",
+          "label": "Forms",
+          "value": "Corporations calculate apportionment on Schedule K of Form CIT, attaching Schedule K-Combined if more than one unitary group member has Montana activity. Pass-through entities compute apportionment on Schedule K of Form PTE.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://revenue.mt.gov/files/Forms/Montana-Form-CIT-Instructions/2025_Montana_Form_CIT_Instructions.pdf",
+          "source_citation": "2025 Montana Form CIT Corporate Income Tax Instructions",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "For combined filers with more than one company with Montana activity, enter the total of line 18 from Schedule K-Combined on page 11 of Form CIT."
+        }
+      ]
+    },
+    "nexus": {
+      "fields": [
+        {
+          "key": "income_nexus",
+          "label": "Income/franchise tax nexus",
+          "value": "Any C corporation actively engaging in business in Montana is subject to corporate income tax, and generally any activity beyond the solicitation of sales of tangible goods creates nexus. Montana has no factor-presence or bright-line economic nexus dollar or transaction thresholds.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://revenue.mt.gov/taxes/nexus",
+          "source_citation": "Nexus",
+          "last_verified": "2026-10-08",
+          "verification": "automated_page_match",
+          "quote": "In-State Activities That Create Nexus Generally, any activity performed in Montana other than the solicitation of sales of tangible goods creates nexus and a filing requirement."
+        },
+        {
+          "key": "sales_economic_nexus",
+          "label": "Sales/use tax: economic nexus",
+          "value": "Montana does not impose a general sales or use tax. Consequently, there are no remote seller economic nexus sales thresholds, transaction counts, or measurement periods.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://revenue.mt.gov/taxes/general-sales-tax",
+          "source_citation": "Sales Tax Guidance for Montana Business and Residents",
+          "last_verified": "2026-10-08",
+          "verification": "automated_page_match",
+          "quote": "The company's gross sales exceed $100,000, or The company conducted more than 200 transactions to South Dakota Impacts to Montanans Shopping Online The Wayfair decision does not affect Montanans purchasing goods or services online because Montana does not have a general sales tax."
+        },
+        {
+          "key": "pl_86_272",
+          "label": "P.L. 86-272",
+          "value": "Montana respects P.L. 86-272 immunity for out-of-state entities limited to the solicitation of orders for sales of tangible personal property sent out of state for approval and fulfillment. Montana establishes specific lists of protected, unprotected, and de minimis activities, and applies the Finnigan rule for unitary groups.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://revenue.mt.gov/taxes/nexus",
+          "source_citation": "Nexus",
+          "last_verified": "2026-10-08",
+          "verification": "automated_page_match",
+          "quote": "Public Law 86-272 provides an additional protection from state income tax."
+        }
+      ]
+    },
+    "rates": {
+      "fields": [
+        {
+          "key": "individual",
+          "label": "Individual income tax",
+          "value": "For 2025, Montana taxes ordinary income at 4.7% and 5.9%, with the top bracket starting at $21,100 for single filers and $42,200 for married couples filing jointly. Net long-term capital gains are taxed at preferential rates of 3.0% and 4.1%.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://revenue.mt.gov/taxes/tax-tables-and-deductions/2025",
+          "source_citation": "2025 Montana Tax Tables and Deductions",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Ordinary Income Tax Rate First $21,100 of Montana Ordinary Income 4.7% Montana Ordinary Income exceeding $21,100 5.9% 2025 Net Long-Term Capital Gains Tax Rates — Single and Married Filing Separately."
+        },
+        {
+          "key": "corporate",
+          "label": "Corporate income/franchise tax",
+          "value": "Montana imposes a corporate income tax of 6.75% of taxable income, or 7% for corporations making a water's edge election, subject to a $50 minimum tax. Corporations meeting specific small gross sales criteria may elect an alternative 0.5% gross sales tax rate.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://revenue.mt.gov/taxes/corporate-income-tax",
+          "source_citation": "Montana Corporate Income Tax",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Tax Rates Tax Rates by Category Tax Rates by Category Category Rate Standard Rate 6.75% Water's Edge Election 7% Alternative Gross Sales 0.5% Minimum Tax $50 Additional Notes To qualify for the Alternative Gross Sales tax rate, your corporation must:"
+        }
+      ]
+    },
+    "filing": {
+      "fields": [
+        {
+          "key": "individual_due",
+          "label": "Individual due date and extension",
+          "value": "Individual income tax returns for calendar-year filers are due April 15, with an automatic six-month filing extension to October 15. The extension applies only to filing, and any tax owed must still be paid by April 15.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://revenue.mt.gov/taxes/individual-income-tax/",
+          "source_citation": "Individual Income Tax",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "…n (Form WMRE) Additional Resources Where's My Refund? Montana Free File Partner Offers Approved Commercial Tax Software Individual Income Tax Due Dates Returns April 15 Extension October 15 Customer Service Helena Office: (406) 444-6900 Field Office Locations Mailing Addresses Contact Us State Directories Department of Revenue Telephone Directory Agency Telephone Li…"
+        },
+        {
+          "key": "ptet",
+          "label": "Pass-through entity tax (PTET)",
+          "value": "Montana provides an elective pass-through entity tax at a rate of 5.9% of each electing owner's distributive share of Montana-source income. The irrevocable election is made annually by an eligible partnership or S corporation directly on a timely-filed Form PTE.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://revenue.mt.gov/taxes/pass-through-entities/pass-through-entity-tax",
+          "source_citation": "Montana Pass-Through Entity Tax: How to Elect & Pay",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "The pass-through entity tax (PTET) is a 5.9% of an affected owner’s distributive share of Montana source income."
+        },
+        {
+          "key": "key_forms",
+          "label": "Key forms",
+          "value": "Key individual income tax forms include Form 2, Form IT, and Form EST-I. Primary business forms include Form CIT for corporations and Form PTE for pass-through entities.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://revenue.mt.gov/forms/",
+          "source_citation": "Montana Department of Revenue Forms Repository",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "…rtment of Revenue Business Registration (Form GenReg) (PDF) Montana Individual Income Tax Payment Voucher (Form IT) (PDF) Montana Individual Income Tax Return (Form 2) Montana Individual Income Tax Return (Form 2) Instruction Booklet Montana Profit or Loss from a Disregarded Entity Owned by a Nonresident (Form DE) Prepaying Income Tax (Publication 1) Request for T…"
+        }
+      ]
+    }
+  }
+}

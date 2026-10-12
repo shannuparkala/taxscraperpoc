@@ -1,0 +1,18 @@
+{
+  "id": "adv-poor-scan",
+  "tax_year": 2025,
+  "kind": "adversarial",
+  "source": {
+    "workpaper": "synthetic:poor-scan",
+    "filed_return": "none - invented"
+  },
+  "inputs": [],
+  "lines": [],
+  "expected_flags": [
+    {
+      "kind": "review_item",
+      "match": "below the confidence floor|could not be (read|classified|identified)|unrecogni[sz]ed|unknown (document|workpaper)|no (figures|values) (were )?(read|extracted)"
+    }
+  ],
+  "notes": "A low-resolution, speckled W-2 with no text layer. Any flag that the document could not be used is accepted: the confidence-floor item, or one saying it was unclassified or yielded nothing. On the first run it OCR'd at 72% (above the floor), was classified as an unknown document, contributed no figures and raised no review item at all."
+}

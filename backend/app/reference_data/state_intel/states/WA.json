@@ -1,0 +1,158 @@
+{
+  "code": "WA",
+  "name": "Washington",
+  "sections": {
+    "apportionment": {
+      "fields": [
+        {
+          "key": "method",
+          "label": "Apportionment method",
+          "value": "Washington uses a single factor receipts apportionment formula to calculate taxable income. The receipts factor is gross apportionable income attributed to Washington divided by worldwide gross apportionable income minus throw-out income.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://dor.wa.gov/education/industry-guides/apportionment/apportionment-formula-receipts-factor",
+          "source_citation": "Apportionment formula (receipts factor) | Washington Department of Revenue",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Receipts factor = Gross apportionable income attributed to Washington / (Worldwide gross apportionable income – Throw-out income) Reporting current periods When filing your excise tax returns, you can estimate Washington taxable income based on information from the most recent complete calendar year, or you may use the current year."
+        },
+        {
+          "key": "sourcing",
+          "label": "Sales sourcing (services and intangibles)",
+          "value": "Washington uses market-based sourcing with a cascading hierarchy for attributing receipts from services and intangibles. Service receipts are sourced to where the customer receives the benefit, and royalty receipts are sourced to where the customer uses the intangible property.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://dor.wa.gov/sites/default/files/2023-05/20-19402cr2frmdraftMay23.pdf?uid=645541e034bf9",
+          "source_citation": "CR-102 WAC 458-20-19402 Single factor receipts apportionment",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "((When)) (ii) If a taxpayer is unable to attribute an apportionable re- ceipt under (a)(i) of this subsection, and a customer receives the benefit of the taxpayer's services in this and one or more other states and the amount of gross income of the business that was re- ceived by the taxpayer in return for the services received by the cus- tomer in this state can be reasonably determined by the taxpayer, such amount of gross income must be attributed to this state."
+        },
+        {
+          "key": "special_industries",
+          "label": "Special industry rules",
+          "value": "Financial institutions are subject to specialized apportionment rules based on the Multistate Tax Commission model formula. They utilize industry-specific sourcing rules for items such as interest, fees, credit card receivables, and loan sales.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://app.leg.wa.gov/wac/default.aspx?cite=458-20-19404",
+          "source_citation": "WAC 458-20-19404:",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "This rule describes the application of single factor receipts apportionment to gross income for financial institutions during the period June 1, 2010, through December 31, 2015."
+        },
+        {
+          "key": "forms",
+          "label": "Forms",
+          "value": "Apportionment is claimed via an Apportionment deduction on periodic excise tax returns and reconciled using the Annual Reconciliation of Apportionable Income (Form REV 40 2433). The reconciliation must be completed or filed by October 31 of the calendar year following the reconciled year.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://dor.wa.gov/sites/default/files/2022-03/AnnualRecApportionIncome.pdf",
+          "source_citation": "Annual Reconciliation of Apportionable Income - Form 40-2433",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Annual Reconciliation of Apportionable Income Form Instructions REV 40 2433 (2/4/26) Page 1 Year to be reconciled:"
+        }
+      ]
+    },
+    "nexus": {
+      "fields": [
+        {
+          "key": "sales_economic_nexus",
+          "label": "Sales/use tax: economic nexus",
+          "value": "A remote seller establishes economic nexus if it has more than $100,000 in combined gross receipts sourced or attributed to Washington, with no transaction count requirement. The measurement period is the current or prior calendar year.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://dor.wa.gov/taxes-rates/retail-sales-tax/marketplace-fairness-leveling-playing-field/remote-sellers",
+          "source_citation": "Remote sellers | Washington Department of Revenue",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Has more than $100,000 in combined gross receipts sourced or attributed to Washington."
+        },
+        {
+          "key": "pl_86_272",
+          "label": "P.L. 86-272",
+          "value": "Washington's position is that Public Law 86-272 applies exclusively to taxes imposed on or measured by net income. Because the Business and Occupation (B&O) tax is measured by gross receipts, Public Law 86-272 does not apply.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://app.leg.wa.gov/wac/default.aspx?cite=458-20-193",
+          "source_citation": "WAC 458-20-193:",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Consequently, Public Law 86-272 does not apply."
+        },
+        {
+          "key": "economic_nexus",
+          "label": "B&O and sales tax: economic nexus",
+          "value": "Since January 1, 2020 a business must register to report B&O tax and collect sales tax if, in the current or prior year, it has physical presence nexus, has more than $100,000 in combined gross receipts sourced or attributed to Washington, or is organized or commercially domiciled in Washington. The threshold applies to all Washington income, including retailing, wholesaling, services and other apportionable activities.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://dor.wa.gov/nexus",
+          "source_citation": "Washington DOR, Out of state businesses reporting thresholds and nexus (RCW 82.04.067)",
+          "last_verified": "2026-10-07"
+        }
+      ]
+    },
+    "rates": {
+      "fields": [
+        {
+          "key": "corporate",
+          "label": "Corporate income/franchise tax",
+          "value": "Washington does not impose a corporate income tax, corporate franchise tax based on net income, or corporate minimum tax.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://dor.wa.gov/education/industry-guides/mortgage-brokers/business-tax-structure-washington-state",
+          "source_citation": "Business tax structure in Washington State | Washington Department of Revenue",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Business tax structure in Washington State | Washington Department of Revenue Skip to main content English Español 简体中文 한국어 Русский Tiếng Việt Language Help Important! Our Tumwater office moved."
+        },
+        {
+          "key": "other_business",
+          "label": "Business and occupation (B&O) tax",
+          "value": "A gross receipts tax on most businesses, calculated on the value of products sold or gross income with no deduction for costs. The rate depends on the business activity; there are more than 50 classifications. It is paid by the business, not collected from customers.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://dor.wa.gov/taxes-rates/business-occupation-tax",
+          "source_citation": "Washington DOR, Business & occupation tax",
+          "last_verified": "2026-10-07"
+        }
+      ]
+    },
+    "filing": {
+      "fields": [
+        {
+          "key": "business_due",
+          "label": "Business due dates and extensions",
+          "value": "Washington does not have corporate or pass-through net income tax; businesses report gross receipts excise taxes with due dates based on filing frequency: monthly returns are due the 25th of the following month, quarterly returns are due the last day of the following month, and annual returns are due April 15. Automatic income-tax-style extensions do not exist for excise tax returns.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://dor.wa.gov/sites/default/files/2022-03/BusinessTaxBasics_0.pdf",
+          "source_citation": "Business Tax Basics Workbook",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Due dates If a due date falls on a weekend or legal holiday, the due date is extended to the next business day Monthly filers:"
+        }
+      ]
+    }
+  }
+}

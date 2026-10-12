@@ -1,0 +1,507 @@
+[
+ {
+  "state": "ID",
+  "section": "apportionment",
+  "notes": "### Apportionment Formula\n* **Fact:** The standard default apportionment method for multistate business income is a **single sales factor**. Qualifying taxpayers—specifically electrical corporations, telephone corporations, communications companies, and taxpayers governed by special industry regulations under Idaho Code § 63-3027(18)—may make an annual election to apportion business income using an equally weighted **three-factor formula** where the numerator is property + payroll + sales and the denominator is 3.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Idaho Legislature — Idaho Code § 63-3027(10): https://legislature.idaho.gov/statutesrules/idstat/Title63/T63CH30/SECT63-3027/\n  * Idaho State Tax Commission — Combined Reporting: https://tax.idaho.gov/taxes/income-tax/business/combined-reporting/\n\n---\n\n### Sourcing of Receipts from Services and Intangibles\n* **Fact:** Idaho utilizes **market-based sourcing** for gross receipts from sales other than tangible personal property under Idaho Code § 63-3027(13):\n  * **Services:** Sourced to Idaho \"if and to the extent the service is delivered to a location in this state\".\n  * **Intangibles:** \n    * *Rented, leased, or licensed:* Sourced to Idaho if and to the extent used in Idaho (intangible property utilized in marketing a good or service to a consumer is used in Idaho if purchased by an Idaho consumer).\n    * *Sold:* Sourced to Idaho if and to the extent used in Idaho (e.g., contract rights or licenses authorizing activity within an area that includes Idaho; sales where receipts are contingent on productivity, use, or disposition are sourced as leased/licensed intangibles).\n  * **Broadcasters:** Advertising or licensing receipts from the broadcast/distribution of film programming are sourced to Idaho if the commercial domicile of the broadcast customer is in Idaho.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Idaho Legislature — Idaho Code § 63-3027(13): https://legislature.idaho.gov/statutesrules/idstat/Title63/T63CH30/SECT63-3027/\n  * Idaho State Tax Commission — Income and Factors: https://tax.idaho.gov/taxes/income-tax/business/combined-reporting/income-and-factors/\n\n---\n\n### Industries with Their Own Apportionment Formula\n* **Fact:** Under Idaho Code § 63-3027(10)(b), 63-3027(18), IDAPA 35.01.01.580, and Form 42 Instructions, specific industries have tailored apportionment rules and may elect three-factor apportionment:\n  * Electrical corporations (defined in Idaho Code § 61-119)\n  * Telephone corporations (defined in Idaho Code § 62-603)\n  * Communications companies (defined in Idaho Code § 63-3027(1)(b))\n  * Multistate Tax Commission (MTC) special industries adopted by Idaho:\n    * Construction contractors (percentage-of-completion/cost ratio sourcing)\n    * Airlines (flight miles/departures)\n    * Railroads (car and locomotive miles)\n    * Trucking companies (mobile property miles for owned/rented vehicles and driver payroll)\n    * Television and radio broadcasting (audience factor sourcing based on viewing/listening ratio)\n    * Publishing (circulation factor sourcing)\n    * Financial institutions (special formula including loans and credit card receivables in property factor)\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Idaho Legislature — Idaho Code § 63-3027(10)(b) & (18): https://legislature.idaho.gov/statutesrules/idstat/Title63/T63CH30/SECT63-3027/\n  * Idaho State Tax Commission — Interstate Trucking Companies: https://tax.idaho.gov/taxes/income-tax/business/trucking-companies/\n  * Idaho State Tax Commission — Form 42 Instructions: https://tax.idaho.gov/forms/form-42/\n\n---\n\n### Forms or Schedules Used to Compute Apportionment\n* **Fact:**\n  * **Form 42 (*Apportionment and Combined Reporting Adjustments*):** Part I (*Apportionment Formula*) is completed to calculate the apportionment factor for corporate taxpayers (filed with Form 41), S corporations (Form 41S), and partnerships (Form 65).\n  * **Form 42A (*By-Company Apportionment Factor Details*):** Used by unitary groups filing a combined return to report company-by-company factor numerators for each entity transacting business in Idaho.\n  * **Form 402 (*Individual Apportionment for Multistate Businesses*):** Used by sole proprietorships and individuals operating a multistate trade or business.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Idaho State Tax Commission — Form 42: https://tax.idaho.gov/forms/form-42/\n  * Idaho State Tax Commission — Form 402: https://tax.idaho.gov/forms/form-402/\n  * Idaho State Tax Commission — Filing Combined Reporting Returns: https://tax.idaho.gov/taxes/income-tax/business/combined-reporting/filing-combined-reporting-returns/",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Multistate business income is apportioned using a standard single sales factor formula. Certain qualifying taxpayers, including electrical and telephone corporations, communications companies, and special industry taxpayers, may make an annual election to use an equally weighted three-factor formula.",
+    "source_url": "https://legislature.idaho.gov/statutesrules/idstat/Title63/T63CH30/SECT63-3027/",
+    "evidence": [
+     "sales factor",
+     "three-factor formula",
+     "electrical corporations",
+     "telephone corporations"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.idaho.gov/wp-content/uploads/forms/EFO00029/EFO00029_08-18-2025.pdf",
+    "matched_title": "https://tax.idaho.gov/wp-content/uploads/forms/EFO00029/EFO00029_08-18-2025.pdf",
+    "matched_phrases": [
+     "electrical corporations",
+     "telephone corporations"
+    ],
+    "snippet": "Electrical corporations, telephone corporations, communications corporations (as defined in Idaho Code), and Multistate Tax Commission (MTC) special industries (construction contractors, airlines, railroads, trucking companies, television and radio broadcasting, publishing, and financial institutions) can elect to use three-factor apportionment."
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Idaho uses market-based sourcing for gross receipts from sales other than tangible personal property. Receipts from services are sourced to Idaho if and to the extent delivered to a location in the state, while receipts from intangibles are sourced based on use in Idaho.",
+    "source_url": "https://legislature.idaho.gov/statutesrules/idstat/Title63/T63CH30/SECT63-3027/",
+    "evidence": [
+     "service is delivered",
+     "location in this state",
+     "intangible property"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.idaho.gov/wp-content/uploads/2022/10/EPB00209_07-25-2022.pdf",
+    "matched_title": "https://tax.idaho.gov/wp-content/uploads/2022/10/EPB00209_07-25-2022.pdf",
+    "matched_phrases": [
+     "service is delivered",
+     "location in this state",
+     "intangible property"
+    ],
+    "snippet": "The receipts from a sale of a service are in this state if and to the extent that the service is delivered to a location in this state."
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Special apportionment rules and an elective three-factor formula apply to electrical corporations, telephone corporations, communications companies, and designated industries. These industries include construction contractors, airlines, railroads, trucking companies, television and radio broadcasters, publishing, and financial institutions.",
+    "source_url": "https://legislature.idaho.gov/statutesrules/idstat/Title63/T63CH30/SECT63-3027/",
+    "evidence": [
+     "electrical corporations",
+     "telephone corporations",
+     "communications companies"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.idaho.gov/wp-content/uploads/forms/EFO00029/EFO00029_08-18-2025.pdf",
+    "matched_title": "https://tax.idaho.gov/wp-content/uploads/forms/EFO00029/EFO00029_08-18-2025.pdf",
+    "matched_phrases": [
+     "electrical corporations",
+     "telephone corporations"
+    ],
+    "snippet": "Electrical corporations, telephone corporations, communications corporations (as defined in Idaho Code), and Multistate Tax Commission (MTC) special industries (construction contractors, airlines, railroads, trucking companies, television and radio broadcasting, publishing, and financial institutions) can elect to use three-factor apportionment."
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Corporations, S corporations, and partnerships compute apportionment on Form 42, with combined unitary groups providing company-by-company factor details on Form 42A. Sole proprietorships and individuals operating a multistate trade or business use Form 402.",
+    "source_url": "https://tax.idaho.gov/forms/form-42/",
+    "evidence": [
+     "Form 42",
+     "Apportionment Formula",
+     "Combined Reporting Adjustments"
+    ],
+    "accepted": false,
+    "reason": "figures not on tax.idaho.gov: ['402']; unreadable: https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3027/; figure not stated beside the evidence on tax.idaho.gov; figures not on tax.idaho.gov: ['402', '42']; figures not on tax.idaho.gov: ['42']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3027/",
+   "https://tax.idaho.gov/search-category/income-tax/business/page/33/",
+   "https://tax.idaho.gov/wp-content/uploads/2022/10/EPB00209_07-25-2022.pdf",
+   "https://tax.idaho.gov/document-mngr/forms_efo00029/",
+   "https://tax.idaho.gov/taxes/income-tax/business-income/guides-for-certain-businesses/combined-reporting/",
+   "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3027/",
+   "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3027/",
+   "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3027/",
+   "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3027/",
+   "https://tax.idaho.gov/taxes/income-tax/business-income/guides-for-certain-businesses/combined-reporting/income-and-factors/",
+   "https://tax.idaho.gov/wp-content/uploads/2022/10/EPB00209_07-25-2022.pdf",
+   "https://tax.idaho.gov/document-mngr/forms_efo00170/",
+   "https://tax.idaho.gov/wp-content/uploads/2022/10/EPB00209_07-12-2022.pdf",
+   "https://tax.idaho.gov/taxes/income-tax/business-income/guides-for-certain-businesses/interstate-trucking-companies/",
+   "https://tax.idaho.gov/document-mngr/1-542-722-560/",
+   "https://tax.idaho.gov/document-mngr/0-315-797-504-0-738-547-712/",
+   "https://tax.idaho.gov/taxes/income-tax/business-income/forms/form-42/",
+   "https://tax.idaho.gov/taxes/income-tax/business-income/guides-for-certain-businesses/income-tax-for-corporations/",
+   "https://tax.idaho.gov/document-mngr/pubs_epb00070/",
+   "https://tax.idaho.gov/document-mngr/forms_efo00334/",
+   "https://tax.idaho.gov/search-category/income-tax/business/page/33/",
+   "https://tax.idaho.gov/taxes/income-tax/business-income/guides-for-certain-businesses/combined-reporting/filing-combined-reporting-returns/"
+  ],
+  "error": ""
+ },
+ {
+  "state": "ID",
+  "section": "nexus",
+  "notes": "### 1. Income or Franchise Tax Nexus\n\n* **Nexus Standard:** \n  * Under Idaho Code §§ 63-3025 and 63-3025A, Idaho imposes a corporate income tax on Idaho taxable income derived from sources within the state, and a franchise tax on corporations (other than S corporations) for the privilege of exercising a corporate franchise within Idaho.\n  * A corporation must file an Idaho return if it is registered with the Idaho Secretary of State, has income attributable to Idaho, or is \"transacting business\" / \"doing business\" in Idaho.\n  * Under Idaho Code § 63-3023, \"transacting business\" includes owning or leasing (as lessor or lessee) any real or personal property located in Idaho, or engaging in or transacting any activity in Idaho for the purpose of or resulting in economic or pecuniary gain or profit.\n  * Activities establishing nexus include owning or leasing property, soliciting business (unless protected by P.L. 86-272), participating as a partner or S corporation shareholder with business in Idaho, receiving income from Idaho activities, or maintaining agents (such as collectors, repair persons, or delivery persons) operating in the state.\n* **Bright-Line / Factor-Presence Economic Nexus Threshold:** \n  * **Not found.** Idaho has not enacted a factor-presence or bright-line dollar/percentage threshold for corporate income or franchise tax nexus.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Idaho State Tax Commission – Income Tax for Corporations: https://tax.idaho.gov/taxes/business-income/income-tax-for-corporations/\n  * Idaho Legislature – Idaho Code § 63-3023: https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3023/\n  * Idaho Legislature – Idaho Code § 63-3025: https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3025/\n  * Idaho Legislature – Idaho Code § 63-3025A: https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3025a/\n\n---\n\n### 2. Remote Seller Economic Nexus (Sales Tax)\n\n* **Dollar Threshold:** Cumulative gross receipts from sales delivered into Idaho in excess of **$100,000**.\n* **Transaction Count:** **None.** (Idaho does not impose a transaction count threshold).\n* **Measurement Period:** The **previous calendar year or the current calendar year**.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged; effective since June 1, 2019).\n* **Official Sources:**\n  * Idaho Legislature – Idaho Code § 63-3611(3)(h): https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch36/sect63-3611/\n  * Idaho State Tax Commission – Online Sellers Guide: https://tax.idaho.gov/taxes/sales-use/online-sellers/\n  * Idaho State Tax Commission – Explanation of Terms: https://tax.idaho.gov/taxes/sales-use/online-sellers/terms/\n\n---\n\n### 3. State Position on Public Law 86-272 Protection\n\n* **Exemption Scope:** \n  * A corporation or S corporation whose Idaho activities fall within the protection of Public Law 86-272 is exempt from both the corporate income tax (§ 63-3025) and franchise tax (§ 63-3025A), including the $20 minimum tax (IDAPA 35.01.01.300.04, IDAPA 35.01.01.580.04).\n  * Protected corporations are also exempt from filing an Idaho income tax return and from paying the $10 Permanent Building Fund (PBF) tax.\n  * Mere solicitation of sales of tangible personal property—where orders are sent outside Idaho for approval and filled by shipment or delivery from outside the state—does not create corporate income tax nexus.\n* **Throwback / Joyce Rule:** When determining sales factor apportionment for combined reporting, Idaho applies the *Joyce Rule* (Appeal of Joyce, Inc.) rather than the *Finnigan Rule*: only the Idaho activities of the individual entity with nexus are considered, and sales into a state where an entity is protected under P.L. 86-272 are subject to throwback if shipped from Idaho.\n* **Adoption of Revised MTC Guidance on Internet Activities:** **Not found.** The Idaho State Tax Commission has not published an administrative rule or official guidance adopting the Multistate Tax Commission’s (MTC) August 2021 revised statement regarding internet activities under P.L. 86-272.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Idaho State Tax Commission – Income Tax for Corporations: https://tax.idaho.gov/taxes/business-income/income-tax-for-corporations/\n  * Idaho Administrative Code – IDAPA 35.01.01, Rule 300: https://adminrules.idaho.gov/rules/current/35/350101.pdf\n  * Idaho State Tax Commission – Form 41 Instructions: https://tax.idaho.gov/forms/EIN00041_03-02-2026.pdf\n  * Idaho State Tax Commission – Combined Reporting Example: https://tax.idaho.gov/taxes/business-income/corporations/combined-reporting/",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "A corporation must file an Idaho return if it is registered with the Secretary of State, has income attributable to Idaho, or is transacting business in the state. Transacting business includes owning or leasing property in Idaho or engaging in activity in the state for pecuniary gain or profit.",
+    "source_url": "https://tax.idaho.gov/taxes/business-income/income-tax-for-corporations/",
+    "evidence": [
+     "registered with the Idaho Secretary",
+     "transacting business",
+     "income attributable to Idaho"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.idaho.gov/taxes/income-tax/business-income/guides-for-certain-businesses/income-tax-for-corporations/",
+    "matched_title": "Income Tax for Corporations | Idaho State Tax Commission",
+    "matched_phrases": [
+     "registered with the Idaho Secretary",
+     "income attributable to Idaho"
+    ],
+    "snippet": "You’re registered with the Idaho Secretary of State to do business in Idaho."
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Idaho requires remote sellers to collect sales tax if cumulative gross receipts from sales delivered into the state exceed $100,000 in the previous or current calendar year. There is no transaction count threshold.",
+    "source_url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch36/sect63-3611/",
+    "evidence": [
+     "sales delivered into Idaho",
+     "exceeds one hundred thousand dollars",
+     "current calendar year"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch36/sect63-3611/; unreadable: https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3025/; unreadable: https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3025a/; figures not on tax.idaho.gov: ['100000']; unreadable: https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3023/; evidence not on tax.idaho.gov (0/3)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Corporations whose Idaho activities are protected under Public Law 86-272 are exempt from corporate income and franchise taxes, including the minimum tax, return filing, and the Permanent Building Fund tax. Under combined reporting, Idaho follows the Joyce rule where only the activities of the specific entity with nexus are considered.",
+    "source_url": "https://tax.idaho.gov/taxes/business-income/income-tax-for-corporations/",
+    "evidence": [
+     "Public Law 86-272",
+     "exempt from",
+     "Permanent Building Fund"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.idaho.gov/taxes/income-tax/business-income/guides-for-certain-businesses/income-tax-for-corporations/",
+    "matched_title": "Income Tax for Corporations | Idaho State Tax Commission",
+    "matched_phrases": [
+     "Public Law 86-272",
+     "exempt from"
+    ],
+    "snippet": "Exemptions A corporation under the protection of Public Law 86‑272 is exempt from filing an Idaho income tax return."
+   }
+  ],
+  "grounding_urls": [
+   "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3025/",
+   "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3025a/",
+   "https://tax.idaho.gov/taxes/income-tax/business-income/guides-for-certain-businesses/income-tax-for-corporations/",
+   "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3023/",
+   "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch36/sect63-3611/",
+   "https://tax.idaho.gov/taxes/sales-use/guides-for-certain-groups/online-sellers/online-guide/",
+   "https://tax.idaho.gov/taxes/sales-use/guides-for-certain-groups/online-sellers/explanation-of-terms/",
+   "https://tax.idaho.gov/wp-content/uploads/2022/10/EPB00209_09-04-2022.pdf",
+   "https://tax.idaho.gov/wp-content/uploads/2022/10/EPB00209_07-12-2022.pdf",
+   "https://tax.idaho.gov/document-mngr/forms_efo00028/",
+   "https://tax.idaho.gov/document-mngr/forms_efo00025/",
+   "https://tax.idaho.gov/document-mngr/pubs_EPB00742",
+   "https://tax.idaho.gov/wp-content/uploads/2022/10/EPB00209_09-04-2022.pdf",
+   "https://tax.idaho.gov/document-mngr/0-315-797-504-0-738-547-712/"
+  ],
+  "error": ""
+ },
+ {
+  "state": "ID",
+  "section": "rates",
+  "notes": "### 1. Individual Income Tax Rate(s) or Bracket Rates\n\n* **Tax Rate & Structure:** Idaho imposes a flat individual income tax rate of **5.3%** on taxable income exceeding statutory base thresholds. \n  * The statutory threshold is $2,500 for Single filers and $5,000 for Married Filing Jointly. These thresholds are adjusted annually for inflation; taxable income up to the threshold is taxed at 0%.\n  * For **Tax Year 2025**, the inflation-adjusted brackets are:\n    * *Single / Married Filing Separately:* 0% on the first $4,811; **5.3%** on taxable income over $4,811.\n    * *Married Filing Jointly / Head of Household:* 0% on the first $9,621; **5.3%** on taxable income over $9,621.\n  * In addition, every filer must pay an annual **$10** Permanent Building Fund (PBF) tax.\n* **Applicability:** Applies to **Tax Year 2025** and **Tax Year 2026**. The rate decreased from 5.695% (2024) to 5.3% effective January 1, 2025. No rate change occurs between 2025 and 2026 (the 2026 inflation-adjusted bracket thresholds are updated annually by the Tax Commission).\n* **Official URLs:**\n  * Idaho State Tax Commission (Rate Schedule): https://tax.idaho.gov/taxes/individual-income/calculator/rates/\n  * Idaho State Tax Commission (What's New for 2025): https://tax.idaho.gov/news/whats-new-for-2025-income-tax-returns/\n  * Idaho Statutes § 63-3024: https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3024/\n\n---\n\n### 2. Corporate Income or Franchise Tax Rate(s) and Any Minimum Tax\n\n* **Tax Rate:** \n  * **5.3%** of Idaho taxable income for corporate income tax.\n  * **5.3%** of Idaho taxable income for corporate franchise tax.\n* **Minimum Tax:** \n  * Corporate income/franchise tax minimum is **$20**.\n  * In addition, corporations required to file must pay the **$10** Permanent Building Fund (PBF) tax.\n* **Applicability:** Applies to **Tax Year 2025** and **Tax Year 2026**. The rate was reduced from 5.695% (2024) to 5.3% effective January 1, 2025, and remains 5.3% for 2026.\n* **Official URLs:**\n  * Idaho State Tax Commission (Business Income Tax Basics): https://tax.idaho.gov/taxes/business-income/basics/\n  * Idaho Statutes § 63-3025 (Tax on Corporate Income): https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3025/\n  * Idaho Statutes § 63-3025A (Franchise Tax): https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3025a/\n\n---\n\n### 3. State Sales and Use Tax Rate & Local Jurisdictions\n\n* **State Rate:** **6%** (sales tax and use tax).\n* **Local Rates:** \n  * Idaho does not allow general county-wide sales taxes across the board, but voter-approved **resort cities** are authorized to add a local option sales tax (rates vary by city; either applied to all sales or targeted to lodging, restaurant food, and liquor-by-the-drink). These local taxes are administered and collected directly by the cities.\n  * Local auditorium districts may also impose taxes on short-term lodging accommodations.\n* **Applicability:** Applies to both **Tax Year 2025** and **Tax Year 2026** (unchanged).\n* **Official URLs:**\n  * Idaho State Tax Commission (Sales and Use Taxes Basics): https://tax.idaho.gov/taxes/sales-use/basics/\n  * Idaho State Tax Commission (City Sales Taxes): https://tax.idaho.gov/taxes/sales-use/city-sales-taxes/\n  * Idaho Statutes § 63-3619 (Imposition and Rate): https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch36/sect63-3619/\n\n---\n\n### 4. Gross Receipts, Franchise, Margin, or Other Notable Business Taxes\n\n* **Gross Receipts / Margin Tax:** Idaho does **not** impose a statewide general gross receipts tax or Texas-style margin tax.\n* **Corporate Franchise Tax:** Idaho imposes a corporate franchise tax on corporations exercising their corporate franchise in Idaho at **5.3%** of Idaho taxable income (minimum tax of **$20**) for 2025 and 2026.\n* **Alternative Gross Sales Tax:** A qualifying multistate corporation whose only activity in Idaho consists of sales not exceeding $100,000 (and owns/rents no property and has no payroll in Idaho) may elect to pay an alternative tax of **1%** of Idaho gross sales.\n* **Permanent Building Fund (PBF) Tax:** A flat **$10** excise tax imposed on each corporation or unitary group member required to file an Idaho return.\n* **Applicability:** Applies to both **Tax Year 2025** and **Tax Year 2026**.\n* **Official URLs:**\n  * Idaho State Tax Commission (Business Income Tax Basics): https://tax.idaho.gov/taxes/business-income/basics/\n  * Idaho State Tax Commission (Form 41 Instructions): https://tax.idaho.gov/forms/form-41-instructions/\n  * Idaho Statutes § 63-3025A: https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3025a/",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Idaho imposes a flat individual income tax rate of 5.3% on taxable income exceeding inflation-adjusted thresholds, with taxable income up to those thresholds taxed at 0%. Every filer must also pay an annual $10 Permanent Building Fund tax.",
+    "source_url": "https://tax.idaho.gov/taxes/individual-income/calculator/rates/",
+    "evidence": [
+     "flat individual income tax",
+     "5.3%",
+     "Permanent Building Fund"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.idaho.gov/taxes/individual-income/calculator/rates/; figures not on tax.idaho.gov: ['0', '10']; unreadable: https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3024/; figures not on tax.idaho.gov: ['10']; unreadable: https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3082/; unreadable: https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3025/; unreadable: https://legislature.idaho.gov/statutesrules/idstat/",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Idaho imposes a corporate income and franchise tax rate of 5.3% of Idaho taxable income. There is a $20 minimum tax, plus an annual $10 Permanent Building Fund tax.",
+    "source_url": "https://tax.idaho.gov/taxes/business-income/basics/",
+    "evidence": [
+     "5.3%",
+     "minimum tax",
+     "Permanent Building Fund"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.idaho.gov/wp-content/uploads/forms/EFO00025/EFO00025_03-02-2026.pdf",
+    "matched_title": "https://tax.idaho.gov/wp-content/uploads/forms/EFO00025/EFO00025_03-02-2026.pdf",
+    "matched_phrases": [
+     "5.3%",
+     "minimum tax",
+     "Permanent Building Fund"
+    ],
+    "snippet": "Taxes Line 38 Idaho Income Tax Enter the amount of Idaho income tax calculated at 5.3% of Idaho taxable income."
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Idaho imposes a statewide sales and use tax rate of 6%. General county-wide sales taxes are not permitted, but voter-approved resort cities may levy local option sales taxes.",
+    "source_url": "https://tax.idaho.gov/taxes/sales-use/basics/",
+    "evidence": [
+     "sales and use tax",
+     "6%",
+     "resort cities"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.idaho.gov/taxes/income-tax/business-income/online-guide/",
+    "matched_title": "Business Income Tax Basics | Idaho State Tax Commission",
+    "matched_phrases": [
+     "sales and use tax",
+     "6%"
+    ],
+    "snippet": "Year Idaho business tax rate is on taxable income 2025 5.3% 2024 5.695% 2023 5.8% 2022 6% 2021 6.5% 2018-2020 6.925% 2012-2017 7.4% 2001-2011 7.6% Permanent Building Fund (PBF) tax Most businesses must pay the $10 PBF tax."
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Idaho imposes a corporate franchise tax at 5.3% of taxable income (minimum $20) and a $10 Permanent Building Fund tax on filing corporations. Qualifying multistate corporations with only Idaho sales of not more than $100,000 may elect an alternative 1% tax on gross sales.",
+    "source_url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3025a/",
+    "evidence": [
+     "Franchise Tax",
+     "5.3%",
+     "gross sales"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.idaho.gov/wp-content/uploads/forms/EFO00025/EFO00025_03-02-2026.pdf",
+    "matched_title": "https://tax.idaho.gov/wp-content/uploads/forms/EFO00025/EFO00025_03-02-2026.pdf",
+    "matched_phrases": [
+     "Franchise Tax",
+     "5.3%",
+     "gross sales"
+    ],
+    "snippet": "If a multistate corporation’s only activity in Idaho consists of sales that don’t exceed $100,000, the corporation can pay tax at the rate of 1% of its Idaho gross sales."
+   }
+  ],
+  "grounding_urls": [
+   "https://tax.idaho.gov/pressrelease/whats-new-for-2025-income-tax-returns/",
+   "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3024/",
+   "https://tax.idaho.gov/taxes/income-tax/individual-income/individual-income-tax-rate-schedule/",
+   "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3082/",
+   "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3025/",
+   "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3025a/",
+   "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3025/",
+   "https://tax.idaho.gov/taxes/income-tax/business-income/online-guide/",
+   "https://tax.idaho.gov/taxes/sales-use/online-guide/",
+   "https://tax.idaho.gov/search-category/sales-tax/page/89/",
+   "https://tax.idaho.gov/taxes/sales-use/guides-for-certain-groups/lodging/filing/",
+   "https://tax.idaho.gov/taxes/taxes-on-sales/aud/",
+   "https://tax.idaho.gov/document-mngr/forms_efo00025/"
+  ],
+  "error": ""
+ },
+ {
+  "state": "ID",
+  "section": "filing",
+  "notes": "### 1. Individual Return Due Dates and Extension Rules\n\n* **Due Date:** For calendar-year filers, individual returns are due on or before **April 15** following the close of the tax year (e.g., April 15, 2026, for tax year 2025; April 15, 2027, for tax year 2026). If April 15 falls on a weekend or legal holiday, the deadline moves to the next business day.\n* **Extension Rules:** \n  * Idaho grants an **automatic 6-month extension** to file (to **October 15**) without filing a written application form, provided the taxpayer meets prepayment thresholds by the original due date.\n  * **Valid Extension Threshold:** Prepayments (withholding, estimated payments, or previous year overpayments) by April 15 must equal at least:\n    1. **80%** of the current tax year's liability, or\n    2. **100%** of the total tax liability reported on the previous year's return (if a return was filed).\n  * If the prior year's tax liability was zero, or if the remaining balance due is **$50 or less**, no payment is required to obtain the extension.\n  * An extension of time to file is **not an extension of time to pay**. Interest (6% annual rate) accrues on any unpaid tax after the original April 15 due date.\n  * Extension calculations and payments are submitted using **Form 51** (*Estimated Payment of Individual Income Tax*) or online via Quick Pay.\n* **Applicability:** Applies to both tax years 2025 and 2026.\n* **Official URLs:**\n  * https://tax.idaho.gov/taxes/income-tax/individual-income/basics/\n  * https://tax.idaho.gov/taxes/income-tax/extensions/\n\n---\n\n### 2. Corporate and Pass-Through Return Due Dates and Extension Rules\n\n* **Due Dates:** \n  * Calendar-year corporate (Form 41), S corporation (Form 41S), and partnership (Form 65) returns are due on or before the **15th day of the fourth month** following the close of the tax year—**April 15**.\n  * If the due date falls on a weekend or holiday, returns are due the next business day.\n* **Extension Rules:**\n  * An **automatic 6-month extension** to file (to **October 15** for calendar-year filers) is allowed without written application if the entity has a valid extension.\n  * **Valid Extension Threshold:** Prepayments must equal at least **80%** of the current year tax liability or **100%** of the prior year tax liability. If the entity did not file an Idaho return in the prior year, it must pay **80%** of the current year liability by the original due date.\n  * Payments are made using **Form 41ES** (*Business Income Tax Payments*) or through online e-pay.\n* **Applicability:** Applies to both tax years 2025 and 2026.\n* **Official URLs:**\n  * https://tax.idaho.gov/taxes/income-tax/business-income/filing-and-paying/\n  * https://tax.idaho.gov/taxes/income-tax/extensions/\n\n---\n\n### 3. Elective Pass-Through Entity Tax (Affected Business Entity - ABE)\n\n* **Existence:** Yes. Enacted under Idaho Code § 63-3026B, Idaho provides the **Affected Business Entity (ABE)** election for partnerships and S corporations.\n* **Tax Rate:** \n  * The elective tax is imposed at the statutory corporate income tax rate.\n  * For **Tax Year 2025 and Tax Year 2026**, the rate is **5.3%** (reduced from 5.695% in 2024 and 6.5% prior).\n* **How and When to Elect:**\n  * **When:** Made annually on the PTE's original, timely-filed income tax return (including valid extensions).\n  * **How:** By selecting the ABE election checkbox on **Form 41S** or **Form 65**.\n  * The entity must keep an executed internal election form signed by all authorized members on file for its records (it is not mailed to the Tax Commission).\n  * Tax payments must be remitted on or before **April 15** (for calendar-year filers) using voucher **Form ABE-ES** or online via TAP/Quick Pay.\n  * Owners receive a credit for their pro rata share of tax paid on their individual return; unused credit is refundable.\n* **Applicability:** Applies to both tax years 2025 and 2026.\n* **Official URLs:**\n  * https://tax.idaho.gov/taxes/income-tax/business-income/pass-through/\n  * https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3026b/\n\n---\n\n### 4. Composite or Group Nonresident Returns for Pass-Through Entities\n\n* **Rules:**\n  * A PTE (partnership, S corporation, trust, or estate) may elect to report and pay income tax on behalf of eligible nonresident individual owners on the entity’s return (Idaho Code § 63-3006C).\n  * **Tax Rate:** The entity pays tax on composite income at the corporate rate of **5.3%** for tax years 2025 and 2026.\n  * **Permanent Building Fund (PBF) Tax:** The entity must pay the **$10 PBF tax** for each nonresident individual owner included in the composite return.\n  * **Opting Out (Nonresident Owner Agreement):** A nonresident individual owner may elect out of composite reporting and withholding by submitting a signed **Form PTE-NROA** (*Nonresident Owner Agreement*) to the PTE, agreeing to file an individual Idaho return.\n  * **Reporting:** Nonresident owners included in the composite filing are reported on **Form PTE-12** (*Schedule of Pass-through Owners*) using filing code **\"C\"**.\n* **Applicability:** Applies to both tax years 2025 and 2026.\n* **Official URLs:**\n  * https://tax.idaho.gov/taxes/income-tax/business-income/pass-through/\n  * https://tax.idaho.gov/taxes/income-tax/business-income/s-corporations/\n  * https://tax.idaho.gov/taxes/income-tax/business-income/partnerships/\n\n---\n\n### 5. Estimated Tax Payment Requirements & Nonresident Withholding for PTEs\n\n* **Individual Estimated Tax Payments:** \n  * Under the Idaho Income Tax Code, individuals are **not required** to make estimated tax payments; making payments during the year (via Form 51 or TAP) is voluntary to prevent a balance due at year-end.\n* **Corporate Estimated Tax Payments:** \n  * Required for C corporations if federal estimated payments are required and the Idaho tax liability is **$500 or more**. \n  * Payments are due in four quarterly installments of 25% of the lesser of 100% of the prior year tax or 90% of the current year tax.\n* **PTE Estimated Tax Payments:** \n  * PTEs are **not required** to make estimated tax payments on income reported for individual owners or composite returns. \n  * ABE estimated tax payments are **voluntary** prepayments (remitted via **Form ABE-ES**) and do not earn refund interest. \n  * S corporations are required to make corporate estimated payments only on entity-level taxes (net recognized built-in gains and excess net passive income) if the $500 liability threshold is met.\n* **PTE Nonresident Withholding:**\n  * **Requirement:** PTEs must withhold Idaho tax for each nonresident individual owner who has Idaho-source distributable income of **$1,000 or more**, unless the owner is included in a composite return or has filed a valid Form PTE-NROA.\n  * **Rate:** **5.3%** for tax years 2025 and 2026 (reduced from 5.695% in 2024 to match the statutory rate).\n  * **Payment & Remittance:** Remitted using **Form PTE-01** (*Income Tax Withheld for a Nonresident Individual Owner of a Pass-through Entity*) or online via TAP. The entity lists these owners on **Form PTE-12** with filing code **\"W\"**.\n* **Applicability:** Applies to both tax years 2025 and 2026.\n* **Official URLs:**\n  * https://tax.idaho.gov/taxes/income-tax/business-income/pass-through/\n  * https://tax.idaho.gov/taxes/income-tax/business-income/corporations/\n  * https://tax.idaho.gov/taxes/income-tax/individual-income/avoiding-debt/\n\n---\n\n### 6. Main Return Forms\n\n* **Individual Income Tax Returns:**\n  * **Form 40:** *Idaho Individual Income Tax Return* (full-year residents).\n  * **Form 43:** *Part-Year Resident and Nonresident Income Tax Return*.\n  * **Form 51:** *Estimated Payment of Individual Income Tax / Extension Voucher*.\n* **Corporate Income Tax Returns:**\n  * **Form 41:** *Idaho Corporation Income Tax Return*.\n  * **Form 41ES:** *Payment of Estimated / Extension Business Income Tax*.\n* **Pass-Through Entity Returns & Key Schedules:**\n  * **Form 41S:** *Idaho S Corporation Income Tax Return*.\n  * **Form 65:** *Idaho Partnership Return of Income*.\n  * **Form 66:** *Idaho Fiduciary Income Tax Return* (trusts and estates).\n  * **Form ID K-1:** *Partner’s, Shareholder’s, or Beneficiary’s Share of Idaho Adjustments, Credits, etc.*.\n  * **Form PTE-12:** *Schedule of Pass-through Owners* (reconciliation of composite, withholding, and agreement codes).\n  * **Form PTE-01:** *Income Tax Withheld for a Nonresident Individual Owner of a Pass-through Entity* (payment voucher).\n  * **Form ABE-ES:** *Affected Business Entity Payment of Business Income Tax Voucher*.\n* **Applicability:** Applies to both tax years 2025 and 2026.\n* **Official URLs:**\n  * https://tax.idaho.gov/taxes/income-tax/individual-income/forms/\n  * https://tax.idaho.gov/taxes/income-tax/business-income/forms/\n  * https://tax.idaho.gov/taxes/income-tax/business-income/e-file/",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Individual returns for calendar-year filers are due on April 15. Idaho grants an automatic 6-month extension to October 15 if prepayments equal at least 80% of current year liability or 100% of prior year liability, or if the balance due is $50 or less.",
+    "source_url": "https://tax.idaho.gov/taxes/income-tax/extensions/",
+    "evidence": [
+     "automatic 6-month extension",
+     "80% of the current tax",
+     "100% of the total tax",
+     "Form 51"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.idaho.gov/taxes/income-tax/extensions/; figures not on tax.idaho.gov: ['50', '6']; figures not on tax.idaho.gov: ['100', '50', '6', '80']; figures not on tax.idaho.gov: ['50']; figures not on tax.idaho.gov: ['15', '6']; evidence not on tax.idaho.gov (1/4); figures not on tax.idaho.gov: ['100', '15', '50', '6', '80']; figures not on tax.idaho.gov: ['100', '50', '6']; figures not on tax.idaho.gov: ['100', '50', '80']; figures not on tax.idaho.gov: ['100', '15', '6', '80']; ",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Calendar-year corporate, S corporation, and partnership returns are due on April 15. An automatic 6-month extension to October 15 is granted if prepayments equal at least 80% of the current year liability or 100% of the prior year liability.",
+    "source_url": "https://tax.idaho.gov/taxes/income-tax/business-income/filing-and-paying/",
+    "evidence": [
+     "15th day of the fourth month",
+     "automatic 6-month extension",
+     "80% of the current year",
+     "Form 41ES"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.idaho.gov/taxes/income-tax/business-income/filing-and-paying/; figures not on tax.idaho.gov: ['6']; figures not on tax.idaho.gov: ['100', '6', '80']; evidence not on tax.idaho.gov (0/4); figures not on tax.idaho.gov: ['15', '6']; figures not on tax.idaho.gov: ['100', '15', '6', '80']; figures not on tax.idaho.gov: ['100', '6']; figures not on tax.idaho.gov: ['100', '80']; dates not on tax.idaho.gov: ['April 15', 'October 15']; figures not on tax.idaho.gov: ['100', '15', '",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Partnerships and S corporations may make an annual Affected Business Entity election to pay tax at the statutory corporate rate of 5.3%. The election is made on timely-filed Form 41S or Form 65, with payments remitted by April 15 using Form ABE-ES.",
+    "source_url": "https://tax.idaho.gov/taxes/income-tax/business-income/pass-through/",
+    "evidence": [
+     "Affected Business Entity",
+     "5.3%",
+     "Form ABE-ES",
+     "Form 41S or Form 65"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.idaho.gov/search-category/income-tax/business/page/33/",
+    "matched_title": "Filing Combined Reporting Returns | Idaho State Tax Commission",
+    "matched_phrases": [
+     "Affected Business Entity",
+     "5.3%"
+    ],
+    "snippet": "Year Idaho business tax rate is on taxable income 2025 5.3% 2024 5.695% 2023 5.8% 2022 6% 2021 6.5% 2018-2020 6.925% 2012-2017 7.4% 2001-2011 7.6% Tax due for nonresident individual partners A partnership must pay pass-through withholding on a nonresident individual partner’s income from that partnership."
+   },
+   {
+    "key": "composite",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Pass-through entities may report and pay tax for eligible nonresident individual owners on Form PTE-12 at a 5.3% rate plus the $10 Permanent Building Fund tax per owner. Nonresident owners can opt out of composite filing by submitting Form PTE-NROA to the entity.",
+    "source_url": "https://tax.idaho.gov/taxes/income-tax/business-income/pass-through/",
+    "evidence": [
+     "$10 PBF tax",
+     "Form PTE-NROA",
+     "Schedule of Pass-through Owners",
+     "filing code \"C\""
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.idaho.gov/search-category/income-tax/business/page/33/",
+    "matched_title": "Filing Combined Reporting Returns | Idaho State Tax Commission",
+    "matched_phrases": [
+     "$10 PBF tax",
+     "Form PTE-NROA"
+    ],
+    "snippet": "Year Idaho business tax rate is on taxable income 2025 5.3% 2024 5.695% 2023 5.8% 2022 6% 2021 6.5% 2018-2020 6.925% 2012-2017 7.4% 2001-2011 7.6% Permanent Building Fund (PBF) tax Most businesses must pay the $10 PBF tax."
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Estimated payments are voluntary for individuals and pass-through entities, but C corporations must pay quarterly installments if federal estimates are required and Idaho tax is $500 or more. Pass-through entities must withhold tax at 5.3% via Form PTE-01 for nonresident individual owners with $1,000 or more of Idaho-source distributable income who do not opt out or join a composite return.",
+    "source_url": "https://tax.idaho.gov/taxes/income-tax/business-income/pass-through/",
+    "evidence": [
+     "not required to make estimated",
+     "$1,000 or more",
+     "Form PTE-01",
+     "5.3%"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://tax.idaho.gov/taxes/income-tax/business-income/pass-through/; figures not on tax.idaho.gov: ['01', '1000', '5.3', '500']; figures not on tax.idaho.gov: ['1000', '5.3', '500']; figures not on tax.idaho.gov: ['01', '1000', '500']; figures not on tax.idaho.gov: ['5.3', '500']; figures not on tax.idaho.gov: ['1000', '500']; figures not on tax.idaho.gov: ['01', '1000', '5.3']; unreadable: https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3026b/; figures not",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Individual filers use Form 40 for residents, Form 43 for part-year or nonresidents, and Form 51 for extension payments. Corporate and pass-through returns are filed on Form 41, Form 41S, and Form 65, supported by Form PTE-12 and Form ID K-1.",
+    "source_url": "https://tax.idaho.gov/taxes/income-tax/business-income/forms/",
+    "evidence": [
+     "Form 41",
+     "Form 41S",
+     "Form 65",
+     "Form PTE-12"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://tax.idaho.gov/wp-content/uploads/forms/EFO00028/EFO00028_03-02-2026.pdf",
+    "matched_title": "https://tax.idaho.gov/wp-content/uploads/forms/EFO00028/EFO00028_03-02-2026.pdf",
+    "matched_phrases": [
+     "Form 41S",
+     "Form PTE-12"
+    ],
+    "snippet": "EFO00028 03-02-2026 Page 1 of 3 Don’t Staple 8734 Form 41S S Corporation Income Tax Return 2025 Amended Return? Check the box."
+   }
+  ],
+  "grounding_urls": [
+   "https://tax.idaho.gov/pressrelease/more-guidance-on-conformity-deductions-and-filing-2025-idaho-income-taxes/",
+   "https://tax.idaho.gov/taxes/income-tax/business-income/filing/",
+   "https://tax.idaho.gov/pressrelease/need-an-extension-to-file-your-idaho-income-tax-return-5/",
+   "https://tax.idaho.gov/taxes/income-tax/extension/",
+   "https://tax.idaho.gov/document-mngr/forms_EFO00092/",
+   "https://tax.idaho.gov/taxes/income-tax/individual-income/online-guide/",
+   "https://tax.idaho.gov/taxes/income-tax/business-income/guides-for-certain-businesses/pass-through-entities/",
+   "https://tax.idaho.gov/taxes/income-tax/business-income/guides-for-certain-businesses/income-tax-for-s-corporations/",
+   "https://tax.idaho.gov/taxes/income-tax/business-income/guides-for-certain-businesses/income-tax-for-partnerships/",
+   "https://tax.idaho.gov/taxes/income-tax/business-income/filing/valid-extension-for-filing/",
+   "https://tax.idaho.gov/wp-content/uploads/forms/EFO00026/EFO00026_08-29-2016.pdf",
+   "https://tax.idaho.gov/pressrelease/more-salt-guidance/",
+   "https://tax.idaho.gov/pressrelease/whats-new-for-2025-income-tax-returns/",
+   "https://tax.idaho.gov/taxes/income-tax/business-income/online-guide/",
+   "https://tax.idaho.gov/document-mngr/forms_efo00339/",
+   "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3026b/",
+   "https://tax.idaho.gov/document-mngr/forms_efo00241/",
+   "https://tax.idaho.gov/document-mngr/forms_efo00026/",
+   "https://tax.idaho.gov/search-category/income-tax/business/page/33/",
+   "https://tax.idaho.gov/document-mngr/0-138-278-912/",
+   "https://tax.idaho.gov/online-services/compliance/avoid-a-tax-debt/",
+   "https://tax.idaho.gov/document-mngr/forms_ein00035/",
+   "https://tax.idaho.gov/taxes/income-tax/business-income/guides-for-certain-businesses/income-tax-for-corporations/",
+   "https://tax.idaho.gov/document-mngr/forms_efo00027/",
+   "https://tax.idaho.gov/document-mngr/forms_efo00028/",
+   "https://tax.idaho.gov/document-mngr/forms_efo00238/",
+   "https://tax.idaho.gov/taxes/income-tax/business-income/guides-for-certain-businesses/income-tax-for-corporations/",
+   "https://tax.idaho.gov/document-mngr/forms_efo00091/",
+   "https://tax.idaho.gov/online-services/e-file/e-file-income-taxes/",
+   "https://tax.idaho.gov/document-mngr/pubs_epb00055/",
+   "https://tax.idaho.gov/wp-content/uploads/pubs/EIS00357/EIS00357_01-20-2022.pdf",
+   "https://tax.idaho.gov/document-mngr/pubs_epb00070/",
+   "https://tax.idaho.gov/taxes/income-tax/individual-income/forms/"
+  ],
+  "error": ""
+ }
+]

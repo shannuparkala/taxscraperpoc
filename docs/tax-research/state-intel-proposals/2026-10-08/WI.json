@@ -1,0 +1,538 @@
+[
+ {
+  "state": "WI",
+  "section": "apportionment",
+  "notes": "### 1. Apportionment Formula\n* **Fact:** Wisconsin uses a **single sales factor** (100% sales factor) apportionment formula for multistate business income. The apportionment fraction consists of Wisconsin sales in the numerator and total sales everywhere in the denominator.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Wis. Stat. § 71.25(6): https://docs.legis.wisconsin.gov/statutes/statutes/71/iv/25\n  * Wis. Admin. Code § Tax 2.39: https://docs.legis.wisconsin.gov/code/admin_code/tax/2\n  * Wisconsin Department of Revenue, *Instructions for Schedule A-01*: https://www.revenue.wi.gov/TaxForms2024/2024-ScheduleA-01-Inst.pdf\n\n---\n\n### 2. Sourcing of Receipts from Services and Intangibles\n* **Fact:** Wisconsin uses **market-based sourcing** for both services and intangibles:\n  * **Services:** Sourced to Wisconsin if the purchaser of the service receives the benefit of the service in Wisconsin. If the purchaser receives the benefit in more than one state, gross receipts are divided among those states in proportion to the benefit received in each state.\n  * **Use/License of Intangible Property:** Gross royalties and receipts from licensing/use are sourced to Wisconsin if the purchaser or licensee uses the intangible property in the operation of a trade or business at a location in Wisconsin or for personal use in Wisconsin. If used in multiple states, receipts are divided in proportion to use.\n  * **Sale of Intangible Property:** Gross receipts from sales of intangible property are sourced to Wisconsin if the purchaser uses the property within Wisconsin.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Wis. Stat. § 71.25(9)(df), (dh), (dj): https://docs.legis.wisconsin.gov/statutes/statutes/71/iv/25\n  * Wis. Admin. Code § Tax 2.39(6): https://docs.legis.wisconsin.gov/code/admin_code/tax/2\n  * Wisconsin Department of Revenue, *Instructions for Schedule A-01*: https://www.revenue.wi.gov/TaxForms2024/2024-ScheduleA-01-Inst.pdf\n\n---\n\n### 3. Specialized Industry Apportionment Formulas\n* **Fact:** Specific statutory provisions and administrative rules establish specialized apportionment formulas (or single-factor proxies) for the following industries:\n  * **Interstate Financial Institutions** (Receipts factor under Wis. Admin. Code § Tax 2.49)\n  * **Interstate Motor Carriers** (Wis. Admin. Code § Tax 2.47)\n  * **Interstate Telecommunications Companies** (Wis. Admin. Code § Tax 2.502)\n  * **Insurance Companies** (Premiums factor under Wis. Stat. § 71.45(3))\n  * **Interstate Broker-Dealers, Investment Advisers, Investment Companies, and Underwriters** (Wis. Admin. Code § Tax 2.495)\n  * **Interstate Air Carriers** (Wis. Admin. Code § Tax 2.46)\n  * **Broadcasters** (Wis. Stat. § 71.25(9)(g) and Wis. Admin. Code § Tax 2.39)\n  * **Interstate Railroads and Car Line Companies** (Wis. Admin. Code § Tax 2.475)\n  * **Interstate Pipeline Companies** (Wis. Admin. Code § Tax 2.48)\n  * **Interstate Air Freight Forwarders Affiliated with a Direct Air Carrier** (Wis. Admin. Code § Tax 2.465)\n  * **Interstate Public Utilities** (Wis. Admin. Code § Tax 2.50)\n  * **Interstate Professional Sports Clubs** (Wis. Admin. Code § Tax 2.505)\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Wis. Stat. § 71.25(10)(c): https://docs.legis.wisconsin.gov/statutes/statutes/71/iv/25\n  * Wis. Admin. Code Chapter Tax 2: https://docs.legis.wisconsin.gov/code/admin_code/tax/2\n  * Wisconsin Department of Revenue, *Instructions for Schedule A-01*: https://www.revenue.wi.gov/TaxForms2024/2024-ScheduleA-01-Inst.pdf\n\n---\n\n### 4. Forms and Schedules Used to Compute Apportionment\n* **Fact:** Apportionment is reported and computed on the following dedicated schedules filed with the applicable Wisconsin base return (Form 4, 5S, 3, 6, 1NPR, 2, or 4T):\n  * **Standard / Nonspecialized Industries:** **Schedule A-01** (*Wisconsin Single Sales Factor Apportionment Data for Nonspecialized Industries*).\n  * **Specialized Industry Schedules:**\n    * **Schedule A-02:** Interstate Financial Institutions\n    * **Schedule A-03:** Interstate Motor Carriers\n    * **Schedule A-04:** Interstate Telecommunications Companies\n    * **Schedule A-05:** Insurance Companies (Premiums Factor)\n    * **Schedule A-06:** Interstate Broker-Dealers, Investment Advisers, Investment Companies, and Underwriters\n    * **Schedule A-07:** Interstate Air Carriers\n    * **Schedule A-08:** Broadcasters\n    * **Schedule A-09:** Interstate Railroads\n    * **Schedule A-10:** Interstate Pipeline Companies\n    * **Schedule A-11:** Interstate Air Freight Forwarders Affiliated with a Direct Air Carrier\n  * *Related schedule:* **Form N** (*Wisconsin Nonapportionable, Separately Accounted, and Separately Apportioned Income*) is used to allocate nonapportionable income.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Wisconsin Department of Revenue, *Schedule A-01*: https://www.revenue.wi.gov/TaxForms2025/2025-ScheduleA-01.pdf\n  * Wisconsin Department of Revenue, *2025 Form 4 Instructions*: https://www.revenue.wi.gov/TaxForms2025/2025-Form4-Inst.pdf\n  * Wisconsin Department of Revenue, *Instructions for Schedule A-01*: https://www.revenue.wi.gov/TaxForms2024/2024-ScheduleA-01-Inst.pdf",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Wisconsin uses a single sales factor (100% sales factor) apportionment formula for multistate business income. The apportionment fraction consists of Wisconsin sales in the numerator and total sales everywhere in the denominator.",
+    "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/71/iv/25",
+    "evidence": [
+     "single sales factor",
+     "apportionment fraction",
+     "total sales"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://docs.legis.wisconsin.gov/statutes/statutes/71/iv/25; evidence not on www.revenue.wi.gov (1/3); unreadable: https://docs.legis.wisconsin.gov/document/administrativecode/Tax%202.39(6)(c); figure not stated beside the evidence on www.revenue.wi.gov; unreadable: https://docs.legis.wisconsin.gov/2025/related/acts/118/268; unreadable: https://docs.legis.wisconsin.gov/code/register/2020/777b/insert/tax2.pdf; unreadable: https://docs.legis.wisconsin.gov/document/statutes/71.25(9)(f);",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Wisconsin uses market-based sourcing for receipts from services and intangibles, sourcing service receipts to Wisconsin if the purchaser receives the benefit of the service in Wisconsin. Receipts from the license, use, or sale of intangible property are sourced to Wisconsin if used within the state.",
+    "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/71/iv/25",
+    "evidence": [
+     "receives the benefit",
+     "benefit of the service",
+     "gross receipts",
+     "intangible property"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.wi.gov/TaxForms2022/2022-ScheduleA-01-Inst.pdf",
+    "matched_title": "2022 IC-801 Schedule A-01 Instructions",
+    "matched_phrases": [
+     "receives the benefit",
+     "benefit of the service",
+     "gross receipts",
+     "intangible property"
+    ],
+    "snippet": "If the purchaser of a service receives the benefit of the service in more than one state, the gross receipts from the service are included in the numerator of the sales factor according to the portion of the service received in Wisconsin."
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Specialized apportionment rules apply to interstate financial institutions, motor carriers, telecommunications companies, insurance companies, broker-dealers, investment advisers, air carriers, broadcasters, railroads, pipeline companies, air freight forwarders, public utilities, and professional sports clubs.",
+    "source_url": "https://docs.legis.wisconsin.gov/code/admin_code/tax/2",
+    "evidence": [
+     "financial institutions",
+     "motor carriers",
+     "telecommunications companies",
+     "pipeline companies"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.wi.gov/TaxForms2022/2022-ScheduleA-01-Inst.pdf",
+    "matched_title": "2022 IC-801 Schedule A-01 Instructions",
+    "matched_phrases": [
+     "financial institutions",
+     "motor carriers",
+     "telecommunications companies",
+     "pipeline companies"
+    ],
+    "snippet": "…income using more than one factor. These taxpayers must use one of the following schedules: • Schedule A-02, Wisconsin Apportionment Percentage for Interstate Financial Institutions, • Schedule A-03, Wisconsin Apportionment Percentage for Interstate Motor Carriers , • Schedule A-04, Wisconsin Apportionment Percentage for Interstate Telecommunications Companies , • Schedule A-05,…"
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Standard apportionment is computed on Schedule A-01 (Wisconsin Single Sales Factor Apportionment Data for Nonspecialized Industries). Specialized industries compute apportionment on dedicated Schedules A-02 through A-11, and nonapportionable income is reported on Form N.",
+    "source_url": "https://www.revenue.wi.gov/TaxForms2025/2025-ScheduleA-01.pdf",
+    "evidence": [
+     "Schedule A-01",
+     "Apportionment Data",
+     "Nonspecialized Industries"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.wi.gov/TaxForms2022/2022-ScheduleA-01-Inst.pdf",
+    "matched_title": "2022 IC-801 Schedule A-01 Instructions",
+    "matched_phrases": [
+     "Schedule A-01",
+     "Apportionment Data",
+     "Nonspecialized Industries"
+    ],
+    "snippet": "Wisconsin Single Sales Factor Apportionment Data for Nonspecialized Industries Purpose of Schedule A-01 Corporations, partnerships, tax -option (S) corporations and nonresident estates, trusts, and individuals that are engaged in a unitary business both in and outside Wisconsin generally use Schedule A-01 to compute the factors that will determine their Wisconsin share of income from a unitary business."
+   }
+  ],
+  "grounding_urls": [
+   "https://www.revenue.wi.gov/TaxForms2022/2022-ScheduleA-01-Inst.pdf",
+   "https://www.revenue.wi.gov/TaxForms2024/2024-Form6-Inst.pdf",
+   "https://docs.legis.wisconsin.gov/document/administrativecode/Tax%202.39(6)(c)",
+   "https://www.revenue.wi.gov/TaxForms2025/2025-Form3-Inst.pdf",
+   "https://www.revenue.wi.gov/TaxForms2025/2025-Form4-Inst.pdf",
+   "https://docs.legis.wisconsin.gov/2025/related/acts/118/268",
+   "https://docs.legis.wisconsin.gov/code/register/2020/777b/insert/tax2.pdf",
+   "https://www.revenue.wi.gov/TaxForms2024/2024-ScheduleA-01-Inst.pdf",
+   "https://www.revenue.wi.gov/TaxForms2024/2024-ScheduleA-01-Inst.pdf",
+   "https://docs.legis.wisconsin.gov/document/statutes/71.25(9)(f)",
+   "https://www.revenue.wi.gov/TaxForms2022/2022-ScheduleA-02-Inst.pdf",
+   "https://www.revenue.wi.gov/TaxForms2025/2025-ScheduleA-01.pdf",
+   "https://docs.legis.wisconsin.gov/document/statutes/71.25(9)(df)1.",
+   "https://docs.legis.wisconsin.gov/document/statutes/71.22(4)(L)3.",
+   "https://docs.legis.wisconsin.gov/document/statutes/71.25(12)",
+   "https://www.revenue.wi.gov/Pages/FAQS/ise-crpappnx.aspx",
+   "https://docs.legis.wisconsin.gov/document/administrativecode/Tax%202.465(3)(a)",
+   "https://docs.legis.wisconsin.gov/document/statutes/71.25(12)",
+   "https://docs.legis.wisconsin.gov/document/administrativecode/Tax%202.502(2)(e)7.",
+   "https://www.revenue.wi.gov/TaxForms2025/2025-Schedule3K-1-Inst.pdf",
+   "https://www.revenue.wi.gov/TaxForms2025/2025-Form6-Inst.pdf",
+   "https://www.revenue.wi.gov/TaxForms2020/2020-ScheduleA-01.pdf",
+   "https://www.revenue.wi.gov/TaxForms2025/2025-FormN.pdf",
+   "https://www.revenue.wi.gov/Pages/Form/2025Corporation.aspx"
+  ],
+  "error": ""
+ },
+ {
+  "state": "WI",
+  "section": "nexus",
+  "notes": "### 1. Corporate Income / Franchise Tax Nexus & Economic Nexus Thresholds\n\n* **Nexus Standards:**\n  * A corporation is subject to Wisconsin corporate income or franchise tax if it is incorporated under Wisconsin law, licensed to transact business in the state, or \"doing business in this state\".\n  * Under Wisconsin law, nexus-creating activities include maintaining a business office or location; owning real estate or tangible personal property (including consignment inventory); holding loans secured by Wisconsin real estate or personal property; and owning an interest in a partnership or LLC doing business in Wisconsin.\n* **Economic Nexus Provisions:**\n  * Under Wis. Stat. § 71.22(1r) and Wis. Admin. Code § Tax 2.82(4)(b), economic nexus activities (not requiring physical presence) include:\n    * Issuing credit cards, debit cards, or travel and entertainment cards to Wisconsin customers.\n    * Regularly selling products or services of any kind to customers in Wisconsin that receive them in Wisconsin (unless protected by P.L. 86-272).\n    * Regularly soliciting business from potential Wisconsin customers (unless protected by P.L. 86-272).\n    * Regularly performing services outside Wisconsin for which the benefits are received in Wisconsin.\n    * Regularly engaging in transactions with Wisconsin customers involving intangible property that result in receipts flowing to the taxpayer from within Wisconsin.\n* **Bright-Line / Factor-Based Thresholds:**\n  * **Factor-Based Dollar Thresholds:** **Not found.** Wisconsin does not have a bright-line dollar/sales-factor economic nexus threshold (e.g., $500,000) for corporate income or franchise tax.\n  * **Activity Bright-Line Threshold:** Under Wis. Admin. Code § Tax 2.82(2)(bm), \"regular\" and \"regularly\" are defined as **15 or more days of activity** in the state (calculated as 15 person-days: e.g., one person for 15 days, 15 persons for one day, or any combination totaling 15 person-days).\n  * *(Note: Wisconsin imposes an Economic Development Surcharge once nexus is established if gross receipts from all activities are $4,000,000 or more).*\n* **Applicability:** Applies to both tax years 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Wis. Stat. § 71.22(1r): https://docs.legis.wisconsin.gov/statutes/statutes/71/iv/22\n  * Wis. Admin. Code § Tax 2.82: https://docs.legis.wisconsin.gov/code/admin_code/tax/2/82\n  * Wisconsin DOR Apportionment and Nexus: https://www.revenue.wi.gov/Pages/FAQS/ise-nexus.aspx\n  * Wisconsin DOR Form 4 Instructions (2025): https://www.revenue.wi.gov/TaxForms2025/2025-Form4-Instructions.pdf\n\n---\n\n### 2. Remote Seller Economic Nexus Threshold (Sales and Use Tax)\n\n* **Threshold Amount:** Gross sales into Wisconsin exceeding **$100,000**.\n* **Transaction Count:** **None.** Wisconsin eliminated the previous 200-transaction threshold effective February 20, 2021 (2021 Wis. Act 1).\n* **Included Sales:** Gross sales include all sales into Wisconsin—taxable sales, exempt sales, and sales for resale.\n* **Measurement Period:** The **previous or current calendar year**.\n* **Applicability:** Applies to both tax years 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Wisconsin DOR Remote Sellers Guidance: https://www.revenue.wi.gov/Pages/TaxPro/news-2018-180705a.aspx\n  * Wisconsin DOR Remote Sellers Common Questions: https://www.revenue.wi.gov/Pages/FAQS/remote-sellers.aspx\n  * Wis. Stat. § 77.51(13gm): https://docs.legis.wisconsin.gov/statutes/statutes/77/iii/51/13gm\n\n---\n\n### 3. Wisconsin Position on Public Law 86-272 Protection\n\n* **Stated Position:**\n  * Wisconsin adheres to P.L. 86-272 (15 U.S.C. §§ 381–384), providing immunity from Wisconsin corporate income or franchise tax measured by net income if the out-of-state business’s only activity in Wisconsin is the solicitation of orders for sales of tangible personal property, provided the orders are sent outside Wisconsin for approval or rejection and filled by shipment or delivery from a point outside the state.\n  * **Limitation to Tangible Personal Property:** P.L. 86-272 applies strictly to sellers of tangible personal property; it does not protect businesses selling services, real property, or intangibles (e.g., Software as a Service or travel services).\n  * **Unprotected Activities:** Immunity is forfeited if the entity engages in non-solicitation activities in Wisconsin, including approving orders, providing maintenance/repairs, collecting accounts, performing engineering/consulting, storing goods in a warehouse, or exceeding 15 person-days of non-protected regular activities.\n* **Adoption of MTC Revised Internet Guidance:** **Not found.** The Wisconsin Department of Revenue has not published administrative rules or official guidance formally adopting the Multistate Tax Commission’s (MTC) revised August 2021 statement on internet activities.\n* **Applicability:** Applies to both tax years 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * Wis. Admin. Code § Tax 2.82(3)(b): https://docs.legis.wisconsin.gov/code/admin_code/tax/2/82\n  * Wisconsin DOR Apportionment and Nexus: https://www.revenue.wi.gov/Pages/FAQS/ise-nexus.aspx\n  * Wisconsin Tax Bulletin No. 230 (July 2025) / No. 233 (April 2026): https://www.revenue.wi.gov/Pages/TaxPro/news-wtb.aspx",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Nexus is established if a corporation is incorporated, licensed, or doing business in Wisconsin, including economic nexus from regularly selling products or services or soliciting business. Wisconsin has no bright-line dollar threshold, but regular activity is defined as 15 or more person-days in the state.",
+    "source_url": "https://docs.legis.wisconsin.gov/code/admin_code/tax/2/82",
+    "evidence": [
+     "doing business in this state",
+     "15 or more days of activity",
+     "regularly soliciting business"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.wi.gov/TaxForms2024/2024-Form4-Inst.pdf",
+    "matched_title": "2024 Wisconsin Form 4 Instructions",
+    "matched_phrases": [
+     "15 or more days of activity",
+     "regularly soliciting business"
+    ],
+    "snippet": "In the list above, “regular\" and “regularly\" mean 15 or more days of activity."
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Remote sellers have economic nexus if gross sales into Wisconsin exceed $100,000 in the previous or current calendar year. Wisconsin does not impose a transaction count threshold.",
+    "source_url": "https://www.revenue.wi.gov/Pages/FAQS/remote-sellers.aspx",
+    "evidence": [
+     "exceeding $100,000",
+     "previous or current calendar year",
+     "Gross sales"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.wi.gov/Pages/Businesses/remote-sellers.aspx",
+    "matched_title": "DOR\r\n            \r\n            \r\n            Remote Sellers - Wayfair Decision",
+    "matched_phrases": [
+     "previous or current calendar year",
+     "Gross sales"
+    ],
+    "snippet": "As a result, a remote seller is only required to collect and remit sales or use tax if its gross sales into Wisconsin exceed $100,000 in the previous or current calendar year."
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Wisconsin affords P.L. 86-272 immunity if an entity's only in-state activity is the solicitation of orders for sales of tangible personal property that are approved and filled from outside the state. Immunity does not protect businesses selling services, real property, or intangibles, nor non-solicitation activities.",
+    "source_url": "https://docs.legis.wisconsin.gov/code/admin_code/tax/2/82",
+    "evidence": [
+     "solicitation of orders",
+     "tangible personal property",
+     "approval or rejection"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.wi.gov/Pages/FAQS/ise-crpappnx.aspx",
+    "matched_title": "DOR\r\n            \r\n            \r\n            Apportionment and Nexus",
+    "matched_phrases": [
+     "solicitation of orders",
+     "tangible personal property"
+    ],
+    "snippet": "Under Public Law 86−272, a state can't impose an income tax or franchise tax based on net income on a corporation selling tangible personal property if the corporation's only activity in the state is the solicitation of orders, which orders are approved outside the state and are filled by delivery from a point outside the state."
+   }
+  ],
+  "grounding_urls": [
+   "https://www.revenue.wi.gov/TaxForms2024/2024-Form4-Inst.pdf",
+   "https://www.revenue.wi.gov/WisconsinTaxBulletin/191.pdf",
+   "https://docs.legis.wisconsin.gov/2023/statutes/statutes/71/iii/21/2?down=1",
+   "https://www.revenue.wi.gov/TaxForms2024/2024-Form4-Inst.pdf",
+   "https://docs.legis.wisconsin.gov/document/administrativecode/Tax%202.67(2)(c)4.h.",
+   "https://docs.legis.wisconsin.gov/document/administrativecode/Tax%202.32(2)(d)3.",
+   "https://docs.legis.wisconsin.gov/document/statutes/2013/subch.%20IV%20of%20ch.%2071",
+   "https://docs.legis.wisconsin.gov/document/administrativecode/Tax%202.67(2)(c)4.h.",
+   "https://www.revenue.wi.gov/Pages/FAQS/ise-crpappnx.aspx",
+   "https://www.revenue.wi.gov/TaxForms2025/2025-Form4-Inst.pdf",
+   "https://www.revenue.wi.gov/Pages/Businesses/remote-sellers.aspx",
+   "https://www.revenue.wi.gov/Pages/FAQS/ise-remote-sellers.aspx",
+   "https://www.revenue.wi.gov/DOR%20Publications/pb400.pdf",
+   "https://www.revenue.wi.gov/WisconsinTaxBulletin/230-07-31-WTB.pdf",
+   "https://www.revenue.wi.gov/WisconsinTaxBulletin/233-04-30-WTB.pdf",
+   "https://www.revenue.wi.gov/TaxForms2024/2024-Form6-Inst.pdf",
+   "https://www.revenue.wi.gov/TaxForms2020/2020-Form6-Inst.pdf",
+   "https://docs.legis.wisconsin.gov/document/administrativecode/Tax%202.67(2)(d)3."
+  ],
+  "error": ""
+ },
+ {
+  "state": "WI",
+  "section": "rates",
+  "notes": "### 1. Individual Income Tax Rates and Brackets\n\nWisconsin levies an individual income tax with four graduated brackets: **3.50%**, **4.40%**, **5.30%**, and **7.65%**. The bracket thresholds changed between tax years 2025 and 2026 due to annual statutory indexing for inflation.\n\n#### Tax Year 2025 Brackets\n* **Single / Head of Household / Estates and Trusts:**\n  * $0 to $14,680: 3.50%\n  * $14,680 to $50,480: $513.80 + 4.40% of amount over $14,680\n  * $50,480 to $323,290: $2,089.00 + 5.30% of amount over $50,480\n  * Over $323,290: $16,547.93 + 7.65% of amount over $323,290\n* **Married Filing Jointly:**\n  * $0 to $19,580: 3.50%\n  * $19,580 to $67,300: $685.30 + 4.40% of amount over $19,580\n  * $67,300 to $431,060: $2,784.98 + 5.30% of amount over $67,300\n  * Over $431,060: $22,064.26 + 7.65% of amount over $431,060\n* **Married Filing Separately:**\n  * $0 to $9,790: 3.50%\n  * $9,790 to $33,650: $342.65 + 4.40% of amount over $9,790\n  * $33,650 to $215,530: $1,392.49 + 5.30% of amount over $33,650\n  * Over $215,530: $11,032.13 + 7.65% of amount over $215,530\n\n#### Tax Year 2026 Brackets\n* **Single / Head of Household / Estates and Trusts:**\n  * $0 to $15,110: 3.50%\n  * $15,110 to $51,950: $528.85 + 4.40% of amount over $15,110\n  * $51,950 to $332,720: $2,149.81 + 5.30% of amount over $51,950\n  * Over $332,720: 7.65% of amount over $332,720\n* **Married Filing Jointly:**\n  * $0 to $20,150: 3.50%\n  * $20,150 to $69,260: $705.25 + 4.40% of amount over $20,150\n  * $69,260 to $443,630: $2,866.09 + 5.30% of amount over $69,260\n  * Over $443,630: $22,707.70 + 7.65% of amount over $443,630\n* **Married Filing Separately:**\n  * $0 to $10,080: 3.50%\n  * $10,080 to $34,630: $352.80 + 4.40% of amount over $10,080\n  * $34,630 to $221,820: $1,433.00 + 5.30% of amount over $34,630\n  * Over $221,820: $11,354.07 + 7.65% of amount over $221,820\n\n* **Official Sources:** \n  * Wisconsin DOR Tax Rates FAQ: https://www.revenue.wi.gov/Pages/FAQS/ise-taxrates.aspx\n  * DOR Publication 106 (*Wisconsin Tax Information for Retirees*): https://www.revenue.wi.gov/DORPublications/pb106.pdf\n  * DOR 2026 Form 1-ES Instructions (*Estimated Income Tax for Individuals, Estates, and Trusts*): https://www.revenue.wi.gov/TaxForms2026/2026-Form1-ES-inst.pdf\n\n---\n\n### 2. Corporate Income / Franchise Tax and Minimum Tax\n\n* **Rate:** **7.9%** flat rate on apportioned net taxable income. Imposed as a franchise tax (domestic and foreign corporations doing business in Wisconsin) or an income tax (foreign corporations not subject to the franchise tax with income from Wisconsin sources/property).\n* **Minimum Tax:** **None**. Wisconsin does not levy an alternative minimum tax or a fixed-dollar minimum tax on corporate franchise/income tax filers.\n* **Applicability:** Applies to both **tax year 2025** and **tax year 2026** (no rate change).\n* **Official Sources:**\n  * DOR Corporation Franchise or Income Tax General Information: https://www.revenue.wi.gov/Pages/FAQS/ise-corptax.aspx\n  * DOR Form 4 Instructions (*Non-Combined Corporate Franchise or Income Tax Return*): https://www.revenue.wi.gov/TaxForms2025/2025-Form4-inst.pdf\n\n---\n\n### 3. State Sales and Use Tax & Local Additions\n\n* **State Rate:** **5.0%** sales tax and **5.0%** use tax.\n* **Local Taxes:** Local jurisdictions do add rates:\n  * **County Tax:** **0.5%** in participating counties (70 of Wisconsin's 72 counties impose this tax; Manitowoc County effective January 1, 2025; Racine County effective April 1, 2025). **Milwaukee County** imposes a **0.9%** rate.\n  * **City Tax:** The **City of Milwaukee** imposes a **2.0%** local sales and use tax (bringing the combined total rate in the City of Milwaukee to **7.9%**: 5.0% state + 0.9% county + 2.0% city).\n  * **Special District Taxes:** Certain jurisdictions impose a Premier Resort Area Tax (**0.5%** or **1.25%**) or Local Exposition Taxes (e.g., room, food and beverage, and rental car taxes in the exposition district).\n* **Applicability:** Applies to both **tax year 2025** and **tax year 2026**.\n* **Official Sources:**\n  * DOR Tax Rates FAQ: https://www.revenue.wi.gov/Pages/FAQS/ise-taxrates.aspx\n  * DOR Sales and Use Tax Overview: https://www.revenue.wi.gov/Pages/SalesTax/home.aspx\n  * DOR County and City Sales and Use Taxes: https://www.revenue.wi.gov/Pages/FAQS/ise-countytax.aspx\n\n---\n\n### 4. Gross Receipts, Franchise, Margin, or Other Notable Business Taxes\n\n* **Economic Development Surcharge:**\n  * **Imposition:** Imposed under Wis. Stat. § 77.93 on corporations, insurance companies, exempt organizations, and tax-option (S) corporations that are engaged in business in Wisconsin and have **$4,000,000 or more** of gross receipts from all activities.\n  * **Rates:**\n    * *Regular C Corporations, Insurance Companies, and Taxable Exempt Organizations:* The greater of **$25** or **3.0%** of gross Wisconsin tax liability, capped at a maximum of **$9,800**.\n    * *Tax-Option (S) Corporations:* The greater of **$25** or **0.2%** of Wisconsin net income, capped at a maximum of **$9,800**.\n  * **Applicability:** Applies to both **tax year 2025** and **tax year 2026**.\n* **Pass-Through Entity-Level Tax (PTE Tax Election):**\n  * Partnerships and S corporations may elect to pay tax at the entity level at a flat rate of **7.9%** of Wisconsin net income under Wis. Stat. §§ 71.21(6)(a) and 71.365(4m)(a). Applies to both **tax year 2025** and **tax year 2026**.\n* **Official Sources:**\n  * DOR Economic Development Surcharge FAQ: https://www.revenue.wi.gov/Pages/FAQS/ise-surchg.aspx\n  * DOR Publication 400 (*Wisconsin's Economic Development Surcharge*): https://www.revenue.wi.gov/DORPublications/pb400.pdf\n  * DOR Pass-Through Entity-Level Tax Information: https://www.revenue.wi.gov/Pages/FAQS/ise-pass-through-entity-tax.aspx",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025
+    ],
+    "value": "Wisconsin levies individual income tax rates of 3.50%, 4.40%, 5.30%, and 7.65% across four brackets. For single filers in tax year 2025, the brackets apply to taxable income up to $14,680, up to $50,480, up to $323,290, and over $323,290.",
+    "source_url": "https://www.revenue.wi.gov/Pages/FAQS/ise-taxrates.aspx",
+    "evidence": [
+     "3.50%",
+     "4.40%",
+     "5.30%",
+     "7.65%"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.wi.gov/Pages/FAQS/pcs-taxrates.aspx",
+    "matched_title": "DOR\r\n            \r\n            \r\n            Tax Rates",
+    "matched_phrases": [
+     "3.50%",
+     "7.65%"
+    ],
+    "snippet": "over but not over 2025 tax is of the amount over $0 $14,680 3.50% $0 $14,680 $50,480 $513.80 + 4.4% $14,680 $50,480 $323,290 $2,089 + 5.3% $50,480 $323,290 $16,547.93 + 7.65% $323,290 For married taxpayers filing a joint return with taxable income:"
+   },
+   {
+    "key": "individual",
+    "years": [
+     2026
+    ],
+    "value": "Wisconsin imposes individual income tax rates of 3.50%, 4.40%, 5.30%, and 7.65%. For single filers in tax year 2026, the bracket thresholds are $15,110, $51,950, and $332,720.",
+    "source_url": "https://www.revenue.wi.gov/TaxForms2026/2026-Form1-ES-inst.pdf",
+    "evidence": [
+     "3.50%",
+     "4.40%",
+     "5.30%",
+     "7.65%"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.wi.gov/TaxForms2017through2019/w-234f.pdf",
+    "matched_title": "2026 W-234 Form WT-4A Worksheet for Employee Withholding Agreement (fillable)",
+    "matched_phrases": [
+     "3.50%",
+     "4.40%",
+     "5.30%",
+     "7.65%"
+    ],
+    "snippet": "Schedule C – Married Filing Separately $ 50 80 $ 10,080 $ 3.50%........$ 0 10,080 34,630 352.80 + 4.40%.............10,080 34,630 221,820 1,433.00 + 5.30%.............34,630 221,820 or over 11,354.07 + 7.65%...........221,820 but of the over – not over – amount over – If taxable income is:"
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Wisconsin imposes a flat corporate franchise and income tax rate of 7.9% on apportioned net taxable income. There is no alternative minimum tax or fixed-dollar minimum tax.",
+    "source_url": "https://www.revenue.wi.gov/Pages/FAQS/ise-corptax.aspx",
+    "evidence": [
+     "7.9%",
+     "net taxable income",
+     "franchise tax"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.wi.gov/DORReports/15incent.pdf",
+    "matched_title": "State Tax Incentives for Economic Development in Wisconsin 2015",
+    "matched_phrases": [
+     "7.9%",
+     "franchise tax"
+    ],
+    "snippet": "Corporate net income is used as the measure or base for the franchise tax and both taxes are imposed at a rate of 7.9%."
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Wisconsin levies a state sales and use tax rate of 5.0%, and local jurisdictions add rates. Most counties impose a 0.5% county tax, Milwaukee County imposes 0.9%, and the City of Milwaukee imposes a 2.0% city tax.",
+    "source_url": "https://www.revenue.wi.gov/Pages/FAQS/ise-countytax.aspx",
+    "evidence": [
+     "sales and use tax",
+     "5.0%",
+     "County Tax"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.wi.gov/Pages/FAQS/pcs-taxrates.aspx",
+    "matched_title": "DOR\r\n            \r\n            \r\n            Tax Rates",
+    "matched_phrases": [
+     "sales and use tax",
+     "County Tax"
+    ],
+    "snippet": "Milwaukee County sales and use tax increases from 0.5% to 0.9%, effective January 1, 2024."
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Wisconsin imposes an Economic Development Surcharge on entities with $4,000,000 or more in gross receipts, assessed as the greater of $25 or 3.0% of gross tax liability for C corporations (capped at $9,800) and 0.2% of net income for S corporations. In addition, partnerships and S corporations may elect to pay an entity-level tax at a flat rate of 7.9%.",
+    "source_url": "https://www.revenue.wi.gov/Pages/FAQS/ise-surchg.aspx",
+    "evidence": [
+     "Economic Development Surcharge",
+     "gross receipts",
+     "gross Wisconsin tax liability"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.wi.gov/DOR%20Publications/pb400.pdf",
+    "matched_title": "Pub 400-Wisconsin's Economic Development Surcharge - February 2026",
+    "matched_phrases": [
+     "Economic Development Surcharge",
+     "gross receipts"
+    ],
+    "snippet": "BACKGROUND For taxable years beginning on or after January 1, 2000, and before January 1, 2013, the economic development surcharge applied to businesses that had $4,000,000 or more of gross receipts."
+   }
+  ],
+  "grounding_urls": [
+   "https://www.revenue.wi.gov/Pages/FAQS/pcs-taxrates.aspx",
+   "https://www.revenue.wi.gov/Documents/2025-Tax-Update-Three-Slides.pdf",
+   "https://docs.legis.wisconsin.gov/document/acts/2025/15,233",
+   "https://www.revenue.wi.gov/TaxForms2026/2026-Form1-ES-Inst.pdf",
+   "https://www.revenue.wi.gov/DOR%20Publications/pb106.pdf",
+   "https://www.revenue.wi.gov/TaxForms2017through2019/w-234f.pdf",
+   "https://www.revenue.wi.gov/TaxForms2017through2019/w-234f.pdf",
+   "https://www.revenue.wi.gov/TaxForms2026/2026-Form1-ES-Inst.pdf",
+   "https://www.revenue.wi.gov/Pages/FAQS/ise-crpginfo.aspx",
+   "https://www.revenue.wi.gov/DORReports/15incent.pdf",
+   "https://www.revenue.wi.gov/TaxForms2025/2025-Form2-Inst.pdf",
+   "https://www.revenue.wi.gov/TaxForms2025/2025-Form6-Inst.pdf",
+   "https://www.revenue.wi.gov/TaxForms2025/2025-Form4-Inst.pdf",
+   "https://www.revenue.wi.gov/Pages/FAQS/pcs-taxrates.aspx",
+   "https://www.revenue.wi.gov/Pages/SalesAndUse/home.aspx",
+   "https://www.revenue.wi.gov/Pages/FAQS/pcs-county.aspx",
+   "https://www.revenue.wi.gov/WisconsinTaxBulletin/231-10-31-WTB.pdf",
+   "https://www.revenue.wi.gov/Pages/FAQS/pcs-taxrates.aspx",
+   "https://www.revenue.wi.gov/Pages/FAQS/pcs-temp.aspx",
+   "https://www.revenue.wi.gov/TaxForms2025/2025-Schedule3K-1.pdf",
+   "https://www.revenue.wi.gov/DOR%20Publications/pb102.pdf",
+   "https://www.revenue.wi.gov/DOR%20Publications/pb400.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "WI",
+  "section": "filing",
+  "notes": "### 1. Individual Return Due Dates and Extension Rules\n* **Due Date (Calendar-Year Filers):** April 15 following the close of the tax year (e.g., April 15, 2026, for tax year 2025; April 15, 2027, for tax year 2026). If April 15 falls on a weekend or legal holiday, the return is due the next business day.\n* **Extension Rules:** \n  * A federal extension (Form 4868) automatically grants a 6-month Wisconsin extension to October 15, provided a copy of the federal extension request is attached to the Wisconsin return when filed.\n  * A Wisconsin-only 6-month extension can be obtained without a federal extension by attaching a statement to the Wisconsin return indicating election of the federal extension provision or attaching a copy of federal Form 4868 with only the name and address areas completed.\n  * An extension to file does **not** extend the time to pay. Unpaid tax incurs interest at 1% per month (12% per year) during the extension period. \n* **Official URLs:** \n  * https://www.revenue.wi.gov/Pages/FAQS/ise-extensn.aspx\n  * https://www.revenue.wi.gov/Pages/FAQS/ise-taxfile.aspx\n  * https://www.revenue.wi.gov/DORPublications/pb401.pdf\n\n---\n\n### 2. Corporate and Pass-Through Return Due Dates and Extension Rules\n* **C Corporations (Form 4):**\n  * **Due Date:** 15th day of the 4th month following the close of the taxable year (April 15 for calendar-year filers).\n  * **Extensions:** Wisconsin law provides an automatic extension of 7 months, or until the original due date of the corresponding federal return, whichever is later. A federal extension (Form 7004) extends the Wisconsin due date to 30 days after the federal extended due date.\n* **S Corporations / Tax-Option Corporations (Form 5S):**\n  * **Due Date:** 15th day of the 3rd month following the close of the taxable year (March 15 for calendar-year filers).\n  * **Extensions:** Wisconsin provides an automatic 7-month extension (checked on Item B of Form 5S). A federal extension automatically extends the Wisconsin return due date to 30 days after the federal extended due date.\n* **Partnerships (Form 3):**\n  * **Due Date:** 15th day of the 3rd month following the close of the taxable year (March 15 for calendar-year filers).\n  * **Extensions:** Wisconsin provides a state extension of up to 6 months (checked on Box B of Form 3). A federal extension automatically extends the Wisconsin return to the federal extended due date.\n* *Applicability:* Applies to both tax years 2025 and 2026.\n* **Official URLs:** \n  * https://www.revenue.wi.gov/DORPublications/pb401.pdf\n  * https://www.revenue.wi.gov/Pages/FAQS/ise-s-general.aspx\n  * https://www.revenue.wi.gov/Pages/FAQS/ise-p-general.aspx\n\n---\n\n### 3. Elective Pass-Through Entity Tax (PTET)\n* **Existence:** Yes; authorized under Wis. Stat. § 71.21(6)(a) for partnerships and Wis. Stat. § 71.365(4m)(a) for tax-option (S) corporations.\n* **Tax Rate:** 7.9% flat rate on net income reportable to Wisconsin.\n* **How to Elect:**\n  * **Partnerships:** Check Box I in the return information section of Form 3 (and file Schedule 3-ET). Requires consent from partners holding more than 50% of the capital and profits of the partnership on the date of the election.\n  * **S Corporations:** Check Box 7 in Part A of Form 5S (and file Schedule 5S-ET). Requires consent from shareholders holding more than 50% of the shares on the date of the election.\n* **When to Elect:** Must be made annually on or before the extended due date of the entity's return (Form 3 or Form 5S) and is made on the date the return is filed.\n* *Applicability:* Applies to both tax years 2025 and 2026.\n* **Official URLs:**\n  * https://www.revenue.wi.gov/Pages/FAQS/ise-p-general.aspx\n  * https://www.revenue.wi.gov/Pages/FAQS/ise-s-general.aspx\n  * https://www.revenue.wi.gov/Pages/FAQS/ise-s-taxcomp.aspx\n\n---\n\n### 4. Composite or Group Nonresident Returns\n* **Availability:** Pass-through entities may file composite returns on behalf of qualifying nonresident individual partners or shareholders who have no other Wisconsin source income:\n  * **Form 1CNP:** For nonresident partners of a partnership.\n  * **Form 1CNS:** For nonresident shareholders of an S corporation.\n* **Due Date & Extensions:** Due April 15 following the close of the taxable year. An extension allowed by the IRS for the entity's return automatically extends the due date of Form 1CNS/1CNP to 30 days after the federal extended due date.\n* *Applicability:* Applies to both tax years 2025 and 2026.\n* **Official URLs:**\n  * https://www.revenue.wi.gov/DORForms/2025-Form1CNS-inst.pdf\n  * https://www.revenue.wi.gov/DORForms/2025-Form1CNP-inst.pdf\n  * https://www.revenue.wi.gov/Pages/FAQS/ise-compq.aspx\n\n---\n\n### 5. Estimated Tax Payments and Nonresident Withholding for Pass-Throughs\n* **Nonresident Withholding Requirement (Form PW-1):**\n  * Pass-through entities must withhold Wisconsin income tax on Wisconsin income allocable to nonresident owners unless exempt.\n  * **Exemptions:** Entities that make the elective PTET election under Wis. Stat. § 71.21(6)(a) or § 71.365(4m)(a) are exempt from pass-through withholding (provided no withholding is reported to owners on Schedules 3K-1/5K-1); nonresidents whose allocable Wisconsin income is under $2,000 are also exempt.\n  * **Withholding Return Filing:** Form PW-1 is filed annually by the 15th day of the 3rd month following year-end (March 15 for calendar-year filers), with an automatic 7-month extension available.\n* **Estimated Payments:**\n  * **Pass-Through Withholding Estimated Payments:** Due quarterly on the 15th day of the 3rd, 6th, 9th, and 12th months of the taxable year (March 15, June 15, September 15, and December 15 for calendar-year filers). Must be submitted electronically via *My Tax Account* (or via Form PW-ES voucher if an electronic payment waiver is approved).\n  * **PTET Estimated Tax:** Electing pass-through entities must make quarterly estimated entity-level income tax payments on the 15th day of the 3rd, 6th, 9th, and 12th months of the taxable year and are subject to statutory underpayment interest if underpaid.\n* *Applicability:* Applies to both tax years 2025 and 2026.\n* **Official URLs:**\n  * https://www.revenue.wi.gov/Pages/TaxPro/news-2025-Pass-Through-Withholding-Fact-Sheet.aspx\n  * https://www.revenue.wi.gov/Pages/FAQS/ise-pass-through.aspx\n  * https://www.revenue.wi.gov/Pages/HTML/pass-through-entity-withholding.aspx\n\n---\n\n### 6. Main Return Forms\n* **Individuals:**\n  * **Form 1:** Wisconsin Income Tax (full-year residents).\n  * **Form 1NPR:** Nonresident and Part-Year Resident Income Tax.\n* **Corporations:**\n  * **Form 4:** Wisconsin Non-Combined Corporation Franchise or Income Tax Return.\n  * **Form 6:** Combined Corporation Franchise or Income Tax Return (for unitary groups).\n* **Pass-Through Entities:**\n  * **Form 3:** Wisconsin Partnership Return (includes Schedule 3-ET for electing partnerships).\n  * **Form 5S:** Wisconsin Tax-Option (S) Corporation Franchise or Income Tax Return (includes Schedule 5S-ET for electing S corporations).\n  * **Form PW-1:** Wisconsin Nonresident Income or Franchise Tax Withholding on Pass-Through Entity Income.\n  * **Forms 1CNS / 1CNP:** Composite returns for nonresident S corporation shareholders and partners, respectively.\n* *Applicability:* Tax years 2025 and 2026.\n* **Official URLs:**\n  * https://www.revenue.wi.gov/Pages/Form/2025-Individual.aspx\n  * https://www.revenue.wi.gov/Pages/Form/2025-Corporation.aspx\n  * https://www.revenue.wi.gov/Pages/Form/2025-Pass-Through.aspx",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Individual returns are due April 15 following the close of the calendar tax year. A federal extension automatically provides a 6-month Wisconsin extension to October 15, but does not extend the time to pay.",
+    "source_url": "https://www.revenue.wi.gov/Pages/FAQS/ise-extensn.aspx",
+    "evidence": [
+     "Wisconsin extension",
+     "October 15",
+     "Form 4868"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.wi.gov/DOR%20Publications/pb401.pdf",
+    "matched_title": "Pub 401 Extensions of Time to File -- January 2026",
+    "matched_phrases": [
+     "October 15",
+     "Form 4868"
+    ],
+    "snippet": "For example, for calendar year returns, the extended due date for most trust and estate returns is September 30, compared to the October 15 extended due date for most individual returns."
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "C corporation returns are due April 15 with an automatic 7-month extension, while S corporation and partnership returns are due March 15. Federal extensions extend Wisconsin corporate returns to 30 days after the federal extended due date, and partnerships to the federal extended due date.",
+    "source_url": "https://www.revenue.wi.gov/DORPublications/pb401.pdf",
+    "evidence": [
+     "automatic extension of 7 months",
+     "15th day of the 4th month",
+     "Form 5S"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.revenue.wi.gov/DORPublications/pb401.pdf; evidence not on www.revenue.wi.gov (0/3); dates not on www.revenue.wi.gov: ['March 15']; figures not on www.revenue.wi.gov: ['15', '30', '7']; figures not on www.revenue.wi.gov: ['30', '7']; figures not on www.revenue.wi.gov: ['7']; figures not on www.revenue.wi.gov: ['15']; evidence not on www.revenue.wi.gov (1/3)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Wisconsin provides an elective pass-through entity tax at a flat rate of 7.9% on net income reportable to Wisconsin. The annual election is made on Form 3 or Form 5S on or before the return's extended due date with the consent of owners holding more than 50% ownership.",
+    "source_url": "https://www.revenue.wi.gov/Pages/FAQS/ise-p-general.aspx",
+    "evidence": [
+     "7.9% flat rate",
+     "Schedule 3-ET",
+     "more than 50%"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.revenue.wi.gov/Pages/FAQS/ise-p-general.aspx; figures not on www.revenue.wi.gov: ['5', '50', '7.9']; figures not on www.revenue.wi.gov: ['50', '7.9']; figures not on www.revenue.wi.gov: ['3', '5', '50', '7.9']; figures not on www.revenue.wi.gov: ['3', '7.9']; figures not on www.revenue.wi.gov: ['7.9']; figures not on www.revenue.wi.gov: ['5', '7.9']; evidence not on www.revenue.wi.gov (1/3); evidence not on www.revenue.wi.gov (0/3)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "composite",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Pass-through entities may file composite returns on Form 1CNP for nonresident partners or Form 1CNS for nonresident S corporation shareholders who have no other Wisconsin source income. The returns are due April 15, with extensions extending the due date to 30 days after the federal extended due date.",
+    "source_url": "https://www.revenue.wi.gov/Pages/FAQS/ise-compq.aspx",
+    "evidence": [
+     "Form 1CNP",
+     "Form 1CNS",
+     "composite returns"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.wi.gov/DOR%20Publications/pb401.pdf",
+    "matched_title": "Pub 401 Extensions of Time to File -- January 2026",
+    "matched_phrases": [
+     "Form 1CNP",
+     "Form 1CNS"
+    ],
+    "snippet": "401(a), IRC, IRAs, and MSAs o 15th day of 4th month after end of taxable year • Form 4H – Declaration of inactivity o 15th day of 4th month after end of taxable year o Fiscal year ending on June 30th – 15th day of 3rd month after end of taxable year • Form 1CNS – S corporation shareholders (nonresident composite income tax return) o 15th day of 4th month after end of calendar taxable year Note:"
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Pass-through entities must withhold on nonresident owners via annual Form PW-1 with quarterly estimated payments due on the 15th day of the 3rd, 6th, 9th, and 12th months, unless exempt under the PTET election. Electing PTET entities are also required to make quarterly estimated entity-level tax payments on the same schedule.",
+    "source_url": "https://www.revenue.wi.gov/Pages/TaxPro/news-2025-Pass-Through-Withholding-Fact-Sheet.aspx",
+    "evidence": [
+     "Form PW-1",
+     "Form PW-ES",
+     "Pass-Through Withholding"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.wi.gov/DOR%20Publications/1117composite.pdf",
+    "matched_title": "Pass-Through Withholding and Composite Returns Fact Sheet - 1117",
+    "matched_phrases": [
+     "Form PW-1",
+     "Pass-Through Withholding"
+    ],
+    "snippet": "When are payments due? Pass-through entities must make quarterly pass-through withholding payments on or before the 15th day of the 3rd, 6th, 9th, and 12th months of the taxable year."
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Individuals file Form 1 or Form 1NPR, and corporations file Form 4 or Form 6. Pass-through entities file Form 3, Form 5S, and Form PW-1 for withholding.",
+    "source_url": "https://www.revenue.wi.gov/Pages/Form/2025-Individual.aspx",
+    "evidence": [
+     "Form 1",
+     "Form 1NPR",
+     "Wisconsin Income Tax"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.wi.gov/DOR%20Publications/pb401.pdf",
+    "matched_title": "Pub 401 Extensions of Time to File -- January 2026",
+    "matched_phrases": [
+     "Form 1",
+     "Wisconsin Income Tax"
+    ],
+    "snippet": "Individual Income Tax Returns Individual income tax returns are filed on a Form 1 or 1NPR."
+   }
+  ],
+  "grounding_urls": [
+   "https://www.revenue.wi.gov/Pages/FAQS/pcs-extensn.aspx",
+   "https://www.revenue.wi.gov/DOR%20Publications/pb401.pdf",
+   "https://www.revenue.wi.gov/Pages/Individuals/home.aspx",
+   "https://www.revenue.wi.gov/Pages/FAQS/pcs-late.aspx",
+   "https://www.revenue.wi.gov/DOR%20Publications/1117composite.pdf",
+   "https://www.revenue.wi.gov/Pages/FAQS/ise-scorp-gen.aspx",
+   "https://www.revenue.wi.gov/Pages/FAQS/ise-passthrough-general.aspx",
+   "https://www.revenue.wi.gov/Pages/FAQS/ise-passthrough-tax.aspx",
+   "https://www.revenue.wi.gov/Pages/FAQS/ise-scorp-determinc.aspx",
+   "https://www.revenue.wi.gov/TaxForms2025/2025-Schedule3-ET-Inst.pdf",
+   "https://www.revenue.wi.gov/TaxForms2025/2025-Form1CNP-Inst.pdf",
+   "https://www.revenue.wi.gov/TaxForms2025/2025-Form1CNS-Inst.pdf",
+   "https://www.revenue.wi.gov/Pages/FAQS/ise-composite.aspx",
+   "https://www.revenue.wi.gov/Pages/FAQS/ise-pass.aspx",
+   "https://www.revenue.wi.gov/Pages/OnlineServices/pw-home.aspx",
+   "https://www.revenue.wi.gov/TaxForms2024/2024-FormPW-ES-Inst.pdf",
+   "https://www.revenue.wi.gov/Pages/FAQS/ise-scorp-taxpay.aspx",
+   "https://www.revenue.wi.gov/Pages/Calendar/buscal.aspx"
+  ],
+  "error": ""
+ }
+]

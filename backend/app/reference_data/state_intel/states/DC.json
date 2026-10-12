@@ -1,0 +1,199 @@
+{
+  "code": "DC",
+  "name": "District of Columbia",
+  "sections": {
+    "apportionment": {
+      "fields": [
+        {
+          "key": "sourcing",
+          "label": "Sales sourcing (services and intangibles)",
+          "value": "DC uses market-based sourcing for sales other than sales of tangible personal property. Services and intangible property receipts are sourced to DC if delivered to or used in the District.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/47-1810.02",
+          "source_citation": "§ 47–1810.02. Allocation and apportionment of District and non-District income. | D.C. Law Library",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "— (1) The property factor is a fraction, the numerator of which is the average value of the taxpayer’s real and tangible personal property owned or rented and used in the District during the tax period and the denominator of which is the average value of all the taxpayer’s real and tangible personal property owned or rented and used during the tax period."
+        },
+        {
+          "key": "special_industries",
+          "label": "Special industry rules",
+          "value": "Financial institutions must use an evenly weighted two-factor formula of payroll and sales. Transportation companies use a specialized revenue-unit sales factor fraction.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2024%20Combined%20Reporting%20Instructions_121824_0.pdf",
+          "source_citation": "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2024%20Combined%20Reporting%20Instructions_121824_0.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Financial Institutions Financial institutions must use a two-factor formula, determined by multiplying the financial institution’s base (net income for the tax year) by an apportionment fraction."
+        },
+        {
+          "key": "forms",
+          "label": "Forms",
+          "value": "Separate filers compute apportionment on Schedule F of Form D-20, Form D-30, or Form D-65. Combined reporting groups compute apportionment on Combined Reporting Schedules 2A and 2B.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D-20_Book_Final_wLinks_02272026.pdf",
+          "source_citation": "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D-20_Book_Final_wLinks_02272026.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "1 Amount from numerator of DC sales apportionment factor from Schedule F, Line 1, Column 2 of D-20 or D-30."
+        }
+      ]
+    },
+    "nexus": {
+      "fields": [
+        {
+          "key": "income_nexus",
+          "label": "Income/franchise tax nexus",
+          "value": "Franchise tax nexus is established by engaging in business activity, having a physical presence, or deriving income from DC sources, with combined groups apportioning income under the Joyce method. Unincorporated businesses must file Form D-30 if District-source gross income exceeds $12,000.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://otr.cfo.dc.gov/page/collections-audit-faqs",
+          "source_citation": "Collections & Audit FAQs | otr",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "other than a corporation file? They must file Form D-30, (unless they are specifically excluded from filing by the Code) if their gross income is more than $12,000 from District sources."
+        },
+        {
+          "key": "income_nexus",
+          "label": "Income/franchise tax nexus",
+          "value": "Effective January 1, 2026, under the Combined Reporting Amendment Act of 2024, the District transitions to the Finnigan method, including sales from all unitary group members even without independent DC nexus. General franchise tax nexus continues to apply to entities engaging in business activity, maintaining a physical presence, or deriving income from DC sources.",
+          "years": [
+            2026
+          ],
+          "source_url": "https://otr.cfo.dc.gov/release/district-columbia-tax-changes-take-effect-october1-24",
+          "source_citation": "District of Columbia Tax Changes Take Effect October 1st | otr",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Starting January 1, 2026, the District will change how it calculates taxes for businesses that operate in multiple states."
+        },
+        {
+          "key": "sales_economic_nexus",
+          "label": "Sales/use tax: economic nexus",
+          "value": "A remote seller establishes economic nexus if it has more than $100,000 of gross receipts from retail sales or more than 200 separate retail sales delivered into the District. The threshold is evaluated based on sales during the previous calendar year or the current calendar year.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://otr.cfo.dc.gov/page/sales-and-use-tax-faqs",
+          "source_citation": "Sales and Use Tax FAQs | otr",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "What responsibilities does a remote seller have under the new sales tax law? Beginning on January 1, 2019, remote sellers must collect and remit District sales tax if they had, in the previous calendar year, or will have, in the current calendar year, more than $100,000 of gross receipts from retail sales delivered into the District or more than 200 separate retail sales delivered in the District."
+        },
+        {
+          "key": "pl_86_272",
+          "label": "P.L. 86-272",
+          "value": "The District generally follows the Multistate Tax Commission's Statement of Information under Public Law 86-272, strictly limiting protection to the solicitation of orders for sales of tangible personal property. Protection does not apply to the sale of services, licensing or sale of intangibles, or deliveries made using company-owned vehicles.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/tax_guide_nexus.pdf",
+          "source_citation": "tax guide nexus 110102.PDF",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "* The District generally follows the Statement of Information Concerning Practices of the Multistate Tax Commission and Signatory States under Public Law 86-272."
+        }
+      ]
+    },
+    "rates": {
+      "fields": [
+        {
+          "key": "individual",
+          "label": "Individual income tax",
+          "value": "District of Columbia individual income tax rates range from 4% on taxable income not over $10,000 up to 10.75% on taxable income over $1,000,000 across seven brackets. Intermediate bracket rates include 6%, 6.5%, 8.5%, 9.25%, and 9.75%.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://otr.cfo.dc.gov/page/dc-individual-and-fiduciary-income-tax-rates",
+          "source_citation": "DC Individual and Fiduciary Income Tax Rates | otr",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Over $1,000,000 $91,525, plus 10.75% of the excess above $1,000,000."
+        },
+        {
+          "key": "corporate",
+          "label": "Corporate income/franchise tax",
+          "value": "The corporation franchise tax and unincorporated business franchise tax rate is 8.25% on net income. The minimum tax is $250 if DC gross receipts are $1 million or less, or $1,000 if DC gross receipts are greater than $1 million.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://otr.cfo.dc.gov/page/dc-business-franchise-tax-rates",
+          "source_citation": "DC Business Franchise Tax Rates | otr",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "$250 minimum tax, if DC gross receipts are $1 million or less $1000 minimum tax, if DC gross receipts are more than $1 million * Note - Corporations or financial institutions, including International Banking Facilities, shall not be exempt from the minimum tax payable even if the business or source income is exempt under other provisions of the DC Code."
+        },
+        {
+          "key": "sales",
+          "label": "Sales and use tax",
+          "value": "The District of Columbia general sales and use tax rate is 6.0%. There are no separate city or county local jurisdictions and no local sales taxes are added.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://otr.cfo.dc.gov/release/notice-oct-1-2025-tax-changes",
+          "source_citation": "Notice of Oct. 1, 2025 Tax Changes | otr",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "The general sales tax rate on the gross receipts from the sale of or charges for tangible personal property, digital goods and taxable services, will remain 6.0% through Sept."
+        },
+        {
+          "key": "other_business",
+          "label": "Other notable business taxes",
+          "value": "DC imposes gross receipts taxes on specific industries such as utilities and telecommunications providers. Additionally, businesses with $5,000,000 or more in annual DC gross receipts pay an annual Sports Facilities Fee ranging from $5,500.00 to $16,500.00.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://otr.cfo.dc.gov/page/sports-facilities-fee",
+          "source_citation": "Sports Facilities Fee | otr",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "What tax form must be filed? FR-1500 Who Must File? The entities subject to the Sports Facilities Fee (“feepayers”) are businesses that have income of $5,000,000.00 or more in annual District gross receipts and either are subject to filing franchise tax returns (whether Corporate or Unincorporated) or are employers required to make unemployment insurance contributions."
+        }
+      ]
+    },
+    "filing": {
+      "fields": [
+        {
+          "key": "individual_due",
+          "label": "Individual due date and extension",
+          "value": "Individual income tax returns are due April 15 following the close of the calendar year. Filing Form FR-127 provides a 6-month extension to October 15, but full payment of tentative tax must accompany the voucher.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://otr.cfo.dc.gov/page/individual-income-tax-forms",
+          "source_citation": "Individual Income Tax Forms | otr",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "FR-127 FR-127 (Fill-in) Extension of Time to File Voucher File by April 15, 2026 (If Military Combat Zone, file by October 15, 2026)."
+        },
+        {
+          "key": "estimates",
+          "label": "Withholding and estimated payments",
+          "value": "Estimated franchise tax payments are required for businesses expecting tax liability over $1,000, due April 15, June 15, September 15, and December 15. The safe harbor threshold is the lesser of 90% of the current year liability or 110% of the prior year liability.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D-20ES_Book_121824.pdf",
+          "source_citation": "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D-20ES_Book_121824.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "File Electronically Today! -1- General Instructions Declaration of Estimated Franchise Tax for Corporations ________________________________________________________ Who must file a Form D-20ES? A corporation must file a declaration of estimated franchise tax voucher if its District of Columbia (DC) franchise tax liability is expected to exceed $1,000 for the taxable year."
+        }
+      ]
+    }
+  }
+}

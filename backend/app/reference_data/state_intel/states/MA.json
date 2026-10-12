@@ -1,0 +1,147 @@
+{
+  "code": "MA",
+  "name": "Massachusetts",
+  "sections": {
+    "apportionment": {
+      "fields": [
+        {
+          "key": "method",
+          "label": "Apportionment method",
+          "value": "Massachusetts uses a single sales factor apportionment formula for all business corporations and financial institutions. Multistate business taxable net income is apportioned solely using the sales or receipts factor.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.mass.gov/technical-information-release/tir-25-5-tax-provisions-in-certain-massachusetts-legislation-enacted-in-2024",
+          "source_citation": "TIR 25-5: Tax Provisions in Certain Massachusetts Legislation Enacted in 2024 | Mass.gov",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Single Sales Factor Rules for Companies whose Sales Factor is Inapplicable Effective for tax years beginning on or after January 1, 2025, G.L."
+        },
+        {
+          "key": "sourcing",
+          "label": "Sales sourcing (services and intangibles)",
+          "value": "Massachusetts uses market-based sourcing for sales other than sales of tangible personal property. Receipts from services are sourced to Massachusetts if delivered to a location in the Commonwealth, and receipts from intangibles are sourced based on use in Massachusetts.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.mass.gov/regulations/830-CMR-63381-apportionment-of-income",
+          "source_citation": "830 CMR 63.38.1: Apportionment of Income | Mass.gov",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "(7) Property Factor The property factor is a fraction the numerator of which is the average value of the taxpayer's real and tangible personal property owned or rented and used in Massachusetts during the taxable year and the denominator of"
+        },
+        {
+          "key": "special_industries",
+          "label": "Special industry rules",
+          "value": "Massachusetts provides industry-specific apportionment rules for financial institutions, mutual fund service corporations, airlines, motor carriers, courier and package delivery services, pipeline companies, the electric industry, and the telecommunications industry.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.mass.gov/regulations/830-CMR-63381-apportionment-of-income",
+          "source_citation": "830 CMR 63.38.1: Apportionment of Income | Mass.gov",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "46, § 37 the Commissioner promulgated industry-specific alternative apportionment regulations for motor carriers, airlines, and courier and package delivery services."
+        }
+      ]
+    },
+    "nexus": {
+      "fields": [
+        {
+          "key": "sales_economic_nexus",
+          "label": "Sales/use tax: economic nexus",
+          "value": "Remote sellers establish economic nexus when Massachusetts sales exceed $100,000 in a calendar year, with no transaction count requirement. The measurement period looks to Massachusetts sales exceeding $100,000 during the preceding calendar year or the current calendar year.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.mass.gov/regulations/830-CMR-64h19-remote-retailers-and-marketplace-facilitators",
+          "source_citation": "830 CMR 64H.1.9: Remote Retailers and Marketplace Facilitators | Mass.gov",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Remote retailers that have no traditional in-state contacts ( i.e ., generally, stores, employees, inventory, representatives, etc .) are generally required to collect sales or use tax as vendors when they exceed $100,000 in Massachusetts s"
+        }
+      ]
+    },
+    "rates": {
+      "fields": [
+        {
+          "key": "other_business",
+          "label": "Other notable business taxes",
+          "value": "Massachusetts levies a non-income corporate excise of $2.60 per $1,000 of taxable tangible property or net worth with a $456 minimum excise, but imposes no broad gross receipts tax. Specific gross revenue taxes apply to security corporations at 1.32% or 0.33%, satellite service at 5.0%, and club alcoholic beverages at 0.57%.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.mass.gov/info-details/tax-rates",
+          "source_citation": "Tax Rates | Mass.gov",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "8% Tangible property or net worth $2.60 per $1,000 Minimum $456 Security corporation Gross income, Non bank holding company Gross income, Bank holding company Minimum 1.32% 0.33% $456 Financial institutions Net income Minimum 9% $456 S Corp"
+        }
+      ]
+    },
+    "filing": {
+      "fields": [
+        {
+          "key": "individual_due",
+          "label": "Individual due date and extension",
+          "value": "Individual income tax returns are due on April 15 following the close of the tax year. Filers receive an automatic 6-month extension to October 15, provided at least 80% of total tax liability is paid by the original due date.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.mass.gov/info-details/tax-due-dates-and-extensions",
+          "source_citation": "Tax Due Dates and Extensions | Mass.gov",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Extensions Personal income tax extensions must be filed on or before April 15, 2026 and will not be accepted after midnight on that date."
+        },
+        {
+          "key": "ptet",
+          "label": "Pass-through entity tax (PTET)",
+          "value": "Massachusetts imposes an elective pass-through entity excise under Chapter 63D at a rate of 5.0% on qualified taxable income. Entities elect annually via MassTaxConnect and submit Form 63D-ELT by the underlying return's due date.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://www.mass.gov/info-details/elective-pass-through-entity-excise",
+          "source_citation": "Elective Pass-through Entity Excise | Mass.gov",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "How do I make payments for the chapter 63D PTE excise and the chapter 63E PTE excise? For tax years beginning on or after January 1, 2021, and before January 1, 2026, payments for the chapter 63D PTE excise must be made electronically using"
+        },
+        {
+          "key": "composite",
+          "label": "Composite returns",
+          "value": "Pass-through entities may file Form MA NRCR on behalf of eligible full-year nonresident members to satisfy their Massachusetts tax obligations. Members must file separately on Form 1-NR/PY if they have other Massachusetts income or exceed the 4% surtax threshold.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.mass.gov/guides/tax-guide-for-pass-through-entity-withholding",
+          "source_citation": "Tax Guide for Pass-Through Entity Withholding | Mass.gov",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Participating in a composite return filed by the pass-through entity;"
+        },
+        {
+          "key": "key_forms",
+          "label": "Key forms",
+          "value": "Individuals file Form 1 or Form 1-NR/PY, and corporations file Form 355 or Form 355U. Pass-through entities file Form 3, Form 355S, Form 2, Form 63D-ELT, or Form MA NRCR.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://www.mass.gov/technical-information-release/tir-22-6-pass-through-entity-excise",
+          "source_citation": "TIR 22-6: Pass-through Entity Excise | Mass.gov",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "An election is made by checking the appropriate box and signing where required on the applicable return (Form 3 for partnerships, Form 355S - Schedule S for S corporations, and Form 2 for trusts)."
+        }
+      ]
+    }
+  }
+}

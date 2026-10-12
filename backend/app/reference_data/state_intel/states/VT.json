@@ -1,0 +1,120 @@
+{
+  "code": "VT",
+  "name": "Vermont",
+  "sections": {
+    "apportionment": {
+      "fields": [
+        {
+          "key": "special_industries",
+          "label": "Special industry rules",
+          "value": "Special apportionment formulas apply to trucking companies using mobile property miles and television and radio broadcasting based on audience share. Special sourcing rules also apply to financial institutions subject to corporate income tax.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://tax.vermont.gov/sites/tax/files/documents/Allocation%20and%20Apportionment%20of%20Income%20Clean%20Copy%2011%205%2021.pdf",
+          "source_citation": "Allocation and Apportionment of Vermont Net Income by Corporations",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "The following special rules are established with respect to trucking companies:"
+        },
+        {
+          "key": "forms",
+          "label": "Forms",
+          "value": "C-corporations compute apportionment on Schedule BA-402 filed with Form CO-411. Pass-through entities compute apportionment using Schedule BI-477 filed with Form BI-471.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://tax.vermont.gov/business/corporate-income-tax",
+          "source_citation": "Corporate Income Tax | Department of Taxes",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Vermont Department of Taxes PO Box 1779 Montpelier, VT 05601-1779 Filing Deadlines Type Filing Deadline Income Tax Returns Form CO-411, Corporate Income Tax Return, is due on the date prescribed for filing under the Internal Revenue Code."
+        }
+      ]
+    },
+    "nexus": {
+      "fields": [
+        {
+          "key": "income_nexus",
+          "label": "Income/franchise tax nexus",
+          "value": "A C-corporation has corporate income tax nexus and a filing requirement if it is incorporated in Vermont, receives income allocable or apportioned to Vermont (including through a pass-through entity), or maintains an open corporate income tax account. If any member of a unitary group has Vermont nexus, sales into Vermont by all group members are included in the sales factor numerator under the Finnigan rule.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://tax.vermont.gov/business/corporate-income-tax",
+          "source_citation": "Corporate Income Tax | Department of Taxes",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "It was incorporated under the laws of the State of Vermont or It received income allocable or apportioned to Vermont, including income received as a shareholder, partner, or member."
+        },
+        {
+          "key": "sales_economic_nexus",
+          "label": "Sales/use tax: economic nexus",
+          "value": "A remote seller must register and collect sales tax if it has sales from outside Vermont into the state of at least $100,000.00 or at least 200 individual sales transactions. The threshold is measured during any preceding 12-month period.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://tax.vermont.gov/business-and-corp/sales-and-use-tax/wayfair/faqs",
+          "source_citation": "Sales Tax and Wayfair | Frequently Asked Questions | Department of Taxes",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "What is the Vermont threshold for small remote sellers? Remote sellers must collect and remit sales tax to Vermont when they have made sales from outside Vermont to destinations within Vermont of at least $100,000.00 or totaling at least 200 individual sales transactions during any preceding 12-month period."
+        }
+      ]
+    },
+    "rates": {
+      "fields": [
+        {
+          "key": "corporate",
+          "label": "Corporate income/franchise tax",
+          "value": "Vermont corporate income tax rates are 6.00%, 7.00%, and 8.50%. The annual minimum tax ranges from $100 to $100,000 based on Vermont Gross Receipts, with a $75 minimum for small farm corporations and $250 for pass-through entities.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://tax.vermont.gov/business/corporate-income-tax",
+          "source_citation": "Corporate Income Tax | Department of Taxes",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Allocable to Vermont Base Tax Plus of Amount Over $0 - 10,000 6.00% $0 $10,001 - 25,000 $600 7.00% $10,000 $25,001 - and more $1,650 8.50% $25,000.00 Minimum Annual Tax:"
+        },
+        {
+          "key": "sales",
+          "label": "Sales and use tax",
+          "value": "Vermont levies a 6% state sales and use tax on retail sales of taxable tangible personal property. Participating municipalities may impose an additional 1% Local Option Tax, resulting in a total sales tax rate of 7%.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://tax.vermont.gov/individuals/use-tax",
+          "source_citation": "Use Tax for Individuals | Department of Taxes",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "§ 9701 (7) It is impossible to list every item subject to Vermont Sales and Use Tax sold in the an ever-evolving marketplace, but many categories of tangible personal property are listed in Vermont statute and regulation."
+        }
+      ]
+    },
+    "filing": {
+      "fields": [
+        {
+          "key": "ptet",
+          "label": "Pass-through entity tax (PTET)",
+          "value": "Vermont has not enacted an elective pass-through entity tax.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://tax.vermont.gov/business/business-entity-income-tax",
+          "source_citation": "Business Entity Income Tax | Department of Taxes",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "These are S-Corporations, Partnerships, and LLCs that file as “pass-through” entities for federal and Vermont income tax."
+        }
+      ]
+    }
+  }
+}

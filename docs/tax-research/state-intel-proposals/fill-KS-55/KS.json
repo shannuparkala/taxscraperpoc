@@ -1,0 +1,276 @@
+[
+ {
+  "state": "KS",
+  "section": "rates",
+  "notes": "### 1. Individual Income Tax Rates and Brackets\n* **Tax Years:** 2025 and 2026 (enacted via 2024 Special Session Senate Bill 1, amending K.S.A. § 79-32,110(a); unchanged between 2025 and 2026).\n* **Rates & Brackets:**\n  * **Married Filing Jointly:**\n    * **5.2%** on Kansas taxable income not over $46,000.\n    * **$2,392 plus 5.58%** on Kansas taxable income over $46,000.\n  * **Single, Head of Household, or Married Filing Separately:**\n    * **5.2%** on Kansas taxable income not over $23,000.\n    * **$1,196 plus 5.58%** on Kansas taxable income over $23,000.\n* **Official Sources:** \n  * Kansas Department of Revenue, *2025 Form K-40ES Instructions*: https://www.ksrevenue.gov/pdf/k-40es25.pdf\n  * Kansas Department of Revenue, *2026 Form K-40ES Instructions*: https://www.ksrevenue.gov/pdf/k-40es26.pdf\n  * Kansas Department of Revenue, *2025 Individual Income Tax Booklet*: https://www.ksrevenue.gov/pdf/booklet-25.pdf\n\n---\n\n### 2. Corporate Income Tax and Minimum Tax\n* **Tax Years:** 2025 and 2026.\n* **Rates (Form K-120):**\n  * **Normal Tax:** **3.5%** of Kansas taxable income.\n  * **Surtax:** **3.0%** of Kansas taxable income in excess of $50,000.\n  * **Combined Top Rate:** **6.5%** on Kansas taxable income over $50,000.\n* **Minimum Tax:** **$0 / None** (Kansas law imposes no minimum corporate income tax; returns are filed whether or not tax is due, and tax is computed solely as a percentage of taxable income).\n* **Corporate Franchise Tax:** **None** (repealed/expired for tax year 2011 and later under K.S.A. § 79-5401).\n* **Official Sources:**\n  * Kansas Department of Revenue, *2025 Corporate Income Tax Instructions*: https://www.ksrevenue.gov/pdf/k-120instructions25.pdf\n  * Kansas Department of Revenue, *Franchise Tax*: https://www.ksrevenue.gov/bataxfranchise.html\n\n---\n\n### 3. State Sales and Use Tax Rate & Local Rates\n* **Tax Years:** 2025 and 2026.\n* **State Rate:**\n  * **6.5%** general state retailers' sales and compensating use tax rate.\n  * *(Note: The state sales tax rate on qualifying food and food ingredients was phased down to 0% effective January 1, 2025, but prepared food and general sales remain at 6.5%)*.\n* **Local Additions:** **Yes.** Kansas counties, incorporated cities, and special taxing districts may levy local sales taxes (ranging from 0.10% to 3.0%), which are added to the 6.5% state rate to calculate total collected tax.\n* **Official Sources:**\n  * Kansas Department of Revenue, *Pub. KS-1510 Sales Tax and Compensating Use Tax*: https://www.ksrevenue.gov/pdf/pub1510.pdf\n  * Kansas Department of Revenue, *Pub. KS-1525 Business Taxes for Contractors, Subcontractors and Repairmen*: https://www.ksrevenue.gov/pdf/pub1525.pdf\n  * Kansas Department of Revenue, *Sales (Retailers)*: https://www.ksrevenue.gov/prsalesrate.html\n\n---\n\n### 4. Gross Receipts, Franchise, Margin, or Other Notable Business Taxes\n* **Tax Years:** 2025 and 2026.\n* **Gross Receipts / Margin Tax:** **Not found** (Kansas does not levy a general gross receipts or margin tax).\n* **Corporate Franchise Tax:** **None** (eliminated for tax year 2011 and later; no capital stock or net worth franchise tax exists).\n* **Financial Institutions Privilege Tax (Form K-130):** Assessed on net earnings of financial institutions in lieu of corporate income tax:\n  * **Banks:** Normal tax of **1.94%** of net income, plus a surtax of **2.125%** of net income in excess of $25,000.\n  * **Trust Companies and Savings & Loan Associations:** Normal tax of **1.93%** of net income, plus a surtax of **2.125%** of net income in excess of $25,000.\n* **Pass-Through Entity Tax (SALT Parity Act, Form K-120S):** Electing pass-through entities are taxed at the highest individual rate under K.S.A. § 79-32,110(a), which is **5.58%**.\n* **Official Sources:**\n  * Kansas Department of Revenue, *Privilege Tax Overview & Instructions*: https://www.ksrevenue.gov/bataxprivilege.html\n  * Kansas Department of Revenue, *2025 Privilege Tax Instructions*: https://www.ksrevenue.gov/pdf/k-130instructions25.pdf\n  * Kansas Department of Revenue, *SALT Parity Act FAQs*: https://www.ksrevenue.gov/taxsaltparityfaq.html\n  * Kansas Department of Revenue, *Franchise Tax*: https://www.ksrevenue.gov/bataxfranchise.html",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Kansas individual income tax is 5.2% on taxable income up to $23,000 for single filers ($46,000 for married filing jointly) and 5.58% on taxable income above those thresholds.",
+    "source_url": "https://www.ksrevenue.gov/pdf/k-40es25.pdf",
+    "evidence": [
+     "taxable income not over",
+     "5.2%",
+     "5.58% on Kansas taxable income"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.ksrevenue.gov/pdf/k-40es25.pdf; unreadable: https://www.ksrevenue.gov/kw100.html; unreadable: https://www.ksrevenue.gov/pdf/k-40es26.pdf; unreadable: https://www.ksrevenue.gov/incomebook25.html; unreadable: https://www.ksrevenue.gov/forms-btcinc.html; unreadable: https://www.ksrevenue.gov/bustaxtypesfranchise.html; unreadable: https://www.ksrevenue.gov/corpbook25.html; unreadable: https://www.ksrevenue.gov/pdf/corpbook2025.pdf; unreadable: https://www.ksrevenue.gov/forms-",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The Kansas corporate income tax consists of a 3.5% normal tax on taxable income plus a 3.0% surtax on taxable income over $50,000, with no minimum tax and no franchise tax.",
+    "source_url": "https://www.ksrevenue.gov/pdf/k-120instructions25.pdf",
+    "evidence": [
+     "Normal Tax",
+     "Surtax",
+     "excess of $50,000"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.ksrevenue.gov/pdf/k-120instructions25.pdf; unreadable: https://www.ksrevenue.gov/kw100.html; unreadable: https://www.ksrevenue.gov/pdf/k-40es26.pdf; unreadable: https://www.ksrevenue.gov/pdf/k-40es25.pdf; unreadable: https://www.ksrevenue.gov/incomebook25.html; unreadable: https://www.ksrevenue.gov/forms-btcinc.html; unreadable: https://www.ksrevenue.gov/bustaxtypesfranchise.html; unreadable: https://www.ksrevenue.gov/corpbook25.html; unreadable: https://www.ksrevenue.gov",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The state retailers' sales and compensating use tax rate is 6.5%, and local jurisdictions may add local sales taxes.",
+    "source_url": "https://www.ksrevenue.gov/pdf/pub1510.pdf",
+    "evidence": [
+     "compensating use tax",
+     "state retailers",
+     "local sales taxes"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.ksrevenue.gov/pdf/pub1510.pdf; unreadable: https://www.ksrevenue.gov/kw100.html; unreadable: https://www.ksrevenue.gov/pdf/k-40es26.pdf; unreadable: https://www.ksrevenue.gov/pdf/k-40es25.pdf; unreadable: https://www.ksrevenue.gov/incomebook25.html; unreadable: https://www.ksrevenue.gov/forms-btcinc.html; unreadable: https://www.ksrevenue.gov/bustaxtypesfranchise.html; unreadable: https://www.ksrevenue.gov/corpbook25.html; unreadable: https://www.ksrevenue.gov/pdf/corpboo",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Kansas levies a financial institutions privilege tax consisting of a normal tax of 1.94% for banks (1.93% for trust companies and savings & loans) plus a 2.125% surtax over $25,000, as well as an elective pass-through entity tax at 5.58%.",
+    "source_url": "https://www.ksrevenue.gov/bataxprivilege.html",
+    "evidence": [
+     "Privilege Tax",
+     "net income in excess",
+     "financial institutions"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.ksrevenue.gov/bataxprivilege.html; unreadable: https://www.ksrevenue.gov/kw100.html; unreadable: https://www.ksrevenue.gov/pdf/k-40es26.pdf; unreadable: https://www.ksrevenue.gov/pdf/k-40es25.pdf; unreadable: https://www.ksrevenue.gov/incomebook25.html; unreadable: https://www.ksrevenue.gov/forms-btcinc.html; unreadable: https://www.ksrevenue.gov/bustaxtypesfranchise.html; unreadable: https://www.ksrevenue.gov/corpbook25.html; unreadable: https://www.ksrevenue.gov/pdf/cor",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://www.ksrevenue.gov/kw100.html",
+   "https://www.ksrevenue.gov/pdf/k-40es26.pdf",
+   "https://www.ksrevenue.gov/pdf/k-40es25.pdf",
+   "https://www.ksrevenue.gov/incomebook25.html",
+   "https://www.ksrevenue.gov/forms-btcinc.html",
+   "https://www.ksrevenue.gov/bustaxtypesfranchise.html",
+   "https://www.ksrevenue.gov/corpbook25.html",
+   "https://www.ksrevenue.gov/pdf/corpbook2025.pdf",
+   "https://www.ksrevenue.gov/forms-franchise.html",
+   "https://www.ksrevenue.gov/salesratechanges.html",
+   "https://www.ksrevenue.gov/pdf/pub1525.pdf",
+   "https://www.ksrevenue.gov/bustaxtypessales.html",
+   "https://www.ksrevenue.gov/pdf/pub1223.pdf",
+   "https://www.ksrevenue.gov/pildocs/memos/2023LegislativeChanges.pdf",
+   "https://www.ksrevenue.gov/pdf/pub1510.pdf",
+   "https://www.ksrevenue.gov/pdf/pub1510.pdf",
+   "https://www.ksrevenue.gov/bustaxtypespriv.html",
+   "https://www.ksrevenue.gov/pdf/ar19complete.pdf",
+   "https://www.ksrevenue.gov/pdf/LegislativeChanges.pdf",
+   "https://www.ksrevenue.gov/faqs-SALT.html",
+   "https://www.ksrevenue.gov/pdf/privbook25.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "KS",
+  "section": "filing",
+  "notes": "### 1. Individual Return Due Dates & Extension Rules (TY 2025 & 2026)\n\n* **Due Date:** Calendar-year individual income tax returns are due on or before **April 15** following the close of the tax year (e.g., April 15, 2026, for tax year 2025). When April 15 falls on a Saturday, Sunday, or legal holiday, the return is due the next regular workday.\n* **Extensions:** \n  * Kansas does not have a separate state extension request form. \n  * An extension of time to file is granted automatically if an approved federal extension (IRS Form 4868) is obtained, or an automatic extension is applied if at least **90%** of the Kansas tax liability is paid on or before the original due date.\n  * An extension to file is **not** an extension of time to pay. Unpaid tax after the original due date incurs interest (0.6667% per month / 8% per annum). If 90% was paid by the original due date, no late-filing/late-payment penalty is assessed.\n  * Extension payments must be remitted on or before the original April 15 deadline using **Form K-40V** (marking the \"Extension\" checkbox) or through the KDOR online portal.\n* **Applicability:** Applies to both tax years 2025 and 2026.\n* **Official Sources:**\n  * KDOR Tax Calendar (Pub. KS-1515): https://www.ksrevenue.gov/taxcalendar.html\n  * Form K-40V Instructions: https://www.ksrevenue.gov/pdf/k-40v25.pdf\n  * Individual Income Tax Booklet (Form K-40 Instructions): https://www.ksrevenue.gov/pdf/k-40bundle25.pdf\n\n---\n\n### 2. Corporate & Pass-Through Return Due Dates & Extension Rules (TY 2025 & 2026)\n\n* **Corporate Returns (C Corporations):**\n  * **Due Date:** Due **one month after the federal corporate income tax return due date** (for calendar-year filers whose federal deadline is April 15, the Kansas return is due **May 15**).\n  * **Extensions:** Kansas does not have a separate corporate extension request form. Filing federal Form 7004 with the IRS automatically grants a Kansas six-month extension; the Kansas extended deadline is **one month after the extended federal due date** (e.g., **November 15** for calendar-year filers). A copy of federal Form 7004 must be enclosed with Form K-120.\n  * **Extension Payment:** An extension to file is not an extension to pay. At least 90% of the tax must be paid by the original due date using **Form K-120V** (Corporate Payment Voucher) checking the \"Extension payment\" box to avoid penalties.\n* **Pass-Through Entity Returns (Partnerships & S Corporations):**\n  * **Due Date:** Due no later than the **15th day of the fourth month** following the end of the tax year (April 15 for calendar-year filers), or conforms to the federal due date.\n  * **Extensions:** Kansas does not have a separate state extension request form. Filing federal Form 7004 with the IRS automatically provides a **six-month extension** for Partnerships and S Corporations when a copy is attached to the return.\n  * An extension of time to file Form K-120S does not extend the time for filing a partner’s or shareholder’s individual return. If tax is due at the entity level, payments are made with Form K-120V.\n* **Applicability:** Applies to both tax years 2025 and 2026.\n* **Official Sources:**\n  * KDOR Tax Calendar (Pub. KS-1515): https://www.ksrevenue.gov/taxcalendar.html\n  * Corporate Income Tax Instructions: https://www.ksrevenue.gov/pdf/k-120booklet25.pdf\n  * Partnership or S Corporation Income Tax Booklet: https://www.ksrevenue.gov/pdf/k-120sinstructions25.pdf\n\n---\n\n### 3. Elective Pass-Through Entity Tax (PTET) (TY 2025 & 2026)\n\n* **Existence:** Yes. Enacted under the Kansas **SALT Parity Act** (K.S.A. 79-32,286 et seq.).\n* **Tax Rate:** \n  * Under K.S.A. 79-32,287, the tax rate for 2024 and beyond is set to the highest individual income tax rate under K.S.A. 79-32,110(a). \n  * Following the individual rate adjustments enacted in 2024, the highest individual income tax bracket is **5.58%**.\n  * The PTET rate on Form K-120S (Line 32) and Form K-9 is **5.58%** for tax year 2025 (and remains 5.58% for 2026 unless statutory revenue trigger decreases occur).\n* **How and When to Elect:**\n  * The election is made **annually** on the timely filed Kansas Partnership or S Corporation return (**Form K-120S**) for the tax year by checking **Box N** (\"Mark this box if electing to be subject to tax at the entity level\"). \n  * (Box O is marked if electing to tax 100% of the income of resident owners).\n  * Eligible owners include resident and nonresident individual partners/shareholders and trusts; corporations and upper-tier partnerships are not eligible. \n  * The entity reports each owner’s share of tax paid on **Form K-9**, which the owner encloses with Form K-40 (Line 25) or Form K-41 (Line 16) to claim a credit.\n* **Applicability:** Applies to tax years 2025 and 2026.\n* **Official Sources:**\n  * KDOR SALT Parity FAQ: https://www.ksrevenue.gov/saltparityfaq.html\n  * Form K-120S and Instructions: https://www.ksrevenue.gov/pdf/k-120sinstructions25.pdf\n  * Form K-9: https://www.ksrevenue.gov/pdf/k-9_24.pdf\n\n---\n\n### 4. Composite or Group Nonresident Returns (TY 2025 & 2026)\n\n* **Composite Return Rules:** \n  * A partnership or S corporation may elect to file a composite return on behalf of nonresident partners or nonresident shareholders who derive income from the entity.\n  * Written prior approval from KDOR is **not** required.\n  * Nonresident owners included on a composite return cannot have any Kansas-source income other than from the entity. They must use the standard deduction, are not entitled to pass-through credits or charitable contribution deductions, and are relieved from filing a separate Kansas individual return.\n  * **Forms Used:** **Schedule K-40C** (Composite Income Tax Schedule) is completed and attached to a Kansas Individual Income Tax Return (**Form K-40**) filed under the **partnership's or S corporation's name and EIN**. The pass-through entity also marks **Box L** on Form K-120S.\n  * **Due Date:** Schedule K-40C/Form K-40 must be filed and tax paid on or before the **15th day of the fourth month** following the close of the entity's tax year (April 15 for calendar-year filers).\n* **Applicability:** Applies to tax years 2025 and 2026.\n* **Official Sources:**\n  * Schedule K-40C Instructions: https://www.ksrevenue.gov/pdf/k-40c25.pdf\n  * Partnership/S Corporation Instructions: https://www.ksrevenue.gov/pdf/k-120sinstructions25.pdf\n\n---\n\n### 5. Estimated Tax Requirements & Pass-Through Nonresident Withholding\n\n* **Individual Estimated Tax:**\n  * Required if the Kansas income tax balance due after withholding and credits is **$500 or more**, and withholding/prepaid credits are less than **90%** of the current year’s tax liability or **100%** of the prior year’s tax liability.\n  * Due dates for calendar-year filers: **April 15, June 15, September 15, and January 15** of the following tax year. Form **K-40ES**.\n* **Corporate Estimated Tax:**\n  * Required if corporate income tax liability can reasonably be expected to exceed **$500** (not required in the corporation's first year of existence in Kansas).\n  * Due dates: 15th day of the **4th, 6th, 9th, and 12th months** of the corporate tax year (April 15, June 15, September 15, and December 15 for calendar-year filers). Form **K-120ES**.\n* **Pass-Through Entity Estimated Tax (Elective PTET):**\n  * Under the SALT Parity Act, an electing pass-through entity is treated as a C corporation for estimated tax purposes and must make estimated payments if tax liability exceeds **$500**.\n  * Due dates are the same as corporate estimated taxes (15th day of the 4th, 6th, 9th, and 12th months) remitted via Form **K-120ES** or online. Underpayment penalty is calculated on **Schedule K-220S**.\n* **Pass-Through Nonresident Withholding:**\n  * **Repealed:** Mandatory nonresident withholding on pass-through entity owners (formerly under K.S.A. 79-32,100e and Forms KW-7 / KW-7S) was repealed by the Kansas Legislature effective July 1, 2014 (Notice 14-09).\n  * For tax years 2025 and 2026, Kansas has **no mandatory pass-through nonresident withholding requirement**. Nonresident owners satisfy tax liabilities either by filing Form K-40, participating in a composite return (K-40/K-40C), or having tax paid on their behalf via the elective PTET (Form K-120S).\n* **Applicability:** Applies to tax years 2025 and 2026.\n* **Official Sources:**\n  * Form K-40ES Instructions: https://www.ksrevenue.gov/pdf/k-40es25.pdf\n  * Form K-120ES Instructions: https://www.ksrevenue.gov/pdf/k-120es25.pdf\n  * KDOR Notice 14-09 (Withholding Repealed For Nonresident PTE Owners): https://www.ksrevenue.gov/taxpolicy.html\n\n---\n\n### 6. Main Return Forms (TY 2025 & 2026)\n\n* **Individual Income Tax:** **Form K-40** (*Kansas Individual Income Tax Return*)\n* **Corporate Income Tax:** **Form K-120** (*Kansas Corporation Income Tax Return*)\n* **Pass-Through Entities (Partnership / S Corporation):** **Form K-120S** (*Kansas Partnership or S Corporation Income Tax Return*)\n* **Applicability:** Applies to tax years 2025 and 2026.\n* **Official Sources:**\n  * KDOR Individual Income Tax Forms: https://www.ksrevenue.gov/iitaxforms.html\n  * KDOR Corporate Tax Forms: https://www.ksrevenue.gov/corptaxforms.html",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Kansas calendar-year individual income tax returns are due on or before April 15. An extension is granted automatically if an approved federal extension is obtained or if at least 90% of the tax liability is paid by the original due date using Form K-40V.",
+    "source_url": "https://www.ksrevenue.gov/pdf/k-40bundle25.pdf",
+    "evidence": [
+     "April 15",
+     "Form K-40V",
+     "90% of the Kansas tax liability"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.ksrevenue.gov/pdf/k-40bundle25.pdf; unreadable: https://www.ksrevenue.gov/pdf/k-40v25.pdf; unreadable: https://www.ksrevenue.gov/pdf/corpbook2025.pdf; unreadable: https://www.ksrevenue.gov/pdf/ip25.pdf; unreadable: https://www.ksrevenue.gov/pub1515.html; unreadable: https://www.ksrevenue.gov/pdf/pub1515.pdf; unreadable: https://www.ksrevenue.gov/bustaxtypescorp.html; unreadable: https://www.ksrevenue.gov/scorpbook25.html; unreadable: https://www.ksrevenue.gov/pdf/k-120s25",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "C corporation returns are due one month after the federal due date (May 15 for calendar-year filers), while partnership and S corporation returns are due by the 15th day of the fourth month (April 15). Kansas does not have separate state extension forms, granting an automatic six-month extension if federal Form 7004 is filed and at least 90% of any corporate tax is remitted by the original deadline.",
+    "source_url": "https://www.ksrevenue.gov/pdf/k-120booklet25.pdf",
+    "evidence": [
+     "one month after the federal",
+     "Form K-120V",
+     "Form 7004"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.ksrevenue.gov/pdf/k-120booklet25.pdf; unreadable: https://www.ksrevenue.gov/pdf/k-40v25.pdf; unreadable: https://www.ksrevenue.gov/pdf/corpbook2025.pdf; unreadable: https://www.ksrevenue.gov/pdf/ip25.pdf; unreadable: https://www.ksrevenue.gov/pub1515.html; unreadable: https://www.ksrevenue.gov/pdf/pub1515.pdf; unreadable: https://www.ksrevenue.gov/bustaxtypescorp.html; unreadable: https://www.ksrevenue.gov/scorpbook25.html; unreadable: https://www.ksrevenue.gov/pdf/k-120s",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Under the SALT Parity Act, eligible partnerships and S corporations can elect to pay tax at the entity level at a rate of 5.58%. The annual election is made on a timely filed Form K-120S by marking Box N.",
+    "source_url": "https://www.ksrevenue.gov/saltparityfaq.html",
+    "evidence": [
+     "SALT Parity Act",
+     "highest individual income tax rate",
+     "Form K-120S"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.ksrevenue.gov/saltparityfaq.html; unreadable: https://www.ksrevenue.gov/pdf/k-40v25.pdf; unreadable: https://www.ksrevenue.gov/pdf/corpbook2025.pdf; unreadable: https://www.ksrevenue.gov/pdf/ip25.pdf; unreadable: https://www.ksrevenue.gov/pub1515.html; unreadable: https://www.ksrevenue.gov/pdf/pub1515.pdf; unreadable: https://www.ksrevenue.gov/bustaxtypescorp.html; unreadable: https://www.ksrevenue.gov/scorpbook25.html; unreadable: https://www.ksrevenue.gov/pdf/k-120s25bo",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "composite",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Pass-through entities may file a composite return on behalf of qualifying nonresident partners or shareholders by attaching Schedule K-40C to Form K-40 filed under the entity's name and EIN. The return is due on or before the 15th day of the fourth month following the close of the tax year.",
+    "source_url": "https://www.ksrevenue.gov/pdf/k-40c25.pdf",
+    "evidence": [
+     "Schedule K-40C",
+     "Composite Income Tax Schedule",
+     "15th day of the fourth month"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.ksrevenue.gov/pdf/k-40c25.pdf; unreadable: https://www.ksrevenue.gov/pdf/k-40v25.pdf; unreadable: https://www.ksrevenue.gov/pdf/corpbook2025.pdf; unreadable: https://www.ksrevenue.gov/pdf/ip25.pdf; unreadable: https://www.ksrevenue.gov/pub1515.html; unreadable: https://www.ksrevenue.gov/pdf/pub1515.pdf; unreadable: https://www.ksrevenue.gov/bustaxtypescorp.html; unreadable: https://www.ksrevenue.gov/scorpbook25.html; unreadable: https://www.ksrevenue.gov/pdf/k-120s25bookl",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Estimated tax payments are required for individuals, corporations, and electing PTET entities expecting tax liabilities of $500 or more. Kansas repealed mandatory nonresident withholding for pass-through entities, so no PTE nonresident withholding is required.",
+    "source_url": "https://www.ksrevenue.gov/taxpolicy.html",
+    "evidence": [
+     "Withholding Repealed For Nonresident PTE Owners",
+     "Notice 14-09",
+     "K.S.A. 79-32,100e"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.ksrevenue.gov/taxpolicy.html; unreadable: https://www.ksrevenue.gov/pdf/k-40v25.pdf; unreadable: https://www.ksrevenue.gov/pdf/corpbook2025.pdf; unreadable: https://www.ksrevenue.gov/pdf/ip25.pdf; unreadable: https://www.ksrevenue.gov/pub1515.html; unreadable: https://www.ksrevenue.gov/pdf/pub1515.pdf; unreadable: https://www.ksrevenue.gov/bustaxtypescorp.html; unreadable: https://www.ksrevenue.gov/scorpbook25.html; unreadable: https://www.ksrevenue.gov/pdf/k-120s25bookle",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The primary income tax return forms are Form K-40 for individuals, Form K-120 for corporations, and Form K-120S for partnerships and S corporations.",
+    "source_url": "https://www.ksrevenue.gov/corptaxforms.html",
+    "evidence": [
+     "Kansas Corporation Income Tax Return",
+     "Form K-120",
+     "Form K-120S"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.ksrevenue.gov/corptaxforms.html; unreadable: https://www.ksrevenue.gov/pdf/k-40v25.pdf; unreadable: https://www.ksrevenue.gov/pdf/corpbook2025.pdf; unreadable: https://www.ksrevenue.gov/pdf/ip25.pdf; unreadable: https://www.ksrevenue.gov/pub1515.html; unreadable: https://www.ksrevenue.gov/pdf/pub1515.pdf; unreadable: https://www.ksrevenue.gov/bustaxtypescorp.html; unreadable: https://www.ksrevenue.gov/scorpbook25.html; unreadable: https://www.ksrevenue.gov/pdf/k-120s25boo",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://www.ksrevenue.gov/pdf/k-40v25.pdf",
+   "https://www.ksrevenue.gov/pdf/corpbook2025.pdf",
+   "https://www.ksrevenue.gov/pdf/ip25.pdf",
+   "https://www.ksrevenue.gov/pub1515.html",
+   "https://www.ksrevenue.gov/pdf/pub1515.pdf",
+   "https://www.ksrevenue.gov/bustaxtypescorp.html",
+   "https://www.ksrevenue.gov/scorpbook25.html",
+   "https://www.ksrevenue.gov/pdf/pub1515.pdf",
+   "https://www.ksrevenue.gov/pdf/k-120s25booklet.pdf",
+   "https://www.ksrevenue.gov/pdf/corpbook2020.pdf",
+   "https://www.ksrevenue.gov/pdf/k-120s23.pdf",
+   "https://www.ksrevenue.gov/faqs-SALT.html",
+   "https://www.ksrevenue.gov/bustaxtypessubs.html",
+   "https://www.ksrevenue.gov/pdf/LegislativeChanges.pdf",
+   "https://www.ksrevenue.gov/faqs-SALT.html",
+   "https://www.ksrevenue.gov/incomebook25.html",
+   "https://www.ksrevenue.gov/pdf/LegislativeChanges.pdf",
+   "https://www.ksrevenue.gov/scorpbook25.html",
+   "https://www.ksrevenue.gov/pdf/k-9.pdf",
+   "https://www.ksrevenue.gov/faqs-SALT.html",
+   "https://www.ksrevenue.gov/pdf/k-120s24.pdf",
+   "https://www.ksrevenue.gov/pdf/k-41inst25.pdf",
+   "https://www.ksrevenue.gov/pildocs/memos/2022LegislativeChanges.pdf",
+   "https://www.ksrevenue.gov/pdf/k-9.pdf",
+   "https://www.ksrevenue.gov/pdf/k-40c.pdf",
+   "https://www.ksrevenue.gov/incomebook25.html",
+   "https://www.ksrevenue.gov/pdf/k-120es25.pdf",
+   "https://www.ksrevenue.gov/pdf/k-120es25.pdf",
+   "https://www.ksrevenue.gov/pubxk.html",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgQdv5JdHgCS48r-VhLUqJ-lY6t5lLrjR2jOSe8goEkI547Y0LBnkKAEkGrLdBfU17h8BZAdQhUHp1sj2YlXCk4FY_R_qwC7aEu-n5Czc3fgeMa7K7Ri4UTRyW28yx7VudlYskzW1HRPeKKVNTp4aft_M-UNGRqkoxdCVWoxQzcNil_mvsYh2UOLBTJw0YseLa_ZYqgX14PFz9KoglV6o-kB6k0WfFu-9SpRiS2RREnEksPVCOAcYC526mWWFnjcvuik7nW5tXWZmRmNu0-C5cy8Qp0jFWah8wLPYEmIj9Yl_ChYKGzBNKni3xtYgS",
+   "https://www.ksrevenue.gov/pdf/k-40es25.pdf",
+   "https://www.ksrevenue.gov/forms-ii.html",
+   "https://www.ksrevenue.gov/forms-btcinc.html"
+  ],
+  "error": ""
+ }
+]

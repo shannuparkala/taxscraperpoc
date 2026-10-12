@@ -1,0 +1,543 @@
+[
+ {
+  "state": "SC",
+  "section": "apportionment",
+  "notes": "### 1. Apportionment Formula for Multistate Business Income\n\n* **Statutory Rules & Formulas:**\n  * **Businesses Dealing in Tangible Personal Property:** South Carolina utilizes a **single sales factor** apportionment method for taxpayers whose principal business is manufacturing, collecting, buying, assembling, or processing goods and materials, or selling, distributing, or dealing in tangible personal property. \n    $$\\text{Apportionment Ratio} = \\frac{\\text{Total sales in South Carolina}}{\\text{Total sales everywhere}}$$\n    If a sales factor does not exist, net business income is apportioned to the principal place of business.\n  * **Businesses Not Dealing in Tangible Personal Property:** Taxpayers deriving principal profits or income from sources other than dealing in tangible personal property (e.g., service businesses, financial businesses, contractors, real estate rental) apportion income using a **single gross receipts factor**:\n    $$\\text{Apportionment Ratio} = \\frac{\\text{Gross receipts within South Carolina}}{\\text{Total gross receipts everywhere}}$$\n* **Applicability:** Applies to both **Tax Year 2025** and **Tax Year 2026** (no change between years).\n* **Official Sources:**\n  * S.C. Code Ann. § 12-6-2252: [https://www.scstatehouse.gov/code/t12c006.php](https://www.scstatehouse.gov/code/t12c006.php)\n  * S.C. Code Ann. § 12-6-2280: [https://www.scstatehouse.gov/code/t12c006.php](https://www.scstatehouse.gov/code/t12c006.php)\n  * S.C. Code Ann. § 12-6-2290: [https://www.scstatehouse.gov/code/t12c006.php](https://www.scstatehouse.gov/code/t12c006.php)\n  * SCDOR C & S Corporation Income Tax Instructions: [https://dor.sc.gov/forms](https://dor.sc.gov/forms)\n\n---\n\n### 2. Sourcing of Receipts from Services and Intangibles\n\n* **Methodology:** South Carolina uses an **income-producing activity / cost of performance** standard (not market-based sourcing):\n  * **Receipts from Services:** Sourced to South Carolina if the income-producing activity is performed entirely within the state. If performed partly within and partly outside South Carolina, receipts are sourced to South Carolina to the extent the income-producing activity is performed within the state (proportional performance, often determined by the ratio of costs of performance/payroll in South Carolina to everywhere).\n  * **Cable, Video, and Satellite Services:** Sourced in the pro-rata proportion of the costs of performing the service in South Carolina.\n  * **Intangible Personal Property:** Sales/receipts from intangible personal property are included in South Carolina receipts if the income-producing activity is entirely within the state, or to the extent performed within the state. Receipts from sales of intangible property that cannot be attributed to any particular state or states are excluded from both the numerator and the denominator.\n* **Applicability:** Applies to both **Tax Year 2025** and **Tax Year 2026** (no change between years).\n* **Official Sources:**\n  * S.C. Code Ann. § 12-6-2280(C): [https://www.scstatehouse.gov/code/t12c006.php](https://www.scstatehouse.gov/code/t12c006.php)\n  * S.C. Code Ann. § 12-6-2295: [https://www.scstatehouse.gov/code/t12c006.php](https://www.scstatehouse.gov/code/t12c006.php)\n  * SCDOR Instructions for C and S Corporation Income Tax Returns: [https://dor.sc.gov/forms](https://dor.sc.gov/forms)\n\n---\n\n### 3. Industries with Their Own Apportionment Formula\n\n* **Special Industry Apportionment Formulas:** S.C. Code Ann. § 12-6-2310 sets specific apportionment formulas for the following businesses:\n  1. **Railroad Companies:** Railway operating revenue from business done within South Carolina divided by total railway operating revenue everywhere. Interstate business is apportioned using an equal mileage proportion.\n  2. **Motor Carriers (Property and Passengers):** Vehicle miles traveled within South Carolina divided by total vehicle miles traveled everywhere.\n  3. **Telephone Service Companies:** South Carolina gross receipts (receipts from services wholly within SC plus SC's proportion of interstate revenues under FCC Uniform System of Accounts) divided by total gross receipts everywhere.\n  4. **Pipeline Companies:** Revenue ton miles, revenue barrel miles, or revenue cubic foot miles in South Carolina divided by total ton miles, barrel miles, or cubic foot miles everywhere.\n  5. **Airline Companies:** Revenue tons loaded and unloaded in South Carolina divided by revenue tons loaded and unloaded everywhere (using standard weight of 190 pounds per passenger including free baggage, plus mail, express, and freight).\n  6. **Shipping Lines:** S.C. Code and Department guidance provide specialized maritime/shipping apportionment factors.\n* **Applicability:** Applies to both **Tax Year 2025** and **Tax Year 2026** (no change between years).\n* **Official Sources:**\n  * S.C. Code Ann. § 12-6-2310: [https://www.scstatehouse.gov/code/t12c006.php](https://www.scstatehouse.gov/code/t12c006.php)\n  * SCDOR Instructions for C and S Corporation Income Tax Returns (Schedule H-3 instructions): [https://dor.sc.gov/forms](https://dor.sc.gov/forms)\n\n---\n\n### 4. Form and Schedule Used to Compute Apportionment\n\n* **Corporate Forms and Apportionment Schedules:**\n  * Apportionment is calculated within **Schedule H** of **Form SC1120** (*C Corporation Income Tax Return*) or **Form SC1120S** (*S Corporation Income Tax Return*) / **Form SC1120U** (*Public Utilities*):\n    * **Schedule H-1:** *Computation of Sales Ratio* (used for single sales factor apportionment by manufacturers and sellers of tangible personal property).\n    * **Schedule H-2:** *Computation of Gross Receipts Ratio* (used for gross receipts apportionment by service businesses, contractors, etc.).\n    * **Schedule H-3:** *Computation of Ratio for Section 12-6-2310 Companies* (used by special industry corporations such as railroads, motor carriers, airlines, pipelines, and telephone companies).\n  * The resulting ratio from Schedule H is transferred to **Schedule G** (*Computation of South Carolina Taxable Income*) to compute apportioned net business income.\n* **Applicability:** Applies to both **Tax Year 2025** and **Tax Year 2026** (no change between years).\n* **Official Sources:**\n  * SCDOR Form SC1120 & Instructions: [https://dor.sc.gov/forms](https://dor.sc.gov/forms)\n  * SCDOR Form SC1120S: [https://dor.sc.gov/forms](https://dor.sc.gov/forms)",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "South Carolina utilizes a single sales factor apportionment ratio for businesses dealing in tangible personal property. Businesses deriving income from other sources apportion income using a single gross receipts factor.",
+    "source_url": "https://www.scstatehouse.gov/code/t12c006.php",
+    "evidence": [
+     "dealing in tangible personal property",
+     "Total sales in South Carolina",
+     "Gross receipts within South Carolina"
+    ],
+    "accepted": false,
+    "reason": "evidence not on www.scstatehouse.gov (1/3); evidence not on dor.sc.gov (1/3); evidence not on dor.sc.gov (0/3); evidence not on www.scstatehouse.gov (0/3)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Receipts from services and intangibles are sourced under an income-producing activity and cost of performance standard. Sourcing to South Carolina occurs if or to the extent the income-producing activity is performed within the state.",
+    "source_url": "https://www.scstatehouse.gov/code/t12c006.php",
+    "evidence": [
+     "income-producing activity",
+     "costs of performing the service",
+     "intangible personal property"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.scstatehouse.gov/code/t12c006.php",
+    "matched_title": "Code of Laws - Title 12 - Chapter 6- - TAXATION",
+    "matched_phrases": [
+     "income-producing activity",
+     "costs of performing the service",
+     "intangible personal property"
+    ],
+    "snippet": "(c) income from intangible personal property, including annuities, dividends, interest, and gains that is derived from property employed in a trade, business, profession, or occupation carried on in this State."
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Special industry apportionment formulas apply to railroad companies, motor carriers, telephone service companies, pipeline companies, airline companies, and shipping lines.",
+    "source_url": "https://www.scstatehouse.gov/code/t12c006.php",
+    "evidence": [
+     "Railway operating revenue",
+     "Vehicle miles traveled",
+     "Airline Companies",
+     "revenue barrel miles"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.scstatehouse.gov/code/t12c006.php",
+    "matched_title": "Code of Laws - Title 12 - Chapter 6- - TAXATION",
+    "matched_phrases": [
+     "Railway operating revenue",
+     "Airline Companies",
+     "revenue barrel miles"
+    ],
+    "snippet": "(1)(a) Railroad companies shall use a fraction in which the numerator is railway operating revenue from business done within this State during the taxable year and the denominator is total railway operating revenue from all business done by the taxpayer as shown by its records kept in accordance with the Uniform System of Accounts prescribed by the Interstate Commerce Commission."
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Apportionment is computed on Schedule H (specifically Schedule H-1, H-2, or H-3) of Form SC1120 or Form SC1120S. The resulting ratio is then transferred to Schedule G to determine South Carolina taxable income.",
+    "source_url": "https://dor.sc.gov/forms",
+    "evidence": [
+     "Computation of Sales Ratio",
+     "Computation of Gross Receipts Ratio",
+     "Form SC1120",
+     "Schedule H-3"
+    ],
+    "accepted": false,
+    "reason": "figures not on dor.sc.gov: ['1', '1120']; evidence not on www.scstatehouse.gov (0/4); figures not on dor.sc.gov: ['1120']; figure not stated beside the evidence on dor.sc.gov; figures not on www.scstatehouse.gov: ['1120']; evidence not on dor.sc.gov (0/4); evidence not on dor.sc.gov (1/4)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://www.scstatehouse.gov/code/t12c006.php",
+   "https://dor.sc.gov/sites/dor/files/policies/RP15-2.pdf",
+   "https://dor.sc.gov/sites/dor/files/forms/SC1120I.pdf",
+   "https://dor.sc.gov/sites/dor/files/forms/SC1120I.pdf",
+   "https://www.scstatehouse.gov/code/t12c006.php",
+   "https://dor.sc.gov/sites/dor/files/forms/SC1120I.pdf",
+   "https://www.scstatehouse.gov/query.php?search=DOC&searchtext=plus%25&category=LEGISLATION&session=0&conid=7074777&result_pos=0&keyval=1173372&numrows=50",
+   "https://dor.sc.gov/income-tax-apportionment-engineering-service-income",
+   "https://www.scstatehouse.gov/query.php?search=DOC&searchtext=1043&category=LEGISLATION&session=122&conid=10722731&result_pos=0&keyval=1221043&numrows=10",
+   "https://www.scstatehouse.gov/sess122_2017-2018/hj18/20181003.htm",
+   "https://dor.sc.gov/sites/dor/files/forms/SC1120I.pdf",
+   "https://dor.sc.gov/income-tax-apportionment-income-motor-carrier",
+   "https://dor.sc.gov/sites/dor/files/forms/SC1120I.pdf",
+   "https://www.scstatehouse.gov/code/t12c006.php",
+   "https://www.scstatehouse.gov/code/t12c006.php",
+   "https://dor.sc.gov/business-income-taxes/partnership",
+   "https://dor.sc.gov/sites/dor/files/policies/RP15-2.pdf",
+   "https://dor.sc.gov/sites/dor/files/forms/SC1120S.pdf",
+   "https://dor.sc.gov/sites/dor/files/forms/SC1120U.pdf",
+   "https://dor.sc.gov/sites/dor/files/forms/SC1120I.pdf",
+   "https://dor.sc.gov/sites/dor/files/forms/SC1120U.pdf",
+   "https://dor.sc.gov/sites/dor/files/forms/SC1120.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "SC",
+  "section": "nexus",
+  "notes": "### Income and Franchise Tax Nexus\n\n* **Income Tax Nexus Criteria:**\n  * Imposed on every corporation transacting, conducting, or doing business in South Carolina, or having income within the state. \"Transacting, conducting, and doing business\" includes transacting or engaging in any activity for financial profit or gain (S.C. Code Ann. § 12-6-530).\n  * Physical presence creates nexus through:\n    * Employees, agents, brokers, representatives, or subcontractors working on behalf of the entity in the state (ranging from soliciting sales to performing services for any length of time).\n    * Property (goods, offices, real estate, vehicles, etc.) physically located in South Carolina.\n  * Economic nexus: The South Carolina Department of Revenue (SCDOR) maintains that economic nexus is generally sufficient to create income tax nexus even without physical presence (e.g., licensing intangibles or trademarks for use in South Carolina and deriving income therefrom under *Geoffrey, Inc. v. South Carolina Tax Commission*).\n* **Bright-Line Factor-Presence / Dollar Threshold for Income Tax:**\n  * **Not found**. South Carolina does not publish a bright-line factor-presence dollar or transaction threshold for corporate income tax nexus.\n* **Franchise Tax (Corporate License Fee) Nexus Criteria:**\n  * Imposed under S.C. Code Ann. §§ 12-20-20 and 12-20-50 on every domestic corporation, every foreign corporation qualified to do business in South Carolina, and any other corporation required by S.C. Code Ann. § 12-6-4910 to file a corporate income tax return. Franchise tax nexus is triggered either by qualifying to do business with the Secretary of State or by having an income tax filing requirement (nexus) in the state.\n* **Bright-Line Threshold for Franchise Tax:**\n  * **Not found**.\n* **Applicable Tax Years:** 2025 and 2026 (no statutory or administrative changes between years).\n* **Official Sources:**\n  * SCDOR Nexus Guidance: https://dor.sc.gov/tax/nexus\n  * S.C. Code Ann. § 12-6-530: https://www.scstatehouse.gov/code/t12c006.php\n  * S.C. Code Ann. § 12-20-20: https://www.scstatehouse.gov/code/t12c020.php\n  * SC Revenue Ruling #16-11: https://dor.sc.gov/resources-site/lawandpolicy/Advisory%20Opinions/RR16-11.pdf\n\n---\n\n### Remote Seller Economic Nexus Threshold (Sales and Use Tax)\n\n* **Gross Sales Threshold:** Gross revenue exceeds **$100,000** from sales of:\n  * Tangible personal property;\n  * Products transferred electronically; or\n  * Services delivered into South Carolina.\n* **Transaction Count Threshold:** **None** (South Carolina does not enforce a separate 200-transaction count threshold).\n* **Measurement Period:** The **previous or current calendar year**.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * SCDOR Remote Sellers Guidance: https://dor.sc.gov/tax/sales/remotesellers\n  * SC Revenue Ruling #18-14: https://dor.sc.gov/resources-site/lawandpolicy/Advisory%20Opinions/RR18-14.pdf\n  * SCDOR Sales and Use Tax Manual: https://dor.sc.gov/resources-site/publications/Publications/Sales_and_Use_Tax_Manual_2025_Edition.pdf\n\n---\n\n### State's Stated Position on Public Law 86-272 Protection\n\n* **Position and Scope:**\n  * South Carolina recognizes Public Law 86-272 (15 U.S.C. § 381) as restricting the state from imposing net income tax when an out-of-state business’s only activity within South Carolina is the solicitation of orders for sales of tangible personal property, provided those orders are sent outside the state for approval/rejection and filled by shipment or delivery from outside South Carolina.\n  * The protection applies strictly to **net income tax** on sales of tangible personal property; it does not protect taxpayers from the Corporate License Fee (franchise tax) or apply to the sale of services, leasing, licensing of intangibles, or sales of real property.\n* **Administrative Guidance:**\n  * SCDOR's governing guidance is set forth in **SC Revenue Ruling #97-15** (reaffirmed as current guidance on the SCDOR Nexus portal and in SC Revenue Ruling #16-11).\n  * RR #97-15 adheres to the standard established in *Wisconsin Department of Revenue v. William Wrigley, Jr., Co.* (505 U.S. 214) and the Multistate Tax Commission's (MTC) 1994 revised guidelines, distinguishing between protected solicitation/de minimis activities and unprotected activities.\n* **Applicable Tax Years:** 2025 and 2026 (unchanged).\n* **Official Sources:**\n  * SCDOR Nexus Guidance: https://dor.sc.gov/tax/nexus\n  * SC Revenue Ruling #97-15: https://dor.sc.gov/resources-site/lawandpolicy/Advisory%20Opinions/RR97-15.pdf\n  * SC Revenue Ruling #16-11: https://dor.sc.gov/resources-site/lawandpolicy/Advisory%20Opinions/RR16-11.pdf",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "South Carolina imposes corporate income tax on corporations transacting, conducting, or doing business in the state, or having income within the state, through physical presence or economic nexus without a bright-line factor threshold. Franchise tax applies to domestic corporations, qualified foreign corporations, and corporations required to file an income tax return.",
+    "source_url": "https://dor.sc.gov/tax/nexus",
+    "evidence": [
+     "transacting, conducting, or doing business",
+     "having income within the state",
+     "corporate license fee"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.scstatehouse.gov/code/t12c006.php",
+    "matched_title": "Code of Laws - Title 12 - Chapter 6- - TAXATION",
+    "matched_phrases": [
+     "transacting, conducting, or doing business",
+     "corporate license fee"
+    ],
+    "snippet": "Role of distribution facility in determining nexus with state for income tax and corporate license fee purposes."
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Remote sellers establish economic nexus if gross revenue exceeds $100,000 from sales of tangible personal property, products transferred electronically, or services delivered into South Carolina during the previous or current calendar year. South Carolina does not enforce a transaction count threshold.",
+    "source_url": "https://dor.sc.gov/tax/sales/remotesellers",
+    "evidence": [
+     "exceeds $100,000",
+     "tangible personal property",
+     "previous or current calendar year"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://dor.sc.gov/sites/dor/files/Documents/Policy%20Manuals/SC%20Sales%20Tax%20Manual.pdf",
+    "matched_title": "Sales and Use Tax Manual, 2025 Edition",
+    "matched_phrases": [
+     "exceeds $100,000",
+     "tangible personal property"
+    ],
+    "snippet": "A marketplace facilitator whose gross revenue from sales of tangible personal property 5 (whether such property is owned by the marketplace facilitator or others), products transferred electronically, and services delivered into South Carolina exceeds $100,000 in the previous calendar year or the current calendar year has economic nexus (i.e., substantial nexus) with South Carolina."
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "South Carolina recognizes Public Law 86-272 protection from net income tax when an out-of-state business's sole activity in the state is soliciting orders for tangible personal property approved and filled from outside the state. The protection does not apply to the corporate license fee franchise tax, services, leasing, or intangibles.",
+    "source_url": "https://dor.sc.gov/tax/nexus",
+    "evidence": [
+     "solicitation of orders",
+     "tangible personal property",
+     "Corporate License Fee"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://dor.sc.gov/income-tax-nexus-0",
+    "matched_title": "SC Revenue Ruling #98-3",
+    "matched_phrases": [
+     "solicitation of orders",
+     "tangible personal property"
+    ],
+    "snippet": "any other activity the taxpayer has in South Carolina is protected under Public Law 86-272.1 Public Law 86-272 limits the power of South Carolina to impose net income taxes on income that out-of-state companies derive from the sale of personal property when the only business activity within South Carolina is the solicitation of orders by such company for sales of tangible personal property, which orders are sent outside South Carolina for approval or rejection, and, if approved, are filled by sh"
+   }
+  ],
+  "grounding_urls": [
+   "https://www.scstatehouse.gov/code/t12c006.php",
+   "https://www.scstatehouse.gov/code/t12c006.php",
+   "https://dor.sc.gov/businesses/nexus",
+   "https://dor.sc.gov/income-tax-nexus-0",
+   "https://dor.sc.gov/sites/dor/files/Documents/Policy%20Manuals/SCTIED-2025-Chapter%202-PartI.pdf",
+   "https://www.scstatehouse.gov/code/t12c020.php",
+   "https://dor.sc.gov/sites/dor/files/Documents/Policy%20Manuals/SC%20Sales%20Tax%20Manual.pdf",
+   "https://dor.sc.gov/sales-use-tax-index/sales-tax/remote-sellers",
+   "https://dor.sc.gov/income-tax-public-law-86-272-and-south-carolina-income-tax",
+   "https://dor.sc.gov/income-tax-nexus-0",
+   "https://www.dor.sc.gov/administrative-process-procedures-income-tax-sales-use-tax-filing-requirements-where-nexus-issue",
+   "https://dor.sc.gov/sites/dor/files/policies/RR05-11.pdf",
+   "https://dor.sc.gov/sites/dor/files/policies/RR16-11.pdf",
+   "https://dor.sc.gov/sites/dor/files/policies/IL26-3.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "SC",
+  "section": "rates",
+  "notes": "### 1. Individual Income Tax Rate(s) and Brackets\n\n* **Tax Year 2025:**\n  * **Brackets and Rates:** South Carolina imposed a graduated income tax with a top marginal rate of **6.0%**. The structure consisted of three graduated brackets (0%, 3%, and 6.0%):\n    * Income up to the first bracket threshold is taxed at **0%**.\n    * Income in the middle bracket is taxed at **3%**.\n    * Taxable income of **$100,000 or more** is computed as: **(Taxable Income × 6%) − $642**.\n  * **Elective Pass-Through Rate:** Qualified active trade or business income from pass-through entities may be taxed at an elective flat rate of **3%** (Form I-335) in lieu of graduated rates.\n  * **Official URLs:** \n    * SCDOR Individual Income Tax: `https://dor.sc.gov/tax/individual-income`\n    * SCDOR Moving to SC Guide: `https://dor.sc.gov/moving-to-sc`\n    * SCDOR 2025 Tax Tables: `https://dor.sc.gov/forms`\n\n* **Tax Year 2026 (Changed):**\n  * Under Act 110 of 2026 (H. 4216, signed March 30, 2026), the individual income tax structure collapsed from three brackets to two brackets:\n    * **$0 to $29,999:** **1.99%** × taxable income\n    * **$30,000 or more:** **(5.21% × taxable income) − $966**\n  * **Official URLs:** \n    * SCDOR Information about H. 4216: `https://dor.sc.gov/tax/individual-income`\n    * SC Information Letter #26-20: `https://dor.sc.gov/policy`\n    * SC Legislature Bill H. 4216: `https://www.scstatehouse.gov/billsearch.php?billnumbers=4216`\n\n---\n\n### 2. Corporate Income Tax, Franchise Tax, and Minimum Tax\n\n* **Applies to:** Tax Years 2025 and 2026 (unchanged).\n* **Corporate Income Tax Rate:**\n  * **C-Corporations:** **5%** on South Carolina taxable income (S.C. Code Ann. § 12-6-530).\n  * **S-Corporations:** **5%** on South Carolina taxable income taxed at the entity level.\n  * **Banks:** **4.5%** on South Carolina taxable income (Form SC1101B).\n  * **Public Utilities:** **5%** on South Carolina taxable income (Form SC1120U).\n* **Minimum Corporate Income Tax:** **None** (South Carolina does not impose a minimum corporate income tax or corporate alternative minimum tax).\n* **Corporate Franchise Tax (Annual Corporate License Fee):**\n  * **Rate:** **0.1%** ($1 per $1,000) of capital stock and paid-in surplus, plus **$15**.\n  * **Minimum Fee:** **$25** annually.\n  * **Initial License Fee:** One-time **$25** fee filed with the Initial Annual Report of Corporations (Form CL-1) within 60 days of doing business or using capital in SC.\n* **Official URLs:** \n  * SCDOR C-Corporation Tax: `https://dor.sc.gov/tax/c-corporation`\n  * SCDOR Corporate FAQs: `https://dor.sc.gov/tax/corporate/faq`\n  * S.C. Code Ann. § 12-6-530: `https://www.scstatehouse.gov/code/t12c006.php`\n\n---\n\n### 3. State Sales and Use Tax Rate & Local Jurisdiction Add-Ons\n\n* **Applies to:** Tax Years 2025 and 2026 (unchanged).\n* **State Rate:** The statewide Sales and Use Tax rate is **6%**.\n* **Local Additions:** **Yes.** Counties and local jurisdictions may impose additional local sales and use taxes (such as Local Option Sales Tax, Capital Projects Tax, Education Capital Improvement Tax, School District Tax, or County Green Space Tax), typically adding **1% to 2%**. Combined state and local rates generally range from **6% to 9%** depending on the taxing county/municipality.\n* **Official URLs:** \n  * SCDOR Sales Tax: `https://dor.sc.gov/tax/sales`\n  * SCDOR Use Tax: `https://dor.sc.gov/tax/use`\n  * SCDOR Local Sales Taxes: `https://dor.sc.gov/tax/sales/local`\n\n---\n\n### 4. Gross Receipts, Margin, Franchise, or Other Notable Business Taxes\n\n* **Applies to:** Tax Years 2025 and 2026 (unchanged, unless noted).\n* **General Statewide Gross Receipts / Margin Tax:** **Not found.** South Carolina does not impose a general statewide gross receipts tax or Texas-style margin tax.\n* **Franchise Tax:** Administered as the **Corporate License Fee** (detailed above) on capital stock and paid-in surplus (**$15 plus 0.1%**, minimum **$25**).\n* **Public Utility Gross Receipts & Property License Fee:** Public utilities are subject to an annual license fee under S.C. Code Ann. § 12-20-100 comprising:\n  * **0.1%** of the fair market value of property owned and used in SC, plus\n  * **0.3%** of gross receipts from regulated business services within SC (minimum **$25**).\n* **Pass-Through Entity Active Trade or Business Income (Alternative Tax):** Pass-through business owners may elect under S.C. Code Ann. § 12-6-545 to have active trade or business income taxed at a flat rate of **3%** (Form I-335) rather than standard individual rates.\n* **Official URLs:** \n  * SCDOR Public Utility Tax: `https://dor.sc.gov/tax/public-utility`\n  * SCDOR C-Corporation Tax: `https://dor.sc.gov/tax/c-corporation`\n  * SCDOR Active Trade or Business Income (Form I-335 Instructions): `https://dor.sc.gov/forms`",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025
+    ],
+    "value": "South Carolina imposes a graduated individual income tax with three brackets of 0%, 3%, and a top rate of 6.0%, where taxable income of $100,000 or more is computed as (Taxable Income × 6%) − $642. Qualified active trade or business income from pass-through entities may be taxed at an elective flat rate of 3%.",
+    "source_url": "https://dor.sc.gov/tax/individual-income",
+    "evidence": [
+     "graduated income tax",
+     "top marginal rate",
+     "6.0%"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.scstatehouse.gov/code/t12c006.php",
+    "matched_title": "Code of Laws - Title 12 - Chapter 6- - TAXATION",
+    "matched_phrases": [
+     "top marginal rate",
+     "6.0%"
+    ],
+    "snippet": "At Least- But LessThan- -Tax Owed- $0 $3,560 0% $3,560 $17,830 3% times the amount minus $107 $17,830 6.0% times the amount minus $642 2022 Act No."
+   },
+   {
+    "key": "individual",
+    "years": [
+     2026
+    ],
+    "value": "Under Act 110 of 2026, the individual income tax structure features two brackets: 1.99% for taxable income between $0 and $29,999, and (5.21% × taxable income) − $966 for taxable income of $30,000 or more.",
+    "source_url": "https://dor.sc.gov/tax/individual-income",
+    "evidence": [
+     "Act 110",
+     "1.99%",
+     "5.21%"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://dor.sc.gov/sites/dor/files/policies/IL26-20.pdf",
+    "matched_title": "SC Information Letter #26-20",
+    "matched_phrases": [
+     "Act 110",
+     "1.99%",
+     "5.21%"
+    ],
+    "snippet": "Taxable Income 2026 Tax Computation $0 - $29,999 1.99% times taxable income $30,000 or more (5.21% times taxable income) minus $966 The taxable income a mounts in the brackets will be adjusted each year using the Chained Consumer Price Index for All Consumers, as provided in Section 12-6-520 of the South Carolina Code."
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The corporate income tax rate is 5% for C-corporations and public utilities, and 4.5% for banks, with no minimum corporate income tax. The annual corporate license fee is $15 plus 0.1% of capital stock and paid-in surplus, with a minimum fee of $25.",
+    "source_url": "https://dor.sc.gov/tax/c-corporation",
+    "evidence": [
+     "capital stock and paid-in surplus",
+     "license fee",
+     "5% on South Carolina"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://dor.sc.gov/business-income-taxes/corporate/corporate-faqs",
+    "matched_title": "Corporate FAQs | SCDOR",
+    "matched_phrases": [
+     "capital stock and paid-in surplus",
+     "license fee"
+    ],
+    "snippet": "License fee What is the License Fee rate? The License Fee rate is 0.1% of the corporation's capital stock and paid-in surplus plus $15."
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The statewide sales and use tax rate is 6%. Local jurisdictions may impose additional local sales and use taxes typically adding 1% to 2%, resulting in combined rates generally ranging from 6% to 9%.",
+    "source_url": "https://dor.sc.gov/tax/sales",
+    "evidence": [
+     "Sales and Use Tax",
+     "6%",
+     "local sales and use taxes"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://dor.sc.gov/sites/dor/files/forms/IITPacket_2025.pdf",
+    "matched_title": "https://dor.sc.gov/sites/dor/files/forms/IITPacket_2025.pdf",
+    "matched_phrases": [
+     "Sales and Use Tax",
+     "6%"
+    ],
+    "snippet": "Use Tax rates The state Sales and Use Tax rate is 6% plus the applicable local Use Tax rate of the county in which you are located or other applicable rate wherever tangible personal property was delivered."
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Public utilities are subject to an annual license fee of 0.1% of the fair market value of property owned and used in the state plus 0.3% of gross receipts from regulated business services in South Carolina, with a $25 minimum. Pass-through business owners may elect to have active trade or business income taxed at a flat rate of 3%.",
+    "source_url": "https://dor.sc.gov/tax/public-utility",
+    "evidence": [
+     "gross receipts from regulated",
+     "annual license fee",
+     "fair market value of property"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://dor.sc.gov/business-income-taxes/corporate/public-utility",
+    "matched_title": "Public Utility | SCDOR",
+    "matched_phrases": [
+     "annual license fee",
+     "fair market value of property"
+    ],
+    "snippet": "​0.1% of the fair market value of property owned and used in South Carolina to conduct business, as determined by the SCDOR for the prior year’s Property Tax 0.3% of gross receipts from services from regulated business in South Carolina during the prior tax year The minimum License Fee is $25."
+   }
+  ],
+  "grounding_urls": [
+   "https://dor.sc.gov/tax-education/guides-flyers/moving-sc-guide",
+   "https://dor.sc.gov/sites/dor/files/forms/IITPacket_2025.pdf",
+   "https://dor.sc.gov/sites/dor/files/policies/IL26-20.pdf",
+   "https://dor.sc.gov/sites/dor/files/forms/SC1040TT_2025.pdf",
+   "https://www.scstatehouse.gov/code/t12c006.php",
+   "https://dor.sc.gov/sites/dor/files/forms/SC1040TT_2025.pdf",
+   "https://dor.sc.gov/sites/dor/files/forms/I335_2025.pdf",
+   "https://dor.sc.gov/iit/prepare-you-file/iit-faqs",
+   "https://dor.sc.gov/iit",
+   "https://dor.sc.gov/news/information-about-h-4216",
+   "https://dor.sc.gov/sites/dor/files/forms/SC1120I.pdf",
+   "https://www.scstatehouse.gov/sess126_2025-2026/bills/4216.htm",
+   "https://dor.sc.gov/business-income-taxes/corporate/c-corporation",
+   "https://dor.sc.gov/business-income-taxes/corporate/s-corporation",
+   "https://dor.sc.gov/business-income-taxes/corporate/bank",
+   "https://dor.sc.gov/business-income-taxes/corporate/corporate-faqs",
+   "https://dor.sc.gov/business-income-taxes/corporate/public-utility",
+   "https://dor.sc.gov/income-tax-summary-south-carolina-individual-income-tax-conformity-internal-revenue-code-through-february-9",
+   "https://dor.sc.gov/sites/dor/files/Documents/Reports/Legislative%20Reports/AnnualReportFY20.pdf",
+   "https://dor.sc.gov/sales-use-tax-index/sales-tax",
+   "https://dor.sc.gov/sales-use-tax-index/use-tax",
+   "https://dor.sc.gov/sales-use-tax-index/local-sales-taxes",
+   "https://dor.sc.gov/news/local-sales-tax-changes-coming-march-1-three-counties",
+   "https://dor.sc.gov/sales-use-tax-index",
+   "https://dor.sc.gov/sites/dor/files/Documents/Reports/Legislative%20Reports/AnnualReportFY18.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "SC",
+  "section": "filing",
+  "notes": "### 1. Individual Returns: Due Dates and Extensions\n* **Statutory Due Date:** April 15 following the close of the calendar year (e.g., April 15, 2026, for tax year 2025; April 15, 2027, for tax year 2026). *(Note: For tax year 2025, SCDOR administratively extended the filing deadline for state returns to October 15, 2026, pending legislative conformity).*\n* **Extension Period:** Automatic 6-month extension to October 15.\n* **Extension Rules:** \n  * An extension grants extra time to file, not to pay.\n  * Taxpayers must pay at least 90% of the tax due by the original April 15 due date to avoid the failure-to-pay penalty (0.5% per month).\n  * If no South Carolina tax is owed and a federal extension was granted, South Carolina automatically accepts the federal extension; no separate state filing is required.\n  * If tax is owed, taxpayers can file Form **SC4868** or pay electronically via **MyDORWAY**, which automatically submits the extension request without paper forms.\n* **Applicability:** Applies to tax years 2025 and 2026.\n* **Official Sources:**\n  * SCDOR Individual Income Tax Instructions: https://dor.sc.gov/forms\n  * SCDOR Individual Income Tax FAQs: https://dor.sc.gov/tax/individual-income/faq\n\n---\n\n### 2. Corporate and Pass-Through Return Due Dates and Extensions\n* **C Corporations (Form SC1120):**\n  * **Due Date:** 15th day of the 4th month following the close of the tax year (April 15 for calendar-year filers).\n  * **Extension:** Automatic 6-month extension requested via Form **SC1120-T** or electronically on MyDORWAY. A federal extension is accepted if no SC tax is due.\n* **S Corporations (Form SC1120S):**\n  * **Due Date:** 15th day of the 3rd month following the close of the tax year (March 15 for calendar-year filers).\n  * **Extension:** Automatic 6-month extension requested via Form **SC1120-T** or electronically on MyDORWAY.\n* **Partnerships (Form SC1065):**\n  * **Due Date:** 15th day of the 3rd month following the close of the tax year (March 15 for calendar-year filers).\n  * **Extension:** Automatic 5-month extension (to August 15 for calendar-year filers) requested via Form **SC8736** or electronically on MyDORWAY.\n* **Applicability:** Applies to tax years 2025 and 2026.\n* **Official Sources:**\n  * SCDOR Corporate Tax FAQs: https://dor.sc.gov/tax/corporate/faq\n  * SCDOR Partnership Information: https://dor.sc.gov/tax/partnership\n  * SCDOR Revenue Procedure #17-1 (Income Tax Extensions): https://dor.sc.gov/policy\n\n---\n\n### 3. Elective Pass-Through Entity Tax (PTET)\n* **Existence:** Yes. South Carolina allows qualifying partnerships and S corporations (including LLCs taxed as such) to pay tax on active trade or business income at the entity level pursuant to S.C. Code Ann. § 12-6-545(G).\n* **Rate:** 3% flat tax on South Carolina active trade or business income.\n* **How to Elect:** Annually at the entity level on behalf of all owners by checking the \"Active Trade or Business election\" box on page 1 of Form **SC1065** (partnerships) or Form **SC1120S** (S corporations), and attaching Form **I-435** (*Active Trade or Business Income for Electing Partnerships and S Corporations*) to identify income and compute the tax.\n* **When to Elect:** Annually, no later than the due date for filing the applicable income tax return, including extensions.\n* **Applicability:** Applies to tax years 2025 and 2026.\n* **Official Sources:**\n  * S.C. Code Ann. § 12-6-545: https://www.scstatehouse.gov/code/t12c006.php\n  * SCDOR S Corporation Information: https://dor.sc.gov/tax/s-corporation\n  * SCDOR Partnership Information: https://dor.sc.gov/tax/partnership\n\n---\n\n### 4. Composite or Group Nonresident Returns\n* **Availability:** S corporations, partnerships, and LLCs may file a composite return on behalf of two or more qualifying nonresident individuals, trusts, or estates who do not have other SC-source income. Corporate owners cannot participate.\n* **Return Form:** Filed on Form **SC1040** (Individual Income Tax Return) under the entity's name and FEIN, checking the \"Composite Return\" box and filing under the \"Single\" status.\n* **Affidavit Form:** Participating nonresidents submit Form **I-338** (*Composite Return Affidavit*).\n* **Due Date & Extension:** Due the 15th day of the 4th month after the close of the participants' tax year (April 15 for calendar-year filers). A 6-month extension is requested via Form **SC4868** (checking the \"Composite Filer\" box) or via MyDORWAY.\n* **Applicability:** Applies to tax years 2025 and 2026.\n* **Official Sources:**\n  * SCDOR Composite Filing Instructions (Form I-348): https://dor.sc.gov/forms\n  * S.C. Code Ann. § 12-6-5030: https://www.scstatehouse.gov/code/t12c006.php\n\n---\n\n### 5. Estimated Taxes & Pass-Through Nonresident Withholding\n* **Estimated Tax Requirements:**\n  * **Individuals & Composite Filers:** Required if the expected SC income tax liability is $100 or more. Safe harbor: 90% of the current year’s tax or 100% of the prior year’s tax (110% if prior-year SC AGI exceeded $150,000). Due in four quarterly installments (April 15, June 15, September 15, and January 15) using Form **SC1040ES** or MyDORWAY.\n  * **Corporations & S Corporations (entity-level liability):** Required if expected tax (after credits) is $100 or more. Due on the 15th day of the 4th, 6th, 9th, and 12th months of the tax year using Form **SC1120CDP** or MyDORWAY.\n  * **Electing PTET Entities:** Electing partnerships and S corporations expecting an active trade or business tax liability of $100 or more must make estimated tax payments.\n* **Nonresident Withholding for Pass-Throughs:**\n  * **Requirement & Rate:** Under S.C. Code Ann. § 12-8-590, partnerships and S corporations must withhold at a **5% rate** on each nonresident partner’s or shareholder’s share of SC taxable income (distributed or undistributed).\n  * **Payment Due Date:** Due by the 15th day of the 3rd month following the close of the entity's tax year (March 15 for calendar-year entities). An extension to file the return does **not** extend the time to pay the withholding tax.\n  * **Remittance Forms:** S corporations remit on Form **SC1120S-WH**; partnerships compute and report on **Schedule W-H** of Form **SC1065**.\n  * **Exemptions:** Withholding is not required if the nonresident owner submits Form **I-309** (*Nonresident Shareholder or Partner Affidavit and Agreement*), participates in a composite return, or if the entity pays the elective 3% PTET on active income.\n* **Applicability:** Applies to tax years 2025 and 2026.\n* **Official Sources:**\n  * S.C. Code Ann. § 12-8-590: https://www.scstatehouse.gov/code/t12c008.php\n  * SCDOR SC Temporary Revenue Procedure #17-2: https://dor.sc.gov/policy\n  * SCDOR Partnership Business Taxes: https://dor.sc.gov/tax/partnership\n\n---\n\n### 6. Main Return Forms\n* **Individual Income Tax:** Form **SC1040**.\n* **C Corporation Income Tax:** Form **SC1120**.\n* **S Corporation Income Tax:** Form **SC1120S** (Schedule K-1: **SC1120S K-1**).\n* **Partnership Return:** Form **SC1065** (Schedule K-1: **SC1065 K-1**).\n* **PTET Calculation Schedule:** Form **I-435** (*Active Trade or Business Income for Electing Partnerships and S Corporations*).\n* **Main Extension Forms:** Form **SC4868** (Individuals / Composite filers), Form **SC1120-T** (Corporations / S Corporations), and Form **SC8736** (Partnerships / Fiduciaries).\n* **Applicability:** Applies to tax years 2025 and 2026.\n* **Official Sources:**\n  * SCDOR IIT Forms: https://dor.sc.gov/forms\n  * SCDOR Corporate Forms: https://dor.sc.gov/tax/corporate/forms\n  * SCDOR Partnership Forms: https://dor.sc.gov/tax/partnership/forms",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Individual income tax returns are due on April 15 following the close of the calendar year. Taxpayers can obtain an automatic six-month extension to October 15 by filing Form SC4868 or paying electronically via MyDORWAY.",
+    "source_url": "https://dor.sc.gov/tax/individual-income/faq",
+    "evidence": [
+     "April 15",
+     "automatic 6-month extension",
+     "Form SC4868",
+     "MyDORWAY"
+    ],
+    "accepted": false,
+    "reason": "dates not on dor.sc.gov: ['October 15']; figures not on dor.sc.gov: ['4868']; evidence not on dor.sc.gov (1/4); figure not stated beside the evidence on dor.sc.gov; figures not on dor.sc.gov: ['15', '4868']; figures not on www.scstatehouse.gov: ['15', '4868']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "C corporation returns are due April 15 and S corporation returns are due March 15, with both eligible for a six-month extension via Form SC1120-T. Partnership returns are due March 15, with an automatic five-month extension to August 15 requested via Form SC8736.",
+    "source_url": "https://dor.sc.gov/tax/corporate/faq",
+    "evidence": [
+     "Form SC1120",
+     "Form SC1120-T",
+     "Form SC1065",
+     "Form SC8736"
+    ],
+    "accepted": false,
+    "reason": "figures not on dor.sc.gov: ['8736']; figures not on dor.sc.gov: ['1120', '8736']; evidence not on dor.sc.gov (0/4); figures not on dor.sc.gov: ['1120']; figures not on dor.sc.gov: ['1120', '15']; figures not on www.scstatehouse.gov: ['1120', '15', '8736']; dates not on dor.sc.gov: ['August 15']; figures not on dor.sc.gov: ['15', '8736']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "South Carolina allows partnerships and S corporations to elect to pay a flat 3% tax on active trade or business income at the entity level. The annual election is made by checking the active trade or business election box on Form SC1065 or SC1120S and attaching Form I-435 by the filing due date including extensions.",
+    "source_url": "https://www.scstatehouse.gov/code/t12c006.php",
+    "evidence": [
+     "active trade or business income",
+     "Form I-435",
+     "Form SC1065",
+     "Form SC1120S"
+    ],
+    "accepted": false,
+    "reason": "figures not on www.scstatehouse.gov: ['1065', '435']; figures not on dor.sc.gov: ['1120']; figures not on dor.sc.gov: ['1065', '1120', '435']; figures not on dor.sc.gov: ['435']; figures not on dor.sc.gov: ['1065', '435']; figures not on dor.sc.gov: ['1120', '435']; figures not on dor.sc.gov: ['1065']; figures not on www.scstatehouse.gov: ['1065', '1120', '435']; figures not on www.scstatehouse.gov: ['1065', '1120', '3', '435']; figures not on dor.sc.gov: ['1065', '1120', '3', '435']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "composite",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Pass-through entities may file a composite return on Form SC1040 on behalf of two or more qualifying nonresident owners who submit Form I-338. Composite returns are due April 15 for calendar-year filers, and a six-month extension can be requested via Form SC4868.",
+    "source_url": "https://dor.sc.gov/forms",
+    "evidence": [
+     "Composite Return",
+     "Form I-338",
+     "Form SC1040",
+     "Form SC4868"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://dor.sc.gov/income-tax-withholding-withholding-south-carolina-income-nonresident-shareholders-and-partners-1",
+    "matched_title": "SC Temporary Revenue Procedure #17-2",
+    "matched_phrases": [
+     "Composite Return",
+     "Form I-338",
+     "Form SC1040",
+     "Form SC4868"
+    ],
+    "snippet": "WHAT FORM IS USED TO FILE THE COMPOSITE RETURN? A form SC1040, “Individual Income Tax Return,” is modified and used by the S-corporation or partnership to file a composite return on behalf of its fiduciary and individual shareholders and partners."
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Estimated tax payments are required if expected South Carolina tax liability is $100 or more for individuals, corporations, and electing PTET entities. Additionally, partnerships and S corporations must withhold at a 5% rate on nonresident owners' share of South Carolina taxable income, due by March 15 for calendar-year entities.",
+    "source_url": "https://www.scstatehouse.gov/code/t12c008.php",
+    "evidence": [
+     "5% rate",
+     "Form SC1120S-WH",
+     "Schedule W-H",
+     "Form SC1040ES"
+    ],
+    "accepted": false,
+    "reason": "figures not on www.scstatehouse.gov: ['100', '15']; evidence not on dor.sc.gov (0/4); figures not on dor.sc.gov: ['5']; figures not on dor.sc.gov: ['100', '5']; figures not on dor.sc.gov: ['100']; figures not on dor.sc.gov: ['15']; evidence not on dor.sc.gov (1/4); figures not on www.scstatehouse.gov: ['100', '15', '5']; figure not stated beside the evidence on dor.sc.gov; figures not on dor.sc.gov: ['100', '15', '5']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Primary returns include Form SC1040 for individuals, Form SC1120 for C corporations, Form SC1120S for S corporations, and Form SC1065 for partnerships. Electing pass-through entities report entity-level tax on Form I-435.",
+    "source_url": "https://dor.sc.gov/forms",
+    "evidence": [
+     "Form SC1040",
+     "Form SC1120",
+     "Form SC1120S",
+     "Form I-435"
+    ],
+    "accepted": false,
+    "reason": "figures not on dor.sc.gov: ['1040', '1065', '1120', '435']; figures not on dor.sc.gov: ['1120']; figures not on dor.sc.gov: ['1065', '1120', '435']; figures not on dor.sc.gov: ['435']; figures not on dor.sc.gov: ['1040', '1065', '435']; figures not on dor.sc.gov: ['1120', '435']; figures not on dor.sc.gov: ['1040', '1120', '435']; figures not on dor.sc.gov: ['1065']; figures not on www.scstatehouse.gov: ['1040', '1065', '1120', '435']; figures not on dor.sc.gov: ['1040', '435']; figures not on d",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://dor.sc.gov/sites/dor/files/forms/IITPacket_2025.pdf",
+   "https://dor.sc.gov/news/estimated-income-tax-payments-due-september-15-read-information-letter-26-20-first",
+   "https://dor.sc.gov/news/tax-season-opens-january-26-2026",
+   "https://dor.sc.gov/news/scdor-statement-income-tax-conformity-april-15-filing-deadline-extended-sc-returns",
+   "https://dor.sc.gov/news/tax-day-less-month-away",
+   "https://dor.sc.gov/income-tax-income-tax-extensions-0",
+   "https://dor.sc.gov/sites/dor/files/forms/Geninfo_2025.pdf",
+   "https://dor.sc.gov/business-income-taxes/corporate/corporate-faqs",
+   "https://dor.sc.gov/business-income-taxes/corporate",
+   "https://dor.sc.gov/business-income-taxes/corporate/public-utility",
+   "https://dor.sc.gov/sites/dor/files/forms/SC1065_2020.pdf",
+   "https://dor.sc.gov/sites/dor/files/forms/SC1065_2025.pdf",
+   "https://dor.sc.gov/index.php/income-tax-extensions-partnerships-estates-and-trusts",
+   "https://dor.sc.gov/bank-tax-income-tax-return-due-dates-and-extensions-time-file-revised-dates",
+   "https://dor.sc.gov/business-income-taxes/partnership",
+   "https://dor.sc.gov/business-income-taxes/corporate/s-corporation",
+   "https://www.scstatehouse.gov/sess124_2021-2022/prever/627_20210317.htm",
+   "https://dor.sc.gov/sites/dor/files/forms/SC1120I.pdf",
+   "https://www.scstatehouse.gov/CommitteeInfo/Ways&MeansMeetingHandouts/March272012/H.4996%20Reduction%20to%20the%20Small%20Business%20Active%20Income%20Tax.pdf",
+   "https://dor.sc.gov/iit/prepare-you-file/iit-faqs",
+   "https://dor.sc.gov/sites/dor/files/forms/I348.pdf",
+   "https://dor.sc.gov/sites/dor/files/forms/SC1065_2024.pdf",
+   "https://dor.sc.gov/sites/dor/files/forms/SC4868.pdf",
+   "https://dor.sc.gov/sites/dor/files/forms/Geninfo_2025.pdf",
+   "https://dor.sc.gov/income-tax-withholding-withholding-south-carolina-income-nonresident-shareholders-and-partners-1",
+   "https://dor.sc.gov/sites/dor/files/forms/IITPacket_2025.pdf",
+   "https://dor.sc.gov/sites/dor/files/forms/SC1040ES_2026.pdf",
+   "https://dor.sc.gov/tax-tips/7-tips-help-you-pay-your-individual-income-tax-bill",
+   "https://dor.sc.gov/business-income-taxes/corporate/s-corporation",
+   "https://dor.sc.gov/sites/dor/files/forms/SC1120I.pdf",
+   "https://dor.sc.gov/income-tax-withholding-withholding-south-carolina-income-nonresident-shareholders-and-partners-1",
+   "https://dor.sc.gov/sites/dor/files/forms/SC1120SWH.pdf",
+   "https://dor.sc.gov/sites/dor/files/forms/I309.pdf",
+   "https://dor.sc.gov/business-income-taxes/corporate/corporate-forms",
+   "https://dor.sc.gov/sites/dor/files/forms/SC1040Instr_2025.pdf",
+   "https://dor.sc.gov/find-a-form/software-developers/software-developer-updates"
+  ],
+  "error": ""
+ }
+]

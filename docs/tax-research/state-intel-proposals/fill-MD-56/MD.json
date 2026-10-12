@@ -1,0 +1,198 @@
+[
+ {
+  "state": "MD",
+  "section": "nexus",
+  "notes": "### 1. Income or Franchise Tax Nexus & Bright-Line / Economic Nexus Thresholds\n\n* **Nexus Standard**: \n  * The Maryland corporation income tax applies to every Maryland corporation and every other corporation that has nexus with Maryland. Nexus exists if a corporation conducts business activity within the state that exceeds the statutory protections of 15 U.S.C. § 381 (P.L. 86-272). \n  * Financial institutions previously subject to the financial institution franchise tax are subject to the corporation income tax under special apportionment rules (COMAR 03.04.08).\n  * Specific activities cited by the Comptroller as creating nexus include:\n    * Maintaining a business location in Maryland, including any office.\n    * Owning or using real or personal property in Maryland (e.g., rented office space or manufacturing/distribution equipment).\n    * Employees soliciting and accepting orders in Maryland.\n    * Installation or assembly of the corporation's product.\n    * Maintaining a stock of inventory in a public warehouse or in the hands of a distributor or representative.\n    * Salespersons collecting regular or delinquent accounts.\n    * Providing technical assistance, training, repairs, or replacement of damaged goods in Maryland after the sale.\n    * Operating mobile stores (e.g., trucks with driver-salesmen) making direct sales.\n* **Bright-Line / Factor-Presence Economic Nexus Threshold**: \n  * **Not found**. The Comptroller of Maryland and the Maryland Code do not establish a bright-line dollar or transaction-count economic nexus threshold for corporate income tax purposes.\n* **Tax Years Applicable**: 2025 and 2026 (unchanged).\n* **Official URLs**:\n  * https://www.marylandtaxes.gov/business/income/filing-information.php\n  * https://www.marylandtaxes.gov/tax-guidance/business-taxpayers-faqs.php\n\n---\n\n### 2. Remote Seller Economic Nexus Threshold & Measurement Period\n\n* **Economic Nexus Threshold**:\n  * An out-of-state vendor must register, collect, and remit Maryland sales and use tax if it meets either of the following criteria:\n    * Gross revenue from the sale of tangible personal property or taxable services delivered in the state exceeds **$100,000**; **or**\n    * The vendor sold tangible personal property or taxable services for delivery into the state in **200 or more separate transactions**.\n* **Measurement Period**:\n  * The threshold is measured during the **previous calendar year or the current calendar year**.\n* **Tax Years Applicable**: 2025 and 2026 (effective October 1, 2018 under COMAR 03.06.01.33(B)(5); unchanged).\n* **Official URLs**:\n  * https://www.marylandtaxes.gov/business/sales-use/out-of-state-vendors.php\n  * https://www.marylandtaxes.gov/tax-guidance/special-situations.php\n  * https://www.marylandtaxes.gov/tax-guidance/business-taxpayers-faqs.php\n  * https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtx&section=11-701\n\n---\n\n### 3. State's Stated Position on P.L. 86-272 Protection\n\n* **Scope of Protection**:\n  * Corporations operating in Maryland and other states are subject to Maryland income tax only if their business activity in Maryland exceeds the protections of 15 U.S.C. § 381 (P.L. 86-272).\n  * Immunity applies to corporations whose Maryland activities are strictly confined to the solicitation of sales of tangible personal property, where orders are sent outside Maryland for approval/rejection and filled by shipment or delivery from outside the state.\n  * Multi-state corporations operating in Maryland whose activities fall entirely within P.L. 86-272 protection are not required to file Form 500, though they may file a return showing an apportionment factor of zero for record-keeping purposes (letters in lieu of returns are not accepted).\n* **Revised Multistate Tax Commission (MTC) Interpretation on Internet Activities**:\n  * **Not found**. The Comptroller's published guidance references traditional physical-solicitation standards (Administrative Release No. 2) and has not issued or published guidance formally adopting the MTC's revised interpretation regarding internet activities.\n* **Tax Years Applicable**: 2025 and 2026 (unchanged).\n* **Official URLs**:\n  * https://www.marylandtaxes.gov/business/income/filing-information.php\n  * https://www.marylandtaxes.gov/tax-guidance/business-taxpayers-faqs.php\n  * https://www.marylandtaxes.gov/tax-guidance/technical-bulletins.php",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Maryland corporation income tax nexus exists if a corporation conducts business activity in the state exceeding the statutory protections of P.L. 86-272. Specific nexus-creating activities include maintaining a business location, owning or using real or personal property, maintaining inventory, or having employees solicit and accept orders.",
+    "source_url": "https://www.marylandtaxes.gov/business/income/filing-information.php",
+    "evidence": [
+     "exceeds the statutory protections",
+     "Maintaining a business location",
+     "personal property in Maryland"
+    ],
+    "accepted": false,
+    "reason": "figures not on www.marylandtaxes.gov: ['272', '86']; figures not on marylandtaxes.gov: ['272', '86']; figures not on mgaleg.maryland.gov: ['272', '86']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Remote vendors establish sales tax nexus if gross revenue from tangible personal property or taxable services delivered into Maryland exceeds $100,000 or the vendor engages in 200 or more separate transactions. The threshold is measured during the previous calendar year or the current calendar year.",
+    "source_url": "https://www.marylandtaxes.gov/business/sales-use/out-of-state-vendors.php",
+    "evidence": [
+     "exceeds $100,000",
+     "200 or more separate transactions",
+     "previous calendar year or the current calendar year"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.marylandtaxes.gov/business/sales-use/out-of-state-vendors.php; figures not on marylandtaxes.gov: ['100000', '200']; figures not on www.marylandtaxes.gov: ['100000', '200']; figures not on mgaleg.maryland.gov: ['100000', '200']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Maryland limits corporation income tax to corporations whose in-state activities exceed P.L. 86-272, preserving immunity when activities are strictly confined to the solicitation of sales of tangible personal property filled from out of state. Corporations whose activities fall entirely within P.L. 86-272 protection are not required to file Form 500.",
+    "source_url": "https://www.marylandtaxes.gov/business/income/filing-information.php",
+    "evidence": [
+     "solicitation of sales of tangible personal property",
+     "protections of 15 U.S.C. § 381",
+     "not required to file Form 500"
+    ],
+    "accepted": false,
+    "reason": "figures not on www.marylandtaxes.gov: ['272', '500', '86']; figures not on marylandtaxes.gov: ['272', '500', '86']; figures not on mgaleg.maryland.gov: ['272', '500', '86']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://marylandtaxes.gov/faq/business.php",
+   "https://www.marylandtaxes.gov/business/income/filing-information.php",
+   "https://www.marylandtaxes.gov/business/sales-use/out-of-state-vendor.php",
+   "https://www.marylandtaxes.gov/business/sales-use/special-situations/index.php",
+   "https://marylandtaxes.gov/faq/business.php",
+   "https://mgaleg.maryland.gov/mgawebsite/laws/StatuteText?article=gtg&section=11-701",
+   "https://www.marylandtaxes.gov/pros/admin-releases/"
+  ],
+  "error": ""
+ },
+ {
+  "state": "MD",
+  "section": "rates",
+  "notes": "### 1. Individual Income Tax\n\n* **Rates & Brackets (Tax Years 2025 and 2026):**\n  Maryland imposes a graduated individual income tax under Md. Code Ann., Tax-Gen. § 10-105(a). Beginning in tax year 2025, altered brackets apply as follows:\n\n  * **Single, Married Filing Separately, or Dependent Filers:**\n    * 2.00% on taxable income from $1 to $1,000\n    * 3.00% on $1,001 to $2,000\n    * 4.00% on $2,001 to $3,000\n    * 4.75% on $3,001 to $100,000\n    * 5.00% on $100,001 to $125,000\n    * 5.25% on $125,001 to $150,000\n    * 5.50% on $150,001 to $250,000\n    * 5.75% on $250,001 to $500,000\n    * 6.25% on $500,001 to $1,000,000\n    * 6.50% on excess over $1,000,000\n\n  * **Spouses Filing Jointly, Surviving Spouses, or Heads of Household:**\n    * 2.00% on taxable income from $1 to $1,000\n    * 3.00% on $1,001 to $2,000\n    * 4.00% on $2,001 to $3,000\n    * 4.75% on $3,001 to $150,000\n    * 5.00% on $150,001 to $175,000\n    * 5.25% on $175,001 to $225,000\n    * 5.50% on $225,001 to $300,000\n    * 5.75% on $300,001 to $600,000\n    * 6.25% on $600,001 to $1,200,000\n    * 6.50% on excess over $1,200,000\n\n  * **Additional Notes:**\n    * Filers with federal adjusted gross income (FAGI) exceeding $350,000 are subject to an additional 2.00% tax on net capital gains included in Maryland adjusted gross income (effective tax year 2025).\n    * Maryland counties and Baltimore City levy an additional piggyback local income tax ranging from 2.25% to 3.30%.\n    * Nonresidents pay the state tax plus a special nonresident tax rate of 2.25%.\n* **Official URLs:** \n  * Comptroller of Maryland: https://www.marylandtaxes.gov/individual/income/tax-info/tax-rates.php\n  * Maryland General Assembly: https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtx&section=10-105\n\n---\n\n### 2. Corporate Income Tax & Minimum Tax\n\n* **Rate (Tax Years 2025 and 2026):**\n  * Flat **8.25%** of Maryland modified (taxable) income. Applies to every Maryland corporation and foreign corporation with source income/losses.\n* **Minimum Tax:** \n  * None. Maryland imposes no statutory corporate minimum income tax; corporations with no taxable income or an inactive status pay zero, though Form 500 filing is required.\n* **Official URLs:** \n  * Comptroller of Maryland: https://www.marylandtaxes.gov/business/income/filing-information.php\n  * Maryland General Assembly: https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtx&section=10-105\n\n---\n\n### 3. State Sales and Use Tax & Local Rates\n\n* **State Rate (Tax Years 2025 and 2026):**\n  * General state sales and use tax rate: **6.0%**.\n  * Special rates: 9.0% on retail sales of alcoholic beverages, 12.0% on electronic smoking devices, 8.0% on short-term truck rentals, and 11.5% on short-term passenger vehicle/RV rentals.\n* **Local Sales Tax:**\n  * **None**. Maryland state law does not authorize local sales and use taxes; local jurisdictions do not add sales and use taxes (\"There are no local sales taxes in Maryland\").\n* **Official URLs:** \n  * Comptroller of Maryland: https://www.marylandtaxes.gov/business/sales-use/index.php\n  * Comptroller Guidance: https://www.marylandtaxes.gov/business/sales-use/special-situations/flea-markets.php\n\n---\n\n### 4. Gross Receipts, Franchise, Margin, or Other Notable Business Taxes\n\n* **Digital Advertising Gross Revenues Tax (DAGRT) (Tax Years 2025 and 2026):**\n  * Imposed on annual gross revenues from digital advertising services in Maryland for entities with worldwide annual gross revenues equal to or greater than $100,000,000.\n  * Rates based on global gross revenues:\n    * **2.5%** for global revenues of $100,000,000 through $1,000,000,000\n    * **5.0%** for global revenues greater than $1,000,000,000 through $5,000,000,000\n    * **7.5%** for global revenues greater than $5,000,000,000 through $15,000,000,000\n    * **10.0%** for global revenues exceeding $15,000,000,000\n  * Md. Code Ann., Tax-Gen. § 7.5-102 and § 7.5-103.\n  * Official URL: https://www.marylandtaxes.gov/business/dagrt/index.php\n\n* **Admissions and Amusement Gross Receipts Tax (Tax Years 2025 and 2026):**\n  * A gross receipts tax imposed on admissions, entertainment, and amusement receipts, administered and collected by the Comptroller.\n  * Rates are set locally by counties and municipalities, ranging from **0.5% to 10%** of gross receipts.\n  * Official URL: https://www.marylandtaxes.gov/business/admissions-amusement/index.php\n\n* **Public Service Company Franchise Tax (Tax Years 2025 and 2026):**\n  * Imposed on telephone, gas, and electric distribution companies operating in the state based on gross receipts or per-kilowatt hour delivery.\n  * Md. Code Ann., Tax-Gen. Title 8, Subtitle 4.\n  * Official URL: https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtx&section=8-401\n\n* **Pass-Through Entity (PTE) Nonresident Tax (Tax Years 2025 and 2026):**\n  * PTEs must pay tax on behalf of nonresident individual/fiduciary members at a combined rate of **8.75%** (6.50% top state individual rate + 2.25% special nonresident tax).\n  * For nonresident entity members, the rate is **8.25%**.\n  * Official URL: https://www.marylandtaxes.gov/business/income/tax-information.php",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Maryland levies a graduated individual income tax with rates ranging from 2.00% to 6.50%, plus local piggyback income taxes between 2.25% and 3.30%. Filers with federal adjusted gross income exceeding $350,000 are subject to an additional 2.00% tax on net capital gains.",
+    "source_url": "https://www.marylandtaxes.gov/individual/income/tax-info/tax-rates.php",
+    "evidence": [
+     "taxable income",
+     "6.50% on excess",
+     "special nonresident tax rate"
+    ],
+    "accepted": false,
+    "reason": "figures not on www.marylandtaxes.gov: ['2', '2.25', '3.3', '350000', '6.5']; figures not on mgaleg.maryland.gov: ['2.25', '3.3']; figures not on marylandtaxes.gov: ['2', '2.25', '3.3', '350000', '6.5']; figures not on www.marylandtaxes.gov: ['2.25', '3.3', '6.5']; figures not on services.marylandcomptroller.gov: ['2', '2.25', '3.3', '350000', '6.5']; not an official MD host: taxfoundation.org; not an official MD host: selfsufficiencystandard.org; figures not on marylandtaxes.gov: ['2.25', '3.3',",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Maryland imposes a flat corporate income tax rate of 8.25% on Maryland modified income. There is no statutory corporate minimum income tax.",
+    "source_url": "https://www.marylandtaxes.gov/business/income/filing-information.php",
+    "evidence": [
+     "8.25%",
+     "modified income",
+     "Form 500 filing"
+    ],
+    "accepted": false,
+    "reason": "figures not on www.marylandtaxes.gov: ['8.25']; evidence not on mgaleg.maryland.gov (1/3); figures not on marylandtaxes.gov: ['8.25']; evidence not on www.marylandtaxes.gov (1/3); figures not on services.marylandcomptroller.gov: ['8.25']; not an official MD host: taxfoundation.org; not an official MD host: selfsufficiencystandard.org; figures not on mgaleg.maryland.gov: ['8.25']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The Maryland state sales and use tax rate is 6.0%. Local jurisdictions do not levy local sales taxes.",
+    "source_url": "https://www.marylandtaxes.gov/business/sales-use/index.php",
+    "evidence": [
+     "sales and use tax rate",
+     "6.0%",
+     "alcoholic beverages"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/legal-publications/Sales_and_Use_Tax-List_of_TPP_and_Services.pdf",
+    "matched_title": "Sales and Use Tax List of Tangible Personal Property and Services",
+    "matched_phrases": [
+     "sales and use tax rate",
+     "alcoholic beverages"
+    ],
+    "snippet": "~ 43 ~ subject to the sales and use tax rate of 6%, applied to 94.5% of the gross receipts from the machine."
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Maryland levies a Digital Advertising Gross Revenues Tax ranging from 2.5% to 10.0% on entities with global annual gross revenues of $100,000,000 or greater. The state also administers an admissions and amusement gross receipts tax with local rates ranging from 0.5% to 10%.",
+    "source_url": "https://www.marylandtaxes.gov/business/dagrt/index.php",
+    "evidence": [
+     "digital advertising services",
+     "gross revenues",
+     "100,000,000"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.marylandtaxes.gov/business/dagrt/index.php; figures not on mgaleg.maryland.gov: ['0.5', '100000000', '2.5']; figures not on marylandtaxes.gov: ['0.5', '10', '100000000', '2.5']; figures not on www.marylandtaxes.gov: ['0.5', '100000000', '2.5']; figures not on www.marylandtaxes.gov: ['0.5', '10', '100000000', '2.5']; figures not on services.marylandcomptroller.gov: ['0.5', '10', '100000000', '2.5']; not an official MD host: taxfoundation.org; not an official MD host: selfs",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-105",
+   "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-105",
+   "https://marylandtaxes.gov/new-tax-year-update.php",
+   "https://www.marylandtaxes.gov/content/dam/mdcomp/tax/legal-publications/technical-bulletins/tb-58.pdf",
+   "https://www.marylandtaxes.gov/faq/seniors-retirees.php",
+   "https://services.marylandcomptroller.gov/taxes/en/maryland-income-tax-rates-and-brackets?id=kb_article_view&sysparm_article=KB0010014",
+   "https://www.marylandtaxes.gov/individual/income/tax-info/tax-rates.php",
+   "https://taxfoundation.org/blog/maryland-local-income-tax-reform/",
+   "https://selfsufficiencystandard.org/wp-content/uploads/2024/09/SSS2024_TechnicalBrief_2024909.pdf",
+   "https://www.marylandtaxes.gov/business/income/tax-information.php",
+   "https://www.marylandtaxes.gov/business/income/filing-information.php",
+   "https://www.marylandtaxes.gov/business/sales-use/special-situations/flea-market-sales.php",
+   "https://www.marylandtaxes.gov/business/sales-use/special-situations/alcohol-sales-tax.php",
+   "https://marylandtaxes.gov/forms/Tax_Publications/Sales_and_Use_Tax-List_of_TPP_and_Services.pdf",
+   "https://marylandtaxes.gov/forms/Tax_Publications/Sales_and_Use_Tax-List_of_TPP_and_Services.pdf",
+   "https://www.marylandtaxes.gov/business/sales-use/special-situations/index.php",
+   "https://www.marylandtaxes.gov/business/sales-use/special-situations/flea-market-sales.php",
+   "https://www.marylandtaxes.gov/business/sales-use/index.php",
+   "https://www.marylandtaxes.gov/business/digital-ad/",
+   "https://mgaleg.maryland.gov/2020RS/bills/hb/hb0732e.pdf",
+   "https://services.marylandcomptroller.gov/taxes/en/digital-advertising-gross-revenues-tax?id=kb_article_view&sysparm_article=KB0010082",
+   "https://www.marylandtaxes.gov/business/admission-amusement/index.php",
+   "https://mgaleg.maryland.gov/1999rs/fnotes/bil_0006/hb0366.PDF",
+   "https://mgaleg.maryland.gov/1998rs/fnotes/bil_0003/hb1323.PDF",
+   "https://mgaleg.maryland.gov/1999rs/bills/hb/hb0747f.pdf",
+   "https://services.marylandcomptroller.gov/taxes?id=kb_article_view&sysparm_article=KB0010043"
+  ],
+  "error": ""
+ }
+]

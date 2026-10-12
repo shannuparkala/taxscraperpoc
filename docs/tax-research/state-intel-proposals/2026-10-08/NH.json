@@ -1,0 +1,437 @@
+[
+ {
+  "state": "NH",
+  "section": "apportionment",
+  "notes": "### 1. Apportionment Formula for Multistate Business Income\n* **Fact:** For the Business Profits Tax (BPT), multistate business organizations apportion gross business profits using a **single sales factor** (100% sales factor) by multiplying total gross business profits (less foreign dividends) by the sales factor. *(Note: For the Business Enterprise Tax (BET), enterprise value tax base apportionment uses three equally weighted factors under RSA 77-E:4).*\n* **Applicable Tax Years:** Applies to both **tax year 2025 and tax year 2026** without change (effective for taxable periods ending on or after December 31, 2022).\n* **Official URLs:** \n  * https://www.revenue.nh.gov/taxes-fees/business-taxes/index.htm\n  * https://www.gencourt.state.nh.us/rsa/html/V/77-A/77-A-3.htm\n\n---\n\n### 2. Sourcing of Receipts from Services and Intangibles\n* **Fact:** New Hampshire uses **market-based sourcing**:\n  * **Services:** Receipts from sales of services are sourced to New Hampshire if and to the extent the service is delivered to a location in New Hampshire (RSA 77-A:3, I(a)(1)(C)(ii)3.). Under N.H. Code Admin. R. Rev 301.12, \"delivered to a location in this state\" means the location of the market for the services provided by the taxpayer, without regard to the location of the taxpayer's property or payroll.\n  * **Intangibles:** Receipts from the sale, rental, lease, or license of intangible property are sourced to New Hampshire if and to the extent the property is used in New Hampshire (RSA 77-A:3, I(a)(1)(C)(ii)4.).\n  * **Throwout Rule:** For sales other than tangible personal property, if the taxpayer is not taxable in the state of assignment, or if the state cannot be determined or reasonably approximated, the receipts are excluded from the denominator of the sales factor (RSA 77-A:3, I(a)(1)(C)(iv)).\n* **Applicable Tax Years:** Applies to both **tax year 2025 and tax year 2026** without change.\n* **Official URLs:** \n  * https://www.gencourt.state.nh.us/rsa/html/V/77-A/77-A-3.htm\n  * https://www.revenue.nh.gov/rules/documents/300-initial-prop-08-12-2024.pdf\n\n---\n\n### 3. Industries with Their Own Apportionment Formula\n* **Fact:** Under N.H. Code Admin. R. Chapter Rev 304, special apportionment factor adjustments/rules are established for the following specific industries:\n  * **Airline Industries** (N.H. Code Admin. R. Rev 304.07)\n  * **Printing and Publishing Industries** (N.H. Code Admin. R. Rev 304.08)\n  * **Television and Radio Broadcasting Industries** (N.H. Code Admin. R. Rev 304.09)\n  * **Financial Institutions** (N.H. Code Admin. R. Rev 304.10)\n  * **Transportation Industries Other than Airlines, Communication and Energy Companies** (N.H. Code Admin. R. Rev 304.11)\n* **Applicable Tax Years:** Applies to both **tax year 2025 and tax year 2026** without change.\n* **Official URLs:** \n  * https://www.gencourt.state.nh.us/rules/state_agencies/rev300.html\n  * https://www.revenue.nh.gov/rules/documents/300-initial-prop-08-12-2024.pdf\n\n---\n\n### 4. Form or Schedule Used to Compute Apportionment\n* **Fact:** \n  * **Business Profits Tax (BPT):** **Form DP-80** (\"Business Profits Tax Apportionment Schedule\" / \"Apportionment of Income\"). Combined groups filing Form NH-1120-WE also complete Form DP-80.\n  * *(Note: For the Business Enterprise Tax (BET), apportionment is computed on **Form BET-80** (\"Business Enterprise Tax Apportionment\") or **Form BET-80-WE** for combined groups).*\n* **Applicable Tax Years:** Applies to both **tax year 2025 and tax year 2026** without change.\n* **Official URLs:** \n  * https://www.revenue.nh.gov/forms/business-taxes.htm\n  * https://www.revenue.nh.gov/forms/2025/documents/nh-1120-instr-2025.pdf",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "For the Business Profits Tax (BPT), multistate business organizations apportion gross business profits using a single sales factor (100% sales factor). Total gross business profits (less foreign dividends) are multiplied by the sales factor.",
+    "source_url": "https://www.gencourt.state.nh.us/rsa/html/V/77-A/77-A-3.htm",
+    "evidence": [
+     "single sales factor",
+     "gross business profits",
+     "sales factor"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.gencourt.state.nh.us/rsa/html/V/77-A/77-A-3.htm; unreadable: https://www.revenue.nh.gov/taxes-glance/business-taxes; unreadable: https://www.revenue.nh.gov/resource-center/frequently-asked-questions/business-profits-tax; unreadable: https://gc.nh.gov/rsa/html/v/77-A/77-A-3.htm; unreadable: https://gencourt.state.nh.us/rsa/html/V/77-E/77-E-4.htm; unreadable: https://www.revenue.nh.gov/news-and-media/new-hampshire-department-revenue-administration-releases-top-10-filing-tip",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "New Hampshire uses market-based sourcing for sales of services and intangibles. Receipts from services are sourced to New Hampshire if delivered to a location in the state, and intangible property receipts are sourced if and to the extent the property is used in New Hampshire.",
+    "source_url": "https://www.gencourt.state.nh.us/rsa/html/V/77-A/77-A-3.htm",
+    "evidence": [
+     "delivered to a location",
+     "used in New Hampshire",
+     "sales factor"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.gencourt.state.nh.us/rsa/html/V/77-A/77-A-3.htm; unreadable: https://www.revenue.nh.gov/taxes-glance/business-taxes; unreadable: https://www.revenue.nh.gov/resource-center/frequently-asked-questions/business-profits-tax; unreadable: https://gc.nh.gov/rsa/html/v/77-A/77-A-3.htm; unreadable: https://gencourt.state.nh.us/rsa/html/V/77-E/77-E-4.htm; unreadable: https://www.revenue.nh.gov/news-and-media/new-hampshire-department-revenue-administration-releases-top-10-filing-tip",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Special apportionment formulas apply to airline industries, printing and publishing industries, television and radio broadcasting industries, financial institutions, and certain transportation industries.",
+    "source_url": "https://www.gencourt.state.nh.us/rules/state_agencies/rev300.html",
+    "evidence": [
+     "Airline Industries",
+     "Printing and Publishing",
+     "Television and Radio Broadcasting",
+     "Financial Institutions"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.gencourt.state.nh.us/rules/state_agencies/rev300.html; unreadable: https://www.revenue.nh.gov/taxes-glance/business-taxes; unreadable: https://www.revenue.nh.gov/resource-center/frequently-asked-questions/business-profits-tax; unreadable: https://gc.nh.gov/rsa/html/v/77-A/77-A-3.htm; unreadable: https://gencourt.state.nh.us/rsa/html/V/77-E/77-E-4.htm; unreadable: https://www.revenue.nh.gov/news-and-media/new-hampshire-department-revenue-administration-releases-top-10-fili",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Apportionment for the Business Profits Tax is computed using Form DP-80, Apportionment of Income. For the Business Enterprise Tax, apportionment is computed on Form BET-80 or Form BET-80-WE.",
+    "source_url": "https://www.revenue.nh.gov/forms/business-taxes.htm",
+    "evidence": [
+     "Form DP-80",
+     "Business Profits Tax Apportionment",
+     "Form BET-80"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.revenue.nh.gov/forms/business-taxes.htm; unreadable: https://www.revenue.nh.gov/taxes-glance/business-taxes; unreadable: https://www.revenue.nh.gov/resource-center/frequently-asked-questions/business-profits-tax; unreadable: https://gc.nh.gov/rsa/html/v/77-A/77-A-3.htm; unreadable: https://gencourt.state.nh.us/rsa/html/V/77-E/77-E-4.htm; unreadable: https://www.revenue.nh.gov/news-and-media/new-hampshire-department-revenue-administration-releases-top-10-filing-tips-new; u",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://www.revenue.nh.gov/taxes-glance/business-taxes",
+   "https://www.revenue.nh.gov/resource-center/frequently-asked-questions/business-profits-tax",
+   "https://gc.nh.gov/rsa/html/v/77-A/77-A-3.htm",
+   "https://gencourt.state.nh.us/rsa/html/V/77-E/77-E-4.htm",
+   "https://www.revenue.nh.gov/news-and-media/new-hampshire-department-revenue-administration-releases-top-10-filing-tips-new",
+   "https://www.revenue.nh.gov/sites/g/files/ehbemt736/files/documents/rev-300-ip.pdf",
+   "https://gc.nh.gov/rsa/html/v/77-A/77-A-3.htm",
+   "https://www.gencourt.state.nh.us/rules/state_agencies/rev.html",
+   "https://www.revenue.nh.gov/sites/g/files/ehbemt736/files/documents/rev-300-ip.pdf",
+   "https://www.revenue.nh.gov/sites/g/files/ehbemt736/files/documents/nh-1120-instructions-2025.pdf",
+   "https://www.revenue.nh.gov/sites/g/files/ehbemt736/files/documents/nh-1120-we-instructions-2024.pdf",
+   "https://www.revenue.nh.gov/sites/g/files/ehbemt736/files/documents/nh-1120-we-2024.pdf",
+   "https://www.revenue.nh.gov/resource-center/current-year-forms-and-instructions",
+   "https://www.revenue.nh.gov/resource-center/current-year-forms-and-instructions"
+  ],
+  "error": ""
+ },
+ {
+  "state": "NH",
+  "section": "nexus",
+  "notes": "### 1. Income / Franchise Tax Nexus & Economic / Bright-Line Thresholds\n\n* **Nexus Standard:**\n  * **Business Profits Tax (BPT – net income tax):** Nexus is defined as \"some definite link, or minimum connection, between the state and the entity it seeks to tax\". A business organization not domiciled in New Hampshire must apportion income to New Hampshire if its activities satisfy the Due Process requirements of the New Hampshire Constitution (Part I, Art. 12 and Part II, Arts. 5 and 6) and its in-state activities exceed the protection of P.L. 86-272 (15 U.S.C. § 381). An illustrative listing of nexus-creating activities for out-of-state businesses selling or leasing tangible personal property is set out in N.H. Admin. Code Rev 304.01.\n  * **Business Enterprise Tax (BET – enterprise value tax):** Nexus is established if business activities within New Hampshire meet the Due Process requirements of the New Hampshire Constitution (Part I, Art. 12 and Part II, Arts. 5 and 6).\n* **Economic / Bright-Line Factor-Presence Nexus:** Not found. New Hampshire statutes and administrative rules do not establish bright-line dollar thresholds for property, payroll, or sales to create corporate income/franchise tax nexus.\n* **Statutory Filing Thresholds (applicable to both TY 2025 and TY 2026):**\n  * **BPT Filing Threshold:** Gross business income from all activities everywhere in excess of **$109,000** (adjusted biennially from $103,000 under RSA 77-A:6, I via TIR 2024-004; unchanged between 2025 and 2026).\n  * **BET Filing Threshold:** Gross business receipts in excess of **$298,000**, or an enterprise value tax base greater than **$298,000** (adjusted biennially from $281,000 under RSA 77-E:5, I via TIR 2024-004; unchanged between 2025 and 2026).\n* **Official URLs:**\n  * https://www.revenue.nh.gov/faq/business-profits.htm\n  * https://www.revenue.nh.gov/taxes-fees/business-taxes/index.htm\n  * https://www.revenue.nh.gov/news/2024/20241217-tir-2024-004.htm\n  * https://www.gencourt.state.nh.us/rsa/html/v/77-A/77-A-mrg.htm\n  * https://www.gencourt.state.nh.us/rsa/html/V/77-E/77-E-mrg.htm\n\n---\n\n### 2. Remote Seller Sales Tax Economic Nexus Threshold & Measurement Period\n\n* **Status:** **Not applicable / None.** New Hampshire does not impose a general sales and use tax on goods purchased or used in the state. \n* **Remote Seller Threshold and Measurement Period:** None. Because there is no sales tax, New Hampshire has no remote seller economic nexus sales amount, transaction count threshold, or measurement period.\n* **State Law on Remote Sellers:** Under RSA Chapter 78-E (enacted via SB 242 in response to *South Dakota v. Wayfair*), New Hampshire statute specifically establishes procedures to protect New Hampshire remote sellers from out-of-state taxing jurisdictions attempting to enforce foreign sales and use tax collection obligations without proper notice and statutory protections. Applies to both TY 2025 and TY 2026.\n* **Official URLs:**\n  * https://www.revenue.nh.gov/faq/general.htm\n  * https://www.revenue.nh.gov/gtc/foreign-sales-use.htm\n  * https://www.gencourt.state.nh.us/rsa/html/V/78-E/78-E-mrg.htm\n\n---\n\n### 3. State's Position on P.L. 86-272 Protection\n\n* **Business Profits Tax (BPT):**\n  * Governed by 15 U.S.C. § 381 (P.L. 86-272). Under N.H. Admin. Code Rev 304.01(b) & (d), out-of-state businesses are protected if their business activities within New Hampshire do not exceed the solicitation of sales of tangible personal property. \n  * Rev 304.01(d)(1) specifically lists non-protected activities (including making repairs or maintenance; owning, maintaining, leasing, or using repair shops, parts departments, purchasing offices, recruiting offices, or warehouse facilities; or maintaining consignment inventories).\n  * Rev 304.01(f) and return instructions provide that a qualifying business claiming P.L. 86-272 immunity files a BPT return (e.g., Form NH-1120 or Form NH-1065) with a federal return attached, checks the \"Exempt under P.L. 86-272\" box, and enters **0.00** as the New Hampshire apportionment factor (commencing the 3-year statute of limitations). Applies to both TY 2025 and TY 2026.\n* **Business Enterprise Tax (BET):**\n  * P.L. 86-272 **does not apply** to the BET. Because the BET is assessed on the enterprise value tax base (compensation, interest, and dividends paid) and not on net income or capital stock, N.H. Admin. Code Rev 2402.07 and the official BET instructions state that 15 U.S.C. § 381 / P.L. 86-272 affords no protection against BET liability. Applies to both TY 2025 and TY 2026.\n* **MTC Revised Guidance on Internet Activities:** **Not found** on official New Hampshire Department of Revenue Administration or General Court publications.\n* **Official URLs:**\n  * https://www.revenue.nh.gov/forms/2025/documents/nh-1120-instructions-2025.pdf\n  * https://www.revenue.nh.gov/forms/2025/documents/bt-summary-instructions-2025.pdf\n  * https://www.revenue.nh.gov/forms/2020/documents/bet-80-we-instructions-2020.pdf\n  * https://www.revenue.nh.gov/laws/documents/Rev300InitialProposal08122024.pdf\n  * https://www.revenue.nh.gov/laws/documents/Rev2400FinalProposalAnnotatedText02262024.pdf",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "New Hampshire determines nexus based on constitutional due process minimum connection standards without bright-line factor-presence thresholds. For both 2025 and 2026, filing thresholds require gross business income everywhere exceeding $109,000 for the Business Profits Tax, or gross business receipts or enterprise value tax base exceeding $298,000 for the Business Enterprise Tax.",
+    "source_url": "https://www.revenue.nh.gov/news/2024/20241217-tir-2024-004.htm",
+    "evidence": [
+     "$109,000",
+     "gross business receipts",
+     "enterprise value tax base"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.nh.gov/news-and-media/nh-department-revenue-administration-shares-2026-tax-tips-and-filing-guidance",
+    "matched_title": "NH Department of Revenue Administration Shares 2026 Tax Tips and Filing Guidance",
+    "matched_phrases": [
+     "$109,000",
+     "gross business receipts",
+     "enterprise value tax base"
+    ],
+    "snippet": "The filing threshold for the Business Enterprise Tax (BET) was increased to gross business receipts over $298,000, or an enterprise value tax base over $298,000.",
+    "checked_in": "browser"
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "New Hampshire does not impose a general sales and use tax on goods purchased or used in the state. Consequently, there are no remote seller economic nexus sales thresholds, transaction count thresholds, or measurement periods.",
+    "source_url": "https://www.revenue.nh.gov/faq/general.htm",
+    "evidence": [
+     "general sales and use",
+     "remote sellers"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.revenue.nh.gov/faq/general.htm; unreadable: https://www.revenue.nh.gov/resource-center/frequently-asked-questions/business-profits-tax; unreadable: https://www.revenue.nh.gov/sites/g/files/ehbemt736/files/documents/rev-300-ip.pdf; unreadable: https://www.revenue.nh.gov/sites/g/files/ehbemt736/files/documents/rev-2400-annotated-text-final-propsal-bet.pdf; unreadable: https://www.revenue.nh.gov/news-and-media/nh-department-revenue-administration-shares-2026-tax-tips-and-fil",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Under P.L. 86-272, out-of-state businesses are protected from the Business Profits Tax if their in-state activities do not exceed solicitation of sales of tangible personal property, and qualifying businesses file checking the exempt box with a 0.00 apportionment factor. P.L. 86-272 provides no protection against the Business Enterprise Tax because it is assessed on an enterprise value tax base rather than net income.",
+    "source_url": "https://www.revenue.nh.gov/forms/2025/documents/nh-1120-instructions-2025.pdf",
+    "evidence": [
+     "Exempt under P.L. 86-272",
+     "tangible personal property",
+     "apportionment factor"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.revenue.nh.gov/forms/2025/documents/nh-1120-instructions-2025.pdf; unreadable: https://www.revenue.nh.gov/resource-center/frequently-asked-questions/business-profits-tax; unreadable: https://www.revenue.nh.gov/sites/g/files/ehbemt736/files/documents/rev-300-ip.pdf; unreadable: https://www.revenue.nh.gov/sites/g/files/ehbemt736/files/documents/rev-2400-annotated-text-final-propsal-bet.pdf; unreadable: https://www.revenue.nh.gov/news-and-media/nh-department-revenue-administ",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://www.revenue.nh.gov/resource-center/frequently-asked-questions/business-profits-tax",
+   "https://www.revenue.nh.gov/sites/g/files/ehbemt736/files/documents/rev-300-ip.pdf",
+   "https://www.revenue.nh.gov/sites/g/files/ehbemt736/files/documents/rev-2400-annotated-text-final-propsal-bet.pdf",
+   "https://www.revenue.nh.gov/news-and-media/nh-department-revenue-administration-shares-2026-tax-tips-and-filing-guidance",
+   "https://www.revenue.nh.gov/sites/g/files/ehbemt736/files/documents/2022-006-technical-information-releases.pdf",
+   "https://www.revenue.nh.gov/news-and-media/business-enterprise-tax-and-business-profits-tax-filing-threshold-adjustment",
+   "https://www.revenue.nh.gov/taxes-glance/business-taxes",
+   "https://www.revenue.nh.gov/faq/does-new-hampshire-have-sales-tax",
+   "https://www.revenue.nh.gov/sites/g/files/ehbemt736/files/documents/2010-004-technical-information-release.pdf",
+   "https://www.revenue.nh.gov/news-and-media/reporting-out-state-sales-tax-requests-nh-businesses-0",
+   "https://gencourt.state.nh.us/rsa/html/V/78-E/78-E-mrg.htm",
+   "https://www.revenue.nh.gov/sites/g/files/ehbemt736/files/documents/rev-300-ip.pdf",
+   "https://www.revenue.nh.gov/sites/g/files/ehbemt736/files/documents/nh-1120-instructions-2025.pdf",
+   "https://www.revenue.nh.gov/sites/g/files/ehbemt736/files/documents/nh-1065-instructions-2025.pdf",
+   "https://www.revenue.nh.gov/sites/g/files/ehbemt736/files/documents/bet-80-we-instructions-2020.pdf",
+   "https://www.revenue.nh.gov/sites/g/files/ehbemt736/files/documents/bet-80-and-bet-80-we-instructions-2025.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "NH",
+  "section": "rates",
+  "notes": "### 1. Individual Income Tax Rate(s) or Bracket Rates\n* **Fact:** New Hampshire does not impose a general individual income tax on W-2 wages or earned individual income. The state previously assessed an Interest and Dividends (I&D) Tax (which was reduced to 3% for taxable periods ending on or after December 31, 2024). The Interest and Dividends Tax was repealed effective for taxable periods beginning on or after January 1, 2025. Consequently, there is no individual income tax or interest and dividends tax.\n* **Applicable Tax Years:** Applies to tax years 2025 and 2026 (repeal took effect January 1, 2025; did not change between 2025 and 2026).\n* **Official URL:** https://www.revenue.nh.gov/taxes-glance/interest-dividends.htm (see also https://www.revenue.nh.gov/faq/interest-dividends.htm)\n\n---\n\n### 2. Corporate Income or Franchise Tax Rate(s) and Any Minimum Tax\n* **Fact:** New Hampshire assesses the **Business Profits Tax (BPT)** on taxable business profits of business organizations (corporations, LLCs, partnerships, proprietorships, trusts) conducting business activity in the state. \n  * **Tax Rate:** 7.5% (effective for taxable periods ending on or after December 31, 2023). \n  * **Minimum Tax:** None (statutory minimum tax not found / not imposed). \n  * **Filing Threshold:** Businesses must file a BPT return if gross business income from all activities exceeds $109,000 for taxable periods beginning on or after January 1, 2025.\n* **Applicable Tax Years:** The 7.5% rate and $109,000 threshold apply to tax years 2025 and 2026 (no rate change between 2025 and 2026).\n* **Official URL:** https://www.revenue.nh.gov/taxes-glance/business-tax.htm (see also https://www.revenue.nh.gov/taxes-glance/business-profits.htm)\n\n---\n\n### 3. State Sales and Use Tax Rate & Local Jurisdictions\n* **Fact:** New Hampshire does not impose a general state sales and use tax (0%), and local jurisdictions do not levy local sales taxes.\n* **Applicable Tax Years:** Applies to tax years 2025 and 2026 (no change).\n* **Official URL:** https://www.revenue.nh.gov/faq/sales-tax.htm (see also https://www.revenue.nh.gov/faq/general.htm)\n\n---\n\n### 4. Gross Receipts, Franchise, Margin, or Other Notable Business Taxes\n* **Fact:** New Hampshire imposes the **Business Enterprise Tax (BET)**, as well as specific excise/business taxes:\n  * **Business Enterprise Tax (BET):** Assessed on the \"enterprise value tax base\" (sum of all compensation paid or accrued, interest paid or accrued, and dividends paid).\n    * **Rate:** 0.55% for taxable periods ending on or after December 31, 2022.\n    * **Filing Threshold:** Gross receipts in excess of $298,000 or an enterprise value tax base greater than $298,000 for taxable periods beginning on or after January 1, 2025.\n    * **Credit:** BET paid is allowed as a credit against the Business Profits Tax (BPT).\n  * **Meals and Rooms (Rentals) Tax (M&R):** 8.5% assessed on patrons of hotels/lodging, restaurants/meals, and motor vehicle rentals.\n  * **Communications Services Tax (CST):** 7% of the gross charge made for two-way communications services.\n* **Applicable Tax Years:** Applies to tax years 2025 and 2026 (rates did not change between 2025 and 2026; the BET filing threshold of $298,000 took effect January 1, 2025).\n* **Official URL:** \n  * Business Enterprise Tax: https://www.revenue.nh.gov/taxes-glance/business-tax.htm (see also https://www.revenue.nh.gov/taxes-glance/business-enterprise.htm)\n  * Meals and Rooms (Rentals) Tax: https://www.revenue.nh.gov/taxes-glance/meals-rooms.htm\n  * Communications Services Tax: https://www.revenue.nh.gov/taxes-glance/communications-services.htm",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "New Hampshire does not impose a general individual income tax on earned wages, and the Interest and Dividends Tax was repealed effective January 1, 2025.",
+    "source_url": "https://www.revenue.nh.gov/taxes-glance/interest-dividends.htm",
+    "evidence": [
+     "Interest and Dividends Tax",
+     "repealed effective",
+     "January 1, 2025"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.nh.gov/news-and-media/repeal-nh-interest-and-dividends-tax-now-effect",
+    "matched_title": "Repeal of NH Interest and Dividends Tax Now in Effect | NH Department of Revenue",
+    "matched_phrases": [
+     "Interest and Dividends Tax",
+     "January 1, 2025"
+    ],
+    "snippet": "January 23, 2025 Contact Department of Revenue Administration (603) 230-5000 Repeal of NH Interest and Dividends Tax Now in Effect Repeal of NH Interest and Dividends Tax Now in Effect Taxpayers no longer required to pay 3% levy for tax per",
+    "checked_in": "browser"
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "New Hampshire imposes a Business Profits Tax at a rate of 7.5% on taxable business profits for businesses with gross business income exceeding $109,000. No statutory minimum tax is imposed.",
+    "source_url": "https://www.revenue.nh.gov/taxes-glance/business-tax.htm",
+    "evidence": [
+     "Business Profits Tax",
+     "7.5%",
+     "gross business income",
+     "exceeds $109,000"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.nh.gov/taxes-glance/business-taxes",
+    "matched_title": "Business Taxes | NH Department of Revenue Administration",
+    "matched_phrases": [
+     "Business Profits Tax",
+     "7.5%",
+     "gross business income"
+    ],
+    "snippet": "The tax rate is 7.6% for taxable periods ending on or after December 31, 2022, and 7.5% for taxable periods ending on or after December 31, 2023.",
+    "checked_in": "browser"
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "New Hampshire does not impose a general state sales and use tax, and local jurisdictions do not levy local sales taxes.",
+    "source_url": "https://www.revenue.nh.gov/faq/sales-tax.htm",
+    "evidence": [
+     "sales and use tax",
+     "does not impose",
+     "local jurisdictions"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.revenue.nh.gov/faq/sales-tax.htm; unreadable: https://www.revenue.nh.gov/taxes-glance/interest-dividends-tax; unreadable: https://www.revenue.nh.gov/sites/g/files/ehbemt736/files/documents/02-12-25-tax-tips-2025-press-release.pdf; unreadable: https://www.revenue.nh.gov/resource-center/frequently-asked-questions/interest-dividends-tax-frequently-asked-questions; unreadable: https://www.revenue.nh.gov/news-and-media/repeal-nh-interest-and-dividends-tax-now-effect; unreadabl",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The state levies a Business Enterprise Tax of 0.55% on the enterprise value tax base for entities with gross receipts or an enterprise value tax base exceeding $298,000. New Hampshire also imposes an 8.5% Meals and Rooms Tax and a 7% Communications Services Tax.",
+    "source_url": "https://www.revenue.nh.gov/taxes-glance/business-tax.htm",
+    "evidence": [
+     "Business Enterprise Tax",
+     "0.55%",
+     "enterprise value tax base",
+     "exceeding $298,000"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.revenue.nh.gov/taxes-glance/business-tax.htm; unreadable: https://www.revenue.nh.gov/taxes-glance/interest-dividends-tax; unreadable: https://www.revenue.nh.gov/sites/g/files/ehbemt736/files/documents/02-12-25-tax-tips-2025-press-release.pdf; unreadable: https://www.revenue.nh.gov/resource-center/frequently-asked-questions/interest-dividends-tax-frequently-asked-questions; unreadable: https://www.revenue.nh.gov/news-and-media/repeal-nh-interest-and-dividends-tax-now-effec",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://www.revenue.nh.gov/taxes-glance/interest-dividends-tax",
+   "https://www.revenue.nh.gov/sites/g/files/ehbemt736/files/documents/02-12-25-tax-tips-2025-press-release.pdf",
+   "https://www.revenue.nh.gov/resource-center/frequently-asked-questions/interest-dividends-tax-frequently-asked-questions",
+   "https://www.revenue.nh.gov/news-and-media/repeal-nh-interest-and-dividends-tax-now-effect",
+   "https://www.revenue.nh.gov/taxes-glance/business-taxes",
+   "https://www.revenue.nh.gov/resource-center/frequently-asked-questions/business-profits-tax",
+   "https://www.revenue.nh.gov/resource-center/frequently-asked-questions/business-profits-tax",
+   "https://www.revenue.nh.gov/news-and-media/nh-department-revenue-administration-shares-2026-tax-tips-and-filing-guidance",
+   "https://www.revenue.nh.gov/faq/does-new-hampshire-have-sales-tax",
+   "https://www.revenue.nh.gov/resource-center/frequently-asked-questions/general-information",
+   "https://www.revenue.nh.gov/resource-center/frequently-asked-questions/business-enterprise-tax",
+   "https://www.revenue.nh.gov/taxes-glance/meals-rooms-rentals-tax",
+   "https://www.revenue.nh.gov/news-and-media/nh-department-revenue-reminds-taxpayers-meals-and-rooms-tax-rate-reduction",
+   "https://www.revenue.nh.gov/taxes-glance/communications-services-tax",
+   "https://www.revenue.nh.gov/transparency/transparency-all-tax-types/transparency-communications-services-tax"
+  ],
+  "error": ""
+ },
+ {
+  "state": "NH",
+  "section": "filing",
+  "notes": "### 1. Individual Return Due Dates and Extension Rules\n\n* **Tax Years 2025 and 2026:**\n  * **General Individual Income Tax:** New Hampshire does not impose a general personal income tax on earned wages or salaries. \n  * **Interest and Dividends (I&D) Tax Repeal:** The Interest and Dividends Tax (RSA Chapter 77) was repealed effective for taxable periods beginning on or after January 1, 2025 (accelerated under House Bill 2, 2023 session). Consequently, for tax years 2025 and 2026, individual taxpayers have no I&D return filing requirement, 2025/2026 I&D forms are not published, and estimated tax payments are not due.\n  * **Pre-2025 Periods / Historical Rules:** For calendar-year filers filing pre-repeal returns (e.g., tax year 2024 returns due in 2025), returns (Form DP-10) were due on or before April 15. An automatic 7-month extension to file was granted without filing an application form if 100% of the tax due was paid by the original due date; filers needing to remit a balance to reach 100% filed Form DP-59-A by April 15.\n  * **Sole Proprietors:** Individuals operating unincorporated businesses or rental properties are taxed as business entities under the Business Profits Tax (BPT) and Business Enterprise Tax (BET), with returns due April 15 (see pass-through/business rules below).\n* **Official URLs:** \n  * https://www.revenue.nh.gov/taxes-administered/interest-dividends-tax.htm\n  * https://www.revenue.nh.gov/news/2025/20250123-id-tax-repeal.htm\n  * https://www.revenue.nh.gov/faq/interest-dividend.htm\n\n---\n\n### 2. Corporate and Pass-Through Return Due Dates and Extension Rules\n\n* **Tax Years 2025 and 2026:**\n  * **Entity-Level Tax Regime:** New Hampshire taxes corporations, partnerships, LLCs, and sole proprietorships directly at the entity level under the Business Profits Tax (BPT, RSA 77-A, rate 7.5%) and Business Enterprise Tax (BET, RSA 77-E, rate 0.55%). The BPT filing threshold is gross business income in excess of $109,000, and the BET filing threshold is gross receipts or an enterprise value tax base exceeding $298,000 for periods beginning on or after January 1, 2025 (applies to both 2025 and 2026).\n  * **Calendar-Year Return Due Dates:**\n    * **Partnerships (NH-1065):** Due on or before March 15 (the 15th day of the 3rd month following the close of the taxable period).\n    * **Corporations (NH-1120), S-Corporations, Proprietorships (NH-1040), Combined Groups (NH-1120-WE), and Fiduciaries (NH-1041):** Due on or before April 15 (the 15th day of the 4th month following the close of the taxable period).\n  * **Fiscal-Year Filers:** Due on the 15th day of the 3rd month (partnerships) or 15th day of the 4th month (corporations, proprietorships, fiduciaries) after the end of the tax period.\n  * **Extension Rules:**\n    * An automatic 7-month extension of time to file is granted if 100% of the BET and BPT determined to be due is paid on or before the original statutory due date.\n    * If 100% of the tax due is already paid by the due date, no extension application form is required.\n    * If an additional payment is necessary to achieve 100% payment by the original due date, taxpayers must submit Form BT-EXT (\"Payment Form and Application for 7-Month Extension of Time to File Business Tax Return\") or make the payment electronically via Granite Tax Connect (gtc.revenue.nh.gov) on or before the original due date. Extensions are denied if 100% of the tax due is not paid timely.\n* **Official URLs:**\n  * https://www.revenue.nh.gov/forms/2025/documents/bt-summary-instructions.pdf\n  * https://www.revenue.nh.gov/forms/2025/documents/bt-ext.pdf\n  * https://www.revenue.nh.gov/faq/business-profits.htm\n\n---\n\n### 3. Elective Pass-Through Entity Tax (PTET)\n\n* **Tax Years 2025 and 2026:**\n  * **Not found / Does not exist:** New Hampshire does not have an elective pass-through entity tax. \n  * Under NH law, all business organizations (partnerships, LLCs, S-corporations, proprietorships) are already mandatory entity-level taxpayers subject to the Business Profits Tax (RSA 77-A) and Business Enterprise Tax (RSA 77-E). Because NH does not tax owners individually on pass-through business income, there is no separate elective PTET regime.\n* **Official URLs:**\n  * https://www.revenue.nh.gov/faq/business-profits.htm\n  * https://www.gencourt.state.nh.us/rsa/html/NHTOC/NHTOC-V-77-A.htm\n\n---\n\n### 4. Composite or Group Nonresident Returns for Pass-Through Entities\n\n* **Tax Years 2025 and 2026:**\n  * **Not found / Does not exist:** New Hampshire does not have composite or group nonresident returns for pass-through entities. \n  * Pass-through income is not passed through to owners for state income tax purposes; business income is assessed and reported exclusively at the entity level. As nonresidents have no individual NH income tax filing requirement on partnership or corporate pass-through distributions, composite filing mechanisms are not applicable in NH.\n* **Official URLs:**\n  * https://www.revenue.nh.gov/faq/business-profits.htm\n  * https://www.revenue.nh.gov/forms/current-year.htm\n\n---\n\n### 5. Estimated Tax Payment Requirements and Nonresident Withholding for Pass-Throughs\n\n* **Tax Years 2025 and 2026:**\n  * **Nonresident Withholding for Pass-Throughs:** Not found / Does not exist. Pass-through entities do not withhold tax on nonresident partners or shareholders.\n  * **Entity Estimated Tax Requirements (BPT & BET):**\n    * Required for every entity expected to have an annual tax liability greater than $200 for BPT, or greater than $260 for BET.\n    * Installment amounts: Four equal installments of 25% each.\n    * Calendar-year due dates: \n      * 1st quarter: April 15\n      * 2nd quarter: June 15\n      * 3rd quarter: September 15\n      * 4th quarter: December 15\n    * Fiscal-year due dates: 15th day of the 4th, 6th, 9th, and 12th months of the taxable period.\n    * Safe harbor / underpayment penalty: Under RSA 21-J:32, an underpayment penalty applies if total estimated payments are less than 90% of the current tax period's liability (calculated on Form DP-2210/2220).\n* **Official URLs:**\n  * https://www.revenue.nh.gov/forms/2024/documents/nh-1065-es-instructions.pdf\n  * https://www.revenue.nh.gov/faq/business-profits.htm\n\n---\n\n### 6. Main Individual, Corporate, and Pass-Through Return Forms\n\n* **Tax Years 2025 and 2026:**\n  * **Individual Forms:** \n    * Form DP-10 (\"Interest and Dividends Tax Return\") is repealed and discontinued beginning with tax year 2025.\n    * Individuals operating a trade, business, or rental activity file Form NH-1040 (\"Proprietorship or Jointly Owned Property Business Profits Tax Return\") accompanied by Form BET-PROP and Form BT-Summary.\n  * **Pass-Through Entity Forms:**\n    * **Partnerships & Multi-Member LLCs:** Form NH-1065 (\"Partnership Business Profits Tax Return\").\n    * **S-Corporations:** Form NH-1120 (\"Corporate Business Profits Tax Return\") with Schedule DP-120 (\"Computation of S-Corporation Gross Business Profits\").\n    * **Trusts and Estates:** Form NH-1041 (\"Fiduciary Business Profits Tax Return\").\n  * **Corporate and General Business Forms:**\n    * **C-Corporations:** Form NH-1120 (\"Corporate Business Profits Tax Return\").\n    * **Combined Unitary Groups:** Form NH-1120-WE (\"Combined Business Profits Tax Return\").\n    * **Summary Transmittal:** Form BT-Summary (\"Business Tax Return Summary\"), filed by all entities reporting BPT and/or BET.\n    * **Business Enterprise Tax Forms:** Form BET (\"Business Enterprise Tax Return\") or BET-80.\n    * **Extensions & Estimates:** Form BT-EXT (7-month extension form), Form NH-1120-ES / NH-1065-ES / NH-1040-ES (estimated tax vouchers), and Form DP-2210/2220 (underpayment penalty).\n* **Official URLs:**\n  * https://www.revenue.nh.gov/forms/current-year.htm\n  * https://www.revenue.nh.gov/forms/2025/documents/bt-summary-instructions.pdf",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "New Hampshire does not impose a general personal income tax, and the Interest and Dividends Tax was repealed effective for taxable periods beginning on or after January 1, 2025. Consequently, calendar-year individuals have no state return filing requirement or extension procedure for tax years 2025 and 2026.",
+    "source_url": "https://www.revenue.nh.gov/taxes-administered/interest-dividends-tax.htm",
+    "evidence": [
+     "Interest and Dividends Tax",
+     "repealed effective",
+     "taxable periods beginning"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.nh.gov/news-and-media/repeal-nh-interest-and-dividends-tax-now-effect",
+    "matched_title": "Repeal of NH Interest and Dividends Tax Now in Effect | NH Department of Revenue",
+    "matched_phrases": [
+     "Interest and Dividends Tax",
+     "taxable periods beginning"
+    ],
+    "snippet": "January 23, 2025 Contact Department of Revenue Administration (603) 230-5000 Repeal of NH Interest and Dividends Tax Now in Effect Repeal of NH Interest and Dividends Tax Now in Effect Taxpayers no longer required to pay 3% levy for tax per",
+    "checked_in": "browser"
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Partnership returns (NH-1065) are due March 15, while corporate (NH-1120) and proprietorship (NH-1040) returns are due April 15. Filers receive an automatic 7-month extension if 100% of the tax due is paid by the original due date, remitted with Form BT-EXT if an additional payment is necessary.",
+    "source_url": "https://www.revenue.nh.gov/forms/2025/documents/bt-summary-instructions.pdf",
+    "evidence": [
+     "automatic 7-month extension",
+     "15th day of the 3rd month",
+     "15th day of the 4th month"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.revenue.nh.gov/forms/2025/documents/bt-summary-instructions.pdf; unreadable: https://www.revenue.nh.gov/taxes-glance/interest-dividends-tax; unreadable: https://www.revenue.nh.gov/news-and-media/repeal-nh-interest-and-dividends-tax-now-effect; unreadable: https://www.revenue.nh.gov/resource-center/frequently-asked-questions/interest-dividends-tax-frequently-asked-questions; unreadable: https://www.revenue.nh.gov/news-and-media/nh-department-revenue-administration-shares-2",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Quarterly estimated payments are required if estimated tax liability exceeds $200 for BPT or $260 for BET, paid in four equal 25% installments due April 15, June 15, September 15, and December 15. Pass-through entities do not have nonresident withholding requirements.",
+    "source_url": "https://www.revenue.nh.gov/forms/2024/documents/nh-1065-es-instructions.pdf",
+    "evidence": [
+     "four equal installments",
+     "greater than $200",
+     "greater than $260"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.revenue.nh.gov/forms/2024/documents/nh-1065-es-instructions.pdf; unreadable: https://www.revenue.nh.gov/taxes-glance/interest-dividends-tax; unreadable: https://www.revenue.nh.gov/news-and-media/repeal-nh-interest-and-dividends-tax-now-effect; unreadable: https://www.revenue.nh.gov/resource-center/frequently-asked-questions/interest-dividends-tax-frequently-asked-questions; unreadable: https://www.revenue.nh.gov/news-and-media/nh-department-revenue-administration-shares-2",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Primary business returns include Form NH-1120 for corporations, Form NH-1065 for partnerships, and Form NH-1040 for sole proprietorships, all submitted with transmittal Form BT-Summary. Form DP-10 for individuals is discontinued beginning with tax year 2025.",
+    "source_url": "https://www.revenue.nh.gov/forms/current-year.htm",
+    "evidence": [
+     "NH-1065",
+     "NH-1120",
+     "BT-Summary",
+     "NH-1040"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.nh.gov/resource-center/current-year-forms-and-instructions",
+    "matched_title": "Current Year Forms and Instructions | NH Department of Revenue Administration",
+    "matched_phrases": [
+     "NH-1065",
+     "NH-1120",
+     "BT-Summary",
+     "NH-1040"
+    ],
+    "snippet": "…0-ES Instructions NH-1041 Fiduciary Business Profits Tax Return NH-1041 Instructions NH-1041-ES Fiduciary Business Profits Tax Estimate NH-1041-ES Instructions NH-1065 Partnership Business Profits Tax Return NH-1065 Instructions NH-1065-ES",
+    "checked_in": "browser"
+   }
+  ],
+  "grounding_urls": [
+   "https://www.revenue.nh.gov/taxes-glance/interest-dividends-tax",
+   "https://www.revenue.nh.gov/news-and-media/repeal-nh-interest-and-dividends-tax-now-effect",
+   "https://www.revenue.nh.gov/resource-center/frequently-asked-questions/interest-dividends-tax-frequently-asked-questions",
+   "https://www.revenue.nh.gov/news-and-media/nh-department-revenue-administration-shares-2026-tax-tips-and-filing-guidance",
+   "https://www.revenue.nh.gov/news-and-media/repeal-nh-interest-and-dividends-tax-now-effect",
+   "https://www.revenue.nh.gov/sites/g/files/ehbemt736/files/documents/dp-10-2024.pdf",
+   "https://www.revenue.nh.gov/news-and-media/nh-department-revenue-offers-relief-business-interest-dividends-taxes",
+   "https://www.revenue.nh.gov/sites/g/files/ehbemt736/files/documents/dp-59-a-2023_pro.pdf",
+   "https://www.revenue.nh.gov/sites/g/files/ehbemt736/files/documents/bt-summary-instructions-2025.pdf",
+   "https://www.revenue.nh.gov/news-and-media/nh-department-revenue-administration-simplifies-tax-season-sharing-tax-updates-and",
+   "https://www.revenue.nh.gov/sites/g/files/ehbemt736/files/documents/dra-federal-tax-reform-report-03302018.pdf",
+   "https://www.revenue.nh.gov/resource-center/frequently-asked-questions/business-enterprise-tax",
+   "https://www.revenue.nh.gov/resource-center/frequently-asked-questions/business-profits-tax",
+   "https://www.revenue.nh.gov/sites/g/files/ehbemt736/files/documents/bt-ext-2025.pdf",
+   "https://www.revenue.nh.gov/sites/g/files/ehbemt736/files/documents/bt-ext-2019-print.pdf",
+   "https://www.revenue.nh.gov/sites/g/files/ehbemt736/files/documents/rev-300-ip.pdf",
+   "https://www.revenue.nh.gov/resource-center/current-year-forms-and-instructions",
+   "https://www.revenue.nh.gov/sites/g/files/ehbemt736/files/documents/nh-1065-es-instructions-2024.pdf",
+   "https://www.revenue.nh.gov/event/business-profits-tax-estimated-payment-due-april-15-2026",
+   "https://www.revenue.nh.gov/event/business-profits-tax-estimated-payment-due-june-15-2026",
+   "https://www.revenue.nh.gov/sites/g/files/ehbemt736/files/documents/nh-1120-2022-print.pdf",
+   "https://www.revenue.nh.gov/sites/g/files/ehbemt736/files/documents/nh-1120-we-2024.pdf",
+   "https://www.revenue.nh.gov/sites/g/files/ehbemt736/files/documents/bt-summary-2024.pdf"
+  ],
+  "error": ""
+ }
+]

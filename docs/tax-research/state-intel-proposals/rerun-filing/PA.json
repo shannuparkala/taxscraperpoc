@@ -1,0 +1,179 @@
+[
+ {
+  "state": "PA",
+  "section": "filing",
+  "notes": "### 1. Individual Return Due Dates and Extension Rules\n\n* **Return Due Date:** Form PA-40 is due on or before April 15 following the close of the calendar year (or the next business day if April 15 falls on a weekend or holiday). \n  * *Applies to:* Tax years 2025 and 2026.\n  * *Official URL:* https://www.revenue.pa.gov/FormsandPublications/FormsforIndividuals/PIT/Documents/rev-276.pdf\n* **Extensions of Time to File:** \n  * PA grants an automatic 6-month extension (to October 15 for calendar-year filers).\n  * If a taxpayer has obtained an approved federal extension (Form 4868) and reasonably expects no additional Pennsylvania tax to be due, no separate Pennsylvania extension filing is required prior to the due date.\n  * If the taxpayer reasonably expects additional tax to be due, or did not obtain a federal extension, the taxpayer must file Form REV-276 (*Application for Automatic Extension of Time to File*) and pay the expected tax on or before the original due date. Alternatively, taxpayers with tax due may pay electronically via myPATH without mailing Form REV-276.\n  * An extension of time to file does not extend the deadline to pay tax; interest and penalties apply to unpaid amounts.\n  * *Applies to:* Tax years 2025 and 2026.\n  * *Official URL:* https://www.revenue.pa.gov/FormsandPublications/FormsforIndividuals/PIT/Documents/rev-276.pdf\n\n---\n\n### 2. Corporate and Pass-Through Return Due Dates and Extension Rules\n\n* **Corporate Net Income Tax (Form RCT-101):**\n  * **Due Date:** Due on or before the 15th day of the month following the federal return due date (for calendar-year C corporations filing federal Form 1120 on April 15, the PA RCT-101 is due May 15).\n  * **Extensions:** Corporations granted a federal extension (Form 7004) are automatically granted an extension to file Form RCT-101 (must mark the box and attach the federal extension). Corporations not requesting a federal extension may request a 60-day extension by filing Form REV-853 (*Annual Extension Request*) electronically on or before the return due date. An extension to file does not extend the time to pay.\n  * *Corporate Tax Rate:* 7.99% for tax year 2025; 7.49% for tax year 2026 (reduced under Act 53 of 2022).\n  * *Official URL:* https://www.revenue.pa.gov/FormsandPublications/FormsforBusinesses/CorporationTax/Documents/rev-1200.pdf\n* **Pass-Through Entities (Form PA-20S/PA-65):**\n  * **Due Date:** April 15 for calendar-year filers (the 15th day of the fourth month following the close of the tax year).\n  * **Extensions:** Automatic 5-month extension (to September 15 for calendar-year filers). If the entity has an approved federal extension (Form 1065 or Form 1120-S) and owes no additional \"catch-up\" nonresident withholding tax, PA automatically grants the 5-month extension without submitting Form REV-276 in advance (federal Form 7004 must be included with the return). If the entity owes additional catch-up nonresident withholding, it must file Form REV-276 and remit the tax by the original due date.\n  * *Applies to:* Tax years 2025 and 2026.\n  * *Official URL:* https://www.revenue.pa.gov/FormsandPublications/FormsforIndividuals/PIT/Documents/rev-276.pdf\n\n---\n\n### 3. Elective Pass-Through Entity Tax (PTET)\n\n* **Status:** Does not exist / Not enacted in Pennsylvania. Legislation has been proposed in the Pennsylvania General Assembly (e.g., SB 659, HB 1703), but no elective pass-through entity tax has been enacted into law.\n* **Rate, Election Method, and Election Due Date:** Not found (no enacted PTET statute).\n* *Applies to:* Tax years 2025 and 2026.\n* *Official URL:* https://www.legis.state.pa.us/cfdocs/billInfo/billInfo.cfm?sYear=2023&sInd=0&body=S&type=B&bn=0659\n\n---\n\n### 4. Composite / Group Nonresident Returns for Pass-Through Entities\n\n* **Return Form:** Form PA-40 NRC (*Nonresident Consolidated Income Tax Return*).\n* **Rules & Requirements:**\n  * A pass-through entity (partnership, LLC, or PA S corporation) may file Form PA-40 NRC to report and combine income, losses, and withholdings on behalf of two or more qualifying, electing nonresident individual owners.\n  * If the entity has only one qualified nonresident individual owner, Form PA-40 NRC cannot be filed; that owner must file an individual Form PA-40.\n  * Electing nonresident owners must have no PA-source income or loss other than from the filing pass-through entity. Owners participating in Form PA-40 NRC do not file an individual Form PA-40.\n  * A separate PA Schedule NRK-1 for each electing nonresident owner must be submitted with Form PA-40 NRC.\n* **Due Date & Extensions:** Form PA-40 NRC is due April 15 for calendar-year filers. An extension of time to file Form PA-20S/PA-65 does not extend Form PA-40 NRC; a separate Form REV-276 must be filed by the original due date to receive an automatic 6-month extension.\n* *Applies to:* Tax years 2025 and 2026.\n* *Official URL:* https://www.revenue.pa.gov/FormsandPublications/FormsforIndividuals/PIT/Documents/pa-40nrcin.pdf\n\n---\n\n### 5. Estimated Tax Requirements and Pass-Through Nonresident Withholding\n\n* **Individual Estimated Tax Requirements (Form PA-40 ES (I)):**\n  * Required if an individual has Pennsylvania-taxable income not subject to employer withholding exceeding statutory thresholds:\n    * **2025:** Income not subject to withholding exceeding **$11,000**.\n    * **2026:** Income not subject to withholding exceeding **$14,000**.\n  * *Safe Harbor / Underpayment Exceptions:* No penalty is imposed if timely quarterly installment payments equal at least:\n    1. 100% of the tax calculated using the prior full tax year's income at current tax rates; or\n    2. 90% of the tax due based on actual income for each quarterly installment period.\n  * *Official URL:* https://www.revenue.pa.gov/FormsandPublications/FormsforIndividuals/PIT/Documents/rev-413in.pdf\n* **Pass-Through Nonresident Individual Withholding:**\n  * Partnerships and PA S corporations must withhold PA personal income tax on Pennsylvania-source distributable income for nonresident individual owners, estates, and trusts at the personal income tax rate of 3.07%.\n  * Entities make quarterly estimated withholding payments using Form PA-40 ES (P/S) / REV-414 (P/S) or electronically via myPATH.\n  * Total annual withholding is reconciled and reported on Form PA-20S/PA-65 Schedule NW (*Nonresident Tax Withheld by PA S Corporations and Partnerships*). Any remaining \"catch-up\" withholding must be remitted by the original return due date.\n  * *Applies to:* Tax years 2025 and 2026.\n  * *Official URL:* https://www.revenue.pa.gov/FormsandPublications/FormsforBusinesses/S-Corporations-Partnerships/Documents/pa-20s-pa-65_nw.pdf\n* **Corporate Partner Withholding (Nonfiling Corporate Partners):**\n  * Partnerships with C corporation partners that do not provide an annual signed affidavit of compliance/filing must withhold Corporate Net Income Tax on the corporate partner’s PA-apportioned income.\n  * Withholding is reported on Form PA-20S/PA-65 Schedule CP and Form PA-65 Corp at the applicable corporate tax rate: **7.99% for 2025**; **7.49% for 2026**.\n  * *Official URL:* https://www.revenue.pa.gov/FormsandPublications/FormsforBusinesses/S-Corporations-Partnerships/Documents/pa-20s-pa-65_cp_in.pdf\n\n---\n\n### 6. Main Return Forms\n\n* **Individual Income Tax:** Form PA-40 (*Pennsylvania Income Tax Return*).\n  * *Official URL:* https://www.revenue.pa.gov/FormsandPublications/FormsforIndividuals/PIT/Documents/pa-40in.pdf\n* **Corporate Net Income Tax:** Form RCT-101 (*PA Corporate Net Income Tax Report*).\n  * *Official URL:* https://www.revenue.pa.gov/FormsandPublications/FormsforBusinesses/CorporationTax/Documents/rev-1200.pdf\n* **Pass-Through Entity:** Form PA-20S/PA-65 (*PA S Corporation/Partnership Information Return*).\n  * *Official URL:* https://www.revenue.pa.gov/FormsandPublications/FormsforBusinesses/S-Corporations-Partnerships/Documents/pa-20s-pa-65_instruction_booklet.pdf",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Form PA-40 is due on or before April 15 following the close of the calendar year. Taxpayers receive an automatic six-month extension to October 15, which does not require a separate Pennsylvania filing if a federal extension was approved and no additional tax is expected to be due.",
+    "source_url": "https://www.revenue.pa.gov/FormsandPublications/FormsforIndividuals/PIT/Documents/rev-276.pdf",
+    "evidence": [
+     "Application for Automatic Extension",
+     "Form PA-40",
+     "six-month extension"
+    ],
+    "accepted": false,
+    "reason": "dates not on www.revenue.pa.gov: ['October 15']; dates not on www.pa.gov: ['October 15']; figures not on www.pa.gov: ['40']; evidence not on www.pa.gov (0/3); evidence not on www.pa.gov (1/3); unreadable: https://www.palegis.us/senate/co-sponsorship/memo?memoID=44987; unreadable: https://www.palegis.us/legislation/bills/text/HTM/2023/0/SB0659/PN0706; unreadable: https://www.palegis.us/legislation/bills/2025/hb1703; unreadable: https://www.palegis.us/legislation/bills/2023/sb659; not an official ",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Corporate Net Income Tax Form RCT-101 is due on or before the 15th day of the month following the federal return due date, making calendar-year returns due May 15. Corporations with an approved federal extension automatically receive an extension, or they may request a 60-day extension by filing Form REV-853.",
+    "source_url": "https://www.revenue.pa.gov/FormsandPublications/FormsforBusinesses/CorporationTax/Documents/rev-1200.pdf",
+    "evidence": [
+     "Form RCT-101",
+     "Corporate Net Income Tax",
+     "Annual Extension Request"
+    ],
+    "accepted": false,
+    "reason": "figures not on www.revenue.pa.gov: ['101', '15', '60', '853']; figures not on www.revenue.pa.gov: ['101', '60', '853']; figures not on www.pa.gov: ['101', '853']; figures not on www.pa.gov: ['101', '60', '853']; dates not on www.pa.gov: ['May 15']; figures not on www.pa.gov: ['853']; figures not on www.pa.gov: ['60', '853']; unreadable: https://www.palegis.us/senate/co-sponsorship/memo?memoID=44987; unreadable: https://www.palegis.us/legislation/bills/text/HTM/2023/0/SB0659/PN0706; unreadable: h",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "An elective pass-through entity tax does not exist in Pennsylvania. Although legislation such as Senate Bill 659 has been proposed in the General Assembly, no PTET law has been enacted.",
+    "source_url": "https://www.legis.state.pa.us/cfdocs/billInfo/billInfo.cfm?sYear=2023&sInd=0&body=S&type=B&bn=0659",
+    "evidence": [
+     "Senate Bill 659",
+     "General Assembly",
+     "pass-through entity"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://www.legis.state.pa.us/cfdocs/billInfo/billInfo.cfm?sYear=2023&sInd=0&body=S&type=B&bn=0659; figures not on www.revenue.pa.gov: ['659']; figures not on www.pa.gov: ['659']; unreadable: https://www.palegis.us/senate/co-sponsorship/memo?memoID=44987; unreadable: https://www.palegis.us/legislation/bills/text/HTM/2023/0/SB0659/PN0706; unreadable: https://www.palegis.us/legislation/bills/2025/hb1703; unreadable: https://www.palegis.us/legislation/bills/2023/sb659; not an official P",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "composite",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Pass-through entities may file Form PA-40 NRC on behalf of two or more qualifying nonresident individual owners with no other Pennsylvania-source income. The return is due April 15 for calendar-year filers, and an automatic six-month extension requires filing Form REV-276 by the original due date.",
+    "source_url": "https://www.revenue.pa.gov/FormsandPublications/FormsforIndividuals/PIT/Documents/pa-40nrcin.pdf",
+    "evidence": [
+     "Form PA-40 NRC",
+     "Nonresident Consolidated Income Tax",
+     "Schedule NRK-1"
+    ],
+    "accepted": false,
+    "reason": "figures not on www.revenue.pa.gov: ['15', '276', '40']; evidence not on www.revenue.pa.gov (0/3); evidence not on www.pa.gov (1/3); figures not on www.pa.gov: ['276', '40']; figures not on www.pa.gov: ['276']; figure not stated beside the evidence on www.pa.gov; unreadable: https://www.palegis.us/senate/co-sponsorship/memo?memoID=44987; unreadable: https://www.palegis.us/legislation/bills/text/HTM/2023/0/SB0659/PN0706; unreadable: https://www.palegis.us/legislation/bills/2025/hb1703; unreadable:",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025
+    ],
+    "value": "Individual estimated tax payments on Form PA-40 ES (I) are required if Pennsylvania-taxable income not subject to withholding exceeds $11,000 for tax year 2025. Safe harbor exceptions apply if timely installment payments equal at least 100% of the prior year tax or 90% of actual tax due for each quarter.",
+    "source_url": "https://www.revenue.pa.gov/FormsandPublications/FormsforIndividuals/PIT/Documents/rev-413in.pdf",
+    "evidence": [
+     "Form PA-40 ES",
+     "quarterly installment",
+     "taxable income"
+    ],
+    "accepted": false,
+    "reason": "figures not on www.revenue.pa.gov: ['100', '11000', '2025', '40', '90']; figures not on www.revenue.pa.gov: ['100', '11000', '2025', '90']; evidence not on www.pa.gov (1/3); figures not on www.pa.gov: ['100', '11000', '40', '90']; figures not on www.pa.gov: ['11000', '90']; figures not on www.pa.gov: ['11000', '2025']; evidence not on www.pa.gov (0/3); unreadable: https://www.palegis.us/senate/co-sponsorship/memo?memoID=44987; unreadable: https://www.palegis.us/legislation/bills/text/HTM/2023/0/",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2026
+    ],
+    "value": "Individual estimated tax payments on Form PA-40 ES (I) are required if Pennsylvania-taxable income not subject to withholding exceeds $14,000 for tax year 2026. Safe harbor exceptions apply if timely installment payments equal at least 100% of the prior year tax or 90% of actual tax due for each quarter.",
+    "source_url": "https://www.revenue.pa.gov/FormsandPublications/FormsforIndividuals/PIT/Documents/rev-413in.pdf",
+    "evidence": [
+     "Form PA-40 ES",
+     "quarterly installment",
+     "taxable income"
+    ],
+    "accepted": false,
+    "reason": "figures not on www.revenue.pa.gov: ['100', '14000', '40', '90']; figures not on www.revenue.pa.gov: ['100', '14000', '2026', '90']; evidence not on www.pa.gov (1/3); figures not on www.pa.gov: ['100', '14000', '40', '90']; figures not on www.pa.gov: ['14000', '2026', '90']; figures not on www.pa.gov: ['14000', '2026']; evidence not on www.pa.gov (0/3); unreadable: https://www.palegis.us/senate/co-sponsorship/memo?memoID=44987; unreadable: https://www.palegis.us/legislation/bills/text/HTM/2023/0/",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "The main Pennsylvania individual income tax return is Form PA-40.",
+    "source_url": "https://www.revenue.pa.gov/FormsandPublications/FormsforIndividuals/PIT/Documents/pa-40in.pdf",
+    "evidence": [
+     "Form PA-40",
+     "Pennsylvania Income Tax Return"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/pit/documents/2025/2025_pa-40in.pdf",
+    "matched_title": "2025 Pennsylvania Personal Income Tax Return Instructions (PA-40 IN)",
+    "matched_phrases": [
+     "Form PA-40",
+     "Pennsylvania Income Tax Return"
+    ],
+    "snippet": "• Using PA Payment Voucher (Form PA-40 V) and payment."
+   }
+  ],
+  "grounding_urls": [
+   "https://www.revenue.pa.gov/FormsandPublications/FormsforIndividuals/PIT/Documents/rev-276.pdf",
+   "https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/pit/documents/2025/2025_pa-40in.pdf",
+   "https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/otherforms/documents/dpo-05.pdf",
+   "https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/corporationtax/documents/2025/2025_rev-1200.pdf",
+   "https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/corporationtax/documents/2025/2025_rev-1200.pdf",
+   "https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/corporationtax/documents/2021/2021_rev-1200.pdf",
+   "https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/news-and-statistics/reportsstats/mrr/documents/2025/2025_11_mrr.pdf",
+   "https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/corporationtax/documents/2025/2025_rev-1200.pdf",
+   "https://www.revenue.pa.gov/FormsandPublications/FormsforIndividuals/PIT/Documents/rev-276.pdf",
+   "https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/partnerships-s-corps-llcs/documents/2024/2024_pa-20s-pa-65.pdf",
+   "https://www.palegis.us/senate/co-sponsorship/memo?memoID=44987",
+   "https://www.palegis.us/legislation/bills/text/HTM/2023/0/SB0659/PN0706",
+   "https://www.palegis.us/legislation/bills/2025/hb1703",
+   "https://www.palegis.us/legislation/bills/2023/sb659",
+   "https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/partnerships-s-corps-llcs/documents/2024/2024_pa-40nrc.pdf",
+   "https://taxsim.nber.org/historical_state_tax_forms/PA/2016/dfo-02.pdf",
+   "https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/pit/documents/dfo-02.pdf",
+   "https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/partnerships-s-corps-llcs/documents/2024/2024_pa-40nrc.pdf",
+   "https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/partnerships-s-corps-llcs/documents/2025/2025_pa-8453nrc.pdf",
+   "https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/pit/documents/2026/2026_rev-413i.pdf",
+   "https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/pit/documents/dfo-02.pdf",
+   "https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/partnerships-s-corps-llcs/documents/2024/2024_pa-20s-pa-65nw.pdf",
+   "https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/papersonalincometaxguide/documents/pitguide_passthroughentities.pdf",
+   "https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/partnerships-s-corps-llcs/documents/2025/2025_pa-20s-pa-65nw.pdf",
+   "https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/partnerships-s-corps-llcs/documents/2019/2019_rev-413ps.pdf",
+   "https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/partnerships-s-corps-llcs/documents/2025/2025_pa-65corp.pdf",
+   "https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/corporationtax/documents/2025/2025_rct-101i.pdf"
+  ],
+  "error": ""
+ }
+]

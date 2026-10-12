@@ -1,0 +1,89 @@
+[
+ {
+  "state": "OH",
+  "section": "nexus",
+  "notes": "### 1. Income / Franchise Tax & Business Tax Nexus (Bright-Line Presence)\n\n* **Context on Corporate Franchise Tax vs. Commercial Activity Tax (CAT):** Ohio phased out and repealed its general Corporation Franchise Tax (replacing it with the Commercial Activity Tax under R.C. Chapter 5751). Ohio levies the CAT—a business privilege tax measured by gross receipts—on corporations and other business entities. For pass-through entities (PTEs), Ohio imposes PTE composite/withholding income taxes.\n* **Bright-Line Presence Nexus Standard:** Under R.C. 5751.01(I) and Department of Taxation Information Release CAT 2005-02, a person has bright-line presence for a reporting period and the remainder of the calendar year if any of the following tests are met at any time during the calendar year:\n  * **Property:** Aggregate value of owned or rented property in Ohio of at least **$50,000** (owned property valued at original cost; rented property valued at 8 times net annual rental charge).\n  * **Payroll:** Ohio payroll during the calendar year of at least **$50,000**.\n  * **Gross Receipts:** Taxable gross receipts sitused to Ohio during the calendar year of at least **$500,000**.\n  * **Proportionate Presence:** At least **25%** of the person's total property, total payroll, or total gross receipts is within Ohio.\n  * **Domicile:** The person is domiciled in Ohio as an individual or for corporate, commercial, or other business purposes.\n* **CAT Filing / Exclusion Threshold for Tax Years 2025 and 2026:**\n  * While the statutory bright-line nexus threshold remains $500,000, Ohio enacted an exclusion threshold under H.B. 33 of **$6 million** in Ohio taxable gross receipts effective for tax years **2025 and forward**. \n  * Businesses with Ohio taxable gross receipts of $6 million or less have no CAT liability and are not required to file. Entities with taxable gross receipts exceeding **$6 million** are subject to the CAT. This standard applies equally to tax years **2025 and 2026**.\n* **Pass-Through Entity / Income Tax Nexus:** Out-of-state PTEs have income tax nexus when they have physical contacts (property, employees, or representatives) or direct business activity in Ohio (Information Release IT 2001-02).\n* **Official URLs:**\n  * Commercial Activity Tax Overview: https://tax.ohio.gov/business/ohio-business-taxes/commercial-activity-tax\n  * Ohio Revised Code § 5751.01: https://codes.ohio.gov/ohio-revised-code/section-5751.01\n  * Information Release CAT 2005-02: https://tax.ohio.gov/business/ohio-business-taxes/commercial-activity-tax/information-releases/cat2005-02\n  * Information Release IT 2001-02: https://tax.ohio.gov/business/ohio-business-taxes/pass-through-entities/information-releases/it2001-02\n\n---\n\n### 2. Remote Seller Economic Nexus Threshold (Sales and Use Tax)\n\n* **Sales Threshold:** Gross receipts in excess of **$100,000** from the sale of tangible personal property for storage, use, or consumption in Ohio, or from providing services the benefit of which is realized in Ohio (R.C. 5741.01(I)(2)(g)).\n* **Transaction Count:** **200 or more** separate transactions selling tangible personal property for storage, use, or consumption in Ohio, or providing services the benefit of which is realized in Ohio (R.C. 5741.01(I)(2)(h)).\n* **Measurement Period:** The **current or preceding calendar year** (R.C. 5741.01(I)(2)(g)–(h)).\n* **Applicability:** Applies unchanged to both tax years **2025 and 2026** (effective August 1, 2019).\n* **Official URLs:**\n  * Ohio Revised Code § 5741.01: https://codes.ohio.gov/ohio-revised-code/section-5741.01\n  * Registering with the Ohio Department of Taxation: https://tax.ohio.gov/help-center/faqs/registering-with-the-ohio-department-of-taxation\n\n---\n\n### 3. Ohio's Stated Position on P.L. 86-272 Protection\n\n* **Commercial Activity Tax (CAT):**\n  * Under Ohio Revised Code § 5751.02(A), the statute explicitly states: *\"The tax imposed under this section is not a transactional tax and is not subject to Public Law No. 86-272, 73 Stat. 555.\"*\n  * Because the CAT is an excise privilege tax measured by gross receipts rather than net income, P.L. 86-272 provides no protection against the CAT.\n* **Income & Pass-Through Entity Taxes:**\n  * The Ohio Department of Taxation recognizes that P.L. 86-272 restricts the state from imposing a tax on or measured by net income where the business's only activities within Ohio consist of the solicitation of orders for sales of tangible personal property, provided orders are sent outside the state for acceptance or rejection and filled by shipment or delivery from a point outside Ohio (Information Releases IT 2001-02 and CFT 2001-02).\n  * Ohio's stated position is that P.L. 86-272 does not defeat nexus itself—implicit in P.L. 86-272 is that nexus exists—but rather exempts qualifying net income from taxation.\n  * To determine protected versus unprotected activities under P.L. 86-272, the Department of Taxation expressly adheres to the Multistate Tax Commission (MTC) *Statement of Information Concerning Practices of Multistate Tax Commission and Signatory States under Public Law 86-272* (revision of July 27, 2001) (Information Release IT 2001-02).\n* **Applicability:** Applies unchanged to both tax years **2025 and 2026**.\n* **Official URLs:**\n  * Ohio Revised Code § 5751.02: https://codes.ohio.gov/ohio-revised-code/section-5751.02\n  * Information Release IT 2001-02: https://tax.ohio.gov/business/ohio-business-taxes/pass-through-entities/information-releases/it2001-02\n  * Information Release CFT 2001-02: https://tax.ohio.gov/business/ohio-business-taxes/corporation-franchise/information-releases/cft2001-02",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Under Ohio's bright-line presence standard, nexus is created if a business has at least $50,000 in Ohio property, $50,000 in Ohio payroll, $500,000 in Ohio taxable gross receipts, 25% of total property, payroll, or gross receipts in Ohio, or Ohio domicile. However, beginning in tax year 2025, businesses with Ohio taxable gross receipts of $6 million or less have an exclusion and are not subject to the Commercial Activity Tax.",
+    "source_url": "https://codes.ohio.gov/ohio-revised-code/section-5751.01",
+    "evidence": [
+     "bright-line presence",
+     "at least fifty thousand dollars",
+     "at least five hundred thousand dollars",
+     "at least twenty-five per cent"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://codes.ohio.gov/ohio-revised-code/section-5751.01; evidence not on tax.ohio.gov (1/4); figures not on tax.ohio.gov: ['2025', '500000']; figures not on tax.ohio.gov: ['2025', '50000']; unreadable: https://codes.ohio.gov/ohio-revised-code/section-5751.02; figures not on tax.ohio.gov: ['2025', '25', '50000', '500000']; figures not on tax.ohio.gov: ['2025', '6']; unreadable: https://codes.ohio.gov/ohio-revised-code/section-5741.01; figures not on tax.ohio.gov: ['2025', '25', '5000",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Remote seller economic nexus is established if the seller has gross receipts in excess of $100,000 or engages in 200 or more separate transactions into Ohio. The measurement period is the current or preceding calendar year.",
+    "source_url": "https://codes.ohio.gov/ohio-revised-code/section-5741.01",
+    "evidence": [
+     "gross receipts in excess of one hundred thousand",
+     "two hundred or more separate transactions",
+     "current or preceding calendar year"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://codes.ohio.gov/ohio-revised-code/section-5741.01; figures not on tax.ohio.gov: ['100000', '200']; figures not on tax.ohio.gov: ['200']; unreadable: https://codes.ohio.gov/ohio-revised-code/section-5751.02; unreadable: https://codes.ohio.gov/ohio-revised-code/section-5751.01; unreadable: https://codes.ohio.gov/ohio-revised-code/section-5741.01/7-18-2019; evidence not on www.tax.ohio.gov (0/3)",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Ohio statute explicitly provides that the Commercial Activity Tax is not subject to Public Law 86-272 because it is an excise tax measured by gross receipts rather than net income. For net income taxes, Ohio recognizes P.L. 86-272 as an exemption rather than defeating nexus, following Multistate Tax Commission guidelines.",
+    "source_url": "https://codes.ohio.gov/ohio-revised-code/section-5751.02",
+    "evidence": [
+     "not subject to Public Law",
+     "73 Stat. 555",
+     "privilege of doing business"
+    ],
+    "accepted": false,
+    "reason": "unreadable: https://codes.ohio.gov/ohio-revised-code/section-5751.02; figures not on tax.ohio.gov: ['272', '86']; figure not stated beside the evidence on tax.ohio.gov; evidence not on tax.ohio.gov (0/3); unreadable: https://codes.ohio.gov/ohio-revised-code/section-5751.01; unreadable: https://codes.ohio.gov/ohio-revised-code/section-5741.01; unreadable: https://codes.ohio.gov/ohio-revised-code/section-5741.01/7-18-2019; figures not on www.tax.ohio.gov: ['272']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://tax.ohio.gov/business/commercial-activity-tax",
+   "https://tax.ohio.gov/portals/0/forms/corporation_franchise/2006/CFT_FT1120FI_Instructions.pdf",
+   "https://tax.ohio.gov/Portals/0/research/VTA/Feb2017/session3.pdf",
+   "https://codes.ohio.gov/ohio-revised-code/section-5751.02",
+   "https://tax.ohio.gov/Portals/0/ohio_individual/individual/information_releases/2001-02PTENexusIR-NexusQuestionnaire.pdf",
+   "https://tax.ohio.gov/portals/0/commercial_activities/information_releases/cat200502.pdf",
+   "https://codes.ohio.gov/ohio-revised-code/section-5751.01",
+   "https://tax.ohio.gov/portals/0/commercial_activities/information_releases/cat200502.pdf",
+   "https://codes.ohio.gov/ohio-revised-code/section-5741.01",
+   "https://tax.ohio.gov/wps/portal/gov/tax/help-center/resources/tax-education/starting-a-business-step-4",
+   "https://codes.ohio.gov/ohio-revised-code/section-5741.01/7-18-2019",
+   "https://codes.ohio.gov/ohio-revised-code/section-5741.01",
+   "https://tax.ohio.gov/wps/portal/gov/tax/help-center/resources/tax-education/starting-a-business-step-4",
+   "https://www.tax.ohio.gov/Portals/0/communications/publications/annual_reports/2017AnnualReport/AR2017.pdf",
+   "https://tax.ohio.gov/wps/portal/gov/tax/business/ohio-business-taxes/corporation-franchise/information-releases/cft-2001-02-information-release",
+   "https://tax.ohio.gov/Portals/0/ohio_individual/individual/information_releases/2001-02PTENexusIR-NexusQuestionnaire.pdf"
+  ],
+  "error": ""
+ }
+]

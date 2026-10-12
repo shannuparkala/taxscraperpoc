@@ -1,0 +1,577 @@
+[
+ {
+  "state": "MN",
+  "section": "apportionment",
+  "notes": "### Minnesota (MN) Multistate Business Income Apportionment (Tax Years 2025 and 2026)\n\n---\n\n### 1. Apportionment Formula\n* **Fact:** Minnesota uses a **single sales factor (100% sales factor)** apportionment formula. The statutory weights for property and payroll are 0%. Net income is apportioned to Minnesota by dividing the taxpayer’s sales or receipts attributable to Minnesota by total sales or receipts everywhere.\n* **Applicability:** Applies to **both tax years 2025 and 2026** (no change between years; in effect since tax year 2014).\n* **Official Sources:**\n  * Minnesota Statutes § 290.191, Subd. 2: https://www.revisor.mn.gov/statutes/cite/290.191\n  * Minnesota Department of Revenue, Form M4 Instructions: https://www.revenue.state.mn.us/sites/default/files/2026-03/m4_inst_25.pdf\n\n---\n\n### 2. Sourcing of Services and Intangibles (Market-Based Sourcing vs. Cost of Performance)\n* **Fact:** Minnesota uses **market-based sourcing**, not cost of performance:\n  * **Services:** Receipts from the performance of services are attributed to Minnesota if the services are *received* in Minnesota (Minn. Stat. § 290.191, subd. 5(j)). Services provided to a corporation, partnership, or trust are attributed to a state only where the customer has a fixed place of doing business; if not readily determinable or if the customer lacks a fixed place of business in that state, receipts are deemed received at the office location of the customer from which the services were ordered.\n  * **Intangible Property (Royalties / Licenses):** Royalties and fees received for the use of or privilege of using intangible property (patents, copyrights, trademarks, licenses, franchises, etc.) are attributed to Minnesota if the property is *used* by the purchaser in Minnesota (Minn. Stat. § 290.191, subd. 5(h)). If used in multiple states, receipts are apportioned pro rata according to use in Minnesota.\n  * **Sales of Intangible Property:** Sourced to the state where the intangible property is *used* by the purchaser in the regular course of business operations (Minn. Stat. § 290.191, subd. 5(i)).\n* **Applicability:** Applies to **both tax years 2025 and 2026** (no change between years).\n* **Official Source:**\n  * Minnesota Statutes § 290.191, Subd. 5: https://www.revisor.mn.gov/statutes/cite/290.191\n\n---\n\n### 3. Industries with Their Own Apportionment Formula\n* **Fact:** Specific industries have dedicated apportionment rules or variations of the receipts factor:\n  * **Financial Institutions:** Apportion net income using a 100% receipts factor determined under special sourcing rules for interest, service charges, loan origination fees, credit card receivables, merchant discounts, and securities/money market instruments (Minn. Stat. § 290.191, subd. 3 & subd. 6–8).\n  * **Investment Companies:** Subject to apportionment under Minn. Stat. § 290.36 based on the proportion of gross payments collected during the taxable year from old and new business on investment contracts held by Minnesota residents relative to total gross payments from contract holders everywhere.\n  * **Mutual Fund Management Services:** Receipts from services to a regulated investment company (mutual fund) are sourced to Minnesota based on the percentage of outstanding shares held by fund shareholders residing in Minnesota (Minn. Stat. § 290.191, subd. 5(k)).\n  * **Air Carriers:** Must apportion income based on the special air carrier formula prescribed by administrative rule (ratio of aircraft fleet arrivals/departures, revenue ton-miles, and ground property/payroll; Minn. R. 8017.6000 under Minn. Stat. § 290.20 authority).\n  * **Athletic Teams:** All income from the operation of an athletic team is assigned to the state in which the team’s operation is based when the visiting team does not share in gate receipts (Minn. Stat. § 290.17, subd. 5).\n* **Applicability:** Applies to **both tax years 2025 and 2026** (no change between years).\n* **Official Sources:**\n  * Minnesota Statutes § 290.191: https://www.revisor.mn.gov/statutes/cite/290.191\n  * Minnesota Statutes § 290.36: https://www.revisor.mn.gov/statutes/cite/290.36\n  * Minnesota Statutes § 290.17: https://www.revisor.mn.gov/statutes/cite/290.17\n  * Minnesota Administrative Rules 8017.6000: https://www.revisor.mn.gov/rules/8017.6000/\n\n---\n\n### 4. Forms and Schedules Used to Compute Apportionment\n* **Fact:** Apportionment percentages and factors are computed on the following entity-specific schedules:\n  * **C Corporations:** **Schedule M4A** (*Apportionment and Minimum Fee Calculation*), filed with **Form M4** (*Corporation Franchise Tax Return*).\n  * **S Corporations:** **Schedule M8A** (*Apportionment and Minimum Fee*), filed with **Form M8** (*S Corporation Return*).\n  * **Partnerships:** **Schedule M3A** (*Apportionment and Minimum Fee*), filed with **Form M3** (*Partnership Return*).\n  * **Estates and Trusts:** **Schedule M2NM** (*Non-Minnesota Source Income and Related Expenses*), filed with **Form M2**.\n  * **Tax-Exempt Organizations with UBIT:** **Schedule M4NPA**, filed with **Form M4NP** (*Minnesota Unrelated Business Income Tax Return*).\n* **Applicability:** Applies to **both tax years 2025 and 2026** (no change between years).\n* **Official Sources:**\n  * Minnesota Department of Revenue, Form M4 Instructions: https://www.revenue.state.mn.us/sites/default/files/2026-03/m4_inst_25.pdf\n  * Minnesota Department of Revenue, Form M3 Instructions: https://www.revenue.state.mn.us/sites/default/files/2026-06/m3_inst_25.pdf\n  * Minnesota Department of Revenue, Form M8 Instructions: https://www.revenue.state.mn.us/sites/default/files/2025-10/m8_inst_24.pdf\n  * Minnesota Department of Revenue, Reciprocity & Forms Guide: https://www.revenue.state.mn.us/reciprocity",
+  "proposals": [
+   {
+    "key": "method",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Minnesota uses a single sales factor apportionment formula with 100% sales factor and 0% weights for property and payroll. Net income is apportioned to the state by dividing sales or receipts attributable to Minnesota by total sales or receipts everywhere.",
+    "source_url": "https://www.revisor.mn.gov/statutes/cite/290.191",
+    "evidence": [
+     "single sales factor",
+     "sales or receipts attributable",
+     "apportionment formula"
+    ],
+    "accepted": false,
+    "reason": "evidence not on www.revisor.mn.gov (1/3); figures not on www.revenue.state.mn.us: ['0', '100']; figure not stated beside the evidence on www.revenue.state.mn.us; figures not on www.revisor.mn.gov: ['0', '100']; figures not on dev.revenue.state.mn.us: ['0']; figures not on www.revenue.state.mn.us: ['100']; figures not on www.revenue.state.mn.us: ['0']",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sourcing",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Minnesota uses market-based sourcing rather than cost of performance for services and intangibles. Receipts from services are attributed to Minnesota if received in the state, and intangible property receipts are sourced based on the purchaser's use in the state.",
+    "source_url": "https://www.revisor.mn.gov/statutes/cite/290.191",
+    "evidence": [
+     "received in Minnesota",
+     "performance of services",
+     "intangible property",
+     "used by the purchaser"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revisor.mn.gov/statutes/cite/290.191",
+    "matched_title": "Sec. 290.191 MN Statutes",
+    "matched_phrases": [
+     "performance of services",
+     "intangible property",
+     "used by the purchaser"
+    ],
+    "snippet": "(h) Royalties and other income received for the use of or for the privilege of using intangible property, including patents, know-how, formulas, designs, processes, patterns, copyrights, trade names, service names, franchises, licenses, contracts, customer lists, or similar items, must be attributed to the state in which the property is used by the purchaser."
+   },
+   {
+    "key": "special_industries",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Special rules apply to financial institutions, investment companies, mutual fund management services, air carriers, and athletic teams. Financial institutions apportion net income using specific receipts factor rules, while air carriers follow a dedicated formula prescribed by administrative rule.",
+    "source_url": "https://www.revisor.mn.gov/statutes/cite/290.191",
+    "evidence": [
+     "financial institutions",
+     "regulated investment company",
+     "receipts factor"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revisor.mn.gov/statutes/cite/290.191",
+    "matched_title": "Sec. 290.191 MN Statutes",
+    "matched_phrases": [
+     "financial institutions",
+     "receipts factor"
+    ],
+    "snippet": "Determination of receipts factor for financial institutions."
+   },
+   {
+    "key": "forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Apportionment is computed on Schedule M4A for C corporations filing Form M4, Schedule M8A for S corporations filing Form M8, and Schedule M3A for partnerships filing Form M3. Estates and trusts use Schedule M2NM, while tax-exempt organizations with UBIT use Schedule M4NPA.",
+    "source_url": "https://www.revenue.state.mn.us/sites/default/files/2026-03/m4_inst_25.pdf",
+    "evidence": [
+     "Schedule M4A",
+     "Form M4",
+     "Apportionment and Minimum Fee"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.state.mn.us/sites/default/files/2025-10/m4-inst-24.pdf",
+    "matched_title": "2024 Corporation Franchise Tax Return (M4) Instructions",
+    "matched_phrases": [
+     "Form M4",
+     "Apportionment and Minimum Fee"
+    ],
+    "snippet": "8-11 M4A – Apportionment and Minimum Fee ................."
+   }
+  ],
+  "grounding_urls": [
+   "https://www.revenue.state.mn.us/sites/default/files/2026-07/m3x-25.pdf",
+   "https://www.revisor.mn.gov/statutes/cite/290.191/pdf",
+   "https://www.revisor.mn.gov/statutes/cite/290.191",
+   "https://www.revenue.state.mn.us/sites/default/files/2025-10/m4-inst-24.pdf",
+   "https://www.revenue.state.mn.us/sites/default/files/2026-07/m4-inst-25.pdf",
+   "https://www.revisor.mn.gov/statutes/cite/290.191",
+   "https://www.revisor.mn.gov/statutes/cite/290.191",
+   "https://www.revisor.mn.gov/statutes/2025/cite/290.191/versions/full",
+   "https://dev.revenue.state.mn.us/sites/default/files/2014-12/m8_inst_14.pdf",
+   "https://www.revisor.mn.gov/statutes/cite/290.36",
+   "https://www.revisor.mn.gov/rules/pdf/8017.6000/2014-01-18%2008:03:15+00:00",
+   "https://www.revisor.mn.gov/statutes/cite/290.17",
+   "https://www.revenue.state.mn.us/so/mndor-pp/17896?type=html",
+   "https://www.revenue.state.mn.us/sites/default/files/2024-10/m8-18.pdf",
+   "https://www.revenue.state.mn.us/sites/default/files/2025-12/m3-25.pdf",
+   "https://www.revenue.state.mn.us/sites/default/files/2025-12/m2nm-25.pdf",
+   "https://www.revenue.state.mn.us/sites/default/files/2026-07/m4np-inst-25.pdf",
+   "https://www.revenue.state.mn.us/sites/default/files/2026-06/m3-inst-25_1.pdf",
+   "https://www.revenue.state.mn.us/sites/default/files/2025-10/m8-inst-24.pdf"
+  ],
+  "error": ""
+ },
+ {
+  "state": "MN",
+  "section": "nexus",
+  "notes": "### 1. Corporate Franchise / Income Tax Nexus\n\n* **Nexus Standards & Economic Nexus:**\n  * Corporation Franchise Tax applies to C corporations that are located in Minnesota, have a business presence in Minnesota, or have Minnesota gross income.\n  * Physical presence is not required. A business is subject to tax if it obtains or regularly solicits business from within Minnesota, without regard to physical presence. \n  * Receiving services in the state creates nexus: any service received in Minnesota can be taxed even if performed remotely. \n  * Minnesota does not maintain a general dollar-denominated business income threshold for income tax filing.\n* **Statutory Bright-Line Presumptions:** Under Minnesota Statutes § 290.015, Subd. 2, an entity is presumed (subject to rebuttal) to be obtaining or regularly soliciting business within Minnesota if:\n  1. It conducts specified solicitation or sales activities with **20 or more persons** within Minnesota during any tax period; or\n  2. It is a financial institution and the sum of its assets and the absolute value of its deposits attributable to sources within Minnesota equals or exceeds **$5,000,000**.\n* **Years Applicable:** Applies to both tax years 2025 and 2026 (no changes between years).\n* **Official URLs:**\n  * Minnesota Department of Revenue – Corporation Franchise Tax: https://www.revenue.state.mn.us/corporation-franchise-tax\n  * Minnesota Department of Revenue – Nexus (Taxable Presence): https://www.revenue.state.mn.us/nexus-taxable-presence\n  * Minnesota Department of Revenue – Nexus and Business Income Tax: https://www.revenue.state.mn.us/nexus-and-business-income-tax\n  * Minnesota Revisor of Statutes – Minn. Stat. § 290.015: https://www.revisor.mn.gov/statutes/cite/290.015\n\n---\n\n### 2. Remote Seller Economic Nexus (Sales and Use Tax)\n\n* **Threshold Amounts:** Remote sellers are required to collect and remit Minnesota sales tax under the Small Seller Exception rules if their retail sales shipped into Minnesota exceed either:\n  * **More than $100,000** in retail sales shipped to Minnesota; or\n  * **200 or more** retail sales shipped to Minnesota.\n* **Measurement Period:** The **prior 12-month period** (or a period of 12 consecutive months).\n* **Details:** \n  * A retail sale is defined as one transaction. \n  * Sales where the purchaser buys for resale (supported by Form ST3) are excluded from the calculation.\n  * Once a seller exceeds the threshold, registration, collection, and remittance must begin on the first day of a calendar month occurring no later than 60 days after exceeding the exception.\n* **Years Applicable:** Applies to both tax years 2025 and 2026 (no changes between years).\n* **Official URLs:**\n  * Minnesota Department of Revenue – Sales Tax for Remote Sellers: https://www.revenue.state.mn.us/sales-tax-remote-sellers\n  * Minnesota Department of Revenue – Who Needs to Register?: https://www.revenue.state.mn.us/who-needs-register\n  * Minnesota Revisor of Statutes – Minn. Stat. § 297A.66: https://www.revisor.mn.gov/statutes/cite/297A.66\n\n---\n\n### 3. Public Law 86-272 Protection\n\n* **State Position:** \n  * P.L. 86-272 applies only to taxes based on net income.\n  * It protects businesses from state taxation if their in-state activities are limited to taking orders for the sale of tangible personal property that are approved and filled from outside Minnesota.\n  * If an entity is protected under federal P.L. 86-272 and does not have an otherwise independent Minnesota filing requirement, it is not required to pay the Minnesota minimum fee.\n  * Taxpayers claiming exemption must indicate this on the relevant corporate return (Form M4, Form M8, or Form M3) by checking the designated \"Public Law 86-272\" box.\n  * For official nexus determinations involving sales of tangible goods or services, the Department provides Questionnaires (Form C101 and Form C102) and formally references the *Statement of Information Concerning Practices of Multistate Tax Commission and Signatory States Under Public Law 86-272*.\n* **Years Applicable:** Applies to both tax years 2025 and 2026 (no changes between years).\n* **Official URLs:**\n  * Minnesota Department of Revenue – Nexus and Business Income Tax: https://www.revenue.state.mn.us/nexus-and-business-income-tax\n  * Minnesota Department of Revenue – Minimum Fee: https://www.revenue.state.mn.us/minimum-fee",
+  "proposals": [
+   {
+    "key": "income_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Corporation Franchise Tax applies to corporations located in Minnesota, having a business presence, or having Minnesota gross income without requiring physical presence. Under statutory presumptions, an entity regularly solicits business if it conducts specified activities with 20 or more persons or meets a $5,000,000 threshold for financial institutions.",
+    "source_url": "https://www.revisor.mn.gov/statutes/cite/290.015",
+    "evidence": [
+     "regularly solicits business",
+     "20 or more persons",
+     "equals or exceeds $5,000,000"
+    ],
+    "accepted": false,
+    "reason": "figure not stated beside the evidence on www.revisor.mn.gov; redirected off MN: http://validate.perfdrive.com/?ssa=892f54d7-e93f-414a-beed-dbecf8c5cbaf&ssb=40080250076&ssc=https%3A%2F%2Fwww.revenue.state.mn.us%2Fcorporation-franchise-tax&ssi=adb67ec4-bq5f-435f-bf63-678f788c241a&ssk=support@shieldsquare.com&ssm=07042313013501523136321739701624&ssn=dee0dec64faf2be2abb5879b865f0d478d5c2a56a77e-8444-4576-940a45&sso=81cf37bd-ade0d3f1c9b4200fd814ae3d27b9c37ddacbdfca2f67e6bc&ssp=80747140851791494743179",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales_economic_nexus",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Remote sellers must collect sales tax if their retail sales shipped into Minnesota exceed more than $100,000 or 200 or more retail sales transactions. The threshold is calculated over the prior 12-month period.",
+    "source_url": "https://www.revenue.state.mn.us/sales-tax-remote-sellers",
+    "evidence": [
+     "More than $100,000",
+     "200 or more retail sales",
+     "prior 12-month period"
+    ],
+    "accepted": false,
+    "reason": "redirected off MN: http://validate.perfdrive.com/?ssa=9673222c-5adc-455c-a930-c95e571917db&ssb=47191261612&ssc=https%3A%2F%2Fwww.revenue.state.mn.us%2Fsales-tax-remote-sellers&ssi=7eea5769-bq5f-4dbb-995e-e5f6eb90c492&ssk=support@shieldsquare.com&ssm=85464829472488609311057463083112&ssn=6bb35c53f1f9149ba90832fb14bffa32c78e2a56a77e-8444-4576-96f0d5&sso=a43d07bd-ade0d3f1c9b4e25be4d021e034a56f56750b92f1267f9ea5&ssp=99829947451791434771179143517581187&ssq=91556425474614898726754726603890768620438&ssr",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "pl_86_272",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "P.L. 86-272 protects businesses from tax based on net income if activities are limited to taking orders for sales of tangible personal property approved and filled from outside Minnesota. Qualifying protected entities without an independent filing requirement are not subject to the Minnesota minimum fee.",
+    "source_url": "https://www.revenue.state.mn.us/nexus-and-business-income-tax",
+    "evidence": [
+     "Public Law 86-272",
+     "tangible personal property",
+     "Minnesota minimum fee"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revisor.mn.gov/statutes/cite/290.015",
+    "matched_title": "Sec. 290.015 MN Statutes",
+    "matched_phrases": [
+     "Public Law 86-272",
+     "tangible personal property"
+    ],
+    "snippet": "(a) A person is not subject to tax under this chapter if the person is engaged in the business of selling tangible personal property and taxation of that person under this chapter is precluded by Public Law 86-272, United States Code, title 15, sections 381 to 384, or would be so precluded except for the fact that the person stored tangible personal property in a state licensed facility under chapter 231."
+   }
+  ],
+  "grounding_urls": [
+   "https://www.revenue.state.mn.us/corporation-franchise-tax",
+   "https://www.revenue.state.mn.us/nexus-minnesota-taxes",
+   "https://www.revisor.mn.gov/statutes/cite/290.015",
+   "https://www.revenue.state.mn.us/filing-requirements",
+   "https://www.revisor.mn.gov/statutes/cite/290.015",
+   "https://www.revenue.state.mn.us/sales-tax-faqs-remote-sellers",
+   "https://www.revenue.state.mn.us/guide/who-needs-register",
+   "https://www.revenue.state.mn.us/minimum-fee",
+   "https://www.revenue.state.mn.us/sites/default/files/2026-06/m3-inst-25_1.pdf",
+   "https://www.revenue.state.mn.us/sites/default/files/2025-10/m4-inst-24.pdf",
+   "https://www.revenue.state.mn.us/sites/default/files/2025-10/m8-inst-24.pdf",
+   "https://www.revenue.state.mn.us/filing-requirements"
+  ],
+  "error": ""
+ },
+ {
+  "state": "MN",
+  "section": "rates",
+  "notes": "### 1. Individual Income Tax Rates and Brackets\n\n* **Statutory Rates:** Minnesota has a four-bracket graduated individual income tax structure with statutory rates of **5.35%**, **6.80%**, **7.85%**, and **9.85%**. The statutory rates remain the same for tax years 2025 and 2026, but the bracket income thresholds are adjusted annually for inflation (a 2.886% increase for 2025 and a 2.369% increase for 2026).\n* **Tax Year 2025 Brackets:**\n  * **Married Filing Jointly:**\n    * 5.35%: $0 to $47,620\n    * 6.80%: $47,621 to $189,180\n    * 7.85%: $189,181 to $330,410\n    * 9.85%: Over $330,410 ($330,411 and over)\n  * **Single:**\n    * 5.35%: $0 to $32,570\n    * 6.80%: $32,571 to $106,990\n    * 7.85%: $106,991 to $198,630\n    * 9.85%: Over $198,630 ($198,631 and over)\n  * **Head of Household:**\n    * 5.35%: $0 to $40,100\n    * 6.80%: $40,101 to $161,130\n    * 7.85%: $161,131 to $264,050\n    * 9.85%: Over $264,050 ($264,051 and over)\n  * **Married Filing Separately:**\n    * 5.35%: $0 to $23,810\n    * 6.80%: $23,811 to $94,590\n    * 7.85%: $94,591 to $165,205\n    * 9.85%: Over $165,205 ($165,206 and over)\n* **Tax Year 2026 Brackets:**\n  * **Married Filing Jointly:**\n    * 5.35%: $0 to $48,700\n    * 6.80%: $48,701 to $193,480\n    * 7.85%: $193,481 to $337,930\n    * 9.85%: Over $337,930 ($337,931 and over)\n  * **Single:**\n    * 5.35%: $0 to $33,310\n    * 6.80%: $33,311 to $109,430\n    * 7.85%: $109,431 to $203,150\n    * 9.85%: Over $203,150 ($203,151 and over)\n  * **Head of Household:**\n    * 5.35%: $0 to $41,010\n    * 6.80%: $41,011 to $164,800\n    * 7.85%: $164,801 to $270,060\n    * 9.85%: Over $270,060 ($270,061 and over)\n  * **Married Filing Separately:**\n    * 5.35%: $0 to $24,350\n    * 6.80%: $24,351 to $96,740\n    * 7.85%: $96,741 to $168,965\n    * 9.85%: Over $168,965 ($168,966 and over)\n* **Official Sources:**\n  * Minnesota Department of Revenue, *Income Tax Rates and Brackets*: https://www.revenue.state.mn.us/income-tax-rates-and-brackets\n  * Minnesota Statutes § 290.06, subd. 2c: https://www.revisor.mn.gov/statutes/cite/290.06\n\n---\n\n### 2. Corporate Income / Franchise Tax Rate and Minimum Fee\n\n* **Franchise Tax Rate:** **9.8%** of taxable net income for C corporations (Minn. Stat. § 290.06, subd. 1). The rate is identical for both tax years 2025 and 2026 (no rate change).\n* **Corporate Minimum Fee (Minn. Stat. § 290.0922):** In addition to the franchise tax, corporations (including C corporations and S corporations) and partnerships doing business in Minnesota are subject to a minimum fee based on the sum of their Minnesota property, payroll, and sales/receipts. Thresholds and fees are adjusted annually for inflation:\n  * **Tax Year 2025:**\n    * Under $1,250,000: **$0**\n    * $1,250,000 – $2,509,999: **$260**\n    * $2,510,000 – $12,539,999: **$750**\n    * $12,540,000 – $25,069,999: **$2,510**\n    * $25,070,000 – $50,139,999: **$5,020**\n    * $50,140,000 and over: **$12,540**\n  * **Tax Year 2026:**\n    * Under $1,280,000: **$0**\n    * $1,280,000 – $2,559,999: **$260**\n    * $2,560,000 – $12,829,999: **$770**\n    * $12,830,000 – $25,639,999: **$2,560**\n    * $25,640,000 – $51,279,999: **$5,140**\n    * $51,280,000 and over: **$12,830**\n* **Official Sources:**\n  * Minnesota Department of Revenue, *Corporation Franchise Tax*: https://www.revenue.state.mn.us/corporation-franchise-tax\n  * Minnesota Department of Revenue, *Minimum Fee*: https://www.revenue.state.mn.us/minimum-fee\n  * Minnesota Statutes § 290.06: https://www.revisor.mn.gov/statutes/cite/290.06\n  * Minnesota Statutes § 290.0922: https://www.revisor.mn.gov/statutes/cite/290.0922\n\n---\n\n### 3. State Sales and Use Tax Rate and Local Rates\n\n* **State Sales and Use Tax Rate:** **6.875%** (composed of the 6.5% statutory base rate plus the 0.375% legacy constitutional amendment rate under Minn. Stat. § 297A.62). The state rate remains 6.875% for both 2025 and 2026.\n* **Local Taxes:** Yes, local jurisdictions (cities, counties, and special districts) add local sales and use taxes on top of the state rate. Local taxes apply to the same items and services as the state general rate.\n* **Official Sources:**\n  * Minnesota Department of Revenue, *Taxes and Rates*: https://www.revenue.state.mn.us/taxes-and-rates\n  * Minnesota Department of Revenue, *Local Sales and Use Taxes*: https://www.revenue.state.mn.us/local-sales-and-use-taxes\n  * Minnesota Statutes § 297A.62: https://www.revisor.mn.gov/statutes/cite/297A.62\n\n---\n\n### 4. Gross Receipts, Margin, Franchise, or Other Notable Business Taxes\n\n* **General Statewide Gross Receipts / Margin Tax:** **None** (Minnesota does not levy a broad-based gross receipts or Texas-style margin tax).\n* **Notable Specific Business & Gross Receipts Taxes:**\n  * **MinnesotaCare Taxes:** Gross receipts taxes imposed on health care providers, hospitals, surgical centers, and wholesale drug distributors. The provider tax rate is **1.8%** of taxable gross receipts for both 2025 and 2026.\n    * *Official URL:* https://www.revenue.state.mn.us/minnesotacare-taxes\n  * **Pass-Through Entity (PTE) Tax:** An elective entity-level income tax available for qualifying partnerships, S corporations, and LLCs. The rate equals the highest individual income tax rate (**9.85%**) applied to qualifying owners' apportioned Minnesota-source taxable income. Effective through taxable years beginning before January 1, 2028 (applies to both 2025 and 2026).\n    * *Official URL:* https://www.revenue.state.mn.us/pass-through-entity-pte-tax\n  * **Insurance Premium Taxes:** Gross premium taxes levied on insurance companies doing business in the state (general rate is **2%**, with reduced rates of 1% or 1.26% for certain qualifying mutual property and casualty companies; exempt from the corporate franchise tax). Applies to both 2025 and 2026.\n    * *Official URL:* https://www.revenue.state.mn.us/insurance-taxes",
+  "proposals": [
+   {
+    "key": "individual",
+    "years": [
+     2025
+    ],
+    "value": "Minnesota has four individual income tax brackets with rates of 5.35%, 6.80%, 7.85%, and 9.85%. In 2025, single filers pay 5.35% up to $32,570, 6.80% up to $106,990, 7.85% up to $198,630, and 9.85% over $198,630, while the top married filing jointly bracket starts at over $330,410.",
+    "source_url": "https://www.revenue.state.mn.us/income-tax-rates-and-brackets",
+    "evidence": [
+     "Income Tax Rates and Brackets",
+     "Married Filing Jointly",
+     "Head of Household"
+    ],
+    "accepted": false,
+    "reason": "redirected off MN: http://validate.perfdrive.com/?ssa=5b639b1c-dfca-43f0-85ae-dd9204f49325&ssb=64958227155&ssc=https%3A%2F%2Fwww.revenue.state.mn.us%2Fincome-tax-rates-and-brackets&ssi=b072d515-bq5f-4570-bb55-f081eddaa0d7&ssk=support@shieldsquare.com&ssm=62358339739065104373937020972693&ssn=5ce7d9b154eba0bb1c406b67dafa92fcdf942a56a77e-8444-4576-999e48&sso=e5eff7bd-ade0d3f1c9b48e6b6855ce32f0aab3e8b568f2209b2818c3&ssp=71014889321791411414179148946332165&ssq=6617110547480192323505472686615521145341",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "individual",
+    "years": [
+     2026
+    ],
+    "value": "Minnesota has four individual income tax brackets with rates of 5.35%, 6.80%, 7.85%, and 9.85%. In 2026, single filers pay 5.35% up to $33,310, 6.80% up to $109,430, 7.85% up to $203,150, and 9.85% over $203,150, while the top married filing jointly bracket starts at over $337,930.",
+    "source_url": "https://www.revenue.state.mn.us/income-tax-rates-and-brackets",
+    "evidence": [
+     "Income Tax Rates and Brackets",
+     "Married Filing Jointly",
+     "Head of Household"
+    ],
+    "accepted": false,
+    "reason": "redirected off MN: http://validate.perfdrive.com/?ssa=5b639b1c-dfca-43f0-85ae-dd9204f49325&ssb=64958227155&ssc=https%3A%2F%2Fwww.revenue.state.mn.us%2Fincome-tax-rates-and-brackets&ssi=b072d515-bq5f-4570-bb55-f081eddaa0d7&ssk=support@shieldsquare.com&ssm=62358339739065104373937020972693&ssn=5ce7d9b154eba0bb1c406b67dafa92fcdf942a56a77e-8444-4576-999e48&sso=e5eff7bd-ade0d3f1c9b48e6b6855ce32f0aab3e8b568f2209b2818c3&ssp=71014889321791411414179148946332165&ssq=6617110547480192323505472686615521145341",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2025
+    ],
+    "value": "Minnesota imposes a corporate franchise tax rate of 9.8% on taxable net income. In addition, corporations are subject to a minimum fee ranging from $0 up to $12,540 based on Minnesota property, payroll, and sales.",
+    "source_url": "https://www.revenue.state.mn.us/corporation-franchise-tax",
+    "evidence": [
+     "Corporation Franchise Tax",
+     "taxable net income",
+     "minimum fee"
+    ],
+    "accepted": false,
+    "reason": "redirected off MN: http://validate.perfdrive.com/?ssa=892f54d7-e93f-414a-beed-dbecf8c5cbaf&ssb=40080250076&ssc=https%3A%2F%2Fwww.revenue.state.mn.us%2Fcorporation-franchise-tax&ssi=adb67ec4-bq5f-435f-bf63-678f788c241a&ssk=support@shieldsquare.com&ssm=07042313013501523136321739701624&ssn=dee0dec64faf2be2abb5879b865f0d478d5c2a56a77e-8444-4576-940a45&sso=81cf37bd-ade0d3f1c9b4200fd814ae3d27b9c37ddacbdfca2f67e6bc&ssp=80747140851791494743179143231660961&ssq=31147845473866247421954726754339247654623&ss",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "corporate",
+    "years": [
+     2026
+    ],
+    "value": "Minnesota imposes a corporate franchise tax rate of 9.8% on taxable net income. In addition, corporations are subject to a minimum fee ranging from $0 up to $12,830 based on Minnesota property, payroll, and sales.",
+    "source_url": "https://www.revenue.state.mn.us/corporation-franchise-tax",
+    "evidence": [
+     "Corporation Franchise Tax",
+     "taxable net income",
+     "minimum fee"
+    ],
+    "accepted": false,
+    "reason": "redirected off MN: http://validate.perfdrive.com/?ssa=892f54d7-e93f-414a-beed-dbecf8c5cbaf&ssb=40080250076&ssc=https%3A%2F%2Fwww.revenue.state.mn.us%2Fcorporation-franchise-tax&ssi=adb67ec4-bq5f-435f-bf63-678f788c241a&ssk=support@shieldsquare.com&ssm=07042313013501523136321739701624&ssn=dee0dec64faf2be2abb5879b865f0d478d5c2a56a77e-8444-4576-940a45&sso=81cf37bd-ade0d3f1c9b4200fd814ae3d27b9c37ddacbdfca2f67e6bc&ssp=80747140851791494743179143231660961&ssq=31147845473866247421954726754339247654623&ss",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "sales",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Minnesota levies a state sales and use tax rate of 6.875%. Local jurisdictions add local sales and use taxes on top of the state rate.",
+    "source_url": "https://www.revenue.state.mn.us/taxes-and-rates",
+    "evidence": [
+     "state sales and use tax",
+     "Local Sales and Use Taxes",
+     "6.875%"
+    ],
+    "accepted": false,
+    "reason": "redirected off MN: http://validate.perfdrive.com/?ssa=7bdb3e4f-7972-4222-bb4b-e045a95c0bfd&ssb=03971283089&ssc=https%3A%2F%2Fwww.revenue.state.mn.us%2Ftaxes-and-rates&ssi=dc690062-bq5f-4613-abbc-cb9b2ad9e45e&ssk=support@shieldsquare.com&ssm=64371873874538853790080661169601&ssn=775d17a9d72e9bf3492468d9a4b77773e5872a56a77e-8444-4576-9b5396&sso=a62fe7bd-ade0d3f1c9b48e0fe2d1ca798d307d626bc89d55ab13076e&ssp=34013188521791433711179144086003371&ssq=54361395479497467116454726980584583714820&ssr=NDkuMjA2",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "other_business",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Minnesota offers an elective pass-through entity tax at 9.85% for qualifying partnerships, S corporations, and LLCs. It also imposes MinnesotaCare provider taxes of 1.8% on gross receipts of healthcare providers.",
+    "source_url": "https://www.revenue.state.mn.us/pass-through-entity-pte-tax",
+    "evidence": [
+     "pass-through entity",
+     "entity-level tax",
+     "qualifying partnerships"
+    ],
+    "accepted": false,
+    "reason": "redirected off MN: http://validate.perfdrive.com/?ssa=229f5a78-64f2-4948-ba5b-4e250380a068&ssb=06971244135&ssc=https%3A%2F%2Fwww.revenue.state.mn.us%2Fpass-through-entity-pte-tax&ssi=50febba2-bq5f-4945-bc6b-3b45b94a569e&ssk=support@shieldsquare.com&ssm=46455662406354724737582709289425&ssn=6f6674d25099b9b74233ab4396319fde4d4a2a56a77e-8444-4576-9f5ceb&sso=2189b7bd-ade0d3f1c9b4f450a2b533baf699f87bc9721b54abdc8500&ssp=26982613051791496280179141576166459&ssq=08105385478442866765054726932134078603948&",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   }
+  ],
+  "grounding_urls": [
+   "https://www.revenue.state.mn.us/mndor-pp/19621?type=html",
+   "https://www.revenue.state.mn.us/so/mndor-pp/6511?type=html",
+   "https://www.revenue.state.mn.us/press-release/2024-12-16/minnesota-income-tax-brackets-standard-deduction-and-dependent-exemption",
+   "https://www.revenue.state.mn.us/press-release/2025-12-16/minnesota-income-tax-brackets-standard-deduction-and-dependent-exemption",
+   "https://www.revenue.state.mn.us/sites/default/files/2026-01/tax-year-2025-tax-professional-desk-reference-chart-final.pdf",
+   "https://www.revenue.state.mn.us/mndor-pp/6511?type=html",
+   "https://www.revisor.mn.gov/statutes/cite/290.06",
+   "https://www.revisor.mn.gov/bills/90/2018/0/SF/3711/versions/0/pdf/",
+   "https://www.revenue.state.mn.us/minimum-fee",
+   "https://www.revenue.state.mn.us/minimum-fee",
+   "https://www.youtube.com/watch?v=PboIkZx8irQ",
+   "https://www.revenue.state.mn.us/sites/default/files/2024-12/inflation-adjusted-amounts-2025.pdf",
+   "https://www.revenue.state.mn.us/sites/default/files/2024-12/inflation-adjusted-amounts-2025.pdf",
+   "https://www.revenue.state.mn.us/sites/default/files/2025-12/inflation-adjusted-amounts-2026.pdf",
+   "https://www.revenue.state.mn.us/sites/default/files/2025-12/inflation-adjusted-amounts-2026.pdf",
+   "https://www.revenue.state.mn.us/corporation-franchise-tax",
+   "https://www.revenue.state.mn.us/revenue-notice/13-01-income-and-corporate-franchise-tax-qualified-subchapter-s-subsidiaries-qsss",
+   "https://www.revenue.state.mn.us/guide/taxes-and-rates",
+   "https://www.revenue.state.mn.us/sites/default/files/2015-03/hf1590%28sf1558%29_1.pdf",
+   "https://www.revenue.state.mn.us/book/export/html/18421",
+   "https://www.revenue.state.mn.us/guide/local-sales-tax",
+   "https://www.revenue.state.mn.us/local-sales-tax-information",
+   "https://monticellomn.gov/593/Local-Option-Sales-Tax",
+   "https://www.revenue.state.mn.us/minnesotacare-taxes",
+   "https://www.revenue.state.mn.us/sites/default/files/2025-01/2024-minnesotacare-provider-hospital-and-surgical-center-taxes-instructions.pdf",
+   "https://www.revenue.state.mn.us/sites/default/files/2025-12/2026-minnesotacare-estimated-tax-instructions-provider-tax.pdf",
+   "https://www.revenue.state.mn.us/minnesotacare-taxes",
+   "https://www.revenue.state.mn.us/pass-through-entity-pte-tax",
+   "https://www.revisor.mn.gov/bills/94/2025/0/SF/2374/versions/1/",
+   "https://www.revenue.state.mn.us/sites/default/files/2025-10/pte-25-grid.pdf",
+   "https://www.revenue.state.mn.us/sites/default/files/2025-11/m11-25.pdf",
+   "https://www.revenue.state.mn.us/solar-energy-production-tax"
+  ],
+  "error": ""
+ },
+ {
+  "state": "MN",
+  "section": "filing",
+  "notes": "### 1. Individual Return Due Dates and Extensions\n* **Due Date:** Calendar-year returns are due on **April 15** following the close of the tax year (e.g., April 15, 2026, for tax year 2025; April 15, 2027, for tax year 2026).\n* **Extension Rules:** \n  * Minnesota grants an automatic 6-month extension to file until **October 15**. Taxpayers do not file an extension application form with the state.\n  * An extension to file is not an extension to pay. To avoid late payment penalties, the taxpayer must pay at least **90%** of total tax by the regular due date (April 15) and pay the remaining balance and file the return by October 15.\n* **Applicability:** Applies to both tax years 2025 and 2026.\n* **Official URLs:** \n  * https://www.revenue.state.mn.us/income-tax-due-dates\n  * https://www.revenue.state.mn.us/filing-after-due-date\n\n---\n\n### 2. Corporate and Pass-Through Return Due Dates and Extension Rules\n* **Corporate Franchise Tax (C Corporations):**\n  * **Due Date:** Due on the same date as the federal C corporation return—the 15th day of the 4th month following year-end (**April 15** for calendar-year filers).\n  * **Extension:** Automatic **7-month** extension to file Form M4 (**November 15** for calendar-year filers). If the IRS grants an extension longer than 7 months, the state filing due date extends to the federal due date. Taxes owed must be paid by the regular due date.\n* **S Corporations and Partnerships:**\n  * **Due Date:** Due on the same date as the federal return—the 15th day of the 3rd month following year-end (**March 15** for calendar-year filers).\n  * **Extension:** Automatic **6-month** extension to file Form M8 (S Corporation) or Form M3 (Partnership) (**September 15** for calendar-year filers). If the IRS grants a longer federal extension, Minnesota matches the federal extended due date. All taxes owed must be paid by the regular due date.\n* **Applicability:** Applies to both tax years 2025 and 2026.\n* **Official URLs:**\n  * https://www.revenue.state.mn.us/due-date\n  * https://www.revenue.state.mn.us/filing-extensions\n  * https://www.revenue.state.mn.us/s-corporation-due-dates\n  * https://www.revenue.state.mn.us/s-corporation-extensions\n  * https://www.revenue.state.mn.us/partnership-due-dates\n  * https://www.revenue.state.mn.us/partnership-extensions\n\n---\n\n### 3. Elective Pass-Through Entity (PTE) Tax\n* **Existence:** Yes; Minnesota allows qualifying partnerships and S corporations to elect to pay tax at the entity level for tax years beginning after December 31, 2020, through tax year 2027 (extended through 2027 by 2026 legislation). Single-member LLCs not taxed as partnerships or S corporations are not eligible.\n* **Eligibility & Voting:** Permitted if owners holding more than **50%** voting control/ownership interest choose to elect it.\n* **Rate:** The highest individual income tax rate, which is **9.85%**.\n* **How and When to Elect:**\n  * Elected by filing **Schedule PTE** with Form M3 or Form M8 (and Schedule PTE-RP for partnerships with resident partners).\n  * Must be elected by the entity’s due date or extended due date (**September 15** for calendar-year filers). It can be elected on an amended return filed on or before the extended due date, but cannot be revoked after the original due date.\n* **Year-to-Year Changes:** Under the 2026 tax bill, estimated PTE payment rules were updated for **tax year 2026 only**: entities electing PTE tax in 2026 must make four equal, on-time payments, with first-quarter estimated payments treated as timely if paid by the second-quarter due date.\n* **Official URLs:**\n  * https://www.revenue.state.mn.us/pass-through-entity-pte-tax\n  * https://www.revenue.state.mn.us/tax-law-changes\n\n---\n\n### 4. Composite / Group Nonresident Returns for Pass-Through Entities\n* **Existence & Eligibility:** Eligible nonresident individual partners, shareholders, or beneficiaries with no other Minnesota-source income (aside from income from other entities paying composite or PTE tax) may elect to have the entity file composite income tax on their behalf.\n* **Election & Administration:** The individual owner makes the election; the pass-through entity computes, reports, and remits the tax on the entity return (Form M3 for partnerships, Form M8 for S corporations). Electing nonresidents are relieved of filing an individual Minnesota return (Form M1).\n* **Rate:** Calculated at the highest individual income tax rate of **9.85%** on Minnesota-source distributive income, less allowable passed-through credits.\n* **Applicability:** Applies to both tax years 2025 and 2026.\n* **Official URLs:**\n  * https://www.revenue.state.mn.us/composite-income-tax\n\n---\n\n### 5. Estimated Tax Payments and Nonresident Withholding for Pass-Throughs\n* **Pass-Through Estimated Tax Requirements:**\n  * Required if the entity’s combined estimated liability for minimum fee, PTE tax, composite income tax, and nonresident withholding (less credits) is **$500 or more**.\n  * **Due Dates (Calendar-Year Filers):** **April 15**, **June 15**, **September 15**, and **January 15** of the following year.\n  * **Required Annual Amount:** The lesser of **90%** of current-year tax or **100%** of prior-year tax (must be paid in four equal installments).\n* **Nonresident Withholding for Pass-Throughs:**\n  * Required if the entity does not make a PTE tax election and the nonresident partner/shareholder is not participating in composite income tax.\n  * Threshold: Applies to nonresident individual owners whose Minnesota-source distributive income is **$1,000 or more**.\n  * Withholding Rate: **9.85%** of Minnesota-source distributive income, reduced by allowable passed-through credits.\n  * Relief: Owners may submit **Form AWC** (Alternative Withholding Certificate) to reduce or eliminate withholding if other Minnesota tax payments or credits apply.\n* **Applicability:** Applies to both tax years 2025 and 2026 (subject to the 2026-only PTE estimated payment timing adjustment noted in Topic 3).\n* **Official URLs:**\n  * https://www.revenue.state.mn.us/estimated-tax-payments-partnerships\n  * https://www.revenue.state.mn.us/nonresident-withholding\n\n---\n\n### 6. Main Return Forms\n* **Individuals:** \n  * **Form M1** (*Minnesota Individual Income Tax Return*)\n* **Corporations:** \n  * **Form M4** (*Corporation Franchise Tax Return*)\n* **Pass-Through Entities:**\n  * **Form M3** (*Partnership Return*)\n    * **Schedule KPI** (*Partner’s Share of Income, Credits and Modifications*)\n    * **Schedule KPC** (*Partner’s Share of Income, Credits and Modifications for Corporate/Entity Partners*)\n    * **Schedule PTE** (*Pass-Through Entity Tax*)\n    * **Schedule PTE-RP** (*Pass-Through Entity Tax for Resident Partners*)\n  * **Form M8** (*S Corporation Return*)\n    * **Schedule KS** (*Shareholder’s Share of Income, Credits and Modifications*)\n    * **Schedule PTE** (*Pass-Through Entity Tax*)\n* **Applicability:** Applies to both tax years 2025 and 2026.\n* **Official URLs:**\n  * https://www.revenue.state.mn.us/corporation-franchise-tax\n  * https://www.revenue.state.mn.us/partnership-tax\n  * https://www.revenue.state.mn.us/s-corporation-tax",
+  "proposals": [
+   {
+    "key": "individual_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Calendar-year individual income tax returns are due on April 15, with an automatic six-month extension to file until October 15 without filing a separate application form. To avoid late payment penalties, taxpayers must pay at least 90% of their total tax by April 15.",
+    "source_url": "https://www.revenue.state.mn.us/income-tax-due-dates",
+    "evidence": [
+     "April 15",
+     "October 15",
+     "automatic 6-month extension",
+     "pay at least 90%"
+    ],
+    "accepted": false,
+    "reason": "redirected off MN: http://validate.perfdrive.com/?ssa=347e7cab-bc77-4641-817e-320d774aa590&ssb=30162269579&ssc=https%3A%2F%2Fwww.revenue.state.mn.us%2Fincome-tax-due-dates&ssi=3bee5b45-bq5f-41aa-bcbe-c0cd44256bd9&ssk=support@shieldsquare.com&ssm=33728028662940947824800207370742&ssn=86e4b0f90884ee5c7a390797b6484dff6f4f2a56a77e-8444-4576-9e048d&sso=7105c7bd-ade0d3f1c9b4c504df39931d6fe00373a07798efc767b391&ssp=42330521531791405963179147805836440&ssq=72896975479519692443154726934283724495277&ssr=NDk",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "business_due",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Corporate franchise tax returns are due April 15 with an automatic 7-month extension to November 15, while S corporation and partnership returns are due March 15 with an automatic 6-month extension to September 15. All taxes owed must be paid by the original due date regardless of any extension.",
+    "source_url": "https://www.revenue.state.mn.us/filing-extensions",
+    "evidence": [
+     "Form M4",
+     "automatic 7-month extension",
+     "Form M8",
+     "automatic 6-month extension"
+    ],
+    "accepted": false,
+    "reason": "redirected off MN: http://validate.perfdrive.com/?ssa=74b2d92a-2698-4af5-8174-d9eb576adca4&ssb=57665258173&ssc=https%3A%2F%2Fwww.revenue.state.mn.us%2Ffiling-extensions&ssi=3f4e614a-bq5f-49c1-94e0-7ad927b47b64&ssk=support@shieldsquare.com&ssm=64707625383457920889597177832320&ssn=2b4ff3e4a07b62844bbf309b57758349e7192a56a77e-8444-4576-99aa4d&sso=d9c667bd-ade0d3f1c9b4f61a1ec0dd2e79138d0db82903523b2f7505&ssp=80635435361791427014179145820734733&ssq=26047275479742587867154726184584550243165&ssr=NDkuMj",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2025
+    ],
+    "value": "Qualifying partnerships and S corporations owned more than 50% by electing owners may elect to pay pass-through entity tax at a rate of 9.85%. The election is made on Schedule PTE and must be filed by the return's due date or extended due date.",
+    "source_url": "https://www.revenue.state.mn.us/pass-through-entity-pte-tax",
+    "evidence": [
+     "Schedule PTE",
+     "more than 50%",
+     "tax rate of 9.85%",
+     "extended due date"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.state.mn.us/sites/default/files/2026-06/m8-inst-22.pdf",
+    "matched_title": "2022 S Corporation Form M8 Instructions",
+    "matched_phrases": [
+     "Schedule PTE",
+     "more than 50%",
+     "extended due date"
+    ],
+    "snippet": "7) Any corporation or other business entity that is more than 50% owned, directly or indirectly, by any person or business entity described in clauses (1) to (6), other than an insurance company taxable under chapter 2971."
+   },
+   {
+    "key": "ptet",
+    "years": [
+     2026
+    ],
+    "value": "Qualifying pass-through entities can elect PTE tax at 9.85% by filing Schedule PTE by the due date or extended due date. For tax year 2026, entities must make four equal payments, and first-quarter estimated payments are treated as timely if paid by the second-quarter due date.",
+    "source_url": "https://www.revenue.state.mn.us/pass-through-entity-pte-tax",
+    "evidence": [
+     "Schedule PTE",
+     "tax rate of 9.85%",
+     "four equal payments",
+     "second-quarter due date"
+    ],
+    "accepted": false,
+    "reason": "redirected off MN: http://validate.perfdrive.com/?ssa=229f5a78-64f2-4948-ba5b-4e250380a068&ssb=06971244135&ssc=https%3A%2F%2Fwww.revenue.state.mn.us%2Fpass-through-entity-pte-tax&ssi=50febba2-bq5f-4945-bc6b-3b45b94a569e&ssk=support@shieldsquare.com&ssm=46455662406354724737582709289425&ssn=6f6674d25099b9b74233ab4396319fde4d4a2a56a77e-8444-4576-9f5ceb&sso=2189b7bd-ade0d3f1c9b4f450a2b533baf699f87bc9721b54abdc8500&ssp=26982613051791496280179141576166459&ssq=08105385478442866765054726932134078603948&",
+    "matched_url": "",
+    "matched_title": "",
+    "matched_phrases": [],
+    "snippet": ""
+   },
+   {
+    "key": "composite",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Eligible nonresident individual owners with no other Minnesota-source income may elect to have the pass-through entity file composite income tax on their behalf. The tax is calculated at the highest individual income tax rate of 9.85% on Minnesota-source distributive income.",
+    "source_url": "https://www.revenue.state.mn.us/composite-income-tax",
+    "evidence": [
+     "composite income tax",
+     "highest individual income tax",
+     "Form M3",
+     "Form M8"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.state.mn.us/sites/default/files/2025-12/kpi-25.pdf",
+    "matched_title": "2025 KPI, Partner's Share of Income, Credits and Modifications",
+    "matched_phrases": [
+     "composite income tax",
+     "Form M3"
+    ],
+    "snippet": "If you elected composite income tax, the amount paid on your behalf equals 9.85% of your Minnesota source distributive income on line 53, minus your share of any credits on lines 23-25, 27-32, and 34."
+   },
+   {
+    "key": "estimates",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Pass-through entities must make estimated payments if their combined liability is $500 or more, paying the lesser of 90% of current-year tax or 100% of prior-year tax in four equal installments. Nonresident withholding of 9.85% applies to nonresident owners with Minnesota-source distributive income of $1,000 or more unless PTE tax or composite tax is elected or Form AWC is filed.",
+    "source_url": "https://www.revenue.state.mn.us/estimated-tax-payments-partnerships",
+    "evidence": [
+     "$500 or more",
+     "four equal installments",
+     "nonresident withholding",
+     "Form AWC"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.state.mn.us/sites/default/files/2026-06/m8-inst-22.pdf",
+    "matched_title": "2022 S Corporation Form M8 Instructions",
+    "matched_phrases": [
+     "$500 or more",
+     "four equal installments",
+     "nonresident withholding",
+     "Form AWC"
+    ],
+    "snippet": "Estimated Tax Payments An S corporation must make quarterly estimated tax payments if the sum of its estimated S corporation taxes, minimum fee, nonresident withholding, pass-through entity tax, and composite income tax for all nonresident shareholders electing to participate in composite income tax, less any credits, is $500 or more."
+   },
+   {
+    "key": "key_forms",
+    "years": [
+     2025,
+     2026
+    ],
+    "value": "Primary returns include Form M1 for individuals, Form M4 for corporations, Form M3 for partnerships, and Form M8 for S corporations. Pass-through entities also file Schedules KPI, KPC, KS, PTE, and PTE-RP as applicable.",
+    "source_url": "https://www.revenue.state.mn.us/corporation-franchise-tax",
+    "evidence": [
+     "Form M4",
+     "Corporation Franchise Tax",
+     "Form M1",
+     "Form M3"
+    ],
+    "accepted": true,
+    "reason": "",
+    "matched_url": "https://www.revenue.state.mn.us/sites/default/files/2025-10/m4-inst-24.pdf",
+    "matched_title": "2024 Corporation Franchise Tax Return (M4) Instructions",
+    "matched_phrases": [
+     "Form M4",
+     "Corporation Franchise Tax"
+    ],
+    "snippet": "Forms Which Form Should You File? Most corporations, other than S corporations, file Form M4, Corporation Franchise Tax Return."
+   }
+  ],
+  "grounding_urls": [
+   "https://www.revenue.state.mn.us/income-tax-due-dates",
+   "https://www.revenue.state.mn.us/paying-your-individual-income-tax",
+   "https://www.revenue.state.mn.us/filing-extensions",
+   "https://www.revenue.state.mn.us/sites/default/files/2011-11/RN_93-20.pdf",
+   "https://www.revenue.state.mn.us/es/mndor-pp/21446?type=html",
+   "https://www.revenue.state.mn.us/due-date",
+   "https://www.revenue.state.mn.us/sites/default/files/2025-10/m4-inst-24.pdf",
+   "https://www.revenue.state.mn.us/filing-extensions-0",
+   "https://www.revenue.state.mn.us/penalties-and-interest-businesses",
+   "https://www.revenue.state.mn.us/sites/default/files/2025-10/m4-inst-24.pdf",
+   "https://www.revenue.state.mn.us/s-corporation-due-dates",
+   "https://www.revenue.state.mn.us/partnership-due-dates",
+   "https://www.revenue.state.mn.us/s-corporation-extensions",
+   "https://www.revenue.state.mn.us/partnership-extensions",
+   "https://www.revenue.state.mn.us/sites/default/files/2026-06/m8-inst-22.pdf",
+   "https://www.revenue.state.mn.us/pass-through-entity-pte-tax",
+   "https://www.revenue.state.mn.us/tax-law-changes",
+   "https://www.revenue.state.mn.us/pass-through-entity-pte-tax",
+   "https://www.revenue.state.mn.us/sites/default/files/2026-07/2024-25-annual-tax-pro-webinar-qa.pdf",
+   "https://www.revenue.state.mn.us/sites/default/files/2025-10/pte-rp-25-grid.pdf",
+   "https://www.revenue.state.mn.us/partnership-tax",
+   "https://www.revenue.state.mn.us/composite-income-tax",
+   "https://www.revenue.state.mn.us/sites/default/files/2026-07/m2-inst-25.pdf",
+   "https://www.revenue.state.mn.us/sites/default/files/2026-03/scorppartnershipclass-handout-03302026.pdf",
+   "https://www.revenue.state.mn.us/sites/default/files/2025-12/kpi-25.pdf",
+   "https://www.revenue.state.mn.us/sites/default/files/2025-12/ks-25.pdf",
+   "https://www.revenue.state.mn.us/sites/default/files/2026-06/m3-inst-25_1.pdf",
+   "https://www.revenue.state.mn.us/sites/default/files/2026-06/m3-inst-25_1.pdf",
+   "https://www.revenue.state.mn.us/estimated-tax-payments-partnerships",
+   "https://dev.revenue.state.mn.us/sites/default/files/2013-12/partnership_est_tax_inst_13.pdf",
+   "https://www.revenue.state.mn.us/nonresident-withholding",
+   "https://www.revenue.state.mn.us/sites/default/files/2023-12/awc-23.pdf",
+   "https://www.revenue.state.mn.us/sites/default/files/2026-01/m1-inst-24.pdf",
+   "https://www.revenue.state.mn.us/sites/default/files/2025-10/m3-inst-24_0.pdf",
+   "https://www.revenue.state.mn.us/sites/default/files/2025-11/kpi-25-grid.pdf",
+   "https://www.revenue.state.mn.us/sites/default/files/2026-07/m3x-25.pdf",
+   "https://www.revenue.state.mn.us/pass-through-entity-tax-example",
+   "https://www.revenue.state.mn.us/sites/default/files/2025-12/ks-25.pdf",
+   "https://www.revenue.state.mn.us/sites/default/files/2025-12/m8-25.pdf",
+   "https://www.revenue.state.mn.us/sites/default/files/2026-03/m1-25.pdf",
+   "https://www.revenue.state.mn.us/corporation-franchise-tax",
+   "https://www.revenue.state.mn.us/s-corporation-tax"
+  ],
+  "error": ""
+ }
+]

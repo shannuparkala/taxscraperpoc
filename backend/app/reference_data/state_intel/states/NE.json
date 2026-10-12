@@ -1,0 +1,130 @@
+{
+  "code": "NE",
+  "name": "Nebraska",
+  "sections": {
+    "apportionment": {
+      "fields": [
+        {
+          "key": "sourcing",
+          "label": "Sales sourcing (services and intangibles)",
+          "value": "Nebraska uses market-based sourcing for gross receipts from services and intangibles based on where the buyer uses the service or property. Communications companies are subject to a statutory exception requiring cost-of-performance sourcing.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://revenue.nebraska.gov/about/apportionment-multistate-business-market-based-sourcing",
+          "source_citation": "Apportionment for Multistate Business Market-Based Sourcing | Nebraska Department of Revenue",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Market-based sourcing replaces the former costs of performance method of apportionment used for tax years beginning before January 1, 2014."
+        },
+        {
+          "key": "special_industries",
+          "label": "Special industry rules",
+          "value": "Special industry apportionment rules apply to airlines, pipeline companies, trucking companies, and insurance companies. Communications companies are required to use cost of performance, while financial institutions are subject to a deposit-based tax.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://revenue.nebraska.gov/about/legal-information/regulations/chapter-24-apportionment",
+          "source_citation": "Chapter 24 - Apportionment | Nebraska Department of Revenue",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Sale Not Specifically Addressed REG-24-341 Special Apportionment Rules;"
+        },
+        {
+          "key": "forms",
+          "label": "Forms",
+          "value": "Apportionment is computed on Nebraska Schedule I (Apportionment for Multistate Business). This schedule is filed with Form 1120N for C corporations, Form 1120-SN for S corporations, and Form 1065N for partnerships.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2025/f_Corp_Booklet.pdf",
+          "source_citation": "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2025/f_Corp_Booklet.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Form 1120N (2025) Page 2 FORM 1120N Schedules A and I 2025 Name on Form 1120N Nebraska ID Number Nebraska Schedule A — Adjustments to FTI Nebraska Schedule I — Apportionment for Multistate Business ."
+        }
+      ]
+    },
+    "nexus": {
+      "fields": [
+        {
+          "key": "pl_86_272",
+          "label": "P.L. 86-272",
+          "value": "Nebraska explicitly protects activities falling within P.L. 86-272, defining doing business as operations exceeding 15 U.S.C. 381 limitations. Department guidance clarifies that deliveries in company-owned vehicles are protected, while services performed in the state are not.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://revenue.nebraska.gov/sites/default/files/doc/legal/rulings/rr240801.pdf",
+          "source_citation": "rr240801.indd",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Such services are not protected by Public Law 86-272."
+        }
+      ]
+    },
+    "rates": {
+      "fields": [
+        {
+          "key": "individual",
+          "label": "Individual income tax",
+          "value": "For tax year 2025, Nebraska individual income tax is levied across four brackets at rates of 2.46%, 3.51%, 5.01%, and 5.20%.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://revenue.nebraska.gov/sites/default/files/doc/research/chronology/4-607table1.pdf",
+          "source_citation": "Nebraska Tax Rate Chronologies - Table 1",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "1, 2026 7 2.46% 3.51% 4.55% 4.55% $176 $8,850 $17 ,700 4.55% 5.5% 2.50% Oct."
+        },
+        {
+          "key": "corporate",
+          "label": "Corporate income/franchise tax",
+          "value": "Nebraska imposes a flat corporate income tax rate of 5.20% on all taxable income for tax year 2025, with no minimum tax.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2025/f_Corp_Booklet.pdf",
+          "source_citation": "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2025/f_Corp_Booklet.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "For the 2025 taxable year, the corporate tax rate for Nebraska taxable income is reduced to 5.20%."
+        }
+      ]
+    },
+    "filing": {
+      "fields": [
+        {
+          "key": "composite",
+          "label": "Composite returns",
+          "value": "Nebraska does not permit the filing of composite income tax returns. Entities must instead obtain an executed Form 12N nonresident agreement or remit withholding on the nonresident owner's share of income using Schedule II of Form 1065N or Form 1120-SN.",
+          "years": [
+            2025,
+            2026
+          ],
+          "source_url": "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2024/f_S_Corporation_Booklet.pdf",
+          "source_citation": "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2024/f_S_Corporation_Booklet.pdf",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "Instead, check this box FORM 1120-SN Schedule II 2024 (A)(B) Shareholder (C) Percent of Ownership (D) Nebraska Resident Individual (Y or N) Nonresident Individuals and Grantor Trusts (Skip if line 5, Form 1120-SN is less than zero) Shareholder NameShareholder Address (E) Check if Form 12N Attached (F) Shareholder Income [Line 5 Form 1120-SN x Column (C) Percent] (G) Nebr."
+        },
+        {
+          "key": "key_forms",
+          "label": "Key forms",
+          "value": "Key individual forms include Form 1040N, Form 1040N-ES, and Form 4868N. Key business forms include Form 1120N for C corporations, Form 1120-SN for S corporations, Form 1065N for partnerships, and Form 7004N for extensions.",
+          "years": [
+            2025
+          ],
+          "source_url": "https://revenue.nebraska.gov/tax-professionals/2025-final-income-tax-forms",
+          "source_citation": "2025 Final Income Tax Forms | Nebraska Department of Revenue",
+          "last_verified": "2026-10-09",
+          "verification": "automated_page_match",
+          "quote": "…rm 941N - Nebraska Income Tax Withholding Return Individual Income Tax 2025 Individual Income Tax and Amended Return Booklet - Including forms and instructions Form 1040N - 2025 Nebraska Individual Income Tax Return Form 1040N - Schedules I, II, and III 2025 Nebraska Tax Table 2025 Public High School District Codes Form 1040N-EB - Purchase of a Nebraska Residence in a…"
+        }
+      ]
+    }
+  }
+}

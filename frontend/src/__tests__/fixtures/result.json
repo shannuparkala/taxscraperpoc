@@ -1,0 +1,980 @@
+{
+ "tax_year": 2025,
+ "method": "section_179_bonus",
+ "primary_scenario": "section_179_bonus",
+ "primary_label": "Section 179, then bonus, then MACRS",
+ "supported_years": [
+  2021,
+  2022,
+  2023,
+  2024,
+  2025,
+  2026
+ ],
+ "assets": [
+  {
+   "id": "asset-fixture",
+   "description": "Delivery truck",
+   "asset_class": "heavy_vehicle",
+   "class_label": "Heavy SUV, truck or van (over 6,000 lb GVWR)",
+   "recovery_years": "5",
+   "system": "GDS",
+   "method": "200DB",
+   "convention": "HY",
+   "table": "IRS Pub. 946 (2025), Table A-1 (GDS, half-year convention)",
+   "table_column": "5",
+   "placed_in_service": "2025-06-01",
+   "cost": "100000",
+   "land_value": "0",
+   "business_use_pct": "100",
+   "business_basis": "100000",
+   "section_179_elected": "31300",
+   "section_179_allowed": "31300",
+   "section_179_carryforward": "0",
+   "bonus_rate": "100",
+   "bonus": "68700",
+   "special_allowance": "0",
+   "macrs_basis": "0",
+   "tax_year_deduction": "100000",
+   "total": "100000",
+   "schedule": [
+    {
+     "year": 2025,
+     "section_179": "31300",
+     "bonus": "68700",
+     "special": "0",
+     "macrs": "0",
+     "total": "100000",
+     "index": 1,
+     "rate": "20.00",
+     "cumulative": "100000",
+     "remaining": "0",
+     "capped": false,
+     "why": [
+      "Section 179 expense: $31,300 elected and allowed this year.",
+      "Bonus: $68,700 x 100% = $68,700.",
+      "MACRS: $0 x 20% (year 1, IRS Pub. 946 (2025), Table A-1 (GDS, half-year convention), column 5) = $0.00."
+     ]
+    },
+    {
+     "year": 2026,
+     "section_179": "0",
+     "bonus": "0",
+     "special": "0",
+     "macrs": "0",
+     "total": "0",
+     "index": 2,
+     "rate": "32.00",
+     "cumulative": "100000",
+     "remaining": "0",
+     "capped": false,
+     "why": [
+      "MACRS: $0 x 32% (year 2, IRS Pub. 946 (2025), Table A-1 (GDS, half-year convention), column 5) = $0.00."
+     ]
+    },
+    {
+     "year": 2027,
+     "section_179": "0",
+     "bonus": "0",
+     "special": "0",
+     "macrs": "0",
+     "total": "0",
+     "index": 3,
+     "rate": "19.20",
+     "cumulative": "100000",
+     "remaining": "0",
+     "capped": false,
+     "why": [
+      "MACRS: $0 x 19.2% (year 3, IRS Pub. 946 (2025), Table A-1 (GDS, half-year convention), column 5) = $0.00."
+     ]
+    },
+    {
+     "year": 2028,
+     "section_179": "0",
+     "bonus": "0",
+     "special": "0",
+     "macrs": "0",
+     "total": "0",
+     "index": 4,
+     "rate": "11.52",
+     "cumulative": "100000",
+     "remaining": "0",
+     "capped": false,
+     "why": [
+      "MACRS: $0 x 11.52% (year 4, IRS Pub. 946 (2025), Table A-1 (GDS, half-year convention), column 5) = $0.00."
+     ]
+    },
+    {
+     "year": 2029,
+     "section_179": "0",
+     "bonus": "0",
+     "special": "0",
+     "macrs": "0",
+     "total": "0",
+     "index": 5,
+     "rate": "11.52",
+     "cumulative": "100000",
+     "remaining": "0",
+     "capped": false,
+     "why": [
+      "MACRS: $0 x 11.52% (year 5, IRS Pub. 946 (2025), Table A-1 (GDS, half-year convention), column 5) = $0.00."
+     ]
+    },
+    {
+     "year": 2030,
+     "section_179": "0",
+     "bonus": "0",
+     "special": "0",
+     "macrs": "0",
+     "total": "0",
+     "index": 6,
+     "rate": "5.76",
+     "cumulative": "100000",
+     "remaining": "0",
+     "capped": false,
+     "why": [
+      "MACRS: $0 x 5.76% (year 6, IRS Pub. 946 (2025), Table A-1 (GDS, half-year convention), column 5) = $0.00."
+     ]
+    }
+   ],
+   "tape": [
+    {
+     "title": "Depreciable basis",
+     "lines": [
+      {
+       "label": "Cost basis",
+       "value": "100000",
+       "op": "",
+       "kind": "money",
+       "emphasis": false,
+       "note": ""
+      },
+      {
+       "label": "Depreciable basis",
+       "value": "100000",
+       "op": "=",
+       "kind": "money",
+       "emphasis": true,
+       "note": ""
+      }
+     ]
+    },
+    {
+     "title": "Section 179 election (2025)",
+     "lines": [
+      {
+       "label": "Section 179 dollar limit (2025)",
+       "value": "2500000",
+       "op": "",
+       "kind": "money",
+       "emphasis": false,
+       "note": "Limit reduced dollar for dollar above the phase-out threshold"
+      },
+      {
+       "label": "Section 179 elected on this asset",
+       "value": "31300",
+       "op": "T",
+       "kind": "money",
+       "emphasis": true,
+       "note": ""
+      },
+      {
+       "label": "Basis after Section 179",
+       "value": "68700",
+       "op": "=",
+       "kind": "money",
+       "emphasis": false,
+       "note": ""
+      }
+     ]
+    },
+    {
+     "title": "Bonus depreciation (2025)",
+     "lines": [
+      {
+       "label": "Basis subject to bonus",
+       "value": "68700",
+       "op": "",
+       "kind": "money",
+       "emphasis": false,
+       "note": ""
+      },
+      {
+       "label": "Bonus rate for 2025",
+       "value": "100",
+       "op": "x",
+       "kind": "percent",
+       "emphasis": false,
+       "note": "Set by the acquisition and placed-in-service dates"
+      },
+      {
+       "label": "First-year bonus",
+       "value": "68700",
+       "op": "T",
+       "kind": "money",
+       "emphasis": true,
+       "note": ""
+      }
+     ]
+    },
+    {
+     "title": "Remaining basis for regular depreciation",
+     "lines": [
+      {
+       "label": "Depreciable basis",
+       "value": "100000",
+       "op": "",
+       "kind": "money",
+       "emphasis": false,
+       "note": ""
+      },
+      {
+       "label": "Section 179 elected",
+       "value": "31300",
+       "op": "-",
+       "kind": "money",
+       "emphasis": false,
+       "note": ""
+      },
+      {
+       "label": "Bonus",
+       "value": "68700",
+       "op": "-",
+       "kind": "money",
+       "emphasis": false,
+       "note": ""
+      },
+      {
+       "label": "Basis for regular depreciation (HY convention)",
+       "value": "0",
+       "op": "=",
+       "kind": "money",
+       "emphasis": true,
+       "note": ""
+      }
+     ]
+    },
+    {
+     "title": "2025 deduction",
+     "lines": [
+      {
+       "label": "Section 179",
+       "value": "31300",
+       "op": "+",
+       "kind": "money",
+       "emphasis": false,
+       "note": ""
+      },
+      {
+       "label": "Bonus depreciation",
+       "value": "68700",
+       "op": "+",
+       "kind": "money",
+       "emphasis": false,
+       "note": ""
+      },
+      {
+       "label": "Basis the rate applies to",
+       "value": "0",
+       "op": "",
+       "kind": "money",
+       "emphasis": false,
+       "note": ""
+      },
+      {
+       "label": "Year 1 table rate",
+       "value": "20.00",
+       "op": "x",
+       "kind": "percent",
+       "emphasis": false,
+       "note": "IRS Pub. 946 (2025), Table A-1 (GDS, half-year convention), column 5"
+      },
+      {
+       "label": "Regular depreciation before rounding and limits",
+       "value": "0.00",
+       "op": "=",
+       "kind": "money",
+       "emphasis": false,
+       "note": ""
+      },
+      {
+       "label": "2025 depreciation",
+       "value": "100000",
+       "op": "T",
+       "kind": "money",
+       "emphasis": true,
+       "note": ""
+      }
+     ]
+    },
+    {
+     "title": "All years through the tax year",
+     "lines": [
+      {
+       "label": "2025 (selected)",
+       "value": "100000",
+       "op": "+",
+       "kind": "money",
+       "emphasis": true,
+       "note": ""
+      },
+      {
+       "label": "Accumulated 12/31/25",
+       "value": "100000",
+       "op": "T",
+       "kind": "money",
+       "emphasis": true,
+       "note": ""
+      }
+     ]
+    },
+    {
+     "title": "Ending values 12/31/25",
+     "lines": [
+      {
+       "label": "Depreciable basis",
+       "value": "100000",
+       "op": "",
+       "kind": "money",
+       "emphasis": false,
+       "note": ""
+      },
+      {
+       "label": "Accumulated deductions",
+       "value": "100000",
+       "op": "-",
+       "kind": "money",
+       "emphasis": false,
+       "note": ""
+      },
+      {
+       "label": "Adjusted basis (NBV) 12/31/25",
+       "value": "0",
+       "op": "=",
+       "kind": "money",
+       "emphasis": true,
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Section 179 limited to the $31,300 SUV cap for 2025."
+   ]
+  }
+ ],
+ "summary": {
+  "current_year": {
+   "label": "Current-year deduction (2025)",
+   "value": "100000",
+   "why": [
+    "Section 179 expense: $31,300 elected and allowed this year.",
+    "Bonus: $68,700 x 100% = $68,700.",
+    "MACRS: $0 x 20% (year 1, IRS Pub. 946 (2025), Table A-1 (GDS, half-year convention), column 5) = $0.00.",
+    "Total 2025 deduction = $100,000"
+   ]
+  },
+  "ending_cost": {
+   "label": "Ending cost 12/31/25",
+   "value": "100000",
+   "why": [
+    "Depreciable basis of every asset placed in service by the end of the tax year:",
+    "cost, less land and any clean vehicle credit, times the business-use percentage.",
+    "= $100,000"
+   ]
+  },
+  "ending_accumulated": {
+   "label": "Ending accumulated 12/31/25",
+   "value": "100000",
+   "why": [
+    "Sum of every year's deduction from the year each asset was placed in service through 2025",
+    "(Section 179, bonus, 168(n) and regular MACRS).",
+    "= $100,000"
+   ]
+  },
+  "ending_nbv": {
+   "label": "Ending NBV 12/31/25",
+   "value": "0",
+   "why": [
+    "Ending cost $100,000",
+    "- accumulated deductions $100,000",
+    "= adjusted basis $0"
+   ]
+  }
+ },
+ "tape": [
+  {
+   "title": "2025 deduction by asset",
+   "lines": [
+    {
+     "label": "Delivery truck",
+     "value": "100000",
+     "op": "+",
+     "kind": "money",
+     "emphasis": false,
+     "note": ""
+    },
+    {
+     "label": "2025 deduction, all assets",
+     "value": "100000",
+     "op": "T",
+     "kind": "money",
+     "emphasis": true,
+     "note": ""
+    }
+   ]
+  }
+ ],
+ "federal": {
+  "schedule": [
+   {
+    "year": 2025,
+    "section_179": "31300",
+    "bonus": "68700",
+    "special": "0",
+    "macrs": "0",
+    "total": "100000",
+    "cumulative": "100000",
+    "remaining": "0",
+    "why": [
+     "Delivery truck: $100,000"
+    ]
+   },
+   {
+    "year": 2026,
+    "section_179": "0",
+    "bonus": "0",
+    "special": "0",
+    "macrs": "0",
+    "total": "0",
+    "cumulative": "100000",
+    "remaining": "0",
+    "why": [
+     "No deduction in this year."
+    ]
+   },
+   {
+    "year": 2027,
+    "section_179": "0",
+    "bonus": "0",
+    "special": "0",
+    "macrs": "0",
+    "total": "0",
+    "cumulative": "100000",
+    "remaining": "0",
+    "why": [
+     "No deduction in this year."
+    ]
+   },
+   {
+    "year": 2028,
+    "section_179": "0",
+    "bonus": "0",
+    "special": "0",
+    "macrs": "0",
+    "total": "0",
+    "cumulative": "100000",
+    "remaining": "0",
+    "why": [
+     "No deduction in this year."
+    ]
+   },
+   {
+    "year": 2029,
+    "section_179": "0",
+    "bonus": "0",
+    "special": "0",
+    "macrs": "0",
+    "total": "0",
+    "cumulative": "100000",
+    "remaining": "0",
+    "why": [
+     "No deduction in this year."
+    ]
+   },
+   {
+    "year": 2030,
+    "section_179": "0",
+    "bonus": "0",
+    "special": "0",
+    "macrs": "0",
+    "total": "0",
+    "cumulative": "100000",
+    "remaining": "0",
+    "why": [
+     "No deduction in this year."
+    ]
+   }
+  ],
+  "tax_year_deduction": "100000",
+  "first_year": {
+   "section_179": "31300",
+   "bonus": "68700",
+   "special": "0",
+   "macrs": "0",
+   "carryover_used": "0",
+   "total": "100000"
+  },
+  "basis": "100000",
+  "total": "100000",
+  "carryforward": "0",
+  "check": {
+   "depreciable_basis": "100000",
+   "scheduled": "100000",
+   "section_179_carryforward": "0",
+   "ok": true,
+   "statement": "Schedule plus Section 179 carryforward equals depreciable basis."
+  },
+  "conventions": {
+   "2025": "HY"
+  },
+  "q4_share": {
+   "2025": "0.0"
+  }
+ },
+ "section_179": {
+  "2025": {
+   "year": 2025,
+   "line_1_limit": "2500000",
+   "line_2_total_cost": "100000",
+   "line_3_threshold": "4000000",
+   "line_4_reduction": "0",
+   "line_5_dollar_limit": "2500000",
+   "line_9_tentative": "31300",
+   "line_10_carryover": "0",
+   "line_11_income_limit": null,
+   "line_12_deduction": "31300",
+   "line_13_carryforward": "0",
+   "source": {
+    "key": "section_179.2025",
+    "label": "Section 179 limits for 2025",
+    "source_citation": "2025 Instructions for Form 4562, What's New (P.L. 119-21 sec. 70306; supersedes Rev. Proc. 2024-40 amounts of $1,250,000 / $3,130,000)",
+    "source_url": "https://www.irs.gov/pub/irs-pdf/i4562.pdf",
+    "last_verified": "2026-10-05",
+    "verified": true,
+    "verify_note": ""
+   }
+  }
+ },
+ "state": {
+  "code": "CA",
+  "name": "California",
+  "status": "computed",
+  "message": "California rules for 2025 applied.",
+  "provisional_available": false,
+  "rows": [
+   {
+    "year": 2025,
+    "federal": "100000",
+    "state": "40000",
+    "adjustment": "60000",
+    "cumulative_difference": "60000"
+   },
+   {
+    "year": 2026,
+    "federal": "0",
+    "state": "24000",
+    "adjustment": "-24000",
+    "cumulative_difference": "36000"
+   },
+   {
+    "year": 2027,
+    "federal": "0",
+    "state": "14400",
+    "adjustment": "-14400",
+    "cumulative_difference": "21600"
+   },
+   {
+    "year": 2028,
+    "federal": "0",
+    "state": "8640",
+    "adjustment": "-8640",
+    "cumulative_difference": "12960"
+   },
+   {
+    "year": 2029,
+    "federal": "0",
+    "state": "8640",
+    "adjustment": "-8640",
+    "cumulative_difference": "4320"
+   },
+   {
+    "year": 2030,
+    "federal": "0",
+    "state": "4320",
+    "adjustment": "-4320",
+    "cumulative_difference": "0"
+   }
+  ],
+  "tax_year_deduction": "40000",
+  "tax_year_adjustment": "60000",
+  "total": "100000",
+  "carryforward": "0",
+  "reverses": true,
+  "rule": {
+   "summary": "R&TC 17250(a)(11) (as repealed and re-added by SB 1435): 168(k) shall not apply. Depreciation as if no bonus; FTB 3885A add-back/subtraction.",
+   "bonus": {
+    "mode": "none"
+   },
+   "section_179": {
+    "mode": "own",
+    "limit": 25000,
+    "phaseout_threshold": 200000
+   },
+   "decouples_168n": true,
+   "conformity": {
+    "type": "fixed",
+    "date": "2025-01-01"
+   },
+   "status": "verified",
+   "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=17024.5",
+   "source_citation": "R&TC 17024.5(a)(1)(Q); 17250(a)(11); 17255(a)-(b),(g),(h); SB 1435",
+   "last_verified": "2026-10-05",
+   "verify_note": "Statute text and SB 1435 digest fetched 2026-10-05; 168(n) conclusion is derived from the conformity date.",
+   "change_note": "SB 1435 (Stats. 2026 ch. 236, eff. 14 Sep 2026) moves conformity from 1 Jan 2015 to 1 Jan 2025 for tax years beginning on or after 1 Jan 2025. P.L. 119-21 (4 Jul 2025) postdates that date, so OBBBA 168(n), the 100% bonus and the $2.5M 179 are not CA law. 17255 amended by SB 711, eff. 1 Oct 2025."
+  },
+  "changed_recently_years": [
+   2025
+  ],
+  "notes": [
+   "FTB 3885A. 179 limit $25,000, reduced dollar for dollar above $200,000 (zero at $225,000, derived). QIP 39-year. 168(n) decoupling is by date, not by a named exclusion (neither text names 168(n))."
+  ]
+ },
+ "comparison": [
+  {
+   "key": "macrs",
+   "label": "Standard MACRS (elect out of bonus, no Section 179)",
+   "federal_tax_year_deduction": "20000",
+   "federal_first_year": {
+    "section_179": "0",
+    "bonus": "0",
+    "special": "0",
+    "macrs": "20000",
+    "carryover_used": "0",
+    "total": "20000"
+   },
+   "federal_carryforward": "0",
+   "state_tax_year_deduction": "20000",
+   "federal_tax_effect": null,
+   "state_tax_effect": null,
+   "combined_tax_effect": null,
+   "schedule": [
+    {
+     "year": 2025,
+     "total": "20000"
+    },
+    {
+     "year": 2026,
+     "total": "32000"
+    },
+    {
+     "year": 2027,
+     "total": "19200"
+    },
+    {
+     "year": 2028,
+     "total": "11520"
+    },
+    {
+     "year": 2029,
+     "total": "11520"
+    },
+    {
+     "year": 2030,
+     "total": "5760"
+    }
+   ]
+  },
+  {
+   "key": "bonus",
+   "label": "Bonus depreciation, then MACRS",
+   "federal_tax_year_deduction": "100000",
+   "federal_first_year": {
+    "section_179": "0",
+    "bonus": "100000",
+    "special": "0",
+    "macrs": "0",
+    "carryover_used": "0",
+    "total": "100000"
+   },
+   "federal_carryforward": "0",
+   "state_tax_year_deduction": "20000",
+   "federal_tax_effect": null,
+   "state_tax_effect": null,
+   "combined_tax_effect": null,
+   "schedule": [
+    {
+     "year": 2025,
+     "total": "100000"
+    },
+    {
+     "year": 2026,
+     "total": "0"
+    },
+    {
+     "year": 2027,
+     "total": "0"
+    },
+    {
+     "year": 2028,
+     "total": "0"
+    },
+    {
+     "year": 2029,
+     "total": "0"
+    },
+    {
+     "year": 2030,
+     "total": "0"
+    }
+   ]
+  },
+  {
+   "key": "section_179",
+   "label": "Section 179, then MACRS (elect out of bonus)",
+   "federal_tax_year_deduction": "45040",
+   "federal_first_year": {
+    "section_179": "31300",
+    "bonus": "0",
+    "special": "0",
+    "macrs": "13740",
+    "carryover_used": "0",
+    "total": "45040"
+   },
+   "federal_carryforward": "0",
+   "state_tax_year_deduction": "40000",
+   "federal_tax_effect": null,
+   "state_tax_effect": null,
+   "combined_tax_effect": null,
+   "schedule": [
+    {
+     "year": 2025,
+     "total": "45040"
+    },
+    {
+     "year": 2026,
+     "total": "21984"
+    },
+    {
+     "year": 2027,
+     "total": "13190"
+    },
+    {
+     "year": 2028,
+     "total": "7914"
+    },
+    {
+     "year": 2029,
+     "total": "7914"
+    },
+    {
+     "year": 2030,
+     "total": "3958"
+    }
+   ]
+  },
+  {
+   "key": "section_179_bonus",
+   "label": "Section 179, then bonus, then MACRS",
+   "federal_tax_year_deduction": "100000",
+   "federal_first_year": {
+    "section_179": "31300",
+    "bonus": "68700",
+    "special": "0",
+    "macrs": "0",
+    "carryover_used": "0",
+    "total": "100000"
+   },
+   "federal_carryforward": "0",
+   "state_tax_year_deduction": "40000",
+   "federal_tax_effect": null,
+   "state_tax_effect": null,
+   "combined_tax_effect": null,
+   "schedule": [
+    {
+     "year": 2025,
+     "total": "100000"
+    },
+    {
+     "year": 2026,
+     "total": "0"
+    },
+    {
+     "year": 2027,
+     "total": "0"
+    },
+    {
+     "year": 2028,
+     "total": "0"
+    },
+    {
+     "year": 2029,
+     "total": "0"
+    },
+    {
+     "year": 2030,
+     "total": "0"
+    }
+   ]
+  }
+ ],
+ "form_4562": [
+  {
+   "line": "1",
+   "label": "Maximum Section 179 amount",
+   "amount": "2500000"
+  },
+  {
+   "line": "2",
+   "label": "Total cost of Section 179 property placed in service",
+   "amount": "100000"
+  },
+  {
+   "line": "3",
+   "label": "Threshold before reduction",
+   "amount": "4000000"
+  },
+  {
+   "line": "4",
+   "label": "Reduction in limitation",
+   "amount": "0"
+  },
+  {
+   "line": "5",
+   "label": "Dollar limitation for the year",
+   "amount": "2500000"
+  },
+  {
+   "line": "7",
+   "label": "Listed property elected cost (from line 29)",
+   "amount": "31300"
+  },
+  {
+   "line": "8",
+   "label": "Total elected cost",
+   "amount": "31300"
+  },
+  {
+   "line": "9",
+   "label": "Tentative deduction",
+   "amount": "31300"
+  },
+  {
+   "line": "10",
+   "label": "Carryover of disallowed deduction from prior year",
+   "amount": "0"
+  },
+  {
+   "line": "11",
+   "label": "Business income limitation",
+   "amount": ""
+  },
+  {
+   "line": "12",
+   "label": "Section 179 expense deduction",
+   "amount": "31300"
+  },
+  {
+   "line": "13",
+   "label": "Carryover to next year",
+   "amount": "0"
+  },
+  {
+   "line": "25",
+   "label": "Special allowance, listed property used over 50%",
+   "amount": "68700"
+  },
+  {
+   "line": "22",
+   "label": "Total depreciation and Section 179 (this calculation)",
+   "amount": "100000"
+  }
+ ],
+ "warnings": [
+  "No taxable business income entered, so the Section 179 business income limit was not applied. Section 179 cannot create or increase a business loss."
+ ],
+ "notes": [],
+ "assumptions": [
+  "Calendar-year taxpayer with a full 12-month tax year (the IRS percentage tables cannot be used for a short year).",
+  "General Depreciation System (GDS) unless listed property is used 50% or less for business, which requires ADS.",
+  "Property is new to you and qualifies for the special allowance when its class does; used property must meet the acquisition rules.",
+  "No dispositions, like-kind exchanges or changes in business use after the first year.",
+  "Amounts are in whole dollars. Each year's deduction is rounded at the end of that year's computation; the last year absorbs rounding so each schedule totals its basis exactly.",
+  "State figures are for the individual (personal) income tax as it applies to a sole proprietor, pass-through owner or rental owner, using the same business income for the state Section 179 limit."
+ ],
+ "sources": [
+  {
+   "key": "bonus.eligibility",
+   "label": "Special depreciation allowance eligibility",
+   "source_citation": "Instructions for Form 4562, Line 14 (qualified property); IRC 168(k)(2), 168(k)(7)",
+   "source_url": "https://www.irs.gov/pub/irs-pdf/i4562.pdf",
+   "last_verified": "2026-10-05",
+   "verified": true,
+   "verify_note": ""
+  },
+  {
+   "key": "bonus.obbba_permanent",
+   "label": "Qualified property acquired after Jan. 19, 2025",
+   "source_citation": "Notice 2026-11, sec. 2 (P.L. 119-21 sec. 70301); 2025 Instructions for Form 4562, What's New",
+   "source_url": "https://www.irs.gov/pub/irs-drop/n-26-11.pdf",
+   "last_verified": "2026-10-05",
+   "verified": true,
+   "verify_note": ""
+  },
+  {
+   "key": "class.heavy_vehicle",
+   "label": "Heavy SUV, truck or van (over 6,000 lb GVWR)",
+   "source_citation": "Instructions for Form 4562, Part I, 'Section 179 deduction for SUVs'; IRC 179(b)(5); IRS Pub. 946 ch. 5",
+   "source_url": "https://www.irs.gov/pub/irs-pdf/i4562.pdf",
+   "last_verified": "2026-10-05",
+   "verified": true,
+   "verify_note": ""
+  },
+  {
+   "key": "form_4562.2025",
+   "label": "Form 4562 (2025) line layout",
+   "source_citation": "Form 4562 (2025), Parts I-V (2026 form assumed identical until published)",
+   "source_url": "https://www.irs.gov/pub/irs-pdf/f4562.pdf",
+   "last_verified": "2026-10-05",
+   "verified": true,
+   "verify_note": ""
+  },
+  {
+   "key": "macrs.gds_hy",
+   "label": "IRS Pub. 946 (2025), Table A-1 (GDS, half-year convention)",
+   "source_citation": "IRS Pub. 946 (2025), Table A-1 (GDS, half-year convention)",
+   "source_url": "https://www.irs.gov/pub/irs-pdf/p946.pdf",
+   "last_verified": "2026-10-05",
+   "verified": true,
+   "verify_note": ""
+  },
+  {
+   "key": "mid_quarter_test",
+   "label": "Mid-quarter convention (40% test)",
+   "source_citation": "IRS Pub. 946 (2025), ch. 4, 'Which Convention Applies?', mid-quarter convention and Caution",
+   "source_url": "https://www.irs.gov/pub/irs-pdf/p946.pdf",
+   "last_verified": "2026-10-05",
+   "verified": true,
+   "verify_note": ""
+  },
+  {
+   "key": "section_179.2025",
+   "label": "Section 179 limits for 2025",
+   "source_citation": "2025 Instructions for Form 4562, What's New (P.L. 119-21 sec. 70306; supersedes Rev. Proc. 2024-40 amounts of $1,250,000 / $3,130,000)",
+   "source_url": "https://www.irs.gov/pub/irs-pdf/i4562.pdf",
+   "last_verified": "2026-10-05",
+   "verified": true,
+   "verify_note": ""
+  },
+  {
+   "key": "state.CA.2025",
+   "label": "CA Section 179 limit (2025)",
+   "source_citation": "R&TC 17024.5(a)(1)(Q); 17250(a)(11); 17255(a)-(b),(g),(h); SB 1435",
+   "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=17024.5",
+   "last_verified": "2026-10-05",
+   "verified": true,
+   "verify_note": "Statute text and SB 1435 digest fetched 2026-10-05; 168(n) conclusion is derived from the conformity date."
+  }
+ ],
+ "disclaimer": "General information, not tax advice. Figures are computed from published IRS and state rules for the inputs you entered; your return may differ. Confirm with a tax professional before filing."
+}
